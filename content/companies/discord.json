@@ -1,0 +1,28 @@
+{
+  "slug": "discord",
+  "status": "Published",
+  "name": "Discord",
+  "sector": "Consumer internet",
+  "summary": "Discord is a notable private company in consumer internet.",
+  "overview": "<p>Discord is included in The Private Ledger\u2019s company directory for ongoing research.</p>",
+  "image": "",
+  "image_alt": "",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "September 2021: $500M funding round",
+      "note": "Publicly reported financing context; verify before relying on it.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 18,
+  "bull_case": "Persistent communities can create a defensible communication layer for users and creators.",
+  "bear_case": "Monetization must mature without undermining the community experience.",
+  "latest_round": "September 2021: $500M funding round",
+  "directory_notes": [
+    "Paid features",
+    "advertising and community retention."
+  ]
+}

@@ -3,23 +3,23 @@
   "name": "Anduril",
   "status": "Published",
   "sector": "Defense",
-  "summary": "Defense hardware and software growing quickly—with manufacturing costs and execution risks to match.",
+  "summary": "Defense hardware and software growing quickly\u2014with manufacturing costs and execution risks to match.",
   "overview": "<p>Anduril combines autonomous defense hardware with its Lattice software platform. The report argues that building products before contracts are guaranteed can speed innovation, but also puts development risk on the company. Its growth is compelling; whether its valuation reflects achievable economics is the harder question.</p>",
   "image": "https://substack-post-media.s3.amazonaws.com/public/images/09cc3cb1-2589-4f78-b516-f9f9abc2d956_1600x840.jpeg",
-  "image_alt": "Anduril — The Private Ledger",
+  "image_alt": "Anduril \u2014 The Private Ledger",
   "as_of": "2026-05-20",
   "report": "the-breakdown-anduril",
   "facts": [
     {
       "label": "Valuation cited",
       "value": "$61 billion",
-      "note": "Valuation used in the report’s analysis",
+      "note": "Valuation used in the report\u2019s analysis",
       "source": "/articles/the-breakdown-anduril/#section-6"
     },
     {
       "label": "Revenue cited",
       "value": "$2.2 billion",
-      "note": "Reported revenue figure in the article’s introduction",
+      "note": "Reported revenue figure in the article\u2019s introduction",
       "source": "/articles/the-breakdown-anduril/#article-body"
     },
     {
@@ -34,5 +34,13 @@
       "note": "Timing discussed is speculative, not a confirmed listing date",
       "source": "/articles/the-breakdown-anduril/#section-7"
     }
+  ],
+  "directory_rank": 6,
+  "bull_case": "Software-led defense programs can benefit from multi-year procurement and urgent demand.",
+  "bear_case": "Hardware production, contracting cycles, and export controls add operational risk.",
+  "latest_round": "June 2025: $2.5B Series G",
+  "directory_notes": [
+    "Lattice adoption",
+    "manufacturing and program execution."
   ]
 }

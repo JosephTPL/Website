@@ -1,0 +1,28 @@
+{
+  "slug": "mistral-ai",
+  "status": "Published",
+  "name": "Mistral AI",
+  "sector": "AI",
+  "summary": "Mistral AI is a notable private company in ai.",
+  "overview": "<p>Mistral AI is included in The Private Ledger\u2019s company directory for ongoing research.</p>",
+  "image": "",
+  "image_alt": "",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "June 2024: \u20ac600M Series B",
+      "note": "Publicly reported financing context; verify before relying on it.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 20,
+  "bull_case": "Efficient models and European positioning could make Mistral a strategic enterprise option.",
+  "bear_case": "Global model leaders have large distribution and capital advantages.",
+  "latest_round": "June 2024: \u20ac600M Series B",
+  "directory_notes": [
+    "Enterprise adoption",
+    "model performance and distribution."
+  ]
+}

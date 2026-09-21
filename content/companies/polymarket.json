@@ -3,10 +3,10 @@
   "name": "Polymarket",
   "status": "Published",
   "sector": "Prediction markets",
-  "summary": "Prediction markets’ growing reach, thin take rates, and unresolved ethical and regulatory questions.",
+  "summary": "Prediction markets\u2019 growing reach, thin take rates, and unresolved ethical and regulatory questions.",
   "overview": "<p>Polymarket turns opinions about future events into tradable contracts. The report explores the appeal of those market signals while questioning whether rapid growth in trading activity can become a profitable business at a valuation that already assumes considerable success.</p>",
   "image": "https://substack-post-media.s3.amazonaws.com/public/images/63cacc74-1714-43e3-af5f-d81aba723fb4_1728x910.png",
-  "image_alt": "Polymarket — The Private Ledger",
+  "image_alt": "Polymarket \u2014 The Private Ledger",
   "as_of": "2026-05-26",
   "report": "the-breakdown-polymarket",
   "facts": [
@@ -24,7 +24,7 @@
     },
     {
       "label": "Fees discussed",
-      "value": "0.5–1.5%",
+      "value": "0.5\u20131.5%",
       "note": "Fees described as introduced in 2026; volume is not revenue",
       "source": "/articles/the-breakdown-polymarket/#section-5"
     },
@@ -34,5 +34,13 @@
       "note": "This report does not establish a listing timetable",
       "source": "/articles/the-breakdown-polymarket/#section-7"
     }
+  ],
+  "directory_rank": 8,
+  "bull_case": "A liquid information market could become a useful global forecasting layer.",
+  "bear_case": "Regulatory uncertainty and event-driven liquidity can limit the addressable market.",
+  "latest_round": "May 2024: $70M Series B",
+  "directory_notes": [
+    "Regulatory access",
+    "repeat use beyond headline events."
   ]
 }

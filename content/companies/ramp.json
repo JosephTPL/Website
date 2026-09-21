@@ -1,0 +1,28 @@
+{
+  "slug": "ramp",
+  "status": "Published",
+  "name": "Ramp",
+  "sector": "Fintech",
+  "summary": "Ramp is a notable private company in fintech.",
+  "overview": "<p>Ramp is included in The Private Ledger\u2019s company directory for ongoing research.</p>",
+  "image": "",
+  "image_alt": "",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "March 2025: $150M funding round",
+      "note": "Publicly reported financing context; verify before relying on it.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 15,
+  "bull_case": "Finance automation and spend controls can be embedded in daily operating workflows.",
+  "bear_case": "Competition and credit exposure may test unit economics in weaker environments.",
+  "latest_round": "March 2025: $150M funding round",
+  "directory_notes": [
+    "Enterprise expansion",
+    "software attach rate and retention."
+  ]
+}

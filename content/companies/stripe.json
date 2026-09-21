@@ -3,10 +3,10 @@
   "name": "Stripe",
   "status": "Published",
   "sector": "Fintech",
-  "summary": "The payments infrastructure behind online commerce—and the next bet on stablecoins.",
-  "overview": "<p>Stripe’s advantage is the breadth of its payments infrastructure and the ease with which developers can build it into a business. The report argues that billing, tax, fraud prevention, and other services make the relationship harder to replace, while online commerce and stablecoins offer further room to grow.</p>",
+  "summary": "The payments infrastructure behind online commerce\u2014and the next bet on stablecoins.",
+  "overview": "<p>Stripe\u2019s advantage is the breadth of its payments infrastructure and the ease with which developers can build it into a business. The report argues that billing, tax, fraud prevention, and other services make the relationship harder to replace, while online commerce and stablecoins offer further room to grow.</p>",
   "image": "https://substack-post-media.s3.amazonaws.com/public/images/5ee71eae-4115-4653-b233-3652ea8148a9_1734x907.png",
-  "image_alt": "Stripe — The Private Ledger",
+  "image_alt": "Stripe \u2014 The Private Ledger",
   "as_of": "2026-07-09",
   "report": "the-breakdown-stripe",
   "facts": [
@@ -25,14 +25,22 @@
     {
       "label": "2025 payment volume",
       "value": "$1.9 trillion",
-      "note": "Payment volume is not Stripe’s revenue",
+      "note": "Payment volume is not Stripe\u2019s revenue",
       "source": "/articles/the-breakdown-stripe/#article-body"
     },
     {
       "label": "IPO outlook",
       "value": "No near-term urgency",
-      "note": "Management’s position as described in the July report",
+      "note": "Management\u2019s position as described in the July report",
       "source": "/articles/the-breakdown-stripe/#section-21"
     }
+  ],
+  "directory_rank": 4,
+  "bull_case": "A broad payments platform can compound through volumes, software, and financial services.",
+  "bear_case": "Payments is competitive, cyclical, and sensitive to take-rate pressure.",
+  "latest_round": "February 2023: $6.5B Series I",
+  "directory_notes": [
+    "Payment volume growth",
+    "margins beyond core processing."
   ]
 }

@@ -3,10 +3,10 @@
   "name": "SpaceX",
   "status": "Published",
   "sector": "Space",
-  "summary": "Starlink, launch, and AI ambitions—and the expectations built into an enormous valuation.",
+  "summary": "Starlink, launch, and AI ambitions\u2014and the expectations built into an enormous valuation.",
   "overview": "<p>The available report examines SpaceX as a combination of launch services, Starlink, and AI ambitions. Starlink is central to the financial story, while other businesses require significant investment. The key question is how much future success is already reflected in the valuation discussed at publication.</p>",
   "image": "https://substack-post-media.s3.amazonaws.com/public/images/ddd9d796-6696-4669-8cee-0b66e201276b_1731x909.png",
-  "image_alt": "SpaceX — The Private Ledger",
+  "image_alt": "SpaceX \u2014 The Private Ledger",
   "as_of": "2026-05-12",
   "report": "the-breakdown-spacex",
   "facts": [
@@ -34,5 +34,13 @@
       "note": "This report is a historical snapshot; see the related follow-up essays",
       "source": "/articles/the-breakdown-spacex/#article-body"
     }
+  ],
+  "directory_rank": 2,
+  "bull_case": "Launch cadence and Starlink create a rare combination of infrastructure, recurring revenue, and scale.",
+  "bear_case": "Capital intensity, regulation, and execution across multiple ambitious programs can magnify setbacks.",
+  "latest_round": "December 2024: reported secondary sale at ~$350B valuation",
+  "directory_notes": [
+    "Starlink growth",
+    "launch reliability and regulatory access."
   ]
 }

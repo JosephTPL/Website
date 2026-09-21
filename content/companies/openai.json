@@ -3,10 +3,10 @@
   "name": "OpenAI",
   "status": "Published",
   "sector": "AI",
-  "summary": "ChatGPT’s reach, the economics of AI, and the challenge of turning adoption into durable profits.",
+  "summary": "ChatGPT\u2019s reach, the economics of AI, and the challenge of turning adoption into durable profits.",
   "overview": "<p>OpenAI has turned ChatGPT into a major distribution channel for artificial intelligence. The report separates the business it can monetize today from the much larger markets it hopes to reach through agents and future AI capabilities. That distinction matters when assessing how much growth a valuation already assumes.</p>",
   "image": "https://substack-post-media.s3.amazonaws.com/public/images/3c60cb13-8e56-4263-bec5-7d58e09fb307_1731x909.png",
-  "image_alt": "OpenAI — The Private Ledger",
+  "image_alt": "OpenAI \u2014 The Private Ledger",
   "as_of": "2026-08-11",
   "report": "the-breakdown-openai",
   "facts": [
@@ -34,5 +34,13 @@
       "note": "The article discusses a possible 2027 listing; this is an outlook, not a confirmed date",
       "source": "/articles/the-breakdown-openai/#section-12"
     }
+  ],
+  "directory_rank": 5,
+  "bull_case": "Consumer mindshare and developer adoption offer a path to a large platform business.",
+  "bear_case": "The cost of intelligence, competitive model progress, and governance questions remain material.",
+  "latest_round": "October 2024: $6.6B funding round",
+  "directory_notes": [
+    "Enterprise conversion",
+    "compute spending and product retention."
   ]
 }

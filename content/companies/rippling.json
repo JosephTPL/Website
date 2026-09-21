@@ -1,0 +1,28 @@
+{
+  "slug": "rippling",
+  "status": "Published",
+  "name": "Rippling",
+  "sector": "Enterprise software",
+  "summary": "Rippling is a notable private company in enterprise software.",
+  "overview": "<p>Rippling is included in The Private Ledger\u2019s company directory for ongoing research.</p>",
+  "image": "",
+  "image_alt": "",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "May 2025: $450M Series G",
+      "note": "Publicly reported financing context; verify before relying on it.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 16,
+  "bull_case": "A unified system for workforce, payroll, IT, and spend has broad cross-sell potential.",
+  "bear_case": "Category breadth raises execution risk and invites competition from specialists.",
+  "latest_round": "May 2025: $450M Series G",
+  "directory_notes": [
+    "International expansion",
+    "multi-product adoption."
+  ]
+}

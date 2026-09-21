@@ -1,0 +1,28 @@
+{
+  "slug": "databricks",
+  "status": "Published",
+  "name": "Databricks",
+  "sector": "AI / Data",
+  "summary": "Databricks is a notable private company in ai / data.",
+  "overview": "<p>Databricks is included in The Private Ledger\u2019s company directory for ongoing research.</p>",
+  "image": "",
+  "image_alt": "",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "December 2024: $10B Series J",
+      "note": "Publicly reported financing context; verify before relying on it.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 11,
+  "bull_case": "Data and AI workloads sit at the center of enterprise software budgets.",
+  "bear_case": "Cloud competition and AI infrastructure spending can pressure growth and margins.",
+  "latest_round": "December 2024: $10B Series J",
+  "directory_notes": [
+    "Lakehouse adoption",
+    "AI product monetization."
+  ]
+}

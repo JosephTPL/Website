@@ -3,10 +3,10 @@
   "name": "Anthropic",
   "status": "Published",
   "sector": "AI",
-  "summary": "Claude’s enterprise momentum, compute economics, and the race to build a lasting AI business.",
-  "overview": "<p>Anthropic’s business case in this report rests on valuable professional use, especially coding and enterprise work. Claude’s growth and major technology partnerships support that case, while the article examines how a safety-focused identity interacts with commercial pressure and competition.</p>",
+  "summary": "Claude\u2019s enterprise momentum, compute economics, and the race to build a lasting AI business.",
+  "overview": "<p>Anthropic\u2019s business case in this report rests on valuable professional use, especially coding and enterprise work. Claude\u2019s growth and major technology partnerships support that case, while the article examines how a safety-focused identity interacts with commercial pressure and competition.</p>",
   "image": "https://substackcdn.com/image/fetch/$s_!_lS3!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb33ff6ae-8a4c-4075-a1f5-edc16bdcd29e_1600x840.jpeg",
-  "image_alt": "Anthropic — The Private Ledger",
+  "image_alt": "Anthropic \u2014 The Private Ledger",
   "as_of": "2026-05-04",
   "report": "the-breakdown-anthropic",
   "facts": [
@@ -34,5 +34,13 @@
       "note": "No confirmed listing date established by this report",
       "source": "/articles/the-breakdown-anthropic/#section-7"
     }
+  ],
+  "directory_rank": 1,
+  "bull_case": "Enterprise adoption of Claude can create a durable software and services business.",
+  "bear_case": "Compute costs, intense competition, and safety constraints may keep margins and differentiation under pressure.",
+  "latest_round": "March 2025: $3.5B Series E",
+  "directory_notes": [
+    "Enterprise AI demand",
+    "model quality and unit economics are the key variables."
   ]
 }

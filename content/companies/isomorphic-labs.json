@@ -6,13 +6,13 @@
   "summary": "From protein prediction to drug discovery: the promise and the clinical proof still needed.",
   "overview": "<p>Isomorphic Labs aims to translate advances in AI and protein modelling into better drug discovery. Pharmaceutical partnerships provide capital and commercial validation, but the report draws a crucial distinction between predicting molecular behaviour and proving that a treatment is safe and effective in people.</p>",
   "image": "https://substack-post-media.s3.amazonaws.com/public/images/5ecaf90c-1e15-4d83-96ec-9baab27b441d_1600x840.jpeg",
-  "image_alt": "Isomorphic Labs — The Private Ledger",
+  "image_alt": "Isomorphic Labs \u2014 The Private Ledger",
   "as_of": "2026-06-04",
   "report": "the-breakdown-isomorphic-labs",
   "facts": [
     {
       "label": "Valuation estimates",
-      "value": "$10–20 billion",
+      "value": "$10\u201320 billion",
       "note": "Range of third-party estimates discussed; no single confirmed valuation",
       "source": "/articles/the-breakdown-isomorphic-labs/#section-8"
     },
@@ -34,5 +34,13 @@
       "note": "The report anticipates a potentially long private holding period",
       "source": "/articles/the-breakdown-isomorphic-labs/#section-9"
     }
+  ],
+  "directory_rank": 9,
+  "bull_case": "AI-native drug discovery could reshape the economics and speed of therapeutics.",
+  "bear_case": "Clinical validation takes years, and biological insight must translate into approved drugs.",
+  "latest_round": "No standalone funding round publicly disclosed",
+  "directory_notes": [
+    "Drug pipeline milestones",
+    "partnerships and clinical proof."
   ]
 }

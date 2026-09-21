@@ -6,7 +6,7 @@
   "summary": "Creator ownership, subscription economics, and the tension between growth and retention.",
   "overview": "<p>Substack combines publishing, subscriptions, and a discovery network to help writers build businesses around their work. The report sees room for it to become a larger media platform, but the same audience ownership that attracts creators also makes it possible for successful writers to leave.</p>",
   "image": "https://substack-post-media.s3.amazonaws.com/public/images/6882ca40-0312-4eaf-9945-007e7aa9e447_1600x840.jpeg",
-  "image_alt": "Substack — The Private Ledger",
+  "image_alt": "Substack \u2014 The Private Ledger",
   "as_of": "2026-06-19",
   "report": "the-breakdown-substack",
   "facts": [
@@ -34,5 +34,13 @@
       "note": "The report describes a focus on private funding and growth",
       "source": "/articles/the-breakdown-substack/#section-12"
     }
+  ],
+  "directory_rank": 10,
+  "bull_case": "Direct reader relationships and subscription economics can support independent media.",
+  "bear_case": "Creator churn and platform competition may restrain network effects and margins.",
+  "latest_round": "March 2021: $65M Series B",
+  "directory_notes": [
+    "Paid subscriber growth",
+    "creator retention and product differentiation."
   ]
 }

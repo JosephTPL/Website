@@ -1,0 +1,28 @@
+{
+  "slug": "canva",
+  "status": "Published",
+  "name": "Canva",
+  "sector": "Design software",
+  "summary": "Canva is a notable private company in design software.",
+  "overview": "<p>Canva is included in The Private Ledger\u2019s company directory for ongoing research.</p>",
+  "image": "",
+  "image_alt": "",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "October 2024: secondary sale; $32B valuation reported",
+      "note": "Publicly reported financing context; verify before relying on it.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 13,
+  "bull_case": "A simple collaborative product can keep expanding from individuals into teams and enterprises.",
+  "bear_case": "Creative software incumbents and AI-native tools could compress pricing power.",
+  "latest_round": "October 2024: secondary sale; $32B valuation reported",
+  "directory_notes": [
+    "Enterprise expansion",
+    "AI features and paid-seat growth."
+  ]
+}

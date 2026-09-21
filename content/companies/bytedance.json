@@ -6,7 +6,7 @@
   "summary": "A vast consumer platform business whose valuation cannot be separated from geopolitics.",
   "overview": "<p>ByteDance is much more than TikTok: the report examines a portfolio spanning Chinese consumer platforms, video, commerce, and AI. Its scale and growth are substantial, but understanding the business requires taking its political and regulatory environment as seriously as its financial performance.</p>",
   "image": "https://substack-post-media.s3.amazonaws.com/public/images/399aab86-d43f-483e-a949-3b236d19b9d4_1731x909.png",
-  "image_alt": "ByteDance — The Private Ledger",
+  "image_alt": "ByteDance \u2014 The Private Ledger",
   "as_of": "2026-06-11",
   "report": "the-breakdown-bytedance",
   "facts": [
@@ -34,5 +34,13 @@
       "note": "Earlier listing plans were put on hold",
       "source": "/articles/the-breakdown-bytedance/#section-15"
     }
+  ],
+  "directory_rank": 3,
+  "bull_case": "TikTok\u2019s global reach and recommendation engine give ByteDance enormous distribution.",
+  "bear_case": "Geopolitical restrictions and platform regulation create unusual concentration risk.",
+  "latest_round": "Ongoing secondary-market activity; no recent primary round disclosed",
+  "directory_notes": [
+    "TikTok policy exposure",
+    "monetization outside China."
   ]
 }

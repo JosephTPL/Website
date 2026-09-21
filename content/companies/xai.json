@@ -1,0 +1,28 @@
+{
+  "slug": "xai",
+  "status": "Published",
+  "name": "xAI",
+  "sector": "AI",
+  "summary": "xAI is a notable private company in ai.",
+  "overview": "<p>xAI is included in The Private Ledger\u2019s company directory for ongoing research.</p>",
+  "image": "",
+  "image_alt": "",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "December 2024: $6B Series C",
+      "note": "Publicly reported financing context; verify before relying on it.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 12,
+  "bull_case": "Distribution through X and a large capital base can accelerate model iteration.",
+  "bear_case": "Talent, compute costs, and model differentiation remain demanding challenges.",
+  "latest_round": "December 2024: $6B Series C",
+  "directory_notes": [
+    "Grok adoption",
+    "infrastructure scale and product trust."
+  ]
+}

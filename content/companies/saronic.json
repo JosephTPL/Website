@@ -4,9 +4,9 @@
   "status": "Published",
   "sector": "Defense",
   "summary": "Autonomous vessels, a costly shipbuilding expansion, and the challenge of scaling defense contracts.",
-  "overview": "<p>Saronic aims to bring a faster, technology-led approach to naval shipbuilding through autonomous vessels. The opportunity extends from defense into potential commercial uses, but the report’s central question is whether demand and production can grow fast enough to justify its valuation and ambitious investment in manufacturing.</p>",
+  "overview": "<p>Saronic aims to bring a faster, technology-led approach to naval shipbuilding through autonomous vessels. The opportunity extends from defense into potential commercial uses, but the report\u2019s central question is whether demand and production can grow fast enough to justify its valuation and ambitious investment in manufacturing.</p>",
   "image": "https://substack-post-media.s3.amazonaws.com/public/images/0b8fd657-61cf-43ec-a736-84e42827efb6_1731x909.jpeg",
-  "image_alt": "Saronic — The Private Ledger",
+  "image_alt": "Saronic \u2014 The Private Ledger",
   "as_of": "2026-07-23",
   "report": "the-breakdown-saronic",
   "facts": [
@@ -34,5 +34,13 @@
       "note": "Private funding reduces the immediate need to list",
       "source": "/articles/the-breakdown-saronic/#section-15"
     }
+  ],
+  "directory_rank": 7,
+  "bull_case": "Autonomous maritime systems address a large, urgent defense modernization need.",
+  "bear_case": "Scaling complex hardware and winning long procurement cycles are difficult.",
+  "latest_round": "February 2025: $600M Series C",
+  "directory_notes": [
+    "Shipyard build-out",
+    "program awards and production velocity."
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "slug": "plaid",
+  "status": "Published",
+  "name": "Plaid",
+  "sector": "Fintech infrastructure",
+  "summary": "Plaid is a notable private company in fintech infrastructure.",
+  "overview": "<p>Plaid is included in The Private Ledger\u2019s company directory for ongoing research.</p>",
+  "image": "",
+  "image_alt": "",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "April 2021: $575M Series D",
+      "note": "Publicly reported financing context; verify before relying on it.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 19,
+  "bull_case": "Connectivity infrastructure can become embedded in a wide range of financial products.",
+  "bear_case": "Bank access, regulation, and pricing pressure can reshape the economics.",
+  "latest_round": "April 2021: $575M Series D",
+  "directory_notes": [
+    "New use cases",
+    "bank partnerships and conversion."
+  ]
+}

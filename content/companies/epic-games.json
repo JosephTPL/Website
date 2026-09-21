@@ -1,0 +1,28 @@
+{
+  "slug": "epic-games",
+  "status": "Published",
+  "name": "Epic Games",
+  "sector": "Gaming",
+  "summary": "Epic Games is a notable private company in gaming.",
+  "overview": "<p>Epic Games is included in The Private Ledger\u2019s company directory for ongoing research.</p>",
+  "image": "",
+  "image_alt": "",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "February 2024: $1.5B strategic investment from Disney",
+      "note": "Publicly reported financing context; verify before relying on it.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 17,
+  "bull_case": "Fortnite and Unreal Engine combine a major consumer platform with strategic developer tools.",
+  "bear_case": "Hit-driven entertainment and high content costs can make growth uneven.",
+  "latest_round": "February 2024: $1.5B strategic investment from Disney",
+  "directory_notes": [
+    "Creator economy",
+    "Unreal licensing and Disney collaboration."
+  ]
+}
