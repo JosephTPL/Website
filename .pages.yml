@@ -351,6 +351,26 @@
           "type": "string"
         },
         {
+          "name": "mission_eyebrow",
+          "label": "Mission Eyebrow",
+          "type": "string"
+        },
+        {
+          "name": "mission_title",
+          "label": "Mission Title",
+          "type": "string"
+        },
+        {
+          "name": "mission_text",
+          "label": "Mission Text",
+          "type": "text"
+        },
+        {
+          "name": "mission_secondary",
+          "label": "Mission Panel Text",
+          "type": "text"
+        },
+        {
           "name": "library_title",
           "label": "Library Title",
           "type": "string"
