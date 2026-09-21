@@ -74,7 +74,8 @@ shutil.copytree(ROOT/'media',OUT/'media')
 for view in ['library','insights']:
  route='/' if view=='library' else '/insights/'
  s=shell('home',settings[f'{view}_title'],settings[f'{view}_subtitle'],route)
- s.body['data-library-title']=settings['library_title'];s.body['data-library-subtitle']=settings['library_subtitle'];s.body['data-insights-title']=settings['insights_title'];s.body['data-insights-subtitle']=settings['insights_subtitle']
+ s.body['data-page-view']=view;s.body['data-library-title']=settings['library_title'];s.body['data-library-subtitle']=settings['library_subtitle'];s.body['data-insights-title']=settings['insights_title'];s.body['data-insights-subtitle']=settings['insights_subtitle']
+ set_text(s,'#mission-eyebrow',settings.get('mission_eyebrow','PRIVATE MARKETS / INDEPENDENT RESEARCH'));set_text(s,'#mission-title',settings.get('mission_title','Know the business before the ticker.'));set_text(s,'#mission-text',settings.get('mission_text','The Private Ledger exists to make the private markets more legible — one company, one business model, and one hard question at a time.'));set_text(s,'#mission-secondary',settings.get('mission_secondary','See the incentives, economics, and risks beneath the headline before a company reaches the public market.'))
  set_text(s,'#view-title',settings[f'{view}_title']);set_text(s,'#view-subtitle',settings[f'{view}_subtitle']);set_text(s,'#about h2',settings['about_title']);set_text(s,'#about p:last-child',settings['about_text'])
  set_text(s,'.library-count strong',str(sum(a['sector']!='Insights' for a in ordered)))
  for a in s.select('[data-view]'):a['class']=['active'] if a['data-view']==view else []
