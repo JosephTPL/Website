@@ -269,6 +269,32 @@
           }
         },
         {
+          "name": "bear_case",
+          "label": "AI-assisted bear case",
+          "type": "text"
+        },
+        {
+          "name": "bull_case",
+          "label": "AI-assisted bull case",
+          "type": "text"
+        },
+        {
+          "name": "latest_round",
+          "label": "Latest disclosed financing",
+          "type": "text"
+        },
+        {
+          "name": "directory_rank",
+          "label": "Directory rank",
+          "type": "number"
+        },
+        {
+          "name": "directory_notes",
+          "label": "Directory notes",
+          "type": "text",
+          "list": true
+        },
+        {
           "name": "image",
           "label": "Image",
           "type": "image"
