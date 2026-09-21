@@ -1,0 +1,38 @@
+{
+  "slug": "saronic",
+  "name": "Saronic",
+  "status": "Published",
+  "sector": "Defense",
+  "summary": "Autonomous vessels, a costly shipbuilding expansion, and the challenge of scaling defense contracts.",
+  "overview": "<p>Saronic aims to bring a faster, technology-led approach to naval shipbuilding through autonomous vessels. The opportunity extends from defense into potential commercial uses, but the report’s central question is whether demand and production can grow fast enough to justify its valuation and ambitious investment in manufacturing.</p>",
+  "image": "https://substack-post-media.s3.amazonaws.com/public/images/0b8fd657-61cf-43ec-a736-84e42827efb6_1731x909.jpeg",
+  "image_alt": "Saronic — The Private Ledger",
+  "as_of": "2026-07-23",
+  "report": "the-breakdown-saronic",
+  "facts": [
+    {
+      "label": "Valuation cited",
+      "value": "$9.25 billion",
+      "note": "Latest funding round described in the report",
+      "source": "/articles/the-breakdown-saronic/#section-14"
+    },
+    {
+      "label": "Latest round",
+      "value": "$1.75 billion",
+      "note": "March 2026 round, as reported",
+      "source": "/articles/the-breakdown-saronic/#section-15"
+    },
+    {
+      "label": "2025 revenue",
+      "value": "$200 million",
+      "note": "Sacra estimate, not company-disclosed revenue",
+      "source": "/articles/the-breakdown-saronic/#section-14"
+    },
+    {
+      "label": "IPO outlook",
+      "value": "No public plans cited",
+      "note": "Private funding reduces the immediate need to list",
+      "source": "/articles/the-breakdown-saronic/#section-15"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "openai",
+  "name": "OpenAI",
+  "status": "Published",
+  "sector": "AI",
+  "summary": "ChatGPT’s reach, the economics of AI, and the challenge of turning adoption into durable profits.",
+  "overview": "<p>OpenAI has turned ChatGPT into a major distribution channel for artificial intelligence. The report separates the business it can monetize today from the much larger markets it hopes to reach through agents and future AI capabilities. That distinction matters when assessing how much growth a valuation already assumes.</p>",
+  "image": "https://substack-post-media.s3.amazonaws.com/public/images/3c60cb13-8e56-4263-bec5-7d58e09fb307_1731x909.png",
+  "image_alt": "OpenAI — The Private Ledger",
+  "as_of": "2026-08-11",
+  "report": "the-breakdown-openai",
+  "facts": [
+    {
+      "label": "Valuation cited",
+      "value": "$852 billion",
+      "note": "March 2026 funding round, as reported",
+      "source": "/articles/the-breakdown-openai/#section-10"
+    },
+    {
+      "label": "Funding cited",
+      "value": "$178 billion",
+      "note": "Sacra estimate of capital raised; announced commitments are separate",
+      "source": "/articles/the-breakdown-openai/#section-11"
+    },
+    {
+      "label": "Revenue context",
+      "value": "Rapid growth",
+      "note": "The report discusses changing valuation-to-revenue multiples; these are not audited annual results",
+      "source": "/articles/the-breakdown-openai/#section-10"
+    },
+    {
+      "label": "IPO outlook",
+      "value": "Timing uncertain",
+      "note": "The article discusses a possible 2027 listing; this is an outlook, not a confirmed date",
+      "source": "/articles/the-breakdown-openai/#section-12"
+    }
+  ]
+}

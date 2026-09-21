@@ -1,0 +1,38 @@
+{
+  "slug": "anthropic",
+  "name": "Anthropic",
+  "status": "Published",
+  "sector": "AI",
+  "summary": "Claude’s enterprise momentum, compute economics, and the race to build a lasting AI business.",
+  "overview": "<p>Anthropic’s business case in this report rests on valuable professional use, especially coding and enterprise work. Claude’s growth and major technology partnerships support that case, while the article examines how a safety-focused identity interacts with commercial pressure and competition.</p>",
+  "image": "https://substackcdn.com/image/fetch/$s_!_lS3!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb33ff6ae-8a4c-4075-a1f5-edc16bdcd29e_1600x840.jpeg",
+  "image_alt": "Anthropic — The Private Ledger",
+  "as_of": "2026-05-04",
+  "report": "the-breakdown-anthropic",
+  "facts": [
+    {
+      "label": "Valuation cited",
+      "value": "$380 billion",
+      "note": "February 2026 valuation; subsequent fundraising talks are discussed separately",
+      "source": "/articles/the-breakdown-anthropic/#section-7"
+    },
+    {
+      "label": "2026 ARR projection",
+      "value": "$30 billion",
+      "note": "Projection cited in the article, not audited full-year revenue",
+      "source": "/articles/the-breakdown-anthropic/#section-7"
+    },
+    {
+      "label": "Capital backing",
+      "value": "Multiple strategic partners",
+      "note": "The report distinguishes guaranteed investment from milestone-linked commitments",
+      "source": "/articles/the-breakdown-anthropic/#section-9"
+    },
+    {
+      "label": "IPO outlook",
+      "value": "Potential listing discussed",
+      "note": "No confirmed listing date established by this report",
+      "source": "/articles/the-breakdown-anthropic/#section-7"
+    }
+  ]
+}

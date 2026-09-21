@@ -1,0 +1,38 @@
+{
+  "slug": "stripe",
+  "name": "Stripe",
+  "status": "Published",
+  "sector": "Fintech",
+  "summary": "The payments infrastructure behind online commerce—and the next bet on stablecoins.",
+  "overview": "<p>Stripe’s advantage is the breadth of its payments infrastructure and the ease with which developers can build it into a business. The report argues that billing, tax, fraud prevention, and other services make the relationship harder to replace, while online commerce and stablecoins offer further room to grow.</p>",
+  "image": "https://substack-post-media.s3.amazonaws.com/public/images/5ee71eae-4115-4653-b233-3652ea8148a9_1734x907.png",
+  "image_alt": "Stripe — The Private Ledger",
+  "as_of": "2026-07-09",
+  "report": "the-breakdown-stripe",
+  "facts": [
+    {
+      "label": "Valuation cited",
+      "value": "$159 billion",
+      "note": "Private-market valuation discussed in the report",
+      "source": "/articles/the-breakdown-stripe/#section-20"
+    },
+    {
+      "label": "2025 revenue",
+      "value": "$6.9 billion",
+      "note": "Figure cited by the report from Sacra",
+      "source": "/articles/the-breakdown-stripe/#section-20"
+    },
+    {
+      "label": "2025 payment volume",
+      "value": "$1.9 trillion",
+      "note": "Payment volume is not Stripe’s revenue",
+      "source": "/articles/the-breakdown-stripe/#article-body"
+    },
+    {
+      "label": "IPO outlook",
+      "value": "No near-term urgency",
+      "note": "Management’s position as described in the July report",
+      "source": "/articles/the-breakdown-stripe/#section-21"
+    }
+  ]
+}

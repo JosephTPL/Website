@@ -1,0 +1,38 @@
+{
+  "slug": "anduril",
+  "name": "Anduril",
+  "status": "Published",
+  "sector": "Defense",
+  "summary": "Defense hardware and software growing quickly—with manufacturing costs and execution risks to match.",
+  "overview": "<p>Anduril combines autonomous defense hardware with its Lattice software platform. The report argues that building products before contracts are guaranteed can speed innovation, but also puts development risk on the company. Its growth is compelling; whether its valuation reflects achievable economics is the harder question.</p>",
+  "image": "https://substack-post-media.s3.amazonaws.com/public/images/09cc3cb1-2589-4f78-b516-f9f9abc2d956_1600x840.jpeg",
+  "image_alt": "Anduril — The Private Ledger",
+  "as_of": "2026-05-20",
+  "report": "the-breakdown-anduril",
+  "facts": [
+    {
+      "label": "Valuation cited",
+      "value": "$61 billion",
+      "note": "Valuation used in the report’s analysis",
+      "source": "/articles/the-breakdown-anduril/#section-6"
+    },
+    {
+      "label": "Revenue cited",
+      "value": "$2.2 billion",
+      "note": "Reported revenue figure in the article’s introduction",
+      "source": "/articles/the-breakdown-anduril/#article-body"
+    },
+    {
+      "label": "Funding model",
+      "value": "Venture-funded R&D",
+      "note": "The company bears development risk before orders are secured",
+      "source": "/articles/the-breakdown-anduril/#section-5"
+    },
+    {
+      "label": "IPO outlook",
+      "value": "On the roadmap",
+      "note": "Timing discussed is speculative, not a confirmed listing date",
+      "source": "/articles/the-breakdown-anduril/#section-7"
+    }
+  ]
+}

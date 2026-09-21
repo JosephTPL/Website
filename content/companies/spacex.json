@@ -1,0 +1,38 @@
+{
+  "slug": "spacex",
+  "name": "SpaceX",
+  "status": "Published",
+  "sector": "Space",
+  "summary": "Starlink, launch, and AI ambitions—and the expectations built into an enormous valuation.",
+  "overview": "<p>The available report examines SpaceX as a combination of launch services, Starlink, and AI ambitions. Starlink is central to the financial story, while other businesses require significant investment. The key question is how much future success is already reflected in the valuation discussed at publication.</p>",
+  "image": "https://substack-post-media.s3.amazonaws.com/public/images/ddd9d796-6696-4669-8cee-0b66e201276b_1731x909.png",
+  "image_alt": "SpaceX — The Private Ledger",
+  "as_of": "2026-05-12",
+  "report": "the-breakdown-spacex",
+  "facts": [
+    {
+      "label": "IPO valuation discussed",
+      "value": "$1.75 trillion",
+      "note": "Prospective valuation in this May report; not a current share price",
+      "source": "/articles/the-breakdown-spacex/#article-body"
+    },
+    {
+      "label": "2025 revenue cited",
+      "value": "$15.5+ billion",
+      "note": "SpaceX figure discussed in the report; AI business figures are discussed separately",
+      "source": "/articles/the-breakdown-spacex/#article-body"
+    },
+    {
+      "label": "Starlink revenue",
+      "value": "$11.4 billion",
+      "note": "2025 estimate cited in the report",
+      "source": "/articles/the-breakdown-spacex/#section-2"
+    },
+    {
+      "label": "Listing context",
+      "value": "Pre-IPO analysis",
+      "note": "This report is a historical snapshot; see the related follow-up essays",
+      "source": "/articles/the-breakdown-spacex/#article-body"
+    }
+  ]
+}

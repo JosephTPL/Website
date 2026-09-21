@@ -1,0 +1,38 @@
+{
+  "slug": "bytedance",
+  "name": "ByteDance",
+  "status": "Published",
+  "sector": "Consumer",
+  "summary": "A vast consumer platform business whose valuation cannot be separated from geopolitics.",
+  "overview": "<p>ByteDance is much more than TikTok: the report examines a portfolio spanning Chinese consumer platforms, video, commerce, and AI. Its scale and growth are substantial, but understanding the business requires taking its political and regulatory environment as seriously as its financial performance.</p>",
+  "image": "https://substack-post-media.s3.amazonaws.com/public/images/399aab86-d43f-483e-a949-3b236d19b9d4_1731x909.png",
+  "image_alt": "ByteDance — The Private Ledger",
+  "as_of": "2026-06-11",
+  "report": "the-breakdown-bytedance",
+  "facts": [
+    {
+      "label": "Valuation reference",
+      "value": "$480 billion",
+      "note": "Secondary-share transaction cited; not a public-market price",
+      "source": "/articles/the-breakdown-bytedance/#section-15"
+    },
+    {
+      "label": "2025 revenue",
+      "value": "$186 billion",
+      "note": "Reported figure in the article",
+      "source": "/articles/the-breakdown-bytedance/#section-14"
+    },
+    {
+      "label": "Funding context",
+      "value": "Secondary share sale",
+      "note": "The transaction cited is not presented as new capital raised by the company",
+      "source": "/articles/the-breakdown-bytedance/#section-15"
+    },
+    {
+      "label": "IPO outlook",
+      "value": "No imminent plans cited",
+      "note": "Earlier listing plans were put on hold",
+      "source": "/articles/the-breakdown-bytedance/#section-15"
+    }
+  ]
+}

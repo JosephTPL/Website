@@ -1,0 +1,38 @@
+{
+  "slug": "isomorphic-labs",
+  "name": "Isomorphic Labs",
+  "status": "Published",
+  "sector": "Healthcare",
+  "summary": "From protein prediction to drug discovery: the promise and the clinical proof still needed.",
+  "overview": "<p>Isomorphic Labs aims to translate advances in AI and protein modelling into better drug discovery. Pharmaceutical partnerships provide capital and commercial validation, but the report draws a crucial distinction between predicting molecular behaviour and proving that a treatment is safe and effective in people.</p>",
+  "image": "https://substack-post-media.s3.amazonaws.com/public/images/5ecaf90c-1e15-4d83-96ec-9baab27b441d_1600x840.jpeg",
+  "image_alt": "Isomorphic Labs — The Private Ledger",
+  "as_of": "2026-06-04",
+  "report": "the-breakdown-isomorphic-labs",
+  "facts": [
+    {
+      "label": "Valuation estimates",
+      "value": "$10–20 billion",
+      "note": "Range of third-party estimates discussed; no single confirmed valuation",
+      "source": "/articles/the-breakdown-isomorphic-labs/#section-8"
+    },
+    {
+      "label": "Round cited",
+      "value": "$2.1 billion",
+      "note": "May 2026 funding round described in the report",
+      "source": "/articles/the-breakdown-isomorphic-labs/#section-5"
+    },
+    {
+      "label": "Revenue model",
+      "value": "Upfronts + milestones",
+      "note": "Potential milestone totals are not earned revenue",
+      "source": "/articles/the-breakdown-isomorphic-labs/#section-2"
+    },
+    {
+      "label": "IPO outlook",
+      "value": "No immediate need cited",
+      "note": "The report anticipates a potentially long private holding period",
+      "source": "/articles/the-breakdown-isomorphic-labs/#section-9"
+    }
+  ]
+}
