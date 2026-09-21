@@ -41,7 +41,7 @@ To change homepage copy, choose Homepage and site text, edit the relevant title,
 6. Save a small homepage edit, watch the Netlify deployment succeed, and verify the updated text at the new URL. This is the end-to-end publishing check required before handoff.
 7. Add a custom domain through Netlify's domain settings if desired. Keep the existing site available until the replacement has been verified.
 
-No GitHub repository or Netlify project has yet been connected by this source package. These account steps and the live editing demonstration must be completed before claiming handoff is finished.
+The complete source is in the GitHub repository. Netlify and Pages CMS still need to be connected under your accounts, followed by one live edit-to-publish check.
 
 ## Files
 
