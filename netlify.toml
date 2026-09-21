@@ -1,0 +1,13 @@
+[build]
+  command = "pip install -r requirements.txt && python3 scripts/build.py"
+  publish = "_site"
+
+[build.environment]
+  PYTHON_VERSION = "3.12"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+

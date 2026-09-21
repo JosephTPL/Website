@@ -1,0 +1,11 @@
+work/
+outputs/
+.sites-runtime/
+
+_site/
+.venv/
+__pycache__/
+.env
+.env.*
+!.env.example
+.DS_Store

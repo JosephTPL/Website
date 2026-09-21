@@ -1,0 +1,455 @@
+{
+  "media": [
+    {
+      "name": "images",
+      "label": "Images",
+      "input": "media/images",
+      "output": "/media/images",
+      "extensions": [
+        "png",
+        "jpg",
+        "jpeg",
+        "webp",
+        "gif"
+      ]
+    }
+  ],
+  "content": [
+    {
+      "name": "articles",
+      "label": "Articles",
+      "type": "collection",
+      "path": "content/articles",
+      "format": "json",
+      "filename": {
+        "template": "{fields.slug}.json",
+        "field": "create"
+      },
+      "view": {
+        "primary": "title"
+      },
+      "fields": [
+        {
+          "name": "slug",
+          "label": "Slug",
+          "type": "string",
+          "required": true,
+          "description": "Permanent web address. Use lowercase letters, numbers and hyphens; keep existing addresses unchanged.",
+          "pattern": {
+            "regex": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "message": "Use lowercase letters, numbers and hyphens."
+          }
+        },
+        {
+          "name": "status",
+          "label": "Status",
+          "type": "select",
+          "default": "Draft",
+          "options": {
+            "values": [
+              "Draft",
+              "Published"
+            ]
+          }
+        },
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "card_title",
+          "label": "Card Title",
+          "type": "string"
+        },
+        {
+          "name": "date",
+          "label": "Date",
+          "type": "date",
+          "options": {
+            "format": "yyyy-MM-dd"
+          },
+          "required": true
+        },
+        {
+          "name": "sector",
+          "label": "Sector",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "company",
+          "label": "Company",
+          "type": "reference",
+          "options": {
+            "collection": "companies",
+            "value": "{fields.slug}",
+            "label": "{fields.name}",
+            "multiple": false
+          }
+        },
+        {
+          "name": "summary",
+          "label": "Summary",
+          "type": "text"
+        },
+        {
+          "name": "cover_image",
+          "label": "Cover Image",
+          "type": "image"
+        },
+        {
+          "name": "cover_alt",
+          "label": "Cover Alt",
+          "type": "string"
+        },
+        {
+          "name": "body",
+          "label": "Body",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false
+          }
+        },
+        {
+          "name": "original_url",
+          "label": "Original Url",
+          "type": "string"
+        },
+        {
+          "name": "excerpt",
+          "label": "Excerpt",
+          "type": "boolean"
+        },
+        {
+          "name": "brief",
+          "label": "Brief",
+          "type": "object",
+          "fields": [
+            {
+              "name": "thesis",
+              "label": "Thesis",
+              "type": "text"
+            },
+            {
+              "name": "takeaways",
+              "label": "Takeaways",
+              "type": "text",
+              "list": true
+            },
+            {
+              "name": "risk",
+              "label": "Risk",
+              "type": "text"
+            },
+            {
+              "name": "watch",
+              "label": "Watch",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "related",
+          "label": "Related",
+          "type": "reference",
+          "options": {
+            "collection": "articles",
+            "value": "{fields.slug}",
+            "label": "{fields.title}",
+            "multiple": true
+          }
+        },
+        {
+          "name": "references",
+          "label": "References",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "number",
+              "label": "Number",
+              "type": "number",
+              "required": true
+            },
+            {
+              "name": "text",
+              "label": "Text",
+              "type": "rich-text",
+              "options": {
+                "format": "html",
+                "switcher": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "section_anchors",
+          "label": "Section Anchors",
+          "type": "object",
+          "hidden": true,
+          "list": true,
+          "fields": [
+            {
+              "name": "title",
+              "label": "Title",
+              "type": "string"
+            },
+            {
+              "name": "id",
+              "label": "Id",
+              "type": "string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "companies",
+      "label": "Companies",
+      "type": "collection",
+      "path": "content/companies",
+      "format": "json",
+      "filename": {
+        "template": "{fields.slug}.json",
+        "field": "create"
+      },
+      "view": {
+        "primary": "name"
+      },
+      "fields": [
+        {
+          "name": "slug",
+          "label": "Slug",
+          "type": "string",
+          "required": true,
+          "description": "Permanent web address. Use lowercase letters, numbers and hyphens; keep existing addresses unchanged.",
+          "pattern": {
+            "regex": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "message": "Use lowercase letters, numbers and hyphens."
+          }
+        },
+        {
+          "name": "status",
+          "label": "Status",
+          "type": "select",
+          "default": "Draft",
+          "options": {
+            "values": [
+              "Draft",
+              "Published"
+            ]
+          }
+        },
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "sector",
+          "label": "Sector",
+          "type": "string"
+        },
+        {
+          "name": "summary",
+          "label": "Summary",
+          "type": "text"
+        },
+        {
+          "name": "overview",
+          "label": "Overview",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false
+          }
+        },
+        {
+          "name": "image",
+          "label": "Image",
+          "type": "image"
+        },
+        {
+          "name": "image_alt",
+          "label": "Image Alt",
+          "type": "string"
+        },
+        {
+          "name": "as_of",
+          "label": "As Of",
+          "type": "date",
+          "required": true,
+          "options": {
+            "format": "yyyy-MM-dd"
+          }
+        },
+        {
+          "name": "report",
+          "label": "Report",
+          "type": "reference",
+          "options": {
+            "collection": "articles",
+            "value": "{fields.slug}",
+            "label": "{fields.title}",
+            "multiple": false
+          }
+        },
+        {
+          "name": "facts",
+          "label": "Facts",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "label",
+              "label": "Label",
+              "type": "string"
+            },
+            {
+              "name": "value",
+              "label": "Value",
+              "type": "string"
+            },
+            {
+              "name": "note",
+              "label": "Note",
+              "type": "text"
+            },
+            {
+              "name": "source",
+              "label": "Source",
+              "type": "string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "homepage",
+      "label": "Homepage and site text",
+      "type": "file",
+      "path": "content/settings/site.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "site_name",
+          "label": "Site Name",
+          "type": "string"
+        },
+        {
+          "name": "tagline",
+          "label": "Tagline",
+          "type": "string"
+        },
+        {
+          "name": "site_url",
+          "label": "Site Url",
+          "type": "string"
+        },
+        {
+          "name": "library_title",
+          "label": "Library Title",
+          "type": "string"
+        },
+        {
+          "name": "library_subtitle",
+          "label": "Library Subtitle",
+          "type": "text"
+        },
+        {
+          "name": "insights_title",
+          "label": "Insights Title",
+          "type": "string"
+        },
+        {
+          "name": "insights_subtitle",
+          "label": "Insights Subtitle",
+          "type": "text"
+        },
+        {
+          "name": "featured_label",
+          "label": "Featured Label",
+          "type": "string"
+        },
+        {
+          "name": "featured_title",
+          "label": "Featured Title",
+          "type": "string"
+        },
+        {
+          "name": "featured_text",
+          "label": "Featured Text",
+          "type": "text"
+        },
+        {
+          "name": "featured_article",
+          "label": "Featured Article",
+          "type": "reference",
+          "options": {
+            "collection": "articles",
+            "value": "{fields.slug}",
+            "label": "{fields.title}",
+            "multiple": false
+          }
+        },
+        {
+          "name": "subscribe_title",
+          "label": "Subscribe Title",
+          "type": "string"
+        },
+        {
+          "name": "subscribe_text",
+          "label": "Subscribe Text",
+          "type": "text"
+        },
+        {
+          "name": "subscribe_url",
+          "label": "Subscribe Url",
+          "type": "string"
+        },
+        {
+          "name": "about_title",
+          "label": "About Title",
+          "type": "string"
+        },
+        {
+          "name": "about_text",
+          "label": "About Text",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "about",
+      "label": "About page",
+      "type": "file",
+      "path": "content/settings/about.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "string"
+        },
+        {
+          "name": "description",
+          "label": "Description",
+          "type": "text"
+        },
+        {
+          "name": "body",
+          "label": "Body",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false
+          }
+        }
+      ]
+    }
+  ]
+}
