@@ -136,7 +136,9 @@ for a in ordered:
 
 for company in companies.values():
  route='/companies/'+company['slug']+'/'
- s=shell('about',company['name'],company['summary'],route,company.get('image',''));main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();main.clear()
+ s=shell('about',company['name'],company['summary'],route,company.get('image',''));
+ for nav in s.select('[data-view]'):nav['class']=['active'] if nav['data-view']=='companies' else []
+ main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();main.clear()
  put(main,f'<a class="back" href="/">← Research library</a><article class="reading-paper company-profile"><p class="overline">{E(company["sector"])} / COMPANY PROFILE</p><h1>{E(company["name"])}</h1><p class="subtitle">{E(company["summary"])}</p></article>')
  paper=main.select_one('article')
  if company.get('image'):put(paper,f'<img class="profile-image" src="{E(company["image"])}" alt="{E(company.get("image_alt",company["name"]))}" loading="lazy">')
@@ -144,10 +146,24 @@ for company in companies.values():
  if company.get('report') in articles:put(paper,f'<a class="primary-button" href="{articles[company["report"]]["url"]}">Read the company breakdown →</a>')
  main.append(subscribe);main.append(footer);write(s,route)
 
+# A separate, editorial directory makes the company universe useful even when no long-form report exists yet.
+s=shell('home','Companies','A concise directory of notable private companies.','/companies/')
+s.body['data-page-view']='companies'
+for a in s.select('[data-view]'):a['class']=['active'] if a['data-view']=='companies' else []
+main=s.select_one('main');main.clear()
+put(main,'<section class="company-directory"><header class="directory-head"><p class="overline">THE PRIVATE LEDGER / COMPANY DIRECTORY</p><h1>Companies to know <em>before</em> they go public.</h1><p>A living editorial watchlist of 20 notable private businesses. Each card captures the business, the latest disclosed financing context, and the argument on both sides.</p><div class="directory-disclaimer"><strong>AI-assisted editorial notes.</strong> Bull and bear cases are research prompts, not investment advice. Funding information reflects the latest public disclosure recorded in each profile.</div></header><section class="directory-tools" aria-label="Search companies"><label class="search"><input id="company-search" type="search" placeholder="Search a company or sector…" aria-label="Search companies"></label><span id="company-result-count"></span></section><div class="company-directory-grid" id="company-directory-grid"></div></section>')
+grid=s.select_one('#company-directory-grid')
+for i,c in enumerate(sorted(companies.values(),key=lambda x:(x.get('directory_rank',999),x['name']))):
+ notes=''.join('<li>'+E(note)+'</li>' for note in c.get('directory_notes',[])[:2])
+ funding=E(c.get('latest_round') or next((f.get('value','') for f in c.get('facts',[]) if 'fund' in f.get('label','').lower()),'Not yet added'))
+ put(grid,f'''<article class="company-directory-card" data-search="{E(c['name']+' '+c.get('sector','')+' '+c.get('summary',''))}"><div class="company-card-kicker"><span>#{int(c.get('directory_rank',i+1)):02d}</span><span>{E(c.get('sector',''))}</span></div><h2><a href="/companies/{c['slug']}/">{E(c['name'])}</a></h2><p class="company-directory-summary">{E(c.get('summary',''))}</p><div class="funding-context"><span>Latest disclosed financing</span><strong>{funding}</strong></div><div class="thesis-columns"><div><span class="thesis-label bull">Bull case</span><p>{E(c.get('bull_case','Editorial note coming soon.'))}</p></div><div><span class="thesis-label bear">Bear case</span><p>{E(c.get('bear_case','Editorial note coming soon.'))}</p></div></div>{'<ul class="company-directory-notes">'+notes+'</ul>' if notes else ''}<a class="company-profile-link" href="/companies/{c['slug']}/">View company profile →</a></article>''')
+put(s.head,'<script defer src="/companies.js"></script>')
+write(s,'/companies/')
+
 about=read('content/settings/about.json');s=shell('about',about['title'],about['description'],'/about/');main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();main.clear();main.append(clean(about['body']));main.append(subscribe);main.append(footer);write(s,'/about/')
 # The editor is a separate authenticated service, not a public editing API.
 s=shell('about','Edit website','Open the secure content editor.','/admin/');s.select_one('main').clear();put(s.select_one('main'),'<section class="about-hero"><h1>Edit your publication.</h1><p>Sign in with your GitHub account to edit articles, company profiles, images, and homepage text.</p><a class="primary-button" href="https://app.pagescms.org">Open Pages CMS ↗</a></section>');put(s.head,'<meta name="robots" content="noindex">');write(s,'/admin/')
-routes=['/','/insights/','/about/']+[a['url'] for a in ordered]+['/companies/'+c['slug']+'/' for c in companies.values()]
+routes=['/','/insights/','/companies/','/about/']+[a['url'] for a in ordered]+['/companies/'+c['slug']+'/' for c in companies.values()]
 (OUT/'sitemap.xml').write_text('<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+E(base+r)+'</loc></url>' for r in routes)+'</urlset>')
 (OUT/'robots.txt').write_text('User-agent: *\nAllow: /\nDisallow: /admin/\nSitemap: '+base+'/sitemap.xml\n')
 print(f'Built {len(articles)} published articles, {len(companies)} company profiles, and editable site pages.')
