@@ -55,3 +55,6 @@ The complete source is in the GitHub repository. Netlify and Pages CMS still nee
 ## Credentials and recovery
 
 Do not commit passwords, access tokens, private keys or `.env` files. Editor and hosting authentication are managed by their services. GitHub history can restore an earlier content version; reverting that change triggers another hosting build. A failed build requires checking Netlify's deployment log before assuming an edit is live.
+
+
+<!-- Cloudflare rebuild trigger: header link update. -->
