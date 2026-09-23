@@ -458,6 +458,11 @@
           "type": "string"
         },
         {
+          "name": "discord_url",
+          "label": "Discord Invite Url",
+          "type": "string"
+        },
+        {
           "name": "about_title",
           "label": "About Title",
           "type": "string"
