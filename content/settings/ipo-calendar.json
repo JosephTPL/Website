@@ -1,0 +1,35 @@
+{
+  "title": "The $5B+ IPO calendar.",
+  "intro": "The major private companies closest to a public-market decision — separated by what is filed, reported, and still unconfirmed.",
+  "as_of": "September 23, 2026",
+  "disclaimer": "Valuations are the latest publicly reported private-market figures. Timing is not issuer guidance unless a filing has been disclosed; this is a watchlist, not an offering calendar.",
+  "periods": [
+    {
+      "label": "Active filing",
+      "title": "A transaction is in motion",
+      "description": "Companies with a reported public filing or a specific reported listing window.",
+      "items": [
+        {"company":"Anthropic","sector":"Frontier AI","valuation":"$965B reported","status":"Filed","note":"Anthropic announced a confidential U.S. IPO filing in June. The filing starts the process, but it does not establish a pricing date.","source":"https://www.axios.com/2026/06/01/anthropic-ipo-openai"},
+        {"company":"SpaceX","sector":"Space & communications","valuation":"~$1.75T reported target","status":"Reported window","note":"Reporting has framed SpaceX as a potential record-setting listing, but no public registration statement or confirmed date is available.","source":"https://www.kiplinger.com/retirement/retirement-planning/spacex-anthropic-openai-ipos-what-retirees-need-to-know-now"}
+      ]
+    },
+    {
+      "label": "2027 watch",
+      "title": "Large, but not dated",
+      "description": "Major candidates that have reported preparation or a credible public-market path without a confirmed offer date.",
+      "items": [
+        {"company":"OpenAI","sector":"Frontier AI","valuation":"$852B reported","status":"Watchlist","note":"OpenAI remains one of the market’s defining future listings, but reporting points to a later timetable rather than a 2026 debut.","source":"https://www.kiplinger.com/investing/stocks/upcoming-ipos"},
+        {"company":"Databricks","sector":"Data & AI infrastructure","valuation":"$190B reported","status":"Watchlist","note":"Databricks has a mature operating profile, but its CEO has said 2027 is the earliest potential IPO window and that no confidential S-1 has been filed.","source":"https://global.morningstar.com/en-eu/stocks/ahead-an-ipo-math-behind-databricks-usd-190-billion-valuation-doesnt-add-up"}
+      ]
+    },
+    {
+      "label": "No timetable",
+      "title": "Private-market giants to monitor",
+      "description": "Important $5B+ companies where a public debut remains possible but unannounced.",
+      "items": [
+        {"company":"Stripe","sector":"Payments infrastructure","valuation":"$159B reported","status":"No timetable","note":"Stripe’s latest reported valuation reinforced its scale, while the company continues to keep investors waiting for a public-market debut.","source":"https://www.bloomberg.com/news/articles/2026-02-24/stripe-hits-159-billion-valuation-as-payment-volume-soars"},
+        {"company":"Canva","sector":"Design software","valuation":"$42B reported","status":"No timetable","note":"Canva is a large software company frequently discussed as an IPO candidate, but it has not announced a listing timetable.","source":"https://www.kiplinger.com/investing/stocks/upcoming-ipos"}
+      ]
+    }
+  ]
+}
