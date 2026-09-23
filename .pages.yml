@@ -496,6 +496,44 @@
           }
         }
       ]
+    },
+    {
+      "name": "ipo_calendar",
+      "label": "IPO calendar",
+      "type": "file",
+      "path": "content/settings/ipo-calendar.json",
+      "format": "json",
+      "fields": [
+        {"name":"title","label":"Page title","type":"string"},
+        {"name":"intro","label":"Introduction","type":"text"},
+        {"name":"as_of","label":"As-of date","type":"string"},
+        {"name":"disclaimer","label":"Methodology note","type":"text"},
+        {
+          "name":"periods",
+          "label":"Calendar sections",
+          "type":"object",
+          "list":true,
+          "fields":[
+            {"name":"label","label":"Status label","type":"string"},
+            {"name":"title","label":"Section title","type":"string"},
+            {"name":"description","label":"Section description","type":"text"},
+            {
+              "name":"items",
+              "label":"Companies",
+              "type":"object",
+              "list":true,
+              "fields":[
+                {"name":"company","label":"Company","type":"string"},
+                {"name":"sector","label":"Sector","type":"string"},
+                {"name":"valuation","label":"Reported valuation","type":"string"},
+                {"name":"status","label":"IPO status","type":"string"},
+                {"name":"note","label":"Editorial note","type":"text"},
+                {"name":"source","label":"Source URL","type":"string"}
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
