@@ -1,0 +1,37 @@
+{
+  "title": "Five things that moved private markets.",
+  "period": "September 20, 2026",
+  "intro": "The five developments worth carrying into the week — reported facts first, and a view on why they matter.",
+  "items": [
+    {
+      "company": "OpenAI",
+      "tag": "MEGA-CAP AI",
+      "text": "OpenAI remains the reference point for private-market scale: its reported $965 billion valuation now sets the benchmark every frontier-model company is measured against. The key question is no longer whether demand exists, but whether revenue can outrun the capital intensity of building the models.",
+      "source": "https://www.kiplinger.com/investing/stocks/upcoming-ipos"
+    },
+    {
+      "company": "Databricks",
+      "tag": "MEGA-CAP DATA",
+      "text": "Databricks is being assessed at a $190 billion private-market price, one of the clearest signs that investors still assign scarcity value to scaled AI infrastructure. The valuation leaves little margin for a slowdown, so execution now matters more than narrative.",
+      "source": "https://pitchbook.com/news"
+    },
+    {
+      "company": "Profound",
+      "tag": "FUNDING",
+      "text": "Profound raised $180 million at a $1.8 billion valuation for software that helps brands show up in AI-generated answers. Its rise shows investors are already backing the commercial layer forming around AI search, not just the model builders beneath it.",
+      "source": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/"
+    },
+    {
+      "company": "Manus",
+      "tag": "AI AGENTS",
+      "text": "Manus is reportedly seeking $500 million at a $4 billion valuation after resuming independent operations following its abandoned Meta deal. It is a reminder that geopolitical risk can change a private company’s ownership story as quickly as product demand changes its valuation.",
+      "source": "https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops/"
+    },
+    {
+      "company": "Bain Capital Ventures",
+      "tag": "CAPITAL",
+      "text": "Bain Capital Ventures closed a $1.6 billion fund aimed at companies selling work rather than just software. Capital is still available, but the bar is moving toward businesses that can show a direct and durable economic payoff.",
+      "source": "https://pitchbook.com/news"
+    }
+  ]
+}
