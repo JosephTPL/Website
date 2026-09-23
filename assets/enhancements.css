@@ -72,3 +72,21 @@ main{margin-top:72px;margin-left:238px;padding:46px 54px 0;max-width:1780px}.pag
 
 /* Final typography override for page-specific styles defined above. */
 .ipo-head h1,.ipo-month h2,.ipo-tbd-section h2,.ipo-period h2,.ipo-card h2,.ipo-tbd h2,.directory-head h1,.company-directory-card h2,.company-directory-card h2 a{font-family:'Newsreader',Georgia,serif!important;font-weight:500}.ipo-card,.ipo-tbd,.company-directory-card{border-radius:0;box-shadow:none;background:var(--paper)}.ipo-status{border-radius:0}.weekly-grid{border-radius:0}.weekly-item h2{font-family:'Newsreader',Georgia,serif;font-weight:500}.ipo-card{border-top-color:#a87931}.ipo-month,.ipo-day{background:var(--paper)}.ipo-weekdays,.ipo-day.is-outside{background:#f0eee8}.ipo-note{background:#efede7;border-left-color:#a87931}.company-directory-card{border-color:#d5d0c6}.company-directory{padding-top:50px}
+
+/* Mobile keeps the editorial layout while restoring the full-width navigation. */
+@media(max-width:700px){
+  .topbar{gap:10px;padding:0 16px}
+  .brand{min-width:0;flex:1;gap:8px;font-size:12px}
+  .brand small{display:none}
+  .top-subscribe{flex:0 0 auto;margin-left:0}
+  .sidebar{width:100%;box-sizing:border-box;margin-top:66px;padding:8px 12px}
+  main,.reading-main{margin-left:0}
+  .sidebar nav{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .sidebar nav::-webkit-scrollbar{display:none}
+  .sidebar nav a{flex:0 0 auto}
+  .article-actions{flex-wrap:wrap}
+}
+@media(max-width:560px){
+  .ipo-month{overflow-x:auto}
+  .ipo-weekdays,.ipo-week{min-width:560px}
+}
