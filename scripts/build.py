@@ -2,7 +2,7 @@
 from pathlib import Path
 from datetime import date, datetime
 from urllib.parse import urlsplit, unquote
-import html, json, os, re, shutil, sys
+import calendar, html, json, os, re, shutil, sys
 from bs4 import BeautifulSoup
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'_site'
@@ -85,11 +85,25 @@ def weekly_markup():
  return f'''<section class="weekly-brief" aria-labelledby="weekly-title"><header class="weekly-head"><div><p class="overline">THE PRIVATE LEDGER / WEEKLY BRIEF</p><h1 id="weekly-title">{E(weekly['title'])}</h1><p class="subtitle">{E(weekly['intro'])}</p></div><p class="weekly-date">Last week<br/><strong>{E(weekly['period'])}</strong><span>Next update: {E(weekly['next_update'])}</span></p></header><div class="weekly-grid">{items}</div><div class="weekly-footer"><span>Updated every Sunday.</span><a class="text-link" href="/research/">Explore company research →</a></div></section>'''
 
 def ipo_markup():
- groups=[]
- for period in ipo_calendar['periods']:
-  cards=''.join(f'''<article class="ipo-card"><div class="ipo-card-top"><span class="ipo-status {E(item['status'].lower().replace(' ','-'))}">{E(item['status'])}</span><span class="ipo-valuation">{E(item['valuation'])}</span></div><h2>{E(item['company'])}</h2><p class="ipo-sector">{E(item['sector'])}</p><p>{E(item['note'])}</p><a href="{E(item['source'])}" rel="noopener">Source ↗</a></article>''' for item in period['items'])
-  groups.append(f'''<section class="ipo-period"><header><p class="overline">{E(period['label'])}</p><h2>{E(period['title'])}</h2><p>{E(period['description'])}</p></header><div class="ipo-grid">{cards}</div></section>''')
- return f'''<section class="ipo-calendar" aria-labelledby="ipo-title"><header class="ipo-head"><div><p class="overline">THE PRIVATE LEDGER / IPO CALENDAR</p><h1 id="ipo-title">{E(ipo_calendar['title'])}</h1><p class="subtitle">{E(ipo_calendar['intro'])}</p></div><p class="ipo-as-of">As of<br/><strong>{E(ipo_calendar['as_of'])}</strong></p></header><div class="ipo-note"><strong>How to read this.</strong> {E(ipo_calendar['disclaimer'])}</div>{''.join(groups)}</section>'''
+ """A true month view; undated candidates stay out of arbitrary day cells."""
+ month=ipo_calendar['calendar']['month'];year=int(ipo_calendar['calendar']['year']);month_number=int(ipo_calendar['calendar']['month_number'])
+ items=[item for period in ipo_calendar['periods'] for item in period['items']]
+ events={}
+ for item in items:
+  if item.get('date'):events.setdefault(str(item['date']),[]).append(item)
+ def event_markup(item):
+  return f'<a class="ipo-event" href="{E(item["source"])}"><strong>{E(item["company"])}</strong><span>{E(item["status"])}</span></a>'
+ weeks=[]
+ for week in calendar.monthcalendar(year,month_number):
+  cells=[]
+  for day in week:
+   if day:
+    entries=''.join(event_markup(item) for item in events.get(str(day),[]))
+    cells.append(f'<div class="ipo-day"><span>{day}</span>{entries}</div>')
+   else:cells.append('<div class="ipo-day is-outside" aria-hidden="true"></div>')
+  weeks.append('<div class="ipo-week">'+''.join(cells)+'</div>')
+ tbd=''.join(f'''<article class="ipo-tbd"><div><span class="ipo-status {E(item['status'].lower().replace(' ','-'))}">{E(item['status'])}</span><span class="ipo-valuation">{E(item['valuation'])}</span></div><h2>{E(item['company'])}</h2><p>{E(item['note'])}</p><a href="{E(item['source'])}" rel="noopener">Source ↗</a></article>''' for item in items)
+ return f'''<section class="ipo-calendar" aria-labelledby="ipo-title"><header class="ipo-head"><div><p class="overline">THE PRIVATE LEDGER / IPO CALENDAR</p><h1 id="ipo-title">{E(ipo_calendar['title'])}</h1><p class="subtitle">{E(ipo_calendar['intro'])}</p></div><p class="ipo-as-of">As of<br/><strong>{E(ipo_calendar['as_of'])}</strong></p></header><div class="ipo-note"><strong>How to read this.</strong> {E(ipo_calendar['disclaimer'])}</div><section class="ipo-month" aria-labelledby="ipo-month-title"><header><div><p class="overline">UPCOMING MONTH</p><h2 id="ipo-month-title">{E(month)}</h2></div><p>Only announced dates appear on the calendar.</p></header><div class="ipo-weekdays"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div><div class="ipo-month-grid">{''.join(weeks)}</div><p class="ipo-empty"><strong>No confirmed $5B+ IPO dates are on the public calendar for {E(month)}.</strong> That is useful information: candidates below remain undated until an issuer or underwriter sets a window.</p></section><section class="ipo-tbd-section" aria-labelledby="ipo-tbd-title"><header><p class="overline">DATE TO BE ANNOUNCED</p><h2 id="ipo-tbd-title">The $5B+ IPO watchlist.</h2><p>Private-market giants with a reported filing, window, or credible path to market — but no confirmed day to put on the calendar yet.</p></header><div class="ipo-tbd-grid">{tbd}</div></section></section>'''
 
 if OUT.exists():shutil.rmtree(OUT)
 OUT.mkdir()
