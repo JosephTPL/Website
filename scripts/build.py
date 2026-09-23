@@ -80,7 +80,7 @@ def configure_nav(s,active):
 
 def weekly_markup():
  items=''.join(f'''<article class="weekly-item"><div><span class="weekly-number">{i:02d}</span><span class="weekly-tag">{E(item['tag'])}</span></div><h2>{E(item['company'])}</h2><p>{E(item['text'])}</p><a href="{E(item['source'])}" rel="noopener">Source ↗</a></article>''' for i,item in enumerate(weekly['items'],1))
- return f'''<section class="weekly-brief" aria-labelledby="weekly-title"><header class="weekly-head"><div><p class="overline">THE PRIVATE LEDGER / WEEKLY BRIEF</p><h1 id="weekly-title">{E(weekly['title'])}</h1><p class="subtitle">{E(weekly['intro'])}</p></div><p class="weekly-date">Week ending<br/><strong>{E(weekly['period'])}</strong></p></header><div class="weekly-grid">{items}</div><div class="weekly-footer"><span>Updated every Sunday.</span><a class="text-link" href="/research/">Explore company research →</a></div></section>'''
+ return f'''<section class="weekly-brief" aria-labelledby="weekly-title"><header class="weekly-head"><div><p class="overline">THE PRIVATE LEDGER / WEEKLY BRIEF</p><h1 id="weekly-title">{E(weekly['title'])}</h1><p class="subtitle">{E(weekly['intro'])}</p></div><p class="weekly-date">Last week<br/><strong>{E(weekly['period'])}</strong><span>Next update: {E(weekly['next_update'])}</span></p></header><div class="weekly-grid">{items}</div><div class="weekly-footer"><span>Updated every Sunday.</span><a class="text-link" href="/research/">Explore company research →</a></div></section>'''
 
 if OUT.exists():shutil.rmtree(OUT)
 OUT.mkdir()
