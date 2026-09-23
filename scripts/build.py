@@ -53,6 +53,12 @@ def shell(kind,title,description,route,image=''):
  s.select_one('meta[name="description"]')['content']=description
  for name,value in [('og:title',s.title.string),('og:description',description),('og:url',base+route),('og:site_name',settings['site_name'])]:s.select_one(f'meta[property="{name}"]')['content']=value
  s.select_one('link[rel="canonical"]')['href']=base+route
+ if route=='/research/':
+  s.title.string='Research | '+settings['site_name']
+  description='Company deep dives and general articles on private markets.'
+  s.select_one('meta[name="description"]')['content']=description
+  s.select_one('meta[property="og:title"]')['content']=s.title.string
+  s.select_one('meta[property="og:description"]')['content']=description
  for x in s.select('script[type="application/ld+json"],meta[property="og:image"],meta[property="og:image:alt"]'):x.decompose()
  if image:put(s.head,f'<meta property="og:image" content="{E(base+image if image.startswith("/") else image)}">')
  for a in s.select('a[href^="https://preipomedia.substack.com/subscribe"]'):a['href']=settings['subscribe_url']
@@ -72,11 +78,10 @@ def configure_nav(s,active):
  """Keep the publication's three editorial destinations distinct in every page shell."""
  nav=s.select_one('nav[aria-label="Primary"]')
  home=nav.select_one('[data-view="library"]')
- home['data-view']='home';home['href']='/'
- for node in list(home.strings):
-  if node.strip()=='Research library':node.replace_with('This week')
- research=soup('<a data-view="library" href="/research/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 4h6v16H4z M14 4h6v16h-6z"></path></svg>Research library</a>').a
+ home['data-view']='home';home['href']='/';home.clear();put(home,'<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 4h6v16H4z M14 4h6v16h-6z"></path></svg> This week')
+ research=soup('<a data-view="library" href="/research/?type=deep-dives"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 4h6v16H4z M14 4h6v16h-6z"></path></svg>Research</a>').a
  home.insert_after(research)
+ for old_link in nav.select('a[data-view="insights"]'):old_link.decompose()
  ipo=soup('<a data-view="ipo" href="/ipo-calendar/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 10h18"></path></svg>IPO calendar</a>').a
  research.insert_after(ipo)
  for link in nav.select('a'):
@@ -123,27 +128,32 @@ for selector in ['.landing-hero','.page-heading','.start-here','.continue-readin
 main=s.select_one('main');main.insert(0,soup(weekly_markup()))
 write(s,'/')
 
-# Company research and general articles share the existing searchable archive design.
-for view in ['library','insights']:
- route='/research/' if view=='library' else '/insights/'
- s=shell('home',settings[f'{view}_title'],settings[f'{view}_subtitle'],route)
- s.body['data-page-view']=view;s.body['data-library-title']=settings['library_title'];s.body['data-library-subtitle']=settings['library_subtitle'];s.body['data-insights-title']=settings['insights_title'];s.body['data-insights-subtitle']=settings['insights_subtitle']
- configure_nav(s,view)
- set_text(s,'#mission-eyebrow',settings.get('mission_eyebrow','PRIVATE MARKETS / INDEPENDENT RESEARCH'));set_text(s,'#mission-title',settings.get('mission_title','Know the business before the ticker.'));set_text(s,'#mission-text',settings.get('mission_text','The Private Ledger exists to make the private markets more legible — one company, one business model, and one hard question at a time.'));set_text(s,'#mission-secondary',settings.get('mission_secondary','See the incentives, economics, and risks beneath the headline before a company reaches the public market.'))
- set_text(s,'#view-title',settings[f'{view}_title']);set_text(s,'#view-subtitle',settings[f'{view}_subtitle']);set_text(s,'#about h2',settings['about_title']);set_text(s,'#about p:last-child',settings['about_text'])
- set_text(s,'.library-count strong',str(sum(a['sector']!='Insights' for a in ordered)))
- feature=s.select_one('#start-here');featured=articles.get(settings.get('featured_article'))
- if featured:
-  set_text(feature,'.eyebrow',settings['featured_label']);set_text(feature,'h2',settings['featured_title']);set_text(feature,'p:not(.eyebrow)',settings['featured_text']);set_text(feature,'.feature-mark strong',featured.get('card_title') or featured['title'])
-  feature.select_one('.primary-button')['href']=featured['url']+'#brief' if featured.get('brief',{}).get('thesis') else featured['url'];feature.select_one('.text-link')['href']=featured['url']
- else:feature['hidden']='';feature['data-unavailable']='true'
- if view=='insights':feature['hidden']='';s.select_one('.chips')['hidden']=''
- grid=s.select_one('#research-grid');grid.clear()
- for i,a in enumerate(ordered):
-  visible=(a['sector']=='Insights')==(view=='insights');name=a.get('card_title') or a['title'];img=f'<img src="{E(a["cover_image"])}" alt="{E(a.get("cover_alt",name))}" loading="lazy" decoding="async">' if a.get('cover_image') else ''
-  markup=f'''<article class="card" data-slug="{a['slug']}" data-sector="{E(a['sector'])}" data-order="{i}" data-name="{E(name)}" data-search="{E(name+' '+a['summary']+' '+a['sector'])}" {'' if visible else 'hidden'}><a class="card-cover cover-refined" href="{a['url']}" aria-label="Read {E(name)}">{img}<span class="cover-caption">{E(settings['site_name'].upper())}</span></a><div class="card-content"><span class="sector-inline">{E(a['sector'] if a['sector']!='Insights' else 'General articles')}</span><h3><a href="{a['url']}">{E(name)}</a></h3><p class="description">{E(a['summary'])}</p><div class="card-meta"><span>{date_text(a['date'])}</span><span>{a['minutes']} min</span></div><a class="read-button" href="{a['url']}">Read {'article' if a['sector']=='Insights' else 'research'} →</a><button class="card-save" type="button" data-save="{a['slug']}" aria-pressed="false">Save for later</button></div></article>'''
-  put(grid,markup)
- write(s,route)
+# Company research and general articles live together in one searchable archive.
+s=shell('home',settings['library_title'],settings['library_subtitle'],'/research/')
+s.body['data-page-view']='library';s.body['data-library-title']=settings['library_title'];s.body['data-library-subtitle']=settings['library_subtitle'];s.body['data-insights-title']=settings['insights_title'];s.body['data-insights-subtitle']=settings['insights_subtitle']
+s.body['class']=['research-archive']
+configure_nav(s,'library')
+for link in s.select('nav[aria-label="Primary"] a[data-view="library"]'):link['href']='/research/'
+set_text(s,'#mission-eyebrow',settings.get('mission_eyebrow','PRIVATE MARKETS / INDEPENDENT RESEARCH'));set_text(s,'#mission-title',settings.get('mission_title','Know the business before the ticker.'));set_text(s,'#mission-text',settings.get('mission_text','The Private Ledger exists to make the private markets more legible — one company, one business model, and one hard question at a time.'));set_text(s,'#mission-secondary',settings.get('mission_secondary','See the incentives, economics, and risks beneath the headline before a company reaches the public market.'))
+set_text(s,'#view-title','Research');set_text(s,'#view-subtitle','Company deep dives and perspectives on private markets, together in one archive.');set_text(s,'#about h2',settings['about_title']);set_text(s,'#about p:last-child',settings['about_text'])
+count=s.select_one('.library-count')
+if count:count.decompose()
+for selector in ['.landing-hero','#start-here','#continue-reading']:
+ el=s.select_one(selector)
+ if el:el.decompose()
+tabs=soup('<div class="archive-tabs" role="group" aria-label="Research type"><button class="archive-tab active" type="button" data-type="deep-dives" aria-pressed="true">Deep dives</button><button class="archive-tab" type="button" data-type="articles" aria-pressed="false">Articles</button></div>')
+s.select_one('.page-heading').insert_after(tabs)
+grid=s.select_one('#research-grid');grid.clear()
+for i,a in enumerate(ordered):
+ name=a.get('card_title') or a['title'];img=f'<img src="{E(a["cover_image"])}" alt="{E(a.get("cover_alt",name))}" loading="lazy" decoding="async">' if a.get('cover_image') else ''
+ kind='General articles' if a['sector']=='Insights' else 'Deep dive'
+ markup=f'''<article class="card" data-slug="{a['slug']}" data-sector="{E(a['sector'])}" data-kind="{E(kind)}" data-order="{i}" data-name="{E(name)}" data-search="{E(name+' '+a['summary']+' '+a['sector'])}"><a class="card-cover cover-refined" href="{a['url']}" aria-label="Read {E(name)}">{img}<span class="cover-caption">{E(settings['site_name'].upper())}</span></a><div class="card-content"><span class="sector-inline">{E(kind if kind=='General articles' else a['sector'])}</span><h3><a href="{a['url']}">{E(name)}</a></h3><p class="description">{E(a['summary'])}</p><div class="card-meta"><span>{date_text(a['date'])}</span><span>{a['minutes']} min</span></div><a class="read-button" href="{a['url']}">Read {'article' if kind=='General articles' else 'research'} →</a><button class="card-save" type="button" data-save="{a['slug']}" aria-pressed="false">Save for later</button></div></article>'''
+ put(grid,markup)
+write(s,'/research/')
+
+# Keep the former archive URL working while directing readers to the unified Research page.
+legacy=soup('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>General articles | The Private Ledger</title><meta http-equiv="refresh" content="0; url=/research/?type=articles"><link rel="canonical" href="/research/?type=articles"></head><body><p>General articles are now part of <a href="/research/?type=articles">Research</a>.</p></body></html>')
+write(legacy,'/insights/')
 
 for a in ordered:
  s=shell('article',a['title'],a['summary'],a['url'],a.get('cover_image',''));s.body['data-article']=a['slug'];s.body['data-title']=a.get('card_title') or a['title'];s.body['data-sector']=a['sector']
