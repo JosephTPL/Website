@@ -8,6 +8,18 @@
     "month_number": 10
   },
   "disclaimer": "Valuations are the latest publicly reported private-market figures. Timing is not issuer guidance unless a filing has been disclosed; this is a watchlist, not an offering calendar.",
+  "earnings": [
+    {"date":13,"company":"JPMorgan Chase","ticker":"JPM","timing":"Before open","confidence":"Confirmed","source":"https://www.jpmorganchase.com/ir/news/2026/jpmc-to-host-third-quarter-2026-earnings-call","impact":"JPMorgan's lending, deal pipeline, and capital-markets commentary is a read-through on private-company financing conditions. Watch for signals affecting Stripe, Brex, and Ramp."},
+    {"date":15,"company":"TSMC","ticker":"TSM","timing":"2:00 a.m. ET","confidence":"Confirmed","source":"https://investor.tsmc.com/english/quarterly-results/2026/q3","impact":"TSMC's capacity and advanced-node outlook shapes the supply of the chips behind AI hardware. It matters for Groq, xAI, and Figure AI."},
+    {"date":22,"company":"Blackstone","ticker":"BX","timing":"Time TBA","confidence":"Estimated","source":"https://www.earningstoday.com/earnings-calendar/monthly/2026-10","impact":"Blackstone's deployment and fundraising commentary helps frame demand for private credit and secondary liquidity. It is relevant to Stripe, Canva, and Databricks."},
+    {"date":27,"company":"Visa","ticker":"V","timing":"After close","confidence":"Estimated","source":"https://spzco.com/calendar/earnings/2026-W44","impact":"Visa's payment-volume and cross-border trends are a useful demand signal for fintech infrastructure. Watch the read-through for Stripe, Plaid, and Ramp."},
+    {"date":28,"company":"Alphabet","ticker":"GOOGL","timing":"After close","confidence":"Estimated","source":"https://www.theta.md/earnings","impact":"Google Cloud growth and AI spending reset the competitive backdrop for model and data companies. It affects Isomorphic Labs, Waymo, and Anthropic."},
+    {"date":28,"company":"Meta","ticker":"META","timing":"After close","confidence":"Estimated","source":"https://www.theta.md/earnings","impact":"Meta's AI capex and open-model strategy shape the economics of training and distribution. It matters for Mistral AI, Hugging Face, and xAI."},
+    {"date":28,"company":"Microsoft","ticker":"MSFT","timing":"After close","confidence":"Estimated","source":"https://www.theta.md/earnings","impact":"Azure demand and AI infrastructure spending remain central to the financing environment for frontier models. It affects OpenAI, Cohere, and Mistral AI."},
+    {"date":29,"company":"Apple","ticker":"AAPL","timing":"After close","confidence":"Estimated","source":"https://www.theta.md/earnings","impact":"Apple's services and platform-policy commentary matters for companies dependent on mobile distribution. It affects Discord, Perplexity, and Polymarket."},
+    {"date":29,"company":"Amazon","ticker":"AMZN","timing":"After close","confidence":"Estimated","source":"https://www.theta.md/earnings","impact":"AWS growth and Amazon's AI capex are direct signals for cloud demand and startup infrastructure costs. It affects Anthropic, Scale AI, and Stripe."},
+    {"date":29,"company":"Mastercard","ticker":"MA","timing":"Before open","confidence":"Estimated","source":"https://spzco.com/calendar/earnings/2026-W44","impact":"Mastercard's transaction and cross-border data provides a consumer-spending read-through for private fintech. It affects Stripe, Plaid, and Ramp."}
+  ],
   "periods": [
     {
       "label": "Active filing",

@@ -106,3 +106,6 @@ main{margin-top:72px;margin-left:238px;padding:46px 54px 0;max-width:1780px}.pag
   .sidebar nav{display:grid;overflow:visible;gap:2px}
   .sidebar nav a{padding:12px 10px;white-space:normal}
 }
+
+/* Public-company earnings are catalysts, not IPO events. */
+.earnings-event{background:#edf0f4;border-left-color:#526c84;color:#233d52;position:relative}.earnings-event>span:not(.earnings-tooltip){font-size:.59rem}.earnings-tooltip{display:none;position:absolute;z-index:30;left:0;top:calc(100% + 7px);width:260px;padding:12px;background:#17222d;color:#edf2f5;font-size:.72rem!important;line-height:1.5;text-transform:none!important;letter-spacing:0!important;box-shadow:0 8px 20px #102a3c33}.earnings-tooltip b{display:block;margin-bottom:5px;color:#e6ba67;font-size:.66rem;letter-spacing:.08em;text-transform:uppercase}.earnings-event:hover .earnings-tooltip,.earnings-event:focus .earnings-tooltip{display:block}

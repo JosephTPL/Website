@@ -105,19 +105,24 @@ def ipo_markup():
  events={}
  for item in items:
   if item.get('date'):events.setdefault(str(item['date']),[]).append(item)
+ earnings={}
+ for item in ipo_calendar.get('earnings',[]):earnings.setdefault(str(item['date']),[]).append(item)
  def event_markup(item):
   return f'<a class="ipo-event" href="{E(item["source"])}"><strong>{E(item["company"])}</strong><span>{E(item["status"])}</span></a>'
+ def earnings_markup(item):
+  label=f'{item["company"]} ({item["ticker"]}) earnings, {item["timing"]}. {item["impact"]}'
+  return f'<a class="ipo-event earnings-event" href="{E(item["source"])}" aria-label="{E(label)}"><strong>{E(item["ticker"])}</strong><span>{E(item["company"])} · {E(item["timing"])}</span><span class="earnings-tooltip" role="tooltip"><b>{E(item["company"])} · {E(item["confidence"])}</b>{E(item["impact"])}</span></a>'
  weeks=[]
  for week in calendar.monthcalendar(year,month_number):
   cells=[]
   for day in week:
    if day:
-    entries=''.join(event_markup(item) for item in events.get(str(day),[]))
+    entries=''.join(event_markup(item) for item in events.get(str(day),[]))+''.join(earnings_markup(item) for item in earnings.get(str(day),[]))
     cells.append(f'<div class="ipo-day"><span>{day}</span>{entries}</div>')
    else:cells.append('<div class="ipo-day is-outside" aria-hidden="true"></div>')
   weeks.append('<div class="ipo-week">'+''.join(cells)+'</div>')
  tbd=''.join(f'''<article class="ipo-tbd"><div><span class="ipo-status {E(item['status'].lower().replace(' ','-'))}">{E(item['status'])}</span><span class="ipo-valuation">{E(item['valuation'])}</span></div><h2>{E(item['company'])}</h2><p>{E(item['note'])}</p><a href="{E(item['source'])}" rel="noopener">Source ↗</a></article>''' for item in items)
- return f'''<section class="ipo-calendar" aria-labelledby="ipo-title"><header class="ipo-head"><div><p class="overline">THE PRIVATE LEDGER / IPO CALENDAR</p><h1 id="ipo-title">{E(ipo_calendar['title'])}</h1><p class="subtitle">{E(ipo_calendar['intro'])}</p></div><p class="ipo-as-of">As of<br/><strong>{E(ipo_calendar['as_of'])}</strong></p></header><div class="ipo-note"><strong>How to read this.</strong> {E(ipo_calendar['disclaimer'])}</div><section class="ipo-month" aria-labelledby="ipo-month-title"><header><div><p class="overline">UPCOMING MONTH</p><h2 id="ipo-month-title">{E(month)}</h2></div><p>Only announced dates appear on the calendar.</p></header><div class="ipo-weekdays"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div><div class="ipo-month-grid">{''.join(weeks)}</div><p class="ipo-empty"><strong>No confirmed $5B+ IPO dates are on the public calendar for {E(month)}.</strong> That is useful information: candidates below remain undated until an issuer or underwriter sets a window.</p></section><section class="ipo-tbd-section" aria-labelledby="ipo-tbd-title"><header><p class="overline">DATE TO BE ANNOUNCED</p><h2 id="ipo-tbd-title">The $5B+ IPO watchlist.</h2><p>Private-market giants with a reported filing, window, or credible path to market, but no confirmed day to put on the calendar yet.</p></header><div class="ipo-tbd-grid">{tbd}</div></section></section>'''
+ return f'''<section class="ipo-calendar" aria-labelledby="ipo-title"><header class="ipo-head"><div><p class="overline">THE PRIVATE LEDGER / IPO CALENDAR</p><h1 id="ipo-title">{E(ipo_calendar['title'])}</h1><p class="subtitle">{E(ipo_calendar['intro'])}</p></div><p class="ipo-as-of">As of<br/><strong>{E(ipo_calendar['as_of'])}</strong></p></header><div class="ipo-note"><strong>How to read this.</strong> {E(ipo_calendar['disclaimer'])}</div><section class="ipo-month" aria-labelledby="ipo-month-title"><header><div><p class="overline">UPCOMING MONTH</p><h2 id="ipo-month-title">{E(month)}</h2></div><p><strong>Public earnings watch.</strong> Hover a marker for The Ledger's private-market read-through.</p></header><div class="ipo-weekdays"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div><div class="ipo-month-grid">{''.join(weeks)}</div><p class="ipo-empty"><strong>No confirmed $5B+ IPO dates are on the public calendar for {E(month)}.</strong> Public-company earnings markers use confirmed dates where disclosed and labelled estimates otherwise.</p></section><section class="ipo-tbd-section" aria-labelledby="ipo-tbd-title"><header><p class="overline">DATE TO BE ANNOUNCED</p><h2 id="ipo-tbd-title">The $5B+ IPO watchlist.</h2><p>Private-market giants with a reported filing, window, or credible path to market, but no confirmed day to put on the calendar yet.</p></header><div class="ipo-tbd-grid">{tbd}</div></section></section>'''
 
 if OUT.exists():shutil.rmtree(OUT)
 OUT.mkdir()
