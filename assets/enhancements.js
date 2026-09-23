@@ -1,4 +1,35 @@
 (() => {
+  const sidebar = document.querySelector('.sidebar');
+  const topbar = document.querySelector('.topbar');
+  if (sidebar && topbar) {
+    sidebar.id = 'site-navigation';
+    const menuButton = document.createElement('button');
+    menuButton.className = 'menu-toggle';
+    menuButton.type = 'button';
+    menuButton.setAttribute('aria-controls', sidebar.id);
+    menuButton.setAttribute('aria-expanded', 'false');
+    menuButton.setAttribute('aria-label', 'Open navigation menu');
+    menuButton.innerHTML = '<span></span><span></span><span></span>';
+    const closeMenu = () => {
+      document.body.classList.remove('menu-open');
+      menuButton.setAttribute('aria-expanded', 'false');
+      menuButton.setAttribute('aria-label', 'Open navigation menu');
+    };
+    menuButton.addEventListener('click', () => {
+      const open = !document.body.classList.contains('menu-open');
+      document.body.classList.toggle('menu-open', open);
+      menuButton.setAttribute('aria-expanded', String(open));
+      menuButton.setAttribute('aria-label', open ? 'Close navigation menu' : 'Open navigation menu');
+    });
+    sidebar.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+    document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMenu(); });
+    window.matchMedia('(min-width:701px)').addEventListener('change', event => { if (event.matches) closeMenu(); });
+    topbar.append(menuButton);
+    document.documentElement.classList.add('menu-ready');
+  }
+})();
+
+(() => {
   const key = 'private-ledger-reader-v1';
   let state = {saved: [], progress: {}};
   let available = true;

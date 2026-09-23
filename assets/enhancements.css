@@ -90,3 +90,19 @@ main{margin-top:72px;margin-left:238px;padding:46px 54px 0;max-width:1780px}.pag
   .ipo-month{overflow-x:auto}
   .ipo-weekdays,.ipo-week{min-width:560px}
 }
+
+/* The compact navigation is deliberately mobile-only; desktop keeps its sidebar. */
+.menu-toggle{display:none}
+@media(max-width:700px){
+  .top-subscribe{display:none}
+  .menu-toggle{display:inline-flex;flex:0 0 40px;width:40px;height:40px;align-items:center;justify-content:center;flex-direction:column;gap:5px;padding:0;border:1px solid #71808a;background:transparent;color:#fff;cursor:pointer}
+  .menu-toggle span{display:block;width:17px;height:1px;background:currentColor;transition:transform .16s ease,opacity .16s ease}
+  html.menu-ready .sidebar{display:none}
+  html.menu-ready body.menu-open .sidebar{display:flex}
+  body.menu-open .menu-toggle span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+  body.menu-open .menu-toggle span:nth-child(2){opacity:0}
+  body.menu-open .menu-toggle span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+  .sidebar{margin-top:66px;padding:16px 12px 14px;border-bottom:1px solid #ffffff1a}
+  .sidebar nav{display:grid;overflow:visible;gap:2px}
+  .sidebar nav a{padding:12px 10px;white-space:normal}
+}
