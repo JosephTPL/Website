@@ -110,8 +110,8 @@ def ipo_markup():
  def event_markup(item):
   return f'<a class="ipo-event" href="{E(item["source"])}"><strong>{E(item["company"])}</strong><span>{E(item["status"])}</span></a>'
  def earnings_markup(item):
-  label=f'{item["company"]} ({item["ticker"]}) earnings, {item["timing"]}. {item["impact"]}'
-  return f'<a class="ipo-event earnings-event" href="{E(item["source"])}" aria-label="{E(label)}"><strong>{E(item["ticker"])}</strong><span>{E(item["company"])} · {E(item["timing"])}</span><span class="earnings-tooltip" role="tooltip"><b>{E(item["company"])} · {E(item["confidence"])}</b>{E(item["impact"])}</span></a>'
+  label=f'Open The Ledger view on {item["company"]} earnings'
+  return f'<button class="ipo-event earnings-event" type="button" aria-label="{E(label)}" data-company="{E(item["company"])}" data-ticker="{E(item["ticker"])}" data-timing="{E(item["timing"])}" data-confidence="{E(item["confidence"])}" data-impact="{E(item["impact"])}" data-source="{E(item["source"])}"><strong>{E(item["ticker"])}</strong><span>{E(item["timing"])}</span></button>'
  weeks=[]
  for week in calendar.monthcalendar(year,month_number):
   cells=[]

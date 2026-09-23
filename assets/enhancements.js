@@ -1,4 +1,21 @@
 (() => {
+  const earningsEvents = [...document.querySelectorAll('.earnings-event')];
+  const earningsMonth = document.querySelector('.ipo-month');
+  if (earningsEvents.length && earningsMonth) {
+    const panel = document.createElement('aside');
+    panel.className = 'earnings-detail';
+    panel.setAttribute('aria-live', 'polite');
+    panel.innerHTML = '<p class="overline">PRIVATE-MARKET READ-THROUGH</p><h3>Select an earnings marker.</h3><p>Choose a public company on the calendar to see why its results matter for private markets.</p>';
+    earningsMonth.querySelector('.ipo-month-grid').insertAdjacentElement('afterend', panel);
+    const select = button => {
+      earningsEvents.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+      panel.innerHTML = `<p class="overline">${button.dataset.ticker} / ${button.dataset.confidence}</p><h3>${button.dataset.company}</h3><p class="earnings-timing">${button.dataset.timing}</p><p>${button.dataset.impact}</p><a href="${button.dataset.source}" rel="noopener">Earnings source ↗</a>`;
+    };
+    earningsEvents.forEach(button => button.addEventListener('click', () => select(button)));
+  }
+})();
+
+(() => {
   const sidebar = document.querySelector('.sidebar');
   const topbar = document.querySelector('.topbar');
   if (sidebar && topbar) {
