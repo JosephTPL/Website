@@ -2,6 +2,11 @@
   "title": "The $5B+ IPO calendar.",
   "intro": "The major private companies closest to a public-market decision — separated by what is filed, reported, and still unconfirmed.",
   "as_of": "September 23, 2026",
+  "calendar": {
+    "month": "October 2026",
+    "year": 2026,
+    "month_number": 10
+  },
   "disclaimer": "Valuations are the latest publicly reported private-market figures. Timing is not issuer guidance unless a filing has been disclosed; this is a watchlist, not an offering calendar.",
   "periods": [
     {
