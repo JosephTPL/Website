@@ -35,7 +35,7 @@ def records(folder):
   if record.get('status')=='Published':result[slug]=record
  return result
 
-settings=read('content/settings/site.json');weekly=read('content/settings/weekly.json');articles=records('articles');companies=records('companies')
+settings=read('content/settings/site.json');weekly=read('content/settings/weekly.json');ipo_calendar=read('content/settings/ipo-calendar.json');articles=records('articles');companies=records('companies')
 base=os.environ.get('URL') or settings['site_url'];base=base.rstrip('/')
 if urlsplit(base).scheme not in ('http','https'):raise ValueError('Site URL must start with https://')
 for a in articles.values():
@@ -74,6 +74,8 @@ def configure_nav(s,active):
   if node.strip()=='Research library':node.replace_with('This week')
  research=soup('<a data-view="library" href="/research/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 4h6v16H4z M14 4h6v16h-6z"></path></svg>Research library</a>').a
  home.insert_after(research)
+ ipo=soup('<a data-view="ipo" href="/ipo-calendar/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 10h18"></path></svg>IPO calendar</a>').a
+ research.insert_after(ipo)
  for link in nav.select('a'):
   link.attrs.pop('aria-current',None)
   link['class']=['active'] if link.get('data-view')==active else []
@@ -81,6 +83,13 @@ def configure_nav(s,active):
 def weekly_markup():
  items=''.join(f'''<article class="weekly-item"><div><span class="weekly-number">{i:02d}</span><span class="weekly-tag">{E(item['tag'])}</span></div><h2>{E(item['company'])}</h2><p>{E(item['text'])}</p><a href="{E(item['source'])}" rel="noopener">Source ↗</a></article>''' for i,item in enumerate(weekly['items'],1))
  return f'''<section class="weekly-brief" aria-labelledby="weekly-title"><header class="weekly-head"><div><p class="overline">THE PRIVATE LEDGER / WEEKLY BRIEF</p><h1 id="weekly-title">{E(weekly['title'])}</h1><p class="subtitle">{E(weekly['intro'])}</p></div><p class="weekly-date">Last week<br/><strong>{E(weekly['period'])}</strong><span>Next update: {E(weekly['next_update'])}</span></p></header><div class="weekly-grid">{items}</div><div class="weekly-footer"><span>Updated every Sunday.</span><a class="text-link" href="/research/">Explore company research →</a></div></section>'''
+
+def ipo_markup():
+ groups=[]
+ for period in ipo_calendar['periods']:
+  cards=''.join(f'''<article class="ipo-card"><div class="ipo-card-top"><span class="ipo-status {E(item['status'].lower().replace(' ','-'))}">{E(item['status'])}</span><span class="ipo-valuation">{E(item['valuation'])}</span></div><h2>{E(item['company'])}</h2><p class="ipo-sector">{E(item['sector'])}</p><p>{E(item['note'])}</p><a href="{E(item['source'])}" rel="noopener">Source ↗</a></article>''' for item in period['items'])
+  groups.append(f'''<section class="ipo-period"><header><p class="overline">{E(period['label'])}</p><h2>{E(period['title'])}</h2><p>{E(period['description'])}</p></header><div class="ipo-grid">{cards}</div></section>''')
+ return f'''<section class="ipo-calendar" aria-labelledby="ipo-title"><header class="ipo-head"><div><p class="overline">THE PRIVATE LEDGER / IPO CALENDAR</p><h1 id="ipo-title">{E(ipo_calendar['title'])}</h1><p class="subtitle">{E(ipo_calendar['intro'])}</p></div><p class="ipo-as-of">As of<br/><strong>{E(ipo_calendar['as_of'])}</strong></p></header><div class="ipo-note"><strong>How to read this.</strong> {E(ipo_calendar['disclaimer'])}</div>{''.join(groups)}</section>'''
 
 if OUT.exists():shutil.rmtree(OUT)
 OUT.mkdir()
@@ -188,10 +197,16 @@ for i,c in enumerate(sorted(companies.values(),key=lambda x:(x.get('directory_ra
 put(s.head,'<script defer src="/companies.js"></script>')
 write(s,'/companies/')
 
+# The calendar separates filed transactions from market watchlist names so timing stays honest.
+s=shell('home',ipo_calendar['title'],ipo_calendar['intro'],'/ipo-calendar/')
+s.body['data-page-view']='ipo';configure_nav(s,'ipo')
+main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();main.clear();put(main,ipo_markup());main.append(subscribe);main.append(footer)
+write(s,'/ipo-calendar/')
+
 about=read('content/settings/about.json');s=shell('about',about['title'],about['description'],'/about/');configure_nav(s,'about');main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();main.clear();main.append(clean(about['body']));main.append(subscribe);main.append(footer);write(s,'/about/')
 # The editor is a separate authenticated service, not a public editing API.
 s=shell('about','Edit website','Open the secure content editor.','/admin/');configure_nav(s,'');s.select_one('main').clear();put(s.select_one('main'),'<section class="about-hero"><h1>Edit your publication.</h1><p>Sign in with your GitHub account to edit articles, company profiles, images, and homepage text.</p><a class="primary-button" href="https://app.pagescms.org">Open Pages CMS ↗</a></section>');put(s.head,'<meta name="robots" content="noindex">');write(s,'/admin/')
-routes=['/','/research/','/insights/','/companies/','/about/']+[a['url'] for a in ordered]+['/companies/'+c['slug']+'/' for c in companies.values()]
+routes=['/','/research/','/insights/','/companies/','/ipo-calendar/','/about/']+[a['url'] for a in ordered]+['/companies/'+c['slug']+'/' for c in companies.values()]
 (OUT/'sitemap.xml').write_text('<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+E(base+r)+'</loc></url>' for r in routes)+'</urlset>')
 (OUT/'robots.txt').write_text('User-agent: *\nAllow: /\nDisallow: /admin/\nSitemap: '+base+'/sitemap.xml\n')
 print(f'Built {len(articles)} published articles, {len(companies)} company profiles, and editable site pages.')
