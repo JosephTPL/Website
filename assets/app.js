@@ -18,7 +18,7 @@
     if (sector !== 'All sectors' && view !== 'insights') query.set('sector',sector);
     if (sort.value !== 'new') query.set('sort',sort.value);
     if (savedOnly) query.set('saved','1');
-    const url = (view === 'insights' ? '/insights/' : '/') + (query.size ? '?' + query : '');
+    const url = (view === 'insights' ? '/insights/' : '/research/') + (query.size ? '?' + query : '');
     history[push ? 'pushState' : 'replaceState']({},'',url);
   }
   function render() {
