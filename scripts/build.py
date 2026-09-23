@@ -70,7 +70,7 @@ def shell(kind,title,description,route,image=''):
  for panel in s.select('.subscribe-panel'):
   set_text(panel,'h2',settings['subscribe_title']);set_text(panel,'p:not(.eyebrow)',settings['subscribe_text'])
  brand=s.select_one('.brand>span:last-child');brand.clear();brand.append(settings['site_name'].upper());put(brand,'<small>'+E(settings['tagline'])+'</small>')
- if s.select_one('footer'):s.select_one('footer').clear();put(s.select_one('footer'),f'© {date.today().year} {E(settings["site_name"])} <a href="/admin/">Edit website</a>')
+ if s.select_one('footer'):s.select_one('footer').clear();put(s.select_one('footer'),f'© {date.today().year} {E(settings["site_name"])}')
  return s
 
 def write(s,route):
