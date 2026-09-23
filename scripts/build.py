@@ -35,7 +35,7 @@ def records(folder):
   if record.get('status')=='Published':result[slug]=record
  return result
 
-settings=read('content/settings/site.json');articles=records('articles');companies=records('companies')
+settings=read('content/settings/site.json');weekly=read('content/settings/weekly.json');articles=records('articles');companies=records('companies')
 base=os.environ.get('URL') or settings['site_url'];base=base.rstrip('/')
 if urlsplit(base).scheme not in ('http','https'):raise ValueError('Site URL must start with https://')
 for a in articles.values():
@@ -65,20 +65,47 @@ def shell(kind,title,description,route,image=''):
 def write(s,route):
  p=OUT/route.strip('/')/'index.html';p.parent.mkdir(parents=True,exist_ok=True);p.write_text(str(s))
 
+def configure_nav(s,active):
+ """Keep the publication's three editorial destinations distinct in every page shell."""
+ nav=s.select_one('nav[aria-label="Primary"]')
+ home=nav.select_one('[data-view="library"]')
+ home['data-view']='home';home['href']='/'
+ for node in list(home.strings):
+  if node.strip()=='Research library':node.replace_with('This week')
+ research=soup('<a data-view="library" href="/research/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 4h6v16H4z M14 4h6v16h-6z"></path></svg>Research library</a>').a
+ home.insert_after(research)
+ for link in nav.select('a'):
+  link.attrs.pop('aria-current',None)
+  link['class']=['active'] if link.get('data-view')==active else []
+
+def weekly_markup():
+ items=''.join(f'''<article class="weekly-item"><div><span class="weekly-number">{i:02d}</span><span class="weekly-tag">{E(item['tag'])}</span></div><h2>{E(item['company'])}</h2><p>{E(item['text'])}</p><a href="{E(item['source'])}" rel="noopener">Source ↗</a></article>''' for i,item in enumerate(weekly['items'],1))
+ return f'''<section class="weekly-brief" aria-labelledby="weekly-title"><header class="weekly-head"><div><p class="overline">THE PRIVATE LEDGER / WEEKLY BRIEF</p><h1 id="weekly-title">{E(weekly['title'])}</h1><p class="subtitle">{E(weekly['intro'])}</p></div><p class="weekly-date">Week ending<br/><strong>{E(weekly['period'])}</strong></p></header><div class="weekly-grid">{items}</div><div class="weekly-footer"><span>Updated every Sunday.</span><a class="text-link" href="/research/">Explore company research →</a></div></section>'''
+
 if OUT.exists():shutil.rmtree(OUT)
 OUT.mkdir()
 for f in (ROOT/'assets').iterdir():
  if f.is_file():shutil.copy2(f,OUT/f.name)
 shutil.copytree(ROOT/'media',OUT/'media')
-# Library and articles share the original design; only their content is rebuilt.
+# The landing page is a concise weekly briefing; the two archives remain separate.
+s=shell('home',weekly['title'],weekly['intro'],'/')
+s.body['data-page-view']='home';configure_nav(s,'home')
+for selector in ['.landing-hero','.page-heading','.start-here','.continue-reading','.controls','#research-grid','.empty']:
+ for el in list(s.select(selector)):
+  container=el.find_parent('section') if selector in ('#research-grid','.empty') else el
+  if container:container.decompose()
+main=s.select_one('main');main.insert(0,soup(weekly_markup()))
+write(s,'/')
+
+# Company research and general articles share the existing searchable archive design.
 for view in ['library','insights']:
- route='/' if view=='library' else '/insights/'
+ route='/research/' if view=='library' else '/insights/'
  s=shell('home',settings[f'{view}_title'],settings[f'{view}_subtitle'],route)
  s.body['data-page-view']=view;s.body['data-library-title']=settings['library_title'];s.body['data-library-subtitle']=settings['library_subtitle'];s.body['data-insights-title']=settings['insights_title'];s.body['data-insights-subtitle']=settings['insights_subtitle']
+ configure_nav(s,view)
  set_text(s,'#mission-eyebrow',settings.get('mission_eyebrow','PRIVATE MARKETS / INDEPENDENT RESEARCH'));set_text(s,'#mission-title',settings.get('mission_title','Know the business before the ticker.'));set_text(s,'#mission-text',settings.get('mission_text','The Private Ledger exists to make the private markets more legible — one company, one business model, and one hard question at a time.'));set_text(s,'#mission-secondary',settings.get('mission_secondary','See the incentives, economics, and risks beneath the headline before a company reaches the public market.'))
  set_text(s,'#view-title',settings[f'{view}_title']);set_text(s,'#view-subtitle',settings[f'{view}_subtitle']);set_text(s,'#about h2',settings['about_title']);set_text(s,'#about p:last-child',settings['about_text'])
  set_text(s,'.library-count strong',str(sum(a['sector']!='Insights' for a in ordered)))
- for a in s.select('[data-view]'):a['class']=['active'] if a['data-view']==view else []
  feature=s.select_one('#start-here');featured=articles.get(settings.get('featured_article'))
  if featured:
   set_text(feature,'.eyebrow',settings['featured_label']);set_text(feature,'h2',settings['featured_title']);set_text(feature,'p:not(.eyebrow)',settings['featured_text']);set_text(feature,'.feature-mark strong',featured.get('card_title') or featured['title'])
@@ -94,6 +121,7 @@ for view in ['library','insights']:
 
 for a in ordered:
  s=shell('article',a['title'],a['summary'],a['url'],a.get('cover_image',''));s.body['data-article']=a['slug'];s.body['data-title']=a.get('card_title') or a['title'];s.body['data-sector']=a['sector']
+ configure_nav(s,'insights' if a['sector']=='Insights' else 'library')
  head=s.select_one('.article-head');set_text(head,'h1',a['title']);set_text(head,'.subtitle',a['summary']);set_text(head,'.overline',a['sector']+' / '+('PERSPECTIVE' if a['sector']=='Insights' else 'COMPANY RESEARCH'));set_text(head,'.author div span',date_text(a['date'])+' · '+str(a['minutes'])+' min read')
  for x in s.select('.brief,.facts,.excerpt-notice'):x.decompose()
  for button in s.select('[data-save]'):button['data-save']=a['slug'];button['aria-pressed']='false';button.attrs.pop('aria-label',None);button.string='Save for later'
@@ -124,7 +152,7 @@ for a in ordered:
   body.insert_before(soup(f'<details class="facts" id="company-facts"><summary><span>Company snapshot<small>{E(company["name"])} · {date_text(company["as_of"])}</small></span><span class="details-icon" aria-hidden="true">＋</span></summary>{facts(company)}<p class="profile-link"><a href="/companies/{company["slug"]}/">View company profile →</a></p></details>'))
  if a.get('excerpt'):body.insert_before(soup(f'<div class="excerpt-notice"><strong>About this edition</strong><p>This is an excerpt. The remaining sections and complete references are on Substack.</p><a href="{E(a["original_url"])}">Continue to the original article ↗</a></div>'))
  if a.get('original_url'):put(body,f'<div class="original">Originally published in {E(settings["site_name"])}. <a href="{E(a["original_url"])}">View original post</a>.</div>')
- destination='/insights/' if a['sector']=='Insights' else '/'
+ destination='/insights/' if a['sector']=='Insights' else '/research/'
  s.select_one('.back')['href']=destination;s.select_one('.back').string='← '+('General articles' if a['sector']=='Insights' else 'Research library')
  related=s.select_one('.related-grid');related.clear()
  picks=[articles[k] for k in a.get('related',[]) if k in articles and k!=a['slug']]
@@ -137,9 +165,9 @@ for a in ordered:
 for company in companies.values():
  route='/companies/'+company['slug']+'/'
  s=shell('about',company['name'],company['summary'],route,company.get('image',''));
- for nav in s.select('[data-view]'):nav['class']=['active'] if nav['data-view']=='companies' else []
+ configure_nav(s,'companies')
  main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();main.clear()
- put(main,f'<a class="back" href="/">← Research library</a><article class="reading-paper company-profile"><p class="overline">{E(company["sector"])} / COMPANY PROFILE</p><h1>{E(company["name"])}</h1><p class="subtitle">{E(company["summary"])}</p></article>')
+ put(main,f'<a class="back" href="/research/">← Research library</a><article class="reading-paper company-profile"><p class="overline">{E(company["sector"])} / COMPANY PROFILE</p><h1>{E(company["name"])}</h1><p class="subtitle">{E(company["summary"])}</p></article>')
  paper=main.select_one('article')
  if company.get('image'):put(paper,f'<img class="profile-image" src="{E(company["image"])}" alt="{E(company.get("image_alt",company["name"]))}" loading="lazy">')
  put(paper,'<div class="article-body">'+str(clean(company.get('overview','')))+'</div><section class="facts">'+facts(company)+'</section>')
@@ -149,7 +177,7 @@ for company in companies.values():
 # A separate, editorial directory makes the company universe useful even when no long-form report exists yet.
 s=shell('home','Companies','A concise directory of notable private companies.','/companies/')
 s.body['data-page-view']='companies'
-for a in s.select('[data-view]'):a['class']=['active'] if a['data-view']=='companies' else []
+configure_nav(s,'companies')
 main=s.select_one('main');main.clear()
 put(main,'<section class="company-directory"><header class="directory-head"><p class="overline">THE PRIVATE LEDGER / COMPANY DIRECTORY</p><h1>Companies to know <em>before</em> they go public.</h1><p>A living editorial watchlist of 50 notable private businesses. Each card captures the business, the latest disclosed financing context, and the argument on both sides.</p><div class="directory-disclaimer"><strong>AI-assisted editorial notes.</strong> Bull and bear cases are research prompts, not investment advice. Funding information reflects the latest public disclosure recorded in each profile.</div></header><section class="directory-tools" aria-label="Search companies"><label class="search"><input id="company-search" type="search" placeholder="Search a company or sector…" aria-label="Search companies"></label><span id="company-result-count"></span></section><div class="company-directory-grid" id="company-directory-grid"></div></section>')
 grid=s.select_one('#company-directory-grid')
@@ -160,10 +188,10 @@ for i,c in enumerate(sorted(companies.values(),key=lambda x:(x.get('directory_ra
 put(s.head,'<script defer src="/companies.js"></script>')
 write(s,'/companies/')
 
-about=read('content/settings/about.json');s=shell('about',about['title'],about['description'],'/about/');main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();main.clear();main.append(clean(about['body']));main.append(subscribe);main.append(footer);write(s,'/about/')
+about=read('content/settings/about.json');s=shell('about',about['title'],about['description'],'/about/');configure_nav(s,'about');main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();main.clear();main.append(clean(about['body']));main.append(subscribe);main.append(footer);write(s,'/about/')
 # The editor is a separate authenticated service, not a public editing API.
-s=shell('about','Edit website','Open the secure content editor.','/admin/');s.select_one('main').clear();put(s.select_one('main'),'<section class="about-hero"><h1>Edit your publication.</h1><p>Sign in with your GitHub account to edit articles, company profiles, images, and homepage text.</p><a class="primary-button" href="https://app.pagescms.org">Open Pages CMS ↗</a></section>');put(s.head,'<meta name="robots" content="noindex">');write(s,'/admin/')
-routes=['/','/insights/','/companies/','/about/']+[a['url'] for a in ordered]+['/companies/'+c['slug']+'/' for c in companies.values()]
+s=shell('about','Edit website','Open the secure content editor.','/admin/');configure_nav(s,'');s.select_one('main').clear();put(s.select_one('main'),'<section class="about-hero"><h1>Edit your publication.</h1><p>Sign in with your GitHub account to edit articles, company profiles, images, and homepage text.</p><a class="primary-button" href="https://app.pagescms.org">Open Pages CMS ↗</a></section>');put(s.head,'<meta name="robots" content="noindex">');write(s,'/admin/')
+routes=['/','/research/','/insights/','/companies/','/about/']+[a['url'] for a in ordered]+['/companies/'+c['slug']+'/' for c in companies.values()]
 (OUT/'sitemap.xml').write_text('<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+E(base+r)+'</loc></url>' for r in routes)+'</urlset>')
 (OUT/'robots.txt').write_text('User-agent: *\nAllow: /\nDisallow: /admin/\nSitemap: '+base+'/sitemap.xml\n')
 print(f'Built {len(articles)} published articles, {len(companies)} company profiles, and editable site pages.')
