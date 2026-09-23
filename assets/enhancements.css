@@ -98,7 +98,7 @@ main{margin-top:72px;margin-left:238px;padding:46px 54px 0;max-width:1780px}.pag
   .menu-toggle{display:inline-flex;flex:0 0 40px;width:40px;height:40px;align-items:center;justify-content:center;flex-direction:column;gap:5px;padding:0;border:1px solid #71808a;background:transparent;color:#fff;cursor:pointer}
   .menu-toggle span{display:block;width:17px;height:1px;background:currentColor;transition:transform .16s ease,opacity .16s ease}
   html.menu-ready .sidebar{display:none}
-  html.menu-ready body.menu-open .sidebar{display:flex}
+  html.menu-ready body.menu-open .sidebar{display:flex;position:fixed;inset:66px 0 auto 0;z-index:19;max-height:calc(100vh - 66px);margin-top:0;overflow-y:auto}
   body.menu-open .menu-toggle span:nth-child(1){transform:translateY(6px) rotate(45deg)}
   body.menu-open .menu-toggle span:nth-child(2){opacity:0}
   body.menu-open .menu-toggle span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
