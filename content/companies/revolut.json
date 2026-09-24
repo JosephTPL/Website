@@ -1,28 +1,17 @@
 {
-  "slug": "revolut",
-  "status": "Published",
-  "name": "Revolut",
-  "sector": "Fintech",
-  "summary": "Revolut is a notable private company in fintech.",
-  "overview": "<p>Revolut is included in The Private Ledger\u2019s company directory for ongoing research.</p>",
-  "image": "",
-  "image_alt": "",
-  "as_of": "2026-09-21",
-  "report": "",
-  "facts": [
-    {
-      "label": "Latest disclosed financing",
-      "value": "August 2024: $500M secondary sale; $45B valuation reported",
-      "note": "Publicly reported financing context; verify before relying on it.",
-      "source": ""
-    }
-  ],
-  "directory_rank": 14,
-  "bull_case": "A global financial super-app can deepen engagement across banking, payments, and wealth.",
-  "bear_case": "Licensing, compliance, and international execution increase complexity.",
-  "latest_round": "August 2024: $500M secondary sale; $45B valuation reported",
-  "directory_notes": [
-    "Banking licenses",
-    "deposits, credit, and U.S. execution."
-  ]
+  "slug":"revolut", "status":"Published", "name":"Revolut", "sector":"Fintech", "summary":"Revolut is a global financial app spanning payments, cards, deposits, wealth products, business banking, and cross-border money movement.", "overview":"<p>Revolut is a London-headquartered financial platform building a multi-product bank and payments business across consumer and business customers.</p>", "as_of":"2026-09-25", "report":"",
+  "facts":[{"label":"Latest disclosed valuation","value":"$75B","note":"Fundraising process completed in 2025, according to the company’s 2025 annual report.","source":"https://assets.revolut.com/pdf/annualreport2025.pdf"}], "directory_rank":14,
+  "bull_case":"A broad product suite, growing customer base, and improving profitability can turn Revolut into a global financial operating system.", "bear_case":"Bank licensing, compliance demands, regional competition, and the complexity of credit products can slow international execution.", "latest_round":"2025: fundraising process at $75B implied valuation", "directory_notes":["Revenue, customer growth, and licensing progress","Credit, deposits, and international expansion."],
+  "intelligence": {
+    "kicker":"COMPANY INTELLIGENCE", "location":"London, United Kingdom", "status":"Private", "logo":"https://www.google.com/s2/favicons?domain=revolut.com&sz=128",
+    "description":"Revolut is building a global financial app that combines everyday spending, payments, deposits, investing, foreign exchange, and business financial tools. Its challenge is to turn high engagement into durable, regulated banking economics across markets.",
+    "metrics":[{"value":"$75B","label":"Latest valuation","note":"2025 fundraising process"},{"value":"£4.5B","label":"2025 revenue","note":"46% year over year"},{"value":"65M","label":"Retail customers","note":"Company reported"},{"value":"£4.9B","label":"Total capital","note":"At December 2025"}],
+    "company":["Revolut started with foreign-exchange and prepaid-card products, then expanded into a much broader consumer financial platform. The product now spans payments, cards, savings, investing, travel, and business financial operations, allowing the company to cross-sell from a large customer base.","The 2025 annual report describes a business whose revenue rose 46% to £4.5 billion. It also says Revolut completed a fundraising process at an implied $75 billion valuation, while continuing to invest in its regulatory and compliance capabilities as it broadens banking operations."],
+    "why_it_matters":"Revolut is a major test of whether a digital financial app can become a global, multi-product bank without losing the speed and distribution advantages of fintech. Its execution is relevant to private payments, neobanking, wealth, compliance, and infrastructure companies.",
+    "valuation_history":[{"value":"$1.7B","date":"Apr 2018","round":"Series C"},{"value":"$5.5B","date":"Feb 2020","round":"Series D"},{"value":"$33B","date":"Jul 2021","round":"Series E"},{"value":"$45B","date":"Aug 2024","round":"Secondary transaction"},{"value":"$75B","date":"2025","round":"Fundraising process"}],
+    "changed":[{"date":"2021","text":"A $800M Series E placed Revolut among Europe’s most valuable private fintechs."},{"date":"2024","text":"A secondary transaction was reported at a $45B valuation."},{"date":"2025","text":"Revenue rose 46% to £4.5B, according to the company’s annual report."},{"date":"2025","text":"The company completed a fundraising process at an implied $75B valuation."}],
+    "takeaways":["Revolut’s value proposition is a broad financial relationship, not a single payments product.","The company reported strong 2025 revenue growth, but its valuation also assumes it can sustain growth while operating under more banking regulation.","Licenses, risk controls, and local-market operations are becoming as important as customer acquisition.","The central risk is that a globally complex product set makes economics and compliance harder to scale than a focused fintech."],
+    "quick_facts":[["Founded","2015"],["Headquarters","London, United Kingdom"],["CEO","Nikolay Storonsky"],["Focus","Consumer and business financial services"],["Retail customers","65M"],["Website","revolut.com"]],
+    "sources":[{"label":"Revolut 2025 annual report","url":"https://assets.revolut.com/pdf/annualreport2025.pdf"},{"label":"Revolut fundraising announcement","url":"https://www.revolut.com/en-LU/news/revolut_completes_fundraising_process_establishing_75_billion_valuation/"},{"label":"Revolut company website","url":"https://www.revolut.com/"}]
+  }
 }
