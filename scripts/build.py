@@ -145,6 +145,12 @@ for f in (ROOT/'assets').iterdir():
  if f.is_file():shutil.copy2(f,OUT/f.name)
  elif f.is_dir():shutil.copytree(f,OUT/f.name)
 shutil.copytree(ROOT/'media',OUT/'media')
+# The directory is a client-side enhancement, so inject the published profile
+# map at build time. This keeps every available profile card fully clickable
+# without duplicating a second company list in JavaScript.
+company_profiles={c['name'].lower():c['slug'] for c in companies.values()}
+directory_script=OUT/'companies.js'
+directory_script.write_text(directory_script.read_text().replace('/* PROFILE_SLUGS */',json.dumps(company_profiles,sort_keys=True)))
 # The landing page is a concise weekly briefing; the two archives remain separate.
 s=shell('home',weekly['title'],weekly['intro'],'/')
 s.body['data-page-view']='home';configure_nav(s,'home')

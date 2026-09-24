@@ -1,0 +1,135 @@
+{
+  "slug": "ant-group",
+  "name": "Ant Group",
+  "status": "Published",
+  "sector": "Fintech",
+  "summary": "Ant Group operates Alipay and a broad financial-services platform spanning payments, consumer finance, insurance, and technology services.",
+  "overview": "<p>Ant Group operates Alipay and a broad financial-services platform spanning payments, consumer finance, insurance, and technology services.</p>",
+  "as_of": "2026-09-25",
+  "facts": [
+    {
+      "label": "Reported valuation",
+      "value": "$79B",
+      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
+      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+    },
+    {
+      "label": "Public status",
+      "value": "Private",
+      "note": "No confirmed public offering is reflected in this profile.",
+      "source": "https://www.antgroup.com"
+    },
+    {
+      "label": "Primary focus",
+      "value": "Digital payments and financial services",
+      "note": "Company description and product positioning.",
+      "source": "https://www.antgroup.com"
+    }
+  ],
+  "directory_rank": 3,
+  "bull_case": "Ant Group is exposed to a large market where scale, distribution, and execution can compound.",
+  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
+  "latest_round": "Reported valuation: $79B",
+  "directory_notes": [
+    "Digital payments and financial services",
+    "Watch for funding, operating milestones, and changes in market structure."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Hangzhou, China",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=www.antgroup.com&sz=128",
+    "description": "Ant Group operates Alipay and a broad financial-services platform spanning payments, consumer finance, insurance, and technology services.",
+    "metrics": [
+      {
+        "value": "$79B",
+        "label": "Reported valuation",
+        "note": "Private Ledger market watch"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      },
+      {
+        "value": "Fintech",
+        "label": "Sector",
+        "note": "Digital payments and financial services"
+      },
+      {
+        "value": "Sep 2026",
+        "label": "Profile updated",
+        "note": "Latest editorial review"
+      }
+    ],
+    "company": [
+      "Ant Group operates Alipay and a broad financial-services platform spanning payments, consumer finance, insurance, and technology services.",
+      "The company's investment case is tied to digital payments and financial services. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
+    ],
+    "why_it_matters": "Regulatory policy in China remains as important to the investment case as user scale and payments economics.",
+    "valuation_history": [
+      {
+        "value": "Private",
+        "date": "2014",
+        "round": "Company founded"
+      },
+      {
+        "value": "$79B",
+        "date": "2026",
+        "round": "Latest reported estimate"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2014",
+        "text": "Ant Group is founded or begins operating in its current form."
+      },
+      {
+        "date": "2026",
+        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
+      }
+    ],
+    "takeaways": [
+      "Digital payments and financial services is the core operating focus.",
+      "Regulatory policy in China remains as important to the investment case as user scale and payments economics.",
+      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
+      "Future funding, regulation, and commercial execution are the key items to watch."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2014"
+      ],
+      [
+        "Headquarters",
+        "Hangzhou, China"
+      ],
+      [
+        "Sector",
+        "Fintech"
+      ],
+      [
+        "Focus",
+        "Digital payments and financial services"
+      ],
+      [
+        "Public status",
+        "Private"
+      ],
+      [
+        "Website",
+        "www.antgroup.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Company website",
+        "url": "https://www.antgroup.com"
+      },
+      {
+        "label": "Private-company valuation reference",
+        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      }
+    ]
+  }
+}

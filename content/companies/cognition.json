@@ -1,0 +1,135 @@
+{
+  "slug": "cognition",
+  "name": "Cognition",
+  "status": "Published",
+  "sector": "Artificial intelligence",
+  "summary": "Cognition builds AI software-engineering agents, including Devin, aimed at automating parts of the development workflow.",
+  "overview": "<p>Cognition builds AI software-engineering agents, including Devin, aimed at automating parts of the development workflow.</p>",
+  "as_of": "2026-09-25",
+  "facts": [
+    {
+      "label": "Reported valuation",
+      "value": "$48B",
+      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
+      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+    },
+    {
+      "label": "Public status",
+      "value": "Private",
+      "note": "No confirmed public offering is reflected in this profile.",
+      "source": "https://www.cognition.ai"
+    },
+    {
+      "label": "Primary focus",
+      "value": "AI software engineering agents",
+      "note": "Company description and product positioning.",
+      "source": "https://www.cognition.ai"
+    }
+  ],
+  "directory_rank": 7,
+  "bull_case": "Cognition is exposed to a large market where scale, distribution, and execution can compound.",
+  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
+  "latest_round": "Reported valuation: $48B",
+  "directory_notes": [
+    "AI software engineering agents",
+    "Watch for funding, operating milestones, and changes in market structure."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "New York, NY",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=www.cognition.ai&sz=128",
+    "description": "Cognition builds AI software-engineering agents, including Devin, aimed at automating parts of the development workflow.",
+    "metrics": [
+      {
+        "value": "$48B",
+        "label": "Reported valuation",
+        "note": "Private Ledger market watch"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      },
+      {
+        "value": "Artificial intelligence",
+        "label": "Sector",
+        "note": "AI software engineering agents"
+      },
+      {
+        "value": "Sep 2026",
+        "label": "Profile updated",
+        "note": "Latest editorial review"
+      }
+    ],
+    "company": [
+      "Cognition builds AI software-engineering agents, including Devin, aimed at automating parts of the development workflow.",
+      "The company's investment case is tied to ai software engineering agents. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
+    ],
+    "why_it_matters": "The company's trajectory is a direct test of whether autonomous coding tools can become durable enterprise software businesses.",
+    "valuation_history": [
+      {
+        "value": "Private",
+        "date": "2023",
+        "round": "Company founded"
+      },
+      {
+        "value": "$48B",
+        "date": "2026",
+        "round": "Latest reported estimate"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2023",
+        "text": "Cognition is founded or begins operating in its current form."
+      },
+      {
+        "date": "2026",
+        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
+      }
+    ],
+    "takeaways": [
+      "AI software engineering agents is the core operating focus.",
+      "The company's trajectory is a direct test of whether autonomous coding tools can become durable enterprise software businesses.",
+      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
+      "Future funding, regulation, and commercial execution are the key items to watch."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2023"
+      ],
+      [
+        "Headquarters",
+        "New York, NY"
+      ],
+      [
+        "Sector",
+        "Artificial intelligence"
+      ],
+      [
+        "Focus",
+        "AI software engineering agents"
+      ],
+      [
+        "Public status",
+        "Private"
+      ],
+      [
+        "Website",
+        "www.cognition.ai"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Company website",
+        "url": "https://www.cognition.ai"
+      },
+      {
+        "label": "Private-company valuation reference",
+        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      }
+    ]
+  }
+}

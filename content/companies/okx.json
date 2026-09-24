@@ -1,0 +1,135 @@
+{
+  "slug": "okx",
+  "name": "OKX",
+  "status": "Published",
+  "sector": "Digital assets",
+  "summary": "OKX operates a crypto exchange and Web3 services platform for trading, custody, and digital-asset access.",
+  "overview": "<p>OKX operates a crypto exchange and Web3 services platform for trading, custody, and digital-asset access.</p>",
+  "as_of": "2026-09-25",
+  "facts": [
+    {
+      "label": "Reported valuation",
+      "value": "$25B",
+      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
+      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+    },
+    {
+      "label": "Public status",
+      "value": "Private",
+      "note": "No confirmed public offering is reflected in this profile.",
+      "source": "https://www.okx.com"
+    },
+    {
+      "label": "Primary focus",
+      "value": "Digital-asset exchange and services",
+      "note": "Company description and product positioning.",
+      "source": "https://www.okx.com"
+    }
+  ],
+  "directory_rank": 17,
+  "bull_case": "OKX is exposed to a large market where scale, distribution, and execution can compound.",
+  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
+  "latest_round": "Reported valuation: $25B",
+  "directory_notes": [
+    "Digital-asset exchange and services",
+    "Watch for funding, operating milestones, and changes in market structure."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Global",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=www.okx.com&sz=128",
+    "description": "OKX operates a crypto exchange and Web3 services platform for trading, custody, and digital-asset access.",
+    "metrics": [
+      {
+        "value": "$25B",
+        "label": "Reported valuation",
+        "note": "Private Ledger market watch"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      },
+      {
+        "value": "Digital assets",
+        "label": "Sector",
+        "note": "Digital-asset exchange and services"
+      },
+      {
+        "value": "Sep 2026",
+        "label": "Profile updated",
+        "note": "Latest editorial review"
+      }
+    ],
+    "company": [
+      "OKX operates a crypto exchange and Web3 services platform for trading, custody, and digital-asset access.",
+      "The company's investment case is tied to digital-asset exchange and services. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
+    ],
+    "why_it_matters": "Market structure, regulation, and institutional participation are the principal factors shaping exchange economics.",
+    "valuation_history": [
+      {
+        "value": "Private",
+        "date": "2017",
+        "round": "Company founded"
+      },
+      {
+        "value": "$25B",
+        "date": "2026",
+        "round": "Latest reported estimate"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2017",
+        "text": "OKX is founded or begins operating in its current form."
+      },
+      {
+        "date": "2026",
+        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
+      }
+    ],
+    "takeaways": [
+      "Digital-asset exchange and services is the core operating focus.",
+      "Market structure, regulation, and institutional participation are the principal factors shaping exchange economics.",
+      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
+      "Future funding, regulation, and commercial execution are the key items to watch."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2017"
+      ],
+      [
+        "Headquarters",
+        "Global"
+      ],
+      [
+        "Sector",
+        "Digital assets"
+      ],
+      [
+        "Focus",
+        "Digital-asset exchange and services"
+      ],
+      [
+        "Public status",
+        "Private"
+      ],
+      [
+        "Website",
+        "www.okx.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Company website",
+        "url": "https://www.okx.com"
+      },
+      {
+        "label": "Private-company valuation reference",
+        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      }
+    ]
+  }
+}

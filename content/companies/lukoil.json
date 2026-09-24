@@ -1,0 +1,135 @@
+{
+  "slug": "lukoil",
+  "name": "Lukoil",
+  "status": "Published",
+  "sector": "Energy",
+  "summary": "Lukoil is an integrated energy company with oil and gas production, refining, and marketing operations.",
+  "overview": "<p>Lukoil is an integrated energy company with oil and gas production, refining, and marketing operations.</p>",
+  "as_of": "2026-09-25",
+  "facts": [
+    {
+      "label": "Reported valuation",
+      "value": "$22B",
+      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
+      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+    },
+    {
+      "label": "Public status",
+      "value": "Private",
+      "note": "No confirmed public offering is reflected in this profile.",
+      "source": "https://www.lukoil.com"
+    },
+    {
+      "label": "Primary focus",
+      "value": "Oil and gas",
+      "note": "Company description and product positioning.",
+      "source": "https://www.lukoil.com"
+    }
+  ],
+  "directory_rank": 20,
+  "bull_case": "Lukoil is exposed to a large market where scale, distribution, and execution can compound.",
+  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
+  "latest_round": "Reported valuation: $22B",
+  "directory_notes": [
+    "Oil and gas",
+    "Watch for funding, operating milestones, and changes in market structure."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Moscow, Russia",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=www.lukoil.com&sz=128",
+    "description": "Lukoil is an integrated energy company with oil and gas production, refining, and marketing operations.",
+    "metrics": [
+      {
+        "value": "$22B",
+        "label": "Reported valuation",
+        "note": "Private Ledger market watch"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      },
+      {
+        "value": "Energy",
+        "label": "Sector",
+        "note": "Oil and gas"
+      },
+      {
+        "value": "Sep 2026",
+        "label": "Profile updated",
+        "note": "Latest editorial review"
+      }
+    ],
+    "company": [
+      "Lukoil is an integrated energy company with oil and gas production, refining, and marketing operations.",
+      "The company's investment case is tied to oil and gas. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
+    ],
+    "why_it_matters": "Commodity prices, sanctions, and capital-market access are material to its operating and valuation outlook.",
+    "valuation_history": [
+      {
+        "value": "Private",
+        "date": "1991",
+        "round": "Company founded"
+      },
+      {
+        "value": "$22B",
+        "date": "2026",
+        "round": "Latest reported estimate"
+      }
+    ],
+    "changed": [
+      {
+        "date": "1991",
+        "text": "Lukoil is founded or begins operating in its current form."
+      },
+      {
+        "date": "2026",
+        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
+      }
+    ],
+    "takeaways": [
+      "Oil and gas is the core operating focus.",
+      "Commodity prices, sanctions, and capital-market access are material to its operating and valuation outlook.",
+      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
+      "Future funding, regulation, and commercial execution are the key items to watch."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "1991"
+      ],
+      [
+        "Headquarters",
+        "Moscow, Russia"
+      ],
+      [
+        "Sector",
+        "Energy"
+      ],
+      [
+        "Focus",
+        "Oil and gas"
+      ],
+      [
+        "Public status",
+        "Private"
+      ],
+      [
+        "Website",
+        "www.lukoil.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Company website",
+        "url": "https://www.lukoil.com"
+      },
+      {
+        "label": "Private-company valuation reference",
+        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      }
+    ]
+  }
+}
