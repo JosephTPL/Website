@@ -145,6 +145,9 @@ for f in (ROOT/'assets').iterdir():
  if f.is_file():shutil.copy2(f,OUT/f.name)
  elif f.is_dir():shutil.copytree(f,OUT/f.name)
 shutil.copytree(ROOT/'media',OUT/'media')
+profile_slugs={company['name'].lower():company['slug'] for company in companies.values()}
+directory_script=OUT/'companies.js'
+directory_script.write_text(directory_script.read_text().replace('/* PROFILE_SLUGS */',json.dumps(profile_slugs,sort_keys=True)))
 # The landing page is a concise weekly briefing; the two archives remain separate.
 s=shell('home',weekly['title'],weekly['intro'],'/')
 s.body['data-page-view']='home';configure_nav(s,'home')
