@@ -7,7 +7,7 @@
   "overview": "<p>Polymarket turns opinions about future events into tradable contracts. The report explores the appeal of those market signals while questioning whether rapid growth in trading activity can become a profitable business at a valuation that already assumes considerable success.</p>",
   "image": "https://substack-post-media.s3.amazonaws.com/public/images/63cacc74-1714-43e3-af5f-d81aba723fb4_1728x910.png",
   "image_alt": "Polymarket \u2014 The Private Ledger",
-  "as_of": "2026-05-26",
+  "as_of": "2026-09-24",
   "report": "the-breakdown-polymarket",
   "facts": [
     {
@@ -38,9 +38,21 @@
   "directory_rank": 8,
   "bull_case": "A liquid information market could become a useful global forecasting layer.",
   "bear_case": "Regulatory uncertainty and event-driven liquidity can limit the addressable market.",
-  "latest_round": "May 2024: $70M Series B",
+  "latest_round": "October 2025: up to $2B strategic investment",
   "directory_notes": [
     "Regulatory access",
     "repeat use beyond headline events."
-  ]
+  ],
+  "intelligence": {
+    "kicker":"COMPANY INTELLIGENCE","location":"New York, New York","status":"Private","logo":"https://cdn.simpleicons.org/polymarket/191919",
+    "description":"Polymarket operates event-based prediction markets for politics, economics, culture, and other real-world outcomes.",
+    "metrics":[{"value":"~$8B","label":"Pre-investment valuation","note":"ICE announcement, Oct 2025"},{"value":"Up to $2B","label":"Strategic investment","note":"Intercontinental Exchange"},{"value":"Private","label":"Public status","note":"No IPO announced"},{"value":"2020","label":"Founded","note":"Prediction-market platform"}],
+    "company":["Polymarket lets participants trade contracts linked to real-world outcomes, producing market prices that can function as probability signals. The central question is whether prediction-market liquidity can evolve into a broad, durable financial-information business.","ICE announced an investment of up to $2 billion in 2025 at an approximately $8 billion pre-investment valuation, along with a plan to distribute Polymarket's event-driven data."],
+    "why_it_matters":"Polymarket sits at the convergence of retail trading, information markets, crypto infrastructure, and financial-data distribution. Its regulatory path will shape whether prediction markets become a mainstream market-information layer.",
+    "valuation_history":[{"value":"$350M","date":"2024","round":"Funding round"},{"value":"$1.2B","date":"2025","round":"Funding round"},{"value":"~$8B","date":"Oct 2025","round":"ICE agreement"}],
+    "changed":[{"date":"2020","text":"Polymarket launches as a crypto-native prediction-market platform."},{"date":"2024","text":"The company raises capital as interest in information markets grows."},{"date":"2025","text":"ICE announces a strategic investment and data-distribution relationship."},{"date":"2026","text":"Regulatory access and repeat use beyond headline events remain the key operating questions."}],
+    "takeaways":["Prediction markets can convert crowd views into continuously updated prices.","Regulatory access is the core constraint on scale.","ICE brings institutional distribution and validation.","Trading volume is not the same as durable revenue."],
+    "quick_facts":[["Founded","2020"],["Headquarters","New York, NY"],["Founder","Shayne Coplan"],["Category","Prediction markets"],["Strategic partner","Intercontinental Exchange"],["Website","polymarket.com"]],
+    "sources":[{"label":"ICE investment announcement","url":"https://ir.theice.com/press/news-details/2025/ICE-Announces-Strategic-Investment-in-Polymarket/"},{"label":"Polymarket breakdown","url":"/articles/the-breakdown-polymarket/"}]
+  }
 }
