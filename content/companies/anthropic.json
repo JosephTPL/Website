@@ -2,45 +2,95 @@
   "slug": "anthropic",
   "name": "Anthropic",
   "status": "Published",
-  "sector": "AI",
-  "summary": "Claude\u2019s enterprise momentum, compute economics, and the race to build a lasting AI business.",
-  "overview": "<p>Anthropic\u2019s business case in this report rests on valuable professional use, especially coding and enterprise work. Claude\u2019s growth and major technology partnerships support that case, while the article examines how a safety-focused identity interacts with commercial pressure and competition.</p>",
+  "sector": "Artificial intelligence",
+  "summary": "Claude's enterprise momentum, compute economics, and the race to build a lasting AI business.",
+  "overview": "<p>Anthropic's business case rests on valuable professional use, especially coding and enterprise work. Claude's growth and major technology partnerships support that case, while the company must keep investing heavily in compute and research as competition intensifies.</p>",
   "image": "https://substackcdn.com/image/fetch/$s_!_lS3!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb33ff6ae-8a4c-4075-a1f5-edc16bdcd29e_1600x840.jpeg",
-  "image_alt": "Anthropic \u2014 The Private Ledger",
-  "as_of": "2026-05-04",
+  "image_alt": "Anthropic - The Private Ledger",
+  "as_of": "2026-09-24",
   "report": "the-breakdown-anthropic",
   "facts": [
     {
-      "label": "Valuation cited",
-      "value": "$380 billion",
-      "note": "February 2026 valuation; subsequent fundraising talks are discussed separately",
-      "source": "/articles/the-breakdown-anthropic/#section-7"
+      "label": "Latest valuation",
+      "value": "$965 billion",
+      "note": "Series H post-money valuation announced May 28, 2026",
+      "source": "https://www.anthropic.com/news/series-h"
     },
     {
-      "label": "2026 ARR projection",
-      "value": "$30 billion",
-      "note": "Projection cited in the article, not audited full-year revenue",
-      "source": "/articles/the-breakdown-anthropic/#section-7"
+      "label": "Latest funding",
+      "value": "$65 billion",
+      "note": "Series H led by Altimeter, Dragoneer, Greenoaks, and Sequoia",
+      "source": "https://www.anthropic.com/news/series-h"
     },
     {
-      "label": "Capital backing",
-      "value": "Multiple strategic partners",
-      "note": "The report distinguishes guaranteed investment from milestone-linked commitments",
-      "source": "/articles/the-breakdown-anthropic/#section-9"
+      "label": "Run-rate revenue",
+      "value": "$47 billion",
+      "note": "Company-reported figure as of May 2026",
+      "source": "https://www.anthropic.com/news/series-h"
     },
     {
-      "label": "IPO outlook",
-      "value": "Potential listing discussed",
-      "note": "No confirmed listing date established by this report",
-      "source": "/articles/the-breakdown-anthropic/#section-7"
+      "label": "IPO status",
+      "value": "Private",
+      "note": "No public offering has been confirmed by the company",
+      "source": "https://www.anthropic.com/news/series-h"
     }
   ],
   "directory_rank": 1,
   "bull_case": "Enterprise adoption of Claude can create a durable software and services business.",
   "bear_case": "Compute costs, intense competition, and safety constraints may keep margins and differentiation under pressure.",
-  "latest_round": "March 2025: $3.5B Series E",
+  "latest_round": "May 2026: $65B Series H",
   "directory_notes": [
     "Enterprise AI demand",
-    "model quality and unit economics are the key variables."
-  ]
+    "Model quality and unit economics are the key variables."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "San Francisco",
+    "status": "Private",
+    "logo": "https://cdn.simpleicons.org/anthropic/191919",
+    "description": "Anthropic develops Claude, an AI assistant and model platform used across consumer, developer, and enterprise workflows.",
+    "metrics": [
+      {"value": "$965B", "label": "Latest valuation", "note": "May 2026 post-money"},
+      {"value": "$65B", "label": "Latest funding", "note": "Series H"},
+      {"value": "$47B", "label": "Run-rate revenue", "note": "Company-reported, May 2026"},
+      {"value": "Private", "label": "Public status", "note": "No confirmed IPO"}
+    ],
+    "company": [
+      "Anthropic is a public benefit corporation founded in 2021 by former OpenAI leaders. It develops Claude, a family of foundation models and products positioned around reliable, steerable AI for professional and enterprise use.",
+      "The commercial story is increasingly tied to coding, knowledge work, and API adoption. Its latest disclosed financing is intended to expand compute, safety and interpretability research, and the products and partnerships built around Claude."
+    ],
+    "why_it_matters": "Anthropic is one of the clearest examples of a private company already shaping public-market infrastructure. Its demand for cloud capacity, chips, and enterprise software distribution affects Amazon, Google, Microsoft, Nvidia, and the broader AI supply chain. The eventual transition from private funding to public markets will be a major test of AI revenue durability, capital intensity, and valuation discipline.",
+    "valuation_history": [
+      {"value": "$15B", "date": "2023", "round": "Series C"},
+      {"value": "$61.5B", "date": "2025", "round": "Series E"},
+      {"value": "$183B", "date": "2025", "round": "Series F"},
+      {"value": "$380B", "date": "Feb 2026", "round": "Series G"},
+      {"value": "$965B", "date": "May 2026", "round": "Series H"}
+    ],
+    "changed": [
+      {"date": "2021", "text": "Anthropic is founded by former OpenAI leaders, with a public-benefit structure and a focus on AI safety."},
+      {"date": "2023", "text": "Claude enters the market and Anthropic expands its cloud distribution through strategic partnerships."},
+      {"date": "2025", "text": "Enterprise adoption accelerates, pushing the company into the top tier of private AI companies by valuation."},
+      {"date": "2026", "text": "Series G and Series H financing fund a rapid expansion of compute capacity, enterprise products, and research."}
+    ],
+    "takeaways": [
+      "Claude's strength in professional and coding workflows gives Anthropic a commercially valuable enterprise position.",
+      "The company is scaling with unusually deep dependencies on cloud, chips, and hyperscale infrastructure partners.",
+      "Company-reported revenue has grown quickly, but capital intensity and inference economics remain central to the long-term case.",
+      "A potential IPO would be a landmark test of whether public investors will support private-market AI valuations at scale."
+    ],
+    "quick_facts": [
+      ["Founded", "2021"],
+      ["Headquarters", "San Francisco, CA"],
+      ["Leadership", "Dario Amodei, CEO; Daniela Amodei, President"],
+      ["Structure", "Public benefit corporation"],
+      ["Core product", "Claude"],
+      ["Website", "anthropic.com"]
+    ],
+    "sources": [
+      {"label": "Series H announcement", "url": "https://www.anthropic.com/news/series-h"},
+      {"label": "Anthropic leadership", "url": "https://www.anthropic.com/company/leadership"},
+      {"label": "Anthropic breakdown", "url": "/articles/the-breakdown-anthropic/"}
+    ]
+  }
 }
