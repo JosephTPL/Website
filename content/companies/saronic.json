@@ -7,7 +7,7 @@
   "overview": "<p>Saronic aims to bring a faster, technology-led approach to naval shipbuilding through autonomous vessels. The opportunity extends from defense into potential commercial uses, but the report\u2019s central question is whether demand and production can grow fast enough to justify its valuation and ambitious investment in manufacturing.</p>",
   "image": "https://substack-post-media.s3.amazonaws.com/public/images/0b8fd657-61cf-43ec-a736-84e42827efb6_1731x909.jpeg",
   "image_alt": "Saronic \u2014 The Private Ledger",
-  "as_of": "2026-07-23",
+  "as_of": "2026-09-24",
   "report": "the-breakdown-saronic",
   "facts": [
     {
@@ -38,9 +38,21 @@
   "directory_rank": 7,
   "bull_case": "Autonomous maritime systems address a large, urgent defense modernization need.",
   "bear_case": "Scaling complex hardware and winning long procurement cycles are difficult.",
-  "latest_round": "February 2025: $600M Series C",
+  "latest_round": "March 2026: $1.75B Series D",
   "directory_notes": [
     "Shipyard build-out",
     "program awards and production velocity."
-  ]
+  ],
+  "intelligence": {
+    "kicker":"COMPANY INTELLIGENCE","location":"Austin, Texas","status":"Private",
+    "description":"Saronic builds autonomous maritime systems and is investing in the industrial capacity needed to produce them at scale.",
+    "metrics":[{"value":"$9.25B","label":"Latest valuation","note":"March 2026"},{"value":"$1.75B","label":"Latest funding","note":"Series D"},{"value":"Private","label":"Public status","note":"No IPO announced"},{"value":"2022","label":"Founded","note":"Maritime autonomy"}],
+    "company":["Saronic develops autonomous surface vessels and related systems for defense and commercial markets. The company is pairing software-led autonomy with a large physical bet on shipbuilding capacity.","Its $1.75 billion Series D, announced in March 2026, valued the company at $9.25 billion. The financing supports maritime autonomy and the industrial expansion required to move from prototypes to repeatable production."],
+    "why_it_matters":"Saronic is a test case for whether venture-backed defense technology can scale complex maritime hardware faster than the traditional shipbuilding base. Its progress matters to naval modernization, procurement, and the private defense market.",
+    "valuation_history":[{"value":"$1B","date":"2024","round":"Series B"},{"value":"$4B","date":"2025","round":"Series C"},{"value":"$9.25B","date":"Mar 2026","round":"Series D"}],
+    "changed":[{"date":"2022","text":"Saronic is founded to build autonomous maritime systems."},{"date":"2024","text":"Early financing supports vessel development and customer engagement."},{"date":"2025","text":"Valuation rises as maritime autonomy attracts defense capital."},{"date":"2026","text":"Series D funds a larger shipbuilding and production push."}],
+    "takeaways":["Maritime autonomy is the core product and market opportunity.","The shipyard strategy creates potential scale but also capital intensity.","A $9.25 billion valuation depends on production and contract execution.","Defense procurement cycles remain a material risk."],
+    "quick_facts":[["Founded","2022"],["Headquarters","Austin, TX"],["CEO","Dino Mavrookas"],["Focus","Autonomous vessels"],["Latest round","Series D"],["Website","saronic.com"]],
+    "sources":[{"label":"Series D announcement","url":"https://www.prnewswire.com/news-releases/saronic-closes-1-75b-series-d-at-9-25b-valuation-to-accelerate-a-new-era-of-maritime-autonomy-302729238.html"},{"label":"Saronic breakdown","url":"/articles/the-breakdown-saronic/"}]
+  }
 }
