@@ -7,7 +7,7 @@
   "overview": "<p>Substack combines publishing, subscriptions, and a discovery network to help writers build businesses around their work. The report sees room for it to become a larger media platform, but the same audience ownership that attracts creators also makes it possible for successful writers to leave.</p>",
   "image": "https://substack-post-media.s3.amazonaws.com/public/images/6882ca40-0312-4eaf-9945-007e7aa9e447_1600x840.jpeg",
   "image_alt": "Substack \u2014 The Private Ledger",
-  "as_of": "2026-06-19",
+  "as_of": "2026-09-24",
   "report": "the-breakdown-substack",
   "facts": [
     {
@@ -38,9 +38,21 @@
   "directory_rank": 10,
   "bull_case": "Direct reader relationships and subscription economics can support independent media.",
   "bear_case": "Creator churn and platform competition may restrain network effects and margins.",
-  "latest_round": "March 2021: $65M Series B",
+  "latest_round": "July 2025: $100M Series C",
   "directory_notes": [
     "Paid subscriber growth",
     "creator retention and product differentiation."
-  ]
+  ],
+  "intelligence": {
+    "kicker":"COMPANY INTELLIGENCE","location":"San Francisco, California","status":"Private","logo":"https://cdn.simpleicons.org/substack/191919",
+    "description":"Substack gives writers and creators publishing, subscription, and audience-discovery infrastructure.",
+    "metrics":[{"value":"$1.1B+","label":"Latest valuation","note":"July 2025 Series C"},{"value":"$100M","label":"Latest funding","note":"Series C"},{"value":"5M+","label":"Paid subscriptions","note":"Company-reported, 2025"},{"value":"Private","label":"Public status","note":"No IPO announced"}],
+    "company":["Substack combines publishing tools, paid subscriptions, and discovery features to let creators build direct businesses around their audiences. It takes a platform fee from subscription revenue while leaving creators with a direct relationship to readers.","The company raised $100 million in a 2025 Series C at a valuation above $1.1 billion. Its operating question is whether creator ownership can coexist with durable platform retention and a growing consumer product."],
+    "why_it_matters":"Substack is an important private-market example of vertical software colliding with media. It affects the economics of independent publishing, subscription bundles, and how creators choose to own or rent their audiences.",
+    "valuation_history":[{"value":"$650M","date":"2021","round":"Series B"},{"value":"$585M","date":"2024","round":"Extension"},{"value":"$1.1B+","date":"Jul 2025","round":"Series C"}],
+    "changed":[{"date":"2017","text":"Substack launches to make paid email publishing accessible to independent writers."},{"date":"2021","text":"Series B funding supports an expansion into a broader creator platform."},{"date":"2024","text":"The company extends funding while focusing on product and creator growth."},{"date":"2025","text":"A $100 million Series C makes Substack a unicorn."}],
+    "takeaways":["Direct audience ownership is Substack's core creator proposition.","The business relies on recurring creator subscriptions and platform retention.","Five million paid subscriptions demonstrate meaningful consumer demand.","Competition and creator churn limit the certainty of network effects."],
+    "quick_facts":[["Founded","2017"],["Headquarters","San Francisco, CA"],["Founders","Chris Best, Hamish McKenzie, Jairaj Sethi"],["Business model","10% platform fee"],["Paid subscriptions","5M+"],["Website","substack.com"]],
+    "sources":[{"label":"Series C funding report","url":"https://www.axios.com/2025/07/17/substack-newsletter-funding-creator-economy"},{"label":"Substack breakdown","url":"/articles/the-breakdown-substack/"}]
+  }
 }
