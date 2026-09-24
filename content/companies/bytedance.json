@@ -44,7 +44,7 @@
     "monetization outside China."
   ],
   "intelligence": {
-    "kicker":"COMPANY INTELLIGENCE","location":"Beijing, China","status":"Private","logo":"https://cdn.simpleicons.org/tiktok/191919",
+    "kicker":"COMPANY INTELLIGENCE","location":"Beijing, China","status":"Private","logo":"/logos/bytedance.webp",
     "description":"ByteDance operates consumer-content, commerce, and AI products, led globally by TikTok and domestically by Douyin.",
     "metrics":[{"value":"~$370B","label":"Secondary-market mark","note":"September 2026 estimate"},{"value":"Undisclosed","label":"Latest primary funding","note":"No recent confirmed round"},{"value":"$186B","label":"2025 revenue","note":"Reported in prior research"},{"value":"Private","label":"Public status","note":"No imminent IPO announced"}],
     "company":["ByteDance is one of the world's largest consumer internet companies, with TikTok, Douyin, advertising, commerce, and AI products spanning multiple markets.","Its investment case cannot be separated from geopolitical risk. Platform restrictions, data-security policy, and the future of TikTok's international business are as material as engagement and advertising growth."],

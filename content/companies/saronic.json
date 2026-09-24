@@ -44,7 +44,7 @@
     "program awards and production velocity."
   ],
   "intelligence": {
-    "kicker":"COMPANY INTELLIGENCE","location":"Austin, Texas","status":"Private",
+    "kicker":"COMPANY INTELLIGENCE","location":"Austin, Texas","status":"Private","logo":"/logos/saronic.png",
     "description":"Saronic builds autonomous maritime systems and is investing in the industrial capacity needed to produce them at scale.",
     "metrics":[{"value":"$9.25B","label":"Latest valuation","note":"March 2026"},{"value":"$1.75B","label":"Latest funding","note":"Series D"},{"value":"Private","label":"Public status","note":"No IPO announced"},{"value":"2022","label":"Founded","note":"Maritime autonomy"}],
     "company":["Saronic develops autonomous surface vessels and related systems for defense and commercial markets. The company is pairing software-led autonomy with a large physical bet on shipbuilding capacity.","Its $1.75 billion Series D, announced in March 2026, valued the company at $9.25 billion. The financing supports maritime autonomy and the industrial expansion required to move from prototypes to repeatable production."],

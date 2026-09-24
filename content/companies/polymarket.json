@@ -44,7 +44,7 @@
     "repeat use beyond headline events."
   ],
   "intelligence": {
-    "kicker":"COMPANY INTELLIGENCE","location":"New York, New York","status":"Private","logo":"https://cdn.simpleicons.org/polymarket/191919",
+    "kicker":"COMPANY INTELLIGENCE","location":"New York, New York","status":"Private","logo":"/logos/polymarket.png",
     "description":"Polymarket operates event-based prediction markets for politics, economics, culture, and other real-world outcomes.",
     "metrics":[{"value":"~$8B","label":"Pre-investment valuation","note":"ICE announcement, Oct 2025"},{"value":"Up to $2B","label":"Strategic investment","note":"Intercontinental Exchange"},{"value":"Private","label":"Public status","note":"No IPO announced"},{"value":"2020","label":"Founded","note":"Prediction-market platform"}],
     "company":["Polymarket lets participants trade contracts linked to real-world outcomes, producing market prices that can function as probability signals. The central question is whether prediction-market liquidity can evolve into a broad, durable financial-information business.","ICE announced an investment of up to $2 billion in 2025 at an approximately $8 billion pre-investment valuation, along with a plan to distribute Polymarket's event-driven data."],

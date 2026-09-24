@@ -143,6 +143,7 @@ if OUT.exists():shutil.rmtree(OUT)
 OUT.mkdir()
 for f in (ROOT/'assets').iterdir():
  if f.is_file():shutil.copy2(f,OUT/f.name)
+ elif f.is_dir():shutil.copytree(f,OUT/f.name)
 shutil.copytree(ROOT/'media',OUT/'media')
 # The landing page is a concise weekly briefing; the two archives remain separate.
 s=shell('home',weekly['title'],weekly['intro'],'/')

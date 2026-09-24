@@ -47,7 +47,7 @@
     "kicker": "COMPANY INTELLIGENCE",
     "location": "San Francisco",
     "status": "Private",
-    "logo": "https://cdn.simpleicons.org/anthropic/191919",
+    "logo": "/logos/anthropic.svg",
     "description": "Anthropic develops Claude, an AI assistant and model platform used across consumer, developer, and enterprise workflows.",
     "metrics": [
       {"value": "$965B", "label": "Latest valuation", "note": "May 2026 post-money"},

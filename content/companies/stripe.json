@@ -44,7 +44,7 @@
     "margins beyond core processing."
   ],
   "intelligence": {
-    "kicker":"COMPANY INTELLIGENCE","location":"San Francisco and Dublin","status":"Private","logo":"https://cdn.simpleicons.org/stripe/191919",
+    "kicker":"COMPANY INTELLIGENCE","location":"San Francisco and Dublin","status":"Private","logo":"/logos/stripe.svg",
     "description":"Stripe provides payments and financial infrastructure for internet businesses, from checkout to billing and revenue operations.",
     "metrics":[{"value":"$159B","label":"Latest valuation","note":"February 2026 tender offer"},{"value":"$1.9T","label":"2025 payment volume","note":"Not Stripe revenue"},{"value":"34%","label":"Volume growth","note":"Year over year, 2025"},{"value":"Private","label":"Public status","note":"No IPO announced"}],
     "company":["Stripe provides payment processing, billing, tax, fraud prevention, and financial tools to businesses operating online. The breadth of that stack makes Stripe more embedded than a standalone payments gateway.","Stripe announced a tender offer at a $159 billion valuation in February 2026. Its annual letter said businesses on its platform generated $1.9 trillion in payment volume in 2025, up 34% year over year."],

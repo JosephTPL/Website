@@ -44,7 +44,7 @@
     "creator retention and product differentiation."
   ],
   "intelligence": {
-    "kicker":"COMPANY INTELLIGENCE","location":"San Francisco, California","status":"Private","logo":"https://cdn.simpleicons.org/substack/191919",
+    "kicker":"COMPANY INTELLIGENCE","location":"San Francisco, California","status":"Private","logo":"/logos/substack.svg",
     "description":"Substack gives writers and creators publishing, subscription, and audience-discovery infrastructure.",
     "metrics":[{"value":"$1.1B+","label":"Latest valuation","note":"July 2025 Series C"},{"value":"$100M","label":"Latest funding","note":"Series C"},{"value":"5M+","label":"Paid subscriptions","note":"Company-reported, 2025"},{"value":"Private","label":"Public status","note":"No IPO announced"}],
     "company":["Substack combines publishing tools, paid subscriptions, and discovery features to let creators build direct businesses around their audiences. It takes a platform fee from subscription revenue while leaving creators with a direct relationship to readers.","The company raised $100 million in a 2025 Series C at a valuation above $1.1 billion. Its operating question is whether creator ownership can coexist with durable platform retention and a growing consumer product."],

@@ -44,7 +44,7 @@
     "compute spending and product retention."
   ],
   "intelligence": {
-    "kicker":"COMPANY INTELLIGENCE","location":"San Francisco, California","status":"Private","logo":"https://cdn.simpleicons.org/openai/191919",
+    "kicker":"COMPANY INTELLIGENCE","location":"San Francisco, California","status":"Private","logo":"/logos/openai.png",
     "description":"OpenAI develops ChatGPT and a model platform used by consumers, developers, and enterprises.",
     "metrics":[{"value":"$852B","label":"Latest valuation","note":"March 2026 post-money"},{"value":"$122B","label":"Latest funding","note":"Committed capital"},{"value":"1B+","label":"Weekly users","note":"Company target, not current count"},{"value":"Private","label":"Public status","note":"IPO filing reported"}],
     "company":["OpenAI turned ChatGPT into one of the largest consumer distribution channels in technology and continues to expand across API, enterprise, and agentic products.","Its March 2026 financing brought $122 billion in committed capital at an $852 billion post-money valuation. The capital supports the enormous compute and infrastructure investment required to keep improving and serving frontier models."],

@@ -44,7 +44,7 @@
     "partnerships and clinical proof."
   ],
   "intelligence": {
-    "kicker":"COMPANY INTELLIGENCE","location":"London, United Kingdom","status":"Private","logo":"https://cdn.simpleicons.org/googledeepmind/191919",
+    "kicker":"COMPANY INTELLIGENCE","location":"London, United Kingdom","status":"Private","logo":"/logos/isomorphic-labs.png",
     "description":"Isomorphic Labs applies AI to drug design and development, building on advances in protein-structure prediction.",
     "metrics":[{"value":"Not disclosed","label":"Latest valuation","note":"Series B terms were not disclosed"},{"value":"$2.1B","label":"Latest funding","note":"May 2026 Series B"},{"value":"Private","label":"Public status","note":"No IPO announced"},{"value":"2021","label":"Founded","note":"Alphabet spinout"}],
     "company":["Isomorphic Labs was founded to apply AI-native approaches to drug discovery and development. Its opportunity is to turn model capabilities into medicines, a task requiring both computational advances and clinical validation.","The May 2026 Series B is intended to move its platform and drug pipeline toward clinical-scale work. The company did not disclose a valuation, so this profile does not substitute an estimate for a confirmed figure."],

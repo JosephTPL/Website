@@ -44,7 +44,7 @@
     "launch reliability and regulatory access."
   ],
   "intelligence": {
-    "kicker":"COMPANY INTELLIGENCE","location":"Starbase, Texas","status":"Public (SPCX)","logo":"https://cdn.simpleicons.org/spacex/191919",
+    "kicker":"COMPANY INTELLIGENCE","location":"Starbase, Texas","status":"Public (SPCX)","logo":"/logos/spacex.svg",
     "description":"SpaceX operates launch, Starlink connectivity, and AI infrastructure businesses at global scale.",
     "metrics":[{"value":"$1.77T","label":"IPO valuation","note":"June 2026 offering price"},{"value":"$85.7B","label":"IPO proceeds","note":"Including overallotment"},{"value":"SPCX","label":"Ticker","note":"Nasdaq Global Select Market"},{"value":"Public","label":"Public status","note":"IPO closed June 2026"}],
     "company":["SpaceX combines reusable launch systems with Starlink, its global broadband network. The company now also reports an AI segment, giving the public company a much broader infrastructure footprint than launch services alone.","In June 2026, SpaceX completed an IPO that raised approximately $85.7 billion in gross proceeds, including the full exercise of the underwriters' option. The offering valued the business at roughly $1.77 trillion at the $135 offer price."],

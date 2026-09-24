@@ -44,7 +44,7 @@
     "manufacturing and program execution."
   ],
   "intelligence": {
-    "kicker": "COMPANY INTELLIGENCE", "location": "Costa Mesa, California", "status": "Private", "logo": "https://cdn.simpleicons.org/anduril/191919",
+    "kicker": "COMPANY INTELLIGENCE", "location": "Costa Mesa, California", "status": "Private", "logo": "/logos/anduril.png",
     "description": "Anduril builds autonomous defense systems and the software layer used to operate them.",
     "metrics": [{"value":"$61B","label":"Latest valuation","note":"May 2026 post-money"},{"value":"$5B","label":"Latest funding","note":"Series H"},{"value":"$2.2B","label":"2025 revenue","note":"Company-reported"},{"value":"Private","label":"Public status","note":"No confirmed IPO"}],
     "company":["Anduril combines autonomous hardware with its Lattice command-and-control software. The company aims to sell rapidly developed products into defense and national-security customers rather than relying only on traditional long-cycle procurement.","Its May 2026 Series H brought the latest confirmed valuation to $61 billion. Reports of a later financing at a higher valuation remain unconfirmed and are not presented as current fact here."],
