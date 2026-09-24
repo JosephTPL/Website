@@ -1,135 +1,17 @@
 {
-  "slug": "reliance-jio",
-  "name": "Reliance Jio",
-  "status": "Published",
-  "sector": "Telecommunications",
-  "summary": "Jio is Reliance Industries' digital-services platform, combining a large mobile network with broadband, devices, and consumer digital services.",
-  "overview": "<p>Jio is Reliance Industries' digital-services platform, combining a large mobile network with broadband, devices, and consumer digital services.</p>",
-  "as_of": "2026-09-25",
-  "facts": [
-    {
-      "label": "Reported valuation",
-      "value": "$58.5B",
-      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
-    },
-    {
-      "label": "Public status",
-      "value": "Private",
-      "note": "No confirmed public offering is reflected in this profile.",
-      "source": "https://www.jio.com"
-    },
-    {
-      "label": "Primary focus",
-      "value": "Mobile connectivity and digital platforms",
-      "note": "Company description and product positioning.",
-      "source": "https://www.jio.com"
-    }
-  ],
-  "directory_rank": 4,
-  "bull_case": "Reliance Jio is exposed to a large market where scale, distribution, and execution can compound.",
-  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
-  "latest_round": "Reported valuation: $58.5B",
-  "directory_notes": [
-    "Mobile connectivity and digital platforms",
-    "Watch for funding, operating milestones, and changes in market structure."
-  ],
+  "slug":"reliance-jio", "name":"Reliance Jio", "status":"Published", "sector":"Telecommunications and digital platforms", "summary":"Jio is Reliance Industries’ digital-services platform, combining India’s largest mobile network with broadband, devices, cloud, media, and consumer digital services.", "overview":"<p>Jio is Reliance Industries’ digital-services platform, built around mobile connectivity and expanding into broadband, enterprise, devices, and digital services.</p>", "as_of":"2026-09-25",
+  "facts":[{"label":"Reported valuation","value":"$58.5B","note":"Private Ledger market-watch estimate; not a disclosed valuation from a recent completed financing.","source":"https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"},{"label":"Subscribers","value":"524M+","note":"Reported by Reliance Industries for the quarter ending March 2026.","source":"https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf"}], "directory_rank":4,
+  "bull_case":"Jio combines mass-market connectivity, low-cost distribution, spectrum assets, and an expanding digital ecosystem in one of the world’s largest consumer markets.", "bear_case":"Telecom remains capital intensive and price competitive; monetising adjacent services may prove slower or lower margin than investors expect.", "latest_round":"Reported valuation: $58.5B", "directory_notes":["Subscriber growth, ARPU, 5G and home broadband","Enterprise services, devices, cloud, and digital monetisation."],
   "intelligence": {
-    "kicker": "COMPANY INTELLIGENCE",
-    "location": "Mumbai, India",
-    "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=www.jio.com&sz=128",
-    "description": "Jio is Reliance Industries' digital-services platform, combining a large mobile network with broadband, devices, and consumer digital services.",
-    "metrics": [
-      {
-        "value": "$58.5B",
-        "label": "Reported valuation",
-        "note": "Private Ledger market watch"
-      },
-      {
-        "value": "Private",
-        "label": "Public status",
-        "note": "No confirmed IPO"
-      },
-      {
-        "value": "Telecommunications",
-        "label": "Sector",
-        "note": "Mobile connectivity and digital platforms"
-      },
-      {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Latest editorial review"
-      }
-    ],
-    "company": [
-      "Jio is Reliance Industries' digital-services platform, combining a large mobile network with broadband, devices, and consumer digital services.",
-      "The company's investment case is tied to mobile connectivity and digital platforms. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
-    ],
-    "why_it_matters": "Jio is a key proxy for India's expanding digital infrastructure and consumer internet market.",
-    "valuation_history": [
-      {
-        "value": "Private",
-        "date": "2016",
-        "round": "Company founded"
-      },
-      {
-        "value": "$58.5B",
-        "date": "2026",
-        "round": "Latest reported estimate"
-      }
-    ],
-    "changed": [
-      {
-        "date": "2016",
-        "text": "Reliance Jio is founded or begins operating in its current form."
-      },
-      {
-        "date": "2026",
-        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
-      }
-    ],
-    "takeaways": [
-      "Mobile connectivity and digital platforms is the core operating focus.",
-      "Jio is a key proxy for India's expanding digital infrastructure and consumer internet market.",
-      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
-      "Future funding, regulation, and commercial execution are the key items to watch."
-    ],
-    "quick_facts": [
-      [
-        "Founded",
-        "2016"
-      ],
-      [
-        "Headquarters",
-        "Mumbai, India"
-      ],
-      [
-        "Sector",
-        "Telecommunications"
-      ],
-      [
-        "Focus",
-        "Mobile connectivity and digital platforms"
-      ],
-      [
-        "Public status",
-        "Private"
-      ],
-      [
-        "Website",
-        "www.jio.com"
-      ]
-    ],
-    "sources": [
-      {
-        "label": "Company website",
-        "url": "https://www.jio.com"
-      },
-      {
-        "label": "Private-company valuation reference",
-        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
-      }
-    ]
+    "kicker":"COMPANY INTELLIGENCE", "location":"Mumbai, India", "status":"Private", "logo":"https://www.google.com/s2/favicons?domain=jio.com&sz=128",
+    "description":"Reliance Jio is India’s largest telecom network and the core of Jio Platforms, Reliance Industries’ connectivity and digital-services business. It is using that base to expand from mobile access into home broadband, enterprise, cloud, media, and AI-enabled services.",
+    "metrics":[{"value":"$58.5B","label":"Reported valuation","note":"Private Ledger market watch"},{"value":"524M+","label":"Subscribers","note":"March 2026"},{"value":"27M+","label":"Homes connected","note":"FY2026 reported"},{"value":"241EB","label":"Data traffic","note":"FY2026 reported"}],
+    "company":["Jio disrupted India’s mobile market by pairing a nationwide all-IP network with aggressive pricing and inexpensive devices. It rapidly became the country’s largest telecom operator and was subsequently combined with Reliance’s digital assets inside Jio Platforms.","The company is now pursuing a broader digital-services strategy. Reliance says the business served more than 524 million customers at March 2026, connected more than 27 million homes, and carried 241 exabytes of data traffic during FY2026. The next phase of the story is whether Jio can convert connectivity scale into higher-value enterprise, cloud, media, and consumer-service revenue."],
+    "why_it_matters":"Jio is a key proxy for India’s digital infrastructure build-out. Its scale creates a distribution channel for private companies in devices, consumer internet, payments, cloud, enterprise software, logistics, media, and AI targeting the Indian market.",
+    "valuation_history":[{"value":"$0","date":"2016","round":"Commercial launch of Jio mobile service"},{"value":"$65B","date":"Apr 2020","round":"Facebook investment implied valuation"},{"value":"$65B","date":"Jul 2020","round":"Google investment in Jio Platforms"},{"value":"$58.5B","date":"2026","round":"Reported private-market estimate"}],
+    "changed":[{"date":"2016","text":"Jio launches commercial mobile service, catalysing a price and data-access shift in India’s telecom market."},{"date":"Apr 2020","text":"Facebook invests $5.7B for a 9.99% stake in Jio Platforms, implying an enterprise value of roughly $65B."},{"date":"2020","text":"Google, private-equity firms, and sovereign investors join a major capital raise around Jio Platforms."},{"date":"FY2026","text":"Reliance reports 524M-plus subscribers, 27M-plus connected homes, and 241 exabytes of data traffic."}],
+    "takeaways":["Jio’s core asset is a very large, engaged connectivity network in a rapidly digitising market.","The 2020 strategic financings validated Jio Platforms as an important gateway to India’s digital economy.","The reported $58.5B figure is a market estimate rather than a confirmed valuation from a recent completed round.","Future value creation depends on ARPU, 5G and home-broadband returns, and monetisation of enterprise and digital services."],
+    "quick_facts":[["Commercial launch","2016"],["Headquarters","Mumbai, India"],["Chairman","Akash M. Ambani"],["Parent","Reliance Industries"],["Focus","Connectivity and digital platforms"],["Website","jio.com"]],
+    "sources":[{"label":"Reliance FY2026 integrated annual report","url":"https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf"},{"label":"Jio investor relations","url":"https://www.jio.com/about/investor-relations/financials/"},{"label":"Meta: investment in Jio Platforms","url":"https://about.fb.com/news/2020/04/facebook-invests-in-jio/"},{"label":"Reported valuation reference","url":"https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"}]
   }
 }
