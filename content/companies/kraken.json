@@ -1,0 +1,135 @@
+{
+  "slug": "kraken",
+  "name": "Kraken",
+  "status": "Published",
+  "sector": "Digital assets",
+  "summary": "Kraken operates a global digital-asset exchange and related trading, custody, and institutional services.",
+  "overview": "<p>Kraken operates a global digital-asset exchange and related trading, custody, and institutional services.</p>",
+  "as_of": "2026-09-25",
+  "facts": [
+    {
+      "label": "Reported valuation",
+      "value": "$21B",
+      "note": "Private Ledger market-watch estimate; private valuations can change without a public financing.",
+      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+    },
+    {
+      "label": "Public status",
+      "value": "Private",
+      "note": "No confirmed public offering is reflected in this profile.",
+      "source": "https://www.kraken.com"
+    },
+    {
+      "label": "Primary focus",
+      "value": "Crypto exchange and custody",
+      "note": "Company product and market positioning.",
+      "source": "https://www.kraken.com"
+    }
+  ],
+  "directory_rank": 23,
+  "bull_case": "Kraken is positioned in a market where scale, distribution, and execution can compound.",
+  "bear_case": "Private-market estimates are uncertain, and market structure, regulation, competition, or execution could materially change the outlook.",
+  "latest_round": "Reported valuation: $21B",
+  "directory_notes": [
+    "Crypto exchange and custody",
+    "Watch for funding, operating milestones, and market-structure changes."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "San Francisco, CA",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=www.kraken.com&sz=128",
+    "description": "Kraken operates a global digital-asset exchange and related trading, custody, and institutional services.",
+    "metrics": [
+      {
+        "value": "$21B",
+        "label": "Reported valuation",
+        "note": "Private Ledger market watch"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      },
+      {
+        "value": "Digital assets",
+        "label": "Sector",
+        "note": "Crypto exchange and custody"
+      },
+      {
+        "value": "Sep 2026",
+        "label": "Profile updated",
+        "note": "Latest editorial review"
+      }
+    ],
+    "company": [
+      "Kraken operates a global digital-asset exchange and related trading, custody, and institutional services.",
+      "The company's investment case is tied to crypto exchange and custody. This profile will be refreshed when material financing, operating, or market-structure developments are publicly reported."
+    ],
+    "why_it_matters": "Crypto exchange and custody is central to the company story. The key question is whether Kraken can translate private-market momentum into a durable operating position.",
+    "valuation_history": [
+      {
+        "value": "Private",
+        "date": "2011",
+        "round": "Company founded or established"
+      },
+      {
+        "value": "$21B",
+        "date": "2026",
+        "round": "Latest reported estimate"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2011",
+        "text": "Kraken begins operating in its current form."
+      },
+      {
+        "date": "2026",
+        "text": "The company remains on The Private Ledger market watchlist following the latest editorial review."
+      }
+    ],
+    "takeaways": [
+      "Crypto exchange and custody is the company's operating focus.",
+      "Kraken is being tracked as a private-market company to watch.",
+      "Private-company valuation estimates are directional rather than audited market prices.",
+      "Funding, regulation, and commercial execution are the next variables to watch."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2011"
+      ],
+      [
+        "Headquarters",
+        "San Francisco, CA"
+      ],
+      [
+        "Sector",
+        "Digital assets"
+      ],
+      [
+        "Focus",
+        "Crypto exchange and custody"
+      ],
+      [
+        "Public status",
+        "Private"
+      ],
+      [
+        "Website",
+        "www.kraken.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Company website",
+        "url": "https://www.kraken.com"
+      },
+      {
+        "label": "Private-company valuation reference",
+        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "slug": "citadel-securities",
+  "name": "Citadel Securities",
+  "status": "Published",
+  "sector": "Financial markets",
+  "summary": "Citadel Securities is a leading market maker across equities, options, fixed income, and other electronic markets.",
+  "overview": "<p>Citadel Securities is a leading market maker across equities, options, fixed income, and other electronic markets.</p>",
+  "as_of": "2026-09-25",
+  "facts": [
+    {
+      "label": "Reported valuation",
+      "value": "$22B",
+      "note": "Private Ledger market-watch estimate; private valuations can change without a public financing.",
+      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+    },
+    {
+      "label": "Public status",
+      "value": "Private",
+      "note": "No confirmed public offering is reflected in this profile.",
+      "source": "https://www.citadelsecurities.com"
+    },
+    {
+      "label": "Primary focus",
+      "value": "Market making and institutional trading",
+      "note": "Company product and market positioning.",
+      "source": "https://www.citadelsecurities.com"
+    }
+  ],
+  "directory_rank": 21,
+  "bull_case": "Citadel Securities is positioned in a market where scale, distribution, and execution can compound.",
+  "bear_case": "Private-market estimates are uncertain, and market structure, regulation, competition, or execution could materially change the outlook.",
+  "latest_round": "Reported valuation: $22B",
+  "directory_notes": [
+    "Market making and institutional trading",
+    "Watch for funding, operating milestones, and market-structure changes."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Miami, FL",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=www.citadelsecurities.com&sz=128",
+    "description": "Citadel Securities is a leading market maker across equities, options, fixed income, and other electronic markets.",
+    "metrics": [
+      {
+        "value": "$22B",
+        "label": "Reported valuation",
+        "note": "Private Ledger market watch"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      },
+      {
+        "value": "Financial markets",
+        "label": "Sector",
+        "note": "Market making and institutional trading"
+      },
+      {
+        "value": "Sep 2026",
+        "label": "Profile updated",
+        "note": "Latest editorial review"
+      }
+    ],
+    "company": [
+      "Citadel Securities is a leading market maker across equities, options, fixed income, and other electronic markets.",
+      "The company's investment case is tied to market making and institutional trading. This profile will be refreshed when material financing, operating, or market-structure developments are publicly reported."
+    ],
+    "why_it_matters": "Market making and institutional trading is central to the company story. The key question is whether Citadel Securities can translate private-market momentum into a durable operating position.",
+    "valuation_history": [
+      {
+        "value": "Private",
+        "date": "2002",
+        "round": "Company founded or established"
+      },
+      {
+        "value": "$22B",
+        "date": "2026",
+        "round": "Latest reported estimate"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2002",
+        "text": "Citadel Securities begins operating in its current form."
+      },
+      {
+        "date": "2026",
+        "text": "The company remains on The Private Ledger market watchlist following the latest editorial review."
+      }
+    ],
+    "takeaways": [
+      "Market making and institutional trading is the company's operating focus.",
+      "Citadel Securities is being tracked as a private-market company to watch.",
+      "Private-company valuation estimates are directional rather than audited market prices.",
+      "Funding, regulation, and commercial execution are the next variables to watch."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2002"
+      ],
+      [
+        "Headquarters",
+        "Miami, FL"
+      ],
+      [
+        "Sector",
+        "Financial markets"
+      ],
+      [
+        "Focus",
+        "Market making and institutional trading"
+      ],
+      [
+        "Public status",
+        "Private"
+      ],
+      [
+        "Website",
+        "www.citadelsecurities.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Company website",
+        "url": "https://www.citadelsecurities.com"
+      },
+      {
+        "label": "Private-company valuation reference",
+        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      }
+    ]
+  }
+}

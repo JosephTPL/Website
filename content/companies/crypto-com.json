@@ -1,0 +1,135 @@
+{
+  "slug": "crypto-com",
+  "name": "Crypto.com",
+  "status": "Published",
+  "sector": "Digital assets",
+  "summary": "Crypto.com provides digital-asset trading, custody, card, and payments services.",
+  "overview": "<p>Crypto.com provides digital-asset trading, custody, card, and payments services.</p>",
+  "as_of": "2026-09-25",
+  "facts": [
+    {
+      "label": "Reported valuation",
+      "value": "$20B",
+      "note": "Private Ledger market-watch estimate; private valuations can change without a public financing.",
+      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+    },
+    {
+      "label": "Public status",
+      "value": "Private",
+      "note": "No confirmed public offering is reflected in this profile.",
+      "source": "https://crypto.com"
+    },
+    {
+      "label": "Primary focus",
+      "value": "Crypto exchange and payments",
+      "note": "Company product and market positioning.",
+      "source": "https://crypto.com"
+    }
+  ],
+  "directory_rank": 29,
+  "bull_case": "Crypto.com is positioned in a market where scale, distribution, and execution can compound.",
+  "bear_case": "Private-market estimates are uncertain, and market structure, regulation, competition, or execution could materially change the outlook.",
+  "latest_round": "Reported valuation: $20B",
+  "directory_notes": [
+    "Crypto exchange and payments",
+    "Watch for funding, operating milestones, and market-structure changes."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Singapore",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=crypto.com&sz=128",
+    "description": "Crypto.com provides digital-asset trading, custody, card, and payments services.",
+    "metrics": [
+      {
+        "value": "$20B",
+        "label": "Reported valuation",
+        "note": "Private Ledger market watch"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      },
+      {
+        "value": "Digital assets",
+        "label": "Sector",
+        "note": "Crypto exchange and payments"
+      },
+      {
+        "value": "Sep 2026",
+        "label": "Profile updated",
+        "note": "Latest editorial review"
+      }
+    ],
+    "company": [
+      "Crypto.com provides digital-asset trading, custody, card, and payments services.",
+      "The company's investment case is tied to crypto exchange and payments. This profile will be refreshed when material financing, operating, or market-structure developments are publicly reported."
+    ],
+    "why_it_matters": "Crypto exchange and payments is central to the company story. The key question is whether Crypto.com can translate private-market momentum into a durable operating position.",
+    "valuation_history": [
+      {
+        "value": "Private",
+        "date": "2016",
+        "round": "Company founded or established"
+      },
+      {
+        "value": "$20B",
+        "date": "2026",
+        "round": "Latest reported estimate"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2016",
+        "text": "Crypto.com begins operating in its current form."
+      },
+      {
+        "date": "2026",
+        "text": "The company remains on The Private Ledger market watchlist following the latest editorial review."
+      }
+    ],
+    "takeaways": [
+      "Crypto exchange and payments is the company's operating focus.",
+      "Crypto.com is being tracked as a private-market company to watch.",
+      "Private-company valuation estimates are directional rather than audited market prices.",
+      "Funding, regulation, and commercial execution are the next variables to watch."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2016"
+      ],
+      [
+        "Headquarters",
+        "Singapore"
+      ],
+      [
+        "Sector",
+        "Digital assets"
+      ],
+      [
+        "Focus",
+        "Crypto exchange and payments"
+      ],
+      [
+        "Public status",
+        "Private"
+      ],
+      [
+        "Website",
+        "crypto.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Company website",
+        "url": "https://crypto.com"
+      },
+      {
+        "label": "Private-company valuation reference",
+        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      }
+    ]
+  }
+}

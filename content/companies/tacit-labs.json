@@ -1,0 +1,135 @@
+{
+  "slug": "tacit-labs",
+  "name": "Tacit Labs",
+  "status": "Published",
+  "sector": "Artificial intelligence",
+  "summary": "Tacit Labs is a private AI company on The Private Ledger market watchlist.",
+  "overview": "<p>Tacit Labs is a private AI company on The Private Ledger market watchlist.</p>",
+  "as_of": "2026-09-25",
+  "facts": [
+    {
+      "label": "Reported valuation",
+      "value": "Not publicly disclosed",
+      "note": "Private Ledger market-watch estimate; private valuations can change without a public financing.",
+      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+    },
+    {
+      "label": "Public status",
+      "value": "Private",
+      "note": "No confirmed public offering is reflected in this profile.",
+      "source": "https://tacitlabs.com"
+    },
+    {
+      "label": "Primary focus",
+      "value": "AI software",
+      "note": "Company product and market positioning.",
+      "source": "https://tacitlabs.com"
+    }
+  ],
+  "directory_rank": 40,
+  "bull_case": "Tacit Labs is positioned in a market where scale, distribution, and execution can compound.",
+  "bear_case": "Private-market estimates are uncertain, and market structure, regulation, competition, or execution could materially change the outlook.",
+  "latest_round": "Latest financing not publicly disclosed",
+  "directory_notes": [
+    "AI software",
+    "Watch for funding, operating milestones, and market-structure changes."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "United States",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=tacitlabs.com&sz=128",
+    "description": "Tacit Labs is a private AI company on The Private Ledger market watchlist.",
+    "metrics": [
+      {
+        "value": "Not publicly disclosed",
+        "label": "Reported valuation",
+        "note": "Private Ledger market watch"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      },
+      {
+        "value": "Artificial intelligence",
+        "label": "Sector",
+        "note": "AI software"
+      },
+      {
+        "value": "Sep 2026",
+        "label": "Profile updated",
+        "note": "Latest editorial review"
+      }
+    ],
+    "company": [
+      "Tacit Labs is a private AI company on The Private Ledger market watchlist.",
+      "The company's investment case is tied to ai software. This profile will be refreshed when material financing, operating, or market-structure developments are publicly reported."
+    ],
+    "why_it_matters": "AI software is central to the company story. The key question is whether Tacit Labs can translate private-market momentum into a durable operating position.",
+    "valuation_history": [
+      {
+        "value": "Private",
+        "date": "Not publicly disclosed",
+        "round": "Company founded or established"
+      },
+      {
+        "value": "Not publicly disclosed",
+        "date": "2026",
+        "round": "Latest reported estimate"
+      }
+    ],
+    "changed": [
+      {
+        "date": "Not publicly disclosed",
+        "text": "Tacit Labs begins operating in its current form."
+      },
+      {
+        "date": "2026",
+        "text": "The company remains on The Private Ledger market watchlist following the latest editorial review."
+      }
+    ],
+    "takeaways": [
+      "AI software is the company's operating focus.",
+      "Tacit Labs is being tracked as a private-market company to watch.",
+      "Private-company valuation estimates are directional rather than audited market prices.",
+      "Funding, regulation, and commercial execution are the next variables to watch."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "Not publicly disclosed"
+      ],
+      [
+        "Headquarters",
+        "United States"
+      ],
+      [
+        "Sector",
+        "Artificial intelligence"
+      ],
+      [
+        "Focus",
+        "AI software"
+      ],
+      [
+        "Public status",
+        "Private"
+      ],
+      [
+        "Website",
+        "tacitlabs.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Company website",
+        "url": "https://tacitlabs.com"
+      },
+      {
+        "label": "Private-company valuation reference",
+        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      }
+    ]
+  }
+}
