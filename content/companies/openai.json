@@ -7,7 +7,7 @@
   "overview": "<p>OpenAI has turned ChatGPT into a major distribution channel for artificial intelligence. The report separates the business it can monetize today from the much larger markets it hopes to reach through agents and future AI capabilities. That distinction matters when assessing how much growth a valuation already assumes.</p>",
   "image": "https://substack-post-media.s3.amazonaws.com/public/images/3c60cb13-8e56-4263-bec5-7d58e09fb307_1731x909.png",
   "image_alt": "OpenAI \u2014 The Private Ledger",
-  "as_of": "2026-08-11",
+  "as_of": "2026-09-24",
   "report": "the-breakdown-openai",
   "facts": [
     {
@@ -38,9 +38,21 @@
   "directory_rank": 5,
   "bull_case": "Consumer mindshare and developer adoption offer a path to a large platform business.",
   "bear_case": "The cost of intelligence, competitive model progress, and governance questions remain material.",
-  "latest_round": "October 2024: $6.6B funding round",
+  "latest_round": "March 2026: $122B funding round",
   "directory_notes": [
     "Enterprise conversion",
     "compute spending and product retention."
-  ]
+  ],
+  "intelligence": {
+    "kicker":"COMPANY INTELLIGENCE","location":"San Francisco, California","status":"Private","logo":"https://cdn.simpleicons.org/openai/191919",
+    "description":"OpenAI develops ChatGPT and a model platform used by consumers, developers, and enterprises.",
+    "metrics":[{"value":"$852B","label":"Latest valuation","note":"March 2026 post-money"},{"value":"$122B","label":"Latest funding","note":"Committed capital"},{"value":"1B+","label":"Weekly users","note":"Company target, not current count"},{"value":"Private","label":"Public status","note":"IPO filing reported"}],
+    "company":["OpenAI turned ChatGPT into one of the largest consumer distribution channels in technology and continues to expand across API, enterprise, and agentic products.","Its March 2026 financing brought $122 billion in committed capital at an $852 billion post-money valuation. The capital supports the enormous compute and infrastructure investment required to keep improving and serving frontier models."],
+    "why_it_matters":"OpenAI is central to the private-market AI cycle and to public companies supplying compute, cloud capacity, chips, and enterprise distribution. Its eventual IPO would set a reference point for the economics and valuation of frontier AI.",
+    "valuation_history":[{"value":"$29B","date":"2023","round":"Microsoft-linked mark"},{"value":"$157B","date":"2024","round":"Funding round"},{"value":"$300B","date":"2025","round":"Funding round"},{"value":"$852B","date":"Mar 2026","round":"Latest funding"}],
+    "changed":[{"date":"2015","text":"OpenAI is established as an AI research organization."},{"date":"2022","text":"ChatGPT launches and creates a mass-market AI distribution channel."},{"date":"2024","text":"Enterprise and developer adoption broaden beyond consumer chat."},{"date":"2026","text":"A $122 billion financing funds the next phase of model and infrastructure expansion."}],
+    "takeaways":["ChatGPT's distribution creates a powerful platform advantage.","Compute intensity makes capital access a central competitive variable.","Enterprise adoption is critical to turning usage into durable economics.","IPO timing remains unconfirmed despite reported filing activity."],
+    "quick_facts":[["Founded","2015"],["Headquarters","San Francisco, CA"],["CEO","Sam Altman"],["Core products","ChatGPT, API, Codex"],["Structure","OpenAI Group PBC"],["Website","openai.com"]],
+    "sources":[{"label":"March 2026 funding announcement","url":"https://openai.com/index/accelerating-the-next-phase-ai/"},{"label":"OpenAI breakdown","url":"/articles/the-breakdown-openai/"}]
+  }
 }
