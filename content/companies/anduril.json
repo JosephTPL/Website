@@ -7,7 +7,7 @@
   "overview": "<p>Anduril combines autonomous defense hardware with its Lattice software platform. The report argues that building products before contracts are guaranteed can speed innovation, but also puts development risk on the company. Its growth is compelling; whether its valuation reflects achievable economics is the harder question.</p>",
   "image": "https://substack-post-media.s3.amazonaws.com/public/images/09cc3cb1-2589-4f78-b516-f9f9abc2d956_1600x840.jpeg",
   "image_alt": "Anduril \u2014 The Private Ledger",
-  "as_of": "2026-05-20",
+  "as_of": "2026-09-24",
   "report": "the-breakdown-anduril",
   "facts": [
     {
@@ -38,9 +38,21 @@
   "directory_rank": 6,
   "bull_case": "Software-led defense programs can benefit from multi-year procurement and urgent demand.",
   "bear_case": "Hardware production, contracting cycles, and export controls add operational risk.",
-  "latest_round": "June 2025: $2.5B Series G",
+  "latest_round": "May 2026: $5B Series H",
   "directory_notes": [
     "Lattice adoption",
     "manufacturing and program execution."
-  ]
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE", "location": "Costa Mesa, California", "status": "Private", "logo": "https://cdn.simpleicons.org/anduril/191919",
+    "description": "Anduril builds autonomous defense systems and the software layer used to operate them.",
+    "metrics": [{"value":"$61B","label":"Latest valuation","note":"May 2026 post-money"},{"value":"$5B","label":"Latest funding","note":"Series H"},{"value":"$2.2B","label":"2025 revenue","note":"Company-reported"},{"value":"Private","label":"Public status","note":"No confirmed IPO"}],
+    "company":["Anduril combines autonomous hardware with its Lattice command-and-control software. The company aims to sell rapidly developed products into defense and national-security customers rather than relying only on traditional long-cycle procurement.","Its May 2026 Series H brought the latest confirmed valuation to $61 billion. Reports of a later financing at a higher valuation remain unconfirmed and are not presented as current fact here."],
+    "why_it_matters":"Anduril is part of the private defense cohort challenging legacy contractors with software-led autonomy and new manufacturing capacity. Its progress affects the pace of defense procurement, the industrial base, and the public-market case for high-growth defense technology.",
+    "valuation_history":[{"value":"$1.9B","date":"2020","round":"Series C"},{"value":"$8.5B","date":"2022","round":"Series E"},{"value":"$30.5B","date":"2025","round":"Series G"},{"value":"$61B","date":"May 2026","round":"Series H"}],
+    "changed":[{"date":"2017","text":"Anduril is founded around a software-first approach to defense autonomy."},{"date":"2022","text":"Lattice becomes the central software layer tying together sensors, vehicles, and operators."},{"date":"2025","text":"The company expands manufacturing ambitions alongside growing defense demand."},{"date":"2026","text":"A $5 billion Series H funds broader production capacity and product development."}],
+    "takeaways":["Autonomy and software integration are central to Anduril's differentiation.","Hardware production and government procurement remain execution bottlenecks.","The $61 billion valuation assumes sustained program wins and manufacturing scale.","A future listing would test how public investors value defense-software multiples."],
+    "quick_facts":[["Founded","2017"],["Headquarters","Costa Mesa, CA"],["Founder","Palmer Luckey"],["Core platform","Lattice"],["Focus","Autonomous defense systems"],["Website","anduril.com"]],
+    "sources":[{"label":"Series H coverage","url":"https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/"},{"label":"Anduril breakdown","url":"/articles/the-breakdown-anduril/"}]
+  }
 }
