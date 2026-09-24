@@ -1,0 +1,135 @@
+{
+  "slug": "safe-superintelligence",
+  "name": "Safe Superintelligence",
+  "status": "Published",
+  "sector": "Artificial intelligence",
+  "summary": "Safe Superintelligence is an AI research company focused on building superintelligent systems safely.",
+  "overview": "<p>Safe Superintelligence is an AI research company focused on building superintelligent systems safely.</p>",
+  "as_of": "2026-09-25",
+  "facts": [
+    {
+      "label": "Reported valuation",
+      "value": "$32B",
+      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
+      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+    },
+    {
+      "label": "Public status",
+      "value": "Private",
+      "note": "No confirmed public offering is reflected in this profile.",
+      "source": "https://ssi.inc"
+    },
+    {
+      "label": "Primary focus",
+      "value": "AI safety and frontier-model research",
+      "note": "Company description and product positioning.",
+      "source": "https://ssi.inc"
+    }
+  ],
+  "directory_rank": 12,
+  "bull_case": "Safe Superintelligence is exposed to a large market where scale, distribution, and execution can compound.",
+  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
+  "latest_round": "Reported valuation: $32B",
+  "directory_notes": [
+    "AI safety and frontier-model research",
+    "Watch for funding, operating milestones, and changes in market structure."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Palo Alto, CA",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=ssi.inc&sz=128",
+    "description": "Safe Superintelligence is an AI research company focused on building superintelligent systems safely.",
+    "metrics": [
+      {
+        "value": "$32B",
+        "label": "Reported valuation",
+        "note": "Private Ledger market watch"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      },
+      {
+        "value": "Artificial intelligence",
+        "label": "Sector",
+        "note": "AI safety and frontier-model research"
+      },
+      {
+        "value": "Sep 2026",
+        "label": "Profile updated",
+        "note": "Latest editorial review"
+      }
+    ],
+    "company": [
+      "Safe Superintelligence is an AI research company focused on building superintelligent systems safely.",
+      "The company's investment case is tied to ai safety and frontier-model research. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
+    ],
+    "why_it_matters": "The company represents the high-conviction, research-first end of private AI financing despite limited public product disclosure.",
+    "valuation_history": [
+      {
+        "value": "Private",
+        "date": "2024",
+        "round": "Company founded"
+      },
+      {
+        "value": "$32B",
+        "date": "2026",
+        "round": "Latest reported estimate"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2024",
+        "text": "Safe Superintelligence is founded or begins operating in its current form."
+      },
+      {
+        "date": "2026",
+        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
+      }
+    ],
+    "takeaways": [
+      "AI safety and frontier-model research is the core operating focus.",
+      "The company represents the high-conviction, research-first end of private AI financing despite limited public product disclosure.",
+      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
+      "Future funding, regulation, and commercial execution are the key items to watch."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2024"
+      ],
+      [
+        "Headquarters",
+        "Palo Alto, CA"
+      ],
+      [
+        "Sector",
+        "Artificial intelligence"
+      ],
+      [
+        "Focus",
+        "AI safety and frontier-model research"
+      ],
+      [
+        "Public status",
+        "Private"
+      ],
+      [
+        "Website",
+        "ssi.inc"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Company website",
+        "url": "https://ssi.inc"
+      },
+      {
+        "label": "Private-company valuation reference",
+        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      }
+    ]
+  }
+}

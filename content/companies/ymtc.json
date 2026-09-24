@@ -1,0 +1,135 @@
+{
+  "slug": "ymtc",
+  "name": "YMTC",
+  "status": "Published",
+  "sector": "Semiconductors",
+  "summary": "Yangtze Memory Technologies Co. develops NAND flash memory and related semiconductor technology.",
+  "overview": "<p>Yangtze Memory Technologies Co. develops NAND flash memory and related semiconductor technology.</p>",
+  "as_of": "2026-09-25",
+  "facts": [
+    {
+      "label": "Reported valuation",
+      "value": "$22.5B",
+      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
+      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+    },
+    {
+      "label": "Public status",
+      "value": "Private",
+      "note": "No confirmed public offering is reflected in this profile.",
+      "source": "https://www.ymtc.com"
+    },
+    {
+      "label": "Primary focus",
+      "value": "Memory semiconductors",
+      "note": "Company description and product positioning.",
+      "source": "https://www.ymtc.com"
+    }
+  ],
+  "directory_rank": 19,
+  "bull_case": "YMTC is exposed to a large market where scale, distribution, and execution can compound.",
+  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
+  "latest_round": "Reported valuation: $22.5B",
+  "directory_notes": [
+    "Memory semiconductors",
+    "Watch for funding, operating milestones, and changes in market structure."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Wuhan, China",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=www.ymtc.com&sz=128",
+    "description": "Yangtze Memory Technologies Co. develops NAND flash memory and related semiconductor technology.",
+    "metrics": [
+      {
+        "value": "$22.5B",
+        "label": "Reported valuation",
+        "note": "Private Ledger market watch"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      },
+      {
+        "value": "Semiconductors",
+        "label": "Sector",
+        "note": "Memory semiconductors"
+      },
+      {
+        "value": "Sep 2026",
+        "label": "Profile updated",
+        "note": "Latest editorial review"
+      }
+    ],
+    "company": [
+      "Yangtze Memory Technologies Co. develops NAND flash memory and related semiconductor technology.",
+      "The company's investment case is tied to memory semiconductors. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
+    ],
+    "why_it_matters": "YMTC is relevant to the global chip supply chain and the strategic push for domestic semiconductor capacity in China.",
+    "valuation_history": [
+      {
+        "value": "Private",
+        "date": "2016",
+        "round": "Company founded"
+      },
+      {
+        "value": "$22.5B",
+        "date": "2026",
+        "round": "Latest reported estimate"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2016",
+        "text": "YMTC is founded or begins operating in its current form."
+      },
+      {
+        "date": "2026",
+        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
+      }
+    ],
+    "takeaways": [
+      "Memory semiconductors is the core operating focus.",
+      "YMTC is relevant to the global chip supply chain and the strategic push for domestic semiconductor capacity in China.",
+      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
+      "Future funding, regulation, and commercial execution are the key items to watch."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2016"
+      ],
+      [
+        "Headquarters",
+        "Wuhan, China"
+      ],
+      [
+        "Sector",
+        "Semiconductors"
+      ],
+      [
+        "Focus",
+        "Memory semiconductors"
+      ],
+      [
+        "Public status",
+        "Private"
+      ],
+      [
+        "Website",
+        "www.ymtc.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Company website",
+        "url": "https://www.ymtc.com"
+      },
+      {
+        "label": "Private-company valuation reference",
+        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      }
+    ]
+  }
+}

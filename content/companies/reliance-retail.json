@@ -1,0 +1,135 @@
+{
+  "slug": "reliance-retail",
+  "name": "Reliance Retail",
+  "status": "Published",
+  "sector": "Retail",
+  "summary": "Reliance Retail operates a large Indian retail network across grocery, consumer electronics, fashion, and digital commerce.",
+  "overview": "<p>Reliance Retail operates a large Indian retail network across grocery, consumer electronics, fashion, and digital commerce.</p>",
+  "as_of": "2026-09-25",
+  "facts": [
+    {
+      "label": "Reported valuation",
+      "value": "$101B",
+      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
+      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+    },
+    {
+      "label": "Public status",
+      "value": "Private",
+      "note": "No confirmed public offering is reflected in this profile.",
+      "source": "https://relianceretail.com"
+    },
+    {
+      "label": "Primary focus",
+      "value": "Omnichannel retail and consumer distribution",
+      "note": "Company description and product positioning.",
+      "source": "https://relianceretail.com"
+    }
+  ],
+  "directory_rank": 2,
+  "bull_case": "Reliance Retail is exposed to a large market where scale, distribution, and execution can compound.",
+  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
+  "latest_round": "Reported valuation: $101B",
+  "directory_notes": [
+    "Omnichannel retail and consumer distribution",
+    "Watch for funding, operating milestones, and changes in market structure."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Mumbai, India",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=relianceretail.com&sz=128",
+    "description": "Reliance Retail operates a large Indian retail network across grocery, consumer electronics, fashion, and digital commerce.",
+    "metrics": [
+      {
+        "value": "$101B",
+        "label": "Reported valuation",
+        "note": "Private Ledger market watch"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      },
+      {
+        "value": "Retail",
+        "label": "Sector",
+        "note": "Omnichannel retail and consumer distribution"
+      },
+      {
+        "value": "Sep 2026",
+        "label": "Profile updated",
+        "note": "Latest editorial review"
+      }
+    ],
+    "company": [
+      "Reliance Retail operates a large Indian retail network across grocery, consumer electronics, fashion, and digital commerce.",
+      "The company's investment case is tied to omnichannel retail and consumer distribution. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
+    ],
+    "why_it_matters": "Its scale puts it at the intersection of India's consumer economy, retail digitisation, and strategic capital.",
+    "valuation_history": [
+      {
+        "value": "Private",
+        "date": "2006",
+        "round": "Company founded"
+      },
+      {
+        "value": "$101B",
+        "date": "2026",
+        "round": "Latest reported estimate"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2006",
+        "text": "Reliance Retail is founded or begins operating in its current form."
+      },
+      {
+        "date": "2026",
+        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
+      }
+    ],
+    "takeaways": [
+      "Omnichannel retail and consumer distribution is the core operating focus.",
+      "Its scale puts it at the intersection of India's consumer economy, retail digitisation, and strategic capital.",
+      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
+      "Future funding, regulation, and commercial execution are the key items to watch."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2006"
+      ],
+      [
+        "Headquarters",
+        "Mumbai, India"
+      ],
+      [
+        "Sector",
+        "Retail"
+      ],
+      [
+        "Focus",
+        "Omnichannel retail and consumer distribution"
+      ],
+      [
+        "Public status",
+        "Private"
+      ],
+      [
+        "Website",
+        "relianceretail.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Company website",
+        "url": "https://relianceretail.com"
+      },
+      {
+        "label": "Private-company valuation reference",
+        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      }
+    ]
+  }
+}

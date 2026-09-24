@@ -1,0 +1,135 @@
+{
+  "slug": "etched",
+  "name": "Etched",
+  "status": "Published",
+  "sector": "Semiconductors",
+  "summary": "Etched designs specialised hardware intended to make transformer-model inference more efficient.",
+  "overview": "<p>Etched designs specialised hardware intended to make transformer-model inference more efficient.</p>",
+  "as_of": "2026-09-25",
+  "facts": [
+    {
+      "label": "Reported valuation",
+      "value": "$21B",
+      "note": "Private Ledger market-watch estimate; private valuations can change without a public financing.",
+      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+    },
+    {
+      "label": "Public status",
+      "value": "Private",
+      "note": "No confirmed public offering is reflected in this profile.",
+      "source": "https://etched.com"
+    },
+    {
+      "label": "Primary focus",
+      "value": "Specialised AI chips",
+      "note": "Company product and market positioning.",
+      "source": "https://etched.com"
+    }
+  ],
+  "directory_rank": 24,
+  "bull_case": "Etched is positioned in a market where scale, distribution, and execution can compound.",
+  "bear_case": "Private-market estimates are uncertain, and market structure, regulation, competition, or execution could materially change the outlook.",
+  "latest_round": "Reported valuation: $21B",
+  "directory_notes": [
+    "Specialised AI chips",
+    "Watch for funding, operating milestones, and market-structure changes."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "San Francisco, CA",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=etched.com&sz=128",
+    "description": "Etched designs specialised hardware intended to make transformer-model inference more efficient.",
+    "metrics": [
+      {
+        "value": "$21B",
+        "label": "Reported valuation",
+        "note": "Private Ledger market watch"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      },
+      {
+        "value": "Semiconductors",
+        "label": "Sector",
+        "note": "Specialised AI chips"
+      },
+      {
+        "value": "Sep 2026",
+        "label": "Profile updated",
+        "note": "Latest editorial review"
+      }
+    ],
+    "company": [
+      "Etched designs specialised hardware intended to make transformer-model inference more efficient.",
+      "The company's investment case is tied to specialised ai chips. This profile will be refreshed when material financing, operating, or market-structure developments are publicly reported."
+    ],
+    "why_it_matters": "Specialised AI chips is central to the company story. The key question is whether Etched can translate private-market momentum into a durable operating position.",
+    "valuation_history": [
+      {
+        "value": "Private",
+        "date": "2022",
+        "round": "Company founded or established"
+      },
+      {
+        "value": "$21B",
+        "date": "2026",
+        "round": "Latest reported estimate"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2022",
+        "text": "Etched begins operating in its current form."
+      },
+      {
+        "date": "2026",
+        "text": "The company remains on The Private Ledger market watchlist following the latest editorial review."
+      }
+    ],
+    "takeaways": [
+      "Specialised AI chips is the company's operating focus.",
+      "Etched is being tracked as a private-market company to watch.",
+      "Private-company valuation estimates are directional rather than audited market prices.",
+      "Funding, regulation, and commercial execution are the next variables to watch."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2022"
+      ],
+      [
+        "Headquarters",
+        "San Francisco, CA"
+      ],
+      [
+        "Sector",
+        "Semiconductors"
+      ],
+      [
+        "Focus",
+        "Specialised AI chips"
+      ],
+      [
+        "Public status",
+        "Private"
+      ],
+      [
+        "Website",
+        "etched.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Company website",
+        "url": "https://etched.com"
+      },
+      {
+        "label": "Private-company valuation reference",
+        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      }
+    ]
+  }
+}

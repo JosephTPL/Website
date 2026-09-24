@@ -1,0 +1,135 @@
+{
+  "slug": "mihoyo",
+  "name": "miHoYo",
+  "status": "Published",
+  "sector": "Gaming",
+  "summary": "miHoYo develops and publishes globally distributed games, including Genshin Impact and Honkai: Star Rail.",
+  "overview": "<p>miHoYo develops and publishes globally distributed games, including Genshin Impact and Honkai: Star Rail.</p>",
+  "as_of": "2026-09-25",
+  "facts": [
+    {
+      "label": "Reported valuation",
+      "value": "$23B",
+      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
+      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+    },
+    {
+      "label": "Public status",
+      "value": "Private",
+      "note": "No confirmed public offering is reflected in this profile.",
+      "source": "https://www.mihoyo.com"
+    },
+    {
+      "label": "Primary focus",
+      "value": "Live-service games and intellectual property",
+      "note": "Company description and product positioning.",
+      "source": "https://www.mihoyo.com"
+    }
+  ],
+  "directory_rank": 18,
+  "bull_case": "miHoYo is exposed to a large market where scale, distribution, and execution can compound.",
+  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
+  "latest_round": "Reported valuation: $23B",
+  "directory_notes": [
+    "Live-service games and intellectual property",
+    "Watch for funding, operating milestones, and changes in market structure."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Shanghai, China",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=www.mihoyo.com&sz=128",
+    "description": "miHoYo develops and publishes globally distributed games, including Genshin Impact and Honkai: Star Rail.",
+    "metrics": [
+      {
+        "value": "$23B",
+        "label": "Reported valuation",
+        "note": "Private Ledger market watch"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      },
+      {
+        "value": "Gaming",
+        "label": "Sector",
+        "note": "Live-service games and intellectual property"
+      },
+      {
+        "value": "Sep 2026",
+        "label": "Profile updated",
+        "note": "Latest editorial review"
+      }
+    ],
+    "company": [
+      "miHoYo develops and publishes globally distributed games, including Genshin Impact and Honkai: Star Rail.",
+      "The company's investment case is tied to live-service games and intellectual property. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
+    ],
+    "why_it_matters": "Its success shows how a private studio can build enduring global franchises through content cadence and direct player relationships.",
+    "valuation_history": [
+      {
+        "value": "Private",
+        "date": "2011",
+        "round": "Company founded"
+      },
+      {
+        "value": "$23B",
+        "date": "2026",
+        "round": "Latest reported estimate"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2011",
+        "text": "miHoYo is founded or begins operating in its current form."
+      },
+      {
+        "date": "2026",
+        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
+      }
+    ],
+    "takeaways": [
+      "Live-service games and intellectual property is the core operating focus.",
+      "Its success shows how a private studio can build enduring global franchises through content cadence and direct player relationships.",
+      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
+      "Future funding, regulation, and commercial execution are the key items to watch."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2011"
+      ],
+      [
+        "Headquarters",
+        "Shanghai, China"
+      ],
+      [
+        "Sector",
+        "Gaming"
+      ],
+      [
+        "Focus",
+        "Live-service games and intellectual property"
+      ],
+      [
+        "Public status",
+        "Private"
+      ],
+      [
+        "Website",
+        "www.mihoyo.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Company website",
+        "url": "https://www.mihoyo.com"
+      },
+      {
+        "label": "Private-company valuation reference",
+        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      }
+    ]
+  }
+}

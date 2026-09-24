@@ -1,0 +1,135 @@
+{
+  "slug": "figure",
+  "name": "Figure",
+  "status": "Published",
+  "sector": "Robotics",
+  "summary": "Figure develops general-purpose humanoid robots intended for industrial and commercial work.",
+  "overview": "<p>Figure develops general-purpose humanoid robots intended for industrial and commercial work.</p>",
+  "as_of": "2026-09-25",
+  "facts": [
+    {
+      "label": "Reported valuation",
+      "value": "$39B",
+      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
+      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+    },
+    {
+      "label": "Public status",
+      "value": "Private",
+      "note": "No confirmed public offering is reflected in this profile.",
+      "source": "https://www.figure.ai"
+    },
+    {
+      "label": "Primary focus",
+      "value": "Humanoid robotics",
+      "note": "Company description and product positioning.",
+      "source": "https://www.figure.ai"
+    }
+  ],
+  "directory_rank": 10,
+  "bull_case": "Figure is exposed to a large market where scale, distribution, and execution can compound.",
+  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
+  "latest_round": "Reported valuation: $39B",
+  "directory_notes": [
+    "Humanoid robotics",
+    "Watch for funding, operating milestones, and changes in market structure."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Sunnyvale, CA",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=www.figure.ai&sz=128",
+    "description": "Figure develops general-purpose humanoid robots intended for industrial and commercial work.",
+    "metrics": [
+      {
+        "value": "$39B",
+        "label": "Reported valuation",
+        "note": "Private Ledger market watch"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      },
+      {
+        "value": "Robotics",
+        "label": "Sector",
+        "note": "Humanoid robotics"
+      },
+      {
+        "value": "Sep 2026",
+        "label": "Profile updated",
+        "note": "Latest editorial review"
+      }
+    ],
+    "company": [
+      "Figure develops general-purpose humanoid robots intended for industrial and commercial work.",
+      "The company's investment case is tied to humanoid robotics. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
+    ],
+    "why_it_matters": "Its progress will help determine whether the current robotics funding cycle can translate into deployed, economically useful automation.",
+    "valuation_history": [
+      {
+        "value": "Private",
+        "date": "2022",
+        "round": "Company founded"
+      },
+      {
+        "value": "$39B",
+        "date": "2026",
+        "round": "Latest reported estimate"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2022",
+        "text": "Figure is founded or begins operating in its current form."
+      },
+      {
+        "date": "2026",
+        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
+      }
+    ],
+    "takeaways": [
+      "Humanoid robotics is the core operating focus.",
+      "Its progress will help determine whether the current robotics funding cycle can translate into deployed, economically useful automation.",
+      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
+      "Future funding, regulation, and commercial execution are the key items to watch."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2022"
+      ],
+      [
+        "Headquarters",
+        "Sunnyvale, CA"
+      ],
+      [
+        "Sector",
+        "Robotics"
+      ],
+      [
+        "Focus",
+        "Humanoid robotics"
+      ],
+      [
+        "Public status",
+        "Private"
+      ],
+      [
+        "Website",
+        "www.figure.ai"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Company website",
+        "url": "https://www.figure.ai"
+      },
+      {
+        "label": "Private-company valuation reference",
+        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      }
+    ]
+  }
+}

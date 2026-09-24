@@ -1,0 +1,135 @@
+{
+  "slug": "jd-digits",
+  "name": "JD Digits",
+  "status": "Published",
+  "sector": "Fintech",
+  "summary": "JD Digits provides digital technology and financial-services capabilities within the JD.com ecosystem.",
+  "overview": "<p>JD Digits provides digital technology and financial-services capabilities within the JD.com ecosystem.</p>",
+  "as_of": "2026-09-25",
+  "facts": [
+    {
+      "label": "Reported valuation",
+      "value": "$28B",
+      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
+      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+    },
+    {
+      "label": "Public status",
+      "value": "Private",
+      "note": "No confirmed public offering is reflected in this profile.",
+      "source": "https://www.jd.com"
+    },
+    {
+      "label": "Primary focus",
+      "value": "Digital finance and enterprise technology",
+      "note": "Company description and product positioning.",
+      "source": "https://www.jd.com"
+    }
+  ],
+  "directory_rank": 15,
+  "bull_case": "JD Digits is exposed to a large market where scale, distribution, and execution can compound.",
+  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
+  "latest_round": "Reported valuation: $28B",
+  "directory_notes": [
+    "Digital finance and enterprise technology",
+    "Watch for funding, operating milestones, and changes in market structure."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Beijing, China",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=www.jd.com&sz=128",
+    "description": "JD Digits provides digital technology and financial-services capabilities within the JD.com ecosystem.",
+    "metrics": [
+      {
+        "value": "$28B",
+        "label": "Reported valuation",
+        "note": "Private Ledger market watch"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      },
+      {
+        "value": "Fintech",
+        "label": "Sector",
+        "note": "Digital finance and enterprise technology"
+      },
+      {
+        "value": "Sep 2026",
+        "label": "Profile updated",
+        "note": "Latest editorial review"
+      }
+    ],
+    "company": [
+      "JD Digits provides digital technology and financial-services capabilities within the JD.com ecosystem.",
+      "The company's investment case is tied to digital finance and enterprise technology. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
+    ],
+    "why_it_matters": "The company sits within China's platform economy, where regulation and parent-company strategy can materially affect value.",
+    "valuation_history": [
+      {
+        "value": "Private",
+        "date": "2013",
+        "round": "Company founded"
+      },
+      {
+        "value": "$28B",
+        "date": "2026",
+        "round": "Latest reported estimate"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2013",
+        "text": "JD Digits is founded or begins operating in its current form."
+      },
+      {
+        "date": "2026",
+        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
+      }
+    ],
+    "takeaways": [
+      "Digital finance and enterprise technology is the core operating focus.",
+      "The company sits within China's platform economy, where regulation and parent-company strategy can materially affect value.",
+      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
+      "Future funding, regulation, and commercial execution are the key items to watch."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2013"
+      ],
+      [
+        "Headquarters",
+        "Beijing, China"
+      ],
+      [
+        "Sector",
+        "Fintech"
+      ],
+      [
+        "Focus",
+        "Digital finance and enterprise technology"
+      ],
+      [
+        "Public status",
+        "Private"
+      ],
+      [
+        "Website",
+        "www.jd.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Company website",
+        "url": "https://www.jd.com"
+      },
+      {
+        "label": "Private-company valuation reference",
+        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "slug": "moonshot-ai",
+  "name": "Moonshot AI",
+  "status": "Published",
+  "sector": "Artificial intelligence",
+  "summary": "Moonshot AI develops large language models and consumer AI products, including Kimi.",
+  "overview": "<p>Moonshot AI develops large language models and consumer AI products, including Kimi.</p>",
+  "as_of": "2026-09-25",
+  "facts": [
+    {
+      "label": "Reported valuation",
+      "value": "$35B",
+      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
+      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+    },
+    {
+      "label": "Public status",
+      "value": "Private",
+      "note": "No confirmed public offering is reflected in this profile.",
+      "source": "https://www.moonshot.cn"
+    },
+    {
+      "label": "Primary focus",
+      "value": "Foundation models and consumer AI",
+      "note": "Company description and product positioning.",
+      "source": "https://www.moonshot.cn"
+    }
+  ],
+  "directory_rank": 11,
+  "bull_case": "Moonshot AI is exposed to a large market where scale, distribution, and execution can compound.",
+  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
+  "latest_round": "Reported valuation: $35B",
+  "directory_notes": [
+    "Foundation models and consumer AI",
+    "Watch for funding, operating milestones, and changes in market structure."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Beijing, China",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=www.moonshot.cn&sz=128",
+    "description": "Moonshot AI develops large language models and consumer AI products, including Kimi.",
+    "metrics": [
+      {
+        "value": "$35B",
+        "label": "Reported valuation",
+        "note": "Private Ledger market watch"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      },
+      {
+        "value": "Artificial intelligence",
+        "label": "Sector",
+        "note": "Foundation models and consumer AI"
+      },
+      {
+        "value": "Sep 2026",
+        "label": "Profile updated",
+        "note": "Latest editorial review"
+      }
+    ],
+    "company": [
+      "Moonshot AI develops large language models and consumer AI products, including Kimi.",
+      "The company's investment case is tied to foundation models and consumer ai. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
+    ],
+    "why_it_matters": "It is part of a competitive Chinese AI ecosystem where model capability, distribution, and compute access are tightly linked.",
+    "valuation_history": [
+      {
+        "value": "Private",
+        "date": "2023",
+        "round": "Company founded"
+      },
+      {
+        "value": "$35B",
+        "date": "2026",
+        "round": "Latest reported estimate"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2023",
+        "text": "Moonshot AI is founded or begins operating in its current form."
+      },
+      {
+        "date": "2026",
+        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
+      }
+    ],
+    "takeaways": [
+      "Foundation models and consumer AI is the core operating focus.",
+      "It is part of a competitive Chinese AI ecosystem where model capability, distribution, and compute access are tightly linked.",
+      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
+      "Future funding, regulation, and commercial execution are the key items to watch."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2023"
+      ],
+      [
+        "Headquarters",
+        "Beijing, China"
+      ],
+      [
+        "Sector",
+        "Artificial intelligence"
+      ],
+      [
+        "Focus",
+        "Foundation models and consumer AI"
+      ],
+      [
+        "Public status",
+        "Private"
+      ],
+      [
+        "Website",
+        "www.moonshot.cn"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Company website",
+        "url": "https://www.moonshot.cn"
+      },
+      {
+        "label": "Private-company valuation reference",
+        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      }
+    ]
+  }
+}

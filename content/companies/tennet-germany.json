@@ -1,0 +1,135 @@
+{
+  "slug": "tennet-germany",
+  "name": "TenneT Germany",
+  "status": "Published",
+  "sector": "Energy infrastructure",
+  "summary": "TenneT Germany operates high-voltage transmission infrastructure that connects generation, industry, and electricity markets.",
+  "overview": "<p>TenneT Germany operates high-voltage transmission infrastructure that connects generation, industry, and electricity markets.</p>",
+  "as_of": "2026-09-25",
+  "facts": [
+    {
+      "label": "Reported valuation",
+      "value": "$45.8B",
+      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
+      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+    },
+    {
+      "label": "Public status",
+      "value": "Private",
+      "note": "No confirmed public offering is reflected in this profile.",
+      "source": "https://www.tennet.eu"
+    },
+    {
+      "label": "Primary focus",
+      "value": "Electricity transmission",
+      "note": "Company description and product positioning.",
+      "source": "https://www.tennet.eu"
+    }
+  ],
+  "directory_rank": 8,
+  "bull_case": "TenneT Germany is exposed to a large market where scale, distribution, and execution can compound.",
+  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
+  "latest_round": "Reported valuation: $45.8B",
+  "directory_notes": [
+    "Electricity transmission",
+    "Watch for funding, operating milestones, and changes in market structure."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Bayreuth, Germany",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=www.tennet.eu&sz=128",
+    "description": "TenneT Germany operates high-voltage transmission infrastructure that connects generation, industry, and electricity markets.",
+    "metrics": [
+      {
+        "value": "$45.8B",
+        "label": "Reported valuation",
+        "note": "Private Ledger market watch"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      },
+      {
+        "value": "Energy infrastructure",
+        "label": "Sector",
+        "note": "Electricity transmission"
+      },
+      {
+        "value": "Sep 2026",
+        "label": "Profile updated",
+        "note": "Latest editorial review"
+      }
+    ],
+    "company": [
+      "TenneT Germany operates high-voltage transmission infrastructure that connects generation, industry, and electricity markets.",
+      "The company's investment case is tied to electricity transmission. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
+    ],
+    "why_it_matters": "Grid investment is becoming a core constraint on renewable generation, data centres, and industrial electrification.",
+    "valuation_history": [
+      {
+        "value": "Private",
+        "date": "1998",
+        "round": "Company founded"
+      },
+      {
+        "value": "$45.8B",
+        "date": "2026",
+        "round": "Latest reported estimate"
+      }
+    ],
+    "changed": [
+      {
+        "date": "1998",
+        "text": "TenneT Germany is founded or begins operating in its current form."
+      },
+      {
+        "date": "2026",
+        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
+      }
+    ],
+    "takeaways": [
+      "Electricity transmission is the core operating focus.",
+      "Grid investment is becoming a core constraint on renewable generation, data centres, and industrial electrification.",
+      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
+      "Future funding, regulation, and commercial execution are the key items to watch."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "1998"
+      ],
+      [
+        "Headquarters",
+        "Bayreuth, Germany"
+      ],
+      [
+        "Sector",
+        "Energy infrastructure"
+      ],
+      [
+        "Focus",
+        "Electricity transmission"
+      ],
+      [
+        "Public status",
+        "Private"
+      ],
+      [
+        "Website",
+        "www.tennet.eu"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Company website",
+        "url": "https://www.tennet.eu"
+      },
+      {
+        "label": "Private-company valuation reference",
+        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      }
+    ]
+  }
+}

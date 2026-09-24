@@ -1,0 +1,135 @@
+{
+  "slug": "ripple",
+  "name": "Ripple",
+  "status": "Published",
+  "sector": "Fintech",
+  "summary": "Ripple develops payment and liquidity software for financial institutions and is closely associated with the XRP digital asset ecosystem.",
+  "overview": "<p>Ripple develops payment and liquidity software for financial institutions and is closely associated with the XRP digital asset ecosystem.</p>",
+  "as_of": "2026-09-25",
+  "facts": [
+    {
+      "label": "Reported valuation",
+      "value": "$50B",
+      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
+      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+    },
+    {
+      "label": "Public status",
+      "value": "Private",
+      "note": "No confirmed public offering is reflected in this profile.",
+      "source": "https://ripple.com"
+    },
+    {
+      "label": "Primary focus",
+      "value": "Cross-border payments and digital-asset infrastructure",
+      "note": "Company description and product positioning.",
+      "source": "https://ripple.com"
+    }
+  ],
+  "directory_rank": 6,
+  "bull_case": "Ripple is exposed to a large market where scale, distribution, and execution can compound.",
+  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
+  "latest_round": "Reported valuation: $50B",
+  "directory_notes": [
+    "Cross-border payments and digital-asset infrastructure",
+    "Watch for funding, operating milestones, and changes in market structure."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "San Francisco, CA",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=ripple.com&sz=128",
+    "description": "Ripple develops payment and liquidity software for financial institutions and is closely associated with the XRP digital asset ecosystem.",
+    "metrics": [
+      {
+        "value": "$50B",
+        "label": "Reported valuation",
+        "note": "Private Ledger market watch"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      },
+      {
+        "value": "Fintech",
+        "label": "Sector",
+        "note": "Cross-border payments and digital-asset infrastructure"
+      },
+      {
+        "value": "Sep 2026",
+        "label": "Profile updated",
+        "note": "Latest editorial review"
+      }
+    ],
+    "company": [
+      "Ripple develops payment and liquidity software for financial institutions and is closely associated with the XRP digital asset ecosystem.",
+      "The company's investment case is tied to cross-border payments and digital-asset infrastructure. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
+    ],
+    "why_it_matters": "Regulation, institutional adoption, and liquidity are the main variables for Ripple's long-term relevance.",
+    "valuation_history": [
+      {
+        "value": "Private",
+        "date": "2012",
+        "round": "Company founded"
+      },
+      {
+        "value": "$50B",
+        "date": "2026",
+        "round": "Latest reported estimate"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2012",
+        "text": "Ripple is founded or begins operating in its current form."
+      },
+      {
+        "date": "2026",
+        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
+      }
+    ],
+    "takeaways": [
+      "Cross-border payments and digital-asset infrastructure is the core operating focus.",
+      "Regulation, institutional adoption, and liquidity are the main variables for Ripple's long-term relevance.",
+      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
+      "Future funding, regulation, and commercial execution are the key items to watch."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2012"
+      ],
+      [
+        "Headquarters",
+        "San Francisco, CA"
+      ],
+      [
+        "Sector",
+        "Fintech"
+      ],
+      [
+        "Focus",
+        "Cross-border payments and digital-asset infrastructure"
+      ],
+      [
+        "Public status",
+        "Private"
+      ],
+      [
+        "Website",
+        "ripple.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Company website",
+        "url": "https://ripple.com"
+      },
+      {
+        "label": "Private-company valuation reference",
+        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      }
+    ]
+  }
+}

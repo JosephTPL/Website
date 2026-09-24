@@ -1,0 +1,135 @@
+{
+  "slug": "crusoe",
+  "name": "Crusoe",
+  "status": "Published",
+  "sector": "Cloud infrastructure",
+  "summary": "Crusoe builds data-centre and cloud infrastructure, with a focus on energy-aware compute for AI workloads.",
+  "overview": "<p>Crusoe builds data-centre and cloud infrastructure, with a focus on energy-aware compute for AI workloads.</p>",
+  "as_of": "2026-09-25",
+  "facts": [
+    {
+      "label": "Reported valuation",
+      "value": "$30.9B",
+      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
+      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+    },
+    {
+      "label": "Public status",
+      "value": "Private",
+      "note": "No confirmed public offering is reflected in this profile.",
+      "source": "https://www.crusoe.ai"
+    },
+    {
+      "label": "Primary focus",
+      "value": "AI cloud and data-centre infrastructure",
+      "note": "Company description and product positioning.",
+      "source": "https://www.crusoe.ai"
+    }
+  ],
+  "directory_rank": 13,
+  "bull_case": "Crusoe is exposed to a large market where scale, distribution, and execution can compound.",
+  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
+  "latest_round": "Reported valuation: $30.9B",
+  "directory_notes": [
+    "AI cloud and data-centre infrastructure",
+    "Watch for funding, operating milestones, and changes in market structure."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Denver, CO",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=www.crusoe.ai&sz=128",
+    "description": "Crusoe builds data-centre and cloud infrastructure, with a focus on energy-aware compute for AI workloads.",
+    "metrics": [
+      {
+        "value": "$30.9B",
+        "label": "Reported valuation",
+        "note": "Private Ledger market watch"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      },
+      {
+        "value": "Cloud infrastructure",
+        "label": "Sector",
+        "note": "AI cloud and data-centre infrastructure"
+      },
+      {
+        "value": "Sep 2026",
+        "label": "Profile updated",
+        "note": "Latest editorial review"
+      }
+    ],
+    "company": [
+      "Crusoe builds data-centre and cloud infrastructure, with a focus on energy-aware compute for AI workloads.",
+      "The company's investment case is tied to ai cloud and data-centre infrastructure. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
+    ],
+    "why_it_matters": "Its growth is tied to the availability of power, land, chips, and financing for the AI compute build-out.",
+    "valuation_history": [
+      {
+        "value": "Private",
+        "date": "2018",
+        "round": "Company founded"
+      },
+      {
+        "value": "$30.9B",
+        "date": "2026",
+        "round": "Latest reported estimate"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2018",
+        "text": "Crusoe is founded or begins operating in its current form."
+      },
+      {
+        "date": "2026",
+        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
+      }
+    ],
+    "takeaways": [
+      "AI cloud and data-centre infrastructure is the core operating focus.",
+      "Its growth is tied to the availability of power, land, chips, and financing for the AI compute build-out.",
+      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
+      "Future funding, regulation, and commercial execution are the key items to watch."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2018"
+      ],
+      [
+        "Headquarters",
+        "Denver, CO"
+      ],
+      [
+        "Sector",
+        "Cloud infrastructure"
+      ],
+      [
+        "Focus",
+        "AI cloud and data-centre infrastructure"
+      ],
+      [
+        "Public status",
+        "Private"
+      ],
+      [
+        "Website",
+        "www.crusoe.ai"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Company website",
+        "url": "https://www.crusoe.ai"
+      },
+      {
+        "label": "Private-company valuation reference",
+        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      }
+    ]
+  }
+}
