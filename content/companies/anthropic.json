@@ -23,10 +23,10 @@
       "source": "https://www.anthropic.com/news/series-h"
     },
     {
-      "label": "Run-rate revenue",
-      "value": "$47 billion",
-      "note": "Company-reported figure as of May 2026",
-      "source": "https://www.anthropic.com/news/series-h"
+      "label": "Reported revenue pace",
+      "value": "Over $100 billion",
+      "note": "September 2026 media report; not audited financial statements",
+      "source": "https://www.axios.com/2026/09/18/anthropic-100-billion-revenue"
     },
     {
       "label": "IPO status",
@@ -52,7 +52,7 @@
     "metrics": [
       {"value": "$965B", "label": "Latest valuation", "note": "May 2026 post-money"},
       {"value": "$65B", "label": "Latest funding", "note": "Series H"},
-      {"value": "$47B", "label": "Run-rate revenue", "note": "Company-reported, May 2026"},
+      {"value": ">$100B", "label": "Reported revenue pace", "note": "September 2026 media report"},
       {"value": "Private", "label": "Public status", "note": "No confirmed IPO"}
     ],
     "company": [
@@ -89,6 +89,7 @@
     ],
     "sources": [
       {"label": "Series H announcement", "url": "https://www.anthropic.com/news/series-h"},
+      {"label": "Latest reported revenue pace", "url": "https://www.axios.com/2026/09/18/anthropic-100-billion-revenue"},
       {"label": "Anthropic leadership", "url": "https://www.anthropic.com/company/leadership"},
       {"label": "Anthropic breakdown", "url": "/articles/the-breakdown-anthropic/"}
     ]
