@@ -7,7 +7,7 @@
   "overview": "<p>Stripe\u2019s advantage is the breadth of its payments infrastructure and the ease with which developers can build it into a business. The report argues that billing, tax, fraud prevention, and other services make the relationship harder to replace, while online commerce and stablecoins offer further room to grow.</p>",
   "image": "https://substack-post-media.s3.amazonaws.com/public/images/5ee71eae-4115-4653-b233-3652ea8148a9_1734x907.png",
   "image_alt": "Stripe \u2014 The Private Ledger",
-  "as_of": "2026-07-09",
+  "as_of": "2026-09-24",
   "report": "the-breakdown-stripe",
   "facts": [
     {
@@ -38,9 +38,21 @@
   "directory_rank": 4,
   "bull_case": "A broad payments platform can compound through volumes, software, and financial services.",
   "bear_case": "Payments is competitive, cyclical, and sensitive to take-rate pressure.",
-  "latest_round": "February 2023: $6.5B Series I",
+  "latest_round": "February 2026: $159B employee tender offer",
   "directory_notes": [
     "Payment volume growth",
     "margins beyond core processing."
-  ]
+  ],
+  "intelligence": {
+    "kicker":"COMPANY INTELLIGENCE","location":"San Francisco and Dublin","status":"Private","logo":"https://cdn.simpleicons.org/stripe/191919",
+    "description":"Stripe provides payments and financial infrastructure for internet businesses, from checkout to billing and revenue operations.",
+    "metrics":[{"value":"$159B","label":"Latest valuation","note":"February 2026 tender offer"},{"value":"$1.9T","label":"2025 payment volume","note":"Not Stripe revenue"},{"value":"34%","label":"Volume growth","note":"Year over year, 2025"},{"value":"Private","label":"Public status","note":"No IPO announced"}],
+    "company":["Stripe provides payment processing, billing, tax, fraud prevention, and financial tools to businesses operating online. The breadth of that stack makes Stripe more embedded than a standalone payments gateway.","Stripe announced a tender offer at a $159 billion valuation in February 2026. Its annual letter said businesses on its platform generated $1.9 trillion in payment volume in 2025, up 34% year over year."],
+    "why_it_matters":"Stripe is a core financial-infrastructure company for private software, consumer, and AI businesses. Its payment volume and product expansion are a useful read-through for internet commerce and venture-backed company formation.",
+    "valuation_history":[{"value":"$36B","date":"2020","round":"Series G"},{"value":"$95B","date":"2021","round":"Series H"},{"value":"$50B","date":"2023","round":"Series I"},{"value":"$91.5B","date":"2025","round":"Tender offer"},{"value":"$159B","date":"Feb 2026","round":"Tender offer"}],
+    "changed":[{"date":"2010","text":"Stripe is founded to simplify online payments for developers."},{"date":"2021","text":"Valuation reaches $95 billion as internet payments scale rapidly."},{"date":"2023","text":"A financing and cost reset focus attention on durable economics."},{"date":"2026","text":"A $159 billion tender offer reflects renewed confidence in growth and operating leverage."}],
+    "takeaways":["Stripe compounds through payments, software, and financial services.","Payment volume is a scale measure, not company revenue.","Private-company liquidity provides a more current valuation signal than the last primary round.","Stablecoins and AI commerce are potential new growth vectors."],
+    "quick_facts":[["Founded","2010"],["Headquarters","San Francisco and Dublin"],["Founders","Patrick and John Collison"],["Core products","Payments, Billing, Connect"],["2025 volume","$1.9T"],["Website","stripe.com"]],
+    "sources":[{"label":"2025 annual letter and tender offer","url":"https://stripe.com/newsroom/news/stripe-2025-update"},{"label":"Stripe breakdown","url":"/articles/the-breakdown-stripe/"}]
+  }
 }
