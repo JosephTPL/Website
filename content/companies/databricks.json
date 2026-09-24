@@ -2,27 +2,42 @@
   "slug": "databricks",
   "status": "Published",
   "name": "Databricks",
-  "sector": "AI / Data",
-  "summary": "Databricks is a notable private company in ai / data.",
-  "overview": "<p>Databricks is included in The Private Ledger\u2019s company directory for ongoing research.</p>",
+  "sector": "AI / Data infrastructure",
+  "summary": "Databricks builds the data-and-AI layer enterprises use to prepare data, run analytics, and deploy AI applications.",
+  "overview": "<p>Databricks is a San Francisco-based data and AI company founded by the creators of Apache Spark.</p>",
   "image": "",
   "image_alt": "",
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-25",
   "report": "",
   "facts": [
     {
-      "label": "Latest disclosed financing",
-      "value": "December 2024: $10B Series J",
-      "note": "Publicly reported financing context; verify before relying on it.",
-      "source": ""
+      "label": "Latest financing",
+      "value": "$5B strategic round",
+      "note": "Closed August 2026 at a reported $190B valuation.",
+      "source": "https://www.databricks.com/company/newsroom/press-releases/databricks-closes-5-billion-funding-round-190-billion-valuation"
     }
   ],
   "directory_rank": 11,
   "bull_case": "Data and AI workloads sit at the center of enterprise software budgets.",
   "bear_case": "Cloud competition and AI infrastructure spending can pressure growth and margins.",
-  "latest_round": "December 2024: $10B Series J",
+  "latest_round": "August 2026: $5B strategic financing at $190B",
   "directory_notes": [
     "Lakehouse adoption",
     "AI product monetization."
-  ]
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "San Francisco, California",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=databricks.com&sz=128",
+    "description": "Databricks sells a unified platform for data engineering, analytics, machine learning, and enterprise AI. Its strategic question is whether the lakehouse becomes the system of record for the data and context AI agents need.",
+    "metrics": [{"value":"$190B","label":"Latest valuation","note":"August 2026"},{"value":"$5B","label":"Latest financing","note":"Strategic round"},{"value":"$7B+","label":"Revenue run-rate","note":"Company reported, Q2 2026"},{"value":">80%","label":"Run-rate growth","note":"Year over year"}],
+    "company": ["Databricks was founded by the team behind Apache Spark and built its business around the lakehouse: an architecture combining data-lake flexibility with the governance and performance associated with data warehouses. It is sold across the major clouds for data engineering, business intelligence, machine learning, and AI workloads.","The company is moving beyond storage and analytics into the application layer. Its current product push includes Lakebase, a managed database for AI-built applications, Unity AI Gateway for controlling model access and spend, and Genie for querying enterprise information through natural language."],
+    "why_it_matters": "Databricks is one of the clearest private-market tests of whether enterprise AI spend consolidates around a data platform rather than a single model provider. Its scale makes it a consequential future public-market comparable for Snowflake, cloud platforms, and AI infrastructure vendors.",
+    "valuation_history": [{"value":"$38B","date":"Aug 2021","round":"Series H"},{"value":"$43B","date":"Sep 2023","round":"Series I"},{"value":"$100B","date":"Sep 2025","round":"Private financing"},{"value":"$134B","date":"Dec 2025","round":"Series L"},{"value":"$190B","date":"Aug 2026","round":"$5B strategic financing"}],
+    "changed": [{"date":"2023","text":"Acquired MosaicML, expanding from data tooling toward foundation-model and generative-AI workloads."},{"date":"2025","text":"Raised capital at a reported $100B valuation as investor attention shifted to enterprise AI infrastructure."},{"date":"Dec 2025","text":"A financing reportedly placed Databricks at $134B."},{"date":"Aug 2026","text":"Closed a $5B strategic round at $190B and reported revenue run-rate above $7B."}],
+    "takeaways": ["The valuation rests on proving its data platform is central to enterprise AI deployment, not merely analytics.","A $7B-plus run-rate gives Databricks unusual scale for a private software company.","Lakebase, Genie, and Unity AI Gateway move it closer to workflows where AI value is captured.","Risks include premium valuation, cloud-platform dependency, and competition from Snowflake, hyperscalers, and specialists."],
+    "quick_facts": [["Founded","2013"],["Headquarters","San Francisco, California"],["CEO","Ali Ghodsi"],["Focus","Data and AI platform"],["Website","databricks.com"],["Public status","Private"]],
+    "sources": [{"label":"Databricks: $5B financing announcement","url":"https://www.databricks.com/company/newsroom/press-releases/databricks-closes-5-billion-funding-round-190-billion-valuation"},{"label":"Reuters financing report","url":"https://www.reuters.com/world/us/ai-firm-databricks-valued-190-billion-latest-funding-round-2026-08-13/"},{"label":"Databricks company website","url":"https://www.databricks.com/company"}]
+  }
 }
