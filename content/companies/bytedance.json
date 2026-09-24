@@ -7,7 +7,7 @@
   "overview": "<p>ByteDance is much more than TikTok: the report examines a portfolio spanning Chinese consumer platforms, video, commerce, and AI. Its scale and growth are substantial, but understanding the business requires taking its political and regulatory environment as seriously as its financial performance.</p>",
   "image": "https://substack-post-media.s3.amazonaws.com/public/images/399aab86-d43f-483e-a949-3b236d19b9d4_1731x909.png",
   "image_alt": "ByteDance \u2014 The Private Ledger",
-  "as_of": "2026-06-11",
+  "as_of": "2026-09-24",
   "report": "the-breakdown-bytedance",
   "facts": [
     {
@@ -42,5 +42,17 @@
   "directory_notes": [
     "TikTok policy exposure",
     "monetization outside China."
-  ]
+  ],
+  "intelligence": {
+    "kicker":"COMPANY INTELLIGENCE","location":"Beijing, China","status":"Private","logo":"https://cdn.simpleicons.org/tiktok/191919",
+    "description":"ByteDance operates consumer-content, commerce, and AI products, led globally by TikTok and domestically by Douyin.",
+    "metrics":[{"value":"~$370B","label":"Secondary-market mark","note":"September 2026 estimate"},{"value":"Undisclosed","label":"Latest primary funding","note":"No recent confirmed round"},{"value":"$186B","label":"2025 revenue","note":"Reported in prior research"},{"value":"Private","label":"Public status","note":"No imminent IPO announced"}],
+    "company":["ByteDance is one of the world's largest consumer internet companies, with TikTok, Douyin, advertising, commerce, and AI products spanning multiple markets.","Its investment case cannot be separated from geopolitical risk. Platform restrictions, data-security policy, and the future of TikTok's international business are as material as engagement and advertising growth."],
+    "why_it_matters":"ByteDance is a private-market bellwether for consumer internet at enormous scale. It influences global ad markets, creator economics, e-commerce, and the policy debate around Chinese technology platforms.",
+    "valuation_history":[{"value":"$75B","date":"2018","round":"Series E"},{"value":"$140B","date":"2020","round":"Private mark"},{"value":"$330B+","date":"2025","round":"Tender offer"},{"value":"~$370B","date":"2026","round":"Secondary mark"}],
+    "changed":[{"date":"2012","text":"ByteDance is founded in Beijing."},{"date":"2017","text":"TikTok launches internationally, extending its recommendation engine beyond China."},{"date":"2020","text":"Geopolitical scrutiny becomes a defining business risk."},{"date":"2026","text":"Private-market marks remain high while global regulatory uncertainty persists."}],
+    "takeaways":["The recommendation engine and global distribution are the core assets.","TikTok exposure creates unusually concentrated regulatory risk.","Secondary marks are estimates, not public-market prices.","A listing timetable remains unclear."],
+    "quick_facts":[["Founded","2012"],["Headquarters","Beijing, China"],["Founder","Zhang Yiming"],["Key products","TikTok, Douyin, CapCut"],["Business","Ads, commerce, content, AI"],["Website","bytedance.com"]],
+    "sources":[{"label":"Current private-market mark","url":"https://privatemarketview.com/companies/bytedance"},{"label":"ByteDance breakdown","url":"/articles/the-breakdown-bytedance/"}]
+  }
 }
