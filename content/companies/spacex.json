@@ -7,7 +7,7 @@
   "overview": "<p>The available report examines SpaceX as a combination of launch services, Starlink, and AI ambitions. Starlink is central to the financial story, while other businesses require significant investment. The key question is how much future success is already reflected in the valuation discussed at publication.</p>",
   "image": "https://substack-post-media.s3.amazonaws.com/public/images/ddd9d796-6696-4669-8cee-0b66e201276b_1731x909.png",
   "image_alt": "SpaceX \u2014 The Private Ledger",
-  "as_of": "2026-05-12",
+  "as_of": "2026-09-24",
   "report": "the-breakdown-spacex",
   "facts": [
     {
@@ -38,9 +38,21 @@
   "directory_rank": 2,
   "bull_case": "Launch cadence and Starlink create a rare combination of infrastructure, recurring revenue, and scale.",
   "bear_case": "Capital intensity, regulation, and execution across multiple ambitious programs can magnify setbacks.",
-  "latest_round": "December 2024: reported secondary sale at ~$350B valuation",
+  "latest_round": "June 2026: $85.7B IPO proceeds",
   "directory_notes": [
     "Starlink growth",
     "launch reliability and regulatory access."
-  ]
+  ],
+  "intelligence": {
+    "kicker":"COMPANY INTELLIGENCE","location":"Starbase, Texas","status":"Public (SPCX)","logo":"https://cdn.simpleicons.org/spacex/191919",
+    "description":"SpaceX operates launch, Starlink connectivity, and AI infrastructure businesses at global scale.",
+    "metrics":[{"value":"$1.77T","label":"IPO valuation","note":"June 2026 offering price"},{"value":"$85.7B","label":"IPO proceeds","note":"Including overallotment"},{"value":"SPCX","label":"Ticker","note":"Nasdaq Global Select Market"},{"value":"Public","label":"Public status","note":"IPO closed June 2026"}],
+    "company":["SpaceX combines reusable launch systems with Starlink, its global broadband network. The company now also reports an AI segment, giving the public company a much broader infrastructure footprint than launch services alone.","In June 2026, SpaceX completed an IPO that raised approximately $85.7 billion in gross proceeds, including the full exercise of the underwriters' option. The offering valued the business at roughly $1.77 trillion at the $135 offer price."],
+    "why_it_matters":"SpaceX is no longer a private-market profile, but it remains an important bridge between private-company research and the public markets. Its debut gives investors a real-time test of the valuation assumptions that accumulated while the business was private.",
+    "valuation_history":[{"value":"$74B","date":"2021","round":"Secondary mark"},{"value":"$210B","date":"2024","round":"Secondary mark"},{"value":"$800B","date":"2025","round":"Private mark"},{"value":"$1.77T","date":"Jun 2026","round":"IPO"}],
+    "changed":[{"date":"2002","text":"SpaceX is founded to reduce the cost of access to space."},{"date":"2019","text":"Starlink begins building a global connectivity business."},{"date":"2025","text":"Private-market valuation rises as launch and connectivity scale."},{"date":"2026","text":"SpaceX completes one of the largest IPOs in market history."}],
+    "takeaways":["Starlink changes the company from a launch provider into recurring infrastructure.","Launch cadence and reusability remain core operational advantages.","The IPO creates a public-market benchmark for a formerly private giant.","Capital intensity and regulatory exposure remain significant."],
+    "quick_facts":[["Founded","2002"],["Headquarters","Starbase, TX"],["CEO","Elon Musk"],["Ticker","SPCX"],["Segments","Space, Connectivity, AI"],["Website","spacex.com"]],
+    "sources":[{"label":"IPO closing announcement","url":"https://ir.spacex.com/updates/releases-details/2026/Space-Exploration-Technologies-Corp--Announces-Closing-of-Initial-Public-Offering-Including-Full-Exercise-of-Underwriters-Option-to-Purchase-Additional-Shares-2026-RgoR-Y1Vwh/default.aspx"},{"label":"SpaceX breakdown","url":"/articles/the-breakdown-spacex/"}]
+  }
 }
