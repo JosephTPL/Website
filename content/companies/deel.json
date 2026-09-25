@@ -1,1 +1,34 @@
-{"slug":"deel","status":"Published","name":"Deel","sector":"HR software","summary":"Global payroll and workforce platform for distributed teams.","overview":"<p>Deel helps companies hire, pay, and manage workers across borders.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"April 2022: $50M Series D extension","note":"Publicly reported financing context.","source":""}],"directory_rank":34,"bull_case":"Cross-border compliance is complex, creating durable demand for a unified platform.","bear_case":"Local payroll incumbents and a slower hiring market could restrain growth.","latest_round":"April 2022: $50M Series D extension","directory_notes":["International customers","compliance execution."]}
+{
+  "slug": "deel",
+  "status": "Published",
+  "name": "Deel",
+  "sector": "HR software",
+  "summary": "Global payroll and workforce platform for distributed teams.",
+  "overview": "<p>Deel helps companies hire, pay, and manage workers across borders.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "April 2022: $50M Series D extension",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 34,
+  "bull_case": "Cross-border compliance is complex, creating durable demand for a unified platform.",
+  "bear_case": "Local payroll incumbents and a slower hiring market could restrain growth.",
+  "latest_round": "April 2022: $50M Series D extension",
+  "directory_notes": ["International customers", "compliance execution."],
+  "intelligence": {
+    "kicker":"COMPANY INTELLIGENCE","location":"San Francisco, California","status":"Private","logo":"https://www.google.com/s2/favicons?domain=deel.com&sz=128","description":"Deel provides global payroll, HR, compliance, and contractor-management software for distributed teams.",
+    "metrics":[{"value":"$17.3B","label":"Latest reported valuation","note":"Series E, October 2025"},{"value":"$300M","label":"Latest funding","note":"Series E"},{"value":"2019","label":"Founded","note":"Global HR platform"},{"value":"Private","label":"Public status","note":"No announced listing"}],
+    "company":["Deel helps companies hire, pay, and manage employees and contractors across jurisdictions through a payroll and compliance platform.","It raised $300 million in a Series E at a reported $17.3 billion post-money valuation in October 2025."],
+    "why_it_matters":"Deel is a major private-market benchmark for global HR infrastructure. Its scale tests whether global employment platforms can sustain durable enterprise economics as cross-border hiring matures.",
+    "valuation_history":[{"value":"$5.5B","date":"2021","round":"Funding round"},{"value":"$12B","date":"2022","round":"Funding round"},{"value":"$17.3B","date":"Oct 2025","round":"Series E, $300M"}],
+    "changed":[{"date":"Oct 2025","text":"Raised $300M Series E at a reported $17.3B valuation."}],
+    "takeaways":["Deel is a core platform for global payroll and employment compliance.","The latest reported primary valuation is $17.3B.","Sustained growth and regulatory execution are central watch items."],
+    "quick_facts":[["Founded","2019"],["Focus","Global payroll and HR"],["Status","Private"],["Website","deel.com"]],
+    "sources":[{"label":"Axios: Series E","url":"https://www.axios.com/newsletters/axios-pro-rata-55cce128-e4e8-438b-90f2-8c8a6434386f"},{"label":"Deel: Series D announcement","url":"https://www.deel.com/blog/weve-raised-our-series-d/"}]
+  }
+}

@@ -1,1 +1,34 @@
-{"slug":"anysphere","status":"Published","name":"Anysphere (Cursor)","sector":"Developer tools","summary":"AI-native coding environment built around the Cursor editor.","overview":"<p>Anysphere develops Cursor, an AI-assisted code editor for software teams.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"January 2025: $105M Series B","note":"Publicly reported financing context.","source":""}],"directory_rank":40,"bull_case":"A deeply integrated coding agent can become a daily workflow with strong retention.","bear_case":"Platform owners and rival coding agents may erode differentiation quickly.","latest_round":"January 2025: $105M Series B","directory_notes":["Developer retention","enterprise deployment."]}
+{
+  "slug": "anysphere",
+  "status": "Published",
+  "name": "Anysphere (Cursor)",
+  "sector": "Developer tools",
+  "summary": "AI-native coding environment built around the Cursor editor.",
+  "overview": "<p>Anysphere develops Cursor, an AI-assisted code editor for software teams.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "January 2025: $105M Series B",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 40,
+  "bull_case": "A deeply integrated coding agent can become a daily workflow with strong retention.",
+  "bear_case": "Platform owners and rival coding agents may erode differentiation quickly.",
+  "latest_round": "January 2025: $105M Series B",
+  "directory_notes": ["Developer retention", "enterprise deployment."],
+  "intelligence": {
+    "kicker":"COMPANY INTELLIGENCE","location":"San Francisco, California","status":"Acquired by SpaceX","logo":"https://www.google.com/s2/favicons?domain=cursor.com&sz=128","description":"Anysphere built Cursor, an AI-assisted code editor for software engineers.",
+    "metrics":[{"value":"$60B","label":"Acquisition value","note":"SpaceX transaction, 2026"},{"value":"Acquired","label":"Current status","note":"SpaceX subsidiary"},{"value":"2022","label":"Founded","note":"Anysphere"},{"value":"Cursor","label":"Primary product","note":"AI code editor"}],
+    "company":["Anysphere developed Cursor, an AI-assisted code editor integrated into the software-development workflow.","SpaceX acquired Anysphere in a transaction reported at $60 billion in 2026, so this is an acquisition profile rather than a live private valuation profile."],
+    "why_it_matters":"Cursor was a defining company in AI-assisted software development. Its acquisition highlights the strategic value of developer distribution to major AI and infrastructure platforms.",
+    "valuation_history":[{"value":"$9.9B","date":"Jun 2025","round":"Series C, $900M"},{"value":"$29.3B","date":"Nov 2025","round":"Series D, $2.3B"},{"value":"$60B","date":"2026","round":"SpaceX acquisition"}],
+    "changed":[{"date":"2026","text":"SpaceX completed its acquisition of Anysphere; Cursor became a SpaceX subsidiary."}],
+    "takeaways":["Cursor helped define AI-assisted software development.","Anysphere is no longer an independent private-market company.","The acquisition highlights the value of developer distribution."],
+    "quick_facts":[["Focus","AI-assisted software development"],["Status","SpaceX subsidiary"],["Product","Cursor"],["Website","cursor.com"]],
+    "sources":[{"label":"AP: SpaceX acquisition","url":"https://apnews.com/article/a5c60fcbaaca262cf107d30f1de899ef"},{"label":"Cursor: Series C","url":"https://www.cursor.com/blog/series-c"}]
+  }
+}

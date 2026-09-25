@@ -1,1 +1,34 @@
-{"slug":"brex","status":"Published","name":"Brex","sector":"Fintech","summary":"Spend management and financial services platform for companies.","overview":"<p>Brex combines cards, expense management, payments, and treasury products.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"January 2022: $300M Series D-2","note":"Publicly reported financing context.","source":""}],"directory_rank":32,"bull_case":"Embedded spend controls can make Brex part of the finance operating system.","bear_case":"Fintech competition and sensitivity to startup spending can make growth volatile.","latest_round":"January 2022: $300M Series D-2","directory_notes":["Enterprise customers","software revenue mix."]}
+{
+  "slug": "brex",
+  "status": "Published",
+  "name": "Brex",
+  "sector": "Fintech",
+  "summary": "Spend management and financial services platform for companies.",
+  "overview": "<p>Brex combines cards, expense management, payments, and treasury products.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "January 2022: $300M Series D-2",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 32,
+  "bull_case": "Embedded spend controls can make Brex part of the finance operating system.",
+  "bear_case": "Fintech competition and sensitivity to startup spending can make growth volatile.",
+  "latest_round": "January 2022: $300M Series D-2",
+  "directory_notes": ["Enterprise customers", "software revenue mix."],
+  "intelligence": {
+    "kicker":"COMPANY INTELLIGENCE","location":"San Francisco, California","status":"Acquisition agreed","logo":"https://www.google.com/s2/favicons?domain=brex.com&sz=128","description":"Brex provides corporate cards, spend management, and treasury products for businesses.",
+    "metrics":[{"value":"$5.15B","label":"Acquisition value","note":"Capital One agreement, January 2026"},{"value":"Acquisition agreed","label":"Current status","note":"Capital One"},{"value":"2017","label":"Founded","note":"Fintech"},{"value":"Private","label":"Public status","note":"Pending transaction"}],
+    "company":["Brex built a financial platform combining corporate cards, spend controls, and cash-management products for businesses.","Capital One announced a definitive agreement to acquire Brex for $5.15 billion in a cash-and-stock transaction in January 2026."],
+    "why_it_matters":"The transaction is an important fintech exit signal: a major bank is buying software-led business-payments infrastructure rather than building it internally.",
+    "valuation_history":[{"value":"$12.3B","date":"2022","round":"Peak private valuation"},{"value":"$5.15B","date":"Jan 2026","round":"Capital One acquisition agreement"}],
+    "changed":[{"date":"Jan 2026","text":"Capital One announced a definitive agreement to acquire Brex for $5.15B."}],
+    "takeaways":["Brex is now an acquisition profile, not a standalone IPO candidate.","The deal illustrates strategic demand for business-payments infrastructure.","Closing terms and integration are the primary remaining watch items."],
+    "quick_facts":[["Founded","2017"],["Focus","Business payments and spend management"],["Status","Acquisition agreed"],["Website","brex.com"]],
+    "sources":[{"label":"Capital One acquisition announcement","url":"https://www.sec.gov/Archives/edgar/data/927628/000119312526019543/d97758dex991.htm"}]
+  }
+}
