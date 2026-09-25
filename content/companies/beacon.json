@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://beacon.com"
+      "value": "June 2026: $225M Series C",
+      "note": "Beacon said the financing brought total capital raised to more than $500M; valuation was not announced.",
+      "source": "https://www.morningstar.com/news/business-wire/20260609855732/beacon-raises-225m-series-c-to-bring-ai-to-the-everyday-economy"
     }
   ],
   "directory_rank": 79,
   "bull_case": "Beacon is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "June 2026: $225M Series C",
   "directory_notes": [
     "Technology",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Beacon is a private company tracked by The Private Ledger in technology.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "Undisclosed",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Valuation was not announced with the June 2026 Series C"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$225M raised",
+        "date": "Jun 2026",
+        "round": "Series C"
       }
     ],
     "changed": [
