@@ -4,7 +4,7 @@
   "name": "Epic Games",
   "sector": "Gaming",
   "summary": "Epic Games is a notable private company in gaming.",
-  "overview": "<p>Epic Games is included in The Private Ledger\u2019s company directory for ongoing research.</p>",
+  "overview": "<p>Epic Games is included in The Private Ledger’s company directory for ongoing research.</p>",
   "image": "",
   "image_alt": "",
   "as_of": "2026-09-21",
@@ -24,5 +24,16 @@
   "directory_notes": [
     "Creator economy",
     "Unreal licensing and Disney collaboration."
-  ]
+  ],
+  "intelligence": {
+    "kicker":"Company intelligence","location":"Cary, North Carolina","status":"Private","logo":"https://logo.clearbit.com/epicgames.com","description":"Epic Games operates Fortnite, Unreal Engine and the Epic Games Store, combining a consumer entertainment platform with widely used development tools.",
+    "metrics":[{"value":"$22.5B","label":"Last disclosed valuation","note":"2022 funding round"},{"value":"$1.5B","label":"Latest strategic investment","note":"Disney, February 2024"},{"value":"Private","label":"Public status","note":"No listed shares"}],
+    "company":["Epic's ecosystem spans Fortnite, Unreal Engine, digital distribution and creator tools. This gives it both hit-driven entertainment exposure and infrastructure-like software economics.","Disney invested $1.5B in 2024 to develop a connected games and entertainment universe with Epic, adding a strategic partner to a long-standing private shareholder base."],
+    "why_it_matters":"Epic is one of the largest private consumer-internet platforms. It matters beyond gaming because its engine, marketplace and creator ecosystem influence how interactive media and virtual worlds are built and monetized.",
+    "valuation_history":[{"value":"$17.3B","date":"2020","round":"Funding round"},{"value":"$28.7B","date":"2021","round":"Funding round"},{"value":"$22.5B","date":"2022","round":"Latest disclosed valuation"}],
+    "changed":[{"date":"2024","text":"Disney invested $1.5B to create a persistent games and entertainment universe connected to Fortnite."},{"date":"2025","text":"Updated Epic Games Store economics, including a 0% revenue share on the first $1M in annual per-app revenue processed by Epic."}],
+    "takeaways":["Fortnite is both a game and a distribution platform for experiences and creators.","Unreal Engine creates strategic reach beyond Epic's own content.","Engagement volatility and high content investment make earnings less predictable than software peers."],
+    "quick_facts":[{"label":"Founded","value":"1991"},{"label":"Headquarters","value":"Cary, NC"},{"label":"Founder & CEO","value":"Tim Sweeney"},{"label":"Website","value":"epicgames.com"}],
+    "sources":[{"label":"Epic on 2025 store economics","url":"https://www.epicgames.com/site/en-US/news/epic-games-store-webshops-and-revenue-share-update"},{"label":"Sacra Epic Games research","url":"https://assets.ctfassets.net/f1df9zr7wr1a/6cqpshQ90Zq3x3CMyGwOZv/1c3ee6af5625b64dc2a97b5f8d0ab2f8/epic-games.pdf"}]
+  }
 }

@@ -1,1 +1,37 @@
-{"slug":"vanta","status":"Published","name":"Vanta","sector":"Security software","summary":"Compliance automation software for fast-growing businesses.","overview":"<p>Vanta helps companies automate evidence collection for security and compliance programs.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"July 2024: $150M Series C","note":"Publicly reported financing context.","source":""}],"directory_rank":27,"bull_case":"Compliance workflows are recurring, painful, and well suited to automation.","bear_case":"Crowded governance tools and lower-cost competitors may pressure pricing.","latest_round":"July 2024: $150M Series C","directory_notes":["Net retention","enterprise expansion."]}
+{
+  "slug": "vanta",
+  "status": "Published",
+  "name": "Vanta",
+  "sector": "Security software",
+  "summary": "Compliance automation software for fast-growing businesses.",
+  "overview": "<p>Vanta helps companies automate evidence collection for security and compliance programs.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "July 2024: $150M Series C",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 27,
+  "bull_case": "Compliance workflows are recurring, painful, and well suited to automation.",
+  "bear_case": "Crowded governance tools and lower-cost competitors may pressure pricing.",
+  "latest_round": "July 2024: $150M Series C",
+  "directory_notes": [
+    "Net retention",
+    "enterprise expansion."
+  ],
+  "intelligence": {
+    "kicker":"Company intelligence","location":"San Francisco, California","status":"Private","logo":"https://logo.clearbit.com/vanta.com","description":"Vanta provides software that automates security compliance, risk management and continuous trust reporting for businesses.",
+    "metrics":[{"value":"$4.15B","label":"Latest valuation","note":"July 2025"},{"value":"$150M","label":"Latest funding","note":"Series D, July 2025"},{"value":"$300M","label":"Annual recurring revenue","note":"Company-reported, April 2026"}],
+    "company":["Vanta began by helping startups automate security-compliance processes, then expanded into broader governance, risk and trust-management workflows.","Its platform connects controls, vendor data, evidence and security frameworks so companies can continuously prove compliance rather than prepare only for audits."],
+    "why_it_matters":"Vanta shows how compliance automation can become durable infrastructure as software companies sell to larger customers. Its growth provides a useful private-market benchmark for AI-enabled GRC software.",
+    "valuation_history":[{"value":"$1.6B","date":"2022","round":"Series B"},{"value":"$2.45B","date":"2024","round":"Series C"},{"value":"$4.15B","date":"2025","round":"Series D"}],
+    "changed":[{"date":"2025","text":"Raised $150M in Series D financing at a $4.15B valuation."},{"date":"2026","text":"Reported crossing $300M in annual recurring revenue and continued product expansion around AI and trust management."}],
+    "takeaways":["Compliance and trust are recurring workflows with clear budget owners.","Vanta's expansion beyond point-in-time audits is central to retention.","Competition across GRC and security platforms remains substantial."],
+    "quick_facts":[{"label":"Founded","value":"2018"},{"label":"Headquarters","value":"San Francisco, CA"},{"label":"Founder & CEO","value":"Christina Cacioppo"},{"label":"Website","value":"vanta.com"}],
+    "sources":[{"label":"Vanta Series D announcement","url":"https://www.vanta.com/resources/vanta-announces-series-d"},{"label":"Vanta ARR milestone","url":"https://www.vanta.com/resources/vanta-crosses-300m-in-arr-as-growth-accelerates"}]
+  }
+}

@@ -1,1 +1,37 @@
-{"slug":"world-labs","status":"Published","name":"World Labs","sector":"AI","summary":"Spatial intelligence startup building models that understand and generate 3D worlds.","overview":"<p>World Labs is developing AI systems for spatial reasoning and world models.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"September 2024: $230M seed round","note":"Publicly reported financing context.","source":""}],"directory_rank":41,"bull_case":"Spatial models could unlock new interfaces for robotics, simulation, and media.","bear_case":"The technical path to reliable world models remains unproven and expensive.","latest_round":"September 2024: $230M seed round","directory_notes":["Model capability","commercial use cases."]}
+{
+  "slug": "world-labs",
+  "status": "Published",
+  "name": "World Labs",
+  "sector": "AI",
+  "summary": "Spatial intelligence startup building models that understand and generate 3D worlds.",
+  "overview": "<p>World Labs is developing AI systems for spatial reasoning and world models.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "September 2024: $230M seed round",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 41,
+  "bull_case": "Spatial models could unlock new interfaces for robotics, simulation, and media.",
+  "bear_case": "The technical path to reliable world models remains unproven and expensive.",
+  "latest_round": "September 2024: $230M seed round",
+  "directory_notes": [
+    "Model capability",
+    "commercial use cases."
+  ],
+  "intelligence": {
+    "kicker":"Company intelligence","location":"San Francisco, California","status":"Private","logo":"https://logo.clearbit.com/worldlabs.ai","description":"World Labs is building spatial-intelligence models that can understand, generate and interact with 3D worlds.",
+    "metrics":[{"value":"Not publicly disclosed","label":"Latest valuation","note":"2026 round terms undisclosed"},{"value":"$1B","label":"Latest funding","note":"February 2026"},{"value":"Private","label":"Public status","note":"No listed shares"}],
+    "company":["Founded by AI researcher Fei-Fei Li and collaborators, World Labs focuses on world models: systems that can reason about three-dimensional physical environments.","The company emerged from stealth in 2024 and has positioned its technology for 3D content, simulation, design and robotics workflows."],
+    "why_it_matters":"World models are a potential bridge between generative AI and physical-world applications. World Labs is a leading private bet on that transition, but commercialization remains early.",
+    "valuation_history":[{"value":"$1B","date":"2024","round":"Seed valuation"},{"value":"Not disclosed","date":"2026","round":"Latest funding"}],
+    "changed":[{"date":"2024","text":"Launched with $230M of funding and a reported $1B valuation."},{"date":"2026","text":"Announced new funding to expand spatial-intelligence development and deployment."}],
+    "takeaways":["World Labs is a high-conviction bet on spatial AI rather than a conventional chatbot company.","The latest financing provides significant capacity to train and deploy models.","The valuation for the 2026 round was not publicly disclosed."],
+    "quick_facts":[{"label":"Founded","value":"2024"},{"label":"Headquarters","value":"San Francisco, CA"},{"label":"Co-founder","value":"Fei-Fei Li"},{"label":"Website","value":"worldlabs.ai"}],
+    "sources":[{"label":"World Labs funding announcement","url":"https://www.worldlabs.ai/blog/funding-2026"},{"label":"Reuters funding coverage","url":"https://www.investing.com/news/stock-market-news/ai-pioneer-feifei-lis-world-labs-raises-1-billion-in-funding-4511890"}]
+  }
+}

@@ -1,1 +1,37 @@
-{"slug":"sila","status":"Published","name":"Sila","sector":"Climate tech","summary":"Battery-materials company commercializing silicon-anode technology for EVs.","overview":"<p>Sila develops silicon anodes designed to improve lithium-ion battery performance.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"January 2021: $590M Series F","note":"Publicly reported financing context.","source":""}],"directory_rank":47,"bull_case":"A meaningful battery-performance improvement can command strategic OEM demand.","bear_case":"Manufacturing scale-up and automotive qualification cycles are expensive and slow.","latest_round":"January 2021: $590M Series F","directory_notes":["Production ramp","OEM qualification."]}
+{
+  "slug": "sila",
+  "status": "Published",
+  "name": "Sila",
+  "sector": "Climate tech",
+  "summary": "Battery-materials company commercializing silicon-anode technology for EVs.",
+  "overview": "<p>Sila develops silicon anodes designed to improve lithium-ion battery performance.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "January 2021: $590M Series F",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 47,
+  "bull_case": "A meaningful battery-performance improvement can command strategic OEM demand.",
+  "bear_case": "Manufacturing scale-up and automotive qualification cycles are expensive and slow.",
+  "latest_round": "January 2021: $590M Series F",
+  "directory_notes": [
+    "Production ramp",
+    "OEM qualification."
+  ],
+  "intelligence": {
+    "kicker":"Company intelligence","location":"Alameda, California","status":"Private","logo":"https://logo.clearbit.com/silanano.com","description":"Sila develops silicon-carbon anode materials designed to improve lithium-ion battery energy density, charging and performance.",
+    "metrics":[{"value":"Not publicly disclosed","label":"Current valuation","note":"No recent priced equity round disclosed"},{"value":"$1.4B","label":"Government loan commitment","note":"Conditional, 2026"},{"value":"Private","label":"Public status","note":"No listed shares"}],
+    "company":["Sila's Titan Silicon technology replaces conventional graphite anodes with silicon-carbon material for higher-performance batteries.","Its investment case depends on converting long development cycles and customer qualification into large-scale, reliable U.S. production."],
+    "why_it_matters":"Sila is a useful private-market benchmark for battery materials, where technical performance is only the first hurdle. Manufacturing quality, financing and customer adoption determine whether laboratory advantage becomes commercial value.",
+    "valuation_history":[{"value":"$3.3B","date":"2021","round":"Series F"},{"value":"Not disclosed","date":"2026","round":"Latest capital support"}],
+    "changed":[{"date":"2023","text":"Launched Titan Silicon as its first commercial silicon-anode product."},{"date":"2026","text":"Received a conditional $1.4B U.S. government loan commitment to support domestic manufacturing."}],
+    "takeaways":["Battery-materials returns depend on production execution as much as chemistry.","Policy support can lower financing risk but does not replace customer qualification.","A current equity valuation has not been publicly disclosed."],
+    "quick_facts":[{"label":"Founded","value":"2011"},{"label":"Headquarters","value":"Alameda, CA"},{"label":"Core product","value":"Titan Silicon"},{"label":"Website","value":"silanano.com"}],
+    "sources":[{"label":"Sila press room","url":"https://www.silanano.com/press"},{"label":"Sila SEC filing index","url":"https://www.sec.gov/Archives/edgar/data/1530888/000153088826000001/0001530888-26-000001-index.htm"}]
+  }
+}
