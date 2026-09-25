@@ -1,1 +1,37 @@
-{"slug":"airtable","status":"Published","name":"Airtable","sector":"Enterprise software","summary":"Flexible database and workflow platform for non-technical business teams.","overview":"<p>Airtable lets teams build customized databases and business workflows.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"December 2021: $735M Series F","note":"Publicly reported financing context.","source":""}],"directory_rank":35,"bull_case":"A flexible platform can replace bespoke spreadsheets and fragmented tools.","bear_case":"Product complexity and platform competition may slow large-scale deployment.","latest_round":"December 2021: $735M Series F","directory_notes":["Enterprise expansion","workflow adoption."]}
+{
+  "slug": "airtable",
+  "status": "Published",
+  "name": "Airtable",
+  "sector": "Enterprise software",
+  "summary": "Flexible database and workflow platform for non-technical business teams.",
+  "overview": "<p>Airtable lets teams build customized databases and business workflows.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "December 2021: $735M Series F",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 35,
+  "bull_case": "A flexible platform can replace bespoke spreadsheets and fragmented tools.",
+  "bear_case": "Product complexity and platform competition may slow large-scale deployment.",
+  "latest_round": "December 2021: $735M Series F",
+  "directory_notes": [
+    "Enterprise expansion",
+    "workflow adoption."
+  ],
+  "intelligence": {
+    "kicker":"Company intelligence","location":"San Francisco, California","status":"Acquisition agreed","logo":"https://logo.clearbit.com/airtable.com","description":"Airtable is a collaborative application-building and workflow platform that brought spreadsheet-like interfaces to structured business data.",
+    "metrics":[{"value":"$1.29B","label":"Agreed acquisition value","note":"August 2026"},{"value":"$735M","label":"Last funding round","note":"Series F, 2021"},{"value":"Acquisition agreed","label":"Public status","note":"Bending Spoons"}],
+    "company":["Airtable lets teams build databases, internal applications and workflows without conventional software development for every use case.","The company shifted toward an AI-native product strategy before Bending Spoons agreed to acquire it in 2026."],
+    "why_it_matters":"Airtable's exit is an important mark for the no-code and collaboration-software cohort. It shows how far late-stage private software valuations can move when growth expectations reset.",
+    "valuation_history":[{"value":"$5.77B","date":"2021","round":"Series E"},{"value":"$11B","date":"2021","round":"Series F"},{"value":"$1.29B","date":"2026","round":"Acquisition agreed"}],
+    "changed":[{"date":"2025","text":"Introduced an AI-native product direction for app-building workflows."},{"date":"2026","text":"Bending Spoons agreed to acquire Airtable in an all-cash transaction."}],
+    "takeaways":["The agreed exit is a meaningful reset from Airtable's 2021 private-market peak.","Its product remains an important reference point for AI-assisted business software.","Closing conditions and integration will determine the final outcome."],
+    "quick_facts":[{"label":"Founded","value":"2012"},{"label":"Headquarters","value":"San Francisco, CA"},{"label":"Acquirer","value":"Bending Spoons"},{"label":"Website","value":"airtable.com"}],
+    "sources":[{"label":"Airtable Series E announcement","url":"https://www.airtable.com/newsroom/series-e-funding-announcement"},{"label":"Axios on the acquisition agreement","url":"https://www.axios.com/2026/08/04/bending-spoons-airtable"}]
+  }
+}

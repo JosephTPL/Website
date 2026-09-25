@@ -1,1 +1,37 @@
-{"slug":"relativity-space","status":"Published","name":"Relativity Space","sector":"Space","summary":"Launch company using additive manufacturing to build next-generation rockets.","overview":"<p>Relativity Space is developing the Terran R launch vehicle with advanced manufacturing.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"June 2021: $650M Series E","note":"Publicly reported financing context.","source":""}],"directory_rank":49,"bull_case":"A successful medium-lift rocket can capture a growing launch market and defense demand.","bear_case":"Rocket development has binary technical risk and entrenched launch competitors.","latest_round":"June 2021: $650M Series E","directory_notes":["Terran R progress","launch contracts."]}
+{
+  "slug": "relativity-space",
+  "status": "Published",
+  "name": "Relativity Space",
+  "sector": "Space",
+  "summary": "Launch company using additive manufacturing to build next-generation rockets.",
+  "overview": "<p>Relativity Space is developing the Terran R launch vehicle with advanced manufacturing.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "June 2021: $650M Series E",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 49,
+  "bull_case": "A successful medium-lift rocket can capture a growing launch market and defense demand.",
+  "bear_case": "Rocket development has binary technical risk and entrenched launch competitors.",
+  "latest_round": "June 2021: $650M Series E",
+  "directory_notes": [
+    "Terran R progress",
+    "launch contracts."
+  ],
+  "intelligence": {
+    "kicker":"Company intelligence","location":"Long Beach, California","status":"Private","logo":"https://logo.clearbit.com/relativityspace.com","description":"Relativity Space is developing Terran R, a reusable heavy-lift rocket, using software-driven manufacturing and large-scale additive manufacturing.",
+    "metrics":[{"value":"Not publicly disclosed","label":"Current valuation","note":"Control investment terms undisclosed"},{"value":"$1B","label":"Reported strategic investment","note":"2025 reporting"},{"value":"Private","label":"Public status","note":"No listed shares"}],
+    "company":["Relativity retired its smaller Terran 1 program to focus capital and engineering resources on the larger reusable Terran R vehicle.","Eric Schmidt acquired a controlling stake and became chief executive in 2025, effectively recapitalizing the company around that launch program."],
+    "why_it_matters":"Relativity demonstrates the binary nature of late-stage space investing: technical milestones can overwhelm historical funding marks. Terran R progress is the key evidence investors need to assess the reset.",
+    "valuation_history":[{"value":"$4.2B","date":"2021","round":"Series E"},{"value":"Not disclosed","date":"2025","round":"Control investment"}],
+    "changed":[{"date":"2025","text":"Eric Schmidt took control and became CEO as the company refocused on Terran R."},{"date":"2026","text":"Continued development and stage testing ahead of a planned debut."}],
+    "takeaways":["Terran R execution matters more than legacy funding milestones.","A controlling recapitalization reset the governance and capital structure.","Launch delays and capital intensity remain the central risks."],
+    "quick_facts":[{"label":"Founded","value":"2015"},{"label":"Headquarters","value":"Long Beach, CA"},{"label":"CEO","value":"Eric Schmidt"},{"label":"Website","value":"relativityspace.com"}],
+    "sources":[{"label":"Relativity Series E announcement","url":"https://www.relativityspace.com/press-release/2021/6/08/relativity-space-fundraise-series-e"},{"label":"Axios on Schmidt taking control","url":"https://www.axios.com/2025/03/11/eric-schmidt-relativity-space"}]
+  }
+}

@@ -1,1 +1,37 @@
-{"slug":"abnormal-security","status":"Published","name":"Abnormal Security","sector":"Cybersecurity","summary":"Cloud email-security platform using behavioral AI to detect targeted attacks.","overview":"<p>Abnormal Security protects organizations from sophisticated email-based threats.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"August 2024: $250M Series D","note":"Publicly reported financing context.","source":""}],"directory_rank":30,"bull_case":"Email remains a critical attack surface, and behavioral detection can improve with data scale.","bear_case":"Crowded security budgets and incumbent suites can constrain standalone expansion.","latest_round":"August 2024: $250M Series D","directory_notes":["Enterprise adoption","detection efficacy."]}
+{
+  "slug": "abnormal-security",
+  "status": "Published",
+  "name": "Abnormal Security",
+  "sector": "Cybersecurity",
+  "summary": "Cloud email-security platform using behavioral AI to detect targeted attacks.",
+  "overview": "<p>Abnormal Security protects organizations from sophisticated email-based threats.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "August 2024: $250M Series D",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 30,
+  "bull_case": "Email remains a critical attack surface, and behavioral detection can improve with data scale.",
+  "bear_case": "Crowded security budgets and incumbent suites can constrain standalone expansion.",
+  "latest_round": "August 2024: $250M Series D",
+  "directory_notes": [
+    "Enterprise adoption",
+    "detection efficacy."
+  ],
+  "intelligence": {
+    "kicker":"Company intelligence","location":"Las Vegas, Nevada","status":"Private","logo":"https://logo.clearbit.com/abnormal.ai","description":"Abnormal AI uses behavioral models to detect phishing, social-engineering and other human-targeted attacks across cloud email and collaboration environments.",
+    "metrics":[{"value":"$5.1B","label":"Latest valuation","note":"August 2024"},{"value":"$250M","label":"Latest funding","note":"Series D, August 2024"},{"value":"Private","label":"Public status","note":"No listed shares"}],
+    "company":["Abnormal's platform models normal communication patterns to flag impersonation, business-email compromise and related attacks that evade rule-based filters.","It sells primarily to enterprises and has expanded its positioning from email security toward broader human-behavior security."],
+    "why_it_matters":"Abnormal is a leading example of AI-native security software with clear enterprise budgets. Its performance is relevant to private cybersecurity peers using models to automate high-value analyst work.",
+    "valuation_history":[{"value":"$4B","date":"2022","round":"Series C"},{"value":"$5.1B","date":"2024","round":"Series D"}],
+    "changed":[{"date":"2024","text":"Raised $250M in Series D financing at a $5.1B valuation."},{"date":"2025","text":"Reported continued product expansion around AI-native human-behavior security."}],
+    "takeaways":["Social engineering is an expanding attack surface for enterprise customers.","Behavioral detection is differentiated only if it produces measurably better outcomes.","The $5.1B mark is the latest publicly disclosed valuation."],
+    "quick_facts":[{"label":"Founded","value":"2018"},{"label":"Headquarters","value":"Las Vegas, NV"},{"label":"Focus","value":"Email security"},{"label":"Website","value":"abnormal.ai"}],
+    "sources":[{"label":"Abnormal Series D announcement","url":"https://abnormal-website-rd-sandbox.vercel.app/newsroom/press-releases/series-d-5b-valuation"},{"label":"Abnormal 2024 milestones","url":"https://abnormal.ai/es/blog/transformative-year-for-abnormal-security"}]
+  }
+}

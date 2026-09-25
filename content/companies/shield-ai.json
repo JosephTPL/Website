@@ -1,1 +1,37 @@
-{"slug":"shield-ai","status":"Published","name":"Shield AI","sector":"Defense","summary":"Autonomous flight and drone systems for contested environments.","overview":"<p>Shield AI builds autonomy software and aircraft for defense applications.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"March 2025: $240M Series F","note":"Publicly reported financing context.","source":""}],"directory_rank":24,"bull_case":"Autonomy is increasingly central to defense procurement and platform differentiation.","bear_case":"Procurement cycles, export controls, and platform integration create execution risk.","latest_round":"March 2025: $240M Series F","directory_notes":["Government awards","autonomy software adoption."]}
+{
+  "slug": "shield-ai",
+  "status": "Published",
+  "name": "Shield AI",
+  "sector": "Defense",
+  "summary": "Autonomous flight and drone systems for contested environments.",
+  "overview": "<p>Shield AI builds autonomy software and aircraft for defense applications.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "March 2025: $240M Series F",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 24,
+  "bull_case": "Autonomy is increasingly central to defense procurement and platform differentiation.",
+  "bear_case": "Procurement cycles, export controls, and platform integration create execution risk.",
+  "latest_round": "March 2025: $240M Series F",
+  "directory_notes": [
+    "Government awards",
+    "autonomy software adoption."
+  ],
+  "intelligence": {
+    "kicker":"Company intelligence","location":"San Diego, California","status":"Private","logo":"https://logo.clearbit.com/shield.ai","description":"Shield AI develops autonomy software and aircraft systems intended to operate without GPS, communications or a pilot in contested environments.",
+    "metrics":[{"value":"$5.3B","label":"Latest valuation","note":"March 2025"},{"value":"$240M","label":"Latest funding","note":"F-1 round, March 2025"},{"value":"Private","label":"Public status","note":"No listed shares"}],
+    "company":["Shield AI's Hivemind software is designed to enable autonomous decision-making for aircraft and other systems operating in denied environments.","The company pairs the software platform with defense aircraft and a growing set of government and industry relationships."],
+    "why_it_matters":"Shield AI captures the defense-tech shift from individual platforms toward software-defined autonomy. Its commercial proof points matter for a wider cohort of private companies selling AI into national-security budgets.",
+    "valuation_history":[{"value":"$2.3B","date":"2023","round":"Series E"},{"value":"$2.8B","date":"2024","round":"Funding round"},{"value":"$5.3B","date":"2025","round":"F-1 round"}],
+    "changed":[{"date":"2025","text":"Raised $240M to scale Hivemind Enterprise and autonomy product development."}],
+    "takeaways":["Autonomy software is the core strategic asset, not simply the airframe.","Defense procurement timing and program concentration remain material risks.","The valuation reflects increased investor appetite for defense technology."],
+    "quick_facts":[{"label":"Founded","value":"2015"},{"label":"Headquarters","value":"San Diego, CA"},{"label":"Core product","value":"Hivemind"},{"label":"Website","value":"shield.ai"}],
+    "sources":[{"label":"Shield AI F-1 funding announcement","url":"https://shield.ai/shield-ai-raises-240m-at-5-3b-valuation-to-scale-hivemind-enterprise-an-ai-powered-autonomy-developer-platform/"},{"label":"TechCrunch funding coverage","url":"https://techcrunch.com/2025/03/06/shield-ai-raises-240-million-at-a-5-3-billion-valuation-to-commercialize-its-ai-drone-tech/"}]
+  }
+}

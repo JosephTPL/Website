@@ -4,7 +4,7 @@
   "name": "xAI",
   "sector": "AI",
   "summary": "xAI is a notable private company in ai.",
-  "overview": "<p>xAI is included in The Private Ledger\u2019s company directory for ongoing research.</p>",
+  "overview": "<p>xAI is included in The Private Ledger’s company directory for ongoing research.</p>",
   "image": "",
   "image_alt": "",
   "as_of": "2026-09-21",
@@ -24,5 +24,16 @@
   "directory_notes": [
     "Grok adoption",
     "infrastructure scale and product trust."
-  ]
+  ],
+  "intelligence": {
+    "kicker": "Company intelligence", "location": "Palo Alto, California", "status": "Private", "logo": "https://logo.clearbit.com/x.ai", "description": "xAI develops the Grok model family and is integrated with X, pairing frontier-model development with a large real-time distribution channel.",
+    "metrics": [{"value":"$230B+","label":"Reported valuation","note":"January 2026"},{"value":"$20B","label":"Latest funding","note":"January 2026"},{"value":"Private","label":"Public status","note":"No listed shares"}],
+    "company": ["Founded by Elon Musk in 2023, xAI is building general-purpose AI models and products, with Grok distributed through X and its own applications.", "Its March 2025 acquisition of X combined model development, data, compute and consumer distribution inside one private company."],
+    "why_it_matters": "xAI is a useful test case for whether proprietary distribution can lower the cost of acquiring users for a frontier-model company. Its funding needs also illustrate how capital-intensive AI competition has become.",
+    "valuation_history": [{"value":"$24B","date":"2024","round":"Series B"},{"value":"$80B","date":"2025","round":"X combination"},{"value":"$230B+","date":"2026","round":"Latest funding"}],
+    "changed": [{"date":"2025","text":"Acquired X in an all-stock transaction, combining the model business and social platform."},{"date":"2026","text":"Announced $20B of new financing to expand compute and product development."}],
+    "takeaways": ["Grok benefits from a direct consumer distribution channel through X.","The X combination makes xAI more than a standalone model vendor.","Compute spending and model performance remain the central execution risks."],
+    "quick_facts": [{"label":"Founded","value":"2023"},{"label":"Headquarters","value":"Palo Alto, CA"},{"label":"Founder","value":"Elon Musk"},{"label":"Website","value":"x.ai"}],
+    "sources": [{"label":"Associated Press on the X transaction","url":"https://apnews.com/article/b245f463076ac9b72c41f92160dc77eb"},{"label":"Kiplinger on 2026 funding","url":"https://www.kiplinger.com/business/biggest-ai-companies-to-know"}]
+  }
 }

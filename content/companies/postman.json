@@ -1,1 +1,37 @@
-{"slug":"postman","status":"Published","name":"Postman","sector":"Developer tools","summary":"API collaboration platform embedded in the workflow of software teams.","overview":"<p>Postman helps developers build, test, document, and manage APIs.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"August 2021: $225M Series D","note":"Publicly reported financing context.","source":""}],"directory_rank":31,"bull_case":"APIs are essential infrastructure and collaborative tooling can become a team standard.","bear_case":"Open-source tools and cloud platforms may narrow the paid feature set.","latest_round":"August 2021: $225M Series D","directory_notes":["Team conversion","API platform growth."]}
+{
+  "slug": "postman",
+  "status": "Published",
+  "name": "Postman",
+  "sector": "Developer tools",
+  "summary": "API collaboration platform embedded in the workflow of software teams.",
+  "overview": "<p>Postman helps developers build, test, document, and manage APIs.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "August 2021: $225M Series D",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 31,
+  "bull_case": "APIs are essential infrastructure and collaborative tooling can become a team standard.",
+  "bear_case": "Open-source tools and cloud platforms may narrow the paid feature set.",
+  "latest_round": "August 2021: $225M Series D",
+  "directory_notes": [
+    "Team conversion",
+    "API platform growth."
+  ],
+  "intelligence": {
+    "kicker":"Company intelligence","location":"San Francisco, California","status":"Private","logo":"https://logo.clearbit.com/postman.com","description":"Postman provides an API platform for designing, testing, documenting and managing APIs across software teams.",
+    "metrics":[{"value":"$5.6B","label":"Last disclosed valuation","note":"August 2021"},{"value":"$225M","label":"Latest funding","note":"Series D, August 2021"},{"value":"Private","label":"Public status","note":"No listed shares"}],
+    "company":["Postman began as a developer utility and expanded into a collaborative platform for the full API lifecycle.","Its users include individual developers and larger organizations that need standard workflows across distributed engineering teams."],
+    "why_it_matters":"APIs are core infrastructure for modern software. Postman is a useful private-market measure of whether broad developer adoption can translate into durable enterprise monetization.",
+    "valuation_history":[{"value":"$2B","date":"2020","round":"Series C"},{"value":"$5.6B","date":"2021","round":"Series D"}],
+    "changed":[{"date":"2025","text":"Continued expanding its platform around AI API development and enterprise collaboration."},{"date":"2026","text":"Acquired Fern to deepen API documentation and SDK capabilities."}],
+    "takeaways":["Postman's bottom-up developer reach is its primary asset.","Enterprise conversion and retention determine how much of that reach can be monetized.","The last disclosed valuation remains a 2021 mark."],
+    "quick_facts":[{"label":"Founded","value":"2014"},{"label":"Headquarters","value":"San Francisco, CA"},{"label":"Focus","value":"API platform"},{"label":"Website","value":"postman.com"}],
+    "sources":[{"label":"Postman company information","url":"https://www.postman.com/company/about-postman/"},{"label":"Postman acquisition of Fern","url":"https://blog.postman.com/postman-acquires-fern/"}]
+  }
+}

@@ -1,1 +1,37 @@
-{"slug":"luma-ai","status":"Published","name":"Luma AI","sector":"AI media","summary":"Generative video and 3D creation company targeting visual storytelling workflows.","overview":"<p>Luma AI develops generative models for video and 3D content.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"January 2024: $43M Series B","note":"Publicly reported financing context.","source":""}],"directory_rank":42,"bull_case":"Generative visual tools can widen content creation and accelerate production cycles.","bear_case":"Model costs, copyright questions, and deep-pocketed rivals could impair margins.","latest_round":"January 2024: $43M Series B","directory_notes":["Creator adoption","video quality and cost."]}
+{
+  "slug": "luma-ai",
+  "status": "Published",
+  "name": "Luma AI",
+  "sector": "AI media",
+  "summary": "Generative video and 3D creation company targeting visual storytelling workflows.",
+  "overview": "<p>Luma AI develops generative models for video and 3D content.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "January 2024: $43M Series B",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 42,
+  "bull_case": "Generative visual tools can widen content creation and accelerate production cycles.",
+  "bear_case": "Model costs, copyright questions, and deep-pocketed rivals could impair margins.",
+  "latest_round": "January 2024: $43M Series B",
+  "directory_notes": [
+    "Creator adoption",
+    "video quality and cost."
+  ],
+  "intelligence": {
+    "kicker":"Company intelligence","location":"Palo Alto, California","status":"Private","logo":"https://logo.clearbit.com/lumalabs.ai","description":"Luma AI develops generative video, 3D and multimodal world-model technology for creative and physical-world applications.",
+    "metrics":[{"value":"~$4B","label":"Reported valuation","note":"2025 Series C reporting"},{"value":"$900M","label":"Latest funding","note":"Series C, 2025"},{"value":"Private","label":"Public status","note":"No listed shares"}],
+    "company":["Luma started in visual capture and generative media, then broadened its ambition to multimodal models that can understand and simulate the physical world.","The company has said its Series C will support model training and deployment, including a planned compute partnership with Humain."],
+    "why_it_matters":"Luma sits where video generation, 3D tools and world models meet. That puts it in direct competition for creative workloads while also creating an option on robotics and simulation.",
+    "valuation_history":[{"value":"$43M","date":"2024","round":"Series B"},{"value":"$900M","date":"2025","round":"Series C"}],
+    "changed":[{"date":"2025","text":"Raised a $900M Series C to scale multimodal model development."},{"date":"2026","text":"Focused its investment case on world models and large-scale compute deployment."}],
+    "takeaways":["Luma is extending beyond creator tools into multimodal AI.","Its funding supports unusually capital-intensive training ambitions.","The commercial question is whether its products convert technical novelty into durable workflows."],
+    "quick_facts":[{"label":"Founded","value":"2021"},{"label":"Headquarters","value":"Palo Alto, CA"},{"label":"Focus","value":"Video and world models"},{"label":"Website","value":"lumalabs.ai"}],
+    "sources":[{"label":"Luma Series C announcement","url":"https://lumalabs.ai/news/series-c"},{"label":"Sacra Luma research","url":"https://assets.ctfassets.net/f1df9zr7wr1a/5kZ1C6fCcQslXrAZDueiyu/48456933ad871895bd01b30f3cbc0fa0/luma-ai.pdf"}]
+  }
+}

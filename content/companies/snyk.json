@@ -1,1 +1,37 @@
-{"slug":"snyk","status":"Published","name":"Snyk","sector":"Cybersecurity","summary":"Developer security platform that embeds vulnerability detection into software delivery.","overview":"<p>Snyk helps developers find and remediate security issues across code and dependencies.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"December 2022: $196.5M Series G","note":"Publicly reported financing context.","source":""}],"directory_rank":29,"bull_case":"Security integrated into the developer workflow can become a high-retention control point.","bear_case":"Platform vendors and budget scrutiny may limit pricing and expansion.","latest_round":"December 2022: $196.5M Series G","directory_notes":["Net retention","platform consolidation."]}
+{
+  "slug": "snyk",
+  "status": "Published",
+  "name": "Snyk",
+  "sector": "Cybersecurity",
+  "summary": "Developer security platform that embeds vulnerability detection into software delivery.",
+  "overview": "<p>Snyk helps developers find and remediate security issues across code and dependencies.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "December 2022: $196.5M Series G",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 29,
+  "bull_case": "Security integrated into the developer workflow can become a high-retention control point.",
+  "bear_case": "Platform vendors and budget scrutiny may limit pricing and expansion.",
+  "latest_round": "December 2022: $196.5M Series G",
+  "directory_notes": [
+    "Net retention",
+    "platform consolidation."
+  ],
+  "intelligence": {
+    "kicker":"Company intelligence","location":"Boston, Massachusetts","status":"Private","logo":"https://logo.clearbit.com/snyk.io","description":"Snyk provides developer-focused security tools for finding and fixing vulnerabilities across code, open source dependencies, containers and cloud configurations.",
+    "metrics":[{"value":"$7.4B","label":"Last disclosed valuation","note":"December 2022"},{"value":"$196.5M","label":"Latest disclosed funding","note":"December 2022"},{"value":"Private","label":"Public status","note":"No listed shares"}],
+    "company":["Snyk embeds security testing into developer workflows, helping engineering teams identify issues before software reaches production.","Its platform strategy combines open-source security, code scanning, cloud security and application security posture management."],
+    "why_it_matters":"Snyk is a key private benchmark for the developer-security market. Its next liquidity event will test how investors value security platforms built around developer adoption in a tighter software market.",
+    "valuation_history":[{"value":"$2.6B","date":"2021","round":"Series D"},{"value":"$8.5B","date":"2021","round":"Series F"},{"value":"$7.4B","date":"2022","round":"Latest disclosed round"}],
+    "changed":[{"date":"2022","text":"Raised close to $200M in a late-stage funding round led by Qatar Investment Authority."},{"date":"2026","text":"Continued to position AI and developer workflows as central to modern application security."}],
+    "takeaways":["Developer distribution is a durable advantage in security software.","The last public funding mark predates the current AI-led software cycle.","A new financing or IPO would provide a more current valuation signal."],
+    "quick_facts":[{"label":"Founded","value":"2015"},{"label":"Headquarters","value":"Boston, MA"},{"label":"CEO","value":"Peter McKay"},{"label":"Website","value":"snyk.io"}],
+    "sources":[{"label":"Snyk funding history","url":"https://www.snyk.io/blog/snyk-raises-196-5-million/"},{"label":"Sacra Snyk research","url":"https://assets.ctfassets.net/f1df9zr7wr1a/4bqwgsmDo9S9bayS0PgJae/98abcf45f7afb4ea3e8a81a8c13982a8/snyk.pdf"}]
+  }
+}

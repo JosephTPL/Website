@@ -1,1 +1,37 @@
-{"slug":"skydio","status":"Published","name":"Skydio","sector":"Drones","summary":"U.S. drone maker centered on autonomy for enterprise and defense users.","overview":"<p>Skydio develops autonomous drones for public safety, enterprise, and defense.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"February 2023: $230M Series E","note":"Publicly reported financing context.","source":""}],"directory_rank":46,"bull_case":"Secure, autonomous U.S.-made drones have strategic demand across public-sector markets.","bear_case":"Hardware supply chains and competition from lower-cost systems can challenge economics.","latest_round":"February 2023: $230M Series E","directory_notes":["Government demand","manufacturing scale."]}
+{
+  "slug": "skydio",
+  "status": "Published",
+  "name": "Skydio",
+  "sector": "Drones",
+  "summary": "U.S. drone maker centered on autonomy for enterprise and defense users.",
+  "overview": "<p>Skydio develops autonomous drones for public safety, enterprise, and defense.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "February 2023: $230M Series E",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 46,
+  "bull_case": "Secure, autonomous U.S.-made drones have strategic demand across public-sector markets.",
+  "bear_case": "Hardware supply chains and competition from lower-cost systems can challenge economics.",
+  "latest_round": "February 2023: $230M Series E",
+  "directory_notes": [
+    "Government demand",
+    "manufacturing scale."
+  ],
+  "intelligence": {
+    "kicker":"Company intelligence","location":"San Mateo, California","status":"Private","logo":"https://logo.clearbit.com/skydio.com","description":"Skydio builds autonomous drones and software for defense, public safety, infrastructure and other enterprise uses.",
+    "metrics":[{"value":"$4.4B","label":"Latest valuation","note":"April 2026"},{"value":"$110M","label":"Latest funding","note":"Series F, April 2026"},{"value":"Private","label":"Public status","note":"No listed shares"}],
+    "company":["Skydio designs and manufactures autonomous drones in the United States, prioritizing enterprise and government customers over consumer hardware.","Its autonomy stack and domestic supply chain are central to its pitch as organizations reduce reliance on Chinese drone suppliers."],
+    "why_it_matters":"Skydio is one of the most important private benchmarks in U.S. defense and industrial autonomy. Its latest funding shows that investors will support hardware companies when revenue quality and strategic demand are credible.",
+    "valuation_history":[{"value":"$1B+","date":"2021","round":"Series D"},{"value":"$2.2B+","date":"2023","round":"Series E"},{"value":"$4.4B","date":"2026","round":"Series F"}],
+    "changed":[{"date":"2023","text":"Raised $230M in Series E funding to expand U.S. drone manufacturing."},{"date":"2026","text":"Raised $110M in Series F funding at a $4.4B valuation."}],
+    "takeaways":["Skydio benefits from national-security demand for domestic drone supply.","Autonomy software and production scale must advance together.","Government procurement concentration is a core operating risk."],
+    "quick_facts":[{"label":"Founded","value":"2014"},{"label":"Headquarters","value":"San Mateo, CA"},{"label":"CEO","value":"Adam Bry"},{"label":"Website","value":"skydio.com"}],
+    "sources":[{"label":"Skydio Series F announcement","url":"https://www.skydio.com/blog/skydio-series-f"},{"label":"Skydio Series E announcement","url":"https://www.skydio.com/blog/skydio-raises-230-million-series-e-funding-round"}]
+  }
+}
