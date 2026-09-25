@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://keenable.com"
+      "value": "2025: $26M seed financing",
+      "note": "Keenable reported a $26 million seed round; its valuation was not disclosed.",
+      "source": "https://www.axios.com/newsletters/axios-pro-rata-60ba74b4-004e-4f57-b2e5-496aa335b1f7"
     }
   ],
   "directory_rank": 61,
   "bull_case": "Keenable is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "2025 seed financing: $26M; valuation undisclosed",
   "directory_notes": [
     "Enterprise software",
     "Public financing and operating disclosures are limited; the profile remains a research baseline rather than a valuation claim."
@@ -30,9 +30,9 @@
     "description": "Keenable is a private enterprise-software company tracked by The Private Ledger.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "Undisclosed",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Valuation was not announced with the seed financing"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "Public financing and operating disclosures are limited; the profile remains a research baseline rather than a valuation claim.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$26M raised",
+        "date": "2025",
+        "round": "Seed"
       }
     ],
     "changed": [
@@ -89,6 +89,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Axios Pro Rata: Keenable seed financing",
+        "url": "https://www.axios.com/newsletters/axios-pro-rata-60ba74b4-004e-4f57-b2e5-496aa335b1f7"
+      },
       {
         "label": "Company website",
         "url": "https://keenable.com"

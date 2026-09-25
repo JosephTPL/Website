@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://olix.com"
+      "value": "August 2026: $3.3B",
+      "note": "OLIX announced a $312 million Series B at a $3.3 billion valuation.",
+      "source": "https://olix.com/news/company-raises-series-b"
     }
   ],
   "directory_rank": 107,
   "bull_case": "OLIX is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "August 2026 Series B: $312M at a $3.3B valuation",
   "directory_notes": [
     "Technology",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "OLIX is a private company tracked by The Private Ledger in technology.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$3.3B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "August 2026 Series B"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$3.3B",
+        "date": "Aug 2026",
+        "round": "$312M Series B"
       }
     ],
     "changed": [
@@ -88,6 +88,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "OLIX: $312M Series B",
+        "url": "https://olix.com/news/company-raises-series-b"
+      },
       {
         "label": "Company website",
         "url": "https://olix.com"

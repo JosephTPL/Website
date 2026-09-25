@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://generalmatter.com"
+      "value": "April 2025: $50M Series A",
+      "note": "General Matter raised $50 million in a Founders Fund-led Series A; its valuation was not disclosed.",
+      "source": "https://www.axios.com/newsletters/axios-pro-rata-9b533bc3-9525-4a93-8808-dbb496fd4dfa"
     }
   ],
   "directory_rank": 82,
   "bull_case": "General Matter is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "April 2025 Series A: $50M; valuation undisclosed",
   "directory_notes": [
     "Nuclear energy",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "General Matter is a private company tracked by The Private Ledger in nuclear energy.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "Undisclosed",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Valuation was not announced with the Series A"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$50M raised",
+        "date": "Apr 2025",
+        "round": "Series A"
       }
     ],
     "changed": [
@@ -88,6 +88,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Axios Pro Rata: General Matter $50M Series A",
+        "url": "https://www.axios.com/newsletters/axios-pro-rata-9b533bc3-9525-4a93-8808-dbb496fd4dfa"
+      },
       {
         "label": "Company website",
         "url": "https://generalmatter.com"

@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://pangram.com"
+      "value": "July 2026: $9M financing",
+      "note": "Pangram Labs announced $9 million in funding; its valuation was not disclosed.",
+      "source": "https://siliconangle.com/2026/07/29/pangram-labs-raises-9m-launch-accurate-ai-detection-text-images/"
     }
   ],
   "directory_rank": 64,
   "bull_case": "Pangram Labs is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "July 2026 financing: $9M; valuation undisclosed",
   "directory_notes": [
     "AI detection",
     "The opportunity depends on accuracy, trust, and adoption as synthetic media becomes more common; public financing data is limited."
@@ -30,9 +30,9 @@
     "description": "Pangram Labs develops tools intended to identify AI-generated writing.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "Undisclosed",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Valuation was not announced with the July 2026 financing"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The opportunity depends on accuracy, trust, and adoption as synthetic media becomes more common; public financing data is limited.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$9M raised",
+        "date": "Jul 2026",
+        "round": "Financing"
       }
     ],
     "changed": [
@@ -89,6 +89,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "SiliconANGLE: Pangram Labs $9M financing",
+        "url": "https://siliconangle.com/2026/07/29/pangram-labs-raises-9m-launch-accurate-ai-detection-text-images/"
+      },
       {
         "label": "Company website",
         "url": "https://pangram.com"

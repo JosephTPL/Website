@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://joinhandshake.com"
+      "value": "January 2022: $3.5B",
+      "note": "Handshake raised $200 million in a Series F at a $3.5 billion valuation.",
+      "source": "https://www.prnewswire.com/news-releases/no-network-required-handshake-raises-200m-to-help-gen-z-launch-careers-301463445.html"
     }
   ],
   "directory_rank": 125,
   "bull_case": "Handshake is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "January 2022 Series F: $200M at a $3.5B valuation",
   "directory_notes": [
     "AI and talent infrastructure",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Handshake is a private company tracked by The Private Ledger in ai and talent infrastructure.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$3.5B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "January 2022 Series F"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$3.5B",
+        "date": "Jan 2022",
+        "round": "$200M Series F"
       }
     ],
     "changed": [
@@ -88,6 +88,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Handshake: $200M Series F",
+        "url": "https://www.prnewswire.com/news-releases/no-network-required-handshake-raises-200m-to-help-gen-z-launch-careers-301463445.html"
+      },
       {
         "label": "Company website",
         "url": "https://joinhandshake.com"

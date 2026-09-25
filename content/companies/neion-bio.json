@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://neionbio.com"
+      "value": "June 2026: $23M Series A",
+      "note": "Neion Bio announced an oversubscribed $23 million Series A; its valuation was not disclosed.",
+      "source": "https://www.globenewswire.com/news-release/2026/06/11/3310316/0/en/Neion-Bio-Raises-Oversubscribed-23-Million-Series-A-to-Advance-Biologics-Manufacturing-Platform-and-Expand-Pipeline.html"
     }
   ],
   "directory_rank": 63,
   "bull_case": "Neion Bio is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "June 2026 Series A: $23M; valuation undisclosed",
   "directory_notes": [
     "Biotechnology",
     "Clinical progress, scientific validation, and financing will be the key evidence points for future updates."
@@ -30,9 +30,9 @@
     "description": "Neion Bio is a private biotechnology company tracked by The Private Ledger.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "Undisclosed",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Valuation was not announced with the Series A"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "Clinical progress, scientific validation, and financing will be the key evidence points for future updates.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$23M raised",
+        "date": "Jun 2026",
+        "round": "Series A"
       }
     ],
     "changed": [
@@ -89,6 +89,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Neion Bio: $23M Series A",
+        "url": "https://www.globenewswire.com/news-release/2026/06/11/3310316/0/en/Neion-Bio-Raises-Oversubscribed-23-Million-Series-A-to-Advance-Biologics-Manufacturing-Platform-and-Expand-Pipeline.html"
+      },
       {
         "label": "Company website",
         "url": "https://neionbio.com"

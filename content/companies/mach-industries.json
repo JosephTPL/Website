@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://machindustries.com"
+      "value": "September 2026: $3.7B",
+      "note": "Mach raised an additional $600 million in a Series C continuation at a $3.7 billion valuation.",
+      "source": "https://www.prnewswire.com/news-releases/mach-industries-raises-additional-600-million-to-scale-defense-manufacturing-302874488.html"
     }
   ],
   "directory_rank": 128,
   "bull_case": "Mach Industries is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "September 2026 Series C continuation: $600M at a $3.7B valuation",
   "directory_notes": [
     "Defense technology",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Mach Industries is a private company tracked by The Private Ledger in defense technology.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$3.7B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "September 2026 Series C continuation"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$3.7B",
+        "date": "Sep 2026",
+        "round": "$600M Series C continuation"
       }
     ],
     "changed": [
@@ -88,6 +88,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Mach Industries: $600M Series C continuation",
+        "url": "https://www.prnewswire.com/news-releases/mach-industries-raises-additional-600-million-to-scale-defense-manufacturing-302874488.html"
+      },
       {
         "label": "Company website",
         "url": "https://machindustries.com"

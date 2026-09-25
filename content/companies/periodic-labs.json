@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://periodiclabs.com"
+      "value": "September 2025: $300M seed",
+      "note": "Periodic Labs emerged from stealth with a $300 million seed round; its valuation was not publicly disclosed.",
+      "source": "https://techcrunch.com/2025/09/30/former-openai-and-deepmind-researchers-raise-whopping-300m-seed-to-automate-science/"
     }
   ],
   "directory_rank": 86,
   "bull_case": "Periodic Labs is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "September 2025 seed: $300M; valuation undisclosed",
   "directory_notes": [
     "AI for science",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Periodic Labs is a private company tracked by The Private Ledger in ai for science.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "Undisclosed",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Valuation was not publicly disclosed with the seed round"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$300M raised",
+        "date": "Sep 2025",
+        "round": "Seed"
       }
     ],
     "changed": [
@@ -88,6 +88,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "TechCrunch: Periodic Labs $300M seed",
+        "url": "https://techcrunch.com/2025/09/30/former-openai-and-deepmind-researchers-raise-whopping-300m-seed-to-automate-science/"
+      },
       {
         "label": "Company website",
         "url": "https://periodiclabs.com"
