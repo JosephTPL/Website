@@ -12,11 +12,11 @@ document.head.append(style);grid.className='company-directory-grid ledger-grid';
 const profileSlugs=/* PROFILE_SLUGS */;
 function label(text){const e=document.createElement('h2');e.className='ledger-label';e.textContent=text;grid.append(e)}
 function card(x,kind,n){const e=document.createElement('article'),img=document.createElement('img'),body=document.createElement('div'),title=document.createElement('h2'),meta=document.createElement('p'),value=document.createElement('strong'),profile=profileSlugs[x[0].toLowerCase()];e.className='ledger-card';e.dataset.search=x.join(' ').toLowerCase();const domain=x[3]||x[2];img.src='https://www.google.com/s2/favicons?domain='+encodeURIComponent(domain)+'&sz=128';img.alt=x[0]+' logo';title.textContent=x[0];if(kind==='coverage'){meta.textContent='Last round · '+x[2];value.textContent='Valuation · '+x[1]}else{meta.className='ledger-source';meta.textContent='Market watch · Rank '+n;value.textContent=x[1]==='Not publicly disclosed'||x[1]==='Not applicable'?x[1]:'Reported valuation · '+x[1]}body.append(title,meta,value);const href=profile?'/companies/'+profile+'/':kind==='coverage'?'/articles/'+x[4]+'/':null;if(href){const a=document.createElement('a');a.href=href;a.className='ledger-card-link';a.append(img,body);e.append(a)}else e.append(img,body);grid.append(e)}
-label('Covered by The Private Ledger');featured.forEach((x,i)=>card(x,'coverage',i+1));label('Market watch · private companies to follow');watch.forEach((x,i)=>card([x[0],x[1],'',x[2]],'watch',i+1));
+const valuationNumber=value=>{const match=value.match(/\$([\d.]+)([TBM])/i);if(!match)return -1;return Number(match[1])*({T:1e6,B:1e3,M:1}[match[2].toUpperCase()])};
+const directory=new Map(featured.map(x=>[x[0].toLowerCase(),[x[0],x[1],x[3]]]));watch.forEach(x=>directory.set(x[0].toLowerCase(),x));
+label('Private companies by reported valuation');[...directory.values()].sort((a,b)=>valuationNumber(b[1])-valuationNumber(a[1])||a[0].localeCompare(b[0])).forEach((x,i)=>card([x[0],x[1],'',x[2]],'watch',i+1));
 const all=[...grid.querySelectorAll('.ledger-card')];function filter(){const q=search.value.toLowerCase().trim();let shown=0;all.forEach(e=>{const yes=!q||e.dataset.search.includes(q);e.hidden=!yes;if(yes)shown++});count.textContent=shown+' companies'}search.oninput=filter;filter();
 })();
-
-
 
 
 
