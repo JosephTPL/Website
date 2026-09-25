@@ -26,7 +26,7 @@
     "kicker": "COMPANY INTELLIGENCE",
     "location": "United States",
     "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=conduit.com&sz=128",
+    "logo": "/logos/conduit.png",
     "description": "Conduit is tracked as a private financial-infrastructure company. Public disclosure of its financing and operating metrics is limited.",
     "metrics": [
       {
