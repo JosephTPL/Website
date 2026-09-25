@@ -27,7 +27,7 @@
     "kicker": "COMPANY INTELLIGENCE",
     "location": "Palo Alto, California",
     "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=ssi.inc&sz=128",
+    "logo": "/logos/safe-superintelligence.svg",
     "description": "Safe Superintelligence is an AI lab with a single stated mission: build safe superintelligence. It deliberately has no public product roadmap, making its value proposition a pure research and alignment bet.",
     "metrics": [
       {

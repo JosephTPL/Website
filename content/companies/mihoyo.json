@@ -38,7 +38,7 @@
     "kicker": "COMPANY INTELLIGENCE",
     "location": "Shanghai, China",
     "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=www.mihoyo.com&sz=128",
+    "logo": "/logos/mihoyo.png",
     "description": "miHoYo develops and publishes globally distributed games, including Genshin Impact and Honkai: Star Rail.",
     "metrics": [
       {
