@@ -48,16 +48,6 @@ def facts(c):
  rows=''.join(f'<div><dt>{E(f["label"])}</dt><dd>{E(f["value"])}</dd><p>{E(f.get("note",""))}</p>'+ (f'<a href="{E(f["source"])}">Source <span class="sr-only">for {E(f["label"])}</span> ↗</a>' if f.get('source') else '')+'</div>' for f in c.get('facts',[]))
  return f'<div class="facts-inner"><p class="snapshot-note">Figures as of {date_text(c["as_of"])}. Estimates and projections are labelled separately.</p><dl class="facts-grid">{rows}</dl></div>'
 
-def valuation_number(c):
- values=[item.get('value','') for item in c.get('intelligence',{}).get('metrics',[]) if 'valuation' in item.get('label','').lower()]
- values += [item.get('value','') for item in c.get('facts',[]) if 'valuation' in item.get('label','').lower()]
- for value in values:
-  match=re.search(r'\$\s*([\d.]+)\s*([TBM])',value,re.I)
-  if match:
-   amount=float(match.group(1));unit=match.group(2).upper()
-   return amount*{'T':1_000_000,'B':1_000,'M':1}[unit]
- return None
-
 def intelligence_profile(c):
  d=c['intelligence']
  metrics=''.join(f'<div><strong>{E(item["value"])}</strong><span>{E(item["label"])}</span><small>{E(item.get("note",""))}</small></div>' for item in d['metrics'])
@@ -258,13 +248,13 @@ s=shell('home','Companies','A concise directory of notable private companies.','
 s.body['data-page-view']='companies'
 configure_nav(s,'companies')
 main=s.select_one('main');main.clear()
-put(main,f'<section class="company-directory"><header class="directory-head"><p class="overline">THE PRIVATE LEDGER / COMPANY DIRECTORY</p><h1>Companies to know <em>before</em> they go public.</h1><p>A living editorial watchlist of {len(companies)} notable private businesses, ordered by latest reported valuation. Each card captures the business, the latest disclosed financing context, and the argument on both sides.</p><div class="directory-disclaimer"><strong>AI-assisted editorial notes.</strong> Bull and bear cases are research prompts, not investment advice. Funding information reflects the latest public disclosure recorded in each profile.</div></header><section class="directory-tools" aria-label="Search companies"><label class="search"><input id="company-search" type="search" placeholder="Search a company or sector…" aria-label="Search companies"></label><span id="company-result-count"></span></section><div class="company-directory-grid" id="company-directory-grid"></div></section>')
+put(main,'<section class="company-directory"><header class="directory-head"><p class="overline">THE PRIVATE LEDGER / COMPANY DIRECTORY</p><h1>Companies to know <em>before</em> they go public.</h1><p>A living editorial watchlist of 50 notable private businesses. Each card captures the business, the latest disclosed financing context, and the argument on both sides.</p><div class="directory-disclaimer"><strong>AI-assisted editorial notes.</strong> Bull and bear cases are research prompts, not investment advice. Funding information reflects the latest public disclosure recorded in each profile.</div></header><section class="directory-tools" aria-label="Search companies"><label class="search"><input id="company-search" type="search" placeholder="Search a company or sector…" aria-label="Search companies"></label><span id="company-result-count"></span></section><div class="company-directory-grid" id="company-directory-grid"></div></section>')
 grid=s.select_one('#company-directory-grid')
-for i,c in enumerate(sorted(companies.values(),key=lambda x:(valuation_number(x) is None,-(valuation_number(x) or 0),x['name']))):
+for i,c in enumerate(sorted(companies.values(),key=lambda x:(x.get('directory_rank',999),x['name']))):
  notes=''.join('<li>'+E(note)+'</li>' for note in c.get('directory_notes',[])[:2])
  funding=E(c.get('latest_round') or next((f.get('value','') for f in c.get('facts',[]) if 'fund' in f.get('label','').lower()),'Not yet added'))
- put(grid,f'''<article class="company-directory-card" data-search="{E(c['name']+' '+c.get('sector','')+' '+c.get('summary',''))}"><div class="company-card-kicker"><span>#{i+1:02d}</span><span>{E(c.get('sector',''))}</span></div><h2><a href="/companies/{c['slug']}/">{E(c['name'])}</a></h2><p class="company-directory-summary">{E(c.get('summary',''))}</p><div class="funding-context"><span>Latest disclosed financing</span><strong>{funding}</strong></div><div class="thesis-columns"><div><span class="thesis-label bull">Bull case</span><p>{E(c.get('bull_case','Editorial note coming soon.'))}</p></div><div><span class="thesis-label bear">Bear case</span><p>{E(c.get('bear_case','Editorial note coming soon.'))}</p></div></div>{'<ul class="company-directory-notes">'+notes+'</ul>' if notes else ''}<a class="company-profile-link" href="/companies/{c['slug']}/">View company profile →</a></article>''')
-put(s.head,'''<script>document.addEventListener('DOMContentLoaded',()=>{const search=document.querySelector('#company-search'),cards=[...document.querySelectorAll('.company-directory-card')],count=document.querySelector('#company-result-count');if(!search||!count)return;const filter=()=>{const query=search.value.trim().toLowerCase();let visible=0;cards.forEach(card=>{const show=!query||card.dataset.search.includes(query);card.hidden=!show;if(show)visible+=1});count.textContent=visible+' companies'};search.addEventListener('input',filter);filter()})</script>''')
+ put(grid,f'''<article class="company-directory-card" data-search="{E(c['name']+' '+c.get('sector','')+' '+c.get('summary',''))}"><div class="company-card-kicker"><span>#{int(c.get('directory_rank',i+1)):02d}</span><span>{E(c.get('sector',''))}</span></div><h2><a href="/companies/{c['slug']}/">{E(c['name'])}</a></h2><p class="company-directory-summary">{E(c.get('summary',''))}</p><div class="funding-context"><span>Latest disclosed financing</span><strong>{funding}</strong></div><div class="thesis-columns"><div><span class="thesis-label bull">Bull case</span><p>{E(c.get('bull_case','Editorial note coming soon.'))}</p></div><div><span class="thesis-label bear">Bear case</span><p>{E(c.get('bear_case','Editorial note coming soon.'))}</p></div></div>{'<ul class="company-directory-notes">'+notes+'</ul>' if notes else ''}<a class="company-profile-link" href="/companies/{c['slug']}/">View company profile →</a></article>''')
+put(s.head,'<script defer src="/companies.js"></script>')
 write(s,'/companies/')
 
 # The calendar separates filed transactions from market watchlist names so timing stays honest.
