@@ -25,7 +25,7 @@
   ],
   "intelligence": {
     "kicker":"Company intelligence","location":"Mountain View, California","status":"Private","logo":"https://logo.clearbit.com/groq.com","description":"Groq operates an AI inference cloud built around its low-latency Language Processing Unit technology.",
-    "metrics":[{"value":"Not publicly disclosed","label":"Current valuation","note":"Post-licensing deal mark unavailable"},{"value":"$650M","label":"Latest funding","note":"June 2026 growth capital"},{"value":"Private","label":"Public status","note":"Independent after NVIDIA agreement"}],
+    "metrics":[{"value":"Undisclosed","label":"Current valuation","note":"Post-licensing deal mark unavailable"},{"value":"$650M","label":"Latest funding","note":"June 2026 growth capital"},{"value":"Private","label":"Public status","note":"Independent after NVIDIA agreement"}],
     "company":["Groq originally developed specialized hardware for fast, low-cost AI inference and later expanded into a global cloud service.","In December 2025 it entered a non-exclusive technology licensing agreement with NVIDIA while continuing to operate independently under new leadership."],
     "why_it_matters":"Groq is a rare case study in how a private AI infrastructure company can monetize technology without a full acquisition. The structure matters for founders and investors across inference, chips and cloud infrastructure.",
     "valuation_history":[{"value":"$2.8B","date":"2024","round":"Series D"},{"value":"$6.9B","date":"2025","round":"Funding round"},{"value":"Not disclosed","date":"2026","round":"Growth capital"}],

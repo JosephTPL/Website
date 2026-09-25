@@ -25,7 +25,7 @@
   ],
   "intelligence": {
     "kicker":"Company intelligence","location":"Long Beach, California","status":"Private","logo":"https://logo.clearbit.com/relativityspace.com","description":"Relativity Space is developing Terran R, a reusable heavy-lift rocket, using software-driven manufacturing and large-scale additive manufacturing.",
-    "metrics":[{"value":"Not publicly disclosed","label":"Current valuation","note":"Control investment terms undisclosed"},{"value":"$1B","label":"Reported strategic investment","note":"2025 reporting"},{"value":"Private","label":"Public status","note":"No listed shares"}],
+    "metrics":[{"value":"Undisclosed","label":"Current valuation","note":"Control investment terms undisclosed"},{"value":"$1B","label":"Reported strategic investment","note":"2025 reporting"},{"value":"Private","label":"Public status","note":"No listed shares"}],
     "company":["Relativity retired its smaller Terran 1 program to focus capital and engineering resources on the larger reusable Terran R vehicle.","Eric Schmidt acquired a controlling stake and became chief executive in 2025, effectively recapitalizing the company around that launch program."],
     "why_it_matters":"Relativity demonstrates the binary nature of late-stage space investing: technical milestones can overwhelm historical funding marks. Terran R progress is the key evidence investors need to assess the reset.",
     "valuation_history":[{"value":"$4.2B","date":"2021","round":"Series E"},{"value":"Not disclosed","date":"2025","round":"Control investment"}],

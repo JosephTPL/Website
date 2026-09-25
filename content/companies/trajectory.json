@@ -9,7 +9,7 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
+      "value": "Undisclosed",
       "note": "No confirmed priced financing was located during this profile update.",
       "source": "https://trajectory.com"
     }
@@ -24,13 +24,13 @@
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Not publicly disclosed",
+    "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=trajectory.com&sz=128",
     "description": "Trajectory is a private technology company tracked by The Private Ledger.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "Undisclosed",
         "label": "Latest valuation",
         "note": "No confirmed priced round"
       },

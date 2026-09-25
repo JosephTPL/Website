@@ -30,7 +30,7 @@
     "description": "Normal is tracked as a private company with limited public financial disclosure. Its profile should be read as a research placeholder rather than a valuation claim.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "Undisclosed",
         "label": "Latest valuation",
         "note": "2026"
       },
@@ -62,7 +62,7 @@
         "round": "Earlier reported context"
       },
       {
-        "value": "Not publicly disclosed",
+        "value": "Undisclosed",
         "date": "2026",
         "round": "No confirmed financing disclosed"
       }

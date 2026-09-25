@@ -8,10 +8,10 @@
   "as_of": "2026-09-25",
   "facts": [
     {
-      "label": "Reported valuation",
-      "value": "Not publicly disclosed",
-      "note": "No public valuation was identified by The Private Ledger.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      "label": "Latest financing",
+      "value": "May 2025: $27M Series B",
+      "note": "Pallet raised $27 million in Series B funding, bringing disclosed funding to $50 million; its valuation was not disclosed.",
+      "source": "https://www.cbinsights.com/company/pallet-2/financials"
     },
     {
       "label": "Public status",
@@ -23,22 +23,22 @@
   "directory_rank": 85,
   "bull_case": "Pallet is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "Latest financing not publicly disclosed",
+  "latest_round": "May 2025 Series B: $27M; valuation undisclosed",
   "directory_notes": [
     "Private-market watchlist",
     "Watch for funding, operating milestones, and IPO developments."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Not publicly disclosed",
+    "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=pallet.com&sz=128",
     "description": "Pallet is a private company tracked in The Private Ledger market watchlist.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
-        "label": "Reported valuation",
-        "note": "Private Ledger market watch"
+        "value": "Undisclosed",
+        "label": "Latest valuation",
+        "note": "Valuation was not announced with the May 2025 Series B"
       },
       {
         "value": "Private",
@@ -68,9 +68,9 @@
         "round": "Private-company period"
       },
       {
-        "value": "Not publicly disclosed",
-        "date": "2026",
-        "round": "Latest reported estimate"
+        "value": "$27M raised",
+        "date": "May 2025",
+        "round": "Series B"
       }
     ],
     "changed": [
@@ -104,6 +104,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "CB Insights: Pallet Series B",
+        "url": "https://www.cbinsights.com/company/pallet-2/financials"
+      },
       {
         "label": "Company website",
         "url": "https://pallet.com"

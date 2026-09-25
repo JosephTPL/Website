@@ -25,7 +25,7 @@
   ],
   "intelligence": {
     "kicker":"Company intelligence","location":"San Francisco, California","status":"Private","logo":"https://logo.clearbit.com/worldlabs.ai","description":"World Labs is building spatial-intelligence models that can understand, generate and interact with 3D worlds.",
-    "metrics":[{"value":"Not publicly disclosed","label":"Latest valuation","note":"2026 round terms undisclosed"},{"value":"$1B","label":"Latest funding","note":"February 2026"},{"value":"Private","label":"Public status","note":"No listed shares"}],
+    "metrics":[{"value":"Undisclosed","label":"Latest valuation","note":"2026 round terms undisclosed"},{"value":"$1B","label":"Latest funding","note":"February 2026"},{"value":"Private","label":"Public status","note":"No listed shares"}],
     "company":["Founded by AI researcher Fei-Fei Li and collaborators, World Labs focuses on world models: systems that can reason about three-dimensional physical environments.","The company emerged from stealth in 2024 and has positioned its technology for 3D content, simulation, design and robotics workflows."],
     "why_it_matters":"World models are a potential bridge between generative AI and physical-world applications. World Labs is a leading private bet on that transition, but commercialization remains early.",
     "valuation_history":[{"value":"$1B","date":"2024","round":"Seed valuation"},{"value":"Not disclosed","date":"2026","round":"Latest funding"}],

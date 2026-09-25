@@ -9,7 +9,7 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
+      "value": "Undisclosed",
       "note": "No confirmed priced financing was located during this profile update.",
       "source": "https://xdof.ai"
     }
@@ -24,13 +24,13 @@
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Not publicly disclosed",
+    "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=xdof.ai&sz=128",
     "description": "XDOF is a private company tracked by The Private Ledger in robotics.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "Undisclosed",
         "label": "Latest valuation",
         "note": "No confirmed priced round"
       },

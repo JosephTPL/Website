@@ -25,7 +25,7 @@
   ],
   "intelligence": {
     "kicker":"Company intelligence","location":"Alameda, California","status":"Private","logo":"https://logo.clearbit.com/silanano.com","description":"Sila develops silicon-carbon anode materials designed to improve lithium-ion battery energy density, charging and performance.",
-    "metrics":[{"value":"Not publicly disclosed","label":"Current valuation","note":"No recent priced equity round disclosed"},{"value":"$1.4B","label":"Government loan commitment","note":"Conditional, 2026"},{"value":"Private","label":"Public status","note":"No listed shares"}],
+    "metrics":[{"value":"Undisclosed","label":"Current valuation","note":"No recent priced equity round disclosed"},{"value":"$1.4B","label":"Government loan commitment","note":"Conditional, 2026"},{"value":"Private","label":"Public status","note":"No listed shares"}],
     "company":["Sila's Titan Silicon technology replaces conventional graphite anodes with silicon-carbon material for higher-performance batteries.","Its investment case depends on converting long development cycles and customer qualification into large-scale, reliable U.S. production."],
     "why_it_matters":"Sila is a useful private-market benchmark for battery materials, where technical performance is only the first hurdle. Manufacturing quality, financing and customer adoption determine whether laboratory advantage becomes commercial value.",
     "valuation_history":[{"value":"$3.3B","date":"2021","round":"Series F"},{"value":"Not disclosed","date":"2026","round":"Latest capital support"}],
