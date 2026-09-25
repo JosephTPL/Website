@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "March 2026: $1B+",
-      "note": "Bloomberg Law reported that a new financing valued XBOW at more than $1 billion; the round size was not disclosed.",
-      "source": "https://news.bloomberglaw.com/business-and-practice/ai-security-startup-xbow-now-valued-at-more-than-1-billion"
+      "value": "March 2026: $120M Series C at $1B+",
+      "note": "XBOW announced a $120 million Series C that valued the company at more than $1 billion.",
+      "source": "https://xbow.com/news/xbow-raises-120m-to-scale"
     }
   ],
-  "directory_rank": 119,
+  "directory_rank": 138,
   "bull_case": "XBOW is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "Reported March 2026 financing: valuation above $1B; round size undisclosed",
+  "latest_round": "March 2026: $120M Series C at a reported $1B+ valuation",
   "directory_notes": [
     "Cybersecurity",
     "Public financing and operating data remain limited."
@@ -32,7 +32,7 @@
       {
         "value": "$1B+",
         "label": "Latest valuation",
-        "note": "Reported March 2026"
+        "note": "Reported March 2026 Series C valuation"
       },
       {
         "value": "Private",
@@ -52,14 +52,14 @@
     ],
     "company": [
       "XBOW is a private company tracked by The Private Ledger in cybersecurity.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "XBOW raised a $120 million Series C in March 2026 at a reported valuation above $1 billion."
     ],
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
         "value": "$1B+",
         "date": "Mar 2026",
-        "round": "Reported financing"
+        "round": "$120M Series C"
       }
     ],
     "changed": [
@@ -70,7 +70,7 @@
     ],
     "takeaways": [
       "XBOW is tracked in cybersecurity.",
-      "Available public information does not support a confirmed valuation claim.",
+      "The March 2026 Series C was reported at a valuation above $1 billion.",
       "Future updates should focus on product adoption, financing, and operating disclosure."
     ],
     "quick_facts": [
