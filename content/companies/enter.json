@@ -3,114 +3,94 @@
   "name": "Enter",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Enter is a private company tracked in The Private Ledger market watchlist.",
-  "overview": "<p>Enter is a private company tracked in The Private Ledger market watchlist.</p>",
+  "summary": "Enter is a private company tracked by The Private Ledger in technology.",
+  "overview": "<p>Enter is a private company tracked by The Private Ledger in technology.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
-      "label": "Reported valuation",
+      "label": "Latest financing",
       "value": "Not publicly disclosed",
-      "note": "No public valuation was identified by The Private Ledger.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
-    },
-    {
-      "label": "Public status",
-      "value": "Private",
-      "note": "No confirmed public offering is reflected in this profile.",
+      "note": "No confirmed priced financing was located during this profile update.",
       "source": "https://enter.com"
     }
   ],
   "directory_rank": 99,
   "bull_case": "Enter is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "Latest financing not publicly disclosed",
+  "latest_round": "No confirmed financing publicly disclosed",
   "directory_notes": [
-    "Private-market watchlist",
-    "Watch for funding, operating milestones, and IPO developments."
+    "Technology",
+    "Public financing and operating data remain limited."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
     "location": "Not publicly disclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=enter.com&sz=128",
-    "description": "Enter is a private company tracked in The Private Ledger market watchlist.",
+    "description": "Enter is a private company tracked by The Private Ledger in technology.",
     "metrics": [
       {
         "value": "Not publicly disclosed",
-        "label": "Reported valuation",
-        "note": "Private Ledger market watch"
+        "label": "Latest valuation",
+        "note": "No confirmed priced round"
       },
       {
         "value": "Private",
         "label": "Public status",
-        "note": "No confirmed IPO"
+        "note": "No confirmed listing"
+      },
+      {
+        "value": "Technology",
+        "label": "Business focus",
+        "note": "Company profile"
       },
       {
         "value": "Sep 2026",
         "label": "Profile updated",
-        "note": "Latest editorial review"
-      },
-      {
-        "value": "Watchlist",
-        "label": "Coverage",
-        "note": "Company profile"
+        "note": "Editorial review"
       }
     ],
     "company": [
-      "Enter is a private company tracked in The Private Ledger market watchlist.",
-      "This profile establishes the company record for ongoing Private Ledger research and will be expanded as material, sourced disclosures are published."
+      "Enter is a private company tracked by The Private Ledger in technology.",
+      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
     ],
-    "why_it_matters": "Enter is part of the private-company universe that can shape future public-market competition and capital allocation.",
+    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Private",
-        "date": "Before IPO",
-        "round": "Private-company period"
-      },
-      {
-        "value": "Not publicly disclosed",
-        "date": "2026",
-        "round": "Latest reported estimate"
+        "value": "Not disclosed",
+        "date": "Current",
+        "round": "No confirmed priced round"
       }
     ],
     "changed": [
       {
-        "date": "2026",
-        "text": "The company is added to The Private Ledger company-profile coverage."
+        "date": "Sep 2026",
+        "text": "Profile reviewed against available public information."
       }
     ],
     "takeaways": [
-      "Enter is now covered in The Private Ledger directory.",
-      "Private valuations are directional estimates, not audited market prices.",
-      "Funding, product execution, and market structure are the primary items to watch.",
-      "This profile will be updated as new public information becomes available."
+      "Enter is tracked in technology.",
+      "Available public information does not support a confirmed valuation claim.",
+      "Future updates should focus on product adoption, financing, and operating disclosure."
     ],
     "quick_facts": [
       [
-        "Sector",
-        "Private markets"
-      ],
-      [
-        "Public status",
-        "Private"
-      ],
-      [
-        "Coverage",
-        "Company profile"
+        "Focus",
+        "Technology"
       ],
       [
         "Website",
         "enter.com"
+      ],
+      [
+        "Public status",
+        "Private"
       ]
     ],
     "sources": [
       {
         "label": "Company website",
         "url": "https://enter.com"
-      },
-      {
-        "label": "Private-company valuation reference",
-        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
   }
