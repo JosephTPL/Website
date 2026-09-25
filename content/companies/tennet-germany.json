@@ -1,134 +1,136 @@
 {
   "slug": "tennet-germany",
-  "name": "TenneT Germany",
   "status": "Published",
+  "name": "TenneT Germany",
   "sector": "Energy infrastructure",
-  "summary": "TenneT Germany operates high-voltage transmission infrastructure that connects generation, industry, and electricity markets.",
-  "overview": "<p>TenneT Germany operates high-voltage transmission infrastructure that connects generation, industry, and electricity markets.</p>",
+  "summary": "TenneT Germany operates Germany's largest high-voltage electricity-transmission grid, a critical link for renewables, industry, and data centres.",
+  "overview": "<p>TenneT Germany owns and operates a high-voltage transmission network across central Germany.</p>",
   "as_of": "2026-09-25",
+  "report": "",
   "facts": [
     {
-      "label": "Reported valuation",
-      "value": "$45.8B",
-      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
-    },
-    {
-      "label": "Public status",
-      "value": "Private",
-      "note": "No confirmed public offering is reflected in this profile.",
-      "source": "https://www.tennet.eu"
-    },
-    {
-      "label": "Primary focus",
-      "value": "Electricity transmission",
-      "note": "Company description and product positioning.",
-      "source": "https://www.tennet.eu"
+      "label": "Transaction valuation",
+      "value": "~€40B enterprise value",
+      "note": "Implied by the 2025 investor transaction; not a venture financing valuation.",
+      "source": "https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/publicaties/2025/09/24/pressrelease-tennet/Private%2Binvestors%2Binvest%2Bfunds%2Binto%2BTenneT%2BGermany.pdf"
     }
   ],
-  "directory_rank": 8,
-  "bull_case": "TenneT Germany is exposed to a large market where scale, distribution, and execution can compound.",
-  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
-  "latest_round": "Reported valuation: $45.8B",
+  "directory_rank": 17,
+  "bull_case": "Grid bottlenecks make regulated transmission assets strategically vital to decarbonisation and AI-era power demand.",
+  "bear_case": "Capital intensity, rate-setting, construction delays, and political oversight drive returns more than software-like growth.",
+  "latest_round": "2025–26: investor and German-state ownership transactions",
   "directory_notes": [
-    "Electricity transmission",
-    "Watch for funding, operating milestones, and changes in market structure."
+    "14,000+ route kilometres and 5,000+ employees, per German government.",
+    "Grid expansion, permitted build-out, and regulatory return."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
     "location": "Bayreuth, Germany",
-    "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=www.tennet.eu&sz=128",
-    "description": "TenneT Germany operates high-voltage transmission infrastructure that connects generation, industry, and electricity markets.",
+    "status": "Private infrastructure asset",
+    "logo": "https://www.google.com/s2/favicons?domain=tennet.eu&sz=128",
+    "description": "TenneT Germany runs the transmission backbone moving power across much of Germany. It is a regulated infrastructure business, not a venture-backed technology company, but its financing and build-out are increasingly relevant to the AI and electrification investment cycle.",
     "metrics": [
       {
-        "value": "$45.8B",
-        "label": "Reported valuation",
-        "note": "Private Ledger market watch"
+        "value": "~€40B",
+        "label": "Transaction value",
+        "note": "2025 implied enterprise value"
       },
       {
-        "value": "Private",
-        "label": "Public status",
-        "note": "No confirmed IPO"
+        "value": "€9.5B",
+        "label": "Private investment",
+        "note": "Announced September 2025"
       },
       {
-        "value": "Energy infrastructure",
-        "label": "Sector",
-        "note": "Electricity transmission"
+        "value": "25.1%",
+        "label": "KfW stake",
+        "note": "Completed July 2026"
       },
       {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Latest editorial review"
+        "value": "14,000+ km",
+        "label": "Grid network",
+        "note": "German government"
       }
     ],
     "company": [
-      "TenneT Germany operates high-voltage transmission infrastructure that connects generation, industry, and electricity markets.",
-      "The company's investment case is tied to electricity transmission. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
+      "TenneT Germany was separated from the wider Dutch TenneT organization to create a dedicated German transmission-grid business. It connects generation, industrial demand, and cross-border electricity markets through a high-voltage network that is essential to the country's energy transition.",
+      "Its ownership structure shifted in 2025 and 2026. APG, Norges Bank Investment Management, and GIC agreed to invest €9.5B for up to 46%, while KfW acquired 25.1% on behalf of the German federal government. Those transactions are funding and governance events, not conventional equity rounds."
     ],
-    "why_it_matters": "Grid investment is becoming a core constraint on renewable generation, data centres, and industrial electrification.",
+    "why_it_matters": "Power availability is a hard constraint on new data centres, industrial electrification, renewable integration, and ultimately AI-compute expansion. TenneT Germany is a useful window into the long-duration infrastructure capital required behind those themes.",
     "valuation_history": [
       {
-        "value": "Private",
-        "date": "1998",
-        "round": "Company founded"
+        "value": "~€22B",
+        "date": "2023",
+        "round": "Earlier state-sale discussion"
       },
       {
-        "value": "$45.8B",
-        "date": "2026",
-        "round": "Latest reported estimate"
+        "value": "~€40B",
+        "date": "Sep 2025",
+        "round": "Implied transaction enterprise value"
+      },
+      {
+        "value": "25.1%",
+        "date": "Jul 2026",
+        "round": "KfW ownership completed"
       }
     ],
     "changed": [
       {
-        "date": "1998",
-        "text": "TenneT Germany is founded or begins operating in its current form."
+        "date": "2025",
+        "text": "Sovereign and pension investors announced €9.5B of investment for up to 46% of the business."
       },
       {
-        "date": "2026",
-        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
+        "date": "Feb 2026",
+        "text": "KfW signed the contract to acquire 25.1% for the German state."
+      },
+      {
+        "date": "Jul 2026",
+        "text": "The German-state transaction completed."
       }
     ],
     "takeaways": [
-      "Electricity transmission is the core operating focus.",
-      "Grid investment is becoming a core constraint on renewable generation, data centres, and industrial electrification.",
-      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
-      "Future funding, regulation, and commercial execution are the key items to watch."
+      "TenneT Germany is a regulated grid asset whose economics are driven by capital programs and permitted returns.",
+      "Its strategic value is growing because power transmission limits renewable and data-centre deployment.",
+      "The €40B figure is an implied transaction value, not a continuously quoted market capitalization.",
+      "Construction execution, regulation, and financing costs are the variables to watch."
     ],
     "quick_facts": [
-      [
-        "Founded",
-        "1998"
-      ],
       [
         "Headquarters",
         "Bayreuth, Germany"
       ],
       [
-        "Sector",
-        "Energy infrastructure"
+        "Employees",
+        "5,000+"
+      ],
+      [
+        "Network",
+        "14,000+ route kilometres"
       ],
       [
         "Focus",
         "Electricity transmission"
       ],
       [
-        "Public status",
-        "Private"
+        "Website",
+        "tennet.eu"
       ],
       [
-        "Website",
-        "www.tennet.eu"
+        "Public status",
+        "Private"
       ]
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://www.tennet.eu"
+        "label": "German ministry: KfW transaction",
+        "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Pressemitteilungen/2026/02/20260203-contract-signing-for-the-federal-government-s-entry-into-tenne-t-germany.html"
       },
       {
-        "label": "Private-company valuation reference",
-        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+        "label": "Dutch government: investor transaction",
+        "url": "https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/publicaties/2025/09/24/pressrelease-tennet/Private%2Binvestors%2Binvest%2Bfunds%2Binto%2BTenneT%2BGermany.pdf"
+      },
+      {
+        "label": "TenneT website",
+        "url": "https://www.tennet.eu/"
       }
     ]
   }

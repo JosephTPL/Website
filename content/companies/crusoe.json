@@ -1,99 +1,97 @@
 {
   "slug": "crusoe",
-  "name": "Crusoe",
   "status": "Published",
+  "name": "Crusoe",
   "sector": "Cloud infrastructure",
-  "summary": "Crusoe builds data-centre and cloud infrastructure, with a focus on energy-aware compute for AI workloads.",
-  "overview": "<p>Crusoe builds data-centre and cloud infrastructure, with a focus on energy-aware compute for AI workloads.</p>",
+  "summary": "Crusoe builds vertically integrated AI infrastructure, from power and data centres to cloud services.",
+  "overview": "<p>Crusoe develops AI factories and cloud infrastructure designed around power availability and large-scale compute.</p>",
   "as_of": "2026-09-25",
+  "report": "",
   "facts": [
     {
-      "label": "Reported valuation",
-      "value": "$30.9B",
-      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
-    },
-    {
-      "label": "Public status",
-      "value": "Private",
-      "note": "No confirmed public offering is reflected in this profile.",
-      "source": "https://www.crusoe.ai"
-    },
-    {
-      "label": "Primary focus",
-      "value": "AI cloud and data-centre infrastructure",
-      "note": "Company description and product positioning.",
-      "source": "https://www.crusoe.ai"
+      "label": "Latest financing",
+      "value": "$3.9B Series F",
+      "note": "Initial closing announced September 2026 at a $30.9B post-money valuation.",
+      "source": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding"
     }
   ],
-  "directory_rank": 13,
-  "bull_case": "Crusoe is exposed to a large market where scale, distribution, and execution can compound.",
-  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
-  "latest_round": "Reported valuation: $30.9B",
+  "directory_rank": 23,
+  "bull_case": "Vertical integration across power, campuses, and cloud can make Crusoe a scarce supplier of AI-ready capacity.",
+  "bear_case": "The model is capital intensive and exposed to construction, power, customer-concentration, and financing-cycle risk.",
+  "latest_round": "September 2026: $3.9B Series F at $30.9B",
   "directory_notes": [
-    "AI cloud and data-centre infrastructure",
-    "Watch for funding, operating milestones, and changes in market structure."
+    "$140B+ total contracted value, company reported.",
+    "Power delivery, site execution, and conversion of contracted demand."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Denver, CO",
+    "location": "Denver, Colorado",
     "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=www.crusoe.ai&sz=128",
-    "description": "Crusoe builds data-centre and cloud infrastructure, with a focus on energy-aware compute for AI workloads.",
+    "logo": "https://www.google.com/s2/favicons?domain=crusoe.ai&sz=128",
+    "description": "Crusoe builds AI infrastructure from energy generation and data-centre campuses through Crusoe Cloud. Its advantage, if it holds, is solving the power-and-delivery problem that can prevent AI demand from turning into operating capacity.",
     "metrics": [
       {
         "value": "$30.9B",
-        "label": "Reported valuation",
-        "note": "Private Ledger market watch"
+        "label": "Latest valuation",
+        "note": "September 2026 post-money"
       },
       {
-        "value": "Private",
-        "label": "Public status",
-        "note": "No confirmed IPO"
+        "value": "$3.9B",
+        "label": "Latest financing",
+        "note": "Series F initial close"
       },
       {
-        "value": "Cloud infrastructure",
-        "label": "Sector",
-        "note": "AI cloud and data-centre infrastructure"
+        "value": "$140B+",
+        "label": "Contracted value",
+        "note": "Company reported"
       },
       {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Latest editorial review"
+        "value": "5 GW",
+        "label": "AI UPS deployment",
+        "note": "Announced August 2026"
       }
     ],
     "company": [
-      "Crusoe builds data-centre and cloud infrastructure, with a focus on energy-aware compute for AI workloads.",
-      "The company's investment case is tied to ai cloud and data-centre infrastructure. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
+      "Crusoe started with energy-focused computing and has expanded into a vertically integrated AI-infrastructure platform. It develops and operates large campuses, buys and deploys equipment, and provides cloud capacity to AI-native, hyperscaler, frontier-model, and enterprise customers.",
+      "The company raised a $600M Series D at $2.8B in late 2024, then a $1.375B Series E above $10B in 2025. Its September 2026 Series F materially increased the scale of both its financing and valuation."
     ],
-    "why_it_matters": "Its growth is tied to the availability of power, land, chips, and financing for the AI compute build-out.",
+    "why_it_matters": "Crusoe shows how the AI boom is transferring value from software into power, land, construction, networking, and finance. It is a key private comparable for the economics of the emerging AI-factory model.",
     "valuation_history": [
       {
-        "value": "Private",
-        "date": "2018",
-        "round": "Company founded"
+        "value": "$2.8B",
+        "date": "Dec 2024",
+        "round": "$600M Series D"
+      },
+      {
+        "value": ">$10B",
+        "date": "Oct 2025",
+        "round": "$1.375B Series E"
       },
       {
         "value": "$30.9B",
-        "date": "2026",
-        "round": "Latest reported estimate"
+        "date": "Sep 2026",
+        "round": "$3.9B Series F"
       }
     ],
     "changed": [
       {
-        "date": "2018",
-        "text": "Crusoe is founded or begins operating in its current form."
+        "date": "2024",
+        "text": "Closed a $600M Series D at a $2.8B valuation to expand AI infrastructure."
       },
       {
-        "date": "2026",
-        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
+        "date": "2025",
+        "text": "Raised $1.375B at a valuation above $10B as AI-compute demand accelerated."
+      },
+      {
+        "date": "Sep 2026",
+        "text": "Announced a $3.9B Series F at a $30.9B post-money valuation and $140B+ of total contracted value."
       }
     ],
     "takeaways": [
-      "AI cloud and data-centre infrastructure is the core operating focus.",
-      "Its growth is tied to the availability of power, land, chips, and financing for the AI compute build-out.",
-      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
-      "Future funding, regulation, and commercial execution are the key items to watch."
+      "Crusoe's differentiation is physical delivery: power, campus construction, and cloud capacity in one platform.",
+      "The valuation reflects contracted demand, but converting contracts into operating capacity is capital- and execution-intensive.",
+      "Power availability is becoming a more important AI bottleneck than raw chip demand alone.",
+      "Financing costs, site permitting, and customer concentration are the central risks."
     ],
     "quick_facts": [
       [
@@ -102,33 +100,37 @@
       ],
       [
         "Headquarters",
-        "Denver, CO"
+        "Denver, Colorado"
       ],
       [
-        "Sector",
-        "Cloud infrastructure"
+        "CEO",
+        "Chase Lochmiller"
       ],
       [
         "Focus",
-        "AI cloud and data-centre infrastructure"
+        "AI factories and cloud"
+      ],
+      [
+        "Website",
+        "crusoe.ai"
       ],
       [
         "Public status",
         "Private"
-      ],
-      [
-        "Website",
-        "www.crusoe.ai"
       ]
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://www.crusoe.ai"
+        "label": "Crusoe: Series F announcement",
+        "url": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding"
       },
       {
-        "label": "Private-company valuation reference",
-        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+        "label": "Crusoe: Series E announcement",
+        "url": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-e-funding"
+      },
+      {
+        "label": "Crusoe company website",
+        "url": "https://www.crusoe.ai/"
       }
     ]
   }

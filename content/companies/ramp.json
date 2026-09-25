@@ -3,26 +3,140 @@
   "status": "Published",
   "name": "Ramp",
   "sector": "Fintech",
-  "summary": "Ramp is a notable private company in fintech.",
-  "overview": "<p>Ramp is included in The Private Ledger\u2019s company directory for ongoing research.</p>",
-  "image": "",
-  "image_alt": "",
-  "as_of": "2026-09-21",
+  "summary": "Ramp provides corporate cards and finance-operations software for spend, payables, travel, and procurement.",
+  "overview": "<p>Ramp combines payments, expense management, accounts payable, procurement, and automation into a finance-operations platform.</p>",
+  "as_of": "2026-09-25",
   "report": "",
   "facts": [
     {
-      "label": "Latest disclosed financing",
-      "value": "March 2025: $150M funding round",
-      "note": "Publicly reported financing context; verify before relying on it.",
-      "source": ""
+      "label": "Latest financing",
+      "value": "$750M Series F",
+      "note": "Announced June 2026 at a $44B post-money valuation.",
+      "source": "https://ramp.com/press"
     }
   ],
   "directory_rank": 15,
-  "bull_case": "Finance automation and spend controls can be embedded in daily operating workflows.",
-  "bear_case": "Competition and credit exposure may test unit economics in weaker environments.",
-  "latest_round": "March 2025: $150M funding round",
+  "bull_case": "Ramp can turn finance automation into a durable operating system for the CFO, expanding beyond corporate cards.",
+  "bear_case": "A premium valuation, competition, and reliance on payments economics leave little room for execution mistakes.",
+  "latest_round": "June 2026: $750M Series F at $44B",
   "directory_notes": [
-    "Enterprise expansion",
-    "software attach rate and retention."
-  ]
+    "$1B+ annualized revenue and positive free cash flow, per company announcement",
+    "AI agents, enterprise adoption, and payments economics."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "New York, New York",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=ramp.com&sz=128",
+    "description": "Ramp sells a finance-operations platform that combines corporate cards, expense management, bill payment, procurement, travel, and automation. The strategic question is whether the platform becomes an embedded workflow system rather than a bundle of spend tools.",
+    "metrics": [
+      {
+        "value": "$44B",
+        "label": "Latest valuation",
+        "note": "June 2026 post-money"
+      },
+      {
+        "value": "$750M",
+        "label": "Latest financing",
+        "note": "Series F"
+      },
+      {
+        "value": "$1B+",
+        "label": "Annualized revenue",
+        "note": "Company reported"
+      },
+      {
+        "value": "Positive",
+        "label": "Free cash flow",
+        "note": "Company reported"
+      }
+    ],
+    "company": [
+      "Ramp began with corporate cards and spend controls, then expanded into bill pay, procurement, travel, accounting integrations, and AI-assisted finance workflows. Its pitch is a unified system that gives finance teams more control over each dollar and less manual work around it.",
+      "The June 2026 Series F followed a fast step-up in private-market valuation. Ramp said the capital would support further investment in AI-powered financial operations, while its disclosed annualized revenue and free-cash-flow status make it one of the more mature software-led fintechs in the private market."
+    ],
+    "why_it_matters": "Ramp is a useful read-through on whether the next generation of fintech winners capture a broad finance workflow or remain dependent on interchange and card spend. It competes for budgets with legacy expense tools, payments companies, ERPs, and newer AI finance products.",
+    "valuation_history": [
+      {
+        "value": "$8.1B",
+        "date": "Mar 2024",
+        "round": "Series D extension"
+      },
+      {
+        "value": "$13B",
+        "date": "Mar 2025",
+        "round": "Funding round"
+      },
+      {
+        "value": "$32B",
+        "date": "Nov 2025",
+        "round": "Reported financing"
+      },
+      {
+        "value": "$44B",
+        "date": "Jun 2026",
+        "round": "$750M Series F"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2024",
+        "text": "Continued moving beyond cards into expense management, accounts payable, and procurement."
+      },
+      {
+        "date": "2025",
+        "text": "Raised new capital as the company expanded its finance-software product surface."
+      },
+      {
+        "date": "Jun 2026",
+        "text": "Announced a $750M Series F at a $44B valuation and said annualized revenue had exceeded $1B."
+      }
+    ],
+    "takeaways": [
+      "Ramp's real opportunity is the finance operating system, not simply the corporate card.",
+      "The $44B valuation assumes automation can expand revenue per customer while keeping payments economics attractive.",
+      "Reported positive free cash flow distinguishes Ramp from many high-valuation private software companies.",
+      "Competition from incumbents, payments platforms, and AI-native workflow tools is the core commercial risk."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2019"
+      ],
+      [
+        "Headquarters",
+        "New York, New York"
+      ],
+      [
+        "CEO",
+        "Eric Glyman"
+      ],
+      [
+        "Focus",
+        "Finance operations software"
+      ],
+      [
+        "Website",
+        "ramp.com"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Ramp press room",
+        "url": "https://ramp.com/press"
+      },
+      {
+        "label": "Series F announcement",
+        "url": "https://www.prnewswire.com/news-releases/ramp-raises-series-f-at-44-billion-valuation-302791103.html"
+      },
+      {
+        "label": "Ramp company website",
+        "url": "https://ramp.com/"
+      }
+    ]
+  }
 }

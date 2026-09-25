@@ -1,1 +1,142 @@
-{"slug":"scale-ai","status":"Published","name":"Scale AI","sector":"AI infrastructure","summary":"Data operations infrastructure powering model training, evaluation, and deployment.","overview":"<p>Scale AI supplies data and evaluation workflows to AI developers and enterprises.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"May 2024: $1B Series F","note":"Publicly reported financing context.","source":""}],"directory_rank":22,"bull_case":"Mission-critical data pipelines can become embedded as model builders scale.","bear_case":"Commoditization, customer concentration, and in-house tooling could compress margins.","latest_round":"May 2024: $1B Series F","directory_notes":["Enterprise adoption","data-labeling margins."]}
+{
+  "slug": "scale-ai",
+  "status": "Published",
+  "name": "Scale AI",
+  "sector": "AI infrastructure",
+  "summary": "Scale AI provides data, evaluation, and safety infrastructure used to build and assess artificial-intelligence systems.",
+  "overview": "<p>Scale AI supplies data operations and evaluation infrastructure for AI developers, enterprises, and public-sector customers.</p>",
+  "as_of": "2026-09-25",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation context",
+      "value": "$29B",
+      "note": "Meta's June 2025 investment valued Scale at $29B.",
+      "source": "https://scale.com/about"
+    }
+  ],
+  "directory_rank": 22,
+  "bull_case": "Evaluation and high-quality data remain essential as models become more capable and more widely deployed.",
+  "bear_case": "Customer concentration and the shift in leadership after Meta's investment could complicate the independent business.",
+  "latest_round": "June 2025: Meta investment, $29B valuation",
+  "directory_notes": [
+    "Meta acquired a 49% non-voting stake, per reported transaction terms.",
+    "Evaluation, enterprise AI, and public-sector demand."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "San Francisco, California",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=scale.com&sz=128",
+    "description": "Scale AI supplies the data, evaluation, and safety layer behind AI systems. Its test is whether model builders and enterprises will keep outsourcing high-stakes data work as internal capabilities expand.",
+    "metrics": [
+      {
+        "value": "$29B",
+        "label": "Latest valuation",
+        "note": "June 2025 transaction"
+      },
+      {
+        "value": "$14.3B",
+        "label": "Meta investment",
+        "note": "Reported transaction value"
+      },
+      {
+        "value": "49%",
+        "label": "Meta stake",
+        "note": "Non-voting, reported"
+      },
+      {
+        "value": "2016",
+        "label": "Founded",
+        "note": "Company reported"
+      }
+    ],
+    "company": [
+      "Scale AI began as a provider of labeled training data and developed into a broader AI infrastructure company offering data, model evaluation, safety, and agent-focused services. It works across commercial and government applications where model reliability is a production constraint.",
+      "Meta's June 2025 investment and the move of Scale co-founder Alexandr Wang to Meta reshaped the company. Scale remains a private business, but the transaction made independence, customer relationships, and governance central questions for its next phase."
+    ],
+    "why_it_matters": "Scale sits at a bottleneck in the AI economy: trustworthy training data and evaluation. Its trajectory is a read-through on whether value accrues to model companies, infrastructure vendors, or the operational layer that makes models usable in the real world.",
+    "valuation_history": [
+      {
+        "value": "$3.5B",
+        "date": "Apr 2021",
+        "round": "Series D"
+      },
+      {
+        "value": "$7.3B",
+        "date": "May 2022",
+        "round": "Series F"
+      },
+      {
+        "value": "$13.8B",
+        "date": "May 2024",
+        "round": "Series F extension"
+      },
+      {
+        "value": "$29B",
+        "date": "Jun 2025",
+        "round": "Meta investment"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2021",
+        "text": "Scale's data-labeling business became a major supplier to autonomous-vehicle and AI developers."
+      },
+      {
+        "date": "2024",
+        "text": "Raised capital at a $13.8B valuation as generative-AI evaluation demand accelerated."
+      },
+      {
+        "date": "Jun 2025",
+        "text": "Meta invested a reported $14.3B for a 49% non-voting stake, valuing Scale at $29B."
+      }
+    ],
+    "takeaways": [
+      "Scale is most valuable where data quality, evaluation, and human-in-the-loop operations remain difficult to automate.",
+      "Meta's investment validates its strategic importance but also creates customer-perception and governance questions.",
+      "The opportunity expands with enterprise AI deployment, where reliability matters as much as model capability.",
+      "Concentration among a few large model developers and competitive in-house tooling remain key risks."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2016"
+      ],
+      [
+        "Headquarters",
+        "San Francisco, California"
+      ],
+      [
+        "Founder",
+        "Alexandr Wang"
+      ],
+      [
+        "Focus",
+        "AI data and evaluation"
+      ],
+      [
+        "Website",
+        "scale.com"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Scale AI: about",
+        "url": "https://scale.com/about"
+      },
+      {
+        "label": "Scale AI company website",
+        "url": "https://scale.com/"
+      },
+      {
+        "label": "Reuters: Meta investment",
+        "url": "https://www.reuters.com/business/finance/meta-finalizes-investment-scale-ai-valuing-startup-29-billion-2025-06-13/"
+      }
+    ]
+  }
+}

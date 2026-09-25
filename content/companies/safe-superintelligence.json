@@ -1,99 +1,97 @@
 {
   "slug": "safe-superintelligence",
-  "name": "Safe Superintelligence",
   "status": "Published",
+  "name": "Safe Superintelligence",
   "sector": "Artificial intelligence",
-  "summary": "Safe Superintelligence is an AI research company focused on building superintelligent systems safely.",
-  "overview": "<p>Safe Superintelligence is an AI research company focused on building superintelligent systems safely.</p>",
+  "summary": "Safe Superintelligence is Ilya Sutskever's research lab focused solely on developing safe superintelligent AI systems.",
+  "overview": "<p>Safe Superintelligence is a research-first AI lab founded by Ilya Sutskever, Daniel Gross, and Daniel Levy.</p>",
   "as_of": "2026-09-25",
+  "report": "",
   "facts": [
     {
-      "label": "Reported valuation",
-      "value": "$32B",
-      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
-    },
-    {
-      "label": "Public status",
-      "value": "Private",
-      "note": "No confirmed public offering is reflected in this profile.",
-      "source": "https://ssi.inc"
-    },
-    {
-      "label": "Primary focus",
-      "value": "AI safety and frontier-model research",
-      "note": "Company description and product positioning.",
-      "source": "https://ssi.inc"
+      "label": "Latest disclosed investment",
+      "value": "$5B NVIDIA investment",
+      "note": "Reported July 2026; the partnership did not disclose an updated valuation.",
+      "source": "https://investor.nvidia.com/news/press-release-details/2026/Ilya-Sutskevers-Safe-Superintelligence-Inc--and-NVIDIA-Announce-Long-Term-Strategic-Partnership/default.aspx"
     }
   ],
-  "directory_rank": 12,
-  "bull_case": "Safe Superintelligence is exposed to a large market where scale, distribution, and execution can compound.",
-  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
-  "latest_round": "Reported valuation: $32B",
+  "directory_rank": 21,
+  "bull_case": "A research-first lab led by an influential technical founder may retain unusual talent and alignment focus in frontier AI.",
+  "bear_case": "SSI has not released a commercial product, making its large valuation largely a bet on talent, research, and compute access.",
+  "latest_round": "July 2026: reported $5B NVIDIA investment; valuation undisclosed",
   "directory_notes": [
-    "AI safety and frontier-model research",
-    "Watch for funding, operating milestones, and changes in market structure."
+    "NVIDIA partnership targets a tenfold increase in compute resources.",
+    "Alignment research, talent retention, and evidence of technical progress."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Palo Alto, CA",
+    "location": "Palo Alto, California",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=ssi.inc&sz=128",
-    "description": "Safe Superintelligence is an AI research company focused on building superintelligent systems safely.",
+    "description": "Safe Superintelligence is an AI lab with a single stated mission: build safe superintelligence. It deliberately has no public product roadmap, making its value proposition a pure research and alignment bet.",
     "metrics": [
       {
         "value": "$32B",
-        "label": "Reported valuation",
-        "note": "Private Ledger market watch"
+        "label": "Last reported valuation",
+        "note": "February 2025"
       },
       {
-        "value": "Private",
-        "label": "Public status",
-        "note": "No confirmed IPO"
+        "value": "$5B",
+        "label": "NVIDIA investment",
+        "note": "Reported July 2026"
       },
       {
-        "value": "Artificial intelligence",
-        "label": "Sector",
-        "note": "AI safety and frontier-model research"
+        "value": "10x",
+        "label": "Compute increase",
+        "note": "Partnership target"
       },
       {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Latest editorial review"
+        "value": "$3B",
+        "label": "Prior disclosed funding",
+        "note": "2024 and 2025 rounds"
       }
     ],
     "company": [
-      "Safe Superintelligence is an AI research company focused on building superintelligent systems safely.",
-      "The company's investment case is tied to ai safety and frontier-model research. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
+      "SSI was founded in 2024 by former OpenAI chief scientist Ilya Sutskever, investor and entrepreneur Daniel Gross, and researcher Daniel Levy. Its public framing is intentionally narrow: research and development toward safe superintelligence, without the competing demands of a broad consumer product suite.",
+      "That focus has made the company an unusually concentrated talent-and-compute vehicle. The NVIDIA partnership announced in July 2026 gives SSI access to the Vera Rubin platform and, according to the companies, aims to increase available compute by an order of magnitude."
     ],
-    "why_it_matters": "The company represents the high-conviction, research-first end of private AI financing despite limited public product disclosure.",
+    "why_it_matters": "SSI demonstrates how capital is pricing frontier-AI research organizations before commercial monetization. Its structure is an important contrast with product-led labs: the upside rests on breakthrough capability and alignment work, while conventional revenue evidence is absent.",
     "valuation_history": [
       {
-        "value": "Private",
-        "date": "2024",
-        "round": "Company founded"
+        "value": "$5B",
+        "date": "Sep 2024",
+        "round": "$1B financing"
       },
       {
         "value": "$32B",
-        "date": "2026",
-        "round": "Latest reported estimate"
+        "date": "Feb 2025",
+        "round": "$2B financing"
+      },
+      {
+        "value": "Undisclosed",
+        "date": "Jul 2026",
+        "round": "NVIDIA strategic investment"
       }
     ],
     "changed": [
       {
         "date": "2024",
-        "text": "Safe Superintelligence is founded or begins operating in its current form."
+        "text": "SSI launched with a reported $1B financing and a research-only mission."
       },
       {
-        "date": "2026",
-        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
+        "date": "Feb 2025",
+        "text": "Raised a reported $2B at a $32B valuation."
+      },
+      {
+        "date": "Jul 2026",
+        "text": "Announced a long-term NVIDIA partnership; reporting put the equity investment at $5B, while the companies did not disclose a new valuation."
       }
     ],
     "takeaways": [
-      "AI safety and frontier-model research is the core operating focus.",
-      "The company represents the high-conviction, research-first end of private AI financing despite limited public product disclosure.",
-      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
-      "Future funding, regulation, and commercial execution are the key items to watch."
+      "SSI is an unusually pure bet on research talent, alignment, and compute rather than an existing product business.",
+      "The NVIDIA partnership materially improves its hardware access but does not make technical success certain.",
+      "Its last reported valuation came before the later strategic investment, so a current valuation should not be assumed.",
+      "The absence of a commercial release means outside investors have limited operating evidence to evaluate."
     ],
     "quick_facts": [
       [
@@ -102,33 +100,37 @@
       ],
       [
         "Headquarters",
-        "Palo Alto, CA"
+        "Palo Alto, California"
       ],
       [
-        "Sector",
-        "Artificial intelligence"
+        "Founders",
+        "Ilya Sutskever, Daniel Gross, Daniel Levy"
       ],
       [
         "Focus",
-        "AI safety and frontier-model research"
-      ],
-      [
-        "Public status",
-        "Private"
+        "Safe superintelligence research"
       ],
       [
         "Website",
         "ssi.inc"
+      ],
+      [
+        "Public status",
+        "Private"
       ]
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://ssi.inc"
+        "label": "NVIDIA and SSI partnership",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/Ilya-Sutskevers-Safe-Superintelligence-Inc--and-NVIDIA-Announce-Long-Term-Strategic-Partnership/default.aspx"
       },
       {
-        "label": "Private-company valuation reference",
-        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+        "label": "Reuters: NVIDIA investment",
+        "url": "https://www.reuters.com/technology/nvidia-invest-5-billion-ilya-sutskevers-ai-startup-source-says-2026-07-27/"
+      },
+      {
+        "label": "SSI website",
+        "url": "https://ssi.inc/"
       }
     ]
   }

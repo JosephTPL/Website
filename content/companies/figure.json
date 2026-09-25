@@ -1,99 +1,92 @@
 {
   "slug": "figure",
-  "name": "Figure",
   "status": "Published",
+  "name": "Figure",
   "sector": "Robotics",
-  "summary": "Figure develops general-purpose humanoid robots intended for industrial and commercial work.",
-  "overview": "<p>Figure develops general-purpose humanoid robots intended for industrial and commercial work.</p>",
+  "summary": "Figure develops autonomous humanoid robots and the AI and manufacturing systems intended to deploy them at commercial scale.",
+  "overview": "<p>Figure is building general-purpose humanoid robots for industrial and commercial work.</p>",
   "as_of": "2026-09-25",
+  "report": "",
   "facts": [
     {
-      "label": "Reported valuation",
-      "value": "$39B",
-      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
-    },
-    {
-      "label": "Public status",
-      "value": "Private",
-      "note": "No confirmed public offering is reflected in this profile.",
-      "source": "https://www.figure.ai"
-    },
-    {
-      "label": "Primary focus",
-      "value": "Humanoid robotics",
-      "note": "Company description and product positioning.",
-      "source": "https://www.figure.ai"
+      "label": "Latest financing",
+      "value": "$1B+ Series C",
+      "note": "Closed September 2025 at a $39B post-money valuation.",
+      "source": "https://www.figure.ai/news/series-c"
     }
   ],
-  "directory_rank": 10,
-  "bull_case": "Figure is exposed to a large market where scale, distribution, and execution can compound.",
-  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
-  "latest_round": "Reported valuation: $39B",
+  "directory_rank": 20,
+  "bull_case": "A working humanoid platform could create a major new automation category across industrial and service labor.",
+  "bear_case": "The business must turn impressive demonstrations into reliable, safe, and economic deployments at scale.",
+  "latest_round": "September 2025: $1B+ Series C at $39B",
   "directory_notes": [
-    "Humanoid robotics",
-    "Watch for funding, operating milestones, and changes in market structure."
+    "Helix AI platform and BotQ manufacturing.",
+    "Commercial deployment, reliability, and unit economics."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Sunnyvale, CA",
+    "location": "Sunnyvale, California",
     "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=www.figure.ai&sz=128",
-    "description": "Figure develops general-purpose humanoid robots intended for industrial and commercial work.",
+    "logo": "https://www.google.com/s2/favicons?domain=figure.ai&sz=128",
+    "description": "Figure develops general-purpose humanoid robots, its Helix vision-language-action AI system, and BotQ manufacturing. The wager is that a single robotic form factor can learn enough tasks to earn a place in industrial and eventually consumer environments.",
     "metrics": [
       {
         "value": "$39B",
-        "label": "Reported valuation",
-        "note": "Private Ledger market watch"
+        "label": "Latest valuation",
+        "note": "September 2025 post-money"
       },
       {
-        "value": "Private",
-        "label": "Public status",
-        "note": "No confirmed IPO"
+        "value": "$1B+",
+        "label": "Series C",
+        "note": "Committed capital"
       },
       {
-        "value": "Robotics",
-        "label": "Sector",
-        "note": "Humanoid robotics"
+        "value": "$2.6B",
+        "label": "Prior valuation",
+        "note": "February 2024"
       },
       {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Latest editorial review"
+        "value": "12,000",
+        "label": "BotQ capacity target",
+        "note": "Robots per year"
       }
     ],
     "company": [
-      "Figure develops general-purpose humanoid robots intended for industrial and commercial work.",
-      "The company's investment case is tied to humanoid robotics. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
+      "Founded in 2022, Figure is pursuing a humanoid robot that can operate in environments built for people. It combines mechanical hardware with Helix, an AI system intended to translate vision and language into robotic action.",
+      "The company is also building its own manufacturing capability through BotQ. The ambition is not a one-off research robot but a platform that can be produced in volume and taught new work through a common software and data stack."
     ],
-    "why_it_matters": "Its progress will help determine whether the current robotics funding cycle can translate into deployed, economically useful automation.",
+    "why_it_matters": "Figure is one of the clearest private-market tests of whether embodied AI can become a commercial category. Its progress affects the outlook for automation suppliers, industrial software, sensor companies, semiconductors, and employers facing labor constraints.",
     "valuation_history": [
       {
-        "value": "Private",
-        "date": "2022",
-        "round": "Company founded"
+        "value": "$2.6B",
+        "date": "Feb 2024",
+        "round": "$675M Series B"
       },
       {
         "value": "$39B",
-        "date": "2026",
-        "round": "Latest reported estimate"
+        "date": "Sep 2025",
+        "round": "$1B+ Series C"
       }
     ],
     "changed": [
       {
-        "date": "2022",
-        "text": "Figure is founded or begins operating in its current form."
+        "date": "2024",
+        "text": "Raised $675M from a group that included major technology and industrial investors."
       },
       {
-        "date": "2026",
-        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
+        "date": "2025",
+        "text": "Introduced BotQ manufacturing plans and continued development of the Helix AI platform."
+      },
+      {
+        "date": "Sep 2025",
+        "text": "Closed more than $1B of committed Series C capital at a $39B post-money valuation."
       }
     ],
     "takeaways": [
-      "Humanoid robotics is the core operating focus.",
-      "Its progress will help determine whether the current robotics funding cycle can translate into deployed, economically useful automation.",
-      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
-      "Future funding, regulation, and commercial execution are the key items to watch."
+      "Figure is betting that humanoids can share a scalable AI and manufacturing platform across many tasks.",
+      "The Series C valuation embeds a large assumption about future deployment volume and economics.",
+      "Owning the robot, the AI stack, and manufacturing could create leverage if adoption happens.",
+      "Reliability, safety, service, and cost per useful hour are the questions that matter more than demonstrations."
     ],
     "quick_facts": [
       [
@@ -102,33 +95,37 @@
       ],
       [
         "Headquarters",
-        "Sunnyvale, CA"
+        "Sunnyvale, California"
       ],
       [
-        "Sector",
-        "Robotics"
+        "CEO",
+        "Brett Adcock"
       ],
       [
         "Focus",
         "Humanoid robotics"
       ],
       [
-        "Public status",
-        "Private"
+        "Website",
+        "figure.ai"
       ],
       [
-        "Website",
-        "www.figure.ai"
+        "Public status",
+        "Private"
       ]
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://www.figure.ai"
+        "label": "Figure: Series C announcement",
+        "url": "https://www.figure.ai/news/series-c"
       },
       {
-        "label": "Private-company valuation reference",
-        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+        "label": "Figure company website",
+        "url": "https://www.figure.ai/"
+      },
+      {
+        "label": "AP: 2024 financing",
+        "url": "https://apnews.com/article/02ee0bf87ec46021c84646a882133c9a"
       }
     ]
   }

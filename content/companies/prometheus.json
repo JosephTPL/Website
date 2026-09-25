@@ -1,134 +1,127 @@
 {
   "slug": "prometheus",
-  "name": "Prometheus",
   "status": "Published",
-  "sector": "Artificial intelligence",
-  "summary": "Prometheus is a privately held AI company tracked in the Private Ledger market watchlist.",
-  "overview": "<p>Prometheus is a privately held AI company tracked in the Private Ledger market watchlist.</p>",
+  "name": "Prometheus",
+  "sector": "Industrial AI",
+  "summary": "Prometheus is an industrial-AI company co-founded by Jeff Bezos and Vik Bajaj, pursuing an artificial general engineer for physical-world industries.",
+  "overview": "<p>Prometheus is developing industrial AI systems for scientific and engineering applications.</p>",
   "as_of": "2026-09-25",
+  "report": "",
   "facts": [
     {
-      "label": "Reported valuation",
-      "value": "$41B",
-      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
-    },
-    {
-      "label": "Public status",
-      "value": "Private",
-      "note": "No confirmed public offering is reflected in this profile.",
-      "source": "https://prometheus.ai"
-    },
-    {
-      "label": "Primary focus",
-      "value": "Artificial intelligence",
-      "note": "Company description and product positioning.",
-      "source": "https://prometheus.ai"
+      "label": "Latest financing",
+      "value": "$12B Series B",
+      "note": "Announced June 2026 at a $41B post-money valuation.",
+      "source": "https://www.axios.com/2026/06/11/prometheus-bezos-industrial-ai"
     }
   ],
-  "directory_rank": 9,
-  "bull_case": "Prometheus is exposed to a large market where scale, distribution, and execution can compound.",
-  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
-  "latest_round": "Reported valuation: $41B",
+  "directory_rank": 19,
+  "bull_case": "A credible general-purpose engineering system could command extraordinary value across design, science, manufacturing, and energy.",
+  "bear_case": "The valuation arrived before broad product disclosure, leaving technical progress and commercial demand largely unproven.",
+  "latest_round": "June 2026: $12B Series B at $41B",
   "directory_notes": [
-    "Artificial intelligence",
-    "Watch for funding, operating milestones, and changes in market structure."
+    "150 employees across San Francisco, London, and Zurich, per reporting.",
+    "Industrial AI, compute intensity, and product disclosure."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "United States",
+    "location": "San Francisco, London, and Zurich",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=prometheus.ai&sz=128",
-    "description": "Prometheus is a privately held AI company tracked in the Private Ledger market watchlist.",
+    "description": "Prometheus is a secretive industrial-AI company pursuing what it calls an artificial general engineer. The central issue is whether an AI system can create defensible value in high-consequence scientific and engineering work rather than merely assist with it.",
     "metrics": [
       {
         "value": "$41B",
-        "label": "Reported valuation",
-        "note": "Private Ledger market watch"
+        "label": "Latest valuation",
+        "note": "June 2026 post-money"
       },
       {
-        "value": "Private",
-        "label": "Public status",
-        "note": "No confirmed IPO"
+        "value": "$12B",
+        "label": "Latest financing",
+        "note": "Series B"
       },
       {
-        "value": "Artificial intelligence",
-        "label": "Sector",
-        "note": "Artificial intelligence"
+        "value": "$6.2B",
+        "label": "Prior financing",
+        "note": "Reported Series A"
       },
       {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Latest editorial review"
+        "value": "150",
+        "label": "Employees",
+        "note": "Reported at launch"
       }
     ],
     "company": [
-      "Prometheus is a privately held AI company tracked in the Private Ledger market watchlist.",
-      "The company's investment case is tied to artificial intelligence. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
+      "Prometheus emerged from stealth in 2026 with unusual scale for a company that has disclosed little about its product. It was co-founded by Jeff Bezos and Vik Bajaj, a former Google executive and Verily co-founder, and is aimed at applying frontier AI to the physical world.",
+      "The company describes its goal as an artificial general engineer. That framing places it between foundation-model research, engineering software, industrial automation, and scientific discovery, but its product, revenue, and customer base remain largely undisclosed."
     ],
-    "why_it_matters": "The company is included because private AI valuation formation is increasingly shaping public infrastructure and software expectations.",
+    "why_it_matters": "Prometheus is a concentrated bet on the claim that advanced AI will move from language and knowledge work into engineering and industrial systems. The financing is also a sharp signal of how much private capital is willing to underwrite frontier AI before a commercial product is visible.",
     "valuation_history": [
       {
-        "value": "Private",
-        "date": "Not publicly disclosed",
-        "round": "Company founded"
+        "value": "$6.2B",
+        "date": "2025",
+        "round": "Reported Series A"
       },
       {
         "value": "$41B",
-        "date": "2026",
-        "round": "Latest reported estimate"
+        "date": "Jun 2026",
+        "round": "$12B Series B"
       }
     ],
     "changed": [
       {
-        "date": "Not publicly disclosed",
-        "text": "Prometheus is founded or begins operating in its current form."
+        "date": "2025",
+        "text": "Raised a reported $6.2B Series A while operating quietly."
       },
       {
-        "date": "2026",
-        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
+        "date": "Jun 2026",
+        "text": "Emerging from stealth, Prometheus announced a $12B Series B at a $41B valuation."
       }
     ],
     "takeaways": [
-      "Artificial intelligence is the core operating focus.",
-      "The company is included because private AI valuation formation is increasingly shaping public infrastructure and software expectations.",
-      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
-      "Future funding, regulation, and commercial execution are the key items to watch."
+      "Prometheus has raised exceptional capital before making detailed public product claims.",
+      "Its thesis is more specific than a general chatbot: AI for the physical and engineered world.",
+      "Bezos and Bajaj give it unusual technical, commercial, and fundraising credibility.",
+      "The absence of disclosed customers, revenue, and benchmarks makes the valuation unusually dependent on future execution."
     ],
     "quick_facts": [
       [
-        "Founded",
-        "Not publicly disclosed"
+        "Launched",
+        "2025"
       ],
       [
-        "Headquarters",
-        "United States"
+        "Co-founders",
+        "Jeff Bezos and Vik Bajaj"
       ],
       [
-        "Sector",
-        "Artificial intelligence"
+        "Offices",
+        "San Francisco, London, Zurich"
       ],
       [
         "Focus",
-        "Artificial intelligence"
-      ],
-      [
-        "Public status",
-        "Private"
+        "Industrial AI"
       ],
       [
         "Website",
         "prometheus.ai"
+      ],
+      [
+        "Public status",
+        "Private"
       ]
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://prometheus.ai"
+        "label": "Axios: Series B announcement",
+        "url": "https://www.axios.com/2026/06/11/prometheus-bezos-industrial-ai"
       },
       {
-        "label": "Private-company valuation reference",
-        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+        "label": "TechCrunch: launch and financing",
+        "url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/"
+      },
+      {
+        "label": "Prometheus company website",
+        "url": "https://prometheus.ai/"
       }
     ]
   }

@@ -1,99 +1,97 @@
 {
   "slug": "vast-data",
-  "name": "VAST Data",
   "status": "Published",
+  "name": "VAST Data",
   "sector": "Data infrastructure",
-  "summary": "VAST Data develops data infrastructure designed for large-scale AI, analytics, and enterprise workloads.",
-  "overview": "<p>VAST Data develops data infrastructure designed for large-scale AI, analytics, and enterprise workloads.</p>",
+  "summary": "VAST Data provides a data platform for AI, analytics, and enterprise workloads across large-scale infrastructure.",
+  "overview": "<p>VAST Data builds a distributed data platform designed for AI-era data and compute workloads.</p>",
   "as_of": "2026-09-25",
+  "report": "",
   "facts": [
     {
-      "label": "Reported valuation",
-      "value": "$30B",
-      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
-    },
-    {
-      "label": "Public status",
-      "value": "Private",
-      "note": "No confirmed public offering is reflected in this profile.",
-      "source": "https://www.vastdata.com"
-    },
-    {
-      "label": "Primary focus",
-      "value": "Data storage and AI data platforms",
-      "note": "Company description and product positioning.",
-      "source": "https://www.vastdata.com"
+      "label": "Latest financing",
+      "value": "Series F, nearly $1B",
+      "note": "Announced April 2026 at a $30B valuation.",
+      "source": "https://www.vastdata.com/press-releases/vast-series-f-financing-at-30-billion-valuation"
     }
   ],
-  "directory_rank": 14,
-  "bull_case": "VAST Data is exposed to a large market where scale, distribution, and execution can compound.",
-  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
-  "latest_round": "Reported valuation: $30B",
+  "directory_rank": 24,
+  "bull_case": "AI pushes data architecture from a storage purchase into a strategic system of record for model and agent workloads.",
+  "bear_case": "Cloud providers and storage incumbents can compete aggressively, and the valuation relies on sustained high growth.",
+  "latest_round": "April 2026: Series F, nearly $1B at $30B",
   "directory_notes": [
-    "Data storage and AI data platforms",
-    "Watch for funding, operating milestones, and changes in market structure."
+    "Valuation more than tripled from a $9.1B Series E in 2023, per company.",
+    "AI data-platform adoption, profitability, and cloud competition."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "New York, NY",
+    "location": "New York, New York",
     "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=www.vastdata.com&sz=128",
-    "description": "VAST Data develops data infrastructure designed for large-scale AI, analytics, and enterprise workloads.",
+    "logo": "https://www.google.com/s2/favicons?domain=vastdata.com&sz=128",
+    "description": "VAST Data sells a unified data platform for AI and analytics workloads. Its bet is that enterprises need a new data architecture as models, agents, and high-performance compute make older storage silos less useful.",
     "metrics": [
       {
         "value": "$30B",
-        "label": "Reported valuation",
-        "note": "Private Ledger market watch"
+        "label": "Latest valuation",
+        "note": "April 2026 Series F"
       },
       {
-        "value": "Private",
-        "label": "Public status",
-        "note": "No confirmed IPO"
+        "value": "~$1B",
+        "label": "Latest financing",
+        "note": "Primary and secondary capital"
       },
       {
-        "value": "Data infrastructure",
-        "label": "Sector",
-        "note": "Data storage and AI data platforms"
+        "value": "$9.1B",
+        "label": "Prior valuation",
+        "note": "Late 2023 Series E"
       },
       {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Latest editorial review"
+        "value": "Profitable",
+        "label": "Operating status",
+        "note": "Company reported"
       }
     ],
     "company": [
-      "VAST Data develops data infrastructure designed for large-scale AI, analytics, and enterprise workloads.",
-      "The company's investment case is tied to data storage and ai data platforms. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
+      "VAST Data was founded in 2016 to rethink distributed data systems for modern compute. It markets a platform that unifies storage, databases, and data-management services for high-performance AI and enterprise workloads.",
+      "The company said its April 2026 Series F reflected a combination of growth and profitability. The funding, led by Drive Capital with Access Industries as co-lead, more than tripled the valuation assigned to its 2023 Series E."
     ],
-    "why_it_matters": "Modern AI workloads are making data architecture a strategic bottleneck rather than a back-office purchasing decision.",
+    "why_it_matters": "AI systems depend on accessible, governed, high-throughput data. VAST is a private-market signal for whether the infrastructure layer beneath models can capture a large share of the economics, rather than becoming a commodity owned by hyperscalers.",
     "valuation_history": [
       {
-        "value": "Private",
-        "date": "2016",
-        "round": "Company founded"
+        "value": "$3.7B",
+        "date": "May 2021",
+        "round": "Series D"
+      },
+      {
+        "value": "$9.1B",
+        "date": "Dec 2023",
+        "round": "Series E"
       },
       {
         "value": "$30B",
-        "date": "2026",
-        "round": "Latest reported estimate"
+        "date": "Apr 2026",
+        "round": "Series F"
       }
     ],
     "changed": [
       {
-        "date": "2016",
-        "text": "VAST Data is founded or begins operating in its current form."
+        "date": "2021",
+        "text": "Raised a Series D as the company expanded enterprise data-platform adoption."
       },
       {
-        "date": "2026",
-        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
+        "date": "2023",
+        "text": "Series E set a $9.1B valuation."
+      },
+      {
+        "date": "Apr 2026",
+        "text": "Announced a Series F at $30B, describing a rare combination of growth and profitability."
       }
     ],
     "takeaways": [
-      "Data storage and AI data platforms is the core operating focus.",
-      "Modern AI workloads are making data architecture a strategic bottleneck rather than a back-office purchasing decision.",
-      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
-      "Future funding, regulation, and commercial execution are the key items to watch."
+      "VAST is selling architecture, not simply storage capacity.",
+      "Its tripled valuation reflects the expectation that AI creates a durable need for high-performance data platforms.",
+      "Reported profitability makes the growth narrative more credible than a purely capital-funded build-out.",
+      "Hyperscalers, incumbent storage vendors, and the pace of enterprise AI deployment are the main risks."
     ],
     "quick_facts": [
       [
@@ -102,33 +100,37 @@
       ],
       [
         "Headquarters",
-        "New York, NY"
+        "New York, New York"
       ],
       [
-        "Sector",
-        "Data infrastructure"
+        "CEO",
+        "Renen Hallak"
       ],
       [
         "Focus",
-        "Data storage and AI data platforms"
+        "AI data platform"
+      ],
+      [
+        "Website",
+        "vastdata.com"
       ],
       [
         "Public status",
         "Private"
-      ],
-      [
-        "Website",
-        "www.vastdata.com"
       ]
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://www.vastdata.com"
+        "label": "VAST: Series F announcement",
+        "url": "https://www.vastdata.com/press-releases/vast-series-f-financing-at-30-billion-valuation"
       },
       {
-        "label": "Private-company valuation reference",
-        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+        "label": "VAST company website",
+        "url": "https://www.vastdata.com/"
+      },
+      {
+        "label": "TechCrunch: valuation context",
+        "url": "https://techcrunch.com/2025/06/10/ai-storage-platform-vast-data-aimed-for-25b-valuation-in-new-round-sources-say/"
       }
     ]
   }

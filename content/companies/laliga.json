@@ -1,99 +1,97 @@
 {
   "slug": "laliga",
-  "name": "LaLiga",
   "status": "Published",
+  "name": "LaLiga",
   "sector": "Sports media",
-  "summary": "LaLiga organises Spain's top professional football competitions and commercialises media, sponsorship, and international rights.",
-  "overview": "<p>LaLiga organises Spain's top professional football competitions and commercialises media, sponsorship, and international rights.</p>",
+  "summary": "LaLiga organizes Spain's top professional football competitions and commercialises audiovisual, sponsorship, and international media rights.",
+  "overview": "<p>LaLiga is the commercial and organizational body for Spain's leading professional football competitions.</p>",
   "as_of": "2026-09-25",
+  "report": "",
   "facts": [
     {
-      "label": "Reported valuation",
-      "value": "$27.9B",
-      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
-    },
-    {
-      "label": "Public status",
-      "value": "Private",
-      "note": "No confirmed public offering is reflected in this profile.",
-      "source": "https://www.laliga.com"
-    },
-    {
-      "label": "Primary focus",
-      "value": "Sports media rights and league operations",
-      "note": "Company description and product positioning.",
-      "source": "https://www.laliga.com"
+      "label": "CVC transaction value",
+      "value": "€24.25B",
+      "note": "Value assigned in the 2021 CVC agreement; this is not a current quoted market capitalization.",
+      "source": "https://www.laliga.com/sala-de-prensa/que-es-laliga"
     }
   ],
-  "directory_rank": 16,
-  "bull_case": "LaLiga is exposed to a large market where scale, distribution, and execution can compound.",
-  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
-  "latest_round": "Reported valuation: $27.9B",
+  "directory_rank": 26,
+  "bull_case": "Global media distribution, direct fan engagement, and a long-term rights base can compound the value of elite sports IP.",
+  "bear_case": "Rights growth, club alignment, and competition from rival leagues create a more complex investment case than a conventional private company.",
+  "latest_round": "2021: CVC agreement at €24.25B transaction value",
   "directory_notes": [
-    "Sports media rights and league operations",
-    "Watch for funding, operating milestones, and changes in market structure."
+    "CVC agreed to invest €2.7B for an 8.2% share of rights under a 50-year deal.",
+    "Broadcast-rights growth, internationalisation, and club participation."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
     "location": "Madrid, Spain",
-    "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=www.laliga.com&sz=128",
-    "description": "LaLiga organises Spain's top professional football competitions and commercialises media, sponsorship, and international rights.",
+    "status": "Private association",
+    "logo": "https://www.google.com/s2/favicons?domain=laliga.com&sz=128",
+    "description": "LaLiga manages a portfolio of sports-media rights around Spain's professional football competitions. Its value comes from scarce live content, collective rights distribution, club economics, and the challenge of building a global direct relationship with fans.",
     "metrics": [
       {
-        "value": "$27.9B",
-        "label": "Reported valuation",
-        "note": "Private Ledger market watch"
+        "value": "€24.25B",
+        "label": "Transaction value",
+        "note": "2021 CVC agreement"
       },
       {
-        "value": "Private",
-        "label": "Public status",
-        "note": "No confirmed IPO"
+        "value": "€2.7B",
+        "label": "CVC investment",
+        "note": "LaLiga Impulso"
       },
       {
-        "value": "Sports media",
-        "label": "Sector",
-        "note": "Sports media rights and league operations"
+        "value": "8.2%",
+        "label": "Rights share",
+        "note": "50-year agreement"
       },
       {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Latest editorial review"
+        "value": "50 years",
+        "label": "Deal term",
+        "note": "LaLiga Impulso"
       }
     ],
     "company": [
-      "LaLiga organises Spain's top professional football competitions and commercialises media, sponsorship, and international rights.",
-      "The company's investment case is tied to sports media rights and league operations. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
+      "LaLiga is the organizing body for Spain's top two professional football divisions and commercializes their collective audiovisual, sponsorship, and international rights. Unlike a typical startup, it is an association whose economics depend on clubs, broadcasters, regulators, and the continuing global demand for live sport.",
+      "In 2021 LaLiga reached an agreement with CVC to create a vehicle for commercial rights, under which CVC would invest €2.7B. LaLiga stated the transaction valued the organization at €24.25B, while retaining its sporting and organizational functions."
     ],
-    "why_it_matters": "Media-rights growth and global audience monetisation make elite sports leagues increasingly relevant private-market assets.",
+    "why_it_matters": "LaLiga is a useful private-capital case study in turning durable media rights into investable infrastructure. It is relevant to the private-market debate over sports leagues, live entertainment, global fan monetisation, and long-dated revenue-sharing arrangements.",
     "valuation_history": [
       {
-        "value": "Private",
-        "date": "1984",
-        "round": "Company founded"
+        "value": "€24.25B",
+        "date": "Aug 2021",
+        "round": "CVC transaction value"
       },
       {
-        "value": "$27.9B",
-        "date": "2026",
-        "round": "Latest reported estimate"
+        "value": "€2.7B",
+        "date": "2021",
+        "round": "LaLiga Impulso investment"
+      },
+      {
+        "value": "8.2%",
+        "date": "2021",
+        "round": "CVC rights participation"
       }
     ],
     "changed": [
       {
-        "date": "1984",
-        "text": "LaLiga is founded or begins operating in its current form."
+        "date": "2021",
+        "text": "LaLiga announced the CVC agreement to inject €2.7B into the competition and clubs."
+      },
+      {
+        "date": "2025",
+        "text": "The next domestic and international rights cycles became increasingly central to the outlook for league economics."
       },
       {
         "date": "2026",
-        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
+        "text": "The CVC structure remains the relevant disclosed valuation framework; no public-market price exists for LaLiga itself."
       }
     ],
     "takeaways": [
-      "Sports media rights and league operations is the core operating focus.",
-      "Media-rights growth and global audience monetisation make elite sports leagues increasingly relevant private-market assets.",
-      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
-      "Future funding, regulation, and commercial execution are the key items to watch."
+      "LaLiga's €24.25B figure is a historical transaction value, not a live market capitalization.",
+      "The core asset is a portfolio of long-lived media rights and global football brand value.",
+      "Club alignment and the distribution of proceeds are central to execution, unlike in a founder-led company.",
+      "Rights renewals, global audience growth, and competition from other leagues determine future value."
     ],
     "quick_facts": [
       [
@@ -105,30 +103,34 @@
         "Madrid, Spain"
       ],
       [
-        "Sector",
-        "Sports media"
+        "President",
+        "Javier Tebas"
       ],
       [
         "Focus",
-        "Sports media rights and league operations"
-      ],
-      [
-        "Public status",
-        "Private"
+        "Professional football and media rights"
       ],
       [
         "Website",
-        "www.laliga.com"
+        "laliga.com"
+      ],
+      [
+        "Public status",
+        "Private association"
       ]
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://www.laliga.com"
+        "label": "LaLiga: CVC agreement",
+        "url": "https://www.laliga.com/en-GB/news/laliga-announces-an-agreement-in-principle-with-cvc-that-will-inject-2700-million-euros-into-the-competition-and-its-clubs"
       },
       {
-        "label": "Private-company valuation reference",
-        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+        "label": "LaLiga: organization overview",
+        "url": "https://www.laliga.com/sala-de-prensa/que-es-laliga"
+      },
+      {
+        "label": "UEFA European Club Finance report",
+        "url": "https://cdn.vev.design/private/aTCxVXgBbmVvmw45NvpIseApVuy2/1jco82-uefa-benchmarking-ecfil-report-embargo.pdf"
       }
     ]
   }

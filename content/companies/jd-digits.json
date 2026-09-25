@@ -1,133 +1,135 @@
 {
   "slug": "jd-digits",
-  "name": "JD Digits",
   "status": "Published",
+  "name": "JD Digits",
   "sector": "Fintech",
-  "summary": "JD Digits provides digital technology and financial-services capabilities within the JD.com ecosystem.",
-  "overview": "<p>JD Digits provides digital technology and financial-services capabilities within the JD.com ecosystem.</p>",
+  "summary": "JD Digits, also known as JD Technology, supplies digital-technology and financial-services capabilities within the JD.com ecosystem.",
+  "overview": "<p>JD Digits provides technology and consumer-finance services connected to the broader JD ecosystem.</p>",
   "as_of": "2026-09-25",
+  "report": "",
   "facts": [
     {
-      "label": "Reported valuation",
+      "label": "Reported valuation estimate",
       "value": "$28B",
-      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
+      "note": "Market-watch estimate; no recent independently confirmed priced financing was located.",
       "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
-    },
-    {
-      "label": "Public status",
-      "value": "Private",
-      "note": "No confirmed public offering is reflected in this profile.",
-      "source": "https://www.jd.com"
-    },
-    {
-      "label": "Primary focus",
-      "value": "Digital finance and enterprise technology",
-      "note": "Company description and product positioning.",
-      "source": "https://www.jd.com"
     }
   ],
-  "directory_rank": 15,
-  "bull_case": "JD Digits is exposed to a large market where scale, distribution, and execution can compound.",
-  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
-  "latest_round": "Reported valuation: $28B",
+  "directory_rank": 25,
+  "bull_case": "JD's commerce, logistics, and consumer ecosystem gives JD Digits distribution and underwriting data that standalone fintechs lack.",
+  "bear_case": "Regulatory constraints, opaque standalone disclosures, and parent-company strategy limit visibility into its economics.",
+  "latest_round": "No recent confirmed priced financing publicly disclosed",
   "directory_notes": [
-    "Digital finance and enterprise technology",
-    "Watch for funding, operating milestones, and changes in market structure."
+    "JD Technology provides consumer financing to JD customers, per JD.com's 2025 20-F.",
+    "Regulation, risk management, and separation from the parent ecosystem."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
     "location": "Beijing, China",
     "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=www.jd.com&sz=128",
-    "description": "JD Digits provides digital technology and financial-services capabilities within the JD.com ecosystem.",
+    "logo": "https://www.google.com/s2/favicons?domain=jd.com&sz=128",
+    "description": "JD Digits is the private technology and financial-services arm associated with JD.com. Its value rests on whether data, distribution, and infrastructure across the JD ecosystem can translate into scalable financial and enterprise services under China's evolving regulatory framework.",
     "metrics": [
       {
         "value": "$28B",
-        "label": "Reported valuation",
-        "note": "Private Ledger market watch"
+        "label": "Market estimate",
+        "note": "Not a confirmed new financing"
+      },
+      {
+        "value": "$2.4B",
+        "label": "JD Cloud transfer value",
+        "note": "2021 reported transaction"
+      },
+      {
+        "value": "2025",
+        "label": "Latest parent disclosure",
+        "note": "JD.com 20-F"
       },
       {
         "value": "Private",
-        "label": "Public status",
+        "label": "Listing status",
         "note": "No confirmed IPO"
-      },
-      {
-        "value": "Fintech",
-        "label": "Sector",
-        "note": "Digital finance and enterprise technology"
-      },
-      {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Latest editorial review"
       }
     ],
     "company": [
-      "JD Digits provides digital technology and financial-services capabilities within the JD.com ecosystem.",
-      "The company's investment case is tied to digital finance and enterprise technology. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
+      "JD Digits, commonly called JD Technology, developed out of JD Finance and combines digital technology with consumer- and enterprise-finance capabilities. It benefits from JD's retail and logistics ecosystem, where transaction and supply-chain data can support payment, credit, and risk-management products.",
+      "Public disclosure is more limited than for JD.com itself. JD.com's 2025 annual filing says JD Technology provides consumer financing to customers and retains certain receivable-risk arrangements, which makes parent-company filings a more useful source than valuation aggregators for operational context."
     ],
-    "why_it_matters": "The company sits within China's platform economy, where regulation and parent-company strategy can materially affect value.",
+    "why_it_matters": "JD Digits is a reminder that some of China's largest private fintech assets are embedded in public platform companies rather than operating as transparent standalone businesses. Its outcomes matter for the economics of commerce-linked credit, merchant services, and financial regulation.",
     "valuation_history": [
       {
-        "value": "Private",
-        "date": "2013",
-        "round": "Company founded"
+        "value": "RMB46.7B",
+        "date": "2016",
+        "round": "JD Finance Series A"
+      },
+      {
+        "value": "$2.4B",
+        "date": "2021",
+        "round": "JD Cloud transfer value"
       },
       {
         "value": "$28B",
         "date": "2026",
-        "round": "Latest reported estimate"
+        "round": "Market estimate, not financing"
       }
     ],
     "changed": [
       {
-        "date": "2013",
-        "text": "JD Digits is founded or begins operating in its current form."
+        "date": "2016",
+        "text": "JD Finance completed a major Series A financing, according to historical JD disclosures."
       },
       {
-        "date": "2026",
-        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
+        "date": "2021",
+        "text": "JD.com transferred JD Cloud to the fintech unit at a reported combined value of RMB15.7B."
+      },
+      {
+        "date": "2025",
+        "text": "JD.com continued to disclose JD Technology's consumer-finance role and related receivables arrangements."
       }
     ],
     "takeaways": [
-      "Digital finance and enterprise technology is the core operating focus.",
-      "The company sits within China's platform economy, where regulation and parent-company strategy can materially affect value.",
-      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
-      "Future funding, regulation, and commercial execution are the key items to watch."
+      "JD Digits is strategically connected to a major Chinese commerce and logistics ecosystem.",
+      "The $28B figure is a market estimate rather than a recent disclosed fundraising price.",
+      "Consumer-credit risk and regulation matter as much as technology in judging the business.",
+      "More standalone financial disclosure would be needed to evaluate it like an independent public fintech."
     ],
     "quick_facts": [
       [
-        "Founded",
-        "2013"
+        "Origin",
+        "JD Finance"
       ],
       [
         "Headquarters",
         "Beijing, China"
       ],
       [
-        "Sector",
-        "Fintech"
+        "Parent ecosystem",
+        "JD.com"
       ],
       [
         "Focus",
-        "Digital finance and enterprise technology"
+        "Digital finance and technology"
+      ],
+      [
+        "Website",
+        "jd.com"
       ],
       [
         "Public status",
         "Private"
-      ],
-      [
-        "Website",
-        "www.jd.com"
       ]
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://www.jd.com"
+        "label": "JD.com 2025 annual report",
+        "url": "https://ir.jd.com/annual-reports"
       },
       {
-        "label": "Private-company valuation reference",
+        "label": "JD.com 2025 Form 20-F",
+        "url": "https://www.sec.gov/Archives/edgar/data/1549802/000119312526157870/d53690d20f.htm"
+      },
+      {
+        "label": "Valuation reference",
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
