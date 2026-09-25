@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://rogo.com"
+      "value": "April 2026: $2B",
+      "note": "Rogo raised $160 million in Series D funding at a reported $2 billion valuation.",
+      "source": "https://multiples.vc/private-comps/rogo"
     }
   ],
   "directory_rank": 110,
   "bull_case": "Rogo is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "April 2026 Series D: $160M at a reported $2B valuation",
   "directory_notes": [
     "Financial AI",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Rogo is a private company tracked by The Private Ledger in financial ai.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$2B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Reported April 2026 Series D valuation"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$2B",
+        "date": "Apr 2026",
+        "round": "$160M Series D"
       }
     ],
     "changed": [
@@ -88,6 +88,14 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Multiples: Rogo Series D",
+        "url": "https://multiples.vc/private-comps/rogo"
+      },
+      {
+        "label": "Rogo: $160M Series D",
+        "url": "https://www.prnewswire.com/news-releases/rogo-raises-160m-series-d-to-scale-the-agentic-platform-for-finance-302756546.html"
+      },
       {
         "label": "Company website",
         "url": "https://rogo.com"

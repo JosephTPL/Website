@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://nominal.io"
+      "value": "July 2025: $20M Series A",
+      "note": "Nominal announced a $20 million Series A; its valuation was not disclosed.",
+      "source": "https://nominal.so/press/nominal-raise-announcement/"
     }
   ],
   "directory_rank": 106,
   "bull_case": "Nominal is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "July 2025 Series A: $20M; valuation undisclosed",
   "directory_notes": [
     "Financial operations software",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Nominal is a private company tracked by The Private Ledger in financial operations software.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "Undisclosed",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Valuation was not announced with the Series A"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$20M raised",
+        "date": "Jul 2025",
+        "round": "Series A"
       }
     ],
     "changed": [
@@ -88,6 +88,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Nominal: $20M Series A",
+        "url": "https://nominal.so/press/nominal-raise-announcement/"
+      },
       {
         "label": "Company website",
         "url": "https://nominal.io"

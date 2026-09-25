@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://ricursive.com"
+      "value": "January 2026: $4B",
+      "note": "Ricursive Intelligence announced a $300 million Series A at a $4 billion valuation.",
+      "source": "https://www.prnewswire.com/news-releases/ricursive-intelligence-raises-300-million-series-a-at-4-billion-valuation-to-accelerate-ai-driven-semiconductor-design-302670061.html"
     }
   ],
   "directory_rank": 67,
   "bull_case": "Ricursive is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "January 2026 Series A: $300M at a $4B valuation",
   "directory_notes": [
     "Artificial intelligence",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Ricursive is a private AI company tracked by The Private Ledger.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$4B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "January 2026 Series A"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the watchlist because private-market activity in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$4B",
+        "date": "Jan 2026",
+        "round": "$300M Series A"
       }
     ],
     "changed": [
@@ -88,6 +88,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Ricursive Intelligence: $300M Series A",
+        "url": "https://www.prnewswire.com/news-releases/ricursive-intelligence-raises-300-million-series-a-at-4-billion-valuation-to-accelerate-ai-driven-semiconductor-design-302670061.html"
+      },
       {
         "label": "Company website",
         "url": "https://ricursive.com"

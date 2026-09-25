@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://vapi.ai"
+      "value": "May 2026: $500M",
+      "note": "Vapi raised $50 million in Series B funding at an approximately $500 million valuation.",
+      "source": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/"
     }
   ],
   "directory_rank": 116,
   "bull_case": "Vapi is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "May 2026 Series B: $50M at an approximately $500M valuation",
   "directory_notes": [
     "Voice AI infrastructure",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Vapi is a private company tracked by The Private Ledger in voice ai infrastructure.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$500M",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Reported May 2026 Series B valuation"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$500M",
+        "date": "May 2026",
+        "round": "$50M Series B"
       }
     ],
     "changed": [
@@ -88,6 +88,14 @@
       ]
     ],
     "sources": [
+      {
+        "label": "TechCrunch: Vapi Series B",
+        "url": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/"
+      },
+      {
+        "label": "Vapi: $50M Series B",
+        "url": "https://www.globenewswire.com/news-release/2026/05/12/3292882/0/en/vapi-raises-50m-series-b-as-it-reaches-1-billion-calls-powering-the-next-generation-of-enterprise-voice-ai.html"
+      },
       {
         "label": "Company website",
         "url": "https://vapi.ai"

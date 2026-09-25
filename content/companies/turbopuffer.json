@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://turbopuffer.com"
+      "value": "December 2025: seed financing",
+      "note": "turbopuffer closed a seed round with Thrive Capital; the company has said it raised less than $1 million in primary capital, and its valuation was not disclosed.",
+      "source": "https://sacra.com/c/turbopuffer/"
     }
   ],
   "directory_rank": 77,
   "bull_case": "Turbopuffer is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "December 2025 seed financing; amount and valuation undisclosed",
   "directory_notes": [
     "Data infrastructure",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Turbopuffer is a private company tracked by The Private Ledger in data infrastructure.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "Undisclosed",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "No public valuation was identified"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "Amount undisclosed",
+        "date": "Dec 2025",
+        "round": "Seed"
       }
     ],
     "changed": [
@@ -88,6 +88,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Sacra: turbopuffer funding",
+        "url": "https://sacra.com/c/turbopuffer/"
+      },
       {
         "label": "Company website",
         "url": "https://turbopuffer.com"

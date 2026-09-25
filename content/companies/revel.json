@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://revel.com"
+      "value": "February 2026: $150M Series B",
+      "note": "Revel announced $150 million in Series B funding; its valuation was not disclosed.",
+      "source": "https://www.revel.io/newsroom/accelerating-revel"
     }
   ],
   "directory_rank": 75,
   "bull_case": "Revel is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "February 2026 Series B: $150M; valuation undisclosed",
   "directory_notes": [
     "Technology",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Revel is a private company tracked by The Private Ledger in technology.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "Undisclosed",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Valuation was not announced with the Series B"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$150M raised",
+        "date": "Feb 2026",
+        "round": "Series B"
       }
     ],
     "changed": [
@@ -88,6 +88,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Revel: $150M Series B",
+        "url": "https://www.revel.io/newsroom/accelerating-revel"
+      },
       {
         "label": "Company website",
         "url": "https://revel.com"

@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://simile.ai"
+      "value": "July 2026: $2B",
+      "note": "Simile reportedly raised more than $200 million in Series B funding at a $2 billion valuation.",
+      "source": "https://runtimewire.com/article/simile-raises-200m-series-b-2b-valuation"
     }
   ],
   "directory_rank": 88,
   "bull_case": "Simile is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "Reported July 2026 Series B: $200M+ at a $2B valuation",
   "directory_notes": [
     "Artificial intelligence",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Simile is a private company tracked by The Private Ledger in artificial intelligence.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$2B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Reported July 2026 Series B valuation"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$2B",
+        "date": "Jul 2026",
+        "round": "Reported $200M+ Series B"
       }
     ],
     "changed": [
@@ -88,6 +88,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "RuntimeWire: Simile Series B",
+        "url": "https://runtimewire.com/article/simile-raises-200m-series-b-2b-valuation"
+      },
       {
         "label": "Company website",
         "url": "https://simile.ai"

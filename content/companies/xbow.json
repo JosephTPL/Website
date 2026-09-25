@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://xbow.com"
+      "value": "March 2026: $1B+",
+      "note": "Bloomberg Law reported that a new financing valued XBOW at more than $1 billion; the round size was not disclosed.",
+      "source": "https://news.bloomberglaw.com/business-and-practice/ai-security-startup-xbow-now-valued-at-more-than-1-billion"
     }
   ],
   "directory_rank": 119,
   "bull_case": "XBOW is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "Reported March 2026 financing: valuation above $1B; round size undisclosed",
   "directory_notes": [
     "Cybersecurity",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "XBOW is a private company tracked by The Private Ledger in cybersecurity.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$1B+",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Reported March 2026"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$1B+",
+        "date": "Mar 2026",
+        "round": "Reported financing"
       }
     ],
     "changed": [
@@ -88,6 +88,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Bloomberg Law: XBOW valuation",
+        "url": "https://news.bloomberglaw.com/business-and-practice/ai-security-startup-xbow-now-valued-at-more-than-1-billion"
+      },
       {
         "label": "Company website",
         "url": "https://xbow.com"

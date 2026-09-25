@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://sailresearch.com"
+      "value": "June 2026: $450M",
+      "note": "Sail Research emerged from stealth with $80 million in seed and Series A funding at a $450 million valuation.",
+      "source": "https://fortune.com/2026/06/25/exclusive-sail-apple-kleiner-perkins-gpu-token-nvdia-sequoia-80-million/"
     }
   ],
   "directory_rank": 68,
   "bull_case": "Sail Research is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "June 2026 seed and Series A: $80M at a $450M valuation",
   "directory_notes": [
     "Research technology",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Sail Research is a private research-technology company tracked by The Private Ledger.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$450M",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "June 2026 seed and Series A"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the watchlist because private-market activity in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$450M",
+        "date": "Jun 2026",
+        "round": "$80M seed and Series A"
       }
     ],
     "changed": [
@@ -88,6 +88,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Fortune: Sail Research financing",
+        "url": "https://fortune.com/2026/06/25/exclusive-sail-apple-kleiner-perkins-gpu-token-nvdia-sequoia-80-million/"
+      },
       {
         "label": "Company website",
         "url": "https://sailresearch.com"
