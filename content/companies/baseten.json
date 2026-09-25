@@ -3,36 +3,36 @@
   "name": "Baseten",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Baseten is a private company tracked by The Private Ledger in ai inference infrastructure.",
-  "overview": "<p>Baseten is a private company tracked by The Private Ledger in ai inference infrastructure.</p>",
+  "summary": "Baseten provides production infrastructure for deploying, scaling, and operating AI models and inference workloads.",
+  "overview": "<p>Baseten provides production infrastructure for deploying, scaling, and operating AI models and inference workloads.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://baseten.co"
+      "value": "$300M Series E at a $5B valuation",
+      "note": "Announced February 2026.",
+      "source": "https://www.baseten.co/blog/announcing-baseten-s-300m-series-e/"
     }
   ],
   "directory_rank": 122,
   "bull_case": "Baseten is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "$300M Series E at a $5B valuation (Feb 2026)",
   "directory_notes": [
     "AI inference infrastructure",
-    "Public financing and operating data remain limited."
+    "$5B valuation disclosed in February 2026."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Not publicly disclosed",
+    "location": "San Francisco, California",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=baseten.co&sz=128",
-    "description": "Baseten is a private company tracked by The Private Ledger in ai inference infrastructure.",
+    "description": "Baseten provides production infrastructure for deploying, scaling, and operating AI models and inference workloads.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$5B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Series E, February 2026"
       },
       {
         "value": "Private",
@@ -45,33 +45,33 @@
         "note": "Company profile"
       },
       {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Editorial review"
+        "value": "$300M",
+        "label": "Latest funding",
+        "note": "Series E, February 2026"
       }
     ],
     "company": [
-      "Baseten is a private company tracked by The Private Ledger in ai inference infrastructure.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Baseten provides infrastructure for deploying, scaling, and operating AI models and inference workloads in production.",
+      "It raised $300 million in a Series E at a $5 billion valuation in February 2026."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Inference infrastructure is a critical layer in the AI stack, where reliability, latency, and cost shape the economics of every application company. Baseten is a useful private-market benchmark for the production-model serving category.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$5B",
+        "date": "Feb 2026",
+        "round": "Series E, $300M"
       }
     ],
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Raised $300M Series E at a $5B valuation."
       }
     ],
     "takeaways": [
-      "Baseten is tracked in ai inference infrastructure.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The latest Series E valued Baseten at $5B.",
+      "The company is positioned around specialized models running in production at scale.",
+      "GPU supply, price-performance, and customer concentration remain key watch items."
     ],
     "quick_facts": [
       [
@@ -79,8 +79,8 @@
         "AI inference infrastructure"
       ],
       [
-        "Website",
-        "baseten.co"
+        "Founded",
+        "2019"
       ],
       [
         "Public status",
@@ -88,6 +88,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Baseten: Series E announcement",
+        "url": "https://www.baseten.co/blog/announcing-baseten-s-300m-series-e/"
+      },
       {
         "label": "Company website",
         "url": "https://baseten.co"

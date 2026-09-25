@@ -3,37 +3,37 @@
   "status": "Published",
   "name": "ElevenLabs",
   "sector": "AI media",
-  "summary": "ElevenLabs is a private company tracked by The Private Ledger in voice ai.",
-  "overview": "<p>ElevenLabs is a private company tracked by The Private Ledger in voice ai.</p>",
+  "summary": "ElevenLabs builds AI voice, audio, dubbing, and conversational-agent tools for creators, developers, and enterprises.",
+  "overview": "<p>ElevenLabs builds AI voice, audio, dubbing, and conversational-agent tools for creators, developers, and enterprises.</p>",
   "as_of": "2026-09-25",
   "report": "",
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://elevenlabs.io"
+      "value": "$500M Series D at an $11B valuation",
+      "note": "Announced February 2026.",
+      "source": "https://elevenlabs.io/blog/series-d"
     }
   ],
   "directory_rank": 38,
   "bull_case": "High-quality voice can become a foundational interface for media and software.",
   "bear_case": "Rights management, platform competition, and synthetic-content concerns are material.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "$500M Series D at an $11B valuation (Feb 2026)",
   "directory_notes": [
     "Voice AI",
-    "Public financing and operating data remain limited."
+    "$11B valuation disclosed in February 2026."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Not publicly disclosed",
+    "location": "London, United Kingdom",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=elevenlabs.io&sz=128",
-    "description": "ElevenLabs is a private company tracked by The Private Ledger in voice ai.",
+    "description": "ElevenLabs builds AI voice, audio, dubbing, and conversational-agent tools for creators, developers, and enterprises.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$11B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Series D, February 2026"
       },
       {
         "value": "Private",
@@ -46,33 +46,38 @@
         "note": "Company profile"
       },
       {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Editorial review"
+        "value": "$500M",
+        "label": "Latest funding",
+        "note": "Series D, February 2026"
       }
     ],
     "company": [
-      "ElevenLabs is a private company tracked by The Private Ledger in voice ai.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "ElevenLabs builds AI voice and audio products, including speech generation, dubbing, and tools for conversational agents.",
+      "The company raised $500 million in a Series D at an $11 billion valuation in February 2026."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Voice is becoming a core interface for AI agents and customer operations. ElevenLabs is a leading private-company signal for how much value can accrue to the audio and agent layer rather than the underlying foundation models alone.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$6.6B",
+        "date": "Sep 2025",
+        "round": "Employee tender offer"
+      },
+      {
+        "value": "$11B",
+        "date": "Feb 2026",
+        "round": "Series D, $500M"
       }
     ],
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Raised $500M Series D at an $11B valuation."
       }
     ],
     "takeaways": [
-      "ElevenLabs is tracked in voice ai.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The Series D set a disclosed $11B valuation.",
+      "ElevenLabs reported more than $330M in ARR at the end of 2025 and later announced it had crossed $500M ARR.",
+      "Enterprise retention and competition from model providers remain key watch items."
     ],
     "quick_facts": [
       [
@@ -80,8 +85,8 @@
         "Voice AI"
       ],
       [
-        "Website",
-        "elevenlabs.io"
+        "Founded",
+        "2022"
       ],
       [
         "Public status",
@@ -89,6 +94,14 @@
       ]
     ],
     "sources": [
+      {
+        "label": "ElevenLabs: Series D announcement",
+        "url": "https://elevenlabs.io/blog/series-d"
+      },
+      {
+        "label": "ElevenLabs: $500M ARR update",
+        "url": "https://elevenlabs.io/blog/500m-arr-and-new-investors"
+      },
       {
         "label": "Company website",
         "url": "https://elevenlabs.io"
