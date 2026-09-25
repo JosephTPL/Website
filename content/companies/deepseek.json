@@ -1,135 +1,17 @@
 {
-  "slug": "deepseek",
-  "name": "DeepSeek",
-  "status": "Published",
-  "sector": "Artificial intelligence",
-  "summary": "DeepSeek develops large language models and AI products, drawing attention for efficient model development and open releases.",
-  "overview": "<p>DeepSeek develops large language models and AI products, drawing attention for efficient model development and open releases.</p>",
-  "as_of": "2026-09-25",
-  "facts": [
-    {
-      "label": "Reported valuation",
-      "value": "$50B",
-      "note": "Reported estimate tracked by The Private Ledger; private-company valuations can change without a new public financing.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
-    },
-    {
-      "label": "Public status",
-      "value": "Private",
-      "note": "No confirmed public offering is reflected in this profile.",
-      "source": "https://www.deepseek.com"
-    },
-    {
-      "label": "Primary focus",
-      "value": "Foundation models and AI research",
-      "note": "Company description and product positioning.",
-      "source": "https://www.deepseek.com"
-    }
-  ],
-  "directory_rank": 5,
-  "bull_case": "DeepSeek is exposed to a large market where scale, distribution, and execution can compound.",
-  "bear_case": "Private-market estimates are uncertain, and regulation, capital intensity, competition, or execution could materially change the outlook.",
-  "latest_round": "Reported valuation: $50B",
-  "directory_notes": [
-    "Foundation models and AI research",
-    "Watch for funding, operating milestones, and changes in market structure."
-  ],
+  "slug":"deepseek", "name":"DeepSeek", "status":"Published", "sector":"Artificial intelligence", "summary":"DeepSeek develops open-weight foundation models and AI products, drawing global attention for efficient training and low-cost inference.", "overview":"<p>DeepSeek is a Hangzhou-based AI lab developing open-weight large-language models and consumer and developer AI products.</p>", "as_of":"2026-09-25",
+  "facts":[{"label":"Reported valuation","value":"~$52B","note":"Implied by a July 2026 Chinese filing; not a company-disclosed valuation.","source":"https://www.investing.com/news/stock-market-news/chinese-filing-implies-deepseek-valuation-of-around-52-billion-4796314"},{"label":"Latest release","value":"V4.1-Flash","note":"Released September 2026 with native visual understanding.","source":"https://deepseek.com/en/news/"}], "directory_rank":5,
+  "bull_case":"DeepSeek can use open-weight distribution and a reputation for efficiency to become a durable Chinese and global AI platform.", "bear_case":"Model performance, compute access, monetisation, data-security concerns, and geopolitical constraints can rapidly reshape its competitive position.", "latest_round":"Reported valuation: roughly $52B", "directory_notes":["Model releases, API growth, and funding disclosures","Compute capacity and global developer adoption."],
   "intelligence": {
-    "kicker": "COMPANY INTELLIGENCE",
-    "location": "Hangzhou, China",
-    "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=www.deepseek.com&sz=128",
-    "description": "DeepSeek develops large language models and AI products, drawing attention for efficient model development and open releases.",
-    "metrics": [
-      {
-        "value": "$50B",
-        "label": "Reported valuation",
-        "note": "Private Ledger market watch"
-      },
-      {
-        "value": "Private",
-        "label": "Public status",
-        "note": "No confirmed IPO"
-      },
-      {
-        "value": "Artificial intelligence",
-        "label": "Sector",
-        "note": "Foundation models and AI research"
-      },
-      {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Latest editorial review"
-      }
-    ],
-    "company": [
-      "DeepSeek develops large language models and AI products, drawing attention for efficient model development and open releases.",
-      "The company's investment case is tied to foundation models and ai research. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
-    ],
-    "why_it_matters": "Its model releases have intensified debate over AI training costs, open models, and China's role in the AI stack.",
-    "valuation_history": [
-      {
-        "value": "Private",
-        "date": "2023",
-        "round": "Company founded"
-      },
-      {
-        "value": "$50B",
-        "date": "2026",
-        "round": "Latest reported estimate"
-      }
-    ],
-    "changed": [
-      {
-        "date": "2023",
-        "text": "DeepSeek is founded or begins operating in its current form."
-      },
-      {
-        "date": "2026",
-        "text": "The company remains on The Private Ledger's private-market watchlist; this profile reflects the latest editorial review."
-      }
-    ],
-    "takeaways": [
-      "Foundation models and AI research is the core operating focus.",
-      "Its model releases have intensified debate over AI training costs, open models, and China's role in the AI stack.",
-      "Private-company valuation estimates should be treated as directional rather than audited market prices.",
-      "Future funding, regulation, and commercial execution are the key items to watch."
-    ],
-    "quick_facts": [
-      [
-        "Founded",
-        "2023"
-      ],
-      [
-        "Headquarters",
-        "Hangzhou, China"
-      ],
-      [
-        "Sector",
-        "Artificial intelligence"
-      ],
-      [
-        "Focus",
-        "Foundation models and AI research"
-      ],
-      [
-        "Public status",
-        "Private"
-      ],
-      [
-        "Website",
-        "www.deepseek.com"
-      ]
-    ],
-    "sources": [
-      {
-        "label": "Company website",
-        "url": "https://www.deepseek.com"
-      },
-      {
-        "label": "Private-company valuation reference",
-        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
-      }
-    ]
+    "kicker":"COMPANY INTELLIGENCE", "location":"Hangzhou, China", "status":"Private", "logo":"https://www.google.com/s2/favicons?domain=deepseek.com&sz=128",
+    "description":"DeepSeek is an AI lab building open-weight foundation models, APIs, and consumer products. Its relevance comes from demonstrating that competitive models can be trained and served with a different cost and distribution profile from the largest closed U.S. labs.",
+    "metrics":[{"value":"~$52B","label":"Reported valuation","note":"July 2026 filing implication"},{"value":"$7.4B","label":"Reported funding","note":"June 2026, reported"},{"value":"V4.1","label":"Latest model family","note":"Flash released September 2026"},{"value":"1M","label":"Context window","note":"V4 preview, company reported"}],
+    "company":["DeepSeek was founded in Hangzhou in 2023 and is controlled by quantitative-investment firm High-Flyer. It gained global attention in 2025 after releasing reasoning and language models that challenged assumptions about the cost of building competitive frontier models.","The company’s strategy combines open releases with API and application distribution. DeepSeek’s 2026 V4 family emphasised long context, reasoning, agentic workflows, and lower-cost inference. Its position is therefore more than a single benchmark result: it is a test of whether open-weight Chinese models can become enduring infrastructure for developers and enterprises."],
+    "why_it_matters":"DeepSeek changed the private-market conversation around AI model economics, open-weight distribution, and China’s role in the frontier-AI stack. Its progress matters to compute providers, model labs, application companies, and investors benchmarking the cost and defensibility of AI capabilities.",
+    "valuation_history":[{"value":"Private","date":"2023","round":"Company founded"},{"value":"~$52B","date":"Jul 2026","round":"Valuation implied by Chinese filing"},{"value":"~$74B","date":"Aug 2026","round":"Reported funding target, not confirmed close"}],
+    "changed":[{"date":"2023","text":"DeepSeek is founded in Hangzhou under High-Flyer’s control."},{"date":"Jan 2025","text":"DeepSeek-R1 brings global attention to the lab’s reasoning models and cost claims."},{"date":"Apr 2026","text":"The company releases DeepSeek-V4 Preview with a stated one-million-token context window."},{"date":"Sep 2026","text":"DeepSeek releases V4.1-Flash, adding native visual understanding and higher-throughput inference."}],
+    "takeaways":["DeepSeek’s strategic importance rests on cost-efficient, open-weight model distribution rather than a conventional enterprise-software playbook.","The reported $52B valuation is based on external filings and reporting, not a company-announced funding round.","Model quality must translate into durable API, developer, and enterprise demand for the valuation to hold.","Compute access, geopolitics, and data-security concerns are material risks alongside competition from Chinese and U.S. labs."],
+    "quick_facts":[["Founded","2023"],["Headquarters","Hangzhou, China"],["Founder","Liang Wenfeng"],["Parent","High-Flyer"],["Focus","Open-weight foundation models"],["Website","deepseek.com"]],
+    "sources":[{"label":"DeepSeek research and news","url":"https://deepseek.com/en/news/"},{"label":"DeepSeek transparency center","url":"https://www.deepseek.com/en/transparency/"},{"label":"Reported valuation reference","url":"https://www.investing.com/news/stock-market-news/chinese-filing-implies-deepseek-valuation-of-around-52-billion-4796314"},{"label":"Reported funding reference","url":"https://www.axios.com/2026/06/03/china-deepseek-billion"}]
   }
 }
