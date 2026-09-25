@@ -3,36 +3,36 @@
   "name": "Mercor",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Mercor is a private company tracked by The Private Ledger in ai talent marketplace.",
-  "overview": "<p>Mercor is a private company tracked by The Private Ledger in ai talent marketplace.</p>",
+  "summary": "Mercor operates a talent network that helps AI labs and enterprises source, evaluate, and manage expert human work.",
+  "overview": "<p>Mercor operates a talent network that helps AI labs and enterprises source, evaluate, and manage expert human work.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://mercor.com"
+      "value": "$350M Series C at a $10B valuation",
+      "note": "Announced October 2025.",
+      "source": "https://www.mercor.com/blog/series-c/"
     }
   ],
   "directory_rank": 129,
   "bull_case": "Mercor is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "$350M Series C at a $10B valuation (Oct 2025)",
   "directory_notes": [
     "AI talent marketplace",
-    "Public financing and operating data remain limited."
+    "$10B valuation disclosed in October 2025."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Not publicly disclosed",
+    "location": "San Francisco, California",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=mercor.com&sz=128",
-    "description": "Mercor is a private company tracked by The Private Ledger in ai talent marketplace.",
+    "description": "Mercor operates a talent network that helps AI labs and enterprises source, evaluate, and manage expert human work.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$10B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Series C, October 2025"
       },
       {
         "value": "Private",
@@ -45,33 +45,38 @@
         "note": "Company profile"
       },
       {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Editorial review"
+        "value": "$350M",
+        "label": "Latest funding",
+        "note": "Series C, October 2025"
       }
     ],
     "company": [
-      "Mercor is a private company tracked by The Private Ledger in ai talent marketplace.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Mercor operates a talent network that helps AI labs and enterprises source, evaluate, and manage expert human work.",
+      "It announced a $350 million Series C at a $10 billion valuation in October 2025."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Mercor is exposed to one of the less visible constraints in AI: high-quality human expertise for model training and evaluation. Its progress is a useful indicator of whether AI-labor marketplaces can become durable infrastructure businesses.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$2B",
+        "date": "Feb 2025",
+        "round": "Series B, $100M"
+      },
+      {
+        "value": "$10B",
+        "date": "Oct 2025",
+        "round": "Series C, $350M"
       }
     ],
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Raised $350M Series C at a $10B valuation."
       }
     ],
     "takeaways": [
-      "Mercor is tracked in ai talent marketplace.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The latest Series C valued Mercor at $10B.",
+      "The company sells access to a network of experts and AI-workflow infrastructure.",
+      "Customer concentration and the durability of AI-training demand are key watch items."
     ],
     "quick_facts": [
       [
@@ -79,8 +84,8 @@
         "AI talent marketplace"
       ],
       [
-        "Website",
-        "mercor.com"
+        "Founded",
+        "2023"
       ],
       [
         "Public status",
@@ -88,6 +93,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Mercor: Series C announcement",
+        "url": "https://www.mercor.com/blog/series-c/"
+      },
       {
         "label": "Company website",
         "url": "https://mercor.com"

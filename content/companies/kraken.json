@@ -3,36 +3,36 @@
   "name": "Kraken",
   "status": "Published",
   "sector": "Digital assets",
-  "summary": "Kraken is a private company tracked by The Private Ledger in digital-asset exchange.",
-  "overview": "<p>Kraken is a private company tracked by The Private Ledger in digital-asset exchange.</p>",
+  "summary": "Kraken is a global digital-asset platform spanning spot trading, derivatives, custody, payments, and tokenized equities.",
+  "overview": "<p>Kraken is a global digital-asset platform spanning spot trading, derivatives, custody, payments, and tokenized equities.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://kraken.com"
+      "value": "$800M financing; $20B strategic-investment valuation",
+      "note": "Announced November 2025.",
+      "source": "https://blog.kraken.com/news/800-million-raise-to-advance-strategic-roadmap"
     }
   ],
   "directory_rank": 23,
   "bull_case": "Kraken is positioned in a market where scale, distribution, and execution can compound.",
   "bear_case": "Private-market estimates are uncertain, and market structure, regulation, competition, or execution could materially change the outlook.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "$800M financing; $20B valuation on Citadel strategic investment (Nov 2025)",
   "directory_notes": [
     "Digital-asset exchange",
-    "Public financing and operating data remain limited."
+    "$20B valuation disclosed for Citadel Securities investment."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Not publicly disclosed",
+    "location": "United States",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=kraken.com&sz=128",
-    "description": "Kraken is a private company tracked by The Private Ledger in digital-asset exchange.",
+    "description": "Kraken is a global digital-asset platform spanning trading, custody, payments, and tokenized assets.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$20B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Citadel strategic investment, November 2025"
       },
       {
         "value": "Private",
@@ -45,33 +45,33 @@
         "note": "Company profile"
       },
       {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Editorial review"
+        "value": "$800M",
+        "label": "Latest funding",
+        "note": "Financing announced November 2025"
       }
     ],
     "company": [
-      "Kraken is a private company tracked by The Private Ledger in digital-asset exchange.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Kraken operates a global digital-asset platform spanning spot trading, derivatives, custody, payments, and tokenized equities.",
+      "It announced $800 million in financing in November 2025; the Citadel Securities strategic-investment tranche was executed at a $20 billion valuation."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Kraken is a major private-market proxy for institutional adoption of digital-asset infrastructure. Its expansion into multiple financial products makes its execution relevant beyond crypto trading alone.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$20B",
+        "date": "Nov 2025",
+        "round": "Citadel Securities strategic investment"
       }
     ],
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Announced $800M financing; Citadel tranche at $20B valuation."
       }
     ],
     "takeaways": [
-      "Kraken is tracked in digital-asset exchange.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The Citadel Securities tranche set a disclosed $20B valuation.",
+      "Kraken reported $1.5B of revenue in 2024 and said it surpassed that level within the first three quarters of 2025.",
+      "Market cycles and regulatory outcomes remain central risks."
     ],
     "quick_facts": [
       [
@@ -79,8 +79,8 @@
         "Digital-asset exchange"
       ],
       [
-        "Website",
-        "kraken.com"
+        "Founded",
+        "2011"
       ],
       [
         "Public status",
@@ -88,6 +88,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Kraken: financing announcement",
+        "url": "https://blog.kraken.com/news/800-million-raise-to-advance-strategic-roadmap"
+      },
       {
         "label": "Company website",
         "url": "https://kraken.com"
