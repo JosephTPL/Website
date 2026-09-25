@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://workos.com"
+      "value": "March 2026: $100M Series C at $2B",
+      "note": "WorkOS announced the Series C and its $2B valuation.",
+      "source": "https://workos.com/blog/series-c"
     }
   ],
   "directory_rank": 118,
   "bull_case": "WorkOS is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "March 2026: $100M Series C at $2B",
   "directory_notes": [
     "Enterprise developer infrastructure",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "WorkOS is a private company tracked by The Private Ledger in enterprise developer infrastructure.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$2B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "March 2026 Series C"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$2B",
+        "date": "Mar 2026",
+        "round": "Series C"
       }
     ],
     "changed": [

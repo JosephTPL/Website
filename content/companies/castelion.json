@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://castelion.com"
+      "value": "August 2026: $800M Series C at $13B",
+      "note": "The equity financing was accompanied by a separate $250M revolving credit facility.",
+      "source": "https://www.castelion.com/news/series-c/"
     }
   ],
   "directory_rank": 98,
   "bull_case": "Castelion is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "August 2026: $800M Series C at $13B",
   "directory_notes": [
     "Defense technology",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Castelion is a private company tracked by The Private Ledger in defense technology.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$13B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "August 2026 Series C"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$13B",
+        "date": "Aug 2026",
+        "round": "Series C"
       }
     ],
     "changed": [

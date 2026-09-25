@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://modal.com"
+      "value": "May 2026: $355M Series C at $4.65B",
+      "note": "Modal reported a $4.65B post-money valuation for its Series C.",
+      "source": "https://modal.com/blog/modal-series-c"
     }
   ],
   "directory_rank": 104,
   "bull_case": "Modal is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "May 2026: $355M Series C at $4.65B",
   "directory_notes": [
     "Cloud infrastructure",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Modal is a private company tracked by The Private Ledger in cloud infrastructure.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$4.65B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "May 2026 Series C"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$4.65B",
+        "date": "May 2026",
+        "round": "Series C"
       }
     ],
     "changed": [

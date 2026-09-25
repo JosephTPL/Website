@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://exa.ai"
+      "value": "May 2026: $250M Series C at $2.2B",
+      "note": "The search company announced the round led by Andreessen Horowitz.",
+      "source": "https://exa.ai/blog/announcing-series-c"
     }
   ],
   "directory_rank": 100,
   "bull_case": "Exa is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "May 2026: $250M Series C at $2.2B",
   "directory_notes": [
     "AI search infrastructure",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Exa is a private company tracked by The Private Ledger in ai search infrastructure.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$2.2B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "May 2026 Series C"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$2.2B",
+        "date": "May 2026",
+        "round": "Series C"
       }
     ],
     "changed": [

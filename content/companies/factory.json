@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://factory.ai"
+      "value": "September 2026: $200M financing at $5B",
+      "note": "Factory announced the financing and valuation in September 2026.",
+      "source": "https://factory.com/news/5-billion-valuation"
     }
   ],
   "directory_rank": 101,
   "bull_case": "Factory is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "September 2026: $200M financing at $5B",
   "directory_notes": [
     "AI software development",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Factory is a private company tracked by The Private Ledger in ai software development.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$5B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "September 2026 financing"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$5B",
+        "date": "Sep 2026",
+        "round": "Latest financing"
       }
     ],
     "changed": [
