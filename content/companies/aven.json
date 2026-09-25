@@ -3,36 +3,36 @@
   "name": "Aven",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Aven is a private company tracked by The Private Ledger in fintech.",
-  "overview": "<p>Aven is a private company tracked by The Private Ledger in fintech.</p>",
+  "summary": "Aven offers a home-equity-backed credit card designed to lower the cost of revolving consumer credit.",
+  "overview": "<p>Aven offers a home-equity-backed credit card designed to lower the cost of revolving consumer credit.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://aven.com"
+      "value": "$110M Series E at a $2.2B valuation",
+      "note": "Announced September 2025.",
+      "source": "https://www.aven.com/blog/aven-raises-110m-series-e/"
     }
   ],
   "directory_rank": 93,
-  "bull_case": "Aven is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "bull_case": "Home-equity-backed credit can offer consumers materially lower rates than unsecured revolving debt.",
+  "bear_case": "Credit performance and access to funding markets are central risks for any consumer lender.",
+  "latest_round": "$110M Series E at a $2.2B valuation (Sep 2025)",
   "directory_notes": [
     "Fintech",
-    "Public financing and operating data remain limited."
+    "$2.2B valuation disclosed in September 2025."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Not publicly disclosed",
+    "location": "San Francisco, California",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=aven.com&sz=128",
-    "description": "Aven is a private company tracked by The Private Ledger in fintech.",
+    "description": "Aven offers a home-equity-backed credit card designed to lower the cost of revolving consumer credit.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$2.2B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Series E, September 2025"
       },
       {
         "value": "Private",
@@ -45,33 +45,33 @@
         "note": "Company profile"
       },
       {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Editorial review"
+        "value": "$110M",
+        "label": "Latest funding",
+        "note": "Series E, September 2025"
       }
     ],
     "company": [
-      "Aven is a private company tracked by The Private Ledger in fintech.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Aven offers a home-equity-backed credit card designed to give homeowners a lower-cost alternative to high-interest revolving credit.",
+      "The company announced a $110 million Series E at a $2.2 billion valuation in September 2025."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Aven sits at the intersection of consumer credit, home equity, and fintech underwriting. Its model is a useful indicator of whether private lenders can use household balance sheets to compete with conventional card economics.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$2.2B",
+        "date": "Sep 2025",
+        "round": "Series E, $110M"
       }
     ],
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Aven announced a $110M Series E at a $2.2B valuation."
       }
     ],
     "takeaways": [
-      "Aven is tracked in fintech.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Aven's Series E set a disclosed $2.2B valuation.",
+      "The product uses home equity to target the high cost of revolving credit.",
+      "Credit performance and funding-market access remain the central watch items."
     ],
     "quick_facts": [
       [
@@ -79,8 +79,8 @@
         "Fintech"
       ],
       [
-        "Website",
-        "aven.com"
+        "Founded",
+        "2019"
       ],
       [
         "Public status",
@@ -89,8 +89,12 @@
     ],
     "sources": [
       {
+        "label": "Aven: Series E announcement",
+        "url": "https://www.aven.com/blog/aven-raises-110m-series-e/"
+      },
+      {
         "label": "Company website",
-        "url": "https://aven.com"
+        "url": "https://www.aven.com"
       }
     ]
   }

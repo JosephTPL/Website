@@ -3,36 +3,36 @@
   "name": "OpenEvidence",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "OpenEvidence is a private company tracked by The Private Ledger in clinical ai.",
-  "overview": "<p>OpenEvidence is a private company tracked by The Private Ledger in clinical ai.</p>",
+  "summary": "OpenEvidence builds an AI search and decision-support platform for clinicians, grounded in medical evidence.",
+  "overview": "<p>OpenEvidence builds an AI search and decision-support platform for clinicians, grounded in medical evidence.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://openevidence.com"
+      "value": "$250M Series D at a $12B valuation",
+      "note": "Announced January 2026.",
+      "source": "https://techcrunch.com/2026/01/21/openevidence-hits-12b-valuation-with-new-round-led-by-thrive-dst/"
     }
   ],
   "directory_rank": 108,
-  "bull_case": "OpenEvidence is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "bull_case": "Clinical workflow adoption and trusted evidence partnerships can create durable distribution in a high-value vertical.",
+  "bear_case": "Medical evidence quality, regulatory expectations, and enterprise procurement can slow adoption.",
+  "latest_round": "$250M Series D at a $12B valuation (Jan 2026)",
   "directory_notes": [
     "Clinical AI",
-    "Public financing and operating data remain limited."
+    "$12B valuation disclosed in January 2026."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Not publicly disclosed",
+    "location": "Cambridge, Massachusetts",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=openevidence.com&sz=128",
-    "description": "OpenEvidence is a private company tracked by The Private Ledger in clinical ai.",
+    "description": "OpenEvidence builds an AI search and decision-support platform for clinicians, grounded in medical evidence.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$12B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Series D, January 2026"
       },
       {
         "value": "Private",
@@ -45,33 +45,38 @@
         "note": "Company profile"
       },
       {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Editorial review"
+        "value": "$250M",
+        "label": "Latest funding",
+        "note": "Series D, January 2026"
       }
     ],
     "company": [
-      "OpenEvidence is a private company tracked by The Private Ledger in clinical ai.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "OpenEvidence builds an AI platform that helps clinicians find and synthesize medical evidence at the point of care.",
+      "It raised a $250 million Series D at a $12 billion valuation in January 2026, doubling the valuation reported at its preceding round."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Clinical AI is a high-stakes category where product quality, evidence partnerships, and workflow adoption matter as much as model capability. OpenEvidence is a key private-market signal for trusted, vertical AI distribution.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$6B",
+        "date": "Oct 2025",
+        "round": "Series C, $200M"
+      },
+      {
+        "value": "$12B",
+        "date": "Jan 2026",
+        "round": "Series D, $250M"
       }
     ],
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Announced $250M Series D at a $12B valuation."
       }
     ],
     "takeaways": [
-      "OpenEvidence is tracked in clinical ai.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The latest reported round valued OpenEvidence at $12B.",
+      "Its core challenge is converting clinical trust and usage into durable enterprise adoption.",
+      "Medical evidence quality and regulatory expectations remain central to the category."
     ],
     "quick_facts": [
       [
@@ -79,8 +84,8 @@
         "Clinical AI"
       ],
       [
-        "Website",
-        "openevidence.com"
+        "Founded",
+        "2021"
       ],
       [
         "Public status",
@@ -88,6 +93,14 @@
       ]
     ],
     "sources": [
+      {
+        "label": "TechCrunch: Series D",
+        "url": "https://techcrunch.com/2026/01/21/openevidence-hits-12b-valuation-with-new-round-led-by-thrive-dst/"
+      },
+      {
+        "label": "Axios: Series D",
+        "url": "https://www.axios.com/pro/health-tech-deals/2026/01/21/openevidence-250m-round-12b"
+      },
       {
         "label": "Company website",
         "url": "https://openevidence.com"

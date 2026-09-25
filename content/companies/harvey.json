@@ -3,36 +3,36 @@
   "name": "Harvey",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Harvey is a private company tracked by The Private Ledger in legal ai.",
-  "overview": "<p>Harvey is a private company tracked by The Private Ledger in legal ai.</p>",
+  "summary": "Harvey builds AI products for law firms, in-house legal teams, and professional-services organizations.",
+  "overview": "<p>Harvey builds AI products for law firms, in-house legal teams, and professional-services organizations.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://harvey.ai"
+      "value": "$550M at a $15.5B valuation",
+      "note": "Announced September 2026.",
+      "source": "https://www.harvey.ai/blog/harvey-raises-dollar550m-at-a-dollar155b-valuation-to-help-legal-teams-own-their-intelligence"
     }
   ],
   "directory_rank": 126,
-  "bull_case": "Harvey is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "bull_case": "Harvey's penetration with major law firms and in-house teams creates a strong distribution wedge in a regulated professional workflow.",
+  "bear_case": "Legal incumbents and general-purpose AI platforms compete for the same high-value workflow surface.",
+  "latest_round": "$550M at a $15.5B valuation (Sep 2026)",
   "directory_notes": [
     "Legal AI",
-    "Public financing and operating data remain limited."
+    "$15.5B valuation disclosed in September 2026."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Not publicly disclosed",
+    "location": "San Francisco, California",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=harvey.ai&sz=128",
-    "description": "Harvey is a private company tracked by The Private Ledger in legal ai.",
+    "description": "Harvey builds AI products for law firms, in-house legal teams, and professional-services organizations.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$15.5B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Funding round, September 2026"
       },
       {
         "value": "Private",
@@ -45,33 +45,38 @@
         "note": "Company profile"
       },
       {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Editorial review"
+        "value": "$550M",
+        "label": "Latest funding",
+        "note": "September 2026"
       }
     ],
     "company": [
-      "Harvey is a private company tracked by The Private Ledger in legal ai.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Harvey sells AI products to law firms, legal departments, and professional-services organizations.",
+      "The company announced $550 million of funding at a $15.5 billion valuation in September 2026."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Legal AI is a useful test of whether vertical software can build a defensible product layer on top of foundation models. Harvey's customer base makes it one of the category's most consequential private companies.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$11B",
+        "date": "Mar 2026",
+        "round": "Funding round, $200M"
+      },
+      {
+        "value": "$15.5B",
+        "date": "Sep 2026",
+        "round": "Funding round, $550M"
       }
     ],
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Announced $550M of funding at a $15.5B valuation."
       }
     ],
     "takeaways": [
-      "Harvey is tracked in legal ai.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The latest disclosed financing valued Harvey at $15.5B.",
+      "Harvey reports adoption across a large portion of the Am Law 100.",
+      "Durable workflow integration will matter more than raw model access."
     ],
     "quick_facts": [
       [
@@ -79,8 +84,8 @@
         "Legal AI"
       ],
       [
-        "Website",
-        "harvey.ai"
+        "Founded",
+        "2022"
       ],
       [
         "Public status",
@@ -88,6 +93,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Harvey: funding announcement",
+        "url": "https://www.harvey.ai/blog/harvey-raises-dollar550m-at-a-dollar155b-valuation-to-help-legal-teams-own-their-intelligence"
+      },
       {
         "label": "Company website",
         "url": "https://harvey.ai"

@@ -3,36 +3,36 @@
   "name": "Kalshi",
   "status": "Published",
   "sector": "Financial markets",
-  "summary": "Kalshi is a private company tracked by The Private Ledger in prediction markets.",
-  "overview": "<p>Kalshi is a private company tracked by The Private Ledger in prediction markets.</p>",
+  "summary": "Kalshi operates a regulated event-contract exchange where users trade on the outcomes of real-world events.",
+  "overview": "<p>Kalshi operates a regulated event-contract exchange where users trade on the outcomes of real-world events.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://kalshi.com"
+      "value": "$1B Series F at a $22B valuation",
+      "note": "Announced May 2026.",
+      "source": "https://news.kalshi.com/p/kalshi-raises-1-billion-22-billion-valuation-institutional-demand-surges"
     }
   ],
   "directory_rank": 22,
-  "bull_case": "Kalshi is positioned in a market where scale, distribution, and execution can compound.",
-  "bear_case": "Private-market estimates are uncertain, and market structure, regulation, competition, or execution could materially change the outlook.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "bull_case": "A regulated market structure and institutional distribution can distinguish Kalshi from unregulated prediction-market competitors.",
+  "bear_case": "Regulatory treatment of event contracts and the durability of trading volumes remain material risks.",
+  "latest_round": "$1B Series F at a $22B valuation (May 2026)",
   "directory_notes": [
     "Prediction markets",
-    "Public financing and operating data remain limited."
+    "$22B valuation disclosed in May 2026."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Not publicly disclosed",
+    "location": "New York, New York",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=kalshi.com&sz=128",
-    "description": "Kalshi is a private company tracked by The Private Ledger in prediction markets.",
+    "description": "Kalshi operates a regulated event-contract exchange where users trade on the outcomes of real-world events.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$22B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Series F, May 2026"
       },
       {
         "value": "Private",
@@ -45,33 +45,38 @@
         "note": "Company profile"
       },
       {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Editorial review"
+        "value": "$1B",
+        "label": "Latest funding",
+        "note": "Series F, May 2026"
       }
     ],
     "company": [
-      "Kalshi is a private company tracked by The Private Ledger in prediction markets.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Kalshi operates a regulated event-contract exchange for trading on the outcomes of real-world events.",
+      "It announced a $1 billion Series F at a $22 billion valuation in May 2026."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Kalshi is a consequential test of whether regulated prediction markets can become a durable financial-market category. Its growth also has direct read-through for adjacent platforms such as Polymarket.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$11B",
+        "date": "Dec 2025",
+        "round": "Series E, $1B"
+      },
+      {
+        "value": "$22B",
+        "date": "May 2026",
+        "round": "Series F, $1B"
       }
     ],
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Announced $1B Series F at a $22B valuation."
       }
     ],
     "takeaways": [
-      "Kalshi is tracked in prediction markets.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Kalshi's Series F set a disclosed $22B valuation.",
+      "The platform's regulatory position is a core differentiator.",
+      "Trading volumes and regulatory outcomes remain the key watch items."
     ],
     "quick_facts": [
       [
@@ -79,8 +84,8 @@
         "Prediction markets"
       ],
       [
-        "Website",
-        "kalshi.com"
+        "Founded",
+        "2018"
       ],
       [
         "Public status",
@@ -88,6 +93,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Kalshi: Series F announcement",
+        "url": "https://news.kalshi.com/p/kalshi-raises-1-billion-22-billion-valuation-institutional-demand-surges"
+      },
       {
         "label": "Company website",
         "url": "https://kalshi.com"

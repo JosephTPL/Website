@@ -3,36 +3,36 @@
   "name": "Lovable",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Lovable is a private company tracked by The Private Ledger in ai software development.",
-  "overview": "<p>Lovable is a private company tracked by The Private Ledger in ai software development.</p>",
+  "summary": "Lovable is an AI software-development platform that lets users build applications from natural-language prompts.",
+  "overview": "<p>Lovable is an AI software-development platform that lets users build applications from natural-language prompts.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://lovable.dev"
+      "value": "$400M Series C at a $13.3B valuation",
+      "note": "Announced August 2026.",
+      "source": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/"
     }
   ],
   "directory_rank": 127,
-  "bull_case": "Lovable is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "bull_case": "Rapid adoption and a self-serve product make Lovable a prominent distribution winner in AI-native software creation.",
+  "bear_case": "Competition is intense, model providers are powerful suppliers, and usage must convert into durable paid revenue.",
+  "latest_round": "$400M Series C at a $13.3B valuation (Aug 2026)",
   "directory_notes": [
     "AI software development",
-    "Public financing and operating data remain limited."
+    "$13.3B valuation disclosed in August 2026."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Not publicly disclosed",
+    "location": "Stockholm, Sweden",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=lovable.dev&sz=128",
-    "description": "Lovable is a private company tracked by The Private Ledger in ai software development.",
+    "description": "Lovable is an AI software-development platform that lets users build applications from natural-language prompts.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$13.3B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Series C, August 2026"
       },
       {
         "value": "Private",
@@ -45,33 +45,38 @@
         "note": "Company profile"
       },
       {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Editorial review"
+        "value": "$400M",
+        "label": "Latest funding",
+        "note": "Series C, August 2026"
       }
     ],
     "company": [
-      "Lovable is a private company tracked by The Private Ledger in ai software development.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Lovable is an AI software-development platform that lets users build applications from natural-language prompts.",
+      "It raised $400 million in a Series C at a $13.3 billion valuation in August 2026."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Lovable is a leading indicator for the economics of AI-native software creation. The company tests whether prompt-to-app products can develop into durable application-development platforms rather than feature layers.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$6.6B",
+        "date": "Dec 2025",
+        "round": "Series B, $330M"
+      },
+      {
+        "value": "$13.3B",
+        "date": "Aug 2026",
+        "round": "Series C, $400M"
       }
     ],
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Raised $400M Series C at a $13.3B valuation."
       }
     ],
     "takeaways": [
-      "Lovable is tracked in ai software development.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The latest Series C valued Lovable at $13.3B.",
+      "Lovable reported $500M in annualized run-rate revenue in June 2026.",
+      "Retention and economics as workloads scale are the main questions."
     ],
     "quick_facts": [
       [
@@ -79,8 +84,8 @@
         "AI software development"
       ],
       [
-        "Website",
-        "lovable.dev"
+        "Founded",
+        "2023"
       ],
       [
         "Public status",
@@ -88,6 +93,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "TechCrunch: Series C",
+        "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/"
+      },
       {
         "label": "Company website",
         "url": "https://lovable.dev"

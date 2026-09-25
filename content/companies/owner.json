@@ -3,36 +3,36 @@
   "name": "Owner",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Owner is a private company tracked by The Private Ledger in restaurant software.",
-  "overview": "<p>Owner is a private company tracked by The Private Ledger in restaurant software.</p>",
+  "summary": "Owner provides AI-native commerce, marketing, and operations software for independent restaurants.",
+  "overview": "<p>Owner provides AI-native commerce, marketing, and operations software for independent restaurants.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://owner.com"
+      "value": "$240M Series D at a $2.3B valuation",
+      "note": "Announced August 2026.",
+      "source": "https://am.gs.com/en-be/advisors/news/press-release/2026/owner-raises-240m-gs-alts"
     }
   ],
   "directory_rank": 130,
-  "bull_case": "Owner is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "bull_case": "A vertically integrated software suite can help independent restaurants retain customer relationships and reduce dependence on third-party marketplaces.",
+  "bear_case": "The company must sustain growth while competing with entrenched point solutions and restaurant technology incumbents.",
+  "latest_round": "$240M Series D at a $2.3B valuation (Aug 2026)",
   "directory_notes": [
     "Restaurant software",
-    "Public financing and operating data remain limited."
+    "$2.3B valuation disclosed in August 2026."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Not publicly disclosed",
+    "location": "San Francisco, California",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=owner.com&sz=128",
-    "description": "Owner is a private company tracked by The Private Ledger in restaurant software.",
+    "description": "Owner provides AI-native commerce, marketing, and operations software for independent restaurants.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$2.3B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Series D, August 2026"
       },
       {
         "value": "Private",
@@ -45,33 +45,38 @@
         "note": "Company profile"
       },
       {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Editorial review"
+        "value": "$240M",
+        "label": "Latest funding",
+        "note": "Series D, August 2026"
       }
     ],
     "company": [
-      "Owner is a private company tracked by The Private Ledger in restaurant software.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Owner provides an AI-native operating system for independent restaurants, spanning online ordering, marketing, and customer engagement.",
+      "It announced a $240 million Series D at a $2.3 billion valuation in August 2026."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Owner illustrates how vertical software companies are using AI to compete for the economics and customer relationships that previously flowed to delivery marketplaces and restaurant chains.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$1B",
+        "date": "May 2025",
+        "round": "Series C, $120M"
+      },
+      {
+        "value": "$2.3B",
+        "date": "Aug 2026",
+        "round": "Series D, $240M"
       }
     ],
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Raised $240M Series D at a $2.3B valuation."
       }
     ],
     "takeaways": [
-      "Owner is tracked in restaurant software.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The latest Series D valued Owner at $2.3B.",
+      "Owner said it had crossed $100M in annual recurring revenue at the time of the round.",
+      "Restaurant retention and efficient growth remain the core operating tests."
     ],
     "quick_facts": [
       [
@@ -79,8 +84,8 @@
         "Restaurant software"
       ],
       [
-        "Website",
-        "owner.com"
+        "Founded",
+        "2020"
       ],
       [
         "Public status",
@@ -88,6 +93,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Goldman Sachs: Series D announcement",
+        "url": "https://am.gs.com/en-be/advisors/news/press-release/2026/owner-raises-240m-gs-alts"
+      },
       {
         "label": "Company website",
         "url": "https://owner.com"

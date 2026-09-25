@@ -3,36 +3,36 @@
   "name": "Physical Intelligence",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Physical Intelligence is a private company tracked by The Private Ledger in robotics ai.",
-  "overview": "<p>Physical Intelligence is a private company tracked by The Private Ledger in robotics ai.</p>",
+  "summary": "Physical Intelligence develops foundation models and training data for robots that learn general-purpose physical tasks.",
+  "overview": "<p>Physical Intelligence develops foundation models and training data for robots that learn general-purpose physical tasks.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://physicalintelligence.company"
+      "value": "$600M Series B at a $5.6B valuation",
+      "note": "Announced November 2025.",
+      "source": "https://www.axios.com/2025/11/21/robots-physical-intelligence-ai"
     }
   ],
   "directory_rank": 109,
-  "bull_case": "Physical Intelligence is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "bull_case": "A leading technical team and an unusually large funding base can accelerate the data collection and integration needed for robotics AI.",
+  "bear_case": "Commercial robotics requires expensive, slow hardware deployment and evidence of reliable performance outside the lab.",
+  "latest_round": "$600M Series B at a $5.6B valuation (Nov 2025)",
   "directory_notes": [
     "Robotics AI",
-    "Public financing and operating data remain limited."
+    "$5.6B valuation disclosed in November 2025."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Not publicly disclosed",
+    "location": "San Francisco, California",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=physicalintelligence.company&sz=128",
-    "description": "Physical Intelligence is a private company tracked by The Private Ledger in robotics ai.",
+    "description": "Physical Intelligence develops foundation models and training data for robots that learn general-purpose physical tasks.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$5.6B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Series B, November 2025"
       },
       {
         "value": "Private",
@@ -45,33 +45,33 @@
         "note": "Company profile"
       },
       {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Editorial review"
+        "value": "$600M",
+        "label": "Latest funding",
+        "note": "Series B, November 2025"
       }
     ],
     "company": [
-      "Physical Intelligence is a private company tracked by The Private Ledger in robotics ai.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Physical Intelligence develops AI software and data systems intended to help robots learn general-purpose physical tasks.",
+      "The company raised $600 million in November 2025 at a reported $5.6 billion valuation."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Robotics AI requires capital-intensive data collection, hardware integration, and long development cycles. Physical Intelligence is a key private-market bet on whether foundation-model economics can extend from digital work into the physical world.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$5.6B",
+        "date": "Nov 2025",
+        "round": "Series B, $600M"
       }
     ],
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Raised $600M in a Series B led by CapitalG."
       }
     ],
     "takeaways": [
-      "Physical Intelligence is tracked in robotics ai.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The latest disclosed round valued the company at $5.6B.",
+      "Robotics training data and hardware deployment are the core execution constraints.",
+      "Its commercial progress will test demand for general-purpose robot intelligence."
     ],
     "quick_facts": [
       [
@@ -79,8 +79,8 @@
         "Robotics AI"
       ],
       [
-        "Website",
-        "physicalintelligence.company"
+        "Founded",
+        "2024"
       ],
       [
         "Public status",
@@ -88,6 +88,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Axios: Series B",
+        "url": "https://www.axios.com/2025/11/21/robots-physical-intelligence-ai"
+      },
       {
         "label": "Company website",
         "url": "https://physicalintelligence.company"
