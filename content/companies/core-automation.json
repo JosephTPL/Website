@@ -3,114 +3,95 @@
   "name": "Core Automation",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Core Automation is a private company tracked in The Private Ledger market watchlist.",
-  "overview": "<p>Core Automation is a private company tracked in The Private Ledger market watchlist.</p>",
+  "summary": "Core Automation is an AI research lab focused on automating research itself.",
+  "overview": "<p>Core Automation is an AI research lab focused on automating research itself.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
-      "label": "Reported valuation",
-      "value": "Not publicly disclosed",
-      "note": "No public valuation was identified by The Private Ledger.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
-    },
-    {
-      "label": "Public status",
-      "value": "Private",
-      "note": "No confirmed public offering is reflected in this profile.",
-      "source": "https://coreautomation.com"
+      "label": "Reported seed financing",
+      "value": "$100M at $1B",
+      "note": "Reported 2026 financing; later target valuation was not a completed disclosed round.",
+      "source": "https://sacra.com/c/core-automation/"
     }
   ],
   "directory_rank": 58,
   "bull_case": "Core Automation is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "Latest financing not publicly disclosed",
+  "latest_round": "No confirmed financing publicly disclosed",
   "directory_notes": [
-    "Private-market watchlist",
-    "Watch for funding, operating milestones, and IPO developments."
+    "Automated AI research",
+    "It reportedly raised $100M at a $1B valuation in 2026; a larger follow-on discussed in reporting was not a completed disclosed round."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Not publicly disclosed",
+    "location": "United States",
     "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=coreautomation.com&sz=128",
-    "description": "Core Automation is a private company tracked in The Private Ledger market watchlist.",
+    "logo": "https://www.google.com/s2/favicons?domain=coreauto.com&sz=128",
+    "description": "Core Automation is an AI research lab focused on automating research itself.",
     "metrics": [
       {
         "value": "Not publicly disclosed",
-        "label": "Reported valuation",
-        "note": "Private Ledger market watch"
+        "label": "Latest valuation",
+        "note": "No confirmed priced round"
       },
       {
         "value": "Private",
         "label": "Public status",
-        "note": "No confirmed IPO"
+        "note": "No confirmed listing"
+      },
+      {
+        "value": "Automated AI research",
+        "label": "Business focus",
+        "note": "Company profile"
       },
       {
         "value": "Sep 2026",
         "label": "Profile updated",
-        "note": "Latest editorial review"
-      },
-      {
-        "value": "Watchlist",
-        "label": "Coverage",
-        "note": "Company profile"
+        "note": "Editorial review"
       }
     ],
     "company": [
-      "Core Automation is a private company tracked in The Private Ledger market watchlist.",
-      "This profile establishes the company record for ongoing Private Ledger research and will be expanded as material, sourced disclosures are published."
+      "Core Automation is an AI research lab focused on automating research itself.",
+      "It reportedly raised $100M at a $1B valuation in 2026; a larger follow-on discussed in reporting was not a completed disclosed round."
     ],
-    "why_it_matters": "Core Automation is part of the private-company universe that can shape future public-market competition and capital allocation.",
+    "why_it_matters": "It reportedly raised $100M at a $1B valuation in 2026; a larger follow-on discussed in reporting was not a completed disclosed round.",
     "valuation_history": [
       {
-        "value": "Private",
-        "date": "Before IPO",
-        "round": "Private-company period"
-      },
-      {
-        "value": "Not publicly disclosed",
-        "date": "2026",
-        "round": "Latest reported estimate"
+        "value": "Not disclosed",
+        "date": "Current",
+        "round": "No confirmed priced round"
       }
     ],
     "changed": [
       {
-        "date": "2026",
-        "text": "The company is added to The Private Ledger company-profile coverage."
+        "date": "Sep 2026",
+        "text": "Profile reviewed against available public information."
       }
     ],
     "takeaways": [
-      "Core Automation is now covered in The Private Ledger directory.",
-      "Private valuations are directional estimates, not audited market prices.",
-      "Funding, product execution, and market structure are the primary items to watch.",
-      "This profile will be updated as new public information becomes available."
+      "Core Automation is tracked in automated ai research.",
+      "It reportedly raised $100M at a $1B valuation in 2026; a larger follow-on discussed in reporting was not a completed disclosed round.",
+      "No public valuation is asserted without a confirmed priced transaction.",
+      "The next useful evidence will be product adoption, financing, and operating disclosure."
     ],
     "quick_facts": [
       [
-        "Sector",
-        "Private markets"
+        "Focus",
+        "Automated AI research"
+      ],
+      [
+        "Website",
+        "coreauto.com"
       ],
       [
         "Public status",
         "Private"
-      ],
-      [
-        "Coverage",
-        "Company profile"
-      ],
-      [
-        "Website",
-        "coreautomation.com"
       ]
     ],
     "sources": [
       {
         "label": "Company website",
-        "url": "https://coreautomation.com"
-      },
-      {
-        "label": "Private-company valuation reference",
-        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+        "url": "https://coreauto.com"
       }
     ]
   }

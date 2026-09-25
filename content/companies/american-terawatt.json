@@ -3,114 +3,95 @@
   "name": "American Terawatt",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "American Terawatt is a private company tracked in The Private Ledger market watchlist.",
-  "overview": "<p>American Terawatt is a private company tracked in The Private Ledger market watchlist.</p>",
+  "summary": "American Terawatt is an energy-infrastructure company focused on the growing need for reliable power capacity.",
+  "overview": "<p>American Terawatt is an energy-infrastructure company focused on the growing need for reliable power capacity.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
-      "label": "Reported valuation",
-      "value": "Not publicly disclosed",
-      "note": "No public valuation was identified by The Private Ledger.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
-    },
-    {
-      "label": "Public status",
-      "value": "Private",
-      "note": "No confirmed public offering is reflected in this profile.",
-      "source": "https://americanterawatt.com"
+      "label": "SEC filing",
+      "value": "Form D filed May 2026",
+      "note": "The filing confirms an exempt offering, not a disclosed valuation.",
+      "source": "https://www.sec.gov/Archives/edgar/data/2135715/000213571526000001/0002135715-26-000001-index.htm"
     }
   ],
   "directory_rank": 56,
   "bull_case": "American Terawatt is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "Latest financing not publicly disclosed",
+  "latest_round": "No confirmed financing publicly disclosed",
   "directory_notes": [
-    "Private-market watchlist",
-    "Watch for funding, operating milestones, and IPO developments."
+    "Energy and power infrastructure",
+    "A May 2026 SEC Form D confirms an exempt offering, but public details on proceeds and valuation are limited."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Not publicly disclosed",
+    "location": "United States",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=americanterawatt.com&sz=128",
-    "description": "American Terawatt is a private company tracked in The Private Ledger market watchlist.",
+    "description": "American Terawatt is an energy-infrastructure company focused on the growing need for reliable power capacity.",
     "metrics": [
       {
         "value": "Not publicly disclosed",
-        "label": "Reported valuation",
-        "note": "Private Ledger market watch"
+        "label": "Latest valuation",
+        "note": "No confirmed priced round"
       },
       {
         "value": "Private",
         "label": "Public status",
-        "note": "No confirmed IPO"
+        "note": "No confirmed listing"
+      },
+      {
+        "value": "Energy and power infrastructure",
+        "label": "Business focus",
+        "note": "Company profile"
       },
       {
         "value": "Sep 2026",
         "label": "Profile updated",
-        "note": "Latest editorial review"
-      },
-      {
-        "value": "Watchlist",
-        "label": "Coverage",
-        "note": "Company profile"
+        "note": "Editorial review"
       }
     ],
     "company": [
-      "American Terawatt is a private company tracked in The Private Ledger market watchlist.",
-      "This profile establishes the company record for ongoing Private Ledger research and will be expanded as material, sourced disclosures are published."
+      "American Terawatt is an energy-infrastructure company focused on the growing need for reliable power capacity.",
+      "A May 2026 SEC Form D confirms an exempt offering, but public details on proceeds and valuation are limited."
     ],
-    "why_it_matters": "American Terawatt is part of the private-company universe that can shape future public-market competition and capital allocation.",
+    "why_it_matters": "A May 2026 SEC Form D confirms an exempt offering, but public details on proceeds and valuation are limited.",
     "valuation_history": [
       {
-        "value": "Private",
-        "date": "Before IPO",
-        "round": "Private-company period"
-      },
-      {
-        "value": "Not publicly disclosed",
-        "date": "2026",
-        "round": "Latest reported estimate"
+        "value": "Not disclosed",
+        "date": "Current",
+        "round": "No confirmed priced round"
       }
     ],
     "changed": [
       {
-        "date": "2026",
-        "text": "The company is added to The Private Ledger company-profile coverage."
+        "date": "Sep 2026",
+        "text": "Profile reviewed against available public information."
       }
     ],
     "takeaways": [
-      "American Terawatt is now covered in The Private Ledger directory.",
-      "Private valuations are directional estimates, not audited market prices.",
-      "Funding, product execution, and market structure are the primary items to watch.",
-      "This profile will be updated as new public information becomes available."
+      "American Terawatt is tracked in energy and power infrastructure.",
+      "A May 2026 SEC Form D confirms an exempt offering, but public details on proceeds and valuation are limited.",
+      "No public valuation is asserted without a confirmed priced transaction.",
+      "The next useful evidence will be product adoption, financing, and operating disclosure."
     ],
     "quick_facts": [
       [
-        "Sector",
-        "Private markets"
-      ],
-      [
-        "Public status",
-        "Private"
-      ],
-      [
-        "Coverage",
-        "Company profile"
+        "Focus",
+        "Energy and power infrastructure"
       ],
       [
         "Website",
         "americanterawatt.com"
+      ],
+      [
+        "Public status",
+        "Private"
       ]
     ],
     "sources": [
       {
         "label": "Company website",
         "url": "https://americanterawatt.com"
-      },
-      {
-        "label": "Private-company valuation reference",
-        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
   }
