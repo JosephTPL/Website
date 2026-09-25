@@ -1,1 +1,98 @@
-{"slug":"elevenlabs","status":"Published","name":"ElevenLabs","sector":"AI media","summary":"Voice AI platform for natural speech generation and localization.","overview":"<p>ElevenLabs provides generative voice tools to creators and enterprise customers.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"January 2025: $180M Series C","note":"Publicly reported financing context.","source":""}],"directory_rank":38,"bull_case":"High-quality voice can become a foundational interface for media and software.","bear_case":"Rights management, platform competition, and synthetic-content concerns are material.","latest_round":"January 2025: $180M Series C","directory_notes":["Enterprise adoption","voice quality and safety."]}
+{
+  "slug": "elevenlabs",
+  "status": "Published",
+  "name": "ElevenLabs",
+  "sector": "AI media",
+  "summary": "ElevenLabs is a private company tracked by The Private Ledger in voice ai.",
+  "overview": "<p>ElevenLabs is a private company tracked by The Private Ledger in voice ai.</p>",
+  "as_of": "2026-09-25",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest financing",
+      "value": "Not publicly disclosed",
+      "note": "No confirmed priced financing was located during this profile update.",
+      "source": "https://elevenlabs.io"
+    }
+  ],
+  "directory_rank": 38,
+  "bull_case": "High-quality voice can become a foundational interface for media and software.",
+  "bear_case": "Rights management, platform competition, and synthetic-content concerns are material.",
+  "latest_round": "No confirmed financing publicly disclosed",
+  "directory_notes": [
+    "Voice AI",
+    "Public financing and operating data remain limited."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Not publicly disclosed",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=elevenlabs.io&sz=128",
+    "description": "ElevenLabs is a private company tracked by The Private Ledger in voice ai.",
+    "metrics": [
+      {
+        "value": "Not publicly disclosed",
+        "label": "Latest valuation",
+        "note": "No confirmed priced round"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed listing"
+      },
+      {
+        "value": "Voice AI",
+        "label": "Business focus",
+        "note": "Company profile"
+      },
+      {
+        "value": "Sep 2026",
+        "label": "Profile updated",
+        "note": "Editorial review"
+      }
+    ],
+    "company": [
+      "ElevenLabs is a private company tracked by The Private Ledger in voice ai.",
+      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+    ],
+    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "valuation_history": [
+      {
+        "value": "Not disclosed",
+        "date": "Current",
+        "round": "No confirmed priced round"
+      }
+    ],
+    "changed": [
+      {
+        "date": "Sep 2026",
+        "text": "Profile reviewed against available public information."
+      }
+    ],
+    "takeaways": [
+      "ElevenLabs is tracked in voice ai.",
+      "Available public information does not support a confirmed valuation claim.",
+      "Future updates should focus on product adoption, financing, and operating disclosure."
+    ],
+    "quick_facts": [
+      [
+        "Focus",
+        "Voice AI"
+      ],
+      [
+        "Website",
+        "elevenlabs.io"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Company website",
+        "url": "https://elevenlabs.io"
+      }
+    ]
+  }
+}
