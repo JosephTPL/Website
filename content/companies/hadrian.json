@@ -1,1 +1,37 @@
-{"slug":"hadrian","status":"Published","name":"Hadrian","sector":"Industrial tech","summary":"Automated manufacturing company building factories for precision parts.","overview":"<p>Hadrian uses automation and software to manufacture precision components for aerospace and defense.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"July 2024: $260M Series C","note":"Publicly reported financing context.","source":""}],"directory_rank":50,"bull_case":"Software-defined factories can address domestic capacity and defense-supply-chain constraints.","bear_case":"Capital requirements, manufacturing execution, and customer qualification cycles are substantial.","latest_round":"July 2024: $260M Series C","directory_notes":["Factory utilization","repeat aerospace orders."]}
+{
+  "slug": "hadrian",
+  "status": "Published",
+  "name": "Hadrian",
+  "sector": "Industrial tech",
+  "summary": "Automated manufacturing company building factories for precision parts.",
+  "overview": "<p>Hadrian uses automation and software to manufacture precision components for aerospace and defense.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "July 2024: $260M Series C",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 50,
+  "bull_case": "Software-defined factories can address domestic capacity and defense-supply-chain constraints.",
+  "bear_case": "Capital requirements, manufacturing execution, and customer qualification cycles are substantial.",
+  "latest_round": "July 2024: $260M Series C",
+  "directory_notes": [
+    "Factory utilization",
+    "repeat aerospace orders."
+  ],
+  "intelligence": {
+    "kicker":"Company intelligence","location":"Torrance, California","status":"Private","logo":"https://logo.clearbit.com/hadrian.co","description":"Hadrian builds software-defined factories that manufacture precision parts, assemblies and systems for aerospace and defense customers.",
+    "metrics":[{"value":"~$8B","label":"Latest valuation","note":"August 2026"},{"value":"$1.37B","label":"Latest funding","note":"Series D, August 2026"},{"value":"Private","label":"Public status","note":"No listed shares"}],
+    "company":["Hadrian uses automation, software and vertically integrated factory operations to produce mission-critical components and systems for aerospace and defense.","Its factories-as-a-service model is designed to expand domestic industrial capacity for both incumbent primes and newer defense companies."],
+    "why_it_matters":"Hadrian is a leading private bet on reindustrialization and defense production. Its funding demonstrates the scale of capital moving into companies that pair automation with hard manufacturing capacity.",
+    "valuation_history":[{"value":"$500M","date":"2023","round":"Series B"},{"value":"Not disclosed","date":"2025","round":"Series C"},{"value":"~$8B","date":"2026","round":"Series D"}],
+    "changed":[{"date":"2025","text":"Raised $260M in Series C financing and expanded its California and Arizona factory footprint."},{"date":"2026","text":"Raised $1.37B in Series D funding at a valuation just shy of $8B."}],
+    "takeaways":["Hadrian's value proposition is domestic production speed and reliability, not software alone.","Defense demand gives the company a strategic customer base but introduces complex qualification cycles.","Factory utilization and execution against expansion plans are the primary risks."],
+    "quick_facts":[{"label":"Founded","value":"2020"},{"label":"Headquarters","value":"Torrance, CA"},{"label":"CEO","value":"Chris Power"},{"label":"Website","value":"hadrian.co"}],
+    "sources":[{"label":"Hadrian Series C announcement","url":"https://www.hadrian.co/blog/series-c"},{"label":"Axios on Series D","url":"https://www.axios.com/2026/08/06/hadrian-series-d-defense-production"}]
+  }
+}

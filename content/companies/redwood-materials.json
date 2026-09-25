@@ -1,1 +1,37 @@
-{"slug":"redwood-materials","status":"Published","name":"Redwood Materials","sector":"Climate tech","summary":"Battery recycling and materials company building a domestic EV supply chain.","overview":"<p>Redwood Materials recycles batteries and produces battery materials in the U.S.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"August 2023: $1B Series D","note":"Publicly reported financing context.","source":""}],"directory_rank":48,"bull_case":"Domestic battery demand and recycling mandates can support a strategic materials platform.","bear_case":"Commodity exposure and capital-heavy plants may make returns cyclical and delayed.","latest_round":"August 2023: $1B Series D","directory_notes":["Plant ramp","battery-materials margins."]}
+{
+  "slug": "redwood-materials",
+  "status": "Published",
+  "name": "Redwood Materials",
+  "sector": "Climate tech",
+  "summary": "Battery recycling and materials company building a domestic EV supply chain.",
+  "overview": "<p>Redwood Materials recycles batteries and produces battery materials in the U.S.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "August 2023: $1B Series D",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 48,
+  "bull_case": "Domestic battery demand and recycling mandates can support a strategic materials platform.",
+  "bear_case": "Commodity exposure and capital-heavy plants may make returns cyclical and delayed.",
+  "latest_round": "August 2023: $1B Series D",
+  "directory_notes": [
+    "Plant ramp",
+    "battery-materials margins."
+  ],
+  "intelligence": {
+    "kicker":"Company intelligence","location":"Carson City, Nevada","status":"Private","logo":"https://logo.clearbit.com/redwoodmaterials.com","description":"Redwood Materials recycles batteries and manufactures battery materials to build a domestic supply chain for electric vehicles, grid storage and data centers.",
+    "metrics":[{"value":"$6B+","label":"Reported valuation","note":"October 2025"},{"value":"$425M","label":"Latest funding","note":"Series E final close, 2026"},{"value":"Private","label":"Public status","note":"No listed shares"}],
+    "company":["Founded by former Tesla CTO JB Straubel, Redwood recovers critical materials from batteries and production scrap, then turns them into new battery inputs.","The company has broadened from EV recycling into energy storage and domestic materials production as demand for grid and data-center power grows."],
+    "why_it_matters":"Redwood is a capital-intensive private benchmark for U.S. battery and energy-storage infrastructure. Its success depends on turning policy support and strategic demand into reliable, cost-competitive industrial operations.",
+    "valuation_history":[{"value":"$3.7B","date":"2021","round":"Series C"},{"value":"$5B","date":"2023","round":"Series D"},{"value":"$6B+","date":"2025","round":"Series E"}],
+    "changed":[{"date":"2025","text":"Raised $350M in Series E financing to expand energy storage, refining and materials production."},{"date":"2026","text":"Announced a $425M final close for the Series E, including Google as a new investor."}],
+    "takeaways":["Redwood has strategic exposure to both EV supply chains and grid-scale storage.","Industrial scale-up and commodity economics are more important than software-style growth metrics.","The latest valuation was reported by financial press, not disclosed by Redwood."],
+    "quick_facts":[{"label":"Founded","value":"2017"},{"label":"Headquarters","value":"Carson City, NV"},{"label":"Founder & CEO","value":"JB Straubel"},{"label":"Website","value":"redwoodmaterials.com"}],
+    "sources":[{"label":"Redwood Series E announcement","url":"https://www.redwoodmaterials.com/news/redwood-announces-350-million-series-e-funding/"},{"label":"Redwood Series E final close","url":"https://www.redwoodmaterials.com/news/redwood-materials-announces-final-close-of-425m-series-e/"}]
+  }
+}

@@ -4,7 +4,7 @@
   "name": "Rippling",
   "sector": "Enterprise software",
   "summary": "Rippling is a notable private company in enterprise software.",
-  "overview": "<p>Rippling is included in The Private Ledger\u2019s company directory for ongoing research.</p>",
+  "overview": "<p>Rippling is included in The Private Ledger’s company directory for ongoing research.</p>",
   "image": "",
   "image_alt": "",
   "as_of": "2026-09-21",
@@ -24,5 +24,16 @@
   "directory_notes": [
     "International expansion",
     "multi-product adoption."
-  ]
+  ],
+  "intelligence": {
+    "kicker":"Company intelligence","location":"San Francisco, California","status":"Private","logo":"https://logo.clearbit.com/rippling.com","description":"Rippling combines payroll, benefits, HR, IT and finance software in a unified system for managing a company's workforce.",
+    "metrics":[{"value":"$16.8B","label":"Latest valuation","note":"May 2025"},{"value":"$450M","label":"Latest funding","note":"Series G, May 2025"},{"value":"Private","label":"Public status","note":"No listed shares"}],
+    "company":["Rippling's core proposition is a single system of record that links employee data to payroll, benefits, devices, identity and spend management.","It has expanded from U.S. payroll software into a broader multi-product platform for global workforce operations."],
+    "why_it_matters":"Rippling is a leading private-company benchmark for how much value can accrue to an integrated business-software suite. Its funding also shows investor appetite for category leaders that can consolidate fragmented back-office tools.",
+    "valuation_history":[{"value":"$1.35B","date":"2021","round":"Series C"},{"value":"$13.5B","date":"2024","round":"Funding round"},{"value":"$16.8B","date":"2025","round":"Series G"}],
+    "changed":[{"date":"2025","text":"Raised $450M in Series G financing at a $16.8B valuation."},{"date":"2025","text":"Continued international and multi-product expansion while remaining in a public legal dispute with competitor Deel."}],
+    "takeaways":["A shared data layer is Rippling's main product and distribution advantage.","Cross-selling HR, IT and finance products can raise retention and account value.","Category breadth adds execution risk and expands the competitive set."],
+    "quick_facts":[{"label":"Founded","value":"2016"},{"label":"Headquarters","value":"San Francisco, CA"},{"label":"Co-founder & CEO","value":"Parker Conrad"},{"label":"Website","value":"rippling.com"}],
+    "sources":[{"label":"Rippling Series C announcement","url":"https://www.rippling.com/blog/rippling-raises-250m-in-series-c-funding"},{"label":"TechCrunch on Series G","url":"https://techcrunch.com/2025/05/09/rippling-raises-450m-at-a-16-8b-valuation-reveals-yc-is-a-customer/"}]
+  }
 }

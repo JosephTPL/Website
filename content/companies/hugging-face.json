@@ -1,1 +1,37 @@
-{"slug":"hugging-face","status":"Published","name":"Hugging Face","sector":"AI infrastructure","summary":"Open-source AI platform connecting models, datasets, and developers.","overview":"<p>Hugging Face is a collaboration hub for the open machine-learning ecosystem.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"August 2023: $235M Series D","note":"Publicly reported financing context.","source":""}],"directory_rank":37,"bull_case":"The leading open AI community can become foundational developer infrastructure.","bear_case":"Open-source popularity does not automatically translate into durable enterprise revenue.","latest_round":"August 2023: $235M Series D","directory_notes":["Enterprise monetization","community activity."]}
+{
+  "slug": "hugging-face",
+  "status": "Published",
+  "name": "Hugging Face",
+  "sector": "AI infrastructure",
+  "summary": "Open-source AI platform connecting models, datasets, and developers.",
+  "overview": "<p>Hugging Face is a collaboration hub for the open machine-learning ecosystem.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "August 2023: $235M Series D",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 37,
+  "bull_case": "The leading open AI community can become foundational developer infrastructure.",
+  "bear_case": "Open-source popularity does not automatically translate into durable enterprise revenue.",
+  "latest_round": "August 2023: $235M Series D",
+  "directory_notes": [
+    "Enterprise monetization",
+    "community activity."
+  ],
+  "intelligence": {
+    "kicker":"Company intelligence","location":"New York, New York","status":"Acquisition agreed","logo":"https://logo.clearbit.com/huggingface.co","description":"Hugging Face is an open platform where developers and organizations share, evaluate and deploy machine-learning models, datasets and applications.",
+    "metrics":[{"value":"$12.93B","label":"Agreed acquisition value","note":"September 2026"},{"value":"$235M","label":"Last funding round","note":"Series D, 2023"},{"value":"Acquisition agreed","label":"Public status","note":"NVIDIA"}],
+    "company":["Hugging Face became a central hub for the open machine-learning ecosystem, combining community infrastructure, model hosting, tools and enterprise services.","NVIDIA agreed to acquire the company in 2026 while stating that the platform will remain open and hardware-agnostic."],
+    "why_it_matters":"The deal assigns strategic value to the open-model ecosystem, not simply a software revenue multiple. It also changes the competitive landscape for companies building developer infrastructure around AI models.",
+    "valuation_history":[{"value":"$4.5B","date":"2023","round":"Series D"},{"value":"$12.93B","date":"2026","round":"Acquisition agreed"}],
+    "changed":[{"date":"2026","text":"NVIDIA agreed to acquire Hugging Face for $12.93B."},{"date":"2026","text":"NVIDIA said Hugging Face would remain an open platform for developers, models and cloud providers."}],
+    "takeaways":["Hugging Face is infrastructure for the open-model community, not a single model vendor.","The agreed acquisition is a major strategic transaction in AI developer infrastructure.","Closing and the platform's ongoing neutrality are the key items to watch."],
+    "quick_facts":[{"label":"Founded","value":"2016"},{"label":"Headquarters","value":"New York, NY"},{"label":"Acquirer","value":"NVIDIA"},{"label":"Website","value":"huggingface.co"}],
+    "sources":[{"label":"NVIDIA acquisition announcement","url":"https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"},{"label":"Associated Press coverage","url":"https://apnews.com/article/d96d50e037a2ade479dcdf81cdf2afcf"}]
+  }
+}

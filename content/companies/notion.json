@@ -1,1 +1,37 @@
-{"slug":"notion","status":"Published","name":"Notion","sector":"Productivity software","summary":"Collaborative workspace expanding from notes into an AI-enabled knowledge layer.","overview":"<p>Notion offers documents, wikis, databases, and AI tools for teams.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"October 2021: $275M Series C","note":"Publicly reported financing context.","source":""}],"directory_rank":28,"bull_case":"A flexible workspace can consolidate fragmented team knowledge and workflows.","bear_case":"Incumbents bundle similar tools and broad usage does not guarantee paid conversion.","latest_round":"October 2021: $275M Series C","directory_notes":["Enterprise seats","AI feature adoption."]}
+{
+  "slug": "notion",
+  "status": "Published",
+  "name": "Notion",
+  "sector": "Productivity software",
+  "summary": "Collaborative workspace expanding from notes into an AI-enabled knowledge layer.",
+  "overview": "<p>Notion offers documents, wikis, databases, and AI tools for teams.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "October 2021: $275M Series C",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 28,
+  "bull_case": "A flexible workspace can consolidate fragmented team knowledge and workflows.",
+  "bear_case": "Incumbents bundle similar tools and broad usage does not guarantee paid conversion.",
+  "latest_round": "October 2021: $275M Series C",
+  "directory_notes": [
+    "Enterprise seats",
+    "AI feature adoption."
+  ],
+  "intelligence": {
+    "kicker":"Company intelligence","location":"San Francisco, California","status":"Private","logo":"https://logo.clearbit.com/notion.so","description":"Notion is a collaborative workspace for documents, databases, wikis and AI-assisted knowledge management.",
+    "metrics":[{"value":"$11B","label":"Latest valuation","note":"2025 tender offer"},{"value":"$270M","label":"Latest liquidity event","note":"Employee tender, 2025"},{"value":"Private","label":"Public status","note":"No listed shares"}],
+    "company":["Notion combines flexible documents, databases and team knowledge into an adaptable workspace used by individuals and organizations.","It has extended its product line with AI features, calendar and email products, increasing its ambition to become a broader work hub."],
+    "why_it_matters":"Notion is a useful private-market test of whether AI can deepen engagement for collaborative software rather than merely add a feature. Its employee tender gave a more current mark after the 2021 venture boom.",
+    "valuation_history":[{"value":"$2B","date":"2020","round":"Series B"},{"value":"$10B","date":"2021","round":"Series C"},{"value":"$11B","date":"2025","round":"Tender offer"}],
+    "changed":[{"date":"2025","text":"Launched Notion Mail and continued expanding AI-assisted work products."},{"date":"2025","text":"GIC, Sequoia and Index purchased around $270M of employee shares at an $11B valuation."}],
+    "takeaways":["Notion's flexible product can expand with customers across many workflows.","AI adoption is central to the next growth chapter.","Large-suite competition remains the key risk to pricing and enterprise conversion."],
+    "quick_facts":[{"label":"Founded","value":"2013"},{"label":"Headquarters","value":"San Francisco, CA"},{"label":"Co-founder & CEO","value":"Ivan Zhao"},{"label":"Website","value":"notion.so"}],
+    "sources":[{"label":"Notion tender-offer announcement","url":"https://www.notion.com/de/blog/gic-sequoia-index-purchase-notion-shares"},{"label":"Notion product overview","url":"https://www.notion.com/product"}]
+  }
+}
