@@ -3,131 +3,111 @@
   "name": "KNDS",
   "status": "Published",
   "sector": "Defense",
-  "summary": "KNDS produces armoured vehicles, artillery, ammunition, and other land-defense systems.",
-  "overview": "<p>KNDS produces armoured vehicles, artillery, ammunition, and other land-defense systems.</p>",
+  "summary": "KNDS is a European land-defense group producing systems including tanks, artillery, and ammunition.",
+  "overview": "<p>KNDS is a European land-defense group producing systems including tanks, artillery, and ammunition. It benefits from a multi-year rearmament cycle across Europe.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
-      "label": "Reported valuation",
+      "label": "Latest valuation or financing context",
       "value": "$20B",
-      "note": "Private Ledger market-watch estimate; private valuations can change without a public financing.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
-    },
-    {
-      "label": "Public status",
-      "value": "Private",
-      "note": "No confirmed public offering is reflected in this profile.",
-      "source": "https://www.knds.com"
-    },
-    {
-      "label": "Primary focus",
-      "value": "Land-defense systems",
-      "note": "Company product and market positioning.",
-      "source": "https://www.knds.com"
+      "note": "As of 2026. This is a market estimate or disclosed transaction context, not a continuously quoted price.",
+      "source": "https://knds.com/en/press-releases/knds-achieves-strong-revenue-growth-and-record-order-intake-in-2025"
     }
   ],
   "directory_rank": 27,
   "bull_case": "KNDS is positioned in a market where scale, distribution, and execution can compound.",
   "bear_case": "Private-market estimates are uncertain, and market structure, regulation, competition, or execution could materially change the outlook.",
-  "latest_round": "Reported valuation: $20B",
+  "latest_round": "2026: No recent priced round disclosed",
   "directory_notes": [
-    "Land-defense systems",
-    "Watch for funding, operating milestones, and market-structure changes."
+    "Land defense systems",
+    "2025 revenue reached \u20ac4.4B and backlog \u20ac33.1B, according to the company. Execution on production capacity and a proposed IPO are the main watch items."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
     "location": "Amsterdam, Netherlands",
     "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=www.knds.com&sz=128",
-    "description": "KNDS produces armoured vehicles, artillery, ammunition, and other land-defense systems.",
+    "logo": "https://www.google.com/s2/favicons?domain=knds.com&sz=128",
+    "description": "KNDS is a European land-defense group producing systems including tanks, artillery, and ammunition. It benefits from a multi-year rearmament cycle across Europe.",
     "metrics": [
       {
         "value": "$20B",
-        "label": "Reported valuation",
-        "note": "Private Ledger market watch"
+        "label": "Latest valuation",
+        "note": "2026"
+      },
+      {
+        "value": "No recent priced round disclosed",
+        "label": "Latest financing",
+        "note": "2026"
+      },
+      {
+        "value": "Land defense systems",
+        "label": "Business focus",
+        "note": "Company profile"
       },
       {
         "value": "Private",
         "label": "Public status",
-        "note": "No confirmed IPO"
-      },
-      {
-        "value": "Defense",
-        "label": "Sector",
-        "note": "Land-defense systems"
-      },
-      {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Latest editorial review"
+        "note": "No confirmed public listing"
       }
     ],
     "company": [
-      "KNDS produces armoured vehicles, artillery, ammunition, and other land-defense systems.",
-      "The company's investment case is tied to land-defense systems. This profile will be refreshed when material financing, operating, or market-structure developments are publicly reported."
+      "KNDS is a European land-defense group producing systems including tanks, artillery, and ammunition. It benefits from a multi-year rearmament cycle across Europe.",
+      "2025 revenue reached \u20ac4.4B and backlog \u20ac33.1B, according to the company. Execution on production capacity and a proposed IPO are the main watch items."
     ],
-    "why_it_matters": "Land-defense systems is central to the company story. The key question is whether KNDS can translate private-market momentum into a durable operating position.",
+    "why_it_matters": "2025 revenue reached \u20ac4.4B and backlog \u20ac33.1B, according to the company. Execution on production capacity and a proposed IPO are the main watch items.",
     "valuation_history": [
       {
-        "value": "Private",
-        "date": "2015",
-        "round": "Company founded or established"
+        "value": "N/A",
+        "date": "N/A",
+        "round": "Earlier reported context"
       },
       {
         "value": "$20B",
         "date": "2026",
-        "round": "Latest reported estimate"
+        "round": "No recent priced round disclosed"
       }
     ],
     "changed": [
       {
-        "date": "2015",
-        "text": "KNDS begins operating in its current form."
+        "date": "N/A",
+        "text": "Earlier public financing or market context recorded."
       },
       {
         "date": "2026",
-        "text": "The company remains on The Private Ledger market watchlist following the latest editorial review."
+        "text": "Latest profile review: No recent priced round disclosed."
       }
     ],
     "takeaways": [
-      "Land-defense systems is the company's operating focus.",
-      "KNDS is being tracked as a private-market company to watch.",
-      "Private-company valuation estimates are directional rather than audited market prices.",
-      "Funding, regulation, and commercial execution are the next variables to watch."
+      "KNDS is a private-market name in land defense systems.",
+      "2025 revenue reached \u20ac4.4B and backlog \u20ac33.1B, according to the company. Execution on production capacity and a proposed IPO are the main watch items.",
+      "The displayed valuation should be read with its disclosure context, not as a live market price.",
+      "Future updates will focus on operating evidence, financing, and execution."
     ],
     "quick_facts": [
-      [
-        "Founded",
-        "2015"
-      ],
       [
         "Headquarters",
         "Amsterdam, Netherlands"
       ],
       [
-        "Sector",
-        "Defense"
+        "Focus",
+        "Land defense systems"
       ],
       [
-        "Focus",
-        "Land-defense systems"
+        "Website",
+        "knds.com"
       ],
       [
         "Public status",
         "Private"
-      ],
-      [
-        "Website",
-        "www.knds.com"
       ]
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://www.knds.com"
+        "label": "Primary company or transaction source",
+        "url": "https://knds.com/en/press-releases/knds-achieves-strong-revenue-growth-and-record-order-intake-in-2025"
       },
       {
-        "label": "Private-company valuation reference",
+        "label": "Private Ledger valuation reference",
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]

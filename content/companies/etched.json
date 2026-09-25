@@ -3,131 +3,111 @@
   "name": "Etched",
   "status": "Published",
   "sector": "Semiconductors",
-  "summary": "Etched designs specialised hardware intended to make transformer-model inference more efficient.",
-  "overview": "<p>Etched designs specialised hardware intended to make transformer-model inference more efficient.</p>",
+  "summary": "Etched designs purpose-built inference chips for transformer models.",
+  "overview": "<p>Etched designs purpose-built inference chips for transformer models. Its claim is that a specialised chip can beat general-purpose accelerators on the cost and efficiency of serving models.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
-      "label": "Reported valuation",
+      "label": "Latest valuation or financing context",
       "value": "$21B",
-      "note": "Private Ledger market-watch estimate; private valuations can change without a public financing.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
-    },
-    {
-      "label": "Public status",
-      "value": "Private",
-      "note": "No confirmed public offering is reflected in this profile.",
-      "source": "https://etched.com"
-    },
-    {
-      "label": "Primary focus",
-      "value": "Specialised AI chips",
-      "note": "Company product and market positioning.",
-      "source": "https://etched.com"
+      "note": "As of Aug 2026. This is a market estimate or disclosed transaction context, not a continuously quoted price.",
+      "source": "https://www.etched.com/progress/from-zero-to-one"
     }
   ],
   "directory_rank": 24,
   "bull_case": "Etched is positioned in a market where scale, distribution, and execution can compound.",
   "bear_case": "Private-market estimates are uncertain, and market structure, regulation, competition, or execution could materially change the outlook.",
-  "latest_round": "Reported valuation: $21B",
+  "latest_round": "Aug 2026: $700M Series D",
   "directory_notes": [
-    "Specialised AI chips",
-    "Watch for funding, operating milestones, and market-structure changes."
+    "AI inference chips",
+    "The $21B valuation puts a large price on a still-early hardware company. The key evidence to watch is customer deployment, software support, and production yield."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "San Francisco, CA",
+    "location": "San Francisco, California",
     "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=etched.com&sz=128",
-    "description": "Etched designs specialised hardware intended to make transformer-model inference more efficient.",
+    "logo": "https://www.google.com/s2/favicons?domain=www.etched.com&sz=128",
+    "description": "Etched designs purpose-built inference chips for transformer models. Its claim is that a specialised chip can beat general-purpose accelerators on the cost and efficiency of serving models.",
     "metrics": [
       {
         "value": "$21B",
-        "label": "Reported valuation",
-        "note": "Private Ledger market watch"
+        "label": "Latest valuation",
+        "note": "Aug 2026"
+      },
+      {
+        "value": "$700M Series D",
+        "label": "Latest financing",
+        "note": "Aug 2026"
+      },
+      {
+        "value": "AI inference chips",
+        "label": "Business focus",
+        "note": "Company profile"
       },
       {
         "value": "Private",
         "label": "Public status",
-        "note": "No confirmed IPO"
-      },
-      {
-        "value": "Semiconductors",
-        "label": "Sector",
-        "note": "Specialised AI chips"
-      },
-      {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Latest editorial review"
+        "note": "No confirmed public listing"
       }
     ],
     "company": [
-      "Etched designs specialised hardware intended to make transformer-model inference more efficient.",
-      "The company's investment case is tied to specialised ai chips. This profile will be refreshed when material financing, operating, or market-structure developments are publicly reported."
+      "Etched designs purpose-built inference chips for transformer models. Its claim is that a specialised chip can beat general-purpose accelerators on the cost and efficiency of serving models.",
+      "The $21B valuation puts a large price on a still-early hardware company. The key evidence to watch is customer deployment, software support, and production yield."
     ],
-    "why_it_matters": "Specialised AI chips is central to the company story. The key question is whether Etched can translate private-market momentum into a durable operating position.",
+    "why_it_matters": "The $21B valuation puts a large price on a still-early hardware company. The key evidence to watch is customer deployment, software support, and production yield.",
     "valuation_history": [
       {
-        "value": "Private",
-        "date": "2022",
-        "round": "Company founded or established"
+        "value": "$5B",
+        "date": "Jan 2026",
+        "round": "Earlier reported context"
       },
       {
         "value": "$21B",
-        "date": "2026",
-        "round": "Latest reported estimate"
+        "date": "Aug 2026",
+        "round": "$700M Series D"
       }
     ],
     "changed": [
       {
-        "date": "2022",
-        "text": "Etched begins operating in its current form."
+        "date": "Jan 2026",
+        "text": "Earlier public financing or market context recorded."
       },
       {
-        "date": "2026",
-        "text": "The company remains on The Private Ledger market watchlist following the latest editorial review."
+        "date": "Aug 2026",
+        "text": "Latest profile review: $700M Series D."
       }
     ],
     "takeaways": [
-      "Specialised AI chips is the company's operating focus.",
-      "Etched is being tracked as a private-market company to watch.",
-      "Private-company valuation estimates are directional rather than audited market prices.",
-      "Funding, regulation, and commercial execution are the next variables to watch."
+      "Etched is a private-market name in ai inference chips.",
+      "The $21B valuation puts a large price on a still-early hardware company. The key evidence to watch is customer deployment, software support, and production yield.",
+      "The displayed valuation should be read with its disclosure context, not as a live market price.",
+      "Future updates will focus on operating evidence, financing, and execution."
     ],
     "quick_facts": [
       [
-        "Founded",
-        "2022"
-      ],
-      [
         "Headquarters",
-        "San Francisco, CA"
-      ],
-      [
-        "Sector",
-        "Semiconductors"
+        "San Francisco, California"
       ],
       [
         "Focus",
-        "Specialised AI chips"
+        "AI inference chips"
+      ],
+      [
+        "Website",
+        "www.etched.com"
       ],
       [
         "Public status",
         "Private"
-      ],
-      [
-        "Website",
-        "etched.com"
       ]
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://etched.com"
+        "label": "Primary company or transaction source",
+        "url": "https://www.etched.com/progress/from-zero-to-one"
       },
       {
-        "label": "Private-company valuation reference",
+        "label": "Private Ledger valuation reference",
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]

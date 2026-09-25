@@ -1,1 +1,116 @@
-{"slug":"perplexity","status":"Published","name":"Perplexity","sector":"AI search","summary":"An AI-native answer engine seeking to redefine how people navigate the web.","overview":"<p>Perplexity combines generative answers with web retrieval and citations.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"December 2024: $500M funding round","note":"Publicly reported financing context.","source":""}],"directory_rank":21,"bull_case":"A trusted answer layer could capture high-intent search and knowledge-work demand.","bear_case":"Search incumbents control distribution and publisher relationships may constrain the model.","latest_round":"December 2024: $500M funding round","directory_notes":["Query growth","retention and monetization."]}
+{
+  "slug": "perplexity",
+  "status": "Published",
+  "name": "Perplexity",
+  "sector": "AI search",
+  "summary": "Perplexity combines web search, cited answers, and AI agents.",
+  "overview": "<p>Perplexity combines web search, cited answers, and AI agents. Its strategic challenge is turning high-frequency research usage into a durable consumer and enterprise subscription business.</p>",
+  "as_of": "2026-09-25",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation or financing context",
+      "value": "$20B",
+      "note": "As of Sep 2025. This is a market estimate or disclosed transaction context, not a continuously quoted price.",
+      "source": "https://www.perplexity.ai/"
+    }
+  ],
+  "directory_rank": 21,
+  "bull_case": "A trusted answer layer could capture high-intent search and knowledge-work demand.",
+  "bear_case": "Search incumbents control distribution and publisher relationships may constrain the model.",
+  "latest_round": "Sep 2025: $200M reported financing",
+  "directory_notes": [
+    "AI search and answer engine",
+    "It is a direct test of whether AI search can capture user behavior and monetisation from incumbent search engines without unsustainable content and inference costs."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "San Francisco, California",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=www.perplexity.ai&sz=128",
+    "description": "Perplexity combines web search, cited answers, and AI agents. Its strategic challenge is turning high-frequency research usage into a durable consumer and enterprise subscription business.",
+    "metrics": [
+      {
+        "value": "$20B",
+        "label": "Latest valuation",
+        "note": "Sep 2025"
+      },
+      {
+        "value": "$200M reported financing",
+        "label": "Latest financing",
+        "note": "Sep 2025"
+      },
+      {
+        "value": "AI search and answer engine",
+        "label": "Business focus",
+        "note": "Company profile"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed public listing"
+      }
+    ],
+    "company": [
+      "Perplexity combines web search, cited answers, and AI agents. Its strategic challenge is turning high-frequency research usage into a durable consumer and enterprise subscription business.",
+      "It is a direct test of whether AI search can capture user behavior and monetisation from incumbent search engines without unsustainable content and inference costs."
+    ],
+    "why_it_matters": "It is a direct test of whether AI search can capture user behavior and monetisation from incumbent search engines without unsustainable content and inference costs.",
+    "valuation_history": [
+      {
+        "value": "$9B",
+        "date": "Dec 2024",
+        "round": "Earlier reported context"
+      },
+      {
+        "value": "$20B",
+        "date": "Sep 2025",
+        "round": "$200M reported financing"
+      }
+    ],
+    "changed": [
+      {
+        "date": "Dec 2024",
+        "text": "Earlier public financing or market context recorded."
+      },
+      {
+        "date": "Sep 2025",
+        "text": "Latest profile review: $200M reported financing."
+      }
+    ],
+    "takeaways": [
+      "Perplexity is a private-market name in ai search and answer engine.",
+      "It is a direct test of whether AI search can capture user behavior and monetisation from incumbent search engines without unsustainable content and inference costs.",
+      "The displayed valuation should be read with its disclosure context, not as a live market price.",
+      "Future updates will focus on operating evidence, financing, and execution."
+    ],
+    "quick_facts": [
+      [
+        "Headquarters",
+        "San Francisco, California"
+      ],
+      [
+        "Focus",
+        "AI search and answer engine"
+      ],
+      [
+        "Website",
+        "www.perplexity.ai"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Primary company or transaction source",
+        "url": "https://www.perplexity.ai/"
+      },
+      {
+        "label": "Private Ledger valuation reference",
+        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      }
+    ]
+  }
+}

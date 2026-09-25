@@ -1,1 +1,116 @@
-{"slug":"helsing","status":"Published","name":"Helsing","sector":"Defense AI","summary":"European defense software and autonomy company focused on AI-enabled capabilities.","overview":"<p>Helsing develops AI software and autonomous systems for defense partners.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"July 2024: €450M Series C","note":"Publicly reported financing context.","source":""}],"directory_rank":25,"bull_case":"European rearmament creates demand for sovereign, software-defined defense systems.","bear_case":"Defense sales remain politically constrained and dependent on long programs.","latest_round":"July 2024: €450M Series C","directory_notes":["European contracts","software deployment at scale."]}
+{
+  "slug": "helsing",
+  "status": "Published",
+  "name": "Helsing",
+  "sector": "Defense AI",
+  "summary": "Helsing builds AI software and systems for defense applications, including electronic warfare, autonomy, and battlefield decision support.",
+  "overview": "<p>Helsing builds AI software and systems for defense applications, including electronic warfare, autonomy, and battlefield decision support.</p>",
+  "as_of": "2026-09-25",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation or financing context",
+      "value": "$18B",
+      "note": "As of Jun 2025. This is a market estimate or disclosed transaction context, not a continuously quoted price.",
+      "source": "https://helsing.ai/"
+    }
+  ],
+  "directory_rank": 25,
+  "bull_case": "European rearmament creates demand for sovereign, software-defined defense systems.",
+  "bear_case": "Defense sales remain politically constrained and dependent on long programs.",
+  "latest_round": "Jun 2025: \u20ac600M Series D",
+  "directory_notes": [
+    "Defense AI and software",
+    "European defense spending and sovereign technology demand create a large opportunity, but deployment, procurement, and geopolitical conditions drive the business."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Munich, Germany",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=helsing.ai&sz=128",
+    "description": "Helsing builds AI software and systems for defense applications, including electronic warfare, autonomy, and battlefield decision support.",
+    "metrics": [
+      {
+        "value": "$18B",
+        "label": "Latest valuation",
+        "note": "Jun 2025"
+      },
+      {
+        "value": "\u20ac600M Series D",
+        "label": "Latest financing",
+        "note": "Jun 2025"
+      },
+      {
+        "value": "Defense AI and software",
+        "label": "Business focus",
+        "note": "Company profile"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed public listing"
+      }
+    ],
+    "company": [
+      "Helsing builds AI software and systems for defense applications, including electronic warfare, autonomy, and battlefield decision support.",
+      "European defense spending and sovereign technology demand create a large opportunity, but deployment, procurement, and geopolitical conditions drive the business."
+    ],
+    "why_it_matters": "European defense spending and sovereign technology demand create a large opportunity, but deployment, procurement, and geopolitical conditions drive the business.",
+    "valuation_history": [
+      {
+        "value": "\u20ac5B",
+        "date": "2025 prior round",
+        "round": "Earlier reported context"
+      },
+      {
+        "value": "$18B",
+        "date": "Jun 2025",
+        "round": "\u20ac600M Series D"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2025 prior round",
+        "text": "Earlier public financing or market context recorded."
+      },
+      {
+        "date": "Jun 2025",
+        "text": "Latest profile review: \u20ac600M Series D."
+      }
+    ],
+    "takeaways": [
+      "Helsing is a private-market name in defense ai and software.",
+      "European defense spending and sovereign technology demand create a large opportunity, but deployment, procurement, and geopolitical conditions drive the business.",
+      "The displayed valuation should be read with its disclosure context, not as a live market price.",
+      "Future updates will focus on operating evidence, financing, and execution."
+    ],
+    "quick_facts": [
+      [
+        "Headquarters",
+        "Munich, Germany"
+      ],
+      [
+        "Focus",
+        "Defense AI and software"
+      ],
+      [
+        "Website",
+        "helsing.ai"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Primary company or transaction source",
+        "url": "https://helsing.ai/"
+      },
+      {
+        "label": "Private Ledger valuation reference",
+        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      }
+    ]
+  }
+}

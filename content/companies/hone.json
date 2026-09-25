@@ -3,131 +3,111 @@
   "name": "Hone",
   "status": "Published",
   "sector": "Workforce software",
-  "summary": "Hone provides live, cohort-based learning and development programs for modern teams.",
-  "overview": "<p>Hone provides live, cohort-based learning and development programs for modern teams.</p>",
+  "summary": "Hone provides cohort-based management and workforce training.",
+  "overview": "<p>Hone provides cohort-based management and workforce training. It sells into employers seeking scalable development for managers and teams.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
-      "label": "Reported valuation",
-      "value": "Not publicly disclosed",
-      "note": "Private Ledger market-watch estimate; private valuations can change without a public financing.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
-    },
-    {
-      "label": "Public status",
-      "value": "Private",
-      "note": "No confirmed public offering is reflected in this profile.",
-      "source": "https://honehq.com"
-    },
-    {
-      "label": "Primary focus",
-      "value": "Workforce learning",
-      "note": "Company product and market positioning.",
-      "source": "https://honehq.com"
+      "label": "Latest valuation or financing context",
+      "value": "No confirmed financing disclosed",
+      "note": "As of 2026. No public valuation is asserted.",
+      "source": "https://www.honehq.com/"
     }
   ],
   "directory_rank": 37,
   "bull_case": "Hone is positioned in a market where scale, distribution, and execution can compound.",
   "bear_case": "Private-market estimates are uncertain, and market structure, regulation, competition, or execution could materially change the outlook.",
-  "latest_round": "Latest financing not publicly disclosed",
+  "latest_round": "2026: No confirmed financing disclosed",
   "directory_notes": [
     "Workforce learning",
-    "Watch for funding, operating milestones, and market-structure changes."
+    "The main questions are enterprise retention, content differentiation, and whether learning spend remains resilient in tighter software budgets."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "San Francisco, CA",
+    "location": "United States",
     "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=honehq.com&sz=128",
-    "description": "Hone provides live, cohort-based learning and development programs for modern teams.",
+    "logo": "https://www.google.com/s2/favicons?domain=www.honehq.com&sz=128",
+    "description": "Hone provides cohort-based management and workforce training. It sells into employers seeking scalable development for managers and teams.",
     "metrics": [
       {
         "value": "Not publicly disclosed",
-        "label": "Reported valuation",
-        "note": "Private Ledger market watch"
+        "label": "Latest valuation",
+        "note": "2026"
+      },
+      {
+        "value": "No confirmed financing disclosed",
+        "label": "Latest financing",
+        "note": "2026"
+      },
+      {
+        "value": "Workforce learning",
+        "label": "Business focus",
+        "note": "Company profile"
       },
       {
         "value": "Private",
         "label": "Public status",
-        "note": "No confirmed IPO"
-      },
-      {
-        "value": "Workforce software",
-        "label": "Sector",
-        "note": "Workforce learning"
-      },
-      {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Latest editorial review"
+        "note": "No confirmed public listing"
       }
     ],
     "company": [
-      "Hone provides live, cohort-based learning and development programs for modern teams.",
-      "The company's investment case is tied to workforce learning. This profile will be refreshed when material financing, operating, or market-structure developments are publicly reported."
+      "Hone provides cohort-based management and workforce training. It sells into employers seeking scalable development for managers and teams.",
+      "The main questions are enterprise retention, content differentiation, and whether learning spend remains resilient in tighter software budgets."
     ],
-    "why_it_matters": "Workforce learning is central to the company story. The key question is whether Hone can translate private-market momentum into a durable operating position.",
+    "why_it_matters": "The main questions are enterprise retention, content differentiation, and whether learning spend remains resilient in tighter software budgets.",
     "valuation_history": [
       {
-        "value": "Private",
-        "date": "2018",
-        "round": "Company founded or established"
+        "value": "N/A",
+        "date": "N/A",
+        "round": "Earlier reported context"
       },
       {
         "value": "Not publicly disclosed",
         "date": "2026",
-        "round": "Latest reported estimate"
+        "round": "No confirmed financing disclosed"
       }
     ],
     "changed": [
       {
-        "date": "2018",
-        "text": "Hone begins operating in its current form."
+        "date": "N/A",
+        "text": "Earlier public financing or market context recorded."
       },
       {
         "date": "2026",
-        "text": "The company remains on The Private Ledger market watchlist following the latest editorial review."
+        "text": "Latest profile review: No confirmed financing disclosed."
       }
     ],
     "takeaways": [
-      "Workforce learning is the company's operating focus.",
-      "Hone is being tracked as a private-market company to watch.",
-      "Private-company valuation estimates are directional rather than audited market prices.",
-      "Funding, regulation, and commercial execution are the next variables to watch."
+      "Hone is a private-market name in workforce learning.",
+      "The main questions are enterprise retention, content differentiation, and whether learning spend remains resilient in tighter software budgets.",
+      "The displayed valuation should be read with its disclosure context, not as a live market price.",
+      "Future updates will focus on operating evidence, financing, and execution."
     ],
     "quick_facts": [
       [
-        "Founded",
-        "2018"
-      ],
-      [
         "Headquarters",
-        "San Francisco, CA"
-      ],
-      [
-        "Sector",
-        "Workforce software"
+        "United States"
       ],
       [
         "Focus",
         "Workforce learning"
       ],
       [
-        "Public status",
-        "Private"
+        "Website",
+        "www.honehq.com"
       ],
       [
-        "Website",
-        "honehq.com"
+        "Public status",
+        "Private"
       ]
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://honehq.com"
+        "label": "Primary company or transaction source",
+        "url": "https://www.honehq.com/"
       },
       {
-        "label": "Private-company valuation reference",
+        "label": "Private Ledger valuation reference",
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]

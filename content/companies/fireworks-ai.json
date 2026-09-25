@@ -3,131 +3,111 @@
   "name": "Fireworks AI",
   "status": "Published",
   "sector": "Artificial intelligence",
-  "summary": "Fireworks AI provides infrastructure for deploying and serving generative AI models.",
-  "overview": "<p>Fireworks AI provides infrastructure for deploying and serving generative AI models.</p>",
+  "summary": "Fireworks AI provides infrastructure for developers to run, fine-tune, and deploy generative models.",
+  "overview": "<p>Fireworks AI provides infrastructure for developers to run, fine-tune, and deploy generative models. It is positioned between model providers and the applications that need production inference.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
-      "label": "Reported valuation",
+      "label": "Latest valuation or financing context",
       "value": "$17.5B",
-      "note": "Private Ledger market-watch estimate; private valuations can change without a public financing.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
-    },
-    {
-      "label": "Public status",
-      "value": "Private",
-      "note": "No confirmed public offering is reflected in this profile.",
-      "source": "https://fireworks.ai"
-    },
-    {
-      "label": "Primary focus",
-      "value": "AI inference platform",
-      "note": "Company product and market positioning.",
-      "source": "https://fireworks.ai"
+      "note": "As of 2026. This is a market estimate or disclosed transaction context, not a continuously quoted price.",
+      "source": "https://fireworks.ai/"
     }
   ],
   "directory_rank": 35,
   "bull_case": "Fireworks AI is positioned in a market where scale, distribution, and execution can compound.",
   "bear_case": "Private-market estimates are uncertain, and market structure, regulation, competition, or execution could materially change the outlook.",
-  "latest_round": "Reported valuation: $17.5B",
+  "latest_round": "2026: Reported financing context",
   "directory_notes": [
-    "AI inference platform",
-    "Watch for funding, operating milestones, and market-structure changes."
+    "AI model infrastructure",
+    "Its value depends on whether developer tooling and serving infrastructure retain a differentiated role as models and cloud platforms commoditise."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Redwood City, CA",
+    "location": "Redwood City, California",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=fireworks.ai&sz=128",
-    "description": "Fireworks AI provides infrastructure for deploying and serving generative AI models.",
+    "description": "Fireworks AI provides infrastructure for developers to run, fine-tune, and deploy generative models. It is positioned between model providers and the applications that need production inference.",
     "metrics": [
       {
         "value": "$17.5B",
-        "label": "Reported valuation",
-        "note": "Private Ledger market watch"
+        "label": "Latest valuation",
+        "note": "2026"
+      },
+      {
+        "value": "Reported financing context",
+        "label": "Latest financing",
+        "note": "2026"
+      },
+      {
+        "value": "AI model infrastructure",
+        "label": "Business focus",
+        "note": "Company profile"
       },
       {
         "value": "Private",
         "label": "Public status",
-        "note": "No confirmed IPO"
-      },
-      {
-        "value": "Artificial intelligence",
-        "label": "Sector",
-        "note": "AI inference platform"
-      },
-      {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Latest editorial review"
+        "note": "No confirmed public listing"
       }
     ],
     "company": [
-      "Fireworks AI provides infrastructure for deploying and serving generative AI models.",
-      "The company's investment case is tied to ai inference platform. This profile will be refreshed when material financing, operating, or market-structure developments are publicly reported."
+      "Fireworks AI provides infrastructure for developers to run, fine-tune, and deploy generative models. It is positioned between model providers and the applications that need production inference.",
+      "Its value depends on whether developer tooling and serving infrastructure retain a differentiated role as models and cloud platforms commoditise."
     ],
-    "why_it_matters": "AI inference platform is central to the company story. The key question is whether Fireworks AI can translate private-market momentum into a durable operating position.",
+    "why_it_matters": "Its value depends on whether developer tooling and serving infrastructure retain a differentiated role as models and cloud platforms commoditise.",
     "valuation_history": [
       {
-        "value": "Private",
-        "date": "2022",
-        "round": "Company founded or established"
+        "value": "$4B",
+        "date": "2025 reported estimate",
+        "round": "Earlier reported context"
       },
       {
         "value": "$17.5B",
         "date": "2026",
-        "round": "Latest reported estimate"
+        "round": "Reported financing context"
       }
     ],
     "changed": [
       {
-        "date": "2022",
-        "text": "Fireworks AI begins operating in its current form."
+        "date": "2025 reported estimate",
+        "text": "Earlier public financing or market context recorded."
       },
       {
         "date": "2026",
-        "text": "The company remains on The Private Ledger market watchlist following the latest editorial review."
+        "text": "Latest profile review: Reported financing context."
       }
     ],
     "takeaways": [
-      "AI inference platform is the company's operating focus.",
-      "Fireworks AI is being tracked as a private-market company to watch.",
-      "Private-company valuation estimates are directional rather than audited market prices.",
-      "Funding, regulation, and commercial execution are the next variables to watch."
+      "Fireworks AI is a private-market name in ai model infrastructure.",
+      "Its value depends on whether developer tooling and serving infrastructure retain a differentiated role as models and cloud platforms commoditise.",
+      "The displayed valuation should be read with its disclosure context, not as a live market price.",
+      "Future updates will focus on operating evidence, financing, and execution."
     ],
     "quick_facts": [
       [
-        "Founded",
-        "2022"
-      ],
-      [
         "Headquarters",
-        "Redwood City, CA"
-      ],
-      [
-        "Sector",
-        "Artificial intelligence"
+        "Redwood City, California"
       ],
       [
         "Focus",
-        "AI inference platform"
-      ],
-      [
-        "Public status",
-        "Private"
+        "AI model infrastructure"
       ],
       [
         "Website",
         "fireworks.ai"
+      ],
+      [
+        "Public status",
+        "Private"
       ]
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://fireworks.ai"
+        "label": "Primary company or transaction source",
+        "url": "https://fireworks.ai/"
       },
       {
-        "label": "Private-company valuation reference",
+        "label": "Private Ledger valuation reference",
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]

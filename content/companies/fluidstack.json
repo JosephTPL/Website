@@ -3,131 +3,111 @@
   "name": "Fluidstack",
   "status": "Published",
   "sector": "Cloud infrastructure",
-  "summary": "Fluidstack supplies GPU cloud capacity and data-centre infrastructure for AI workloads.",
-  "overview": "<p>Fluidstack supplies GPU cloud capacity and data-centre infrastructure for AI workloads.</p>",
+  "summary": "Fluidstack provides GPU cloud capacity and AI infrastructure.",
+  "overview": "<p>Fluidstack provides GPU cloud capacity and AI infrastructure. It competes in a market where power, hardware access, network design, and financing determine whether demand turns into usable compute.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
-      "label": "Reported valuation",
+      "label": "Latest valuation or financing context",
       "value": "$18B",
-      "note": "Private Ledger market-watch estimate; private valuations can change without a public financing.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
-    },
-    {
-      "label": "Public status",
-      "value": "Private",
-      "note": "No confirmed public offering is reflected in this profile.",
-      "source": "https://www.fluidstack.io"
-    },
-    {
-      "label": "Primary focus",
-      "value": "AI cloud capacity",
-      "note": "Company product and market positioning.",
-      "source": "https://www.fluidstack.io"
+      "note": "As of 2026. This is a market estimate or disclosed transaction context, not a continuously quoted price.",
+      "source": "https://www.fluidstack.io/"
     }
   ],
   "directory_rank": 33,
   "bull_case": "Fluidstack is positioned in a market where scale, distribution, and execution can compound.",
   "bear_case": "Private-market estimates are uncertain, and market structure, regulation, competition, or execution could materially change the outlook.",
-  "latest_round": "Reported valuation: $18B",
+  "latest_round": "2026: Reported financing context",
   "directory_notes": [
-    "AI cloud capacity",
-    "Watch for funding, operating milestones, and market-structure changes."
+    "AI cloud infrastructure",
+    "The central question is how much value remains with specialist clouds as hyperscalers and AI labs build their own capacity."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "London, UK",
+    "location": "London, United Kingdom",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=www.fluidstack.io&sz=128",
-    "description": "Fluidstack supplies GPU cloud capacity and data-centre infrastructure for AI workloads.",
+    "description": "Fluidstack provides GPU cloud capacity and AI infrastructure. It competes in a market where power, hardware access, network design, and financing determine whether demand turns into usable compute.",
     "metrics": [
       {
         "value": "$18B",
-        "label": "Reported valuation",
-        "note": "Private Ledger market watch"
+        "label": "Latest valuation",
+        "note": "2026"
+      },
+      {
+        "value": "Reported financing context",
+        "label": "Latest financing",
+        "note": "2026"
+      },
+      {
+        "value": "AI cloud infrastructure",
+        "label": "Business focus",
+        "note": "Company profile"
       },
       {
         "value": "Private",
         "label": "Public status",
-        "note": "No confirmed IPO"
-      },
-      {
-        "value": "Cloud infrastructure",
-        "label": "Sector",
-        "note": "AI cloud capacity"
-      },
-      {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Latest editorial review"
+        "note": "No confirmed public listing"
       }
     ],
     "company": [
-      "Fluidstack supplies GPU cloud capacity and data-centre infrastructure for AI workloads.",
-      "The company's investment case is tied to ai cloud capacity. This profile will be refreshed when material financing, operating, or market-structure developments are publicly reported."
+      "Fluidstack provides GPU cloud capacity and AI infrastructure. It competes in a market where power, hardware access, network design, and financing determine whether demand turns into usable compute.",
+      "The central question is how much value remains with specialist clouds as hyperscalers and AI labs build their own capacity."
     ],
-    "why_it_matters": "AI cloud capacity is central to the company story. The key question is whether Fluidstack can translate private-market momentum into a durable operating position.",
+    "why_it_matters": "The central question is how much value remains with specialist clouds as hyperscalers and AI labs build their own capacity.",
     "valuation_history": [
       {
-        "value": "Private",
-        "date": "2017",
-        "round": "Company founded or established"
+        "value": "$4B",
+        "date": "2025 reported estimate",
+        "round": "Earlier reported context"
       },
       {
         "value": "$18B",
         "date": "2026",
-        "round": "Latest reported estimate"
+        "round": "Reported financing context"
       }
     ],
     "changed": [
       {
-        "date": "2017",
-        "text": "Fluidstack begins operating in its current form."
+        "date": "2025 reported estimate",
+        "text": "Earlier public financing or market context recorded."
       },
       {
         "date": "2026",
-        "text": "The company remains on The Private Ledger market watchlist following the latest editorial review."
+        "text": "Latest profile review: Reported financing context."
       }
     ],
     "takeaways": [
-      "AI cloud capacity is the company's operating focus.",
-      "Fluidstack is being tracked as a private-market company to watch.",
-      "Private-company valuation estimates are directional rather than audited market prices.",
-      "Funding, regulation, and commercial execution are the next variables to watch."
+      "Fluidstack is a private-market name in ai cloud infrastructure.",
+      "The central question is how much value remains with specialist clouds as hyperscalers and AI labs build their own capacity.",
+      "The displayed valuation should be read with its disclosure context, not as a live market price.",
+      "Future updates will focus on operating evidence, financing, and execution."
     ],
     "quick_facts": [
       [
-        "Founded",
-        "2017"
-      ],
-      [
         "Headquarters",
-        "London, UK"
-      ],
-      [
-        "Sector",
-        "Cloud infrastructure"
+        "London, United Kingdom"
       ],
       [
         "Focus",
-        "AI cloud capacity"
-      ],
-      [
-        "Public status",
-        "Private"
+        "AI cloud infrastructure"
       ],
       [
         "Website",
         "www.fluidstack.io"
+      ],
+      [
+        "Public status",
+        "Private"
       ]
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://www.fluidstack.io"
+        "label": "Primary company or transaction source",
+        "url": "https://www.fluidstack.io/"
       },
       {
-        "label": "Private-company valuation reference",
+        "label": "Private Ledger valuation reference",
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]

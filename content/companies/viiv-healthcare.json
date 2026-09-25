@@ -3,131 +3,111 @@
   "name": "ViiV Healthcare",
   "status": "Published",
   "sector": "Healthcare",
-  "summary": "ViiV Healthcare develops and commercialises treatments and prevention products for HIV.",
-  "overview": "<p>ViiV Healthcare develops and commercialises treatments and prevention products for HIV.</p>",
+  "summary": "ViiV Healthcare is a specialist HIV company majority owned by GSK with Pfizer and Shionogi as shareholders.",
+  "overview": "<p>ViiV Healthcare is a specialist HIV company majority owned by GSK with Pfizer and Shionogi as shareholders. It develops and commercializes prevention and treatment medicines.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
-      "label": "Reported valuation",
+      "label": "Latest valuation or financing context",
       "value": "$18.2B",
-      "note": "Private Ledger market-watch estimate; private valuations can change without a public financing.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
-    },
-    {
-      "label": "Public status",
-      "value": "Private",
-      "note": "No confirmed public offering is reflected in this profile.",
-      "source": "https://viivhealthcare.com"
-    },
-    {
-      "label": "Primary focus",
-      "value": "HIV medicines",
-      "note": "Company product and market positioning.",
-      "source": "https://viivhealthcare.com"
+      "note": "As of 2026. This is a market estimate or disclosed transaction context, not a continuously quoted price.",
+      "source": "https://viivhealthcare.com/"
     }
   ],
   "directory_rank": 32,
   "bull_case": "ViiV Healthcare is positioned in a market where scale, distribution, and execution can compound.",
   "bear_case": "Private-market estimates are uncertain, and market structure, regulation, competition, or execution could materially change the outlook.",
-  "latest_round": "Reported valuation: $18.2B",
+  "latest_round": "2026: Not independently disclosed",
   "directory_notes": [
     "HIV medicines",
-    "Watch for funding, operating milestones, and market-structure changes."
+    "The company is driven by long-acting HIV therapies, market access, patents, and clinical evidence. The displayed figure is a market-watch estimate, not a current public financing value."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "London, UK",
+    "location": "London, United Kingdom",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=viivhealthcare.com&sz=128",
-    "description": "ViiV Healthcare develops and commercialises treatments and prevention products for HIV.",
+    "description": "ViiV Healthcare is a specialist HIV company majority owned by GSK with Pfizer and Shionogi as shareholders. It develops and commercializes prevention and treatment medicines.",
     "metrics": [
       {
         "value": "$18.2B",
-        "label": "Reported valuation",
-        "note": "Private Ledger market watch"
+        "label": "Latest valuation",
+        "note": "2026"
+      },
+      {
+        "value": "Not independently disclosed",
+        "label": "Latest financing",
+        "note": "2026"
+      },
+      {
+        "value": "HIV medicines",
+        "label": "Business focus",
+        "note": "Company profile"
       },
       {
         "value": "Private",
         "label": "Public status",
-        "note": "No confirmed IPO"
-      },
-      {
-        "value": "Healthcare",
-        "label": "Sector",
-        "note": "HIV medicines"
-      },
-      {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Latest editorial review"
+        "note": "No confirmed public listing"
       }
     ],
     "company": [
-      "ViiV Healthcare develops and commercialises treatments and prevention products for HIV.",
-      "The company's investment case is tied to hiv medicines. This profile will be refreshed when material financing, operating, or market-structure developments are publicly reported."
+      "ViiV Healthcare is a specialist HIV company majority owned by GSK with Pfizer and Shionogi as shareholders. It develops and commercializes prevention and treatment medicines.",
+      "The company is driven by long-acting HIV therapies, market access, patents, and clinical evidence. The displayed figure is a market-watch estimate, not a current public financing value."
     ],
-    "why_it_matters": "HIV medicines is central to the company story. The key question is whether ViiV Healthcare can translate private-market momentum into a durable operating position.",
+    "why_it_matters": "The company is driven by long-acting HIV therapies, market access, patents, and clinical evidence. The displayed figure is a market-watch estimate, not a current public financing value.",
     "valuation_history": [
       {
-        "value": "Private",
-        "date": "2009",
-        "round": "Company founded or established"
+        "value": "N/A",
+        "date": "N/A",
+        "round": "Earlier reported context"
       },
       {
         "value": "$18.2B",
         "date": "2026",
-        "round": "Latest reported estimate"
+        "round": "Not independently disclosed"
       }
     ],
     "changed": [
       {
-        "date": "2009",
-        "text": "ViiV Healthcare begins operating in its current form."
+        "date": "N/A",
+        "text": "Earlier public financing or market context recorded."
       },
       {
         "date": "2026",
-        "text": "The company remains on The Private Ledger market watchlist following the latest editorial review."
+        "text": "Latest profile review: Not independently disclosed."
       }
     ],
     "takeaways": [
-      "HIV medicines is the company's operating focus.",
-      "ViiV Healthcare is being tracked as a private-market company to watch.",
-      "Private-company valuation estimates are directional rather than audited market prices.",
-      "Funding, regulation, and commercial execution are the next variables to watch."
+      "ViiV Healthcare is a private-market name in hiv medicines.",
+      "The company is driven by long-acting HIV therapies, market access, patents, and clinical evidence. The displayed figure is a market-watch estimate, not a current public financing value.",
+      "The displayed valuation should be read with its disclosure context, not as a live market price.",
+      "Future updates will focus on operating evidence, financing, and execution."
     ],
     "quick_facts": [
       [
-        "Founded",
-        "2009"
-      ],
-      [
         "Headquarters",
-        "London, UK"
-      ],
-      [
-        "Sector",
-        "Healthcare"
+        "London, United Kingdom"
       ],
       [
         "Focus",
         "HIV medicines"
       ],
       [
-        "Public status",
-        "Private"
-      ],
-      [
         "Website",
         "viivhealthcare.com"
+      ],
+      [
+        "Public status",
+        "Private"
       ]
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://viivhealthcare.com"
+        "label": "Primary company or transaction source",
+        "url": "https://viivhealthcare.com/"
       },
       {
-        "label": "Private-company valuation reference",
+        "label": "Private Ledger valuation reference",
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]

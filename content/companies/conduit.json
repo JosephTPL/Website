@@ -3,131 +3,111 @@
   "name": "Conduit",
   "status": "Published",
   "sector": "Fintech",
-  "summary": "Conduit provides payment infrastructure for businesses moving money across borders.",
-  "overview": "<p>Conduit provides payment infrastructure for businesses moving money across borders.</p>",
+  "summary": "Conduit is tracked as a private financial-infrastructure company.",
+  "overview": "<p>Conduit is tracked as a private financial-infrastructure company. Public disclosure of its financing and operating metrics is limited.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
-      "label": "Reported valuation",
-      "value": "Not publicly disclosed",
-      "note": "Private Ledger market-watch estimate; private valuations can change without a public financing.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
-    },
-    {
-      "label": "Public status",
-      "value": "Private",
-      "note": "No confirmed public offering is reflected in this profile.",
-      "source": "https://conduit.com"
-    },
-    {
-      "label": "Primary focus",
-      "value": "Cross-border payments",
-      "note": "Company product and market positioning.",
-      "source": "https://conduit.com"
+      "label": "Latest valuation or financing context",
+      "value": "No confirmed financing disclosed",
+      "note": "As of 2026. No public valuation is asserted.",
+      "source": "https://conduit.com/"
     }
   ],
   "directory_rank": 36,
   "bull_case": "Conduit is positioned in a market where scale, distribution, and execution can compound.",
   "bear_case": "Private-market estimates are uncertain, and market structure, regulation, competition, or execution could materially change the outlook.",
-  "latest_round": "Latest financing not publicly disclosed",
+  "latest_round": "2026: No confirmed financing disclosed",
   "directory_notes": [
-    "Cross-border payments",
-    "Watch for funding, operating milestones, and market-structure changes."
+    "Financial infrastructure",
+    "This profile will become more specific when the company discloses a priced financing, product milestones, or operating data."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
     "location": "United States",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=conduit.com&sz=128",
-    "description": "Conduit provides payment infrastructure for businesses moving money across borders.",
+    "description": "Conduit is tracked as a private financial-infrastructure company. Public disclosure of its financing and operating metrics is limited.",
     "metrics": [
       {
         "value": "Not publicly disclosed",
-        "label": "Reported valuation",
-        "note": "Private Ledger market watch"
+        "label": "Latest valuation",
+        "note": "2026"
+      },
+      {
+        "value": "No confirmed financing disclosed",
+        "label": "Latest financing",
+        "note": "2026"
+      },
+      {
+        "value": "Financial infrastructure",
+        "label": "Business focus",
+        "note": "Company profile"
       },
       {
         "value": "Private",
         "label": "Public status",
-        "note": "No confirmed IPO"
-      },
-      {
-        "value": "Fintech",
-        "label": "Sector",
-        "note": "Cross-border payments"
-      },
-      {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Latest editorial review"
+        "note": "No confirmed public listing"
       }
     ],
     "company": [
-      "Conduit provides payment infrastructure for businesses moving money across borders.",
-      "The company's investment case is tied to cross-border payments. This profile will be refreshed when material financing, operating, or market-structure developments are publicly reported."
+      "Conduit is tracked as a private financial-infrastructure company. Public disclosure of its financing and operating metrics is limited.",
+      "This profile will become more specific when the company discloses a priced financing, product milestones, or operating data."
     ],
-    "why_it_matters": "Cross-border payments is central to the company story. The key question is whether Conduit can translate private-market momentum into a durable operating position.",
+    "why_it_matters": "This profile will become more specific when the company discloses a priced financing, product milestones, or operating data.",
     "valuation_history": [
       {
-        "value": "Private",
-        "date": "2021",
-        "round": "Company founded or established"
+        "value": "N/A",
+        "date": "N/A",
+        "round": "Earlier reported context"
       },
       {
         "value": "Not publicly disclosed",
         "date": "2026",
-        "round": "Latest reported estimate"
+        "round": "No confirmed financing disclosed"
       }
     ],
     "changed": [
       {
-        "date": "2021",
-        "text": "Conduit begins operating in its current form."
+        "date": "N/A",
+        "text": "Earlier public financing or market context recorded."
       },
       {
         "date": "2026",
-        "text": "The company remains on The Private Ledger market watchlist following the latest editorial review."
+        "text": "Latest profile review: No confirmed financing disclosed."
       }
     ],
     "takeaways": [
-      "Cross-border payments is the company's operating focus.",
-      "Conduit is being tracked as a private-market company to watch.",
-      "Private-company valuation estimates are directional rather than audited market prices.",
-      "Funding, regulation, and commercial execution are the next variables to watch."
+      "Conduit is a private-market name in financial infrastructure.",
+      "This profile will become more specific when the company discloses a priced financing, product milestones, or operating data.",
+      "The displayed valuation should be read with its disclosure context, not as a live market price.",
+      "Future updates will focus on operating evidence, financing, and execution."
     ],
     "quick_facts": [
-      [
-        "Founded",
-        "2021"
-      ],
       [
         "Headquarters",
         "United States"
       ],
       [
-        "Sector",
-        "Fintech"
-      ],
-      [
         "Focus",
-        "Cross-border payments"
-      ],
-      [
-        "Public status",
-        "Private"
+        "Financial infrastructure"
       ],
       [
         "Website",
         "conduit.com"
+      ],
+      [
+        "Public status",
+        "Private"
       ]
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://conduit.com"
+        "label": "Primary company or transaction source",
+        "url": "https://conduit.com/"
       },
       {
-        "label": "Private-company valuation reference",
+        "label": "Private Ledger valuation reference",
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
