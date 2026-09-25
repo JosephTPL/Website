@@ -26,7 +26,7 @@
     "kicker": "COMPANY INTELLIGENCE",
     "location": "United States",
     "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=tacitlabs.ai&sz=128",
+    "logo": "/logos/tacit-labs.svg",
     "description": "Tacit Labs develops AI-assisted technical price intelligence for decision-makers.",
     "metrics": [
       {

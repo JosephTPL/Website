@@ -26,7 +26,7 @@
     "kicker": "COMPANY INTELLIGENCE",
     "location": "United States",
     "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=normal.com&sz=128",
+    "logo": "/logos/normal.svg",
     "description": "Normal is tracked as a private company with limited public financial disclosure. Its profile should be read as a research placeholder rather than a valuation claim.",
     "metrics": [
       {

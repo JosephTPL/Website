@@ -26,7 +26,7 @@
     "kicker": "COMPANY INTELLIGENCE",
     "location": "Undisclosed",
     "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=pcompute.com&sz=128",
+    "logo": "/logos/pcompute.svg",
     "description": "pCompute is a private company tracked by The Private Ledger in compute infrastructure.",
     "metrics": [
       {

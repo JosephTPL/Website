@@ -26,7 +26,7 @@
     "kicker": "COMPANY INTELLIGENCE",
     "location": "Undisclosed",
     "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=quadrillion.com&sz=128",
+    "logo": "/logos/quadrillion.ico",
     "description": "Quadrillion is a private technology company tracked by The Private Ledger.",
     "metrics": [
       {
