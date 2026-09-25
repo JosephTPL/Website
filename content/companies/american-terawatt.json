@@ -8,16 +8,16 @@
   "as_of": "2026-09-25",
   "facts": [
     {
-      "label": "SEC filing",
-      "value": "Form D filed May 2026",
-      "note": "The filing confirms an exempt offering, not a disclosed valuation.",
+      "label": "Latest financing",
+      "value": "May 2026: $53M Series B",
+      "note": "The valuation was not publicly disclosed.",
       "source": "https://www.sec.gov/Archives/edgar/data/2135715/000213571526000001/0002135715-26-000001-index.htm"
     }
   ],
-  "directory_rank": 56,
+  "directory_rank": 84,
   "bull_case": "American Terawatt is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "May 2026: $53M Series B; valuation undisclosed",
   "directory_notes": [
     "Energy and power infrastructure",
     "A May 2026 SEC Form D confirms an exempt offering, but public details on proceeds and valuation are limited."
@@ -58,8 +58,8 @@
     "valuation_history": [
       {
         "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "date": "May 2026",
+        "round": "$53M Series B; valuation not disclosed"
       }
     ],
     "changed": [

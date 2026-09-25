@@ -8,16 +8,16 @@
   "as_of": "2026-09-25",
   "facts": [
     {
-      "label": "Latest financing",
-      "value": "Undisclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
+      "label": "Status",
+      "value": "Coinbase-operated Layer-2 network",
+      "note": "Base is not a standalone venture-backed company with an applicable private valuation.",
       "source": "https://base.org"
     }
   ],
-  "directory_rank": 121,
+  "directory_rank": 86,
   "bull_case": "Base is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "Not applicable: Coinbase-operated Layer-2 network",
   "directory_notes": [
     "Blockchain infrastructure",
     "Public financing and operating data remain limited."
@@ -30,14 +30,14 @@
     "description": "Base is a private company tracked by The Private Ledger in blockchain infrastructure.",
     "metrics": [
       {
-        "value": "Undisclosed",
-        "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "value": "N/A",
+        "label": "Standalone valuation",
+        "note": "Base is operated by Coinbase"
       },
       {
-        "value": "Private",
-        "label": "Public status",
-        "note": "No confirmed listing"
+        "value": "Coinbase-operated",
+        "label": "Operating status",
+        "note": "Layer-2 network"
       },
       {
         "value": "Blockchain infrastructure",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
+        "value": "N/A",
         "date": "Current",
-        "round": "No confirmed priced round"
+        "round": "Coinbase-operated network"
       }
     ],
     "changed": [

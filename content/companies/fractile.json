@@ -8,16 +8,16 @@
   "as_of": "2026-09-25",
   "facts": [
     {
-      "label": "Latest financing",
-      "value": "May 2026: $220M financing",
-      "note": "Fractile announced the financing to develop next-generation AI inference hardware; valuation was not announced.",
-      "source": "https://www.fractile.ai/news/fractile-raises-220m-to-build-the-next-generation-of-inference-hardware"
+      "label": "Reported valuation discussion",
+      "value": "Mid-2026: $6.5B pre-money",
+      "note": "Reported financing discussions, not a completed and announced round.",
+      "source": "https://news.bloomberglaw.com/private-equity/chip-firm-fractile-seeks-6-5-billion-value-after-anthropic-deal"
     }
   ],
-  "directory_rank": 102,
+  "directory_rank": 98,
   "bull_case": "Fractile is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "May 2026: $220M financing",
+  "latest_round": "Reported mid-2026 financing talks at a $6.5B pre-money valuation",
   "directory_notes": [
     "AI infrastructure",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Fractile is a private company tracked by The Private Ledger in ai infrastructure.",
     "metrics": [
       {
-        "value": "Undisclosed",
-        "label": "Latest valuation",
-        "note": "Valuation was not announced with the May 2026 financing"
+        "value": "$6.5B",
+        "label": "Reported valuation discussion",
+        "note": "Reported pre-money financing talks; not a completed round"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "$220M raised",
-        "date": "May 2026",
-        "round": "Latest financing"
+        "value": "$6.5B",
+        "date": "Aug 2026",
+        "round": "Reported pre-money financing talks"
       }
     ],
     "changed": [

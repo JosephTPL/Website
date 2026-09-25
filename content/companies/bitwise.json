@@ -8,16 +8,16 @@
   "as_of": "2026-09-25",
   "facts": [
     {
-      "label": "Latest financing",
-      "value": "February 2025: $70M equity financing",
-      "note": "Bitwise announced a $70 million equity raise; its valuation was not disclosed.",
-      "source": "https://www.theblock.co/news/deals/2025-02-25-spot-bitcoin-etf-issuer-bitwise-raises-70-million-backed-by-electric-capital-massmutual-and-haun-ventures-343279"
+      "label": "Estimated valuation",
+      "value": "$500M+",
+      "note": "Estimate; Bitwise has not publicly disclosed a priced valuation for its latest financing.",
+      "source": ""
     }
   ],
-  "directory_rank": 94,
+  "directory_rank": 88,
   "bull_case": "Bitwise is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "February 2025 equity financing: $70M; valuation undisclosed",
+  "latest_round": "Estimated valuation: $500M+",
   "directory_notes": [
     "Digital-asset management",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Bitwise is a private company tracked by The Private Ledger in digital-asset management.",
     "metrics": [
       {
-        "value": "Undisclosed",
+        "value": "$500M+",
         "label": "Latest valuation",
-        "note": "Valuation was not announced with the February 2025 financing"
+        "note": "Third-party estimate; not a disclosed financing price"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "$70M raised",
-        "date": "Feb 2025",
-        "round": "Equity financing"
+        "value": "$500M+",
+        "date": "Current",
+        "round": "Estimated valuation"
       }
     ],
     "changed": [

@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "March 2026: $30M Series A",
+      "value": "September 2025: $30M Series A",
       "note": "Brain Co. announced the financing alongside its public launch; valuation was not announced.",
       "source": "https://brain.co/blog/introducing-brain-co-9gk9a"
     }
   ],
-  "directory_rank": 96,
+  "directory_rank": 90,
   "bull_case": "Brain Co. is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "March 2026: $30M Series A",
+  "latest_round": "September 2025: $30M Series A; valuation undisclosed",
   "directory_notes": [
     "Brain-computer interfaces",
     "Public financing and operating data remain limited."
@@ -32,7 +32,7 @@
       {
         "value": "Undisclosed",
         "label": "Latest valuation",
-        "note": "Valuation was not announced with the March 2026 Series A"
+        "note": "Valuation was not announced with the September 2025 Series A"
       },
       {
         "value": "Private",
@@ -58,7 +58,7 @@
     "valuation_history": [
       {
         "value": "$30M raised",
-        "date": "Mar 2026",
+        "date": "Sep 2025",
         "round": "Series A"
       }
     ],

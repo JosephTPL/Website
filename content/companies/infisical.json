@@ -10,14 +10,14 @@
     {
       "label": "Latest financing",
       "value": "June 2025: $16M Series A",
-      "note": "The secrets-management company announced the Series A; valuation was not disclosed.",
-      "source": "https://www.cbinsights.com/company/infiscal/financials"
+      "note": "Led by Elad Gil; disclosed total funding is $19.3M. The valuation was not disclosed.",
+      "source": "https://infisical.com/blog/series-a"
     }
   ],
-  "directory_rank": 71,
+  "directory_rank": 102,
   "bull_case": "Infisical is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "June 2025: $16M Series A",
+  "latest_round": "June 2025: $16M Series A; $19.3M total funding reported",
   "directory_notes": [
     "Developer infrastructure",
     "Public financing and operating data remain limited."

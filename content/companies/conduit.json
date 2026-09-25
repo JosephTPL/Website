@@ -8,16 +8,16 @@
   "as_of": "2026-09-25",
   "facts": [
     {
-      "label": "Latest valuation or financing context",
-      "value": "No confirmed financing disclosed",
-      "note": "As of 2026. No public valuation is asserted.",
-      "source": "https://conduit.com/"
+      "label": "Total funding",
+      "value": "$58.9M reported",
+      "note": "Conduit is private; a precise valuation has not been publicly disclosed.",
+      "source": ""
     }
   ],
-  "directory_rank": 36,
+  "directory_rank": 92,
   "bull_case": "Conduit is positioned in a market where scale, distribution, and execution can compound.",
   "bear_case": "Private-market estimates are uncertain, and market structure, regulation, competition, or execution could materially change the outlook.",
-  "latest_round": "2026: No confirmed financing disclosed",
+  "latest_round": "$58.9M total funding reported; valuation undisclosed",
   "directory_notes": [
     "Financial infrastructure",
     "This profile will become more specific when the company discloses a priced financing, product milestones, or operating data."
@@ -32,12 +32,12 @@
       {
         "value": "Undisclosed",
         "label": "Latest valuation",
-        "note": "2026"
+        "note": "No disclosed priced valuation"
       },
       {
-        "value": "No confirmed financing disclosed",
+        "value": "$58.9M total funding",
         "label": "Latest financing",
-        "note": "2026"
+        "note": "Reported cumulative funding"
       },
       {
         "value": "Financial infrastructure",
@@ -62,9 +62,9 @@
         "round": "Earlier reported context"
       },
       {
-        "value": "Undisclosed",
-        "date": "2026",
-        "round": "No confirmed financing disclosed"
+        "value": "$58.9M total funding",
+        "date": "Current",
+        "round": "Reported cumulative funding"
       }
     ],
     "changed": [
@@ -73,8 +73,8 @@
         "text": "Earlier public financing or market context recorded."
       },
       {
-        "date": "2026",
-        "text": "Latest profile review: No confirmed financing disclosed."
+        "date": "Sep 2026",
+        "text": "Profile updated with $58.9M in reported total funding; valuation remains undisclosed."
       }
     ],
     "takeaways": [

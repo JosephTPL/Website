@@ -8,16 +8,16 @@
   "as_of": "2026-09-25",
   "facts": [
     {
-      "label": "Latest financing",
-      "value": "Undisclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://convergent.com"
+      "label": "Total funding",
+      "value": "$130M reported",
+      "note": "Convergent is private; a precise valuation has not been publicly disclosed.",
+      "source": ""
     }
   ],
-  "directory_rank": 57,
+  "directory_rank": 93,
   "bull_case": "Convergent is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "$130M total funding reported; valuation undisclosed",
   "directory_notes": [
     "AI simulations",
     "The public record indicates early-stage financing only; future research should focus on product traction and enterprise adoption."
@@ -57,9 +57,9 @@
     "why_it_matters": "The public record indicates early-stage financing only; future research should focus on product traction and enterprise adoption.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
+        "value": "$130M total funding",
         "date": "Current",
-        "round": "No confirmed priced round"
+        "round": "Reported cumulative funding"
       }
     ],
     "changed": [

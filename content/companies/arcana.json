@@ -8,16 +8,16 @@
   "as_of": "2026-09-25",
   "facts": [
     {
-      "label": "Latest financing",
-      "value": "April 2026: $17.3M Series B at $505M",
-      "note": "Reported Series B financing and post-money valuation.",
-      "source": "https://forgeglobal.com/arcana_stock/"
+      "label": "Financing stage",
+      "value": "Seed",
+      "note": "Private company; its precise valuation has not been publicly disclosed.",
+      "source": ""
     }
   ],
-  "directory_rank": 120,
+  "directory_rank": 85,
   "bull_case": "Arcana is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "April 2026: $17.3M Series B at $505M",
+  "latest_round": "Seed financing; valuation undisclosed",
   "directory_notes": [
     "Artificial intelligence",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Arcana is a private company tracked by The Private Ledger in artificial intelligence.",
     "metrics": [
       {
-        "value": "$505M",
+        "value": "Undisclosed",
         "label": "Latest valuation",
-        "note": "April 2026 Series B"
+        "note": "Seed financing"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "$505M",
-        "date": "Apr 2026",
-        "round": "Series B"
+        "value": "Not disclosed",
+        "date": "Current",
+        "round": "Seed"
       }
     ],
     "changed": [

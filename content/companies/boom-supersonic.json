@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "December 2025: $300M Series B at $1.5B",
-      "note": "The Series B more than doubled Boom's initial funding target.",
+      "value": "Series B-1 at a reported $1.5B–$1.8B valuation",
+      "note": "Reported valuation range for Boom's Series B-1 financing.",
       "source": "https://multiples.vc/private-comps/boom-supersonic"
     }
   ],
-  "directory_rank": 95,
+  "directory_rank": 89,
   "bull_case": "Boom Supersonic is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "December 2025: $300M Series B at $1.5B",
+  "latest_round": "Series B-1 at a reported $1.5B–$1.8B valuation",
   "directory_notes": [
     "Aerospace",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Boom Supersonic is a private company tracked by The Private Ledger in aerospace.",
     "metrics": [
       {
-        "value": "$1.5B",
+        "value": "$1.5B–$1.8B",
         "label": "Latest valuation",
-        "note": "December 2025 Series B"
+        "note": "Reported Series B-1 valuation range"
       },
       {
         "value": "Private",
@@ -52,14 +52,14 @@
     ],
     "company": [
       "Boom Supersonic is a private company tracked by The Private Ledger in aerospace.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Boom's Series B-1 financing was reported at a valuation in the $1.5 billion to $1.8 billion range."
     ],
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "$1.5B",
+        "value": "$1.5B–$1.8B",
         "date": "Dec 2025",
-        "round": "Series B"
+        "round": "Series B-1"
       }
     ],
     "changed": [
@@ -70,7 +70,7 @@
     ],
     "takeaways": [
       "Boom Supersonic is tracked in aerospace.",
-      "Available public information does not support a confirmed valuation claim.",
+      "Reported Series B-1 pricing places the company in a $1.5 billion to $1.8 billion valuation range.",
       "Future updates should focus on product adoption, financing, and operating disclosure."
     ],
     "quick_facts": [

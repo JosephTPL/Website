@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "June 2026: $225M Series C",
-      "note": "Beacon said the financing brought total capital raised to more than $500M; valuation was not announced.",
+      "value": "$550M total funding reported",
+      "note": "Beacon is a private holding and acquisition vehicle; its valuation was not announced.",
       "source": "https://www.morningstar.com/news/business-wire/20260609855732/beacon-raises-225m-series-c-to-bring-ai-to-the-everyday-economy"
     }
   ],
-  "directory_rank": 79,
+  "directory_rank": 87,
   "bull_case": "Beacon is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "June 2026: $225M Series C",
+  "latest_round": "Private; $550M total funding reported",
   "directory_notes": [
     "Technology",
     "Public financing and operating data remain limited."
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "$225M raised",
-        "date": "Jun 2026",
-        "round": "Series C"
+        "value": "$550M total funding",
+        "date": "Current",
+        "round": "Reported cumulative funding"
       }
     ],
     "changed": [
