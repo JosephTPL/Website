@@ -1,1 +1,24 @@
-{"slug":"gusto","status":"Published","name":"Gusto","sector":"HR software","summary":"Payroll and people platform for small and medium-sized businesses.","overview":"<p>Gusto delivers payroll, benefits, and HR software to smaller businesses.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"August 2021: $175M Series E","note":"Publicly reported financing context.","source":""}],"directory_rank":33,"bull_case":"Payroll is sticky and offers a foundation for broader financial and HR services.","bear_case":"SMB churn, incumbents, and lower employment growth can weigh on expansion.","latest_round":"August 2021: $175M Series E","directory_notes":["Payroll retention","benefits attach rate."]}
+{
+  "slug": "gusto",
+  "status": "Published",
+  "name": "Gusto",
+  "sector": "HR software",
+  "summary": "Payroll and people platform for small and medium-sized businesses.",
+  "overview": "<p>Gusto delivers payroll, benefits, and HR software to smaller businesses.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "August 2021: $175M Series E",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 33,
+  "bull_case": "Payroll is sticky and offers a foundation for broader financial and HR services.",
+  "bear_case": "SMB churn, incumbents, and lower employment growth can weigh on expansion.",
+  "latest_round": "August 2021: $175M Series E",
+  "directory_notes": ["Payroll retention", "benefits attach rate."],
+  "intelligence":{"kicker":"COMPANY INTELLIGENCE","location":"San Francisco, California","status":"Private","logo":"https://www.google.com/s2/favicons?domain=gusto.com&sz=128","description":"Gusto provides payroll, benefits, HR, and compliance software for small and medium-sized businesses.","metrics":[{"value":"Not publicly disclosed","label":"Latest valuation","note":"No recent confirmed priced round"},{"value":"$175M","label":"Latest disclosed funding","note":"Series E, 2021"},{"value":"2011","label":"Founded","note":"SMB payroll"},{"value":"Private","label":"Public status","note":"No announced listing"}],"company":["Gusto sells a software platform for payroll, benefits, and HR administration to small and medium-sized businesses.","Payroll is a recurring workflow with high switching costs, giving the company a route to expand through benefits and financial services."],"why_it_matters":"Gusto is a bellwether for the economics of software-led payroll serving small businesses, a market shaped by employment growth, churn, and financial-services attachment.","valuation_history":[{"value":"Not disclosed","date":"Aug 2021","round":"Series E, $175M"}],"changed":[{"date":"2021","text":"Raised $175M Series E; subsequent valuation information is not confirmed in primary public disclosure."}],"takeaways":["Payroll is a sticky entry point into SMB financial workflows.","Benefits and HR products drive the expansion opportunity.","A current priced valuation is not publicly confirmed."],"quick_facts":[["Focus","Payroll, benefits, HR"],["Founded","2011"],["Status","Private"],["Website","gusto.com"]],"sources":[{"label":"Gusto website","url":"https://gusto.com"}]}
+}

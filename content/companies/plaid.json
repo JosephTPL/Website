@@ -4,7 +4,7 @@
   "name": "Plaid",
   "sector": "Fintech infrastructure",
   "summary": "Plaid is a notable private company in fintech infrastructure.",
-  "overview": "<p>Plaid is included in The Private Ledger\u2019s company directory for ongoing research.</p>",
+  "overview": "<p>Plaid is included in The Private Ledger’s company directory for ongoing research.</p>",
   "image": "",
   "image_alt": "",
   "as_of": "2026-09-21",
@@ -21,8 +21,6 @@
   "bull_case": "Connectivity infrastructure can become embedded in a wide range of financial products.",
   "bear_case": "Bank access, regulation, and pricing pressure can reshape the economics.",
   "latest_round": "April 2021: $575M Series D",
-  "directory_notes": [
-    "New use cases",
-    "bank partnerships and conversion."
-  ]
+  "directory_notes": ["New use cases", "bank partnerships and conversion."],
+  "intelligence":{"kicker":"COMPANY INTELLIGENCE","location":"San Francisco, California","status":"Private","logo":"https://www.google.com/s2/favicons?domain=plaid.com&sz=128","description":"Plaid provides data connectivity and payments infrastructure for financial applications.","metrics":[{"value":"$8B","label":"Latest valuation","note":"Funding round, February 2026"},{"value":"Not disclosed","label":"Latest funding","note":"Valuation announced by company"},{"value":"2013","label":"Founded","note":"Financial infrastructure"},{"value":"Private","label":"Public status","note":"No announced listing"}],"company":["Plaid connects consumer financial accounts to fintech applications and provides data, identity, and payments infrastructure.","The company announced an $8 billion valuation in a 2026 funding round, marking a recovery from the $6.1 billion valuation reported in 2025."],"why_it_matters":"Plaid is core infrastructure for digital finance. Its growth reflects the health of fintech customer acquisition, open-banking connectivity, and the willingness of financial institutions to share data securely.","valuation_history":[{"value":"$6.1B","date":"Apr 2025","round":"Share sale, $575M"},{"value":"$8B","date":"Feb 2026","round":"Funding round"}],"changed":[{"date":"Feb 2026","text":"Plaid announced an $8B valuation in a funding round."}],"takeaways":["Plaid remains a core infrastructure provider to fintech applications.","The latest announced valuation is $8B.","Bank relationships and data-access rules remain strategic risks."],"quick_facts":[["Founded","2013"],["Focus","Financial data and payments infrastructure"],["Status","Private"],["Website","plaid.com"]],"sources":[{"label":"Plaid press: $8B valuation","url":"https://plaid.com/press/"},{"label":"Plaid shareholder letter","url":"https://assets.ctfassets.net/ss5kfr270og3/6mzrhYUB1oZkOeIcZUOx39/576915e13be33f29a4ef751c322a1007/2025_Plaid_Shareholder_Letter_final.pdf"}]}
 }

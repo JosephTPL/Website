@@ -1,1 +1,24 @@
-{"slug":"varda-space","status":"Published","name":"Varda Space Industries","sector":"Space","summary":"In-space manufacturing company developing pharmaceutical and materials production in orbit.","overview":"<p>Varda aims to use microgravity for manufacturing high-value products.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"June 2023: $90M Series B","note":"Publicly reported financing context.","source":""}],"directory_rank":44,"bull_case":"Microgravity manufacturing could create valuable products with unique properties.","bear_case":"Launch dependence, mission risk, and uncertain product demand make the business speculative.","latest_round":"June 2023: $90M Series B","directory_notes":["Mission cadence","commercial product validation."]}
+{
+  "slug": "varda-space",
+  "status": "Published",
+  "name": "Varda Space Industries",
+  "sector": "Space",
+  "summary": "In-space manufacturing company developing pharmaceutical and materials production in orbit.",
+  "overview": "<p>Varda aims to use microgravity for manufacturing high-value products.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "June 2023: $90M Series B",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 44,
+  "bull_case": "Microgravity manufacturing could create valuable products with unique properties.",
+  "bear_case": "Launch dependence, mission risk, and uncertain product demand make the business speculative.",
+  "latest_round": "June 2023: $90M Series B",
+  "directory_notes": ["Mission cadence", "commercial product validation."],
+  "intelligence":{"kicker":"COMPANY INTELLIGENCE","location":"El Segundo, California","status":"Private","logo":"https://www.google.com/s2/favicons?domain=varda.com&sz=128","description":"Varda develops spacecraft and return capsules for manufacturing pharmaceuticals and other materials in microgravity.","metrics":[{"value":"Not disclosed","label":"Latest valuation","note":"No confirmed priced valuation"},{"value":"$187M","label":"Latest funding","note":"Series C, 2025"},{"value":"2020","label":"Founded","note":"Space manufacturing"},{"value":"Private","label":"Public status","note":"No announced listing"}],"company":["Varda uses orbital microgravity environments to manufacture materials, then returns products to Earth in dedicated reentry capsules.","Its strategy combines in-space manufacturing with a growing return-capsule capability that can also support government and defense testing."],"why_it_matters":"Varda is a useful test of whether space infrastructure can produce commercial products with enough value to justify launch and return costs.","valuation_history":[{"value":"Not disclosed","date":"2025","round":"Series C, $187M"}],"changed":[{"date":"2025","text":"Raised $187M Series C to expand its manufacturing and mission cadence."}],"takeaways":["Microgravity manufacturing is the central commercial thesis.","Return-capsule execution is a key operational differentiator.","Valuation is not publicly confirmed."],"quick_facts":[["Focus","In-space manufacturing"],["Founded","2020"],["Status","Private"],["Website","varda.com"]],"sources":[{"label":"European Space Policy Institute: Series C","url":"https://www.espi.eu/wp-content/uploads/2025/08/ESPI-Insights-Issue-July-2025.pdf"},{"label":"NASA: Varda mission context","url":"https://ntrs.nasa.gov/api/citations/20250005968/downloads/Entry%20System%20PP%20NTRS.pdf"}]}
+}

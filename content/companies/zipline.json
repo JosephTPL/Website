@@ -1,1 +1,24 @@
-{"slug":"zipline","status":"Published","name":"Zipline","sector":"Logistics","summary":"Autonomous delivery company operating drone logistics networks.","overview":"<p>Zipline provides drone delivery services for medical and retail customers.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"April 2023: $330M Series F","note":"Publicly reported financing context.","source":""}],"directory_rank":45,"bull_case":"Reliable autonomous delivery could transform urgent and last-mile logistics.","bear_case":"Regulation, network economics, and high deployment costs can slow scale.","latest_round":"April 2023: $330M Series F","directory_notes":["Delivery volume","regulatory approvals."]}
+{
+  "slug": "zipline",
+  "status": "Published",
+  "name": "Zipline",
+  "sector": "Logistics",
+  "summary": "Autonomous delivery company operating drone logistics networks.",
+  "overview": "<p>Zipline provides drone delivery services for medical and retail customers.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "April 2023: $330M Series F",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 45,
+  "bull_case": "Reliable autonomous delivery could transform urgent and last-mile logistics.",
+  "bear_case": "Regulation, network economics, and high deployment costs can slow scale.",
+  "latest_round": "April 2023: $330M Series F",
+  "directory_notes": ["Delivery volume", "regulatory approvals."],
+  "intelligence":{"kicker":"COMPANY INTELLIGENCE","location":"South San Francisco, California","status":"Private","logo":"https://www.google.com/s2/favicons?domain=zipline.com&sz=128","description":"Zipline designs, manufactures, and operates autonomous systems for medical, retail, and food delivery.","metrics":[{"value":"$7.6B","label":"Latest valuation","note":"Funding round, January 2026"},{"value":"$600M+","label":"Latest funding","note":"January 2026"},{"value":"2014","label":"Founded","note":"Autonomous logistics"},{"value":"Private","label":"Public status","note":"No announced listing"}],"company":["Zipline operates autonomous delivery networks that transport medical supplies, retail products, and food directly to customers.","The company said it had surpassed two million commercial deliveries when it announced more than $600 million of funding in January 2026."],"why_it_matters":"Zipline is one of the most mature autonomous-delivery companies. Its delivery volume offers a rare operating proof point for drone logistics beyond pilot programs.","valuation_history":[{"value":"$7.6B","date":"Jan 2026","round":"Funding round, $600M+"}],"changed":[{"date":"Jan 2026","text":"Raised more than $600M and reported a $7.6B valuation."}],"takeaways":["Zipline has demonstrated commercial delivery volume at scale.","Regulatory approvals and network economics determine its expansion pace.","The latest funding valued the company at $7.6B."],"quick_facts":[["Focus","Autonomous delivery"],["Founded","2014"],["Status","Private"],["Website","zipline.com"]],"sources":[{"label":"Zipline: funding and delivery milestone","url":"https://www.zipline.com/newsroom/zipline-surpasses-2-million-deliveries-raises-more-than-600m-to-power-next-phase-of-growth-and-expands-operations-to-houston-and-phoenix"},{"label":"Axios: Zipline funding","url":"https://www.axios.com/2026/01/21/zipline-drone-deliveries"}]}
+}

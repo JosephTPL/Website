@@ -1,1 +1,24 @@
-{"slug":"figure-ai","status":"Published","name":"Figure AI","sector":"Robotics","summary":"Humanoid robotics company targeting general-purpose physical work.","overview":"<p>Figure AI is developing humanoid robots for industrial and commercial tasks.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"February 2024: $675M Series B","note":"Publicly reported financing context.","source":""}],"directory_rank":23,"bull_case":"A capable general-purpose robot could address major labor shortages across industries.","bear_case":"Hardware reliability, safety, and unit economics may delay broad commercialization.","latest_round":"February 2024: $675M Series B","directory_notes":["Pilot deployments","cost per productive hour."]}
+{
+  "slug": "figure-ai",
+  "status": "Published",
+  "name": "Figure AI",
+  "sector": "Robotics",
+  "summary": "Humanoid robotics company targeting general-purpose physical work.",
+  "overview": "<p>Figure AI is developing humanoid robots for industrial and commercial tasks.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "February 2024: $675M Series B",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 23,
+  "bull_case": "A capable general-purpose robot could address major labor shortages across industries.",
+  "bear_case": "Hardware reliability, safety, and unit economics may delay broad commercialization.",
+  "latest_round": "February 2024: $675M Series B",
+  "directory_notes": ["Pilot deployments", "cost per productive hour."],
+  "intelligence":{"kicker":"COMPANY INTELLIGENCE","location":"Sunnyvale, California","status":"Private","logo":"https://www.google.com/s2/favicons?domain=figure.ai&sz=128","description":"Figure develops general-purpose humanoid robots and the AI systems intended to control them.","metrics":[{"value":"$39B","label":"Latest valuation","note":"Series C, September 2025"},{"value":"$1B+","label":"Latest funding","note":"Series C"},{"value":"2022","label":"Founded","note":"Humanoid robotics"},{"value":"Private","label":"Public status","note":"No announced listing"}],"company":["Figure is developing humanoid robots for industrial and eventually broader commercial uses, alongside its Helix AI system for embodied intelligence.","The company said its Series C exceeded $1 billion and set a $39 billion post-money valuation in September 2025."],"why_it_matters":"Figure is a leading private-market bet on humanoid robotics. Its valuation depends on whether reliable hardware and embodied AI can move from demonstrations to cost-effective deployment.","valuation_history":[{"value":"$2.6B","date":"Feb 2024","round":"Funding round, $675M"},{"value":"$39B","date":"Sep 2025","round":"Series C, $1B+"}],"changed":[{"date":"Sep 2025","text":"Series C exceeded $1B at a $39B post-money valuation."}],"takeaways":["Figure is one of the highest-valued private humanoid-robotics companies.","The key challenge is commercial reliability and unit economics.","The Series C set a disclosed $39B valuation."],"quick_facts":[["Founder","Brett Adcock"],["Focus","Humanoid robotics"],["Status","Private"],["Website","figure.ai"]],"sources":[{"label":"Figure: Series C announcement","url":"https://www.figure.ai/news/series-c"},{"label":"Axios: 2024 financing","url":"https://www.axios.com/2024/02/29/ai-robot-figure-nvidia-openai-jeff-bezos"}]}
+}

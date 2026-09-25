@@ -1,1 +1,24 @@
-{"slug":"cfs","status":"Published","name":"Commonwealth Fusion Systems","sector":"Climate tech","summary":"Fusion-energy developer pursuing commercial power using high-temperature superconductors.","overview":"<p>Commonwealth Fusion Systems is building fusion power plants based on compact tokamak designs.</p>","as_of":"2026-09-21","report":"","facts":[{"label":"Latest disclosed financing","value":"December 2021: $1.8B Series B2","note":"Publicly reported financing context.","source":""}],"directory_rank":43,"bull_case":"A successful fusion plant would address an enormous market for firm clean power.","bear_case":"Fusion remains a capital-intensive scientific and engineering challenge with long timelines.","latest_round":"December 2021: $1.8B Series B2","directory_notes":["SPARC milestones","construction and capital needs."]}
+{
+  "slug": "cfs",
+  "status": "Published",
+  "name": "Commonwealth Fusion Systems",
+  "sector": "Climate tech",
+  "summary": "Fusion-energy developer pursuing commercial power using high-temperature superconductors.",
+  "overview": "<p>Commonwealth Fusion Systems is building fusion power plants based on compact tokamak designs.</p>",
+  "as_of": "2026-09-21",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "December 2021: $1.8B Series B2",
+      "note": "Publicly reported financing context.",
+      "source": ""
+    }
+  ],
+  "directory_rank": 43,
+  "bull_case": "A successful fusion plant would address an enormous market for firm clean power.",
+  "bear_case": "Fusion remains a capital-intensive scientific and engineering challenge with long timelines.",
+  "latest_round": "December 2021: $1.8B Series B2",
+  "directory_notes": ["SPARC milestones", "construction and capital needs."],
+  "intelligence":{"kicker":"COMPANY INTELLIGENCE","location":"Devens, Massachusetts","status":"Private","logo":"https://www.google.com/s2/favicons?domain=cfs.energy&sz=128","description":"Commonwealth Fusion Systems develops high-field tokamaks and superconducting magnets for commercial fusion power.","metrics":[{"value":"Not disclosed","label":"Latest valuation","note":"No confirmed priced valuation"},{"value":"$1B","label":"Latest funding","note":"Additional equity financing, July 2026"},{"value":"2018","label":"Founded","note":"MIT spinout"},{"value":"Private","label":"Public status","note":"No announced listing"}],"company":["Commonwealth Fusion Systems is building SPARC, a high-field tokamak intended to demonstrate net fusion energy, and planning its ARC commercial power plant.","The company announced $1 billion of additional equity financing in July 2026, bringing total capital raised to $4 billion."],"why_it_matters":"CFS is among the best-capitalized private fusion companies. Its technical milestones will shape whether fusion attracts infrastructure-style capital before commercial power generation is proven.","valuation_history":[{"value":"Not disclosed","date":"2021","round":"Funding round, $1.8B"},{"value":"Not disclosed","date":"Jul 2026","round":"Additional equity financing, $1B"}],"changed":[{"date":"Jul 2026","text":"Raised $1B of additional equity financing, bringing total capital raised to $4B."}],"takeaways":["CFS is among the most heavily funded private fusion companies.","SPARC performance is the central technical milestone.","A current priced valuation has not been publicly confirmed."],"quick_facts":[["Founded","2018"],["Origin","MIT spinout"],["Focus","Fusion power and superconducting magnets"],["Website","cfs.energy"]],"sources":[{"label":"CFS: $1B financing announcement","url":"https://cfs.energy/news-and-media/commonwealth-fusion-systems-raises-another-1-billion-bringing-total-capital-raised-to-4-billion/"},{"label":"Axios: grid interconnection filing","url":"https://www.axios.com/2026/04/28/commonwealth-fusion-pjm"}]}
+}
