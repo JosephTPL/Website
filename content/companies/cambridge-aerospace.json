@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://cambridgeaerospace.com"
+      "value": "August 2026: $300M Series C at $3.4B",
+      "note": "The counter-drone company’s Series C was led by DFJ Growth.",
+      "source": "https://www.axios.com/2026/08/10/anti-drone-defense-cambridge-aerospace"
     }
   ],
   "directory_rank": 123,
   "bull_case": "Cambridge Aerospace is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "August 2026: $300M Series C at $3.4B",
   "directory_notes": [
     "Aerospace and defense",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Cambridge Aerospace is a private company tracked by The Private Ledger in aerospace and defense.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$3.4B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "August 2026 Series C"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$3.4B",
+        "date": "Aug 2026",
+        "round": "Series C"
       }
     ],
     "changed": [

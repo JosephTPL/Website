@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://enter.com"
+      "value": "May 2026: $100M+ Series B at $1.2B",
+      "note": "Reported Series B led by Founders Fund.",
+      "source": "https://sacra.com/c/enter/"
     }
   ],
   "directory_rank": 99,
   "bull_case": "Enter is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "May 2026: $100M+ Series B at $1.2B",
   "directory_notes": [
     "Technology",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Enter is a private company tracked by The Private Ledger in technology.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$1.2B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "May 2026 Series B"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$1.2B",
+        "date": "May 2026",
+        "round": "Series B"
       }
     ],
     "changed": [

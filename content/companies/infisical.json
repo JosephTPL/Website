@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://infisical.com"
+      "value": "June 2025: $16M Series A",
+      "note": "The secrets-management company announced the Series A; valuation was not disclosed.",
+      "source": "https://www.cbinsights.com/company/infiscal/financials"
     }
   ],
   "directory_rank": 71,
   "bull_case": "Infisical is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "June 2025: $16M Series A",
   "directory_notes": [
     "Developer infrastructure",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Infisical provides developer infrastructure for managing application secrets and configuration.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "Undisclosed",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Valuation was not announced with the June 2025 Series A"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the watchlist because private-market activity in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$16M raised",
+        "date": "Jun 2025",
+        "round": "Series A"
       }
     ],
     "changed": [

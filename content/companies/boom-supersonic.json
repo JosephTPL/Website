@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://boomsupersonic.com"
+      "value": "December 2025: $300M Series B at $1.5B",
+      "note": "The Series B more than doubled Boom's initial funding target.",
+      "source": "https://multiples.vc/private-comps/boom-supersonic"
     }
   ],
   "directory_rank": 95,
   "bull_case": "Boom Supersonic is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "December 2025: $300M Series B at $1.5B",
   "directory_notes": [
     "Aerospace",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Boom Supersonic is a private company tracked by The Private Ledger in aerospace.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$1.5B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "December 2025 Series B"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$1.5B",
+        "date": "Dec 2025",
+        "round": "Series B"
       }
     ],
     "changed": [

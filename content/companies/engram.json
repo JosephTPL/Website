@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://engram.com"
+      "value": "June 2026: $98M financing at $600M",
+      "note": "Engram launched with the financing for its AI memory layer.",
+      "source": "https://www.calcalistech.com/ctechnews/article/skoqbrumze"
     }
   ],
   "directory_rank": 59,
   "bull_case": "Engram is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "June 2026: $98M financing at $600M",
   "directory_notes": [
     "Artificial intelligence",
     "Public financial disclosure is limited, so this profile deliberately avoids representing a market estimate as a confirmed financing."
@@ -30,9 +30,9 @@
     "description": "Engram is a private AI company tracked by The Private Ledger.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$600M",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "June 2026 financing"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "Public financial disclosure is limited, so this profile deliberately avoids representing a market estimate as a confirmed financing.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$600M",
+        "date": "Jun 2026",
+        "round": "Launch financing"
       }
     ],
     "changed": [

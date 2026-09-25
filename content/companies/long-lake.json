@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://longlake.com"
+      "value": "May 2026: $2.25B Series D at $12.44B",
+      "note": "Reported Series D financing and post-money valuation.",
+      "source": "https://forgeglobal.com/long-lake-management-holdings_stock/"
     }
   ],
   "directory_rank": 72,
   "bull_case": "Long Lake is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "May 2026: $2.25B Series D at $12.44B",
   "directory_notes": [
     "Financial services",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Long Lake is a private financial-services company tracked by The Private Ledger.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$12.44B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "May 2026 Series D"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the watchlist because private-market activity in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$12.44B",
+        "date": "May 2026",
+        "round": "Series D"
       }
     ],
     "changed": [

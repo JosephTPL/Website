@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://luzernrisk.com"
+      "value": "September 2026: $45M Series B",
+      "note": "Luzern Risk announced the Series B led by Insight Partners; valuation was not disclosed.",
+      "source": "https://www.luzernrisk.com/blog-posts/luzern-risk-raises-45m-series-b-led-by-insight-partners"
     }
   ],
   "directory_rank": 73,
   "bull_case": "Luzern Risk is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "September 2026: $45M Series B",
   "directory_notes": [
     "Risk management",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Luzern Risk is a private risk-management company tracked by The Private Ledger.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "Undisclosed",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "Valuation was not announced with the September 2026 Series B"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the watchlist because private-market activity in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$45M raised",
+        "date": "Sep 2026",
+        "round": "Series B"
       }
     ],
     "changed": [

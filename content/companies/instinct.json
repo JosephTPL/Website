@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://instinct.com"
+      "value": "August 2026: $250M Series B at $2.5B",
+      "note": "The consumer AI assistant’s Series B brought total reported funding to $350M.",
+      "source": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/"
     }
   ],
   "directory_rank": 60,
   "bull_case": "Instinct is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "August 2026: $250M Series B at $2.5B",
   "directory_notes": [
     "Artificial intelligence",
     "Future updates should focus on its product, customer evidence, and any primary financing disclosure."
@@ -30,9 +30,9 @@
     "description": "Instinct is a private AI company tracked by The Private Ledger.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$2.5B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "August 2026 Series B"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "Future updates should focus on its product, customer evidence, and any primary financing disclosure.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$2.5B",
+        "date": "Aug 2026",
+        "round": "Series B"
       }
     ],
     "changed": [

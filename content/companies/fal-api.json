@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Not publicly disclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://fal.ai"
+      "value": "December 2025: $140M Series D at $4.5B",
+      "note": "The generative-media infrastructure company’s Series D was led by Sequoia.",
+      "source": "https://techcrunch.com/2025/12/09/fal-nabs-140m-in-fresh-funding-led-by-sequoia-tripling-valuation-to-4-5b/"
     }
   ],
   "directory_rank": 81,
   "bull_case": "fal API is positioned in a private market where execution and distribution can compound.",
   "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "December 2025: $140M Series D at $4.5B",
   "directory_notes": [
     "AI media infrastructure",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "fal is a private company tracked by The Private Ledger in ai media infrastructure.",
     "metrics": [
       {
-        "value": "Not publicly disclosed",
+        "value": "$4.5B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "December 2025 Series D"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$4.5B",
+        "date": "Dec 2025",
+        "round": "Series D"
       }
     ],
     "changed": [
