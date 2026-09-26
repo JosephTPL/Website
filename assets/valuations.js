@@ -6,6 +6,9 @@
   const canvas=root.querySelector('.valuation-chart-canvas');
   const tooltip=root.querySelector('.valuation-tooltip');
   const legend=document.querySelector('.valuation-legend');
+  const search=document.querySelector('#valuation-company-search');
+  const searchResults=document.querySelector('#valuation-search-results');
+  const selectedList=document.querySelector('#valuation-selected');
   // A focused opening view preserves legibility across companies with very different scales.
   const selected=new Set(['spacex','anthropic','openai'].filter(slug=>series.some(item=>item.slug===slug)));
   let range='all';
@@ -15,6 +18,15 @@
   const money=value=>value>=1000?`$${(value/1000).toLocaleString('en-US',{maximumFractionDigits:1})}T`:value<1?`$${Math.round(value*1000)}M`:`$${value.toLocaleString('en-US',{maximumFractionDigits:1})}B`;
   const percent=value=>`${value>0?'+':''}${value.toLocaleString('en-US',{maximumFractionDigits:0})}%`;
   const visible=()=>series.filter(item=>selected.has(item.slug));
+  const renderPicker=()=>{
+    selectedList.replaceChildren();
+    visible().forEach(item=>{
+      const button=document.createElement('button');button.type='button';button.className='valuation-selected-company';button.innerHTML=`<i style="--series-color:${colorFor(item)}"></i>${item.name}<span aria-hidden="true">×</span>`;
+      button.setAttribute('aria-label',`Remove ${item.name} from chart`);
+      button.addEventListener('click',()=>{if(selected.size>1){selected.delete(item.slug);renderPicker();draw()}});
+      selectedList.append(button);
+    });
+  };
   const filtered=()=>{
     const now=new Date();
     const cutoff=range==='all'?null:new Date(now.getFullYear()-Number(range),now.getMonth(),now.getDate());
@@ -75,17 +87,18 @@
     });
     canvas.append(svg);
   };
-  document.querySelectorAll('.valuation-company').forEach(button=>{
-    const active=selected.has(button.dataset.series);button.classList.toggle('is-active',active);button.setAttribute('aria-pressed',String(active));
-    button.addEventListener('click',()=>{
-    const slug=button.dataset.series;selected.has(slug)?selected.delete(slug):selected.add(slug);
-    if(!selected.size)selected.add(slug);
-    button.classList.toggle('is-active',selected.has(slug));button.setAttribute('aria-pressed',String(selected.has(slug)));draw();
+  search.addEventListener('input',()=>{
+    const term=search.value.trim().toLowerCase();searchResults.replaceChildren();
+    if(!term){searchResults.hidden=true;return}
+    series.filter(item=>item.name.toLowerCase().includes(term)&&!selected.has(item.slug)).slice(0,6).forEach(item=>{
+      const button=document.createElement('button');button.type='button';button.innerHTML=`<i style="--series-color:${colorFor(item)}"></i>${item.name}`;
+      button.addEventListener('click',()=>{selected.add(item.slug);search.value='';searchResults.hidden=true;renderPicker();draw();search.focus()});searchResults.append(button);
     });
+    searchResults.hidden=!searchResults.children.length;
   });
   document.querySelectorAll('.valuation-range button').forEach(button=>button.addEventListener('click',()=>{
     if(button.classList.contains('valuation-index')){indexed=!indexed;button.classList.toggle('is-active',indexed);button.setAttribute('aria-pressed',String(indexed));draw();return}
     range=button.dataset.range;document.querySelectorAll('.valuation-range button').forEach(item=>item.classList.toggle('is-active',item===button));draw();
   }));
-  draw();
+  renderPicker();draw();
 })();
