@@ -127,6 +127,8 @@ def configure_nav(s,active):
  for old_link in nav.select('a[data-view="insights"]'):old_link.decompose()
  ipo=soup('<a data-view="ipo" href="/ipo-calendar/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 10h18"></path></svg>IPO calendar</a>').a
  research.insert_after(ipo)
+ valuations=soup('<a data-view="valuations" href="/valuations/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 18V6m0 12h16"></path><path d="m7 15 4-4 3 2 4-6"></path></svg>Valuations</a>').a
+ ipo.insert_after(valuations)
  for link in nav.select('a'):
   link.attrs.pop('aria-current',None)
   link['class']=['active'] if link.get('data-view')==active else []
@@ -160,6 +162,37 @@ def ipo_markup():
   weeks.append('<div class="ipo-week">'+''.join(cells)+'</div>')
  tbd=''.join(f'''<article class="ipo-tbd"><div><span class="ipo-status {E(item['status'].lower().replace(' ','-'))}">{E(item['status'])}</span><span class="ipo-valuation">{E(item['valuation'])}</span></div><h2>{E(item['company'])}</h2><p>{E(item['note'])}</p><a href="{E(item['source'])}" rel="noopener">Source ↗</a></article>''' for item in items)
  return f'''<section class="ipo-calendar" aria-labelledby="ipo-title"><header class="ipo-head"><div><p class="overline">THE PRIVATE LEDGER / IPO CALENDAR</p><h1 id="ipo-title">{E(ipo_calendar['title'])}</h1><p class="subtitle">{E(ipo_calendar['intro'])}</p></div><p class="ipo-as-of">As of<br/><strong>{E(ipo_calendar['as_of'])}</strong></p></header><div class="ipo-note"><strong>How to read this.</strong> {E(ipo_calendar['disclaimer'])}</div><section class="ipo-month" aria-labelledby="ipo-month-title"><header><div><p class="overline">UPCOMING MONTH</p><h2 id="ipo-month-title">{E(month)}</h2></div><p><strong>Public earnings watch.</strong> Hover a marker for The Ledger's private-market read-through.</p></header><div class="ipo-weekdays"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div><div class="ipo-month-grid">{''.join(weeks)}</div><p class="ipo-empty"><strong>No confirmed $5B+ IPO dates are on the public calendar for {E(month)}.</strong> Public-company earnings markers use confirmed dates where disclosed and labelled estimates otherwise.</p></section><section class="ipo-tbd-section" aria-labelledby="ipo-tbd-title"><header><p class="overline">DATE TO BE ANNOUNCED</p><h2 id="ipo-tbd-title">The $5B+ IPO watchlist.</h2><p>Private-market giants with a reported filing, window, or credible path to market, but no confirmed day to put on the calendar yet.</p></header><div class="ipo-tbd-grid">{tbd}</div></section></section>'''
+
+def chart_date(value):
+ """Turn the deliberately human-readable profile dates into stable chart dates."""
+ value=str(value).strip()
+ for fmt in ('%b %Y','%B %Y','%Y'):
+  try:
+   parsed=datetime.strptime(value,fmt)
+   return parsed.strftime('%Y-%m-%d') if fmt!='%Y' else f'{parsed.year}-07-01'
+  except ValueError:pass
+ return ''
+
+def valuation_chart_markup():
+ """A small, evidence-led comparison set, rather than synthetic daily price data."""
+ selected=('anthropic','databricks','shield-ai')
+ series=[]
+ for slug in selected:
+  company=companies.get(slug)
+  if not company:continue
+  events=[]
+  for item in company.get('intelligence',{}).get('valuation_history',[]):
+   value=str(item.get('value','')).replace('~','').replace(',','').strip()
+   match=re.fullmatch(r'\$(\d+(?:\.\d+)?)([BT])',value)
+   when=chart_date(item.get('date',''))
+   if not match or not when:continue
+   amount=float(match.group(1))*(1000 if match.group(2)=='T' else 1)
+   events.append({'date':when,'label':item['date'],'value':item['value'],'amount':amount,'round':item.get('round','')})
+  if len(events)>1:
+   series.append({'name':company['name'],'slug':slug,'url':'/companies/'+slug+'/', 'events':events})
+ data=json.dumps(series,separators=(',',':')).replace('</','<\\/')
+ buttons=''.join(f'<button type="button" class="valuation-company is-active" data-series="{E(item["slug"])}" aria-pressed="true"><span></span>{E(item["name"])}</button>' for item in series)
+ return f'''<section class="valuation-page" aria-labelledby="valuation-title"><header class="valuation-head"><div><p class="overline">THE PRIVATE LEDGER / DATA DESK</p><h1 id="valuation-title">Private valuation history.</h1><p>Reported point-in-time valuations at confirmed financings and other disclosed liquidity events.</p></div><a href="/companies/" class="valuation-directory-link">Browse companies <span aria-hidden="true">→</span></a></header><div class="valuation-method"><strong>Not a market-price chart.</strong> Each step marks a disclosed valuation event. A flat line means no newer confirmed value is recorded, not that the company’s value was unchanged.</div><section class="valuation-chart-shell" aria-label="Private valuation comparison"><div class="valuation-toolbar"><div class="valuation-series" aria-label="Companies shown">{buttons}</div><div class="valuation-range" aria-label="Chart period"><button type="button" data-range="3">3Y</button><button type="button" data-range="5">5Y</button><button type="button" data-range="all" class="is-active">All</button></div></div><div class="valuation-chart" id="valuation-chart" data-valuation-series='{E(data)}'><div class="valuation-chart-canvas" role="img" aria-label="Reported private valuation history chart"></div><div class="valuation-tooltip" hidden></div></div><div class="valuation-legend" aria-label="Visible companies"></div></section><p class="valuation-footnote">Figures are reported valuations, not continuous marks or investment advice. Click any company in the legend to read its profile.</p></section>'''
 
 if OUT.exists():shutil.rmtree(OUT)
 OUT.mkdir()
@@ -297,10 +330,17 @@ s.body['data-page-view']='ipo';configure_nav(s,'ipo')
 main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();main.clear();put(main,ipo_markup());main.append(subscribe);main.append(footer)
 write(s,'/ipo-calendar/')
 
+# The chart is intentionally limited to profiles with multiple dated valuation events.
+s=shell('home','Private valuation history','Reported private-company valuation histories at confirmed events.','/valuations/')
+s.body['data-page-view']='valuations';configure_nav(s,'valuations')
+main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();main.clear();put(main,valuation_chart_markup());main.append(subscribe);main.append(footer)
+put(s.head,'<script defer src="/valuations.js"></script>')
+write(s,'/valuations/')
+
 about=read('content/settings/about.json');s=shell('about',about['title'],about['description'],'/about/');configure_nav(s,'about');main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();about_body=clean(about['body']);hero=about_body.select_one('.about-hero');hero.decompose() if hero else None;main.clear();main.append(about_body);main.append(subscribe);main.append(footer);write(s,'/about/')
 # The editor is a separate authenticated service, not a public editing API.
 s=shell('about','Edit website','Open the secure content editor.','/admin/');configure_nav(s,'');s.select_one('main').clear();put(s.select_one('main'),'<section class="about-hero"><h1>Edit your publication.</h1><p>Sign in with your GitHub account to edit articles, company profiles, images, and homepage text.</p><a class="primary-button" href="https://app.pagescms.org">Open Pages CMS ↗</a></section>');put(s.head,'<meta name="robots" content="noindex">');write(s,'/admin/')
-routes=['/','/research/','/insights/','/companies/','/ipo-calendar/','/about/']+[a['url'] for a in ordered]+['/companies/'+c['slug']+'/' for c in companies.values()]
+routes=['/','/research/','/insights/','/companies/','/ipo-calendar/','/valuations/','/about/']+[a['url'] for a in ordered]+['/companies/'+c['slug']+'/' for c in companies.values()]
 (OUT/'sitemap.xml').write_text('<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+E(base+r)+'</loc></url>' for r in routes)+'</urlset>')
 (OUT/'robots.txt').write_text('User-agent: *\nAllow: /\nDisallow: /admin/\nSitemap: '+base+'/sitemap.xml\n')
 print(f'Built {len(articles)} published articles, {len(companies)} company profiles, and editable site pages.')
