@@ -12,7 +12,7 @@
 .research-archive #research-grid{display:block;border-top:1px solid #d8e0e8}
 .research-archive #research-grid .card{display:grid;grid-template-columns:170px minmax(0,1fr);gap:26px;border:0;border-bottom:1px solid #d8e0e8;border-radius:0;box-shadow:none;padding:27px 0;transition:none}
 .research-archive #research-grid .card:hover{transform:none;box-shadow:none}
-.research-archive #research-grid .card-cover{display:block;grid-column:1;align-self:start;aspect-ratio:1.45;background:#e8e4dc;border:1px solid #d8d1c4}.research-archive #research-grid .card-cover img{width:100%;height:100%;object-fit:cover}.research-archive #research-grid .cover-caption{display:none}
+.research-archive #research-grid .card-cover{display:block;grid-column:1;align-self:start;aspect-ratio:16/9;background:#e8e4dc;border:1px solid #d8d1c4;overflow:hidden}.research-archive #research-grid .card-cover img{width:100%;height:100%;object-fit:cover}.research-archive #research-grid .cover-caption{display:none}
 .research-archive #research-grid .card-content{display:grid;grid-template-columns:210px minmax(0,1fr) auto;grid-template-areas:"date kind read" "date title read" "date description read" ". save read";align-items:start;gap:0 28px;padding:0}
 .research-archive #research-grid .card-meta{grid-area:date;justify-content:flex-start;margin:2px 0;font-size:14px;letter-spacing:.08em}
 .research-archive #research-grid .card-meta>span:last-child{display:none}
