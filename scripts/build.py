@@ -3,7 +3,7 @@ from pathlib import Path
 from datetime import date, datetime
 from urllib.parse import urlsplit, unquote
 import calendar, html, json, os, re, shutil, sys
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'_site'
 E=html.escape
@@ -24,6 +24,28 @@ def clean(markup):
    value=el.get(attr,'').strip()
    if value and (urlsplit(value).scheme.lower() not in ('','https','http','mailto') or value.startswith('//')):raise ValueError('Unsupported content URL: '+value[:80])
  return s
+
+MENTION_RE=re.compile(r'(?<![\w@])@([A-Za-z0-9][A-Za-z0-9_-]{1,})')
+def link_substack_mentions(fragment):
+ for mention in list(fragment.select('.mention-wrap[data-component-name="MentionToDOM"]')):
+  try: data=json.loads(mention.get('data-attrs','{}'))
+  except json.JSONDecodeError: data={}
+  name=str(data.get('name','')).strip();user_id=data.get('id')
+  if not name or not user_id:continue
+  link=fragment.new_tag('a',href=f'https://substack.com/profile/{user_id}')
+  link['class']='substack-mention';link['rel']='noopener';link['aria-label']=f'View {name} on Substack';link.string=name
+  mention.replace_with(link)
+ for text in list(fragment.find_all(string=True)):
+  parent=text.parent
+  if not parent or parent.name in ('a','code','pre','script','style') or not MENTION_RE.search(str(text)):continue
+  value=str(text);last=0
+  for match in MENTION_RE.finditer(value):
+   if match.start()>last:text.insert_before(NavigableString(value[last:match.start()]))
+   handle=match.group(1);link=fragment.new_tag('a',href=f'https://substack.com/@{handle}')
+   link['class']='substack-mention';link['rel']='noopener';link.string='@'+handle;text.insert_before(link);last=match.end()
+  if last<len(value):text.insert_before(NavigableString(value[last:]))
+  text.extract()
+ return fragment
 
 def records(folder):
  result={}
@@ -197,7 +219,7 @@ for a in ordered:
  head=s.select_one('.article-head');set_text(head,'h1',a['title']);set_text(head,'.subtitle',a['summary']);set_text(head,'.overline',a['sector']+' / '+('PERSPECTIVE' if a['sector']=='Insights' else 'COMPANY RESEARCH'));set_text(head,'.author div span',date_text(a['date'])+' · '+str(a['minutes'])+' min read')
  for x in s.select('.brief,.facts,.excerpt-notice'):x.decompose()
  for button in s.select('[data-save]'):button['data-save']=a['slug'];button['aria-pressed']='false';button.attrs.pop('aria-label',None);button.string='Save for later'
- body=s.select_one('.article-body');body.clear();body.append(clean(a['body']))
+ body=s.select_one('.article-body');body.clear();body.append(link_substack_mentions(clean(a['body'])))
  if a.get('excerpt'):
   headings=body.select('h2,h3')
   if len(headings)>1:
