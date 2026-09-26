@@ -8,9 +8,9 @@
   const legend=document.querySelector('.valuation-legend');
   const selected=new Set(series.map(item=>item.slug));
   let range='all';
-  const colors=['#ff5c58','#5d9cff','#f3ab39','#58b293','#c87fe8'];
+  const colors=['#ff5c58','#5d9cff','#f3ab39','#58b293','#c87fe8','#56c3bf','#e07a9e','#d8cb70','#9d88e9'];
   const colorFor=item=>colors[series.findIndex(entry=>entry.slug===item.slug)%colors.length];
-  const money=value=>value>=1000?`$${(value/1000).toLocaleString('en-US',{maximumFractionDigits:1})}T`:`$${value.toLocaleString('en-US',{maximumFractionDigits:1})}B`;
+  const money=value=>value>=1000?`$${(value/1000).toLocaleString('en-US',{maximumFractionDigits:1})}T`:value<1?`$${Math.round(value*1000)}M`:`$${value.toLocaleString('en-US',{maximumFractionDigits:1})}B`;
   const visible=()=>series.filter(item=>selected.has(item.slug));
   const filtered=()=>{
     const now=new Date();

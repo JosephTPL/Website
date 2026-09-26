@@ -175,24 +175,26 @@ def chart_date(value):
 
 def valuation_chart_markup():
  """A small, evidence-led comparison set, rather than synthetic daily price data."""
- selected=('anthropic','databricks','shield-ai')
+ # The ten businesses covered in the publication. Isomorphic Labs remains visible below
+ # as a research profile, but has no disclosed valuation event to draw responsibly.
+ selected=('saronic','isomorphic-labs','substack','polymarket','spacex','anthropic','openai','stripe','bytedance','anduril')
  series=[]
  for slug in selected:
   company=companies.get(slug)
   if not company:continue
   events=[]
   for item in company.get('intelligence',{}).get('valuation_history',[]):
-   value=str(item.get('value','')).replace('~','').replace(',','').strip()
-   match=re.fullmatch(r'\$(\d+(?:\.\d+)?)([BT])',value)
+   value=str(item.get('value','')).replace('~','').replace(',','').strip().rstrip('+')
+   match=re.fullmatch(r'\$(\d+(?:\.\d+)?)([MBT])',value)
    when=chart_date(item.get('date',''))
    if not match or not when:continue
-   amount=float(match.group(1))*(1000 if match.group(2)=='T' else 1)
+   unit=match.group(2);amount=float(match.group(1))*(1000 if unit=='T' else .001 if unit=='M' else 1)
    events.append({'date':when,'label':item['date'],'value':item['value'],'amount':amount,'round':item.get('round','')})
   if len(events)>1:
    series.append({'name':company['name'],'slug':slug,'url':'/companies/'+slug+'/', 'events':events})
  data=json.dumps(series,separators=(',',':')).replace('</','<\\/')
  buttons=''.join(f'<button type="button" class="valuation-company is-active" data-series="{E(item["slug"])}" aria-pressed="true"><span></span>{E(item["name"])}</button>' for item in series)
- return f'''<section class="valuation-page" aria-labelledby="valuation-title"><header class="valuation-head"><div><p class="overline">THE PRIVATE LEDGER / DATA DESK</p><h1 id="valuation-title">Private valuation history.</h1><p>Reported point-in-time valuations at confirmed financings and other disclosed liquidity events.</p></div><a href="/companies/" class="valuation-directory-link">Browse companies <span aria-hidden="true">→</span></a></header><div class="valuation-method"><strong>Not a market-price chart.</strong> Each step marks a disclosed valuation event. A flat line means no newer confirmed value is recorded, not that the company’s value was unchanged.</div><section class="valuation-chart-shell" aria-label="Private valuation comparison"><div class="valuation-toolbar"><div class="valuation-series" aria-label="Companies shown">{buttons}</div><div class="valuation-range" aria-label="Chart period"><button type="button" data-range="3">3Y</button><button type="button" data-range="5">5Y</button><button type="button" data-range="all" class="is-active">All</button></div></div><div class="valuation-chart" id="valuation-chart" data-valuation-series='{E(data)}'><div class="valuation-chart-canvas" role="img" aria-label="Reported private valuation history chart"></div><div class="valuation-tooltip" hidden></div></div><div class="valuation-legend" aria-label="Visible companies"></div></section><p class="valuation-footnote">Figures are reported valuations, not continuous marks or investment advice. Click any company in the legend to read its profile.</p></section>'''
+ return f'''<section class="valuation-page" aria-labelledby="valuation-title"><header class="valuation-head"><div><p class="overline">THE PRIVATE LEDGER / DATA DESK</p><h1 id="valuation-title">Private valuation history.</h1><p>Reported point-in-time valuations at confirmed financings and other disclosed liquidity events.</p></div><a href="/companies/" class="valuation-directory-link">Browse companies <span aria-hidden="true">→</span></a></header><div class="valuation-method"><strong>Not a market-price chart.</strong> Each step marks a disclosed valuation event. A flat line means no newer confirmed value is recorded, not that the company’s value was unchanged.</div><section class="valuation-chart-shell" aria-label="Private valuation comparison"><div class="valuation-toolbar"><div class="valuation-series" aria-label="Companies shown">{buttons}</div><div class="valuation-range" aria-label="Chart period"><button type="button" data-range="3">3Y</button><button type="button" data-range="5">5Y</button><button type="button" data-range="all" class="is-active">All</button></div></div><div class="valuation-chart" id="valuation-chart" data-valuation-series='{E(data)}'><div class="valuation-chart-canvas" role="img" aria-label="Reported private valuation history chart"></div><div class="valuation-tooltip" hidden></div></div><div class="valuation-legend" aria-label="Visible companies"></div><p class="valuation-unavailable">Isomorphic Labs is covered by The Ledger, but no valuation was publicly disclosed for its reported funding events. <a href="/companies/isomorphic-labs/">View profile →</a></p></section><p class="valuation-footnote">Figures are reported valuations, not continuous marks or investment advice. Click any company in the legend to read its profile.</p></section>'''
 
 if OUT.exists():shutil.rmtree(OUT)
 OUT.mkdir()
