@@ -95,6 +95,8 @@ main{margin-top:72px;margin-left:238px;padding:46px 54px 0;max-width:1780px}.pag
 }
 
 /* The compact navigation is deliberately mobile-only; desktop keeps its sidebar. */
+.article-cover{margin:0 0 28px}.article-cover img{display:block;width:100%;max-height:460px;object-fit:cover;border:1px solid #d8d1c4}
+@media(max-width:700px){.article-cover{margin-bottom:22px}.article-cover img{max-height:300px}}
 .menu-toggle{display:none}
 @media(max-width:700px){
   .top-subscribe{display:none}

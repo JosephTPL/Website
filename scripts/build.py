@@ -198,6 +198,8 @@ for a in ordered:
  for x in s.select('.brief,.facts,.excerpt-notice'):x.decompose()
  for button in s.select('[data-save]'):button['data-save']=a['slug'];button['aria-pressed']='false';button.attrs.pop('aria-label',None);button.string='Save for later'
  body=s.select_one('.article-body');body.clear();body.append(clean(a['body']))
+ if a.get('cover_image'):
+  body.insert_before(soup(f'<figure class="article-cover"><img src="{E(a["cover_image"])}" alt="{E(a.get("cover_alt",a["title"]))}" loading="eager" decoding="async"></figure>'))
  mapping={r['title']:r['id'] for r in a.get('section_anchors',[])};used=set(mapping.values());toc=[]
  for i,h in enumerate(body.select('h2,h3')):
   title=h.get_text(' ',strip=True);anchor=mapping.get(title) or h.get('id')
