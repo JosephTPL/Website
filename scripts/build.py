@@ -210,7 +210,7 @@ profile_slugs={company['name'].lower():company['slug'] for company in companies.
 profile_valuations={}
 for company in companies.values():
  for metric in company.get('intelligence',{}).get('metrics',[]):
-  if 'valuation' in metric.get('label','').lower() and str(metric.get('value','')).startswith('$'):
+  if 'valuation' in metric.get('label','').lower() and metric.get('value'):
    profile_valuations[company['name'].lower()]=metric['value']
    break
 directory_script=OUT/'companies.js'
