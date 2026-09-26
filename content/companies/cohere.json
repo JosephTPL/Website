@@ -5,33 +5,33 @@
   "sector": "Enterprise AI",
   "summary": "Enterprise-focused foundation-model provider emphasizing private deployment.",
   "overview": "<p>Cohere builds language models and AI tools for enterprise customers.</p>",
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-26",
   "report": "",
   "facts": [
     {
       "label": "Latest disclosed financing",
-      "value": "June 2023: $270M Series C",
-      "note": "Publicly reported financing context.",
-      "source": ""
+      "value": "2025: $600M total funding round",
+      "note": "Cohere announced a $500M round in August 2025 and a $100M second close in September.",
+      "source": "https://cohere.com/blog/september-2025-funding-round"
     }
   ],
   "directory_rank": 36,
   "bull_case": "Privacy, security, and deployment flexibility can resonate with regulated buyers.",
   "bear_case": "Frontier-model leaders have larger capital bases and faster product cycles.",
-  "latest_round": "June 2023: $270M Series C",
+  "latest_round": "September 2025: $600M total at approximately $7B",
   "directory_notes": [
     "Enterprise contracts",
     "model performance."
   ],
   "intelligence": {
     "kicker":"Company intelligence","location":"Toronto, Canada","status":"Private","logo":"https://logo.clearbit.com/cohere.com","description":"Cohere builds secure, customizable foundation models and agentic software for enterprise and government customers.",
-    "metrics":[{"value":"$6.8B","label":"Last disclosed valuation","note":"August 2025"},{"value":"$600M","label":"Latest round total","note":"2025 funding round"},{"value":"Private","label":"Public status","note":"No listed shares"}],
+    "metrics":[{"value":"~$7B","label":"Latest valuation","note":"September 2025 second close"},{"value":"$600M","label":"Latest round total","note":"2025 funding round"},{"value":"Private","label":"Public status","note":"No listed shares"}],
     "company":["Cohere differentiates itself from consumer-first model labs through private deployment, data control and enterprise integrations.","Its product line includes large language models and North, a security-first agentic AI platform."],
     "why_it_matters":"Cohere is one of the clearest private-market plays on enterprise AI adoption rather than consumer chatbot distribution. Its customer requirements make sovereignty, deployment and trust central to the investment case.",
-    "valuation_history":[{"value":"$2.2B","date":"2023","round":"Series C"},{"value":"$5.5B","date":"2024","round":"Funding round"},{"value":"$6.8B","date":"2025","round":"Latest disclosed valuation"}],
+    "valuation_history":[{"value":"$2.2B","date":"2023","round":"Series C"},{"value":"$5.5B","date":"2024","round":"Funding round"},{"value":"$6.8B","date":"Aug 2025","round":"$500M financing"},{"value":"~$7B","date":"Sep 2025","round":"$100M second close"}],
     "changed":[{"date":"2025","text":"Raised $500M at a $6.8B valuation, then added a $100M second close."},{"date":"2026","text":"Expanded its enterprise and sovereign-AI positioning internationally."}],
     "takeaways":["Cohere sells control and customization alongside model capability.","Enterprise deployment can produce stickier demand than consumer AI, but sales cycles are longer.","It remains capital constrained relative to the largest frontier labs."],
-    "quick_facts":[{"label":"Founded","value":"2019"},{"label":"Headquarters","value":"Toronto, Canada"},{"label":"CEO","value":"Aidan Gomez"},{"label":"Website","value":"cohere.com"}],
+    "quick_facts":[["Founded","2019"],["Headquarters","Toronto, Canada"],["CEO","Aidan Gomez"],["Website","cohere.com"]],
     "sources":[{"label":"Cohere August 2025 funding announcement","url":"https://cohere.com/blog/august-2025-funding-round"},{"label":"Cohere September 2025 second close","url":"https://cohere.com/blog/september-2025-funding-round"}]
   }
 }
