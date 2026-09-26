@@ -182,8 +182,8 @@ s.select_one('.page-heading').insert_after(tabs)
 grid=s.select_one('#research-grid');grid.clear()
 for i,a in enumerate(ordered):
  name=a.get('card_title') or a['title'];img=f'<img src="{E(a["cover_image"])}" alt="{E(a.get("cover_alt",name))}" loading="lazy" decoding="async">' if a.get('cover_image') else ''
- kind='General articles' if a['sector']=='Insights' else 'Deep dive'
- markup=f'''<article class="card" data-slug="{a['slug']}" data-sector="{E(a['sector'])}" data-kind="{E(kind)}" data-order="{i}" data-name="{E(name)}" data-search="{E(name+' '+a['summary']+' '+a['sector'])}"><a class="card-cover cover-refined" href="{a['url']}" aria-label="Read {E(name)}">{img}<span class="cover-caption">{E(settings['site_name'].upper())}</span></a><div class="card-content"><span class="sector-inline">{E(kind if kind=='General articles' else a['sector'])}</span><h3><a href="{a['url']}">{E(name)}</a></h3><p class="description">{E(a['summary'])}</p><div class="card-meta"><span>{date_text(a['date'])}</span><span>{a['minutes']} min</span></div><a class="read-button" href="{a['url']}">Read {'article' if kind=='General articles' else 'research'} →</a><button class="card-save" type="button" data-save="{a['slug']}" aria-pressed="false">Save for later</button></div></article>'''
+ kind='General articles' if a['sector']=='Insights' else 'Deep dive';member='<span class="member-label">Members only</span>' if a.get('excerpt') else ''
+ markup=f'''<article class="card" data-slug="{a['slug']}" data-sector="{E(a['sector'])}" data-kind="{E(kind)}" data-order="{i}" data-name="{E(name)}" data-search="{E(name+' '+a['summary']+' '+a['sector'])}"><a class="card-cover cover-refined" href="{a['url']}" aria-label="Read {E(name)}">{img}<span class="cover-caption">{E(settings['site_name'].upper())}</span></a><div class="card-content"><span class="sector-inline">{E(kind if kind=='General articles' else a['sector'])}</span>{member}<h3><a href="{a['url']}">{E(name)}</a></h3><p class="description">{E(a['summary'])}</p><div class="card-meta"><span>{date_text(a['date'])}</span><span>{a['minutes']} min</span></div><a class="read-button" href="{a['url']}">Read {'article' if kind=='General articles' else 'research'} →</a><button class="card-save" type="button" data-save="{a['slug']}" aria-pressed="false">Save for later</button></div></article>'''
  put(grid,markup)
 write(s,'/research/')
 
@@ -198,6 +198,12 @@ for a in ordered:
  for x in s.select('.brief,.facts,.excerpt-notice'):x.decompose()
  for button in s.select('[data-save]'):button['data-save']=a['slug'];button['aria-pressed']='false';button.attrs.pop('aria-label',None);button.string='Save for later'
  body=s.select_one('.article-body');body.clear();body.append(clean(a['body']))
+ if a.get('excerpt'):
+  headings=body.select('h2,h3')
+  if len(headings)>1:
+   node=headings[1]
+   while node:
+    next_node=node.next_sibling;node.decompose();node=next_node
  mapping={r['title']:r['id'] for r in a.get('section_anchors',[])};used=set(mapping.values());toc=[]
  for i,h in enumerate(body.select('h2,h3')):
   title=h.get_text(' ',strip=True);anchor=mapping.get(title) or h.get('id')
@@ -222,7 +228,7 @@ for a in ordered:
  company=companies.get(a.get('company',''))
  if company:
   body.insert_before(soup(f'<a class="snapshot-link brief-compact" id="company-facts" href="/companies/{company["slug"]}/"><span>Company snapshot<small>{E(company["name"])} · {date_text(company["as_of"])}</small></span><span class="details-icon" aria-hidden="true">→</span></a>'))
- if a.get('excerpt'):body.insert_before(soup(f'<div class="excerpt-notice"><strong>About this edition</strong><p>This is an excerpt. The remaining sections and complete references are on Substack.</p><a href="{E(a["original_url"])}">Continue to the original article ↗</a></div>'))
+ if a.get('excerpt'):body.insert_before(soup(f'<section class="member-gate"><p class="eyebrow">MEMBERS-ONLY RESEARCH</p><h2>Continue this report on Substack.</h2><p>The opening section is available here. The complete analysis and references are for paid members on Substack.</p><a class="primary-button" href="{E(a["original_url"])}">Unlock on Substack ↗</a></section>'))
  if a.get('original_url'):put(body,f'<div class="original">Originally published in {E(settings["site_name"])}. <a href="{E(a["original_url"])}">View original post</a>.</div>')
  destination='/insights/' if a['sector']=='Insights' else '/research/'
  s.select_one('.back')['href']=destination;s.select_one('.back').string='← '+('General articles' if a['sector']=='Insights' else 'Research library')
