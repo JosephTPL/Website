@@ -179,13 +179,14 @@ def valuation_chart_markup():
  # as a research profile, but has no disclosed valuation event to draw responsibly.
  selected=('saronic','isomorphic-labs','substack','polymarket','spacex','anthropic','openai','stripe','bytedance','anduril',
            'tether','databricks','waymo','reliance-retail','ant-group','revolut','reliance-jio','deepseek','ripple','cognition')
+ selected=selected+('ramp','prometheus','figure','canva','safe-superintelligence','crusoe','vast-data','scale-ai','the-boring-company','kalshi')
  series=[]
  for slug in selected:
   company=companies.get(slug)
   if not company:continue
   events=[]
   for item in company.get('intelligence',{}).get('valuation_history',[]):
-   value=str(item.get('value','')).replace('~','').replace(',','').strip().rstrip('+')
+   value=str(item.get('value','')).replace('~','').replace(',','').replace('>','').replace('<','').strip().rstrip('+')
    match=re.fullmatch(r'\$(\d+(?:\.\d+)?)([MBT])',value)
    when=chart_date(item.get('date',''))
    if not match or not when:continue
@@ -196,7 +197,7 @@ def valuation_chart_markup():
    series.append({'name':company['name'],'slug':slug,'url':'/companies/'+slug+'/', 'events':events})
  data=json.dumps(series,separators=(',',':')).replace('</','<\\/')
  default_series={'spacex','anthropic','openai'}
- chart_colors=('#ff5c58','#5d9cff','#f3ab39','#58b293','#c87fe8','#56c3bf','#e07a9e','#d8cb70','#9d88e9','#ec8c54','#61a4d9','#a9b75c','#db7690','#b491df','#4eb2a7','#dfbf65','#7697e8','#df6e67','#73bd83')
+ chart_colors=('#ff5c58','#5d9cff','#f3ab39','#58b293','#c87fe8','#56c3bf','#e07a9e','#d8cb70','#9d88e9','#ec8c54','#61a4d9','#a9b75c','#db7690','#b491df','#4eb2a7','#dfbf65','#7697e8','#df6e67','#73bd83','#e69aab','#4f86aa','#a7d2c2','#d99845','#a382bd','#b6c56b','#c56e62','#78aacd','#cba85f','#84a86b')
  buttons=''.join(f'<button type="button" class="valuation-company{(" is-active" if item["slug"] in default_series else "")}" data-series="{E(item["slug"])}" aria-pressed="{str(item["slug"] in default_series).lower()}"><span style="--company-color:{chart_colors[i]}"></span>{E(item["name"])}</button>' for i,item in enumerate(series))
  return f'''<section class="valuation-page" aria-labelledby="valuation-title"><header class="valuation-head"><div><p class="overline">THE PRIVATE LEDGER / DATA DESK</p><h1 id="valuation-title">Private valuation history.</h1><p>Reported point-in-time valuations at confirmed financings and other disclosed liquidity events.</p></div><a href="/companies/" class="valuation-directory-link">Browse companies <span aria-hidden="true">→</span></a></header><div class="valuation-method"><strong>Not a market-price chart.</strong> Each step marks a disclosed valuation event. A flat line means no newer confirmed value is recorded, not that the company’s value was unchanged.</div><section class="valuation-chart-shell" aria-label="Private valuation comparison"><div class="valuation-toolbar"><div><p class="valuation-control-label">COMPARE COMPANIES</p><div class="valuation-series" aria-label="Companies shown">{buttons}</div></div><div><p class="valuation-control-label">VIEW</p><div class="valuation-range" aria-label="Chart view"><button type="button" data-range="1">1Y</button><button type="button" data-range="3">3Y</button><button type="button" data-range="5">5Y</button><button type="button" data-range="all" class="is-active">All</button><button type="button" class="valuation-index" aria-pressed="false">Index to zero</button></div></div></div><div class="valuation-chart" id="valuation-chart" data-valuation-series='{E(data)}'><div class="valuation-chart-canvas" role="img" aria-label="Reported private valuation history chart"></div><div class="valuation-tooltip" hidden></div></div><div class="valuation-legend" aria-label="Visible companies"></div><p class="valuation-unavailable">Isomorphic Labs is covered by The Ledger, but no valuation was publicly disclosed for its reported funding events. <a href="/companies/isomorphic-labs/">View profile →</a></p></section><p class="valuation-footnote">Figures are reported valuations, not continuous marks or investment advice. Click any company in the legend to read its profile.</p></section>'''
 

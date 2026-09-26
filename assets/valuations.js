@@ -10,7 +10,7 @@
   const selected=new Set(['spacex','anthropic','openai'].filter(slug=>series.some(item=>item.slug===slug)));
   let range='all';
   let indexed=false;
-  const colors=['#ff5c58','#5d9cff','#f3ab39','#58b293','#c87fe8','#56c3bf','#e07a9e','#d8cb70','#9d88e9','#ec8c54','#61a4d9','#a9b75c','#db7690','#b491df','#4eb2a7','#dfbf65','#7697e8','#df6e67','#73bd83'];
+  const colors=['#ff5c58','#5d9cff','#f3ab39','#58b293','#c87fe8','#56c3bf','#e07a9e','#d8cb70','#9d88e9','#ec8c54','#61a4d9','#a9b75c','#db7690','#b491df','#4eb2a7','#dfbf65','#7697e8','#df6e67','#73bd83','#e69aab','#4f86aa','#a7d2c2','#d99845','#a382bd','#b6c56b','#c56e62','#78aacd','#cba85f','#84a86b'];
   const colorFor=item=>colors[series.findIndex(entry=>entry.slug===item.slug)%colors.length];
   const money=value=>value>=1000?`$${(value/1000).toLocaleString('en-US',{maximumFractionDigits:1})}T`:value<1?`$${Math.round(value*1000)}M`:`$${value.toLocaleString('en-US',{maximumFractionDigits:1})}B`;
   const percent=value=>`${value>0?'+':''}${value.toLocaleString('en-US',{maximumFractionDigits:0})}%`;
