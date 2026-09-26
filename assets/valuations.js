@@ -6,7 +6,8 @@
   const canvas=root.querySelector('.valuation-chart-canvas');
   const tooltip=root.querySelector('.valuation-tooltip');
   const legend=document.querySelector('.valuation-legend');
-  const selected=new Set(series.map(item=>item.slug));
+  // A focused opening view preserves legibility across companies with very different scales.
+  const selected=new Set(['spacex','anthropic','openai'].filter(slug=>series.some(item=>item.slug===slug)));
   let range='all';
   const colors=['#ff5c58','#5d9cff','#f3ab39','#58b293','#c87fe8','#56c3bf','#e07a9e','#d8cb70','#9d88e9'];
   const colorFor=item=>colors[series.findIndex(entry=>entry.slug===item.slug)%colors.length];
@@ -69,11 +70,13 @@
     });
     canvas.append(svg);
   };
-  document.querySelectorAll('.valuation-company').forEach(button=>button.addEventListener('click',()=>{
+  document.querySelectorAll('.valuation-company').forEach(button=>{
+    const active=selected.has(button.dataset.series);button.classList.toggle('is-active',active);button.setAttribute('aria-pressed',String(active));
+    button.addEventListener('click',()=>{
     const slug=button.dataset.series;selected.has(slug)?selected.delete(slug):selected.add(slug);
     if(!selected.size)selected.add(slug);
     button.classList.toggle('is-active',selected.has(slug));button.setAttribute('aria-pressed',String(selected.has(slug)));draw();
-  }));
+  });
   document.querySelectorAll('.valuation-range button').forEach(button=>button.addEventListener('click',()=>{
     range=button.dataset.range;document.querySelectorAll('.valuation-range button').forEach(item=>item.classList.toggle('is-active',item===button));draw();
   }));
