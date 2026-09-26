@@ -76,6 +76,7 @@
     const slug=button.dataset.series;selected.has(slug)?selected.delete(slug):selected.add(slug);
     if(!selected.size)selected.add(slug);
     button.classList.toggle('is-active',selected.has(slug));button.setAttribute('aria-pressed',String(selected.has(slug)));draw();
+    });
   });
   document.querySelectorAll('.valuation-range button').forEach(button=>button.addEventListener('click',()=>{
     range=button.dataset.range;document.querySelectorAll('.valuation-range button').forEach(item=>item.classList.toggle('is-active',item===button));draw();
