@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 102,
-  "bull_case": "Infisical is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "Secrets, identities and machine credentials are critical infrastructure for AI-era software. An open-source platform can compound through developer adoption and expand into higher-value security workflows.",
+  "bear_case": "Security infrastructure is a crowded category with established incumbents. Infisical must convert developer usage into durable enterprise deployments while maintaining a strong security posture.",
   "latest_round": "June 2025: $16M Series A; $19.3M total funding reported",
   "directory_notes": [
     "Developer infrastructure",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Infisical provides developer infrastructure for managing application secrets and configuration.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until a primary source or credible priced transaction is available."
+      "Infisical began as an open-source secrets-management project and has expanded into a security stack for secrets, identity and access. Its products include PKI, SSH and key-management capabilities alongside its core secrets workflow.",
+      "In June 2025, Infisical announced a $16M Series A led by Elad Gil. The company said it was cash-flow positive and securing workloads for Fortune 50 enterprises; those operating statements are company-reported."
     ],
-    "why_it_matters": "The company is on the watchlist because private-market activity in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "AI systems increase the number of credentials, services and agents that need secure access. Infisical is a private-market test of whether an open-source developer foothold can expand into a broad enterprise-security platform.",
     "valuation_history": [
       {
         "value": "$16M raised",
@@ -69,9 +69,9 @@
       }
     ],
     "takeaways": [
-      "Infisical is tracked in developer infrastructure.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Infisical combines secrets management with PKI, SSH and key-management capabilities.",
+      "The company announced a $16M Series A led by Elad Gil and did not disclose a valuation.",
+      "Enterprise conversion, security assurance and platform expansion are the key watch items."
     ],
     "quick_facts": [
       [
@@ -88,6 +88,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Infisical: $16M Series A announcement",
+        "url": "https://infisical.com/blog/series-a"
+      },
       {
         "label": "Company website",
         "url": "https://infisical.com"

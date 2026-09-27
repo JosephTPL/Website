@@ -4,7 +4,7 @@
   "status": "Published",
   "sector": "Artificial intelligence",
   "summary": "Tacit develops AI-assisted underwriting intelligence for MGAs and Lloyd's coverholders, recovering judgement embedded in prior pricing and risk decisions.",
-  "overview": "<p>Tacit Labs develops AI-assisted technical price intelligence for decision-makers.</p>",
+  "overview": "<p>Tacit develops underwriting intelligence for MGAs and Lloyd's coverholders. Its platform is designed to recover the judgment embedded in historical pricing and risk decisions, then make that context available in future underwriting workflows.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 40,
-  "bull_case": "Tacit Labs is positioned in a market where scale, distribution, and execution can compound.",
-  "bear_case": "Private-market estimates are uncertain, and market structure, regulation, competition, or execution could materially change the outlook.",
+  "bull_case": "If Tacit can turn fragmented underwriting history into a trusted workflow layer, it can benefit from deep integration, proprietary customer data and recurring insurance-software spend.",
+  "bear_case": "Insurance buyers require accuracy, explainability and regulatory discipline. The company has not publicly disclosed financing, valuation or commercial metrics, so its progress is difficult to independently assess.",
   "latest_round": "No confirmed financing publicly disclosed",
   "directory_notes": [
     "Technical price intelligence",
@@ -27,7 +27,7 @@
     "location": "United States",
     "status": "Private",
     "logo": "/logos/tacit-labs.svg",
-    "description": "Tacit Labs develops AI-assisted technical price intelligence for decision-makers.",
+    "description": "Underwriting-intelligence platform for MGAs and Lloyd's coverholders.",
     "metrics": [
       {
         "value": "Undisclosed",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Tacit Labs develops AI-assisted technical price intelligence for decision-makers.",
-      "Public financing and operating metrics are limited; the investment case depends on whether proprietary judgment tools become embedded in customer workflows."
+      "Tacit develops underwriting intelligence for MGAs and Lloyd's coverholders. It focuses on retrieving the judgment embedded in prior technical pricing and risk decisions so underwriters can use that context in future cases.",
+      "The company has not publicly disclosed financing, valuation or operating metrics. This profile therefore assesses the product category and does not infer a transaction or commercial scale."
     ],
-    "why_it_matters": "Public financing and operating metrics are limited; the investment case depends on whether proprietary judgment tools become embedded in customer workflows.",
+    "why_it_matters": "Insurance underwriting depends on institutional knowledge that is often poorly captured across spreadsheets and systems. A product that makes that judgment accessible and auditable could be valuable, but adoption depends on accuracy, explainability and trust.",
     "valuation_history": [
       {
         "value": "Not disclosed",
@@ -69,8 +69,8 @@
       }
     ],
     "takeaways": [
-      "Tacit Labs is tracked in technical price intelligence.",
-      "Public financing and operating metrics are limited; the investment case depends on whether proprietary judgment tools become embedded in customer workflows.",
+      "Tacit targets technical pricing and underwriting workflows for MGAs and Lloyd's coverholders.",
+      "Its premise is that historical underwriting judgment can be made usable in future decisions.",
       "No public valuation is asserted without a confirmed priced transaction.",
       "The next useful evidence will be product adoption, financing, and operating disclosure."
     ],

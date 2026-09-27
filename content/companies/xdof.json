@@ -4,19 +4,19 @@
   "status": "Published",
   "sector": "Robotics",
   "summary": "XDOF builds teleoperation-data pipelines and annotation systems for training general-purpose robots. It raised $70 million in June 2026, while a later $1.2 billion valuation was only reported as financing talks.",
-  "overview": "<p>XDOF is tracked as a private robotics company. The currently available public record does not substantiate a precise valuation, financing history or detailed commercial profile.</p>",
+  "overview": "<p>XDOF builds data pipelines, collection tools and annotation systems for training general-purpose robots. TechCrunch reported a $70M Series A in June 2026; later reporting of a $1.2B valuation described financing talks, not a completed round.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Undisclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://xdof.ai"
+      "value": "June 2026: $70M Series A",
+      "note": "TechCrunch reported the Series A; later $1.2B Series B valuation context was financing talks, not a completed round.",
+      "source": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/"
     }
   ],
   "directory_rank": 90,
-  "bull_case": "A differentiated robotics product can create durable value if it proves reliable performance and a repeatable deployment model.",
-  "bear_case": "No confirmed public financing or detailed operating disclosure is available for a defensible investment thesis.",
+  "bull_case": "High-quality real-world data is a bottleneck for general-purpose robotics. A scaled collection and annotation network could become critical infrastructure for robotics labs and manufacturers.",
+  "bear_case": "The Series B terms were not final and the $1.2B valuation remains reported talks, not a completed transaction. Data collection is operationally demanding and competition can intensify as robotics spending rises.",
   "latest_round": "No confirmed financing publicly disclosed",
   "directory_notes": [
     "Robotics",
@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=xdof.ai&sz=128",
-    "description": "XDOF is a private company tracked by The Private Ledger in robotics.",
+    "description": "Robotics-data infrastructure using teleoperation, collection and annotation systems.",
     "metrics": [
       {
         "value": "Undisclosed",
@@ -51,15 +51,15 @@
       }
     ],
     "company": [
-      "XDOF is monitored as a private robotics company. Public materials reviewed for this profile do not support precise claims about funding, valuation, customer base or product performance.",
-      "The profile remains a conservative watchlist entry until a company announcement or reputable reporting provides evidence for a fuller company-intelligence record."
+      "XDOF builds data pipelines, collection tools and annotation systems for training general-purpose robots. Its founders, UC Berkeley researchers Philipp Wu and Fred Shentu, developed the GELLO teleoperation system for generating robot-training data.",
+      "TechCrunch reported a $70M Series A in June 2026 and said annualized revenue was approaching $50M with 20 customers, including frontier AI labs. It separately reported that a Series B at about $1.2B was under discussion, not final."
     ],
-    "why_it_matters": "Robotics is strategically important, but a low-disclosure company should not be given invented intelligence. Confirmed product, customer or financing evidence is needed for the next upgrade.",
+    "why_it_matters": "Robotics needs real-world training data that the internet cannot supply. XDOF is positioned as a data-supply-chain provider for physical AI, where collection quality and operational scale may be more valuable than a single robot product.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$70M",
+        "date": "Jun 2026",
+        "round": "Series A"
       }
     ],
     "changed": [
@@ -69,9 +69,9 @@
       }
     ],
     "takeaways": [
-      "No confirmed public valuation or financing amount has been identified.",
-      "XDOF remains a monitoring entry rather than a fully underwritten profile.",
-      "Verified operating disclosure is required for the next upgrade."
+      "XDOF collects and annotates real-world data for general-purpose robotics training.",
+      "TechCrunch reported a $70M Series A in June 2026.",
+      "A $1.2B valuation was reported in Series B talks, not a completed financing."
     ],
     "quick_facts": [
       [
@@ -88,6 +88,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "TechCrunch: XDOF financing and operating context",
+        "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/"
+      },
       {
         "label": "Company website",
         "url": "https://xdof.ai"
