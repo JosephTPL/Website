@@ -103,7 +103,7 @@ def shell(kind,title,description,route,image=''):
  for a in s.select('a[href^="https://preipomedia.substack.com/subscribe"]'):a['href']=settings['subscribe_url']
  if settings.get('discord_url'):
   top_subscribe=s.select_one('.top-subscribe')
-  if top_subscribe:top_subscribe.insert_before(soup(f'<a class="top-link top-discord" href="{E(settings["discord_url"])}" rel="noopener">Join Discord <span aria-hidden="true">↗</span></a>'))
+  if top_subscribe:top_subscribe.insert_before(soup(f'<a class="top-link top-discord" href="{E(settings["discord_url"])}" rel="noopener">Join our Discord <span aria-hidden="true">↗</span></a>'))
  for panel in s.select('.subscribe-panel'):
   set_text(panel,'h2',settings['subscribe_title']);set_text(panel,'p:not(.eyebrow)',settings['subscribe_text'])
  brand=s.select_one('.brand>span:last-child');brand.clear();brand.append(settings['site_name'].upper());put(brand,'<small>'+E(settings['tagline'])+'</small>')
