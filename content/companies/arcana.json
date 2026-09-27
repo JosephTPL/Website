@@ -2,32 +2,32 @@
   "slug": "arcana",
   "name": "Arcana",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Arcana is a private company tracked by The Private Ledger in artificial intelligence.",
-  "overview": "<p>Arcana is a private company tracked by The Private Ledger in artificial intelligence.</p>",
-  "as_of": "2026-09-25",
+  "sector": "Artificial intelligence",
+  "summary": "Arcana is an early-stage AI company on The Private Ledger's watchlist. Public company and financing disclosures remain limited, so this profile separates the confirmed seed-stage status from information that has not been substantiated.",
+  "overview": "<p>Arcana is an early-stage artificial-intelligence company with limited public operating and financing disclosure. The profile is intentionally conservative: it records the confirmed seed-stage classification without inferring a valuation, customers or commercial scale.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Financing stage",
       "value": "Seed",
       "note": "Private company; its precise valuation has not been publicly disclosed.",
-      "source": ""
+      "source": "https://arcana.ai"
     }
   ],
   "directory_rank": 85,
-  "bull_case": "Arcana is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "An early-stage AI product can compound rapidly if it proves a differentiated workflow and earns a repeatable distribution channel. The opportunity is real, but public evidence does not yet allow a more specific underwriting case.",
+  "bear_case": "The company's product, financing and customer disclosures are too limited for a valuation-based thesis. Until Arcana publishes more evidence, readers should treat the profile as a watchlist entry rather than a fully underwritten investment case.",
   "latest_round": "Seed financing; valuation undisclosed",
   "directory_notes": [
-    "Artificial intelligence",
-    "Public financing and operating data remain limited."
+    "Early-stage AI",
+    "Seed stage; valuation undisclosed."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
     "location": "Undisclosed",
     "status": "Private",
     "logo": "/logos/arcana.jpg",
-    "description": "Arcana is a private company tracked by The Private Ledger in artificial intelligence.",
+    "description": "An early-stage artificial-intelligence company with limited public operating disclosure.",
     "metrics": [
       {
         "value": "Undisclosed",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Arcana is a private company tracked by The Private Ledger in artificial intelligence.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Arcana is tracked as a seed-stage AI company. Its public footprint does not currently provide enough reliable detail to characterise its product, customer base or revenue model beyond that classification.",
+      "No precise valuation or completed financing amount has been substantiated in public sources reviewed for this profile. The profile will be expanded when a company announcement or reputable reporting supports a specific operating or funding claim."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "The responsible treatment of early-stage companies is to distinguish a credible watchlist entry from an investment conclusion. Arcana remains monitored for an announced round, product launch or customer evidence that can support a fuller profile.",
     "valuation_history": [
       {
         "value": "Not disclosed",
@@ -65,13 +65,13 @@
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Profile retained at seed stage after review found no substantiated valuation or detailed operating disclosure."
       }
     ],
     "takeaways": [
-      "Arcana is tracked in artificial intelligence.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Arcana is classified as seed-stage; no precise public valuation is supported.",
+      "The current public record does not justify invented customer, revenue or product claims.",
+      "A company announcement or reputable funding report is required before expanding the underwriting case."
     ],
     "quick_facts": [
       [

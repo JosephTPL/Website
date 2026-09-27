@@ -2,10 +2,10 @@
   "slug": "aaru",
   "name": "Aaru",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Aaru is a private company tracked by The Private Ledger in consumer research.",
-  "overview": "<p>Aaru is a private company tracked by The Private Ledger in consumer research.</p>",
-  "as_of": "2026-09-25",
+  "sector": "Consumer intelligence",
+  "summary": "Aaru builds simulated populations that organisations use to test consumer, investor and stakeholder decisions before committing capital. Its December 2025 Series A carried a reported $1 billion headline valuation, though reported terms included lower pricing for some investors.",
+  "overview": "<p>Aaru builds AI-driven population simulations that aim to forecast how people will behave, rather than relying exclusively on conventional survey responses. Its product is aimed at strategic decisions such as pricing, product innovation, market research and communications.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Latest financing",
@@ -15,19 +15,19 @@
     }
   ],
   "directory_rank": 82,
-  "bull_case": "Aaru is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "If its simulations prove materially more predictive than traditional research, Aaru could become embedded in high-value strategy and insight workflows. The potential market spans research budgets, product decisions and marketing spend rather than a narrow software niche.",
+  "bear_case": "Claims of behavioural prediction require unusually rigorous validation, especially when customers use outputs for consequential decisions. The reported headline valuation needs to be read alongside the disclosed complexity of the financing terms.",
   "latest_round": "December 2025: Series A at $1B headline valuation",
   "directory_notes": [
-    "Consumer research",
-    "Public financing and operating data remain limited."
+    "AI population simulation",
+    "Reported $1B headline valuation in December 2025."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Undisclosed",
+    "location": "New York, New York",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=aaru.com&sz=128",
-    "description": "Aaru is a private company tracked by The Private Ledger in consumer research.",
+    "description": "A predictive-intelligence platform that simulates populations to support commercial and strategic decisions.",
     "metrics": [
       {
         "value": "$1B",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Aaru is a private company tracked by The Private Ledger in consumer research.",
-      "TechCrunch reported that the December 2025 Series A included a $1 billion headline valuation, while noting that some investors entered at lower pricing."
+      "Aaru creates simulated populations of AI agents designed to model how people make decisions. Customers can use the platform to test product concepts, prices, messages, segmentation and high-stakes strategic communications before committing to them in the real world.",
+      "TechCrunch reported that Aaru's December 2025 Series A carried a $1 billion headline valuation, while noting that some investors entered at lower pricing. That distinction matters: the headline figure is reported financing context, not a simple universally priced mark."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Aaru is part of the emerging market for AI systems that attempt to replace or augment expensive human research. The key question is whether it can demonstrate reliable predictive performance across repeatable commercial use cases, rather than generate merely plausible simulations.",
     "valuation_history": [
       {
         "value": "$1B",
@@ -65,18 +65,18 @@
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Published a validation study covering 2,993 questions on population-simulation accuracy."
       }
     ],
     "takeaways": [
-      "Aaru is tracked in consumer research.",
-      "The December 2025 Series A carried a reported $1 billion headline valuation.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Aaru competes for research and decision-support budgets, not simply AI experimentation spend.",
+      "The $1B figure is a reported headline valuation with nuanced financing terms.",
+      "Independent validation and repeat customer evidence are the most important diligence points."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Consumer research"
+        "AI population simulation"
       ],
       [
         "Website",
@@ -89,8 +89,12 @@
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://aaru.com"
+        "label": "TechCrunch: Aaru Series A",
+        "url": "https://techcrunch.com/2025/12/05/ai-synthetic-research-startup-aaru-raised-a-series-a-at-a-1b-headline-valuation/"
+      },
+      {
+        "label": "Aaru: validation study",
+        "url": "https://aaru.com/publications/population-simulation-at-the-replication-floor-research"
       }
     ]
   }

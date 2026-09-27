@@ -2,10 +2,10 @@
   "slug": "antares-nuclear",
   "name": "Antares Nuclear",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Antares Nuclear is a private company tracked by The Private Ledger in nuclear energy.",
-  "overview": "<p>Antares Nuclear is a private company tracked by The Private Ledger in nuclear energy.</p>",
-  "as_of": "2026-09-25",
+  "sector": "Nuclear energy",
+  "summary": "Antares is developing factory-produced fission microreactors for critical missions, including U.S. military applications. It announced a $470 million Series C in July 2026, with no valuation disclosed.",
+  "overview": "<p>Antares develops small fission microreactors intended for strategic and remote power applications. The company is pursuing a factory-production approach and has disclosed work with the Department of Energy and U.S. military stakeholders.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Latest financing",
@@ -15,19 +15,19 @@
     }
   ],
   "directory_rank": 92,
-  "bull_case": "Antares Nuclear is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "Demand for resilient, deployable power at remote and strategic sites could create a meaningful market for microreactors. Antares' criticality milestone and large financing provide tangible validation for a company in an otherwise long-cycle category.",
+  "bear_case": "Nuclear deployment depends on licensing, fuel supply, manufacturing and customer acceptance, each of which can delay revenue materially. The Series C size does not establish a valuation or guarantee a commercial fleet order.",
   "latest_round": "July 2026: $470M Series C",
   "directory_notes": [
-    "Nuclear energy",
-    "Public financing and operating data remain limited."
+    "Fission microreactors",
+    "$470M Series C announced in July 2026; valuation undisclosed."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Undisclosed",
+    "location": "Redondo Beach, California",
     "status": "Private",
     "logo": "/logos/antares-nuclear.jpg",
-    "description": "Antares Nuclear is a private company tracked by The Private Ledger in nuclear energy.",
+    "description": "A nuclear-energy company developing factory-produced fission microreactors for critical missions.",
     "metrics": [
       {
         "value": "Undisclosed",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Antares Nuclear is a private company tracked by The Private Ledger in nuclear energy.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Antares is developing fission microreactors designed for critical and remote missions, including potential U.S. military use. Its strategy is based on producing reactors in factories rather than treating every project as a bespoke construction programme.",
+      "The company announced a $470 million Series C in July 2026, comprising $370 million of equity and $100 million of debt, without disclosing a valuation. It later announced a strategic-breakthrough award for a space-reactor demonstration and a long-term TRISO fuel-supply agreement."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Antares is one of the clearest private bets on compact nuclear power for defence and other mission-critical use cases. The investment case depends on moving from engineering and demonstrations to a licensable, fuelled and repeatably manufactured product.",
     "valuation_history": [
       {
         "value": "$470M raised",
@@ -64,19 +64,19 @@
     ],
     "changed": [
       {
-        "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "date": "Jul 2026",
+        "text": "Announced $470M Series C to deploy nuclear microreactors for critical missions."
       }
     ],
     "takeaways": [
-      "Antares Nuclear is tracked in nuclear energy.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The Series C is confirmed, but the company did not disclose a valuation.",
+      "Criticality, fuel supply and licence progress are more consequential than a private valuation at this stage.",
+      "Military and remote-power demand provide a strategic wedge, but deployment remains long-cycle."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Nuclear energy"
+        "Microreactors"
       ],
       [
         "Website",
@@ -89,8 +89,12 @@
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://antaresnuclear.com"
+        "label": "Antares: Series C and company updates",
+        "url": "https://antaresindustries.com/updates"
+      },
+      {
+        "label": "TechCrunch: Antares $470M financing",
+        "url": "https://techcrunch.com/2026/07/27/antares-raises-470m-to-build-nuclear-reactors-for-the-u-s-military/"
       }
     ]
   }

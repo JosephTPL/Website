@@ -2,10 +2,10 @@
   "slug": "base",
   "name": "Base",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Base is a private company tracked by The Private Ledger in blockchain infrastructure.",
-  "overview": "<p>Base is a private company tracked by The Private Ledger in blockchain infrastructure.</p>",
-  "as_of": "2026-09-25",
+  "sector": "Blockchain infrastructure",
+  "summary": "Base is an Ethereum Layer-2 network incubated by public company Coinbase, built on the OP Stack. It is not a standalone venture-backed company, so a private valuation and funding-round history do not apply.",
+  "overview": "<p>Base is an Ethereum Layer-2 network incubated inside Coinbase and built with the OP Stack in collaboration with Optimism. The network is relevant to private-market investors as an ecosystem and distribution layer, but should not be presented as a separately financed private company.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Status",
@@ -15,19 +15,19 @@
     }
   ],
   "directory_rank": 86,
-  "bull_case": "Base is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "Base benefits from Coinbase distribution, Ethereum security and a broad developer ecosystem. If its payments and application ecosystem expands, it can become a strategically meaningful platform within Coinbase's public-company economics.",
+  "bear_case": "Base competes with other Layer-2 networks for developers, liquidity and applications while depending on Coinbase's product and regulatory strategy. There is no standalone equity value to underwrite, and token speculation should not be confused with an investment in Base itself.",
   "latest_round": "Not applicable: Coinbase-operated Layer-2 network",
   "directory_notes": [
-    "Blockchain infrastructure",
-    "Public financing and operating data remain limited."
+    "Ethereum Layer 2",
+    "Operated by Coinbase; no standalone equity valuation."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Undisclosed",
-    "status": "Private",
+    "location": "San Francisco, California",
+    "status": "Coinbase-operated network",
     "logo": "https://www.google.com/s2/favicons?domain=base.org&sz=128",
-    "description": "Base is a private company tracked by The Private Ledger in blockchain infrastructure.",
+    "description": "An Ethereum Layer-2 network incubated by Coinbase, rather than a standalone private company.",
     "metrics": [
       {
         "value": "N/A",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Base is a private company tracked by The Private Ledger in blockchain infrastructure.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Base is a low-cost, developer-focused Ethereum Layer-2 network built on the OP Stack. Coinbase has described Base as incubated inside the company, with a stated goal of progressively decentralising the network over time.",
+      "It has no standalone venture financing, public equity valuation or announced native token. Any analysis of its strategic value belongs primarily in an assessment of Coinbase and the wider Ethereum ecosystem, rather than a conventional private-company valuation profile."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Base shows why the directory needs to distinguish companies from strategically important platforms. It matters to fintech and crypto startups building on it, but its economics and governance cannot be assessed through the same financing framework used for an independent private company.",
     "valuation_history": [
       {
         "value": "N/A",
@@ -64,33 +64,37 @@
     ],
     "changed": [
       {
-        "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "date": "Feb 2023",
+        "text": "Coinbase introduced Base as an Ethereum Layer-2 network built with the OP Stack."
       }
     ],
     "takeaways": [
-      "Base is tracked in blockchain infrastructure.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Base is a Coinbase-incubated network, not an independent private-company equity story.",
+      "There is no announced Base token or standalone valuation to add to valuation rankings.",
+      "Developer adoption, payments usage and decentralisation progress are the relevant measures."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Blockchain infrastructure"
+        "Ethereum Layer 2"
       ],
       [
         "Website",
         "base.org"
       ],
       [
-        "Public status",
-        "Private"
+        "Operating status",
+        "Coinbase-incubated network"
       ]
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://base.org"
+        "label": "Coinbase: Introducing Base",
+        "url": "https://help.coinbase.com/en/coinbase/other-topics/other/base"
+      },
+      {
+        "label": "Base: commitment to decentralization",
+        "url": "https://blog.base.org/bases-commitment-to-decentralization-with-the-superchain"
       }
     ]
   }

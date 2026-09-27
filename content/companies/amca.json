@@ -2,10 +2,10 @@
   "slug": "amca",
   "name": "Amca",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Amca is a private company tracked by The Private Ledger in technology.",
-  "overview": "<p>Amca is a private company tracked by The Private Ledger in technology.</p>",
-  "as_of": "2026-09-25",
+  "sector": "Industrial technology",
+  "summary": "Amca acquires, upgrades and operates certified U.S. manufacturers of aerospace and defence components. Its $300 million May 2026 Series B valued the company above $1 billion, according to its announcement.",
+  "overview": "<p>Amca is building an integrated platform for engineering, qualifying and manufacturing critical aerospace and defence components. It combines acquired certified factories with its RAPID development workflow, targeting supply-chain bottlenecks in legacy industrial capacity.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Latest financing",
@@ -15,19 +15,19 @@
     }
   ],
   "directory_rank": 83,
-  "bull_case": "Amca is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "Amca can compound value if its factory network and engineering workflow shorten lead times in an under-supplied defence and aviation component market. Existing relationships with major aerospace and defence customers give the model a more tangible commercial base than a greenfield factory thesis.",
+  "bear_case": "Acquiring and integrating certified factories is capital-intensive and operationally complex. Defence demand, customer concentration and qualification cycles can make growth less predictable than software-like valuation multiples imply.",
   "latest_round": "May 2026: $300M Series B at $1B+",
   "directory_notes": [
-    "Technology",
-    "Public financing and operating data remain limited."
+    "Aerospace and defence manufacturing",
+    "$300M Series B; $1B+ valuation announced in May 2026."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Undisclosed",
+    "location": "El Segundo, California",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=amca.com&sz=128",
-    "description": "Amca is a private company tracked by The Private Ledger in technology.",
+    "description": "An industrial platform acquiring and modernising certified aerospace and defence-component manufacturers.",
     "metrics": [
       {
         "value": "$1B+",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Amca is a private company tracked by The Private Ledger in technology.",
-      "AMCA announced a $300 million Series B in May 2026 and said the financing valued the company above $1 billion."
+      "Amca builds and operates a distributed manufacturing network for critical aerospace and defence components. It combines engineering, qualification testing, technical-data development and certified production capacity in one operating model, while acquiring and reconfiguring established manufacturers.",
+      "The company announced a $300 million Series B in May 2026, led by Caffeinated Capital, at a valuation above $1 billion. Amca said it then operated six factories in California, Iowa and New York, supplying components across hydraulics, avionics and power electronics."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Amca is a private-market expression of the effort to rebuild domestic industrial capacity for aerospace and defence. Its ability to turn acquisitions into qualified production and repeatable customer programs is more important than its headline valuation.",
     "valuation_history": [
       {
         "value": "$1B+",
@@ -64,19 +64,19 @@
     ],
     "changed": [
       {
-        "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "date": "May 2026",
+        "text": "Announced $300M Series B and a valuation above $1B to expand its component-manufacturing network."
       }
     ],
     "takeaways": [
-      "Amca is tracked in technology.",
-      "AMCA reported a valuation above $1 billion in its May 2026 Series B announcement.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Amca's core asset is certified production capacity in critical, difficult-to-replace components.",
+      "The $1B+ valuation was disclosed in the company's Series B announcement.",
+      "Factory integration, qualification throughput and contract depth are the central operating metrics."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Technology"
+        "Industrial manufacturing"
       ],
       [
         "Website",
@@ -89,8 +89,12 @@
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://amca.com"
+        "label": "Amca: $300M Series B announcement",
+        "url": "https://www.prnewswire.com/news-releases/amca-closes-300m-series-b-at-1b-valuation-to-strengthen-americas-critical-component-supply-chain-302776943.html"
+      },
+      {
+        "label": "Amca website",
+        "url": "https://www.amca.com/"
       }
     ]
   }
