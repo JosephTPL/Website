@@ -3,8 +3,8 @@
   "name": "Sail Research",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Sail Research is a private research-technology company tracked by The Private Ledger.",
-  "overview": "<p>Sail Research is a private research-technology company tracked by The Private Ledger.</p>",
+  "summary": "Sail Research provides infrastructure designed to run long-horizon AI agents efficiently and reliably.",
+  "overview": "<p>Sail Research is building cloud infrastructure for AI agents that operate over long tasks rather than brief interactions. It announced $80 million of seed and Series A funding at a $450 million valuation in June 2026.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=sailresearch.com&sz=128",
-    "description": "Sail Research is a private research-technology company tracked by The Private Ledger.",
+    "description": "Infrastructure for long-horizon AI agents, persistent sandboxes, and efficient inference.",
     "metrics": [
       {
         "value": "$450M",
@@ -51,8 +51,8 @@
       }
     ],
     "company": [
-      "Sail Research is a private research-technology company tracked by The Private Ledger.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until a primary source or credible priced transaction is available."
+      "Sail Research provides infrastructure for long-horizon AI agents, including persistent environments and telemetry intended to let agents work over hours or days. The company argues that this workload needs different infrastructure than short, turn-by-turn model interactions.",
+      "In June 2026, Sail announced $80 million of seed and Series A funding at a $450 million valuation. Sequoia led the seed and Kleiner Perkins led the Series A."
     ],
     "why_it_matters": "The company is on the watchlist because private-market activity in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [

@@ -3,7 +3,7 @@
   "name": "Long Lake",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Long Lake is a private financial-services company tracked by The Private Ledger.",
+  "summary": "Long Lake is a private financial-services company with a reported May 2026 Series D valuation benchmark.",
   "overview": "<p>Long Lake is a private financial-services company tracked by The Private Ledger.</p>",
   "as_of": "2026-09-25",
   "facts": [
@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "/logos/long-lake.png",
-    "description": "Long Lake is a private financial-services company tracked by The Private Ledger.",
+    "description": "A private financial-services company tracked for its reported funding and valuation activity.",
     "metrics": [
       {
         "value": "$12.44B",
@@ -51,8 +51,8 @@
       }
     ],
     "company": [
-      "Long Lake is a private financial-services company tracked by The Private Ledger.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until a primary source or credible priced transaction is available."
+      "Long Lake is a private financial-services business whose public operating disclosure remains limited. The company is tracked because secondary-market data identifies a material financing and valuation benchmark.",
+      "Forge Global lists a May 2026 Series D of $2.25 billion at a reported $12.44 billion post-money valuation. The profile treats this as reported secondary-market information rather than a company-issued financing announcement."
     ],
     "why_it_matters": "The company is on the watchlist because private-market activity in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [

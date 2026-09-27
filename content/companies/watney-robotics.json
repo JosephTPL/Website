@@ -3,8 +3,8 @@
   "name": "Watney Robotics",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Watney Robotics is a private robotics company tracked by The Private Ledger.",
-  "overview": "<p>Watney Robotics is a private robotics company tracked by The Private Ledger.</p>",
+  "summary": "Watney builds autonomous robotic systems for physical operations inside data centres and supercomputing infrastructure.",
+  "overview": "<p>Watney deploys autonomous robots to help data-centre operators accelerate physical infrastructure work. In September 2026, it announced an $80 million Series A, bringing total funding above $100 million.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=watneyrobotics.com&sz=128",
-    "description": "Watney Robotics is a private robotics company tracked by The Private Ledger.",
+    "description": "Autonomous robotic systems for data-centre and supercomputing operations.",
     "metrics": [
       {
         "value": "Undisclosed",
@@ -51,8 +51,8 @@
       }
     ],
     "company": [
-      "Watney Robotics is a private robotics company tracked by The Private Ledger.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until a primary source or credible priced transaction is available."
+      "Watney builds and deploys autonomous robots for data-centre operations, starting with the physical work that can slow capacity expansion. The company says its systems operate alongside technicians in equipment-dense facilities and help hyperscalers build infrastructure faster.",
+      "Watney announced an $80 million Series A in September 2026, bringing total funding above $100 million. The company did not disclose a valuation."
     ],
     "why_it_matters": "The company is on the watchlist because private-market activity in this category can become relevant before public disclosures are widely available.",
     "valuation_history": [

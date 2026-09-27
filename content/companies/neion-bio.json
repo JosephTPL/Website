@@ -3,8 +3,8 @@
   "name": "Neion Bio",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Neion Bio is a private biotechnology company tracked by The Private Ledger.",
-  "overview": "<p>Neion Bio is a private biotechnology company tracked by The Private Ledger.</p>",
+  "summary": "Neion Bio uses genetic engineering to turn chicken eggs into production systems for complex biologic medicines.",
+  "overview": "<p>Neion Bio is developing an egg-based biomanufacturing platform for biologics and biosimilars. It announced an oversubscribed $23 million Series A in June 2026, led by Caffeinated Capital, without a disclosed valuation.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -27,7 +27,7 @@
     "location": "United States",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=neionbio.com&sz=128",
-    "description": "Neion Bio is a private biotechnology company tracked by The Private Ledger.",
+    "description": "Egg-based biologics manufacturing using genetic engineering and the Raptor platform.",
     "metrics": [
       {
         "value": "Undisclosed",
@@ -51,8 +51,8 @@
       }
     ],
     "company": [
-      "Neion Bio is a private biotechnology company tracked by The Private Ledger.",
-      "Clinical progress, scientific validation, and financing will be the key evidence points for future updates."
+      "Neion Bio uses genetic engineering to direct production of complex proteins into chicken eggs through its Raptor platform. The company is pursuing biologics, biosimilars, reagents, and animal-health applications.",
+      "In June 2026, Neion announced an oversubscribed $23 million Series A led by Caffeinated Capital. It said the financing followed emergence from stealth and a commercial co-development and supply agreement with a major pharmaceutical company."
     ],
     "why_it_matters": "Clinical progress, scientific validation, and financing will be the key evidence points for future updates.",
     "valuation_history": [
