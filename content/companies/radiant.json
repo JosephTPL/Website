@@ -2,9 +2,9 @@
   "slug": "radiant",
   "name": "Radiant",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Radiant is a private company tracked by The Private Ledger in nuclear energy.",
-  "overview": "<p>Radiant is a private company tracked by The Private Ledger in nuclear energy.</p>",
+  "sector": "Nuclear energy",
+  "summary": "Radiant develops portable microreactors for resilient power. It announced more than $300 million of Series D financing in December 2025, without disclosing a valuation.",
+  "overview": "<p>Radiant is developing portable nuclear microreactors intended for remote and mission-critical power. Its private-market case depends on moving from reactor development to repeatable production and deployment.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 131,
-  "bull_case": "Radiant is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "Portable nuclear power could address high-value demand where grid access is constrained or resilience is critical.",
+  "bear_case": "Licensing, fuel, manufacturing and deployment create long, capital-intensive execution paths; valuation is undisclosed.",
   "latest_round": "December 2025 Series D: $300M+; valuation undisclosed",
   "directory_notes": [
     "Nuclear energy",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Radiant is a private company tracked by The Private Ledger in nuclear energy.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Radiant develops portable microreactors intended to provide resilient clean power where conventional infrastructure is constrained. The company is pursuing a manufacturing-led path to nuclear deployment.",
+      "Radiant announced more than $300 million in Series D financing in December 2025 to scale production. It did not disclose a valuation."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Radiant is a private bet on compact nuclear power for resilience-sensitive customers. Licensing and first commercial deployments are the decisive milestones.",
     "valuation_history": [
       {
         "value": "$300M+ raised",
@@ -69,9 +69,9 @@
       }
     ],
     "takeaways": [
-      "Radiant is tracked in nuclear energy.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The $300M+ Series D is confirmed; valuation was not disclosed.",
+      "Radiant targets portable, resilient nuclear power.",
+      "Licensing and commercial deployment remain the key risks."
     ],
     "quick_facts": [
       [

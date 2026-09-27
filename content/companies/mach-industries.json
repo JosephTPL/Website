@@ -2,9 +2,9 @@
   "slug": "mach-industries",
   "name": "Mach Industries",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Mach Industries is a private company tracked by The Private Ledger in defense technology.",
-  "overview": "<p>Mach Industries is a private company tracked by The Private Ledger in defense technology.</p>",
+  "sector": "Defence technology",
+  "summary": "Mach Industries develops defence hardware and manufacturing capacity. It raised an additional $600 million in a September 2026 Series C continuation at a $3.7 billion valuation.",
+  "overview": "<p>Mach Industries is a defence-technology company focused on building and scaling manufacturing capacity for modern defence systems. Its financing supports a broader push to accelerate defence production.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 128,
-  "bull_case": "Mach Industries is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "Defence-manufacturing demand can support significant growth if Mach converts technology and capacity into repeatable programmes.",
+  "bear_case": "A $3.7B valuation requires contract conversion, manufacturing execution and long-cycle procurement success.",
   "latest_round": "September 2026 Series C continuation: $600M at a $3.7B valuation",
   "directory_notes": [
     "Defense technology",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Mach Industries is a private company tracked by The Private Ledger in defense technology.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Mach Industries develops defence technology and manufacturing capacity for modern defence needs. Its model depends on turning new hardware and production capability into deployable systems for government customers.",
+      "In September 2026, Mach announced an additional $600 million Series C continuation at a $3.7 billion valuation to scale defence manufacturing."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Mach reflects the push to add venture-backed capacity to defence manufacturing. Contract wins and sustained production are the critical next evidence, not financing alone.",
     "valuation_history": [
       {
         "value": "$3.7B",
@@ -69,9 +69,9 @@
       }
     ],
     "takeaways": [
-      "Mach Industries is tracked in defense technology.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Mach is a defence-manufacturing and hardware company.",
+      "The $3.7B valuation was announced with its September 2026 financing.",
+      "Production and procurement execution remain central risks."
     ],
     "quick_facts": [
       [

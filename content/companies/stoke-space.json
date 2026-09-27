@@ -2,9 +2,9 @@
   "slug": "stoke-space",
   "name": "Stoke Space",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Stoke Space is a private company tracked by The Private Ledger in space launch.",
-  "overview": "<p>Stoke Space is a private company tracked by The Private Ledger in space launch.</p>",
+  "sector": "Space launch",
+  "summary": "Stoke Space is developing a fully reusable launch vehicle. Its September 2026 Series E was reported at a $9 billion private-market valuation, while the company announced a $1 billion financing.",
+  "overview": "<p>Stoke Space is building a fully reusable launch system aimed at lowering the cost and increasing the cadence of access to orbit. The company is progressing from technology demonstration toward commercial launch capability.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 131,
-  "bull_case": "Stoke Space is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "A successful reusable launch system could earn significant share in a growing space-economy market.",
+  "bear_case": "Orbital launch is technically unforgiving and capital-intensive; the reported $9B valuation depends on execution far beyond financing.",
   "latest_round": "September 2026 Series E: reported $9B valuation",
   "directory_notes": [
     "Space launch",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Stoke Space is a private company tracked by The Private Ledger in space launch.",
-      "Stoke Space's September 2026 Series E was reported at a $9 billion private-market valuation."
+      "Stoke Space is developing a fully reusable launch vehicle intended to increase launch cadence and reduce the cost of access to orbit. The core proof point is reliable flight and recovery performance, not only fundraising.",
+      "The company announced a $1 billion Series E in September 2026. Private-market data providers reported a $9 billion valuation; that figure is labelled as reported rather than company-disclosed pricing."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Stoke is among the high-value private launch bets competing for a market shaped by reusability. Flight tests, payload contracts and launch reliability will determine whether the valuation holds.",
     "valuation_history": [
       {
         "value": "$9B",
@@ -69,9 +69,9 @@
       }
     ],
     "takeaways": [
-      "Stoke Space is tracked in space launch.",
-      "The September 2026 Series E was reported at a $9 billion valuation.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The $1B Series E is company-announced; the $9B valuation is reported context.",
+      "Stoke's thesis is full reusability in orbital launch.",
+      "Flight and recovery performance are the key underwriting milestones."
     ],
     "quick_facts": [
       [

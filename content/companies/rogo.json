@@ -2,9 +2,9 @@
   "slug": "rogo",
   "name": "Rogo",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Rogo is a private company tracked by The Private Ledger in financial ai.",
-  "overview": "<p>Rogo is a private company tracked by The Private Ledger in financial ai.</p>",
+  "sector": "Financial AI",
+  "summary": "Rogo builds an agentic AI platform for financial-services professionals. It raised $160 million in an April 2026 Series D at a reported $2 billion valuation.",
+  "overview": "<p>Rogo provides AI tools for financial institutions and professionals, targeting research, analysis and workflow automation. The company is competing for adoption in a high-value, tightly regulated enterprise market.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 123,
-  "bull_case": "Rogo is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "Financial workflows offer high willingness to pay if Rogo delivers accuracy, security and deep integration with institutional processes.",
+  "bear_case": "Financial AI faces rigorous data, compliance and reliability requirements, while larger model and software vendors compete for the same budgets.",
   "latest_round": "April 2026 Series D: $160M at a reported $2B valuation",
   "directory_notes": [
     "Financial AI",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Rogo is a private company tracked by The Private Ledger in financial ai.",
-      "Rogo raised a $160 million Series D in April 2026 at a reported $2 billion valuation."
+      "Rogo develops an agentic AI platform for financial-services professionals, aimed at research, analysis and other high-value institutional workflows. Its opportunity depends on delivering useful automation within strict data and compliance constraints.",
+      "The company announced a $160 million Series D in April 2026 to scale the platform. A $2 billion valuation was reported alongside the financing and is labelled as reported context in this profile."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Rogo is a direct private-market test of whether vertical AI can earn durable financial-institution budgets. Enterprise retention, accuracy and secure deployment are more meaningful indicators than its reported valuation alone.",
     "valuation_history": [
       {
         "value": "$2B",
@@ -69,9 +69,9 @@
       }
     ],
     "takeaways": [
-      "Rogo is tracked in financial ai.",
-      "The April 2026 Series D was reported at a $2 billion valuation.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Rogo targets AI workflows for financial-services professionals.",
+      "The $160M Series D is company-announced; the $2B valuation is reported context.",
+      "Security, accuracy and institutional adoption are the core diligence points."
     ],
     "quick_facts": [
       [
