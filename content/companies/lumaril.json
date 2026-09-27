@@ -3,7 +3,7 @@
   "name": "Lumaril",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Lumaril is a private technology company tracked by The Private Ledger.",
+  "summary": "Lumaril develops intelligence software for the physical economy, where industrial activity and operating conditions are difficult to observe in real time.",
   "overview": "<p>Lumaril is a private technology company tracked by The Private Ledger.</p>",
   "as_of": "2026-09-25",
   "facts": [
@@ -27,7 +27,7 @@
     "location": "United States",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=lumaril.com&sz=128",
-    "description": "Lumaril is a private technology company tracked by The Private Ledger.",
+    "description": "Intelligence software for the physical economy.",
     "metrics": [
       {
         "value": "Undisclosed",

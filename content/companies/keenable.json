@@ -3,7 +3,7 @@
   "name": "Keenable",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Keenable is a private enterprise-software company tracked by The Private Ledger.",
+  "summary": "Keenable is building a web-search index designed for AI agents, backed by a $26 million seed round led by Accel.",
   "overview": "<p>Keenable is a private enterprise-software company tracked by The Private Ledger.</p>",
   "as_of": "2026-09-25",
   "facts": [
@@ -27,7 +27,7 @@
     "location": "United States",
     "status": "Private",
     "logo": "/logos/keenable.png",
-    "description": "Keenable is a private enterprise-software company tracked by The Private Ledger.",
+    "description": "A web-search index designed for AI agents.",
     "metrics": [
       {
         "value": "Undisclosed",
