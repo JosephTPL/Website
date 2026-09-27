@@ -87,6 +87,7 @@ def intelligence_profile(c):
 
 def shell(kind,title,description,route,image=''):
  s=soup((ROOT/'templates'/f'{kind}.html').read_text());s.title.string=title+' | '+settings['site_name']
+ s.select_one('link[rel="icon"]')['href']='/assets/compass-logo.png'
  for font_link in s.select('link[href*="fonts.googleapis.com"]'):
   font_link['href']='https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap'
  s.select_one('meta[name="description"]')['content']=description
@@ -106,6 +107,9 @@ def shell(kind,title,description,route,image=''):
   if top_subscribe:top_subscribe.insert_before(soup(f'<a class="top-link top-discord" href="{E(settings["discord_url"])}" rel="noopener">Join our Discord <span aria-hidden="true">↗</span></a>'))
  for panel in s.select('.subscribe-panel'):
   set_text(panel,'h2',settings['subscribe_title']);set_text(panel,'p:not(.eyebrow)',settings['subscribe_text'])
+ brandmark=s.select_one('.brandmark')
+ if brandmark:
+  brandmark.clear();put(brandmark,'<img src="/assets/compass-logo.png" alt="" aria-hidden="true">')
  brand=s.select_one('.brand>span:last-child');brand.clear();brand.append(settings['site_name'].upper());put(brand,'<small>'+E(settings['tagline'])+'</small>')
  if s.select_one('footer'):s.select_one('footer').clear();put(s.select_one('footer'),f'© {date.today().year} {E(settings["site_name"])}')
  return s
