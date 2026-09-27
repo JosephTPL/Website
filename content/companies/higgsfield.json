@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=higgsfield.ai&sz=128",
-    "description": "Higgsfield is a private company tracked by The Private Ledger in generative video ai.",
+    "description": "Generative-media suite for image, video, editing and creative production workflows.",
     "metrics": [
       {
         "value": "$5.4B",
@@ -69,9 +69,9 @@
       }
     ],
     "takeaways": [
-      "The $5.4B valuation was announced with a $400M Series B.",
-      "Higgsfield is targeting professional creators and enterprise creative workflows.",
-      "Compute costs and competitive differentiation remain central risks."
+      "Higgsfield sells a broader creative suite, spanning image, video, editing, effects and API access.",
+      "The $400M Series B and $5.4B valuation are reported by TechCrunch, while the company's operating figures are company-reported.",
+      "The underwriting question is whether creative teams retain the product as models and distribution channels evolve."
     ],
     "quick_facts": [
       [
@@ -88,6 +88,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "TechCrunch: Higgsfield $400M Series B",
+        "url": "https://techcrunch.com/2026/08/17/higgsfield-raises-400m-series-b-quadrupling-its-valuation-in-8-months-to-5-4b/"
+      },
       {
         "label": "Company website",
         "url": "https://higgsfield.ai"

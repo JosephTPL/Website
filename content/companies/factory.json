@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=factory.ai&sz=128",
-    "description": "Factory is a private company tracked by The Private Ledger in ai software development.",
+    "description": "Enterprise software-development platform for governed AI agents.",
     "metrics": [
       {
         "value": "$5B",
@@ -69,9 +69,9 @@
       }
     ],
     "takeaways": [
-      "Factory is focused on enterprise software-development workflows and governance.",
-      "Its $5B valuation was announced with a $200M September 2026 financing.",
-      "Enterprise deployment depth is a more useful measure than agent demonstrations."
+      "Factory was founded in 2023 to build autonomous software-engineering systems for enterprises.",
+      "Its $200M September 2026 financing was company-announced at a $5B valuation.",
+      "The core diligence question is whether governed deployment turns usage into durable enterprise spend."
     ],
     "quick_facts": [
       [
@@ -88,6 +88,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Factory: $200M financing at $5B valuation",
+        "url": "https://factory.com/news/5-billion-valuation"
+      },
       {
         "label": "Company website",
         "url": "https://factory.ai"

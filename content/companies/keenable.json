@@ -4,7 +4,7 @@
   "status": "Published",
   "sector": "Private markets",
   "summary": "Keenable is building a web-search index designed for AI agents, backed by a $26 million seed round led by Accel.",
-  "overview": "<p>Keenable is a private enterprise-software company tracked by The Private Ledger.</p>",
+  "overview": "<p>Keenable is building a web-search index designed for AI agents. The company announced a $26 million seed financing led by Accel; its valuation was not disclosed.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 104,
-  "bull_case": "Keenable is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "An agent-native search layer could become valuable infrastructure if developers rely on it for dependable, current web retrieval.",
+  "bear_case": "Search infrastructure is a difficult market with formidable incumbents; public data does not yet establish Keenable's adoption, economics or valuation.",
   "latest_round": "2025 seed financing: $26M; valuation undisclosed",
   "directory_notes": [
     "Enterprise software",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Keenable is a private enterprise-software company tracked by The Private Ledger.",
-      "Public financing and operating disclosures are limited; the profile remains a research baseline rather than a valuation claim."
+      "Keenable is building a web-search index for AI agents, a use case that differs from consumer search by emphasizing machine-readable retrieval and agent workflows.",
+      "Axios reported a $26 million seed financing led by Accel. The company has not publicly disclosed a valuation or operating metrics, so this profile does not infer either."
     ],
-    "why_it_matters": "Public financing and operating disclosures are limited; the profile remains a research baseline rather than a valuation claim.",
+    "why_it_matters": "As AI agents take on more research and workflow tasks, reliable search and retrieval can become a meaningful infrastructure layer. The investment case remains early because public evidence on product adoption and differentiation is limited.",
     "valuation_history": [
       {
         "value": "$26M raised",
@@ -69,15 +69,15 @@
       }
     ],
     "takeaways": [
-      "Keenable is tracked in enterprise software.",
-      "Public financing and operating disclosures are limited; the profile remains a research baseline rather than a valuation claim.",
+      "Keenable is focused on web-search infrastructure for AI agents.",
+      "Axios reported a $26M seed financing led by Accel; no valuation was disclosed.",
       "No public valuation is asserted without a confirmed priced transaction.",
       "The next useful evidence will be product adoption, financing, and operating disclosure."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Enterprise software"
+        "AI-agent search infrastructure"
       ],
       [
         "Website",

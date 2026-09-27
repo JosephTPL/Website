@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=listenlabs.ai&sz=128",
-    "description": "Listen Labs is a private company tracked by The Private Ledger in ai research.",
+    "description": "AI-first customer-research platform built around conversational interviews with real participants.",
     "metrics": [
       {
         "value": "$500M+",
@@ -69,9 +69,9 @@
       }
     ],
     "takeaways": [
-      "The $69M Series B is company-announced; the $500M+ valuation is reported context.",
-      "Listen's core product is AI-assisted customer research, not general AI research.",
-      "Research quality and enterprise retention are the core diligence questions."
+      "Listen uses AI-led interviews for research workflows including product concepts, messaging and usability testing.",
+      "Its $69M Series B was company-announced; the $500M-plus valuation is reported context and not a company-disclosed figure.",
+      "Panel quality, research rigor and repeat enterprise use matter more than interview volume alone."
     ],
     "quick_facts": [
       [
@@ -88,6 +88,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "TechCrunch: Listen Labs financing and reported valuation context",
+        "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/"
+      },
       {
         "label": "Company website",
         "url": "https://listenlabs.ai"
