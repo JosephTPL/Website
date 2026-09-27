@@ -185,6 +185,7 @@ def valuation_chart_markup():
  selected=selected+('rippling','epic-games','discord','plaid','mistral-ai','kraken','shield-ai','notion','whatnot',
                     'cohere','elevenlabs','mercor','lovable','perplexity','lukoil','citadel-securities','etched','helsing','fireworks-ai')
  selected=selected+('moonshot-ai','figure-ai','jd-digits','authentic-brands-group','vanta','snyk','abnormal-security','chobani','postman','brex')
+ selected=selected+('fluidstack','deel','airtable','hugging-face','groq','anysphere','luma-ai','skydio','redwood-materials','hadrian')
  series=[]
  for slug in selected:
   company=companies.get(slug)
