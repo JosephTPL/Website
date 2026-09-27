@@ -3,9 +3,9 @@
   "name": "Rox",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Rox is a private company tracked by The Private Ledger in technology.",
-  "overview": "<p>Rox is a private company tracked by The Private Ledger in technology.</p>",
-  "as_of": "2026-09-25",
+  "summary": "Rox develops an AI-native revenue platform that uses autonomous agents across prospecting, account management, CRM updates, and renewals.",
+  "overview": "<p>Rox positions itself as a revenue operating system that layers AI agents on top of existing sales systems. TechCrunch reported in March 2026 that a new financing valued the company at $1.2 billion; Rox did not confirm the round or valuation.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Latest financing",
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 111,
-  "bull_case": "Rox is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "A unified agent layer that improves pipeline execution across a company's existing stack could replace a fragmented collection of sales tools.",
+  "bear_case": "Rox competes with entrenched CRM, revenue-intelligence, and AI-sales providers, while its latest valuation remains reported rather than company-confirmed.",
   "latest_round": "Reported 2025 financing: $1.2B valuation; round size undisclosed",
   "directory_notes": [
     "Technology",
@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=rox.com&sz=128",
-    "description": "Rox is a private company tracked by The Private Ledger in technology.",
+    "description": "An AI-native revenue operating system for automating sales workflows.",
     "metrics": [
       {
         "value": "$1.2B",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Rox is a private company tracked by The Private Ledger in technology.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Rox deploys AI agents across revenue workflows, including account monitoring, prospect research, outreach, and CRM updates. The company positions the product as a layer above systems such as Salesforce and Zendesk rather than a single sales point tool.",
+      "TechCrunch reported that Rox closed a financing at a $1.2 billion valuation, with General Catalyst leading, but the company did not comment on the report. Rox had previously announced $50 million of seed and Series A funding and named Ramp, MongoDB, and New Relic as customers."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Revenue operations is a concrete commercial test for autonomous agents: the buyer wants measurable productivity, not generic AI experimentation. Rox is an indicator of how much private capital is underwriting that workflow shift.",
     "valuation_history": [
       {
         "value": "$1.2B",
@@ -65,18 +65,18 @@
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "TechCrunch reported a new financing at a $1.2B valuation; Rox did not confirm it."
       }
     ],
     "takeaways": [
-      "Rox is tracked in technology.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The $1.2B valuation is reported and not company-confirmed.",
+      "The thesis depends on measurable sales-workflow automation and account expansion.",
+      "CRM incumbents and new AI-native rivals remain strong competitive constraints."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Technology"
+        "AI revenue operations"
       ],
       [
         "Website",

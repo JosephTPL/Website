@@ -3,9 +3,9 @@
   "name": "Instinct",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Instinct is a private AI company tracked by The Private Ledger.",
-  "overview": "<p>Instinct is a private AI company tracked by The Private Ledger.</p>",
-  "as_of": "2026-09-25",
+  "summary": "Instinct is a consumer AI assistant that connects to users' apps and devices to complete tasks through text and voice interactions.",
+  "overview": "<p>Instinct is a consumer agent built to take actions across connected services. It told the Wall Street Journal it had raised a $250 million Series B at a $2.5 billion valuation in August 2026, bringing total funding to $350 million.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Latest financing",
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 103,
-  "bull_case": "Instinct is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "A consumer agent that reliably executes multi-step tasks could earn a high-frequency relationship with users across multiple services.",
+  "bear_case": "Consumer trust, permissions, privacy concerns, and the cost of agent execution can undermine adoption and retention.",
   "latest_round": "August 2026: $250M Series B at $2.5B",
   "directory_notes": [
     "Artificial intelligence",
@@ -27,7 +27,7 @@
     "location": "United States",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=instinct.com&sz=128",
-    "description": "Instinct is a private AI company tracked by The Private Ledger.",
+    "description": "A consumer AI assistant designed to take actions across connected applications and devices.",
     "metrics": [
       {
         "value": "$2.5B",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Instinct is a private AI company tracked by The Private Ledger.",
-      "Future updates should focus on its product, customer evidence, and any primary financing disclosure."
+      "Instinct offers an AI assistant that users can connect to applications and devices through texts and calls, positioning it around task completion rather than only answers.",
+      "In August 2026, Instinct told the Wall Street Journal it had raised a $250 million Series B at a $2.5 billion valuation, with Index Ventures and Benchmark reported as co-leads."
     ],
-    "why_it_matters": "Future updates should focus on its product, customer evidence, and any primary financing disclosure.",
+    "why_it_matters": "Consumer agents are a high-upside but high-trust category: real task completion creates more value than a chatbot only if users grant broad access. Instinct's rapid financing is a useful read-through on investor appetite for that model.",
     "valuation_history": [
       {
         "value": "$2.5B",
@@ -69,10 +69,9 @@
       }
     ],
     "takeaways": [
-      "Instinct is tracked in artificial intelligence.",
-      "Future updates should focus on its product, customer evidence, and any primary financing disclosure.",
-      "No public valuation is asserted without a confirmed priced transaction.",
-      "The next useful evidence will be product adoption, financing, and operating disclosure."
+      "The reported Series B values Instinct at $2.5B after only months of operation.",
+      "Reliable task completion and user trust are the decisive product tests.",
+      "Privacy concerns and major platform competition remain acute risks."
     ],
     "quick_facts": [
       [

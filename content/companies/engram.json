@@ -3,9 +3,9 @@
   "name": "Engram",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Engram is a private AI company tracked by The Private Ledger.",
-  "overview": "<p>Engram is a private AI company tracked by The Private Ledger.</p>",
-  "as_of": "2026-09-25",
+  "summary": "Engram is building a learned memory layer that gives enterprise AI systems persistent organisational context.",
+  "overview": "<p>Engram emerged from stealth in June 2026 with $98 million in financing to build a memory layer for enterprise AI. It named Microsoft, Notion, and Harvey as early partners; the company did not announce a valuation.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Latest financing",
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 95,
-  "bull_case": "Engram is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "Persistent organisational context is a core gap in enterprise AI, and a trusted memory layer can become deeply embedded across workflows.",
+  "bear_case": "Data permissions, integration complexity, and competition from frontier-model providers and enterprise platforms could compress differentiation.",
   "latest_round": "June 2026: $98M financing at $600M",
   "directory_notes": [
     "Artificial intelligence",
@@ -27,7 +27,7 @@
     "location": "United States",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=engram.com&sz=128",
-    "description": "Engram is a private AI company tracked by The Private Ledger.",
+    "description": "A learned memory layer for enterprise AI systems and organisational context.",
     "metrics": [
       {
         "value": "$600M",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Engram is a private AI company tracked by The Private Ledger.",
-      "Public financial disclosure is limited, so this profile deliberately avoids representing a market estimate as a confirmed financing."
+      "Engram is developing a memory layer intended to help enterprise AI systems understand an organisation rather than operate as a stateless general-purpose model.",
+      "Engram emerged from stealth with $98 million in financing from General Catalyst, Kleiner Perkins, Sequoia Capital, Factory, and others. Microsoft, Notion, and Harvey were named as early partners; no valuation was disclosed."
     ],
-    "why_it_matters": "Public financial disclosure is limited, so this profile deliberately avoids representing a market estimate as a confirmed financing.",
+    "why_it_matters": "Memory and organisational context are likely to be key control points in enterprise AI stacks. Engram is a high-funded private effort to own that layer rather than leave it to application vendors or model providers.",
     "valuation_history": [
       {
         "value": "$600M",
@@ -65,14 +65,13 @@
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Engram emerged from stealth with $98M in financing and named early enterprise partners."
       }
     ],
     "takeaways": [
-      "Engram is tracked in artificial intelligence.",
-      "Public financial disclosure is limited, so this profile deliberately avoids representing a market estimate as a confirmed financing.",
-      "No public valuation is asserted without a confirmed priced transaction.",
-      "The next useful evidence will be product adoption, financing, and operating disclosure."
+      "The June 2026 financing is disclosed, but no valuation was announced.",
+      "Early partnerships are the first proof point for enterprise distribution.",
+      "Data access, trust, and platform competition are the primary risks."
     ],
     "quick_facts": [
       [
