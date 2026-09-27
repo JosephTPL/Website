@@ -171,7 +171,7 @@ def chart_date(value):
    parsed=datetime.strptime(value,fmt)
    return parsed.strftime('%Y-%m-%d') if fmt!='%Y' else f'{parsed.year}-07-01'
   except ValueError:pass
- year=re.match(r'^(\d{4})\b',value)
+ year=re.search(r'\b(\d{4})\b',value)
  if year:return f'{year.group(1)}-07-01'
  return ''
 
@@ -184,6 +184,7 @@ def valuation_chart_markup():
  selected=selected+('ramp','prometheus','figure','canva','safe-superintelligence','crusoe','vast-data','scale-ai','the-boring-company','kalshi')
  selected=selected+('rippling','epic-games','discord','plaid','mistral-ai','kraken','shield-ai','notion','whatnot',
                     'cohere','elevenlabs','mercor','lovable','perplexity','lukoil','citadel-securities','etched','helsing','fireworks-ai')
+ selected=selected+('moonshot-ai','figure-ai','jd-digits','authentic-brands-group','vanta','snyk','abnormal-security','chobani','postman','brex')
  series=[]
  for slug in selected:
   company=companies.get(slug)
