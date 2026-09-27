@@ -277,7 +277,7 @@ for a in ordered:
   if not anchor:
    anchor='section-'+str(i)
    while anchor in used:anchor+='-new'
-  used.add(anchor);h['id']=anchor;toc.append((anchor,title));put(h,f'<button class="section-copy" type="button" data-copy-section="{E(anchor)}" aria-label="Copy link to {E(title)}">Link</button>')
+  used.add(anchor);h['id']=anchor;toc.append((anchor,title))
  for r in a.get('references',[]):
   num=int(r['number']);back=body.find(id=f'footnote-anchor-{num}');backlink=f'#footnote-anchor-{num}' if back else '#article-body'
   put(body,f'<div class="footnote"><a class="footnote-number" id="footnote-{num}" href="{backlink}" aria-label="Return to reference {num}">{num}</a><div class="footnote-content">{clean(r["text"])}</div></div>')
