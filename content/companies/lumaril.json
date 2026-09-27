@@ -4,7 +4,7 @@
   "status": "Published",
   "sector": "Private markets",
   "summary": "Lumaril develops intelligence software for the physical economy, where industrial activity and operating conditions are difficult to observe in real time.",
-  "overview": "<p>Lumaril is a private technology company tracked by The Private Ledger.</p>",
+  "overview": "<p>Lumaril builds an intelligence layer for physical production. It connects to existing industrial control systems, learns operating conditions and uses control methods, AI and machine learning to optimize throughput, yield and reliability.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 62,
-  "bull_case": "Lumaril is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "If Lumaril can demonstrate repeatable yield and throughput improvements without replacing a customer's control stack, it can capture value in capital-intensive industrial operations.",
+  "bear_case": "Industrial deployment cycles are long, integrations are demanding and autonomous changes to production systems must clear a high safety and reliability bar.",
   "latest_round": "No confirmed financing publicly disclosed",
   "directory_notes": [
     "Technology",
@@ -27,7 +27,7 @@
     "location": "United States",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=lumaril.com&sz=128",
-    "description": "Intelligence software for the physical economy.",
+    "description": "Industrial-intelligence software that connects to existing control systems to improve plant operations.",
     "metrics": [
       {
         "value": "Undisclosed",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Lumaril is a private technology company tracked by The Private Ledger.",
-      "The company has limited public financial disclosure, making product traction and funding confirmation the relevant next milestones."
+      "Lumaril connects to existing control systems in industrial facilities and builds a live model of operations. It says its software can adjust set points, control logic and coordination to improve output and yield.",
+      "Its stated target customers are complex, capital-intensive operations, including manufacturing, chemicals, biologics, oil and gas. The company has not publicly disclosed a priced financing or valuation."
     ],
-    "why_it_matters": "The company has limited public financial disclosure, making product traction and funding confirmation the relevant next milestones.",
+    "why_it_matters": "Industrial AI can create value through operational improvement rather than pure knowledge-work automation. The important proof points are verified customer outcomes, safe deployment and the time required to integrate into plant workflows.",
     "valuation_history": [
       {
         "value": "Not disclosed",
@@ -69,15 +69,15 @@
       }
     ],
     "takeaways": [
-      "Lumaril is tracked in technology.",
-      "The company has limited public financial disclosure, making product traction and funding confirmation the relevant next milestones.",
+      "Lumaril targets throughput, yield and reliability in existing industrial facilities.",
+      "Its approach connects to current control systems rather than requiring a full replacement stack.",
       "No public valuation is asserted without a confirmed priced transaction.",
       "The next useful evidence will be product adoption, financing, and operating disclosure."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Technology"
+        "Industrial operations intelligence"
       ],
       [
         "Website",

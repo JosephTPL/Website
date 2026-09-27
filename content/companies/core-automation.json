@@ -4,7 +4,7 @@
   "status": "Published",
   "sector": "Private markets",
   "summary": "Core Automation is an AI research lab focused on automating research itself.",
-  "overview": "<p>Core Automation is an AI research lab focused on automating research itself.</p>",
+  "overview": "<p>Core Automation describes itself as an AI research lab focused on automating research. It emerged publicly in 2026; reported financing data is treated as reported context because the company has not published a financing announcement.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 94,
-  "bull_case": "Core Automation is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "A research-automation platform could have strategic value if it produces a materially faster research loop than conventional lab teams and can turn that capability into durable products.",
+  "bear_case": "The company has disclosed little about technical results, customers or commercial traction. Reported financing should not be mistaken for proof of a repeatable business model.",
   "latest_round": "No confirmed financing publicly disclosed",
   "directory_notes": [
     "Automated AI research",
@@ -27,7 +27,7 @@
     "location": "United States",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=coreauto.com&sz=128",
-    "description": "Core Automation is an AI research lab focused on automating research itself.",
+    "description": "AI research lab pursuing systems that automate and optimize research workflows.",
     "metrics": [
       {
         "value": "Undisclosed",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Core Automation is an AI research lab focused on automating research itself.",
-      "It reportedly raised $100M at a $1B valuation in 2026; a larger follow-on discussed in reporting was not a completed disclosed round."
+      "Core Automation presents itself as an AI research lab pursuing systems that automate the research process. Its public materials provide limited technical and commercial detail beyond that mission.",
+      "A $100M financing at a $1B valuation has been reported by private-market data providers, but the company has not published a transaction announcement. The profile labels that claim as reported rather than company-confirmed."
     ],
-    "why_it_matters": "It reportedly raised $100M at a $1B valuation in 2026; a larger follow-on discussed in reporting was not a completed disclosed round.",
+    "why_it_matters": "Research automation is a high-upside but hard-to-verify category: the key question is whether agents can create reliable, compounding research output rather than simply automate isolated tasks. Independent evidence of technical performance and paid adoption is still needed.",
     "valuation_history": [
       {
         "value": "Not disclosed",
@@ -69,8 +69,8 @@
       }
     ],
     "takeaways": [
-      "Core Automation is tracked in automated ai research.",
-      "It reportedly raised $100M at a $1B valuation in 2026; a larger follow-on discussed in reporting was not a completed disclosed round.",
+      "Core Automation is pursuing an automated AI-research lab model.",
+      "A $100M financing at a $1B valuation is reported, not company-confirmed.",
       "No public valuation is asserted without a confirmed priced transaction.",
       "The next useful evidence will be product adoption, financing, and operating disclosure."
     ],
@@ -89,6 +89,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Sacra: reported Core Automation financing context",
+        "url": "https://sacra.com/c/core-automation/"
+      },
       {
         "label": "Company website",
         "url": "https://coreauto.com"

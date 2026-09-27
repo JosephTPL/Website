@@ -4,7 +4,7 @@
   "status": "Published",
   "sector": "Private markets",
   "summary": "Pangram Labs develops tools intended to identify AI-generated writing.",
-  "overview": "<p>Pangram Labs develops tools intended to identify AI-generated writing.</p>",
+  "overview": "<p>Pangram Labs develops AI-detection software for text and images. Its July 2026 financing was intended to improve text-detection accuracy and expand the product into other media, beginning with images.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 64,
-  "bull_case": "Pangram Labs is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "Demand for provenance and synthetic-content detection can grow with AI-generated media, particularly where customers need low false-positive rates and defensible review workflows.",
+  "bear_case": "Detection is an adversarial category: models change quickly, accuracy claims require independent scrutiny and customers may resist automated decisions with meaningful consequences.",
   "latest_round": "July 2026 financing: $9M; valuation undisclosed",
   "directory_notes": [
     "AI detection",
@@ -27,7 +27,7 @@
     "location": "United States",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=pangram.com&sz=128",
-    "description": "Pangram Labs develops tools intended to identify AI-generated writing.",
+    "description": "AI-detection software for text and images, focused on identifying synthetic content.",
     "metrics": [
       {
         "value": "Undisclosed",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Pangram Labs develops tools intended to identify AI-generated writing.",
-      "The opportunity depends on accuracy, trust, and adoption as synthetic media becomes more common; public financing data is limited."
+      "Pangram Labs builds AI-detection software for text and is expanding the product into images. The company positions accuracy and low false-positive rates as central to its product proposition.",
+      "SiliconANGLE reported a $9M financing led by Menlo Ventures in July 2026, bringing reported total funding to almost $13M. The company did not disclose a valuation."
     ],
-    "why_it_matters": "The opportunity depends on accuracy, trust, and adoption as synthetic media becomes more common; public financing data is limited.",
+    "why_it_matters": "As synthetic media becomes more prevalent, credible detection can become part of editorial, academic and enterprise-control workflows. Pangram's durability depends on independently robust performance as generation models evolve.",
     "valuation_history": [
       {
         "value": "$9M raised",
@@ -69,15 +69,15 @@
       }
     ],
     "takeaways": [
-      "Pangram Labs is tracked in ai detection.",
-      "The opportunity depends on accuracy, trust, and adoption as synthetic media becomes more common; public financing data is limited.",
+      "Pangram is expanding from AI-text detection into image detection.",
+      "The July 2026 $9M financing was reported; no valuation was disclosed.",
       "No public valuation is asserted without a confirmed priced transaction.",
       "The next useful evidence will be product adoption, financing, and operating disclosure."
     ],
     "quick_facts": [
       [
         "Focus",
-        "AI detection"
+        "Synthetic-content detection"
       ],
       [
         "Website",

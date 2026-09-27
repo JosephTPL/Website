@@ -4,7 +4,7 @@
   "status": "Published",
   "sector": "Private markets",
   "summary": "Luzern Risk helps businesses form and manage captive insurance companies through a digital risk-management platform.",
-  "overview": "<p>Luzern Risk is a private risk-management company tracked by The Private Ledger.</p>",
+  "overview": "<p>Luzern Risk is an AI-native captive manager. It combines captive-insurance expertise with a digital platform to help companies evaluate, form and run insurance programs that they own.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 73,
-  "bull_case": "Luzern Risk is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "If more mid-market companies use captives to manage volatile commercial-insurance costs, Luzern can benefit from a technology-enabled operating platform and broker ecosystem.",
+  "bear_case": "Captive insurance is regulated and operationally complex. Expansion requires sound underwriting, high-quality service and careful compliance, not simply faster software workflows.",
   "latest_round": "September 2026: $45M Series B",
   "directory_notes": [
     "Risk management",
@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=luzernrisk.com&sz=128",
-    "description": "A captive-insurance formation and management platform.",
+    "description": "AI-native platform for forming and managing captive-insurance programs.",
     "metrics": [
       {
         "value": "Undisclosed",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Luzern Risk is a private risk-management company tracked by The Private Ledger.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until a primary source or credible priced transaction is available."
+      "Luzern Risk designs, forms and manages captives, which are regulated insurers owned by the businesses they insure. Its platform combines risk expertise, client operations and live program data for captive owners and broker partners.",
+      "Luzern announced a $45M Series B in September 2026 led by Insight Partners, following a 2023 seed and a $12M Series A in 2025. It did not disclose a valuation."
     ],
-    "why_it_matters": "The company is on the watchlist because private-market activity in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Captives let businesses retain more control over risk, capital and underwriting economics. Luzern is a private-market test of whether software and operational expertise can broaden a historically specialized insurance structure.",
     "valuation_history": [
       {
         "value": "$45M raised",
@@ -69,14 +69,14 @@
       }
     ],
     "takeaways": [
-      "Luzern Risk is tracked in risk management.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Luzern combines captive-management services with an AI-native operating platform.",
+      "The company announced a $45M Series B in September 2026; its valuation was not disclosed.",
+      "Compliance, service quality and broker distribution are central execution variables."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Risk management"
+        "Captive insurance and risk management"
       ],
       [
         "Website",
@@ -88,6 +88,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "Luzern Risk: $45M Series B announcement",
+        "url": "https://www.luzernrisk.com/blog-posts/luzern-risk-raises-45m-series-b-led-by-insight-partners"
+      },
       {
         "label": "Company website",
         "url": "https://luzernrisk.com"

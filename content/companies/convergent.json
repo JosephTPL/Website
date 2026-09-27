@@ -3,21 +3,21 @@
   "name": "Convergent",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Convergent develops AI simulations intended to improve human-interaction skills.",
-  "overview": "<p>Convergent develops AI simulations intended to improve human-interaction skills.</p>",
+  "summary": "Convergent provides AI simulations and role-play tools for high-stakes workplace interactions.",
+  "overview": "<p>Convergent provides AI simulations and role-play tools for high-stakes workplace interactions. Teams can tailor personas, tone, language and scoring to a role or market without a bespoke engineering build.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
-      "label": "Total funding",
-      "value": "$130M reported",
-      "note": "Convergent is private; a precise valuation has not been publicly disclosed.",
-      "source": ""
+      "label": "Latest financing",
+      "value": "Undisclosed",
+      "note": "No company-confirmed financing or valuation was located for this Convergent profile.",
+      "source": "https://www.convergent.org/"
     }
   ],
   "directory_rank": 93,
-  "bull_case": "Convergent is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "$130M total funding reported; valuation undisclosed",
+  "bull_case": "If enterprises adopt AI role play as a repeatable training and assessment workflow, Convergent can benefit from configuration depth and integration with learning programs.",
+  "bear_case": "The company has not publicly disclosed financing, adoption or valuation data. Product usefulness must translate into recurring enterprise budgets in a crowded training-software market.",
+  "latest_round": "No company-confirmed financing publicly disclosed",
   "directory_notes": [
     "AI simulations",
     "The public record indicates early-stage financing only; future research should focus on product traction and enterprise adoption."
@@ -27,7 +27,7 @@
     "location": "United States",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=convergent.com&sz=128",
-    "description": "Convergent develops AI simulations intended to improve human-interaction skills.",
+    "description": "AI simulations and role-play tools for high-stakes workplace interactions.",
     "metrics": [
       {
         "value": "Undisclosed",
@@ -51,15 +51,15 @@
       }
     ],
     "company": [
-      "Convergent develops AI simulations intended to improve human-interaction skills.",
-      "The public record indicates early-stage financing only; future research should focus on product traction and enterprise adoption."
+      "Convergent builds AI simulations and role-play workflows for workplace situations where teams need practice before real interactions. The platform says administrators can customize personas, tone, language and scoring by role and market.",
+      "The company has not publicly confirmed financing, operating metrics or a valuation. This profile therefore focuses on the product category and does not infer a transaction from similarly named companies."
     ],
-    "why_it_matters": "The public record indicates early-stage financing only; future research should focus on product traction and enterprise adoption.",
+    "why_it_matters": "AI role play can shorten training and create repeatable assessments for enterprise teams. The relevant diligence is whether customers use it in live workflows, renew it and trust its evaluation output.",
     "valuation_history": [
       {
-        "value": "$130M total funding",
+        "value": "Undisclosed",
         "date": "Current",
-        "round": "Reported cumulative funding"
+        "round": "No company-confirmed priced round"
       }
     ],
     "changed": [
@@ -69,15 +69,15 @@
       }
     ],
     "takeaways": [
-      "Convergent is tracked in ai simulations.",
-      "The public record indicates early-stage financing only; future research should focus on product traction and enterprise adoption.",
+      "Convergent's product is configurable AI role play for workplace scenarios.",
+      "No company-confirmed financing or valuation is asserted in this profile.",
       "No public valuation is asserted without a confirmed priced transaction.",
       "The next useful evidence will be product adoption, financing, and operating disclosure."
     ],
     "quick_facts": [
       [
         "Focus",
-        "AI simulations"
+        "AI simulations and role play"
       ],
       [
         "Website",
