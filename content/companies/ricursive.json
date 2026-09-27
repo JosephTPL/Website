@@ -3,8 +3,8 @@
   "name": "Ricursive",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Ricursive is a private AI company tracked by The Private Ledger.",
-  "overview": "<p>Ricursive is a private AI company tracked by The Private Ledger.</p>",
+  "summary": "Ricursive Intelligence is a frontier AI lab using AI to design and improve semiconductor hardware.",
+  "overview": "<p>Ricursive Intelligence was founded by the co-creators of AlphaChip to build AI systems that accelerate semiconductor design. It announced a $300 million Series A led by Lightspeed at a $4 billion post-money valuation in January 2026.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=ricursive.com&sz=128",
-    "description": "Ricursive is a private AI company tracked by The Private Ledger.",
+    "description": "A frontier AI lab applying machine learning to semiconductor design and AI hardware.",
     "metrics": [
       {
         "value": "$4B",
@@ -51,7 +51,7 @@
       }
     ],
     "company": [
-      "Ricursive is a private AI company tracked by The Private Ledger.",
+      "Ricursive Intelligence is building AI systems to design and improve AI chips, seeking a feedback loop between better models and better hardware. It was founded by former Google researchers Anna Goldie and Azalia Mirhoseini, co-creators of AlphaChip.",
       "Public financing and operating data remain limited, so the profile avoids a valuation claim until a primary source or credible priced transaction is available."
     ],
     "why_it_matters": "The company is on the watchlist because private-market activity in this category can become relevant before public disclosures are widely available.",
