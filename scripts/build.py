@@ -182,7 +182,7 @@ def valuation_chart_markup():
  selected=('saronic','isomorphic-labs','substack','polymarket','spacex','anthropic','openai','stripe','bytedance','anduril',
            'tether','databricks','waymo','reliance-retail','ant-group','revolut','reliance-jio','deepseek','ripple','cognition')
  selected=selected+('ramp','prometheus','figure','canva','safe-superintelligence','crusoe','vast-data','scale-ai','the-boring-company','kalshi')
- selected=selected+('xai','rippling','epic-games','discord','plaid','mistral-ai','kraken','shield-ai','notion','whatnot',
+ selected=selected+('rippling','epic-games','discord','plaid','mistral-ai','kraken','shield-ai','notion','whatnot',
                     'cohere','elevenlabs','mercor','lovable','perplexity','lukoil','citadel-securities','etched','helsing','fireworks-ai')
  series=[]
  for slug in selected:

@@ -3,18 +3,18 @@
   "status": "Published",
   "name": "xAI",
   "sector": "AI",
-  "summary": "xAI is a notable private company in ai.",
-  "overview": "<p>xAI is included in The Private Ledger’s company directory for ongoing research.</p>",
+  "summary": "xAI is the AI division of publicly traded SpaceX, developing the Grok model family and AI infrastructure.",
+  "overview": "<p>xAI became a wholly owned SpaceX subsidiary in February 2026; SpaceX completed its IPO in June 2026.</p>",
   "image": "",
   "image_alt": "",
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-27",
   "report": "",
   "facts": [
     {
-      "label": "Latest disclosed financing",
-      "value": "December 2024: $6B Series C",
-      "note": "Publicly reported financing context; verify before relying on it.",
-      "source": ""
+      "label": "Corporate status",
+      "value": "SpaceX subsidiary",
+      "note": "SpaceX acquired xAI on February 2, 2026; SpaceX completed its IPO in June 2026.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm"
     }
   ],
   "directory_rank": 12,
@@ -26,14 +26,14 @@
     "infrastructure scale and product trust."
   ],
   "intelligence": {
-    "kicker": "Company intelligence", "location": "Palo Alto, California", "status": "Private", "logo": "https://logo.clearbit.com/x.ai", "description": "xAI develops the Grok model family and is integrated with X, pairing frontier-model development with a large real-time distribution channel.",
-    "metrics": [{"value":"$230B+","label":"Reported valuation","note":"January 2026"},{"value":"$20B","label":"Latest funding","note":"January 2026"},{"value":"Private","label":"Public status","note":"No listed shares"}],
-    "company": ["Founded by Elon Musk in 2023, xAI is building general-purpose AI models and products, with Grok distributed through X and its own applications.", "Its March 2025 acquisition of X combined model development, data, compute and consumer distribution inside one private company."],
-    "why_it_matters": "xAI is a useful test case for whether proprietary distribution can lower the cost of acquiring users for a frontier-model company. Its funding needs also illustrate how capital-intensive AI competition has become.",
+    "kicker": "Company intelligence", "location": "Palo Alto, California", "status": "SpaceX subsidiary", "logo": "https://logo.clearbit.com/x.ai", "description": "xAI develops the Grok model family and AI infrastructure as a wholly owned subsidiary of publicly traded SpaceX.",
+    "metrics": [{"value":"$230B+","label":"Last standalone valuation","note":"Reported before the SpaceX acquisition"},{"value":"$20B","label":"Last standalone funding","note":"Series E, January 2026"},{"value":"Public parent","label":"Public status","note":"Acquired by SpaceX before its June 2026 IPO"}],
+    "company": ["Founded by Elon Musk in 2023, xAI develops the Grok model family, with distribution through X and its own applications.", "SpaceX acquired xAI on February 2, 2026, making it a wholly owned subsidiary. SpaceX completed its IPO in June 2026, so xAI should no longer be treated as a standalone private company."],
+    "why_it_matters": "xAI remains relevant to AI competition, but its economics and ownership now sit inside SpaceX. It is no longer a standalone private-company valuation comparable to the private businesses in this directory.",
     "valuation_history": [{"value":"$24B","date":"2024","round":"Series B"},{"value":"$80B","date":"2025","round":"X combination"},{"value":"$230B+","date":"2026","round":"Latest funding"}],
-    "changed": [{"date":"2025","text":"Acquired X in an all-stock transaction, combining the model business and social platform."},{"date":"2026","text":"Announced $20B of new financing to expand compute and product development."}],
-    "takeaways": ["Grok benefits from a direct consumer distribution channel through X.","The X combination makes xAI more than a standalone model vendor.","Compute spending and model performance remain the central execution risks."],
+    "changed": [{"date":"2025","text":"Acquired X in an all-stock transaction, combining the model business and social platform."},{"date":"Jan 2026","text":"Raised a $20B Series E before the SpaceX transaction."},{"date":"Feb 2026","text":"SpaceX acquired xAI, making it a wholly owned subsidiary."},{"date":"Jun 2026","text":"SpaceX completed its IPO; xAI is now part of a public-company group."}],
+    "takeaways": ["Grok benefits from a direct consumer distribution channel through X.","xAI is no longer a standalone private company after its acquisition by SpaceX.","Compute spending and model performance remain central execution variables inside the SpaceX group."],
     "quick_facts": [{"label":"Founded","value":"2023"},{"label":"Headquarters","value":"Palo Alto, CA"},{"label":"Founder","value":"Elon Musk"},{"label":"Website","value":"x.ai"}],
-    "sources": [{"label":"Associated Press on the X transaction","url":"https://apnews.com/article/b245f463076ac9b72c41f92160dc77eb"},{"label":"Kiplinger on 2026 funding","url":"https://www.kiplinger.com/business/biggest-ai-companies-to-know"}]
+    "sources": [{"label":"xAI: xAI joins SpaceX","url":"https://x.ai/news/xai-joins-spacex"},{"label":"SpaceX 2026 Form 10-Q","url":"https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm"},{"label":"xAI Series E announcement","url":"https://x.ai/news/series-e"}]
   }
 }
