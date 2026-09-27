@@ -2,21 +2,21 @@
   "slug": "state-affairs",
   "name": "State Affairs",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "State Affairs is a private company tracked by The Private Ledger in government intelligence.",
-  "overview": "<p>State Affairs is a private company tracked by The Private Ledger in government intelligence.</p>",
+  "sector": "Government intelligence",
+  "summary": "State Affairs combines exclusive state-policy reporting, original data and AI for institutions navigating regulation. It announced $70 million of total funding in July 2026; no valuation was disclosed.",
+  "overview": "<p>State Affairs provides real-time intelligence on legislation, regulation, hearings and political developments across all 50 states and the federal government. It combines reporting, data and AI tools for regulated businesses and institutional users.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Undisclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
+      "value": "July 2026: $70M total funding",
+      "note": "State Affairs announced $70 million of total funding; valuation was not disclosed.",
       "source": "https://stateaffairs.com"
     }
   ],
   "directory_rank": 114,
-  "bull_case": "State Affairs is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "Regulatory complexity creates recurring demand for timely, trusted policy intelligence across large institutions.",
+  "bear_case": "The business must defend differentiated reporting and data against established government-relations and information providers.",
   "latest_round": "No confirmed financing publicly disclosed",
   "directory_notes": [
     "Government intelligence",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "State Affairs is a private company tracked by The Private Ledger in government intelligence.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "State Affairs combines daily state-policy reporting, original data and AI tools for users who need to track regulatory and political change. Its coverage spans legislation, regulation, hearings and political developments across all U.S. states and the federal government.",
+      "The company announced $70 million in total funding in July 2026 to accelerate its intelligence platform. It did not disclose a valuation."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Policy information is a high-value workflow for regulated industries. State Affairs is a private bet on combining journalism, data and AI into a more actionable regulatory-intelligence product.",
     "valuation_history": [
       {
         "value": "Not disclosed",
@@ -69,9 +69,9 @@
       }
     ],
     "takeaways": [
-      "State Affairs is tracked in government intelligence.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "State Affairs covers regulatory and political developments for institutional users.",
+      "$70M of total funding was announced in July 2026; valuation is undisclosed.",
+      "Retention in regulated enterprise workflows is the key operating measure."
     ],
     "quick_facts": [
       [
@@ -90,7 +90,7 @@
     "sources": [
       {
         "label": "Company website",
-        "url": "https://stateaffairs.com"
+        "url": "https://www.prnewswire.com/news-releases/state-affairs-raises-70-million-to-help-institutions-navigate-the-policy-and-regulatory-economy-302824501.html"
       }
     ]
   }

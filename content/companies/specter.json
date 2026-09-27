@@ -2,9 +2,9 @@
   "slug": "specter",
   "name": "Specter",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Specter is a private company tracked by The Private Ledger in technology.",
-  "overview": "<p>Specter is a private company tracked by The Private Ledger in technology.</p>",
+  "sector": "Private-market data",
+  "summary": "Specter provides AI-powered startup data and deal-sourcing tools for investors. Its platform tracks private companies, people, funding and M&A events, while its own financing remains undisclosed.",
+  "overview": "<p>Specter is a private-market intelligence platform used for company discovery and deal sourcing. It turns changes in company, funding, people and transaction data into investor signals.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 76,
-  "bull_case": "Specter is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "A differentiated private-company data graph can become embedded in venture and growth-investing workflows.",
+  "bear_case": "Private-market data is competitive and difficult to verify; Specter's financing and commercial scale are not publicly substantiated.",
   "latest_round": "No confirmed financing publicly disclosed",
   "directory_notes": [
     "Technology",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Specter is a private company tracked by The Private Ledger in technology.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Specter offers a private-company database and sourcing platform for investors. It monitors company, people, funding and M&A changes and presents them as signals intended to surface relevant opportunities earlier.",
+      "The company says its data covers more than 50 million companies and 500 million people. No confirmed financing amount or valuation is publicly disclosed, so the profile does not infer one."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Better private-company discovery tools can change the timing and quality of venture sourcing. The critical diligence questions are data accuracy, workflow adoption and defensibility against larger information providers.",
     "valuation_history": [
       {
         "value": "Not disclosed",
@@ -69,14 +69,14 @@
       }
     ],
     "takeaways": [
-      "Specter is tracked in technology.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Specter is a private-market data and deal-sourcing platform.",
+      "No confirmed public financing or valuation has been identified.",
+      "Data quality and investor workflow adoption are the important proof points."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Technology"
+        "Private-market intelligence"
       ],
       [
         "Website",
@@ -90,7 +90,7 @@
     "sources": [
       {
         "label": "Company website",
-        "url": "https://specter.com"
+        "url": "https://www.tryspecter.com/"
       }
     ]
   }

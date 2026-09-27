@@ -2,21 +2,21 @@
   "slug": "twenty",
   "name": "Twenty",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Twenty is a private company tracked by The Private Ledger in enterprise software.",
-  "overview": "<p>Twenty is a private company tracked by The Private Ledger in enterprise software.</p>",
+  "sector": "Cybersecurity",
+  "summary": "Twenty is a cyber-warfare startup that raised $100 million in a June 2026 Series B at a $1 billion valuation, according to Axios.",
+  "overview": "<p>Twenty develops cyber-warfare capabilities for national-security use cases. Its Series B was led by Accel, with the financing directed toward research, development and its existing product roadmap.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Undisclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
+      "value": "June 2026: $100M Series B at $1B",
+      "note": "Axios reported the Accel-led Series B and $1 billion valuation.",
       "source": "https://twenty.com"
     }
   ],
   "directory_rank": 89,
-  "bull_case": "Twenty is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "Demand for cyber capabilities in national-security missions can create a high-value specialised market.",
+  "bear_case": "The sector has long procurement cycles, significant policy exposure and limited public product disclosure.",
   "latest_round": "No confirmed financing publicly disclosed",
   "directory_notes": [
     "Enterprise software",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Twenty is a private company tracked by The Private Ledger in enterprise software.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Twenty is a cyber-warfare company building capabilities for national-security operations. In June 2026 it announced a Series B intended to accelerate research and development.",
+      "Axios reported that Accel led the $100 million financing at a $1 billion valuation, with Point72 Ventures, Caffeinated Capital and Friends & Family Capital also backing the company."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Twenty reflects investor demand for cyber capabilities tied to national security. Contract conversion and responsible operational use will be more important than its early valuation headline.",
     "valuation_history": [
       {
         "value": "Not disclosed",
@@ -69,9 +69,9 @@
       }
     ],
     "takeaways": [
-      "Twenty is tracked in enterprise software.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Twenty is a cyber-warfare company, not a conventional enterprise-software provider.",
+      "Axios reported its $100M Series B at a $1B valuation.",
+      "Procurement and contract execution are the central evidence to watch."
     ],
     "quick_facts": [
       [
@@ -90,7 +90,7 @@
     "sources": [
       {
         "label": "Company website",
-        "url": "https://twenty.com"
+        "url": "https://www.axios.com/2026/06/17/twenty-cybersecurity-hacks-accel-venture"
       }
     ]
   }

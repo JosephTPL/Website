@@ -2,9 +2,9 @@
   "slug": "valar-atomics",
   "name": "Valar Atomics",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Valar Atomics is a private company tracked by The Private Ledger in nuclear energy.",
-  "overview": "<p>Valar Atomics is a private company tracked by The Private Ledger in nuclear energy.</p>",
+  "sector": "Nuclear energy",
+  "summary": "Valar Atomics develops standardised nuclear power plants for AI, industrial and national-security demand. It closed a $1 billion Series B and a separate $200 million credit facility in August 2026, at a reported $6 billion valuation.",
+  "overview": "<p>Valar Atomics is developing standardised nuclear power plants aimed at large energy users, including AI data centres and industrial customers. Its model relies on repeatable manufacturing rather than bespoke nuclear construction.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 115,
-  "bull_case": "Valar Atomics is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "The need for firm power for data centres and industry could support major demand if Valar can deliver licensable, standardised plants.",
+  "bear_case": "Nuclear projects face extraordinary regulatory, manufacturing and financing risk; the $6B valuation requires execution over many years.",
   "latest_round": "August 2026: $1B Series B at $6B",
   "directory_notes": [
     "Nuclear energy",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Valar Atomics is a private company tracked by The Private Ledger in nuclear energy.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Valar Atomics is developing standardised nuclear power plants for energy-intensive demand from AI, industry and national security. It is pursuing a factory-led approach to advanced nuclear deployment.",
+      "In August 2026 Valar announced a $1 billion Series B led by Sequoia and a separate $200 million credit facility. Axios reported a $6 billion post-money valuation."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Valar is one of the largest private bets on nuclear power as an answer to AI energy demand. Licensing, first-plant delivery and cost discipline are far more important than the financing headline.",
     "valuation_history": [
       {
         "value": "$6B",
@@ -69,9 +69,9 @@
       }
     ],
     "takeaways": [
-      "Valar Atomics is tracked in nuclear energy.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The $1B equity raise is separate from the $200M credit facility.",
+      "Valar targets standardised nuclear power for AI and industrial demand.",
+      "Licensing and repeatable manufacturing are the central risks."
     ],
     "quick_facts": [
       [
@@ -90,7 +90,7 @@
     "sources": [
       {
         "label": "Company website",
-        "url": "https://valaratomics.com"
+        "url": "https://www.valaratomics.com/docs/Announcing-our-1B-Series-B-Led-By-Sequoia"
       }
     ]
   }
