@@ -3,24 +3,24 @@
   "status": "Published",
   "name": "Discord",
   "sector": "Consumer internet",
-  "summary": "Discord is a notable private company in consumer internet.",
+  "summary": "Discord is a communications platform built around persistent communities, combining text, voice, video, and live interaction for gaming, creators, and broader interest groups.",
   "overview": "<p>Discord is included in The Private Ledger’s company directory for ongoing research.</p>",
   "image": "",
   "image_alt": "",
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-27",
   "report": "",
   "facts": [
     {
       "label": "Latest disclosed financing",
       "value": "September 2021: $500M funding round",
-      "note": "Publicly reported financing context; verify before relying on it.",
-      "source": ""
+      "note": "The 2021 round was widely reported at roughly a $14.7 billion valuation.",
+      "source": "https://techcrunch.com/2026/01/07/discords-ipo-could-happen-in-march/"
     }
   ],
   "directory_rank": 18,
   "bull_case": "Persistent communities can create a defensible communication layer for users and creators.",
   "bear_case": "Monetization must mature without undermining the community experience.",
-  "latest_round": "September 2021: $500M funding round",
+  "latest_round": "September 2021: $500M funding round at reported $14.7B valuation",
   "directory_notes": ["Paid features", "advertising and community retention."],
   "intelligence":{"kicker":"COMPANY INTELLIGENCE","location":"San Francisco, California","status":"IPO filing reported","logo":"https://www.google.com/s2/favicons?domain=discord.com&sz=128","description":"Discord operates a communications platform built around persistent communities, voice, text, and live interaction.","metrics":[{"value":"$15B","label":"Last reported private valuation","note":"2021 funding round"},{"value":"IPO filing reported","label":"Current status","note":"Confidential filing reported in 2026"},{"value":"2015","label":"Founded","note":"Community platform"},{"value":"Private","label":"Public status","note":"IPO not completed"}],"company":["Discord operates a communications platform used by gaming communities, creators, and increasingly broader interest groups.","The company was last widely reported at a $15 billion private valuation and was reported to have filed confidentially for a U.S. IPO in 2026."],"why_it_matters":"Discord is an important test of whether a large community network can monetize advertising and paid products without compromising the user experience that built its scale.","valuation_history":[{"value":"$15B","date":"2021","round":"Funding round"}],"changed":[{"date":"2026","text":"Bloomberg reported a confidential U.S. IPO filing."}],"takeaways":["Discord's last widely reported private valuation was $15B.","IPO timing and monetization are the main catalysts.","Community retention remains central to the model."],"quick_facts":[["Focus","Community communications"],["Founded","2015"],["Status","IPO filing reported"],["Website","discord.com"]],"sources":[{"label":"Reuters: reported confidential IPO filing","url":"https://www.reuters.com/technology/chat-platform-discord-files-confidentially-us-ipo-bloomberg-news-reports-2026-01-06/"}]}
 }

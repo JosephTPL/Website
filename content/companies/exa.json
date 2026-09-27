@@ -2,9 +2,9 @@
   "slug": "exa",
   "name": "Exa",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Exa is a private company tracked by The Private Ledger in ai search infrastructure.",
-  "overview": "<p>Exa is a private company tracked by The Private Ledger in ai search infrastructure.</p>",
+  "sector": "AI search infrastructure",
+  "summary": "Exa builds a web-search API for AI applications, combining search, retrieval, and web-content tools for developers and agents.",
+  "overview": "<p>Exa is an AI search company building APIs for applications and agents that need web-scale retrieval, search, and content extraction.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 100,
-  "bull_case": "Exa is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "As AI agents take on more research and decision tasks, demand for high-quality retrieval can make search infrastructure an important layer of the AI stack.",
+  "bear_case": "Exa competes with hyperscalers, traditional search providers, and other API vendors; sustaining quality while managing crawling and compute costs is difficult.",
   "latest_round": "May 2026: $250M Series C at $2.2B",
   "directory_notes": [
     "AI search infrastructure",
@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=exa.ai&sz=128",
-    "description": "Exa is a private company tracked by The Private Ledger in ai search infrastructure.",
+    "description": "Exa provides search and retrieval infrastructure for AI applications and agents.",
     "metrics": [
       {
         "value": "$2.2B",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Exa is a private company tracked by The Private Ledger in ai search infrastructure.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Exa builds a web-search API designed for AI applications and agents. Its products combine search, retrieval, and content extraction so developers can give AI systems access to current web information.",
+      "In May 2026, Exa announced a $250 million Series C led by Andreessen Horowitz at a $2.2 billion valuation. The company said its tools were used by more than 400,000 developers."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Exa is a useful indicator of whether AI search becomes a distinct infrastructure market rather than a feature absorbed by model providers or incumbent search engines.",
     "valuation_history": [
       {
         "value": "$2.2B",
@@ -69,9 +69,10 @@
       }
     ],
     "takeaways": [
-      "Exa is tracked in ai search infrastructure.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Exa is building a web-search and retrieval layer for AI products.",
+      "Its May 2026 Series C raised $250 million at a $2.2 billion valuation.",
+      "The company reports more than 400,000 developers using its products.",
+      "Search quality, cost, and durable API adoption are the key variables to watch."
     ],
     "quick_facts": [
       [
@@ -88,10 +89,8 @@
       ]
     ],
     "sources": [
-      {
-        "label": "Company website",
-        "url": "https://exa.ai"
-      }
+      {"label": "Exa: Series C announcement", "url": "https://exa.ai/blog/announcing-series-c"},
+      {"label": "Exa: company overview", "url": "https://exa.ai/about"}
     ]
   }
 }

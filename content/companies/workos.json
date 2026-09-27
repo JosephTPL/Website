@@ -2,9 +2,9 @@
   "slug": "workos",
   "name": "WorkOS",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "WorkOS is a private company tracked by The Private Ledger in enterprise developer infrastructure.",
-  "overview": "<p>WorkOS is a private company tracked by The Private Ledger in enterprise developer infrastructure.</p>",
+  "sector": "Enterprise developer infrastructure",
+  "summary": "WorkOS gives software companies APIs for enterprise features such as single sign-on, directory sync, permissions, audit logs, and user management.",
+  "overview": "<p>WorkOS sells developer infrastructure for adding enterprise-grade authentication, provisioning, permissions, and compliance features to software products.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 118,
-  "bull_case": "WorkOS is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "The growth of AI-native software increases the number of products that need enterprise security and identity capabilities quickly, expanding WorkOS's potential customer base.",
+  "bear_case": "Identity and authorization are crowded categories, and larger platform vendors or in-house engineering can limit pricing power.",
   "latest_round": "March 2026: $100M Series C at $2B",
   "directory_notes": [
     "Enterprise developer infrastructure",
@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=workos.com&sz=128",
-    "description": "WorkOS is a private company tracked by The Private Ledger in enterprise developer infrastructure.",
+    "description": "WorkOS provides developer APIs for enterprise authentication, provisioning, permissions, and compliance features.",
     "metrics": [
       {
         "value": "$2B",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "WorkOS is a private company tracked by The Private Ledger in enterprise developer infrastructure.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "WorkOS helps software companies meet enterprise requirements without building every identity and administrative feature themselves. Its products include SSO, directory synchronization, user management, RBAC, audit logs, and related developer tooling.",
+      "In March 2026, WorkOS announced a $100 million Series C led by Meritech and Sapphire at a $2 billion valuation. The company says it serves thousands of customers and processes billions of API requests each month."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "WorkOS is a useful indicator of the enterprise-readiness layer behind the AI-software boom. More applications need authentication, authorization, and auditability before large organizations will adopt them.",
     "valuation_history": [
       {
         "value": "$2B",
@@ -69,9 +69,10 @@
       }
     ],
     "takeaways": [
-      "WorkOS is tracked in enterprise developer infrastructure.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "WorkOS turns enterprise identity and compliance requirements into developer APIs.",
+      "It raised $100 million in a March 2026 Series C at a $2 billion valuation.",
+      "AI-native applications are a growing source of demand for enterprise-ready infrastructure.",
+      "The key question is whether WorkOS expands from a focused identity layer into a broader platform."
     ],
     "quick_facts": [
       [
@@ -88,10 +89,8 @@
       ]
     ],
     "sources": [
-      {
-        "label": "Company website",
-        "url": "https://workos.com"
-      }
+      {"label": "WorkOS: Series C announcement", "url": "https://workos.com/blog/series-c"},
+      {"label": "WorkOS: product overview", "url": "https://workos.com/"}
     ]
   }
 }

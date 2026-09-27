@@ -2,9 +2,9 @@
   "slug": "neros",
   "name": "Neros",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Neros is a private company tracked by The Private Ledger in defense technology.",
-  "overview": "<p>Neros is a private company tracked by The Private Ledger in defense technology.</p>",
+  "sector": "Defense technology",
+  "summary": "Neros develops autonomous drone and counter-drone systems designed for cost-effective, scalable defense deployment.",
+  "overview": "<p>Neros is a defense technology company building autonomous drone and interceptor systems, with a focus on scalable production and multi-drone operations.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 105,
-  "bull_case": "Neros is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "Demand for low-cost autonomous and counter-drone systems could create a large defense market for companies that can manufacture reliably at scale.",
+  "bear_case": "Defense procurement cycles are long and concentrated, while production scale, export rules, and hardware execution can introduce meaningful risk.",
   "latest_round": "August 2026: $250M Series C at $2.5B",
   "directory_notes": [
     "Defense technology",
@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "/logos/neros.png",
-    "description": "Neros is a private company tracked by The Private Ledger in defense technology.",
+    "description": "Neros builds autonomous drone and counter-drone systems for defense applications.",
     "metrics": [
       {
         "value": "$2.5B",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Neros is a private company tracked by The Private Ledger in defense technology.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Neros develops autonomous drone platforms and interceptor systems aimed at countering larger drone threats. Its product strategy emphasizes cost efficiency and the hardware and software needed to coordinate multiple assets.",
+      "In August 2026, Neros announced a $250 million Series C at a $2.5 billion post-money valuation, co-led by Sequoia Capital and American Strategic Technology Fund."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Neros is a private-market signal for the shift toward autonomous, lower-cost systems in defense procurement. The investment case rests on manufacturing scale as much as software and autonomy.",
     "valuation_history": [
       {
         "value": "$2.5B",
@@ -69,9 +69,10 @@
       }
     ],
     "takeaways": [
-      "Neros is tracked in defense technology.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Neros is building autonomous drones and counter-drone systems for defense use.",
+      "Its August 2026 Series C raised $250 million at a $2.5 billion post-money valuation.",
+      "Manufacturing capacity and program adoption are the principal operating milestones.",
+      "Procurement, export, and hardware-execution risks remain material."
     ],
     "quick_facts": [
       [
@@ -88,10 +89,8 @@
       ]
     ],
     "sources": [
-      {
-        "label": "Company website",
-        "url": "https://neros.com"
-      }
+      {"label": "Neros: Series C announcement", "url": "https://www.neros.tech/articles/neros-raises-250m-series-c-at-2-5b-valuation-to-scale-autonomous-and-interceptor-drone-programs"},
+      {"label": "Neros website", "url": "https://neros.com"}
     ]
   }
 }

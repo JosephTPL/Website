@@ -2,9 +2,9 @@
   "slug": "modal",
   "name": "Modal",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Modal is a private company tracked by The Private Ledger in cloud infrastructure.",
-  "overview": "<p>Modal is a private company tracked by The Private Ledger in cloud infrastructure.</p>",
+  "sector": "Cloud infrastructure",
+  "summary": "Modal is a cloud platform for AI workloads, offering elastic compute, inference, training, batch jobs, and isolated sandboxes through code-first developer tooling.",
+  "overview": "<p>Modal provides cloud infrastructure for AI developers. Its platform is built for elastic inference, training, agent runtimes, batch jobs, and sandboxed execution.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 104,
-  "bull_case": "Modal is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "Modal's code-first approach and broad workload support can make it an important operating layer for AI teams that need scalable compute without managing infrastructure directly.",
+  "bear_case": "Cloud incumbents and specialist GPU providers can compete aggressively on capacity and price, while AI infrastructure economics remain capital intensive.",
   "latest_round": "May 2026: $355M Series C at $4.65B",
   "directory_notes": [
     "Cloud infrastructure",
@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=modal.com&sz=128",
-    "description": "Modal is a private company tracked by The Private Ledger in cloud infrastructure.",
+    "description": "Modal offers cloud infrastructure for AI workloads, from training and inference to agent sandboxes and batch jobs.",
     "metrics": [
       {
         "value": "$4.65B",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Modal is a private company tracked by The Private Ledger in cloud infrastructure.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Modal is a cloud platform designed around AI workloads rather than traditional web applications. Developers use it for inference, training, batch processing, reinforcement learning, and isolated execution environments for agents.",
+      "In May 2026, Modal announced a $355 million Series C at a $4.65 billion post-money valuation. It said annualized revenue had surpassed $300 million after growing fivefold since September."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Modal is a signal of where value may accrue in AI infrastructure: not only in chips and model providers, but in the software layer that makes demanding workloads usable by developers.",
     "valuation_history": [
       {
         "value": "$4.65B",
@@ -69,9 +69,10 @@
       }
     ],
     "takeaways": [
-      "Modal is tracked in cloud infrastructure.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Modal provides elastic cloud infrastructure for AI workloads and agents.",
+      "The May 2026 Series C raised $355 million at a $4.65 billion post-money valuation.",
+      "Modal reported more than $300 million in annualized revenue at that time.",
+      "Capacity economics and competition from larger cloud platforms are the major risks."
     ],
     "quick_facts": [
       [
@@ -88,10 +89,8 @@
       ]
     ],
     "sources": [
-      {
-        "label": "Company website",
-        "url": "https://modal.com"
-      }
+      {"label": "Modal: Series C announcement", "url": "https://modal.com/blog/modal-series-c"},
+      {"label": "Modal: sandbox scale update", "url": "https://modal.com/blog/scaling-to-1-million-concurrent-sandboxes-in-seconds"}
     ]
   }
 }

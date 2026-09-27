@@ -2,9 +2,9 @@
   "slug": "fal-api",
   "name": "fal API",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "fal is a private company tracked by The Private Ledger in ai media infrastructure.",
-  "overview": "<p>fal is a private company tracked by The Private Ledger in ai media infrastructure.</p>",
+  "sector": "AI media infrastructure",
+  "summary": "fal provides infrastructure for developers to run generative-media models, including image, video, audio, and real-time AI workloads.",
+  "overview": "<p>fal is an AI-media infrastructure company. Its platform gives developers APIs and compute for running generative image, video, audio, and real-time models in production.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 81,
-  "bull_case": "fal API is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "As generative media moves from experimentation into products, a focused inference layer can earn durable usage-based revenue and developer adoption.",
+  "bear_case": "fal faces pressure from model providers, cloud platforms, and other inference vendors; infrastructure margins can compress as workloads become more standardized.",
   "latest_round": "December 2025: $140M Series D at $4.5B",
   "directory_notes": [
     "AI media infrastructure",
@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=fal.ai&sz=128",
-    "description": "fal is a private company tracked by The Private Ledger in ai media infrastructure.",
+    "description": "fal provides APIs and infrastructure for deploying generative-media models in production.",
     "metrics": [
       {
         "value": "$4.5B",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "fal is a private company tracked by The Private Ledger in ai media infrastructure.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "fal supplies developers with infrastructure for running generative-media models across image, video, audio, and real-time workloads. The product sits between rapidly improving models and the applications that need reliable, scalable deployment.",
+      "The company announced a $140 million Series D in December 2025, with Sequoia, Kleiner Perkins, and NVIDIA joining the round. TechCrunch reported the financing valued fal at $4.5 billion."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "fal is a read-through on whether a specialized infrastructure company can capture value as AI-generated media becomes a standard feature in creative and commercial software.",
     "valuation_history": [
       {
         "value": "$4.5B",
@@ -69,9 +69,10 @@
       }
     ],
     "takeaways": [
-      "fal is tracked in ai media infrastructure.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "fal supplies infrastructure for production generative-media workloads.",
+      "It raised $140 million in a December 2025 Series D.",
+      "The reported $4.5 billion valuation reflects investor appetite for AI infrastructure with high usage potential.",
+      "Serving costs and competition from clouds and model providers remain the core risks."
     ],
     "quick_facts": [
       [
@@ -88,10 +89,8 @@
       ]
     ],
     "sources": [
-      {
-        "label": "Company website",
-        "url": "https://fal.ai"
-      }
+      {"label": "fal: Series D announcement", "url": "https://blog.fal.ai/our-series-d-scaling-fal/"},
+      {"label": "TechCrunch: fal Series D", "url": "https://techcrunch.com/2025/12/09/fal-nabs-140m-in-fresh-funding-led-by-sequoia-tripling-valuation-to-4-5b/"}
     ]
   }
 }
