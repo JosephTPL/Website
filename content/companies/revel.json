@@ -3,9 +3,9 @@
   "name": "Revel",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Revel is a private company tracked by The Private Ledger in technology.",
-  "overview": "<p>Revel is a private company tracked by The Private Ledger in technology.</p>",
-  "as_of": "2026-09-25",
+  "summary": "Revel develops software for testing, operating, and controlling hardware in aerospace, energy, and advanced-manufacturing environments.",
+  "overview": "<p>Revel provides a modern software layer for high-consequence hardware testing and control. It announced a $150 million Series B led by Index Ventures in February 2026; the company described the round as valuing Revel at more than $1 billion.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Latest financing",
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 75,
-  "bull_case": "Revel is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "A common software layer for hardware testing can become deeply embedded as aerospace and industrial customers scale increasingly complex programs.",
+  "bear_case": "Hardware-sector customers have long procurement cycles, bespoke requirements, and budget sensitivity when programs are delayed.",
   "latest_round": "February 2026 Series B: $150M; valuation undisclosed",
   "directory_notes": [
     "Technology",
@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "/logos/revel.svg",
-    "description": "Revel is a private company tracked by The Private Ledger in technology.",
+    "description": "Software for high-consequence hardware testing and operational control.",
     "metrics": [
       {
         "value": "Undisclosed",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Revel is a private company tracked by The Private Ledger in technology.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Revel builds software for running, testing, and controlling physical systems where reliability and safety are critical. Its initial focus included aerospace startups, while the product is designed for other advanced-manufacturing and energy use cases.",
+      "The company announced a $150 million Series B led by Index Ventures in February 2026. Revel's newsroom described the financing as a $1 billion-plus valuation milestone, though the round announcement did not state a precise valuation."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "As aerospace, defense, energy, and advanced manufacturing attract capital, the software systems used to test and operate hardware can become valuable infrastructure. Revel is a private-market read-through on that tooling layer.",
     "valuation_history": [
       {
         "value": "$150M raised",
@@ -65,18 +65,18 @@
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Revel announced a $150M Series B led by Index Ventures."
       }
     ],
     "takeaways": [
-      "Revel is tracked in technology.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The February 2026 Series B is the latest disclosed financing event.",
+      "Aerospace and industrial testing workflows are the core vertical opportunity.",
+      "Customer concentration and programme timing remain key risks."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Technology"
+        "Hardware testing and control software"
       ],
       [
         "Website",

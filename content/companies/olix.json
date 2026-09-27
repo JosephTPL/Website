@@ -3,9 +3,9 @@
   "name": "OLIX",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "OLIX is a private company tracked by The Private Ledger in technology.",
-  "overview": "<p>OLIX is a private company tracked by The Private Ledger in technology.</p>",
-  "as_of": "2026-09-25",
+  "summary": "OLIX is a UK-based AI-chip startup developing specialised inference hardware linked by a photonic interconnect.",
+  "overview": "<p>OLIX is developing custom AI inference chips and a photonic interconnect intended to support high-performance AI systems. In August 2026, it announced a $312 million Series B at a $3.3 billion valuation to support first-rack delivery and custom-silicon execution.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Latest financing",
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 107,
-  "bull_case": "OLIX is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "If OLIX can execute on silicon, interconnect, and supply-chain commitments, specialised inference hardware could offer a differentiated route into AI infrastructure.",
+  "bear_case": "Semiconductor development is capital intensive, technically risky, and dominated by well-funded incumbents with established software ecosystems.",
   "latest_round": "August 2026 Series B: $312M at a $3.3B valuation",
   "directory_notes": [
     "Technology",
@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=olix.com&sz=128",
-    "description": "OLIX is a private company tracked by The Private Ledger in technology.",
+    "description": "A UK AI-chip company developing specialised inference hardware and photonic interconnects.",
     "metrics": [
       {
         "value": "$3.3B",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "OLIX is a private company tracked by The Private Ledger in technology.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "OLIX is developing a custom silicon platform for AI inference, including specialised chips connected through a photonic interconnect. The company says the architecture is intended to support demanding AI workloads as it moves toward first racks.",
+      "In August 2026, OLIX announced a $312 million Series B at a $3.3 billion valuation, following a February fundraise reported at a $1 billion valuation. The financing is intended to support silicon development, manufacturing commitments, and delivery to customers."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "AI inference is drawing investment beyond the leading GPU supply chain. OLIX is a high-risk, high-capital example of a private company trying to build an alternative hardware stack.",
     "valuation_history": [
       {
         "value": "$3.3B",
@@ -65,18 +65,18 @@
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "OLIX announced a $312M Series B at a $3.3B valuation."
       }
     ],
     "takeaways": [
-      "OLIX is tracked in technology.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The August 2026 Series B set a $3.3B valuation benchmark.",
+      "Product delivery and manufacturing execution are the key near-term milestones.",
+      "The company faces formidable semiconductor and platform competition."
     ],
     "quick_facts": [
       [
-        "Focus",
-        "Technology"
+        "Headquarters",
+        "London, United Kingdom"
       ],
       [
         "Website",

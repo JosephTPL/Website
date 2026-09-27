@@ -3,9 +3,9 @@
   "name": "Vapi",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Vapi is a private company tracked by The Private Ledger in voice ai infrastructure.",
-  "overview": "<p>Vapi is a private company tracked by The Private Ledger in voice ai infrastructure.</p>",
-  "as_of": "2026-09-25",
+  "summary": "Vapi provides an API-native platform for businesses to build, deploy, and manage voice AI agents at scale.",
+  "overview": "<p>Vapi is a voice-AI infrastructure provider that lets enterprises configure and operate voice agents. It announced a $50 million Series B in May 2026 after reporting one billion calls; reporting placed the post-money valuation at roughly $500 million.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Latest financing",
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 116,
-  "bull_case": "Vapi is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "A developer-centric platform can benefit as enterprises move voice agents from pilots to high-volume customer interactions.",
+  "bear_case": "Voice-AI quality, regulatory compliance, and competition from cloud and contact-centre platforms can constrain long-term margins.",
   "latest_round": "May 2026 Series B: $50M at an approximately $500M valuation",
   "directory_notes": [
     "Voice AI infrastructure",
@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=vapi.ai&sz=128",
-    "description": "Vapi is a private company tracked by The Private Ledger in voice ai infrastructure.",
+    "description": "API-native voice-AI infrastructure for building and operating enterprise voice agents.",
     "metrics": [
       {
         "value": "$500M",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Vapi is a private company tracked by The Private Ledger in voice ai infrastructure.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Vapi provides an API-native platform for building, deploying, and managing voice agents. The company says customers including Amazon, New York Life, and Intuit use its platform for voice-AI applications at scale.",
+      "In May 2026, Vapi announced a $50 million Series B led by Peak XV and said it had reached one billion calls. The company did not announce a valuation; TechCrunch reported a valuation of around $500 million after the financing."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Voice is a costly and operationally sensitive customer-service channel, making it a consequential deployment area for AI agents. Vapi's funding and customer claims offer a private-market signal on adoption beyond text-based assistants.",
     "valuation_history": [
       {
         "value": "$500M",
@@ -65,18 +65,18 @@
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Vapi announced a $50M Series B; reporting placed the valuation at about $500M."
       }
     ],
     "takeaways": [
-      "Vapi is tracked in voice ai infrastructure.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The May 2026 Series B brought total funding to $72M, according to Vapi.",
+      "High-volume enterprise voice deployments are the core demand signal.",
+      "The profile treats the $500M valuation as reported rather than company-disclosed."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Voice AI infrastructure"
+        "Enterprise voice AI"
       ],
       [
         "Website",

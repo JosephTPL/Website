@@ -3,9 +3,9 @@
   "name": "Simile",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Simile is a private company tracked by The Private Ledger in artificial intelligence.",
-  "overview": "<p>Simile is a private company tracked by The Private Ledger in artificial intelligence.</p>",
-  "as_of": "2026-09-25",
+  "summary": "Simile develops synthetic users for product and market research, using AI agents to simulate audience behavior and feedback.",
+  "overview": "<p>Simile offers synthetic users for marketing and product research. In July 2026, the company announced a $200 million Series B at a $2 billion valuation, five months after a $100 million Series A.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Latest financing",
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 88,
-  "bull_case": "Simile is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "If synthetic panels become reliable enough for iterative research, they can materially shorten the feedback loop for product and marketing teams.",
+  "bear_case": "Synthetic outputs can encode weak assumptions or produce misleading confidence, limiting adoption in decisions that require representative human evidence.",
   "latest_round": "Reported July 2026 Series B: $200M+ at a $2B valuation",
   "directory_notes": [
     "Artificial intelligence",
@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=simile.ai&sz=128",
-    "description": "Simile is a private company tracked by The Private Ledger in artificial intelligence.",
+    "description": "An AI research platform built around simulated users for product and market research.",
     "metrics": [
       {
         "value": "$2B",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Simile is a private company tracked by The Private Ledger in artificial intelligence.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Simile uses AI agents to simulate users for product and market research. The company positions the platform as a faster complement to conventional research workflows, where teams need repeated feedback on messaging, concepts, and product decisions.",
+      "The company announced a $200 million Series B at a $2 billion valuation in July 2026, led by Greenoaks. It followed a $100 million Series A announced five months earlier, making the pace of financing itself a notable part of the profile."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Synthetic research is an emerging application layer for AI, where value depends on whether simulated behavior is decision-useful rather than merely convincing. Simile is a high-profile private-market test of that proposition.",
     "valuation_history": [
       {
         "value": "$2B",
@@ -65,18 +65,18 @@
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Simile announced a $200M Series B at a $2B valuation, led by Greenoaks."
       }
     ],
     "takeaways": [
-      "Simile is tracked in artificial intelligence.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The July 2026 Series B set a $2B valuation only months after the Series A.",
+      "The investment case rests on the reliability of simulated research outputs.",
+      "Methodological trust and customer retention are the central open questions."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Artificial intelligence"
+        "Synthetic users and market research"
       ],
       [
         "Website",
@@ -89,8 +89,8 @@
     ],
     "sources": [
       {
-        "label": "RuntimeWire: Simile Series B",
-        "url": "https://runtimewire.com/article/simile-raises-200m-series-b-2b-valuation"
+        "label": "Simile: Series B announcement",
+        "url": "https://www.simile.com/blog"
       },
       {
         "label": "Company website",
