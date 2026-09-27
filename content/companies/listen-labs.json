@@ -2,9 +2,9 @@
   "slug": "listen-labs",
   "name": "Listen Labs",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Listen Labs is a private company tracked by The Private Ledger in ai research.",
-  "overview": "<p>Listen Labs is a private company tracked by The Private Ledger in ai research.</p>",
+  "sector": "Customer research",
+  "summary": "Listen Labs provides an AI-first customer-research platform, using conversational interviews to speed up insight gathering. It raised a $69 million Series B in January 2026; its valuation was reported above $500 million.",
+  "overview": "<p>Listen Labs runs AI-assisted customer interviews and research workflows for enterprise teams. The platform is positioned as a faster alternative to conventional qualitative research and has access to a large pool of pre-qualified participants.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 105,
-  "bull_case": "Listen Labs is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "If AI interviews become trusted within product, brand and insight teams, Listen can replace slow research workflows and compound through enterprise usage.",
+  "bear_case": "Research quality, participant integrity and customer trust are core constraints; the Series B valuation was reported rather than disclosed by the company.",
   "latest_round": "January 2026: $69M Series B at $500M+",
   "directory_notes": [
     "AI research",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Listen Labs is a private company tracked by The Private Ledger in ai research.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Listen Labs provides an AI-first customer research platform whose interviewer conducts conversational research with recruited participants. It is used for work such as product concepts, messaging and usability testing.",
+      "The company announced a $69 million Series B led by Ribbit Capital in January 2026. Listen said it had reached eight-figure annualised revenue, interviewed more than one million people and served hundreds of enterprises; the valuation above $500 million was reported separately."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Listen Labs is a test of whether AI can make qualitative research faster without eroding decision quality. Its competitive edge depends on research rigor, participant access and enterprise trust.",
     "valuation_history": [
       {
         "value": "$500M+",
@@ -69,9 +69,9 @@
       }
     ],
     "takeaways": [
-      "Listen Labs is tracked in ai research.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The $69M Series B is company-announced; the $500M+ valuation is reported context.",
+      "Listen's core product is AI-assisted customer research, not general AI research.",
+      "Research quality and enterprise retention are the core diligence questions."
     ],
     "quick_facts": [
       [

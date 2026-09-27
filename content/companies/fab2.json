@@ -2,9 +2,9 @@
   "slug": "fab2",
   "name": "Fab2",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Fab2 is a private company tracked by The Private Ledger in industrial technology.",
-  "overview": "<p>Fab2 is a private company tracked by The Private Ledger in industrial technology.</p>",
+  "sector": "Semiconductors",
+  "summary": "Fab2, formerly Atomic Semi, is developing compact chipmaking facilities and the tools inside them. It raised a $500 million Series A at a $3.7 billion valuation in September 2026.",
+  "overview": "<p>Fab2 is attempting to make semiconductor production faster and less capital intensive through modular fabrication facilities, in-house equipment and software. The Austin company was previously known as Atomic Semi.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,19 +15,19 @@
     }
   ],
   "directory_rank": 97,
-  "bull_case": "Fab2 is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "A modular, lower-cost fabrication model could address a strategic need for domestic chip capacity if Fab2 proves it can produce reliable chips economically.",
+  "bear_case": "Semiconductor manufacturing is capital intensive and unforgiving; a $3.7B valuation leaves little room for technical or production setbacks.",
   "latest_round": "September 2026: $500M Series A at $3.7B",
   "directory_notes": [
-    "Industrial technology",
-    "Public financing and operating data remain limited."
+    "Modular semiconductor fabs",
+    "$500M Series A at $3.7B in September 2026."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Undisclosed",
+    "location": "Austin, Texas",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=fab2.com&sz=128",
-    "description": "Fab2 is a private company tracked by The Private Ledger in industrial technology.",
+    "description": "A semiconductor company building compact, modular fabs and their production equipment.",
     "metrics": [
       {
         "value": "$3.7B",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Fab2 is a private company tracked by The Private Ledger in industrial technology.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Fab2 is building compact semiconductor facilities and manufacturing much of the equipment used inside them. Its model targets smaller, faster-to-deploy fab capacity rather than one enormous conventional plant.",
+      "Formerly Atomic Semi, Fab2 raised a $500 million Series A at a $3.7 billion valuation in September 2026. The round was led by Fundomo; the company is associated with founders Sam Zeloof and Jim Keller."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Fab2 is a high-risk private wager on whether chip manufacturing can be productised and deployed more quickly. Manufacturing yield, equipment reliability and customer qualification will matter more than the headline Series A.",
     "valuation_history": [
       {
         "value": "$3.7B",
@@ -69,14 +69,14 @@
       }
     ],
     "takeaways": [
-      "Fab2 is tracked in industrial technology.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Fab2 is pursuing modular chip production, not simply chip design.",
+      "The $3.7B valuation is tied to a reported $500M September 2026 Series A.",
+      "Yield, cost and customer qualification are the central milestones."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Industrial technology"
+        "Semiconductor manufacturing"
       ],
       [
         "Website",

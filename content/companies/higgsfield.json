@@ -2,9 +2,9 @@
   "slug": "higgsfield",
   "name": "Higgsfield",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Higgsfield is a private company tracked by The Private Ledger in generative video ai.",
-  "overview": "<p>Higgsfield is a private company tracked by The Private Ledger in generative video ai.</p>",
+  "sector": "Generative media",
+  "summary": "Higgsfield creates AI video and image tools for creators, brands, agencies and studios. It raised a $400 million Series B at a $5.4 billion valuation in August 2026.",
+  "overview": "<p>Higgsfield is a generative-media platform with tools for creating AI images and video. It sells into creative and marketing workflows, while competing in a compute-intensive and fast-moving category.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 103,
-  "bull_case": "Higgsfield is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "Strong creator and enterprise adoption could make Higgsfield a major production layer for marketing and media workflows.",
+  "bear_case": "Video generation has heavy compute needs and intense competition; the $5.4B valuation assumes impressive revenue and adoption can persist.",
   "latest_round": "August 2026: $400M Series B at $5.4B",
   "directory_notes": [
     "Generative video AI",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Higgsfield is a private company tracked by The Private Ledger in generative video ai.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Higgsfield provides AI tools for video and image creation, including products aimed at filmmakers and marketing teams. Its core market is professional creative production rather than a purely consumer novelty app.",
+      "The company announced a $400 million Series B at a $5.4 billion valuation in August 2026, led by DST Global. It said it had reached $700 million of annualized revenue, 30 million users and 390 Fortune 500 customers; those operating figures are company-reported."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Higgsfield is a high-valuation test of whether generative video becomes an enduring enterprise production tool. Compute economics and retention will determine whether its rapid growth is durable.",
     "valuation_history": [
       {
         "value": "$5.4B",
@@ -69,9 +69,9 @@
       }
     ],
     "takeaways": [
-      "Higgsfield is tracked in generative video ai.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The $5.4B valuation was announced with a $400M Series B.",
+      "Higgsfield is targeting professional creators and enterprise creative workflows.",
+      "Compute costs and competitive differentiation remain central risks."
     ],
     "quick_facts": [
       [

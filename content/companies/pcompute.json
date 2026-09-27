@@ -2,9 +2,9 @@
   "slug": "pcompute",
   "name": "pCompute",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "pCompute is a private company tracked by The Private Ledger in compute infrastructure.",
-  "overview": "<p>pCompute is a private company tracked by The Private Ledger in compute infrastructure.</p>",
+  "sector": "Compute infrastructure",
+  "summary": "pCompute is an early-stage compute-infrastructure company on The Private Ledger's watchlist. Public detail on its financing, valuation and commercial operations remains limited, so this profile deliberately avoids unsupported claims.",
+  "overview": "<p>pCompute is tracked as a private compute-infrastructure company. Its public disclosures do not yet support a precise valuation, funding history or detailed operating thesis, and the profile will expand only when reliable evidence is available.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 87,
-  "bull_case": "pCompute is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "Infrastructure demand can create a large opportunity if pCompute establishes a differentiated, reliable offering for customers with demanding workloads.",
+  "bear_case": "No confirmed funding, valuation or detailed product disclosure is available, so there is not yet a defensible public underwriting case.",
   "latest_round": "No confirmed financing publicly disclosed",
   "directory_notes": [
     "Compute infrastructure",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "pCompute is a private company tracked by The Private Ledger in compute infrastructure.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "pCompute is tracked as a private compute-infrastructure company. The public record currently does not substantiate a precise funding amount, valuation, customer base or detailed product claims.",
+      "The profile therefore distinguishes a valid watchlist entry from an investment conclusion. It will be upgraded when a company announcement, regulatory filing or reputable report supports specific financing or operating facts."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Compute infrastructure is strategically important, but a low-disclosure company should not receive invented intelligence. The next useful evidence is a confirmed product launch, commercial customer, or financing announcement.",
     "valuation_history": [
       {
         "value": "Not disclosed",
@@ -69,9 +69,9 @@
       }
     ],
     "takeaways": [
-      "pCompute is tracked in compute infrastructure.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "No confirmed public valuation or financing amount has been identified.",
+      "The company remains a monitoring entry rather than a fully underwritten profile.",
+      "Verified product, customer or financing disclosure is required for the next upgrade."
     ],
     "quick_facts": [
       [
