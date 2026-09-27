@@ -2,16 +2,16 @@
   "slug": "verkada",
   "name": "Verkada",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Verkada is a private company tracked in The Private Ledger market watchlist.",
-  "overview": "<p>Verkada is a private company tracked in The Private Ledger market watchlist.</p>",
-  "as_of": "2026-09-25",
+  "sector": "Physical security software",
+  "summary": "Verkada sells a cloud-managed physical-security platform that combines video cameras, access control, sensors, alarms, intercoms, and AI-powered investigation tools.",
+  "overview": "<p>Verkada provides a cloud-managed physical-security platform for enterprises, schools, and other organizations. It brings video, access control, sensors, alarms, and intercoms into one software environment.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Reported valuation",
       "value": "$5.8B",
-      "note": "Reported Private Ledger market-watch estimate; private valuations can change without a public financing.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      "note": "CapitalG led an investment that valued Verkada at $5.8 billion in December 2025.",
+      "source": "https://www.verkada.com/blog/our-new-valuation-dec-2025/"
     },
     {
       "label": "Public status",
@@ -21,24 +21,24 @@
     }
   ],
   "directory_rank": 133,
-  "bull_case": "Verkada is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "Reported valuation: $5.8B",
+  "bull_case": "A unified cloud platform can replace fragmented physical-security systems, while AI search and investigation tools create a more differentiated workflow for customers.",
+  "bear_case": "The company operates in a regulated, reputation-sensitive category where privacy, security failures, or public-sector procurement cycles can slow adoption.",
+  "latest_round": "December 2025 CapitalG investment: $5.8B valuation; amount undisclosed",
   "directory_notes": [
-    "Private-market watchlist",
-    "Watch for funding, operating milestones, and IPO developments."
+    "Cloud-managed physical security",
+    "Watch for bookings growth, AI product adoption, and public-market readiness."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Undisclosed",
+    "location": "San Mateo, California",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=verkada.com&sz=128",
-    "description": "Verkada is a private company tracked in The Private Ledger market watchlist.",
+    "description": "Verkada provides cloud-managed physical-security products and software for enterprise customers.",
     "metrics": [
       {
         "value": "$5.8B",
         "label": "Reported valuation",
-        "note": "Private Ledger market watch"
+        "note": "CapitalG-led investment, December 2025"
       },
       {
         "value": "Private",
@@ -48,7 +48,7 @@
       {
         "value": "Sep 2026",
         "label": "Profile updated",
-        "note": "Latest editorial review"
+        "note": "Source review completed"
       },
       {
         "value": "Watchlist",
@@ -57,10 +57,10 @@
       }
     ],
     "company": [
-      "Verkada is a private company tracked in The Private Ledger market watchlist.",
-      "This profile establishes the company record for ongoing Private Ledger research and will be expanded as material, sourced disclosures are published."
+      "Verkada builds cloud-managed physical-security products that combine video cameras, access control, sensors, alarms, intercoms, and software. Its platform is designed to replace disconnected on-premise systems with a unified, remotely managed operating layer.",
+      "In December 2025, Verkada said a CapitalG-led investment valued the company at $5.8 billion. The company said it had surpassed $1 billion in annualized bookings and had more than two million devices deployed across 171 countries."
     ],
-    "why_it_matters": "Verkada is part of the private-company universe that can shape future public-market competition and capital allocation.",
+    "why_it_matters": "Verkada is a test case for applying cloud software and AI to physical infrastructure rather than only digital workflows. Its scale makes it a notable private-company benchmark in security technology and enterprise hardware-enabled software.",
     "valuation_history": [
       {
         "value": "Private",
@@ -69,34 +69,34 @@
       },
       {
         "value": "$5.8B",
-        "date": "2026",
-        "round": "Latest reported estimate"
+        "date": "Dec 2025",
+        "round": "CapitalG-led investment"
       }
     ],
     "changed": [
       {
         "date": "2026",
-        "text": "The company is added to The Private Ledger company-profile coverage."
+        "text": "CapitalG led an investment valuing Verkada at $5.8 billion."
       }
     ],
     "takeaways": [
-      "Verkada is now covered in The Private Ledger directory.",
-      "Private valuations are directional estimates, not audited market prices.",
-      "Funding, product execution, and market structure are the primary items to watch.",
-      "This profile will be updated as new public information becomes available."
+      "Verkada brings multiple physical-security products into one cloud-managed platform.",
+      "CapitalG led an investment that valued the company at $5.8 billion in December 2025.",
+      "Verkada reported more than $1 billion in annualized bookings at that time.",
+      "The next questions are whether AI features deepen the product moat and whether growth supports a future public listing."
     ],
     "quick_facts": [
       [
         "Sector",
-        "Private markets"
+        "Physical security software"
       ],
       [
         "Public status",
         "Private"
       ],
       [
-        "Coverage",
-        "Company profile"
+        "Latest financing",
+        "CapitalG-led investment, Dec 2025"
       ],
       [
         "Website",
@@ -105,12 +105,12 @@
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://verkada.com"
+        "label": "Verkada: $5.8B valuation announcement",
+        "url": "https://www.verkada.com/blog/our-new-valuation-dec-2025/"
       },
       {
-        "label": "Private-company valuation reference",
-        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+        "label": "Reuters: Verkada valuation and company profile",
+        "url": "https://www.investing.com/news/stock-market-news/aipowered-security-firm-verkada-valued-at-58-billion-in-latest-investment-round-4388796"
       }
     ]
   }

@@ -2,16 +2,16 @@
   "slug": "whop",
   "name": "Whop",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Whop is a private company tracked in The Private Ledger market watchlist.",
-  "overview": "<p>Whop is a private company tracked in The Private Ledger market watchlist.</p>",
-  "as_of": "2026-09-25",
+  "sector": "Commerce infrastructure",
+  "summary": "Whop is an internet commerce platform that lets individuals and businesses create storefronts, accept payments, and sell digital products, memberships, and services.",
+  "overview": "<p>Whop provides commerce infrastructure for internet businesses. Its platform combines storefronts, payments, communities, and tools for selling digital products and services.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Reported valuation",
       "value": "$1.6B",
-      "note": "Reported Private Ledger market-watch estimate; private valuations can change without a public financing.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      "note": "Whop said Tether made a $200 million strategic investment at a $1.6 billion valuation.",
+      "source": "https://whop.com/blog/watch/just-getting-started/"
     },
     {
       "label": "Public status",
@@ -21,24 +21,24 @@
     }
   ],
   "directory_rank": 134,
-  "bull_case": "Whop is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "Reported valuation: $1.6B",
+  "bull_case": "A unified product for payments, storefronts, and communities can reduce the friction of starting an internet business and compound through creator and merchant distribution.",
+  "bear_case": "Whop operates in a crowded commerce stack, and creator-economy demand can shift quickly between platforms and formats.",
+  "latest_round": "December 2025 strategic investment: $200M at $1.6B valuation",
   "directory_notes": [
-    "Private-market watchlist",
-    "Watch for funding, operating milestones, and IPO developments."
+    "Creator and internet commerce",
+    "Watch for merchant volume and monetization disclosures."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Undisclosed",
+    "location": "United States",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=whop.com&sz=128",
-    "description": "Whop is a private company tracked in The Private Ledger market watchlist.",
+    "description": "Whop is a commerce platform for creating, operating, and selling internet businesses.",
     "metrics": [
       {
         "value": "$1.6B",
         "label": "Reported valuation",
-        "note": "Private Ledger market watch"
+        "note": "Strategic investment announced by Whop"
       },
       {
         "value": "Private",
@@ -48,7 +48,7 @@
       {
         "value": "Sep 2026",
         "label": "Profile updated",
-        "note": "Latest editorial review"
+        "note": "Source review completed"
       },
       {
         "value": "Watchlist",
@@ -57,10 +57,10 @@
       }
     ],
     "company": [
-      "Whop is a private company tracked in The Private Ledger market watchlist.",
-      "This profile establishes the company record for ongoing Private Ledger research and will be expanded as material, sourced disclosures are published."
+      "Whop provides a platform for individuals and businesses to create storefronts, collect payments, run communities, and sell products or services online. The company positions the product as an operating layer for internet businesses rather than a single-purpose marketplace.",
+      "In December 2025, Whop announced a $200 million strategic investment from Tether at a $1.6 billion valuation. Whop says more than $4.6 billion has been paid to businesses through its platform."
     ],
-    "why_it_matters": "Whop is part of the private-company universe that can shape future public-market competition and capital allocation.",
+    "why_it_matters": "Whop sits where payments, digital commerce, and creator tools overlap. Its ability to aggregate merchant activity makes it a relevant private-market signal for the economics of online entrepreneurship and payments infrastructure.",
     "valuation_history": [
       {
         "value": "Private",
@@ -69,34 +69,34 @@
       },
       {
         "value": "$1.6B",
-        "date": "2026",
-        "round": "Latest reported estimate"
+        "date": "Dec 2025",
+        "round": "Strategic investment"
       }
     ],
     "changed": [
       {
         "date": "2026",
-        "text": "The company is added to The Private Ledger company-profile coverage."
+        "text": "Tether made a $200 million strategic investment valuing Whop at $1.6 billion."
       }
     ],
     "takeaways": [
-      "Whop is now covered in The Private Ledger directory.",
-      "Private valuations are directional estimates, not audited market prices.",
-      "Funding, product execution, and market structure are the primary items to watch.",
-      "This profile will be updated as new public information becomes available."
+      "Whop combines commerce, payments, and community tooling in one platform.",
+      "The company announced a $200 million strategic investment from Tether in December 2025.",
+      "That investment placed its reported valuation at $1.6 billion.",
+      "Merchant payment volume and retention are the central execution questions."
     ],
     "quick_facts": [
       [
         "Sector",
-        "Private markets"
+        "Commerce infrastructure"
       ],
       [
         "Public status",
         "Private"
       ],
       [
-        "Coverage",
-        "Company profile"
+        "Latest financing",
+        "$200M strategic investment"
       ],
       [
         "Website",
@@ -105,12 +105,12 @@
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://whop.com"
+        "label": "Whop: strategic investment announcement",
+        "url": "https://whop.com/blog/watch/just-getting-started/"
       },
       {
-        "label": "Private-company valuation reference",
-        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+        "label": "Whop: company overview",
+        "url": "https://newsroom.whop.com/about/"
       }
     ]
   }
