@@ -4,19 +4,19 @@
   "status": "Published",
   "sector": "Private markets",
   "summary": "Trajectory is a San Francisco research and product lab building AI systems designed for continual learning from real-world feedback.",
-  "overview": "<p>Trajectory is developing a platform for continual learning, aiming to make AI systems improve from real-world experience rather than remain fixed after training. Public reporting identifies the company as founded by alumni of DeepMind, Apple, OpenAI, Meta, and Scale AI; disclosed financing detail remains limited in this profile.</p>",
+  "overview": "<p>Trajectory is a research and product lab building continual-learning infrastructure for AI products. It uses production signals to identify where models succeed or fail, then helps teams post-train models using that real-world feedback.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
       "label": "Latest financing",
       "value": "Undisclosed",
       "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://trajectory.com"
+      "source": "https://www.trajectory.ai/"
     }
   ],
   "directory_rank": 69,
-  "bull_case": "Trajectory is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "A dependable feedback loop between production usage and post-training could become essential infrastructure as companies move from static models to continuously improving AI products.",
+  "bear_case": "Continual learning carries technical, data-governance and evaluation challenges. The company has not publicly disclosed a financing or valuation, so commercial maturity remains hard to assess.",
   "latest_round": "No confirmed financing publicly disclosed",
   "directory_notes": [
     "Technology",
@@ -26,8 +26,8 @@
     "kicker": "COMPANY INTELLIGENCE",
     "location": "Undisclosed",
     "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=trajectory.com&sz=128",
-    "description": "Trajectory is a private technology company tracked by The Private Ledger.",
+    "logo": "https://www.google.com/s2/favicons?domain=trajectory.ai&sz=128",
+    "description": "Continual-learning platform that turns production signals into ongoing improvement for AI systems.",
     "metrics": [
       {
         "value": "Undisclosed",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Trajectory is a private technology company tracked by The Private Ledger.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until a primary source or credible priced transaction is available."
+      "Trajectory is building continual-learning infrastructure for AI products. It analyzes production interactions to surface where a system succeeds or fails, then helps teams use those signals to post-train models for their specific products.",
+      "The company describes itself as both a research lab and product lab. Public financing and valuation details remain undisclosed, so the profile focuses on its technology and avoids an inferred transaction."
     ],
-    "why_it_matters": "The company is on the watchlist because private-market activity in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Many AI products are limited by the gap between a base model and real-world usage. If Trajectory can close that loop safely and reliably, it addresses a foundational problem for companies building differentiated AI applications.",
     "valuation_history": [
       {
         "value": "Not disclosed",
@@ -69,18 +69,18 @@
       }
     ],
     "takeaways": [
-      "Trajectory is tracked in technology.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Trajectory turns production signals into feedback for AI post-training.",
+      "The company is building a continual-learning platform rather than a standalone consumer model.",
+      "No public financing or valuation is asserted in this profile."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Technology"
+        "Continual learning infrastructure"
       ],
       [
         "Website",
-        "trajectory.com"
+        "trajectory.ai"
       ],
       [
         "Public status",
@@ -90,7 +90,7 @@
     "sources": [
       {
         "label": "Company website",
-        "url": "https://trajectory.com"
+        "url": "https://www.trajectory.ai/"
       }
     ]
   }

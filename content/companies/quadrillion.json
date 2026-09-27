@@ -4,7 +4,7 @@
   "status": "Published",
   "sector": "Private markets",
   "summary": "Quadrillion is a frontier AI lab building general research intelligence for complex scientific and industrial problems.",
-  "overview": "<p>Quadrillion is a private technology company tracked by The Private Ledger.</p>",
+  "overview": "<p>Quadrillion is a frontier AI lab building general research intelligence. Its Qualia product plans and runs experiments, interprets results and proposes new directions; its forthcoming Lemma model is being trained for long-horizon research, creativity and insight.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 65,
-  "bull_case": "Quadrillion is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "A research system that can meaningfully accelerate experiment design and interpretation could become high-value infrastructure across scientific and industrial R&D.",
+  "bear_case": "Autonomous research claims are difficult to validate, and the company has not publicly disclosed financing, commercial traction or a valuation. Researchers must trust the output enough to put it into real workflows.",
   "latest_round": "No confirmed financing publicly disclosed",
   "directory_notes": [
     "Technology",
@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "/logos/quadrillion.ico",
-    "description": "A frontier AI lab focused on general research intelligence.",
+    "description": "Frontier AI lab building products for autonomous and long-horizon research workflows.",
     "metrics": [
       {
         "value": "Undisclosed",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Quadrillion is a private technology company tracked by The Private Ledger.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until a primary source or credible priced transaction is available."
+      "Quadrillion builds systems intended to automate parts of computational research. Its Qualia product plans and runs experiments, interprets results and proposes new directions, with local, cloud and on-premises deployment options.",
+      "The company says its Lemma model is trained to make complex research decisions over long horizons, including developing hypotheses, allocating compute and interpreting results. It has not publicly disclosed financing, operating metrics or a valuation."
     ],
-    "why_it_matters": "The company is on the watchlist because private-market activity in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Research automation could matter across scientific and industrial R&D if systems can reliably improve the quality and speed of experimentation. The relevant proof is measured research output and scientist adoption, not merely agent demonstrations.",
     "valuation_history": [
       {
         "value": "Not disclosed",
@@ -69,14 +69,14 @@
       }
     ],
     "takeaways": [
-      "Quadrillion is tracked in technology.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Qualia is designed to plan experiments, interpret results and propose new research directions.",
+      "Quadrillion is developing a long-horizon research model called Lemma.",
+      "No public financing or valuation is asserted in this profile."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Technology"
+        "AI research automation"
       ],
       [
         "Website",

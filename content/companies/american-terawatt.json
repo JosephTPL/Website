@@ -4,7 +4,7 @@
   "status": "Published",
   "sector": "Private markets",
   "summary": "American Terawatt is an energy-infrastructure company focused on developing reliable power capacity for a more electricity-intensive economy.",
-  "overview": "<p>American Terawatt is an energy-infrastructure company focused on the growing need for reliable power capacity.</p>",
+  "overview": "<p>American Terawatt is developing a high-voltage direct-current transmission network for large industrial loads. The company targets data centres, factories, chip fabs, mines, refineries and electric logistics, and states a goal of 14GW of capacity by 2030.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 84,
-  "bull_case": "American Terawatt is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "A dedicated transmission platform for large-load customers could become valuable as data centres and industrial projects face increasingly binding power-connection constraints.",
+  "bear_case": "Transmission development is capital intensive and exposed to permitting, right-of-way, interconnection and construction risk. A Form D filing alone does not establish completed proceeds or a valuation.",
   "latest_round": "May 2026: $53M Series B; valuation undisclosed",
   "directory_notes": [
     "Energy and power infrastructure",
@@ -54,7 +54,7 @@
       "American Terawatt is developing energy infrastructure aimed at increasing reliable power capacity as industrial and compute demand expand. Public detail on the company's operating model and commercial projects remains limited.",
       "A May 2026 SEC Form D confirms an exempt offering. The filing does not establish a completed round amount or valuation, so this profile does not treat it as a priced financing event."
     ],
-    "why_it_matters": "A May 2026 SEC Form D confirms an exempt offering, but public details on proceeds and valuation are limited.",
+    "why_it_matters": "Grid access is becoming a strategic constraint for compute and industrial capacity. American Terawatt is a direct bet on building new transmission for those loads, but delivery and permitting are more decisive than the financing headline.",
     "valuation_history": [
       {
         "value": "Not disclosed",
@@ -69,8 +69,9 @@
       }
     ],
     "takeaways": [
-      "American Terawatt is tracked in energy and power infrastructure.",
-      "A May 2026 SEC Form D confirms an exempt offering, but public details on proceeds and valuation are limited.",
+      "American Terawatt is targeting a national HVDC network for large industrial loads.",
+      "The company states a 14GW capacity target by 2030.",
+      "A May 2026 Form D confirms an exempt offering but not a completed $53M round or valuation.",
       "No public valuation is asserted without a confirmed priced transaction.",
       "The next useful evidence will be product adoption, financing, and operating disclosure."
     ],
@@ -89,6 +90,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "SEC Form D filing",
+        "url": "https://www.sec.gov/Archives/edgar/data/2135715/000213571526000001/0002135715-26-000001-index.htm"
+      },
       {
         "label": "Company website",
         "url": "https://americanterawatt.com"

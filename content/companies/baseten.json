@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 122,
-  "bull_case": "Baseten is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "As inference moves from experiments into production, a platform that improves reliability, deployment flexibility and unit economics can become an important layer in the AI stack.",
+  "bear_case": "Model serving is intensely competitive and exposed to GPU supply, cloud-platform economics and customer concentration. A $5B valuation requires durable workload retention, not merely AI demand growth.",
   "latest_round": "$300M Series E at a $5B valuation (Feb 2026)",
   "directory_notes": [
     "AI inference infrastructure",
@@ -51,8 +51,8 @@
       }
     ],
     "company": [
-      "Baseten provides infrastructure for deploying, scaling, and operating AI models and inference workloads in production.",
-      "It raised $300 million in a Series E at a $5 billion valuation in February 2026."
+      "Baseten provides infrastructure for deploying, scaling and operating AI models in production. Its product is designed for teams that need to serve specialized models with control over performance, reliability and deployment configuration.",
+      "Baseten announced a $300M Series E at a $5B valuation in February 2026. The financing is a useful benchmark for the value investors are assigning to inference infrastructure as AI applications move into production."
     ],
     "why_it_matters": "Inference infrastructure is a critical layer in the AI stack, where reliability, latency, and cost shape the economics of every application company. Baseten is a useful private-market benchmark for the production-model serving category.",
     "valuation_history": [
@@ -69,9 +69,9 @@
       }
     ],
     "takeaways": [
-      "The latest Series E valued Baseten at $5B.",
-      "The company is positioned around specialized models running in production at scale.",
-      "GPU supply, price-performance, and customer concentration remain key watch items."
+      "The February 2026 Series E valued Baseten at $5B.",
+      "The company is focused on deploying and operating models in production, not training frontier models.",
+      "Inference cost, reliability, workload retention and cloud competition are the central watch items."
     ],
     "quick_facts": [
       [
