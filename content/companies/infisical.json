@@ -3,7 +3,7 @@
   "name": "Infisical",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Infisical provides developer infrastructure for managing application secrets and configuration.",
+  "summary": "Infisical is an open-source secrets, identity, and access-management platform for development teams and enterprise infrastructure.",
   "overview": "<p>Infisical provides developer infrastructure for managing application secrets and configuration.</p>",
   "as_of": "2026-09-25",
   "facts": [
