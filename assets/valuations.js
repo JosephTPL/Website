@@ -6,6 +6,10 @@
   const canvas=root.querySelector('.valuation-chart-canvas');
   const tooltip=root.querySelector('.valuation-tooltip');
   const legend=document.querySelector('.valuation-legend');
+  const markerList=document.createElement('div');
+  markerList.className='valuation-event-key';
+  markerList.setAttribute('aria-label','Funding round markers');
+  legend.after(markerList);
   const search=document.querySelector('#valuation-company-search');
   const searchResults=document.querySelector('#valuation-search-results');
   const selectedList=document.querySelector('#valuation-selected');
@@ -44,7 +48,7 @@
       const baseline=item.events[0].amount;
       return {...item,events:item.events.map(event=>({...event,chartAmount:indexed?((event.amount/baseline-1)*100):event.amount}))};
     });
-    canvas.replaceChildren();legend.replaceChildren();
+    canvas.replaceChildren();legend.replaceChildren();markerList.replaceChildren();
     if(!items.length){canvas.textContent='No disclosed valuation events in this period.';return}
     const allEvents=items.flatMap(item=>item.events);
     const dates=allEvents.map(item=>new Date(item.date).getTime());
@@ -78,12 +82,18 @@
       add('path',{d:path,class:'valuation-line',stroke:color});
       item.events.forEach(event=>{
         const point=add('circle',{cx:x(new Date(event.date).getTime()),cy:y(event.chartAmount),r:6,fill:color,class:'valuation-point',tabindex:'0'});
+        point.setAttribute('aria-label',`${item.name}, ${event.label}: ${event.round||'Reported event'}, ${event.value}`);
         point.addEventListener('pointerenter',e=>showTooltip(e,item,color));
         point.addEventListener('pointerleave',()=>tooltip.hidden=true);
         point.addEventListener('focus',()=>{const rect=root.getBoundingClientRect();showTooltip({clientX:rect.left+x(new Date(event.date).getTime()),clientY:rect.top+y(event.chartAmount)},item,color)});
         point.addEventListener('blur',()=>tooltip.hidden=true);
       });
       const link=document.createElement('a');link.href=item.url;link.className='valuation-legend-item';link.innerHTML=`<i style="--series-color:${color}"></i>${item.name}`;legend.append(link);
+      item.events.forEach(event=>{
+        const marker=document.createElement('a');marker.href=item.url;marker.className='valuation-event-key-item';
+        marker.innerHTML=`<i style="--series-color:${color}"></i><span>${item.name}</span><b>${event.label}</b><em>${event.round||'Reported event'}</em>`;
+        markerList.append(marker);
+      });
     });
     canvas.append(svg);
   };
