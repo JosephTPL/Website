@@ -2,10 +2,10 @@
   "slug": "castelion",
   "name": "Castelion",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Castelion is a private company tracked by The Private Ledger in defense technology.",
-  "overview": "<p>Castelion is a private company tracked by The Private Ledger in defense technology.</p>",
-  "as_of": "2026-09-25",
+  "sector": "Defense technology",
+  "summary": "Castelion develops mass-producible hypersonic strike systems for the United States and its allies. Its August 2026 financing paired an $800 million Series C with a $250 million revolver at a disclosed $13 billion valuation.",
+  "overview": "<p>Castelion develops mass-producible hypersonic strike systems designed for the United States and allied militaries. The company is pursuing a manufacturing-led defence thesis: lower-cost systems produced at scale rather than a small number of exquisite platforms.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Latest financing",
@@ -15,19 +15,19 @@
     }
   ],
   "directory_rank": 98,
-  "bull_case": "Castelion is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "Demand for affordable, producible long-range strike systems gives Castelion a large strategic market if it can translate test results into repeatable contracts. More than $500 million in stated U.S. military contracts provides an early signal of customer traction.",
+  "bear_case": "Defence programs face testing, procurement and manufacturing risk, and a $13 billion valuation leaves limited room for schedule setbacks. Contract awards do not eliminate execution risk or the long path from prototype to sustained production.",
   "latest_round": "August 2026: $800M Series C at $13B",
   "directory_notes": [
-    "Defense technology",
-    "Public financing and operating data remain limited."
+    "Hypersonic strike systems",
+    "$1B financing package disclosed in August 2026."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Undisclosed",
+    "location": "Torrance, California",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=castelion.com&sz=128",
-    "description": "Castelion is a private company tracked by The Private Ledger in defense technology.",
+    "description": "A defence manufacturer building low-cost, mass-producible hypersonic strike systems.",
     "metrics": [
       {
         "value": "$13B",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Castelion is a private company tracked by The Private Ledger in defense technology.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Castelion is building Blackbeard, a low-cost hypersonic strike system designed to be manufactured at scale. The company positions its approach around speed of production as well as speed in flight, a relevant distinction as the Pentagon prioritises industrial capacity alongside advanced capability.",
+      "In August 2026, Castelion announced a $1 billion financing package: $800 million of Series C equity and a $250 million committed revolving credit facility, at a $13 billion valuation. It also said it had secured more than $500 million in U.S. military contracts during the preceding 18 months."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Castelion illustrates the new defence-tech model: venture-backed companies competing for programs traditionally supplied by major primes. The profile should be monitored for production milestones, additional contract detail and the conversion of development work into recurring program revenue.",
     "valuation_history": [
       {
         "value": "$13B",
@@ -64,19 +64,19 @@
     ],
     "changed": [
       {
-        "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "date": "Aug 2026",
+        "text": "Announced $800M Series C plus a $250M committed revolver, and disclosed a $13B valuation."
       }
     ],
     "takeaways": [
-      "Castelion is tracked in defense technology.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The $13B valuation is company-disclosed alongside a substantial equity financing, not an inferred market estimate.",
+      "Production capacity and contract conversion are the key underwriting variables.",
+      "The $250M revolver is financing capacity, distinct from the $800M equity raise."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Defense technology"
+        "Hypersonic defence systems"
       ],
       [
         "Website",
@@ -89,8 +89,12 @@
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://castelion.com"
+        "label": "Castelion: Series C announcement",
+        "url": "https://www.castelion.com/news/series-c/"
+      },
+      {
+        "label": "Castelion: Series B announcement",
+        "url": "https://www.castelion.com/news/series-b/"
       }
     ]
   }

@@ -2,10 +2,10 @@
   "slug": "boom-supersonic",
   "name": "Boom Supersonic",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Boom Supersonic is a private company tracked by The Private Ledger in aerospace.",
-  "overview": "<p>Boom Supersonic is a private company tracked by The Private Ledger in aerospace.</p>",
-  "as_of": "2026-09-25",
+  "sector": "Aerospace",
+  "summary": "Boom Supersonic is developing Overture, a proposed supersonic airliner, after flying its XB-1 demonstrator. Its investment case is a long-duration bet on certification, manufacturing and demand for premium-speed travel.",
+  "overview": "<p>Boom Supersonic is developing Overture, a proposed supersonic airliner, and has used its XB-1 demonstrator to test core technologies. The company sits at the intersection of aerospace certification, advanced manufacturing and premium commercial aviation.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Latest financing",
@@ -15,19 +15,19 @@
     }
   ],
   "directory_rank": 89,
-  "bull_case": "Boom Supersonic is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "A successful Overture program could reopen a premium aviation category that has had no commercial successor to Concorde. Progress on engines, airline orders and a scalable production system would materially de-risk the thesis.",
+  "bear_case": "Civil certification, engine development and factory ramp are capital-intensive and unusually difficult. A reported secondary valuation range is not a substitute for evidence of a completed priced round or commercial delivery.",
   "latest_round": "Series B-1 at a reported $1.5B–$1.8B valuation",
   "directory_notes": [
-    "Aerospace",
-    "Public financing and operating data remain limited."
+    "Supersonic commercial aviation",
+    "XB-1 demonstrator flown; Overture remains in development."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Undisclosed",
+    "location": "Denver, Colorado",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=boomsupersonic.com&sz=128",
-    "description": "Boom Supersonic is a private company tracked by The Private Ledger in aerospace.",
+    "description": "Boom designs a proposed supersonic airliner and the systems required to bring it to market.",
     "metrics": [
       {
         "value": "$1.5B–$1.8B",
@@ -51,32 +51,32 @@
       }
     ],
     "company": [
-      "Boom Supersonic is a private company tracked by The Private Ledger in aerospace.",
-      "Boom's Series B-1 financing was reported at a valuation in the $1.5 billion to $1.8 billion range."
+      "Boom Supersonic is building Overture, a proposed Mach 1.7 commercial airliner, alongside the manufacturing and propulsion program needed to certify it. Its XB-1 demonstrator has provided a visible technology milestone, but Overture still faces the far harder work of commercial certification and industrial ramp.",
+      "The company disclosed a $100 million Series B in 2019 and says it has raised more than $700 million of investment and other capital. A $1.5 billion to $1.8 billion Series B-1 valuation has been reported by private-market data providers, rather than announced by Boom as a completed priced transaction."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Boom is a useful test of whether private capital can finance a clean-sheet commercial aircraft program outside established aerospace primes. Its progress also matters for suppliers, airports and airlines considering a return of premium supersonic routes.",
     "valuation_history": [
       {
-        "value": "$1.5B–$1.8B",
-        "date": "Dec 2025",
-        "round": "Series B-1"
+        "value": "$100M raised",
+        "date": "Jan 2019",
+        "round": "Series B"
       }
     ],
     "changed": [
       {
-        "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "date": "Jan 2025",
+        "text": "XB-1 completed a supersonic flight, a key demonstrator milestone before Overture certification."
       }
     ],
     "takeaways": [
-      "Boom Supersonic is tracked in aerospace.",
-      "Reported Series B-1 pricing places the company in a $1.5 billion to $1.8 billion valuation range.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The central question is whether Boom can convert a flight-test program into a certifiable, economically viable airliner.",
+      "Reported private-market pricing should be treated as indicative until a completed transaction is directly substantiated.",
+      "Engine, certification and production milestones are more decision-useful than headline valuation alone."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Aerospace"
+        "Supersonic aviation"
       ],
       [
         "Website",
@@ -89,8 +89,12 @@
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://boomsupersonic.com"
+        "label": "Boom: $100M Series B announcement",
+        "url": "https://boomsupersonic.com/press-release/series-b-100-million"
+      },
+      {
+        "label": "Boom fact sheet",
+        "url": "https://boomsupersonic.com/wp-content/uploads/2024/12/Boom-Fact-Sheet.pdf"
       }
     ]
   }

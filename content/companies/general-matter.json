@@ -2,10 +2,10 @@
   "slug": "general-matter",
   "name": "General Matter",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "General Matter is a private company tracked by The Private Ledger in nuclear energy.",
-  "overview": "<p>General Matter is a private company tracked by The Private Ledger in nuclear energy.</p>",
-  "as_of": "2026-09-25",
+  "sector": "Nuclear energy",
+  "summary": "General Matter is building domestic uranium-enrichment capacity for low-enriched uranium and HALEU. It raised a $50 million Founders Fund-led Series A in April 2025, with no public valuation disclosed.",
+  "overview": "<p>General Matter is developing uranium-enrichment capacity in the United States, focused on the low-enriched uranium and high-assay low-enriched uranium needed by the existing and next generation of reactors. The company is tackling a strategic supply-chain gap rather than building a reactor itself.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Latest financing",
@@ -15,19 +15,19 @@
     }
   ],
   "directory_rank": 99,
-  "bull_case": "General Matter is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "A durable domestic fuel shortage and government support for advanced reactors create a significant strategic market if General Matter can licence and operate enrichment capacity. Its announced $900 million HALEU supply contract signals meaningful customer and policy relevance.",
+  "bear_case": "Uranium enrichment is a regulated, capital-intensive industrial business with long permitting and construction cycles. Contract announcements do not eliminate licensing, financing, technical or geopolitical risk.",
   "latest_round": "April 2025 Series A: $50M; valuation undisclosed",
   "directory_notes": [
-    "Nuclear energy",
-    "Public financing and operating data remain limited."
+    "Uranium enrichment and nuclear fuel",
+    "$50M Series A; valuation undisclosed."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Undisclosed",
+    "location": "United States",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=generalmatter.com&sz=128",
-    "description": "General Matter is a private company tracked by The Private Ledger in nuclear energy.",
+    "description": "A nuclear-fuel company pursuing domestic uranium-enrichment capacity for LEU and HALEU.",
     "metrics": [
       {
         "value": "Undisclosed",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "General Matter is a private company tracked by The Private Ledger in nuclear energy.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "General Matter is working to build U.S. uranium-enrichment capacity, with a focus on low-enriched uranium and HALEU for advanced reactors. It is part of a broader effort to rebuild domestic nuclear-fuel supply chains that have long depended on foreign enrichment capacity.",
+      "The company raised a $50 million Founders Fund-led Series A in April 2025; its valuation was not disclosed. In January 2026, General Matter announced a $900 million contract to produce and supply HALEU, a material commercial milestone but not equity financing."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Fuel availability is a binding constraint on the next wave of advanced nuclear projects. General Matter is therefore exposed both to a large strategic opportunity and to the regulatory and execution hurdles inherent in an enrichment business.",
     "valuation_history": [
       {
         "value": "$50M raised",
@@ -64,19 +64,19 @@
     ],
     "changed": [
       {
-        "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "date": "Jan 2026",
+        "text": "Announced a $900M contract to produce and supply HALEU for advanced reactors."
       }
     ],
     "takeaways": [
-      "General Matter is tracked in nuclear energy.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The confirmed equity event is a $50M Series A; the valuation was not disclosed.",
+      "The $900M HALEU contract is commercial demand, not a funding round.",
+      "Licensing, construction and reliable production are the decisive underwriting milestones."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Nuclear energy"
+        "Uranium enrichment"
       ],
       [
         "Website",
@@ -95,6 +95,14 @@
       {
         "label": "Company website",
         "url": "https://generalmatter.com"
+      },
+      {
+        "label": "General Matter news",
+        "url": "https://generalmatter.com/news"
+      },
+      {
+        "label": "World Nuclear News: company emergence from stealth",
+        "url": "https://www.world-nuclear-news.org/articles/us-uranium-enrichment-startup-emerges-from-stealth"
       }
     ]
   }

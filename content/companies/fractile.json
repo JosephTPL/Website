@@ -2,10 +2,10 @@
   "slug": "fractile",
   "name": "Fractile",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Fractile is a private company tracked by The Private Ledger in ai infrastructure.",
-  "overview": "<p>Fractile is a private company tracked by The Private Ledger in ai infrastructure.</p>",
-  "as_of": "2026-09-25",
+  "sector": "AI infrastructure",
+  "summary": "Fractile is developing inference hardware intended to reduce the memory bottlenecks of large-scale AI deployment. It announced a $220 million raise in May 2026; later reports of a $6.5 billion pre-money fundraise remained discussions, not a confirmed round.",
+  "overview": "<p>Fractile develops AI inference hardware focused on moving memory and compute closer together. Its thesis is that inference, rather than training alone, will become the critical infrastructure constraint as models are deployed at scale.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Reported valuation discussion",
@@ -15,19 +15,19 @@
     }
   ],
   "directory_rank": 98,
-  "bull_case": "Fractile is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "If Fractile's architecture delivers materially better inference economics, it could benefit from sustained demand for lower latency and lower cost model serving. A large, announced 2026 raise gives it resources to pursue the difficult path from silicon design to deployed systems.",
+  "bear_case": "Custom AI silicon faces formidable engineering, software and customer-adoption risk, with incumbents controlling much of the ecosystem. The reported $6.5 billion figure was fundraising discussion, not an announced priced transaction, and should not be treated as a realised valuation.",
   "latest_round": "Reported mid-2026 financing talks at a $6.5B pre-money valuation",
   "directory_notes": [
-    "AI infrastructure",
-    "Public financing and operating data remain limited."
+    "Inference hardware",
+    "$220M financing announced in May 2026."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Undisclosed",
+    "location": "London, United Kingdom",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=fractile.ai&sz=128",
-    "description": "Fractile is a private company tracked by The Private Ledger in ai infrastructure.",
+    "description": "An AI-infrastructure company building hardware for high-performance inference.",
     "metrics": [
       {
         "value": "$6.5B",
@@ -51,32 +51,32 @@
       }
     ],
     "company": [
-      "Fractile is a private company tracked by The Private Ledger in ai infrastructure.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Fractile is developing inference hardware that aims to address the movement of data between memory and compute, an important cost and latency bottleneck for deployed AI models. The company was founded in 2022 and is focused on inference rather than competing directly as a model developer.",
+      "Fractile announced a $220 million financing in May 2026. Bloomberg later reported that the company was in discussions for a new round at a $6.5 billion pre-money valuation; because no completed transaction was announced, that figure is kept separate from confirmed financing."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Inference economics increasingly determine whether AI applications can scale profitably. Fractile is a high-risk, high-upside attempt to build a new hardware layer beneath that market, making product benchmarks and customer deployments more important than private-market headlines.",
     "valuation_history": [
       {
-        "value": "$6.5B",
-        "date": "Aug 2026",
-        "round": "Reported pre-money financing talks"
+        "value": "$220M raised",
+        "date": "May 2026",
+        "round": "Financing"
       }
     ],
     "changed": [
       {
-        "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "date": "May 2026",
+        "text": "Announced $220M to build next-generation inference hardware."
       }
     ],
     "takeaways": [
-      "Fractile is tracked in ai infrastructure.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The confirmed public financing event is the $220M May 2026 raise.",
+      "A reported $6.5B pre-money fundraising discussion is not a completed valuation and is labelled accordingly.",
+      "Hardware execution, software compatibility and customer adoption are the central risks."
     ],
     "quick_facts": [
       [
         "Focus",
-        "AI infrastructure"
+        "AI inference hardware"
       ],
       [
         "Website",
@@ -89,8 +89,12 @@
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://fractile.ai"
+        "label": "Fractile: $220M financing announcement",
+        "url": "https://www.fractile.ai/news/fractile-raises-220m-to-build-the-next-generation-of-inference-hardware"
+      },
+      {
+        "label": "Bloomberg Law: reported financing discussions",
+        "url": "https://news.bloomberglaw.com/artificial-intelligence/chip-firm-fractile-seeks-6-5-billion-value-after-anthropic-deal"
       }
     ]
   }
