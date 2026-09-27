@@ -2,10 +2,10 @@
   "slug": "brain-co",
   "name": "Brain Co.",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Brain Co. is a private company tracked by The Private Ledger in brain-computer interfaces.",
-  "overview": "<p>Brain Co. is a private company tracked by The Private Ledger in brain-computer interfaces.</p>",
-  "as_of": "2026-09-25",
+  "sector": "Enterprise AI",
+  "summary": "Brain Co. launched from stealth in September 2025 with a $30 million Series A to help large organisations adopt AI. The company describes its mandate broadly, and no valuation was announced with the round.",
+  "overview": "<p>Brain Co. is an enterprise-AI company that emerged from stealth in September 2025. It was incubated by Elad Gil, Jared Kushner, Luis Videgaray and Eric Wu, and aims to help large institutions incorporate AI into consequential operations.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Latest financing",
@@ -15,19 +15,19 @@
     }
   ],
   "directory_rank": 90,
-  "bull_case": "Brain Co. is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "The company's backers and network could create access to large institutional customers at a moment when organisations are seeking practical AI adoption. A focused implementation platform could command high-value enterprise relationships if it establishes a clear product wedge.",
+  "bear_case": "Public disclosure remains sparse on product, customers and commercial model. The profile should not be read as a brain-computer-interface thesis; the confirmed financing announcement describes enterprise AI adoption rather than a hardware neurotechnology business.",
   "latest_round": "September 2025: $30M Series A; valuation undisclosed",
   "directory_notes": [
-    "Brain-computer interfaces",
-    "Public financing and operating data remain limited."
+    "Enterprise AI adoption",
+    "$30M Series A announced; valuation undisclosed."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=brainco.tech&sz=128",
-    "description": "Brain Co. is a private company tracked by The Private Ledger in brain-computer interfaces.",
+    "description": "An enterprise-AI company helping large institutions incorporate AI into their operations.",
     "metrics": [
       {
         "value": "Undisclosed",
@@ -40,9 +40,9 @@
         "note": "No confirmed listing"
       },
       {
-        "value": "Brain-computer interfaces",
+        "value": "Enterprise AI",
         "label": "Business focus",
-        "note": "Company profile"
+        "note": "Institutional AI adoption"
       },
       {
         "value": "Sep 2026",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Brain Co. is a private company tracked by The Private Ledger in brain-computer interfaces.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Brain Co. emerged from stealth in September 2025 with a $30 million Series A co-led by Gil Capital and Affinity Partners. Its stated mission is to help large organisations incorporate AI, with the company framed as a bridge between leading AI talent and major institutions.",
+      "The financing announcement named a broad group of technology and business leaders as participants but did not disclose a valuation, product revenue or detailed customer base. The profile therefore treats it as an early enterprise-AI platform rather than assigning a more specific category unsupported by public evidence."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Brain Co. is a useful watchlist case for the institutionalisation of AI adoption. The next evidence needed is a concrete product narrative, deployment outcomes and identifiable customer demand.",
     "valuation_history": [
       {
         "value": "$30M raised",
@@ -69,14 +69,14 @@
       }
     ],
     "takeaways": [
-      "Brain Co. is tracked in brain-computer interfaces.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The confirmed public category is enterprise AI, not brain-computer interfaces.",
+      "The $30M Series A was announced without a valuation.",
+      "Product specificity and customer evidence are the key missing diligence points."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Brain-computer interfaces"
+        "Enterprise AI"
       ],
       [
         "Website",
@@ -89,8 +89,12 @@
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://brainco.tech"
+        "label": "Brain Co.: $30M Series A announcement",
+        "url": "https://www.prnewswire.com/news-releases/brain-co-launches-from-stealth-with-30-million-series-a-302554423.html"
+      },
+      {
+        "label": "Brain Co. launch post",
+        "url": "https://brain.co/blog/introducing-brain-co-9gk9a"
       }
     ]
   }

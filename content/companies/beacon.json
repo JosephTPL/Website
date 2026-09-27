@@ -2,10 +2,10 @@
   "slug": "beacon",
   "name": "Beacon",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Beacon is a private company tracked by The Private Ledger in technology.",
-  "overview": "<p>Beacon is a private company tracked by The Private Ledger in technology.</p>",
-  "as_of": "2026-09-25",
+  "sector": "Vertical software",
+  "summary": "Beacon Software acquires essential-business software companies and modernises them with an AI-native operating platform. It raised $225 million in a June 2026 Series C, bringing reported capital raised above $550 million; no valuation was disclosed.",
+  "overview": "<p>Beacon Software is building an AI-enabled acquisition platform for essential businesses. Rather than selling software to a fragmented industry from the outside, it acquires mission-critical operators and integrates them into a shared technology and operating system.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Latest financing",
@@ -15,19 +15,19 @@
     }
   ],
   "directory_rank": 87,
-  "bull_case": "Beacon is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "Beacon can compound value if its operating system reliably improves the economics of acquired businesses and supports a repeatable acquisition engine. It combines a software thesis with control over implementation, a potentially stronger route than selling AI tools into resistant legacy workflows.",
+  "bear_case": "The model requires disciplined acquisition underwriting, integration and operational execution across disparate businesses. Reported EBITDA growth and acquisition pace are company claims; sustained returns will depend on organic performance rather than financial engineering.",
   "latest_round": "Private; $550M total funding reported",
   "directory_notes": [
-    "Technology",
-    "Public financing and operating data remain limited."
+    "AI-enabled acquisition platform",
+    "$225M Series C; $550M+ total capital reported."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Undisclosed",
+    "location": "Toronto and San Francisco",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=beacon.com&sz=128",
-    "description": "Beacon is a private company tracked by The Private Ledger in technology.",
+    "description": "An acquisition platform using an AI-native operating system to modernise essential businesses.",
     "metrics": [
       {
         "value": "Undisclosed",
@@ -40,9 +40,9 @@
         "note": "No confirmed listing"
       },
       {
-        "value": "Technology",
+        "value": "Vertical software",
         "label": "Business focus",
-        "note": "Company profile"
+        "note": "AI-enabled acquisition platform"
       },
       {
         "value": "Sep 2026",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Beacon is a private company tracked by The Private Ledger in technology.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Beacon acquires mission-critical businesses and integrates them into a shared operating platform intended to improve engineering, back-office workflows and go-to-market execution. The approach resembles a technology-enabled holding company rather than a conventional single-product SaaS business.",
+      "In June 2026, Beacon announced a $225 million Series C led by General Catalyst and HarbourVest, taking reported capital raised above $550 million. It said it was acquiring roughly one business per week and reported EBITDA growth of more than 50% over the prior year; a company valuation was not disclosed."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Beacon is a notable attempt to apply AI to the long tail of real-economy businesses through ownership, not just software sales. The central diligence question is whether its acquisition and integration playbook stays effective as the portfolio scales.",
     "valuation_history": [
       {
         "value": "$550M total funding",
@@ -64,19 +64,19 @@
     ],
     "changed": [
       {
-        "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "date": "Jun 2026",
+        "text": "Announced $225M Series C to expand its AI-native operating platform and acquisition strategy."
       }
     ],
     "takeaways": [
-      "Beacon is tracked in technology.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Beacon's model is an AI-enabled roll-up, not a conventional standalone software vendor.",
+      "The company disclosed capital raised but not a valuation with the Series C.",
+      "Acquisition quality, integration outcomes and durable operating improvement are the key metrics."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Technology"
+        "AI-enabled business operations"
       ],
       [
         "Website",
@@ -89,8 +89,12 @@
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://beacon.com"
+        "label": "Beacon: $225M Series C announcement",
+        "url": "https://www.morningstar.com/news/business-wire/20260609855732/beacon-raises-225m-series-c-to-bring-ai-to-the-everyday-economy"
+      },
+      {
+        "label": "Beacon Software announcement",
+        "url": "https://www.businesswire.com/news/home/20260609855732/en/"
       }
     ]
   }

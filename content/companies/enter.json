@@ -2,10 +2,10 @@
   "slug": "enter",
   "name": "Enter",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Enter is a private company tracked by The Private Ledger in technology.",
-  "overview": "<p>Enter is a private company tracked by The Private Ledger in technology.</p>",
-  "as_of": "2026-09-25",
+  "sector": "Legal technology",
+  "summary": "Enter builds AI software for corporate legal departments, with particular focus on civil and labour litigation. Its May 2026 Series B raised more than $100 million at a $1.2 billion valuation, making it Latin America's first AI unicorn by its own account.",
+  "overview": "<p>Enter provides an AI operating system for legal departments, covering workflows around civil and labour litigation. The company was founded in Brazil and is expanding an enterprise product designed to support legal teams and their external law firms.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Latest financing",
@@ -15,19 +15,19 @@
     }
   ],
   "directory_rank": 96,
-  "bull_case": "Enter is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "Legal departments have high-cost, repetitive workflows that can benefit from AI with appropriate review and audit controls. Enter's enterprise deployments and stated growth suggest a credible wedge in a large, under-digitised market.",
+  "bear_case": "Legal AI is competitive and subject to exacting accuracy, data-security and procurement requirements. Enter's reported revenue and client growth are company statements, and scaling from Brazil into new jurisdictions adds execution complexity.",
   "latest_round": "May 2026: $100M+ Series B at $1.2B",
   "directory_notes": [
-    "Technology",
-    "Public financing and operating data remain limited."
+    "AI for legal departments",
+    "$100M+ Series B at $1.2B in May 2026."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Undisclosed",
+    "location": "São Paulo, Brazil",
     "status": "Private",
     "logo": "/logos/enter.svg",
-    "description": "Enter is a private company tracked by The Private Ledger in technology.",
+    "description": "An AI operating system for corporate legal departments and litigation workflows.",
     "metrics": [
       {
         "value": "$1.2B",
@@ -40,9 +40,9 @@
         "note": "No confirmed listing"
       },
       {
-        "value": "Technology",
+        "value": "Legal AI",
         "label": "Business focus",
-        "note": "Company profile"
+        "note": "Corporate legal operations"
       },
       {
         "value": "Sep 2026",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Enter is a private company tracked by The Private Ledger in technology.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Enter develops AI software for in-house legal teams, focused on civil and labour litigation. Its EnterOS product supports legal workflows while keeping legal strategy with the client teams and the law firms that represent them.",
+      "In May 2026, the company announced a Series B of more than $100 million at a $1.2 billion valuation, led by Founders Fund. Enter said that its revenue had grown more than tenfold over the prior year and that EnterOS was handling more than 300,000 lawsuits annually; those operating figures are company-reported."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Enter is a leading example of AI adoption in a regulated, high-stakes enterprise workflow outside the U.S. The important proof points are customer retention, accuracy and expansion into new legal systems, not just its unicorn headline.",
     "valuation_history": [
       {
         "value": "$1.2B",
@@ -64,19 +64,19 @@
     ],
     "changed": [
       {
-        "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "date": "May 2026",
+        "text": "Announced $100M+ Series B led by Founders Fund at a $1.2B valuation."
       }
     ],
     "takeaways": [
-      "Enter is tracked in technology.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Enter's core market is corporate legal operations, especially litigation-heavy workflows.",
+      "The $1.2B valuation was company-disclosed with its May 2026 Series B.",
+      "Accuracy, data controls and multi-jurisdiction expansion are the central risks."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Technology"
+        "Legal AI"
       ],
       [
         "Website",
@@ -89,8 +89,12 @@
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://enter.com"
+        "label": "Enter: $100M+ Series B announcement",
+        "url": "https://www.getenter.ai/en/news/enter-levanta-mais-de-us-100-milhoes-e-se-torna-o-primeiro-unicornio-de-ia-da-america-latina"
+      },
+      {
+        "label": "Enter website",
+        "url": "https://www.getenter.ai/"
       }
     ]
   }

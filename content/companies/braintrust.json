@@ -2,10 +2,10 @@
   "slug": "braintrust",
   "name": "Braintrust",
   "status": "Published",
-  "sector": "Private markets",
-  "summary": "Braintrust is a private company tracked by The Private Ledger in talent marketplace.",
-  "overview": "<p>Braintrust is a private company tracked by The Private Ledger in talent marketplace.</p>",
-  "as_of": "2026-09-25",
+  "sector": "AI infrastructure",
+  "summary": "Braintrust provides evaluation and observability tools for production AI systems. It raised an $80 million Series B in February 2026 at an $800 million post-money valuation, according to the company and Axios Pro.",
+  "overview": "<p>Braintrust provides tools for evaluating, testing and observing AI applications in production. It addresses the operational problem of measuring whether models and AI features perform reliably after they leave experimentation.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Reported valuation",
@@ -15,19 +15,19 @@
     }
   ],
   "directory_rank": 91,
-  "bull_case": "Braintrust is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "As AI applications move into production, evaluation and observability can become core infrastructure rather than an optional developer tool. Braintrust can benefit if it establishes a durable workflow and data layer inside engineering teams.",
+  "bear_case": "AI observability is a fast-moving, competitive category where platform vendors and open-source tools can compress differentiation. An $800 million valuation assumes significant category growth and sustained product adoption.",
   "latest_round": "February 2026: $80M Series B at $800M",
   "directory_notes": [
-    "Talent marketplace",
-    "Public financing and operating data remain limited."
+    "AI evaluation and observability",
+    "$80M Series B at $800M post-money in February 2026."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=usebraintrust.com&sz=128",
-    "description": "Braintrust is a private company tracked by The Private Ledger in talent marketplace.",
+    "description": "An AI-infrastructure company providing evaluation and observability tools for production AI.",
     "metrics": [
       {
         "value": "$800M",
@@ -40,9 +40,9 @@
         "note": "No confirmed listing"
       },
       {
-        "value": "Talent marketplace",
+        "value": "AI observability",
         "label": "Business focus",
-        "note": "Company profile"
+        "note": "Evaluation and observability"
       },
       {
         "value": "Sep 2026",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Braintrust is a private company tracked by The Private Ledger in talent marketplace.",
-      "Braintrust's February 2026 Series B was reported at an $800 million valuation."
+      "Braintrust helps teams evaluate, test and observe AI applications in production. Its product is aimed at the reliability layer of enterprise AI, where teams need to measure model behaviour, diagnose failures and improve systems over time.",
+      "In February 2026, Braintrust announced an $80 million Series B led by ICONIQ. Axios Pro reported that the round valued the company at $800 million post-money, while the company described the financing as support for becoming an observability layer for production AI."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Production AI requires testing and measurement infrastructure that traditional software-monitoring tools were not built to provide. Braintrust is a direct bet on that emerging software layer, where enterprise standardisation could create durable platforms.",
     "valuation_history": [
       {
         "value": "$800M",
@@ -64,19 +64,19 @@
     ],
     "changed": [
       {
-        "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "date": "Feb 2026",
+        "text": "Announced $80M Series B led by ICONIQ to expand production-AI evaluation and observability."
       }
     ],
     "takeaways": [
-      "Braintrust is tracked in talent marketplace.",
-      "The February 2026 Series B was reported at an $800 million valuation.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Braintrust is an AI observability and evaluation company, not a talent marketplace.",
+      "The $800M post-money valuation was reported alongside its $80M Series B.",
+      "Workflow adoption and competitive differentiation will determine whether the category becomes durable infrastructure."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Talent marketplace"
+        "AI observability"
       ],
       [
         "Website",
@@ -89,8 +89,12 @@
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://usebraintrust.com"
+        "label": "Braintrust: Series B announcement",
+        "url": "https://braintrust-1wysmujm2.preview.braintrust.dev/blog/announcing-series-b"
+      },
+      {
+        "label": "Axios Pro: $80M Series B at $800M",
+        "url": "https://www.axios.com/pro/enterprise-software-deals/2026/02/17/ai-observability-braintrust-80-million-800-million"
       }
     ]
   }
