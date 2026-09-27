@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 68,
-  "bull_case": "Sail Research is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "Long-running agents need reliable state, secure environments and cost control. Sail can become valuable infrastructure if those workloads move from demonstrations into production.",
+  "bear_case": "Cloud and model providers can bundle competing capabilities, while long-horizon agents may take longer to prove reliable, economical customer value than financing suggests.",
   "latest_round": "June 2026 seed and Series A: $80M at a $450M valuation",
   "directory_notes": [
     "Research technology",
@@ -54,7 +54,7 @@
       "Sail Research provides infrastructure for long-horizon AI agents, including persistent environments and telemetry intended to let agents work over hours or days. The company argues that this workload needs different infrastructure than short, turn-by-turn model interactions.",
       "In June 2026, Sail announced $80 million of seed and Series A funding at a $450 million valuation. Sequoia led the seed and Kleiner Perkins led the Series A."
     ],
-    "why_it_matters": "The company is on the watchlist because private-market activity in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "The infrastructure required for agents that operate for hours or days differs from simple chat inference. Sail is an early private benchmark for whether persistent agent workloads develop into a distinct cloud category.",
     "valuation_history": [
       {
         "value": "$450M",
@@ -69,9 +69,9 @@
       }
     ],
     "takeaways": [
-      "Sail Research is tracked in research technology.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Sail targets persistent environments, telemetry and efficient inference for long-horizon agents.",
+      "It announced $80M of seed and Series A funding at a $450M valuation in June 2026.",
+      "Customer deployment and infrastructure economics are the key next proof points."
     ],
     "quick_facts": [
       [

@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 70,
-  "bull_case": "Watney Robotics is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "Data-centre construction and operations are bottlenecked by physical work. Robots that safely raise deployment throughput can create value as AI infrastructure scales.",
+  "bear_case": "Data-centre environments are safety-critical and customer qualification cycles are demanding. The company has not disclosed a valuation, commercial revenue or deployment metrics.",
   "latest_round": "No confirmed financing publicly disclosed",
   "directory_notes": [
     "Robotics",
@@ -54,7 +54,7 @@
       "Watney builds and deploys autonomous robots for data-centre operations, starting with the physical work that can slow capacity expansion. The company says its systems operate alongside technicians in equipment-dense facilities and help hyperscalers build infrastructure faster.",
       "Watney announced an $80 million Series A in September 2026, bringing total funding above $100 million. The company did not disclose a valuation."
     ],
-    "why_it_matters": "The company is on the watchlist because private-market activity in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "The AI buildout needs more than chips and power: it also needs physical infrastructure assembled and maintained quickly. Watney is a private-market bet on automating that labour-intensive layer.",
     "valuation_history": [
       {
         "value": "Not disclosed",
@@ -69,9 +69,9 @@
       }
     ],
     "takeaways": [
-      "Watney Robotics is tracked in robotics.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Watney builds autonomous robots for physical operations in data-centre infrastructure.",
+      "It announced an $80M Series A in September 2026, bringing total funding above $100M.",
+      "Safety, real-world uptime and hyperscaler deployment are the key execution tests."
     ],
     "quick_facts": [
       [
