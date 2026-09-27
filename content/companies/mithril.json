@@ -4,7 +4,7 @@
   "status": "Published",
   "sector": "Private markets",
   "summary": "Mithril provides an AI omnicloud platform intended to make compute more accessible and efficient for AI developers and research teams.",
-  "overview": "<p>Mithril is a private technology company tracked by The Private Ledger.</p>",
+  "overview": "<p>Mithril provides an AI omnicloud platform for developers and research teams. The company says its platform is designed to make compute more accessible across cloud environments while supporting AI workloads.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 74,
-  "bull_case": "Mithril is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "A unified cloud layer can become valuable if it meaningfully reduces the complexity and cost of acquiring compute for AI workloads.",
+  "bear_case": "Cloud infrastructure is capital intensive and intensely competitive. Mithril has not publicly disclosed financing, valuation or operating metrics that would support a fuller underwriting case.",
   "latest_round": "No confirmed financing publicly disclosed",
   "directory_notes": [
     "Technology",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Mithril is a private technology company tracked by The Private Ledger.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until a primary source or credible priced transaction is available."
+      "Mithril offers an AI omnicloud platform intended to provide developers and research teams with flexible access to compute. The company previously operated as Foundry before adopting the Mithril name.",
+      "Its public materials emphasize AI workloads and cross-cloud access, but do not disclose financing, valuation, customers or operating metrics. This profile therefore does not infer commercial scale."
     ],
-    "why_it_matters": "The company is on the watchlist because private-market activity in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "As AI demand grows, developers increasingly need access to scarce and expensive compute. The question is whether Mithril can provide a differentiated layer above hyperscalers and specialized GPU clouds.",
     "valuation_history": [
       {
         "value": "Not disclosed",
@@ -69,14 +69,14 @@
       }
     ],
     "takeaways": [
-      "Mithril is tracked in technology.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Mithril is building an AI omnicloud platform for compute access.",
+      "The company was previously known as Foundry.",
+      "No public financing or valuation is asserted in this profile."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Technology"
+        "AI cloud infrastructure"
       ],
       [
         "Website",

@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=stateaffairs.com&sz=128",
-    "description": "State Affairs is a private company tracked by The Private Ledger in government intelligence.",
+    "description": "Policy-intelligence platform combining reporting, data and AI for regulated institutions.",
     "metrics": [
       {
         "value": "Undisclosed",
@@ -89,7 +89,7 @@
     ],
     "sources": [
       {
-        "label": "Company website",
+        "label": "State Affairs: $70M funding announcement",
         "url": "https://www.prnewswire.com/news-releases/state-affairs-raises-70-million-to-help-institutions-navigate-the-policy-and-regulatory-economy-302824501.html"
       }
     ]
