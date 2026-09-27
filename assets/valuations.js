@@ -36,11 +36,11 @@
     const cutoff=range==='all'?null:new Date(now.getFullYear()-Number(range),now.getMonth(),now.getDate());
     return visible().map(item=>({...item,events:item.events.filter(event=>!cutoff||new Date(event.date)>=cutoff)})).filter(item=>item.events.length);
   };
-  const showTooltip=(event,item,color)=>{
+  const showTooltip=(pointerEvent,item,color,valuationEvent)=>{
     tooltip.hidden=false;
-    tooltip.innerHTML=`<strong>${item.name}</strong><span>${event.label} · ${event.round||'Reported event'}</span><b>${event.value}${indexed?` <small>${percent(event.chartAmount)} from first visible event</small>`:''}</b>`;
-    tooltip.style.left=`${Math.max(8,Math.min(root.clientWidth-190,event.clientX-root.getBoundingClientRect().left+12))}px`;
-    tooltip.style.top=`${Math.max(8,event.clientY-root.getBoundingClientRect().top-94)}px`;
+    tooltip.innerHTML=`<strong>${item.name}</strong><span>${valuationEvent.label} · ${valuationEvent.round||'Reported event'}</span><b>${valuationEvent.value}${indexed?` <small>${percent(valuationEvent.chartAmount)} from first visible event</small>`:''}</b>`;
+    tooltip.style.left=`${Math.max(8,Math.min(root.clientWidth-190,pointerEvent.clientX-root.getBoundingClientRect().left+12))}px`;
+    tooltip.style.top=`${Math.max(8,pointerEvent.clientY-root.getBoundingClientRect().top-94)}px`;
     tooltip.style.setProperty('--tip-color',color);
   };
   const draw=()=>{
@@ -83,9 +83,9 @@
       item.events.forEach(event=>{
         const point=add('circle',{cx:x(new Date(event.date).getTime()),cy:y(event.chartAmount),r:6,fill:color,class:'valuation-point',tabindex:'0'});
         point.setAttribute('aria-label',`${item.name}, ${event.label}: ${event.round||'Reported event'}, ${event.value}`);
-        point.addEventListener('pointerenter',e=>showTooltip(e,item,color));
+        point.addEventListener('pointerenter',e=>showTooltip(e,item,color,event));
         point.addEventListener('pointerleave',()=>tooltip.hidden=true);
-        point.addEventListener('focus',()=>{const rect=root.getBoundingClientRect();showTooltip({clientX:rect.left+x(new Date(event.date).getTime()),clientY:rect.top+y(event.chartAmount)},item,color)});
+        point.addEventListener('focus',()=>{const rect=root.getBoundingClientRect();showTooltip({clientX:rect.left+x(new Date(event.date).getTime()),clientY:rect.top+y(event.chartAmount)},item,color,event)});
         point.addEventListener('blur',()=>tooltip.hidden=true);
       });
       const link=document.createElement('a');link.href=item.url;link.className='valuation-legend-item';link.innerHTML=`<i style="--series-color:${color}"></i>${item.name}`;legend.append(link);
