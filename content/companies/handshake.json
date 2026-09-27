@@ -3,9 +3,9 @@
   "name": "Handshake",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Handshake is a private company tracked by The Private Ledger in ai and talent infrastructure.",
-  "overview": "<p>Handshake is a private company tracked by The Private Ledger in ai and talent infrastructure.</p>",
-  "as_of": "2026-09-25",
+  "summary": "Handshake operates a career network and recruiting platform focused on students and early-career talent, connecting employers with a large university-based candidate base.",
+  "overview": "<p>Handshake is a career network for students and recent graduates that sells recruiting access and workflow tools to employers. In January 2022, it announced a $200 million Series F at a $3.5 billion valuation, a benchmark that has not been superseded by a disclosed priced round in this profile.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Latest financing",
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 100,
-  "bull_case": "Handshake is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "University distribution and employer relationships can create an enduring network effect in the early-career hiring market.",
+  "bear_case": "Hiring budgets are cyclical, while AI-enabled recruiting tools and incumbent job platforms compete for the same employer spend.",
   "latest_round": "January 2022 Series F: $200M at a $3.5B valuation",
   "directory_notes": [
     "AI and talent infrastructure",
@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=joinhandshake.com&sz=128",
-    "description": "Handshake is a private company tracked by The Private Ledger in ai and talent infrastructure.",
+    "description": "A career network connecting students and early-career candidates with employers.",
     "metrics": [
       {
         "value": "$3.5B",
@@ -40,9 +40,9 @@
         "note": "No confirmed listing"
       },
       {
-        "value": "AI and talent infrastructure",
-        "label": "Business focus",
-        "note": "Company profile"
+        "value": "$3.5B",
+        "label": "Series F valuation",
+        "note": "January 2022 financing"
       },
       {
         "value": "Sep 2026",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Handshake is a private company tracked by The Private Ledger in ai and talent infrastructure.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Handshake gives employers a channel to recruit university students and recent graduates, while candidates use the platform to find career opportunities. Its January 2022 Series F was led by existing and new investors at a $3.5 billion valuation.",
+      "The company is exposed to the structure of graduate hiring, which can be sensitive to macro hiring conditions. Its installed university relationships are valuable, but a new valuation or updated operating disclosure has not been announced in this profile."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Early-career recruiting is a large, fragmented workflow category where network density matters. Handshake offers a private-company perspective on how AI and hiring-market shifts are changing talent acquisition.",
     "valuation_history": [
       {
         "value": "$3.5B",
@@ -65,18 +65,18 @@
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Handshake announced a $200M Series F at a $3.5B valuation."
       }
     ],
     "takeaways": [
-      "Handshake is tracked in ai and talent infrastructure.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "Handshake's disclosed valuation benchmark is the January 2022 Series F.",
+      "University and employer participation underpin its network model.",
+      "Hiring cycles and competition in recruiting software remain central risks."
     ],
     "quick_facts": [
       [
         "Focus",
-        "AI and talent infrastructure"
+        "Early-career recruiting"
       ],
       [
         "Website",

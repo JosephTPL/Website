@@ -3,9 +3,9 @@
   "name": "Nominal",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Nominal is a private company tracked by The Private Ledger in financial operations software.",
-  "overview": "<p>Nominal is a private company tracked by The Private Ledger in financial operations software.</p>",
-  "as_of": "2026-09-25",
+  "summary": "Nominal develops AI-enabled accounting and financial-operations software for mid-market and enterprise finance teams.",
+  "overview": "<p>Nominal provides an accounting and financial-operations platform designed to automate close, reporting, and related workflows. The company announced a $20 million Series A in July 2025; the financing valuation was not disclosed.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Latest financing",
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 106,
-  "bull_case": "Nominal is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "Finance teams have clear incentives to reduce manual close and reporting work, and automation can compound as a customer adds entities and workflows.",
+  "bear_case": "Accounting software faces high switching costs, long implementation cycles, and entrenched ERP and close-management competitors.",
   "latest_round": "July 2025 Series A: $20M; valuation undisclosed",
   "directory_notes": [
     "Financial operations software",
@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=nominal.io&sz=128",
-    "description": "Nominal is a private company tracked by The Private Ledger in financial operations software.",
+    "description": "AI-enabled accounting and financial-operations software for modern finance teams.",
     "metrics": [
       {
         "value": "Undisclosed",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Nominal is a private company tracked by The Private Ledger in financial operations software.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Nominal sells a financial-operations platform focused on making accounting, close, and reporting workflows more automated. The company positions its product for finance teams that need to manage increasing complexity without expanding manual processes at the same rate.",
+      "In July 2025, Nominal announced a $20 million Series A. The company disclosed the round but not a valuation, so this profile does not treat the financing as a priced valuation event."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Financial workflow software is a practical testing ground for AI adoption because the buyer already measures speed, accuracy, and control. Nominal is relevant to the private-market software stack competing for the finance office's system of record.",
     "valuation_history": [
       {
         "value": "$20M raised",
@@ -65,18 +65,18 @@
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Nominal announced a $20M Series A; the round's valuation was not disclosed."
       }
     ],
     "takeaways": [
-      "Nominal is tracked in financial operations software.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The July 2025 Series A is the profile's latest disclosed funding event.",
+      "Automation of close and reporting is the central product thesis.",
+      "ERP incumbency and implementation risk remain meaningful constraints."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Financial operations software"
+        "Accounting and financial operations"
       ],
       [
         "Website",

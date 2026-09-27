@@ -3,9 +3,9 @@
   "name": "Socket",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Socket is a private company tracked by The Private Ledger in software security.",
-  "overview": "<p>Socket is a private company tracked by The Private Ledger in software security.</p>",
-  "as_of": "2026-09-25",
+  "summary": "Socket is a developer-first security platform that analyzes open-source dependencies for malicious behavior and software supply-chain risk before they reach production.",
+  "overview": "<p>Socket helps engineering teams identify malicious or risky open-source packages before those dependencies enter production. It announced a $60 million Series C at a $1 billion valuation in May 2026, led by Thrive Capital, after earlier seed, Series A, and Series B financings.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Latest financing",
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 113,
-  "bull_case": "Socket is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "AI-assisted development expands the volume of third-party code entering production, making proactive dependency analysis more valuable to security teams.",
+  "bear_case": "Large application-security vendors, open-source tooling, and a long enterprise sales cycle can limit category capture.",
   "latest_round": "May 2026 Series C: $60M at a $1B valuation",
   "directory_notes": [
     "Software security",
@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=socket.dev&sz=128",
-    "description": "Socket is a private company tracked by The Private Ledger in software security.",
+    "description": "A software supply-chain security platform built for developer workflows.",
     "metrics": [
       {
         "value": "$1B",
@@ -40,9 +40,9 @@
         "note": "No confirmed listing"
       },
       {
-        "value": "Software security",
-        "label": "Business focus",
-        "note": "Company profile"
+        "value": "$125M",
+        "label": "Total funding",
+        "note": "Reported by Socket after the Series C"
       },
       {
         "value": "Sep 2026",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Socket is a private company tracked by The Private Ledger in software security.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Socket evaluates open-source dependencies for malicious behavior, vulnerabilities, and other supply-chain risks before code reaches production. Its approach is designed to fit into developer and security workflows rather than rely solely on disclosed vulnerability databases.",
+      "The company raised a $60 million Series C at a $1 billion valuation in May 2026, led by Thrive Capital. Socket said the financing brought total funding to $125 million and would support its next phase of growth as AI changes software-development workflows."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "The expansion of AI coding tools increases the volume of open-source code flowing into production environments. Socket is a direct private-market bet on the security layer needed to manage that change.",
     "valuation_history": [
       {
         "value": "$1B",
@@ -65,18 +65,18 @@
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Socket announced a $60M Series C at a $1B valuation, led by Thrive Capital."
       }
     ],
     "takeaways": [
-      "Socket is tracked in software security.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The Series C established a confirmed $1B valuation and $125M total funding figure.",
+      "AI-driven development can expand Socket's addressable security workload.",
+      "Incumbent competition and enterprise go-to-market execution remain key risks."
     ],
     "quick_facts": [
       [
-        "Focus",
-        "Software security"
+        "Founded",
+        "2020"
       ],
       [
         "Website",
@@ -89,7 +89,7 @@
     ],
     "sources": [
       {
-        "label": "Socket: $60M Series C",
+        "label": "Socket: $60M Series C and $1B valuation",
         "url": "https://www.socket.dev/blog/series-c"
       },
       {

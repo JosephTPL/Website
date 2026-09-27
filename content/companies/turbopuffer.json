@@ -3,9 +3,9 @@
   "name": "Turbopuffer",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Turbopuffer is a private company tracked by The Private Ledger in data infrastructure.",
-  "overview": "<p>Turbopuffer is a private company tracked by The Private Ledger in data infrastructure.</p>",
-  "as_of": "2026-09-25",
+  "summary": "Turbopuffer provides a serverless search and vector-database service designed for large-scale, low-cost retrieval workloads.",
+  "overview": "<p>Turbopuffer is a developer infrastructure company offering serverless search and vector storage. Public reporting describes a December 2025 seed financing involving Thrive Capital, but neither a priced valuation nor a detailed round size has been publicly disclosed.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Latest financing",
@@ -15,8 +15,8 @@
     }
   ],
   "directory_rank": 77,
-  "bull_case": "Turbopuffer is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
+  "bull_case": "A serverless architecture aimed at inexpensive, high-volume retrieval can resonate as AI applications increase demand for vector search.",
+  "bear_case": "The market is crowded with database incumbents and AI-native infrastructure vendors, while public commercial disclosure remains limited.",
   "latest_round": "December 2025 seed financing; amount and valuation undisclosed",
   "directory_notes": [
     "Data infrastructure",
@@ -27,7 +27,7 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=turbopuffer.com&sz=128",
-    "description": "Turbopuffer is a private company tracked by The Private Ledger in data infrastructure.",
+    "description": "A serverless search and vector-database service for developer workloads.",
     "metrics": [
       {
         "value": "Undisclosed",
@@ -51,10 +51,10 @@
       }
     ],
     "company": [
-      "Turbopuffer is a private company tracked by The Private Ledger in data infrastructure.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Turbopuffer offers serverless search and vector storage infrastructure, positioning its product around retrieval workloads that can be expensive to operate at scale. The company targets developers building applications that need fast querying without managing database clusters.",
+      "Its reported 2025 seed financing is a useful early signal of investor interest in AI data infrastructure, but the available reporting does not establish a priced valuation or a detailed round size. The profile therefore keeps those fields undisclosed."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Vector search is foundational to many retrieval-augmented AI applications. Turbopuffer is a small but relevant indicator of where venture capital is looking for infrastructure alternatives to managed database incumbents.",
     "valuation_history": [
       {
         "value": "Amount undisclosed",
@@ -65,18 +65,18 @@
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Public reporting described a seed financing involving Thrive Capital; pricing was not disclosed."
       }
     ],
     "takeaways": [
-      "Turbopuffer is tracked in data infrastructure.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The disclosed capital event is an early-stage financing without a published price.",
+      "Product differentiation depends on cost, performance, and developer adoption in vector search.",
+      "A crowded data-infrastructure market and limited disclosure are the principal uncertainties."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Data infrastructure"
+        "Serverless vector search"
       ],
       [
         "Website",

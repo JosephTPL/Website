@@ -3,21 +3,21 @@
   "name": "Bitwise",
   "status": "Published",
   "sector": "Private markets",
-  "summary": "Bitwise is a private company tracked by The Private Ledger in digital-asset management.",
-  "overview": "<p>Bitwise is a private company tracked by The Private Ledger in digital-asset management.</p>",
-  "as_of": "2026-09-25",
+  "summary": "Bitwise is a San Francisco-based crypto asset manager serving advisers, institutions, and wealth platforms through ETFs, separately managed accounts, private funds, and staking strategies.",
+  "overview": "<p>Bitwise is a crypto-specialist asset manager whose product set spans exchange-traded products, separately managed accounts, private funds, and onchain strategies. Its February 2025 equity raise followed rapid growth in client assets, though the company did not disclose a financing valuation.</p>",
+  "as_of": "2026-09-27",
   "facts": [
     {
-      "label": "Estimated valuation",
-      "value": "$500M+",
-      "note": "Estimate; Bitwise has not publicly disclosed a priced valuation for its latest financing.",
-      "source": ""
+      "label": "Latest financing",
+      "value": "February 2025: $70M equity raise",
+      "note": "Bitwise announced the raise, led by Electric Capital, without a valuation.",
+      "source": "https://bitwiseinvestments.com/newsroom/bitwise-announces-new-70m-backing"
     }
   ],
   "directory_rank": 88,
-  "bull_case": "Bitwise is positioned in a private market where execution and distribution can compound.",
-  "bear_case": "The valuation and operating outlook are uncertain until additional public disclosures become available.",
-  "latest_round": "Estimated valuation: $500M+",
+  "bull_case": "A growing institutional channel and a broad product catalogue can make Bitwise a durable distribution platform as digital assets mature as an asset class.",
+  "bear_case": "Fee pressure, crypto-market cyclicality, and regulation can quickly change asset flows and economics for specialist managers.",
+  "latest_round": "February 2025 equity raise: $70M; valuation undisclosed",
   "directory_notes": [
     "Digital-asset management",
     "Public financing and operating data remain limited."
@@ -27,12 +27,12 @@
     "location": "Undisclosed",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=bitwiseinvestments.com&sz=128",
-    "description": "Bitwise is a private company tracked by The Private Ledger in digital-asset management.",
+    "description": "A crypto-specialist asset manager serving institutional and wealth-management clients.",
     "metrics": [
       {
-        "value": "$500M+",
+        "value": "Undisclosed",
         "label": "Latest valuation",
-        "note": "Third-party estimate; not a disclosed financing price"
+        "note": "Not announced with the February 2025 equity raise"
       },
       {
         "value": "Private",
@@ -40,9 +40,9 @@
         "note": "No confirmed listing"
       },
       {
-        "value": "Digital-asset management",
-        "label": "Business focus",
-        "note": "Company profile"
+        "value": "$12B+",
+        "label": "Client assets",
+        "note": "Reported by Bitwise at the February 2025 financing announcement"
       },
       {
         "value": "Sep 2026",
@@ -51,32 +51,32 @@
       }
     ],
     "company": [
-      "Bitwise is a private company tracked by The Private Ledger in digital-asset management.",
-      "Public financing and operating data remain limited, so the profile avoids a valuation claim until primary disclosure or a credible priced transaction is available."
+      "Bitwise builds investment products for advisers, institutions, family offices, and wealth platforms seeking crypto exposure. The firm said its 2025 equity raise would support its beta, alpha, and onchain businesses.",
+      "The company is a useful read-through on whether crypto allocation is becoming a durable institutional product category rather than a retail-led trading cycle. Its financing supports the balance sheet, but it did not establish a public valuation benchmark."
     ],
-    "why_it_matters": "The company is on the private-market watchlist because developments in this category can become relevant before public disclosures are widely available.",
+    "why_it_matters": "Bitwise sits at the intersection of private fintech infrastructure and public-market crypto access. Asset flows and product adoption can signal how institutional demand for digital assets is evolving.",
     "valuation_history": [
       {
-        "value": "$500M+",
-        "date": "Current",
-        "round": "Estimated valuation"
+        "value": "$70M raised",
+        "date": "Feb 2025",
+        "round": "Equity financing"
       }
     ],
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Bitwise announced a $70M equity raise led by Electric Capital."
       }
     ],
     "takeaways": [
-      "Bitwise is tracked in digital-asset management.",
-      "Available public information does not support a confirmed valuation claim.",
-      "Future updates should focus on product adoption, financing, and operating disclosure."
+      "The February 2025 raise provides a confirmed capital event but not a valuation benchmark.",
+      "Distribution to advisers and institutions is central to Bitwise's investment case.",
+      "Crypto asset prices, regulation, and fee competition remain material risks."
     ],
     "quick_facts": [
       [
-        "Focus",
-        "Digital-asset management"
+        "Headquarters",
+        "San Francisco, California"
       ],
       [
         "Website",
@@ -89,8 +89,8 @@
     ],
     "sources": [
       {
-        "label": "The Block: Bitwise $70M financing",
-        "url": "https://www.theblock.co/news/deals/2025-02-25-spot-bitcoin-etf-issuer-bitwise-raises-70-million-backed-by-electric-capital-massmutual-and-haun-ventures-343279"
+        "label": "Bitwise: $70M equity raise",
+        "url": "https://bitwiseinvestments.com/newsroom/bitwise-announces-new-70m-backing"
       },
       {
         "label": "Company website",
