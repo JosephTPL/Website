@@ -268,8 +268,22 @@ for company in companies.values():
   if 'valuation' in metric.get('label','').lower() and metric.get('value'):
    profile_valuations[company['name'].lower()]=metric['value']
    break
+profile_directory=[]
+for company in companies.values():
+ domain=''
+ for fact in company.get('intelligence',{}).get('quick_facts',[]):
+  if isinstance(fact,dict):label,value=fact.get('label',''),fact.get('value','')
+  else:label,value=fact
+  if label.lower()=='website':
+   domain=value.replace('https://','').replace('http://','').split('/')[0]
+   break
+ if not domain:
+  logo=company.get('intelligence',{}).get('logo','')
+  match=re.search(r'domain=([^&]+)',logo)
+  domain=match.group(1) if match else company['slug']+'.com'
+ profile_directory.append([company['name'],profile_valuations.get(company['name'].lower(),'Undisclosed'),domain])
 directory_script=OUT/'companies.js'
-directory_script.write_text(directory_script.read_text().replace('/* PROFILE_SLUGS */',json.dumps(profile_slugs,sort_keys=True)).replace('/* PROFILE_VALUATIONS */',json.dumps(profile_valuations,sort_keys=True)))
+directory_script.write_text(directory_script.read_text().replace('/* PROFILE_SLUGS */',json.dumps(profile_slugs,sort_keys=True)).replace('/* PROFILE_VALUATIONS */',json.dumps(profile_valuations,sort_keys=True)).replace('/* PROFILE_DIRECTORY */',json.dumps(profile_directory,sort_keys=True)))
 # The landing page is a concise weekly briefing; the two archives remain separate.
 s=shell('home',weekly['title'],weekly['intro'],'/')
 s.body['data-page-view']='home';configure_nav(s,'home')
