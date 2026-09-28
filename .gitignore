@@ -8,4 +8,6 @@ __pycache__/
 .env
 .env.*
 !.env.example
+.cache/sec/
+content/data/sec-cik-candidates.json
 .DS_Store

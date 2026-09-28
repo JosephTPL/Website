@@ -1,0 +1,42 @@
+name: Form D review update
+
+on:
+  workflow_dispatch:
+  # To enable weekly review updates, uncomment and choose a schedule:
+  # schedule:
+  #   - cron: '15 13 * * 1'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh-form-d:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch SEC Form D data
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python scripts/fetch_form_d.py
+      - name: Open review pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- content/data; then
+            echo "No Form D changes to review."
+            exit 0
+          fi
+          branch="automation/form-d-${{ github.run_id }}"
+          git switch -c "$branch"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/data
+          git commit -m "Refresh SEC Form D review data"
+          git push origin "$branch"
+          gh pr create --base main --head "$branch" --title "Review SEC Form D updates" --body "Automated SEC Form D refresh. Review CIK candidates and filing matches before merging."

@@ -60,6 +60,9 @@ def records(folder):
  return result
 
 settings=read('content/settings/site.json');weekly=read('content/settings/weekly.json');ipo_calendar=read('content/settings/ipo-calendar.json');articles=records('articles');companies=records('companies')
+form_d_path=ROOT/'content'/'data'/'form-d.json'
+form_d_payload=read('content/data/form-d.json') if form_d_path.exists() else {}
+form_d_filings=form_d_payload.get('filings',[]) if isinstance(form_d_payload,dict) else form_d_payload if isinstance(form_d_payload,list) else []
 base=os.environ.get('URL') or settings['site_url'];base=base.rstrip('/')
 if urlsplit(base).scheme not in ('http','https'):raise ValueError('Site URL must start with https://')
 for a in articles.values():
@@ -71,6 +74,26 @@ def date_text(value):return datetime.strptime(value[:10],'%Y-%m-%d').strftime('%
 def facts(c):
  rows=''.join(f'<div><dt>{E(f["label"])}</dt><dd>{E(f["value"])}</dd><p>{E(f.get("note",""))}</p>'+ (f'<a href="{E(f["source"])}">Source <span class="sr-only">for {E(f["label"])}</span> ↗</a>' if f.get('source') else '')+'</div>' for f in c.get('facts',[]))
  return f'<div class="facts-inner"><p class="snapshot-note">Figures as of {date_text(c["as_of"])}. Estimates and projections are labelled separately.</p><dl class="facts-grid">{rows}</dl></div>'
+
+def form_d_section(c):
+ filings=[item for item in form_d_filings if item.get('company_slug')==c['slug']]
+ own=[item for item in filings if item.get('filer_type')!='fund_or_spv']
+ vehicles=[item for item in filings if item.get('filer_type')=='fund_or_spv']
+ if not own and not vehicles:return ''
+ def row(item):
+  security=', '.join(item.get('security_types',[]) or ['Not disclosed'])
+  return f'<tr><td>{E(item.get("filing_date",""))}</td><td>{E(item.get("total_amount_sold","Not disclosed"))} <span>of {E(item.get("total_offering_amount","Not disclosed"))}</span></td><td>{E(security)}</td><td><a href="{E(item.get("filing_url","#"))}" rel="noopener">View filing ↗</a></td></tr>'
+ own_table=f'<table><thead><tr><th>Date filed</th><th>Sold / offered</th><th>Security</th><th></th></tr></thead><tbody>{"".join(row(item) for item in own)}</tbody></table>' if own else '<p>No company-issued Form D offering is currently recorded.</p>'
+ vehicle_markup=f'<details><summary>Investment vehicles referencing this company ({len(vehicles)})</summary><table><thead><tr><th>Filer</th><th>Date filed</th><th>Sold / offered</th><th></th></tr></thead><tbody>{"".join(f"<tr><td>{E(item.get('filer_name',''))}</td><td>{E(item.get('filing_date',''))}</td><td>{E(item.get('total_amount_sold','Not disclosed'))} <span>of {E(item.get('total_offering_amount','Not disclosed'))}</span></td><td><a href=\"{E(item.get('filing_url','#'))}\" rel=\"noopener\">View filing ↗</a></td></tr>" for item in vehicles)}</tbody></table></details>' if vehicles else ''
+ return f'<section class="sec-filings" aria-labelledby="sec-filings-{E(c["slug"])}"><h2 id="sec-filings-{E(c["slug"])}">SEC filings</h2><p>Form D filings report amounts raised under exempt offerings. They do not disclose valuation.</p>{own_table}{vehicle_markup}</section>'
+
+def filings_markup():
+ rows=[]
+ for item in sorted(form_d_filings,key=lambda entry:(entry.get('filing_date',''),entry.get('filing_id','')),reverse=True):
+  if item.get('filer_type')=='fund_or_spv':continue
+  rows.append(f'<tr><td><a href="/companies/{E(item.get("company_slug",""))}/">{E(item.get("company_name",""))}</a></td><td>{E(item.get("filing_date",""))}</td><td>{E(item.get("total_amount_sold","Not disclosed"))}</td><td><a href="{E(item.get("filing_url","#"))}" rel="noopener">SEC filing ↗</a></td></tr>')
+ table=f'<table><thead><tr><th>Company</th><th>Date filed</th><th>Total amount sold</th><th></th></tr></thead><tbody>{"".join(rows)}</tbody></table>' if rows else '<p class="filings-empty">No confirmed Form D filings have been added yet. The SEC monitor will populate this page after legal-entity matches are reviewed.</p>'
+ return f'<section class="filings-page"><header><h1>SEC Form D filings.</h1><p>Private-company exempt-offering disclosures across companies covered by The Private Ledger.</p></header><p class="filings-note">Form D filings report amounts raised under exempt offerings. They do not disclose valuation.</p><div class="filings-table">{table}</div></section>'
 
 def intelligence_profile(c):
  d=c['intelligence']
@@ -84,7 +107,7 @@ def intelligence_profile(c):
  return f'''<section class="intelligence-profile">
  <header class="intelligence-header"><div><h1>{E(c["name"])}</h1><p class="intelligence-meta">{E(c["sector"])} <span>·</span> {E(d["location"])} <span>·</span> {E(d["status"])}</p><p class="intelligence-description">{E(d["description"])}</p></div><div class="intelligence-logo">{logo}<strong>{E(c["name"])}</strong></div></header>
  <section class="intelligence-metrics">{metrics}</section>
- <div class="intelligence-content"><div class="intelligence-main"><section><h2>The Company</h2>{''.join('<p>'+E(p)+'</p>' for p in d['company'])}</section><section><h2>Why It Matters</h2><p>{E(d["why_it_matters"])}</p></section><section><h2>Valuation History</h2><ol class="valuation-history">{history}</ol></section><section><h2>What Changed</h2><ol class="change-log">{changed}</ol></section></div><aside class="intelligence-aside"><section><h2>Key Takeaways</h2><ol class="takeaways">{takeaways}</ol></section><section><h2>Quick Facts</h2><dl class="quick-facts">{quick}</dl></section><section><h2>Sources</h2><ul class="intelligence-sources">{sources}</ul></section></aside></div>
+ <div class="intelligence-content"><div class="intelligence-main"><section><h2>The Company</h2>{''.join('<p>'+E(p)+'</p>' for p in d['company'])}</section>{form_d_section(c)}<section><h2>Why It Matters</h2><p>{E(d["why_it_matters"])}</p></section><section><h2>Valuation History</h2><ol class="valuation-history">{history}</ol></section><section><h2>What Changed</h2><ol class="change-log">{changed}</ol></section></div><aside class="intelligence-aside"><section><h2>Key Takeaways</h2><ol class="takeaways">{takeaways}</ol></section><section><h2>Quick Facts</h2><dl class="quick-facts">{quick}</dl></section><section><h2>Sources</h2><ul class="intelligence-sources">{sources}</ul></section></aside></div>
  </section>'''
 
 def shell(kind,title,description,route,image=''):
@@ -137,8 +160,10 @@ def configure_nav(s,active):
  for old_link in nav.select('a[data-view="insights"]'):old_link.decompose()
  ipo=soup('<a data-view="ipo" href="/ipo-calendar/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 10h18"></path></svg>IPO calendar</a>').a
  research.insert_after(ipo)
+ filings=soup('<a data-view="filings" href="/filings/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M6 3h9l3 3v15H6z"></path><path d="M15 3v4h4M9 11h6M9 15h6"></path></svg>SEC filings</a>').a
+ ipo.insert_after(filings)
  valuations=soup('<a data-view="valuations" href="/valuations/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 18V6m0 12h16"></path><path d="m7 15 4-4 3 2 4-6"></path></svg>Valuations</a>').a
- ipo.insert_after(valuations)
+ filings.insert_after(valuations)
  for link in nav.select('a'):
   link.attrs.pop('aria-current',None)
   link['class']=['active'] if link.get('data-view')==active else []
@@ -410,6 +435,11 @@ s.body['data-page-view']='ipo';configure_nav(s,'ipo')
 main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();main.clear();put(main,ipo_markup());main.append(subscribe);main.append(footer)
 write(s,'/ipo-calendar/')
 
+s=shell('home','SEC filings','Recent Form D filings across companies covered by The Private Ledger.','/filings/')
+s.body['data-page-view']='filings';configure_nav(s,'filings')
+main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();main.clear();put(main,filings_markup());main.append(subscribe);main.append(footer)
+write(s,'/filings/')
+
 # The chart is intentionally limited to profiles with multiple dated valuation events.
 s=shell('home','Private valuation history','Reported private-company valuation histories at confirmed events.','/valuations/')
 s.body['data-page-view']='valuations';configure_nav(s,'valuations')
@@ -420,7 +450,7 @@ write(s,'/valuations/')
 about=read('content/settings/about.json');s=shell('about',about['title'],about['description'],'/about/');configure_nav(s,'about');main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();about_body=clean(about['body']);hero=about_body.select_one('.about-hero');hero.decompose() if hero else None;main.clear();main.append(about_body);main.append(subscribe);main.append(footer);write(s,'/about/')
 # The editor is a separate authenticated service, not a public editing API.
 s=shell('about','Edit website','Open the secure content editor.','/admin/');configure_nav(s,'');s.select_one('main').clear();put(s.select_one('main'),'<section class="about-hero"><h1>Edit your publication.</h1><p>Sign in with your GitHub account to edit articles, company profiles, images, and homepage text.</p><a class="primary-button" href="https://app.pagescms.org">Open Pages CMS ↗</a></section>');put(s.head,'<meta name="robots" content="noindex">');write(s,'/admin/')
-routes=['/','/research/','/insights/','/companies/','/ipo-calendar/','/valuations/','/about/']+[a['url'] for a in ordered]+['/companies/'+c['slug']+'/' for c in companies.values()]
+routes=['/','/research/','/insights/','/companies/','/ipo-calendar/','/filings/','/valuations/','/about/']+[a['url'] for a in ordered]+['/companies/'+c['slug']+'/' for c in companies.values()]
 (OUT/'sitemap.xml').write_text('<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+E(base+r)+'</loc></url>' for r in routes)+'</urlset>')
 (OUT/'robots.txt').write_text('User-agent: *\nAllow: /\nDisallow: /admin/\nSitemap: '+base+'/sitemap.xml\n')
 print(f'Built {len(articles)} published articles, {len(companies)} company profiles, and editable site pages.')
