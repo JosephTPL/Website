@@ -10,14 +10,14 @@
     {
       "label": "Latest financing",
       "value": "June 2026: $100M Series B at $1B",
-      "note": "Axios reported the Accel-led Series B and $1 billion valuation.",
-      "source": "https://twenty.com"
+      "note": "Axios and the company announcement reported the Accel-led Series B and $1 billion valuation.",
+      "source": "https://www.axios.com/2026/06/17/twenty-cybersecurity-hacks-accel-venture"
     }
   ],
   "directory_rank": 89,
   "bull_case": "Demand for cyber capabilities in national-security missions can create a high-value specialised market.",
   "bear_case": "The sector has long procurement cycles, significant policy exposure and limited public product disclosure.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "June 2026: $100M Series B at $1B valuation",
   "directory_notes": [
     "Enterprise software",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Twenty is a private company tracked by The Private Ledger in enterprise software.",
     "metrics": [
       {
-        "value": "Undisclosed",
+        "value": "$1B",
         "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "note": "June 2026 Series B"
       },
       {
         "value": "Private",
@@ -57,15 +57,15 @@
     "why_it_matters": "Twenty reflects investor demand for cyber capabilities tied to national security. Contract conversion and responsible operational use will be more important than its early valuation headline.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$1B",
+        "date": "Jun 2026",
+        "round": "Series B, $100M"
       }
     ],
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Twenty announced a $100M Series B led by Accel at a $1B valuation."
       }
     ],
     "takeaways": [
@@ -89,8 +89,12 @@
     ],
     "sources": [
       {
-        "label": "Company website",
+        "label": "Axios: Twenty Series B report",
         "url": "https://www.axios.com/2026/06/17/twenty-cybersecurity-hacks-accel-venture"
+      },
+      {
+        "label": "Twenty: Series B announcement",
+        "url": "https://www.prnewswire.com/news-releases/americas-first-vc-backed-cyber-warfare-startup-raises-100m-series-b-at-1b-valuation-302802401.html"
       }
     ]
   }

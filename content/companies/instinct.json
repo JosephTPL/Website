@@ -4,20 +4,20 @@
   "status": "Published",
   "sector": "Private markets",
   "summary": "Instinct is a consumer AI assistant that connects to users' apps and devices to complete tasks through text and voice interactions.",
-  "overview": "<p>Instinct is a consumer agent built to take actions across connected services. It told the Wall Street Journal it had raised a $250 million Series B at a $2.5 billion valuation in August 2026, bringing total funding to $350 million.</p>",
+  "overview": "<p>Instinct is a consumer agent built to take actions across connected services. TechCrunch reported in August 2026 that the company said it had raised a $250 million Series B at a $2.5 billion valuation, bringing total reported funding to $350 million; other contemporary reporting described the financing as in process.</p>",
   "as_of": "2026-09-27",
   "facts": [
     {
       "label": "Latest financing",
-      "value": "August 2026: $250M Series B at $2.5B",
-      "note": "The consumer AI assistant’s Series B brought total reported funding to $350M.",
+      "value": "Reported August 2026: $250M Series B at $2.5B",
+      "note": "TechCrunch reported that Instinct said the round brought total funding to $350M; contemporary reports differed on completion timing.",
       "source": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/"
     }
   ],
   "directory_rank": 103,
   "bull_case": "A consumer agent that reliably executes multi-step tasks could earn a high-frequency relationship with users across multiple services.",
   "bear_case": "Consumer trust, permissions, privacy concerns, and the cost of agent execution can undermine adoption and retention.",
-  "latest_round": "August 2026: $250M Series B at $2.5B",
+  "latest_round": "Reported August 2026: $250M Series B at $2.5B",
   "directory_notes": [
     "Artificial intelligence",
     "Future updates should focus on its product, customer evidence, and any primary financing disclosure."
@@ -31,8 +31,8 @@
     "metrics": [
       {
         "value": "$2.5B",
-        "label": "Latest valuation",
-        "note": "August 2026 Series B"
+        "label": "Reported valuation",
+        "note": "Reported August 2026 Series B"
       },
       {
         "value": "Private",
@@ -52,24 +52,24 @@
     ],
     "company": [
       "Instinct offers an AI assistant that users can connect to applications and devices through texts and calls, positioning it around task completion rather than only answers.",
-      "In August 2026, Instinct told the Wall Street Journal it had raised a $250 million Series B at a $2.5 billion valuation, with Index Ventures and Benchmark reported as co-leads."
+      "In August 2026, TechCrunch reported that Instinct told the Wall Street Journal it had raised a $250 million Series B at a $2.5 billion valuation, with Index Ventures and Benchmark reported as co-leads. Other contemporary reporting described the financing as in process."
     ],
     "why_it_matters": "Consumer agents are a high-upside but high-trust category: real task completion creates more value than a chatbot only if users grant broad access. Instinct's rapid financing is a useful read-through on investor appetite for that model.",
     "valuation_history": [
       {
         "value": "$2.5B",
         "date": "Aug 2026",
-        "round": "Series B"
+        "round": "Reported Series B"
       }
     ],
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "TechCrunch reported a $250M Series B at a $2.5B valuation; contemporary reports differed on completion timing."
       }
     ],
     "takeaways": [
-      "The reported Series B values Instinct at $2.5B after only months of operation.",
+      "The reported Series B values Instinct at $2.5B after only months of operation, though completion timing was reported inconsistently.",
       "Reliable task completion and user trust are the decisive product tests.",
       "Privacy concerns and major platform competition remain acute risks."
     ],
@@ -89,7 +89,15 @@
     ],
     "sources": [
       {
-        "label": "Company website",
+        "label": "TechCrunch: Instinct financing report",
+        "url": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/"
+      },
+      {
+        "label": "The Information: reported Series B process",
+        "url": "https://www.theinformation.com/briefings/four-month-old-ai-assistant-startup-instinct-raises-2-5-billion-valuation"
+      },
+      {
+        "label": "Instinct company website",
         "url": "https://instinct.com"
       }
     ]

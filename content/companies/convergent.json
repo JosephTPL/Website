@@ -20,13 +20,13 @@
   "latest_round": "No company-confirmed financing publicly disclosed",
   "directory_notes": [
     "AI simulations",
-    "The public record indicates early-stage financing only; future research should focus on product traction and enterprise adoption."
+    "No company-confirmed financing or valuation was located; future research should focus on product traction and enterprise adoption."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
     "location": "United States",
     "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=convergent.com&sz=128",
+    "logo": "https://www.google.com/s2/favicons?domain=convergent.org&sz=128",
     "description": "AI simulations and role-play tools for high-stakes workplace interactions.",
     "metrics": [
       {
@@ -81,7 +81,7 @@
       ],
       [
         "Website",
-        "convergent.com"
+        "convergent.org"
       ],
       [
         "Public status",
@@ -90,8 +90,8 @@
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://convergent.com"
+        "label": "Convergent AI: product overview",
+        "url": "https://www.convergent.org/"
       }
     ]
   }

@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "June 2026: $98M financing at $600M",
-      "note": "Engram launched with the financing for its AI memory layer.",
-      "source": "https://www.calcalistech.com/ctechnews/article/skoqbrumze"
+      "value": "June 2026: $98M financing",
+      "note": "Engram launched with $98M in financing for its AI memory layer; no valuation was announced.",
+      "source": "https://www.prnewswire.com/news-releases/engram-launches-with-98m-to-build-ai-that-actually-knows-your-organization-302807126.html"
     }
   ],
   "directory_rank": 95,
   "bull_case": "Persistent organisational context is a core gap in enterprise AI, and a trusted memory layer can become deeply embedded across workflows.",
   "bear_case": "Data permissions, integration complexity, and competition from frontier-model providers and enterprise platforms could compress differentiation.",
-  "latest_round": "June 2026: $98M financing at $600M",
+  "latest_round": "June 2026: $98M financing; valuation undisclosed",
   "directory_notes": [
     "Artificial intelligence",
     "Public financial disclosure is limited, so this profile deliberately avoids representing a market estimate as a confirmed financing."
@@ -30,9 +30,9 @@
     "description": "A learned memory layer for enterprise AI systems and organisational context.",
     "metrics": [
       {
-        "value": "$600M",
+        "value": "Undisclosed",
         "label": "Latest valuation",
-        "note": "June 2026 financing"
+        "note": "No valuation announced with June 2026 financing"
       },
       {
         "value": "Private",
@@ -57,9 +57,9 @@
     "why_it_matters": "Memory and organisational context are likely to be key control points in enterprise AI stacks. Engram is a high-funded private effort to own that layer rather than leave it to application vendors or model providers.",
     "valuation_history": [
       {
-        "value": "$600M",
+        "value": "$98M",
         "date": "Jun 2026",
-        "round": "Launch financing"
+        "round": "Launch financing; valuation undisclosed"
       }
     ],
     "changed": [
@@ -89,7 +89,11 @@
     ],
     "sources": [
       {
-        "label": "Company website",
+        "label": "Engram: launch and financing announcement",
+        "url": "https://www.prnewswire.com/news-releases/engram-launches-with-98m-to-build-ai-that-actually-knows-your-organization-302807126.html"
+      },
+      {
+        "label": "Engram company website",
         "url": "https://engram.com"
       }
     ]

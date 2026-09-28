@@ -3,24 +3,24 @@
   "name": "Fab2",
   "status": "Published",
   "sector": "Semiconductors",
-  "summary": "Fab2, formerly Atomic Semi, is developing compact chipmaking facilities and the tools inside them. It raised a $500 million Series A at a $3.7 billion valuation in September 2026.",
+  "summary": "Fab2, formerly Atomic Semi, is developing compact chipmaking facilities and the tools inside them. A $500 million September 2026 Series A at a reported $3.7 billion valuation has been reported publicly.",
   "overview": "<p>Fab2 is attempting to make semiconductor production faster and less capital intensive through modular fabrication facilities, in-house equipment and software. The Austin company was previously known as Atomic Semi.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
       "label": "Latest financing",
-      "value": "September 2026: $500M Series A at $3.7B",
-      "note": "Fab2, formerly Atomic Semi, reported the Series A led by Fundomo.",
-      "source": "https://multiples.vc/private-comps/fab2"
+      "value": "Reported September 2026: $500M Series A at $3.7B",
+      "note": "The company filed a September 2026 Form D; public reporting placed the Series A at a $3.7B valuation.",
+      "source": "https://www.sec.gov/Archives/edgar/data/2151752/000215175226000002/0002151752-26-000002-index.htm"
     }
   ],
   "directory_rank": 97,
   "bull_case": "A modular, lower-cost fabrication model could address a strategic need for domestic chip capacity if Fab2 proves it can produce reliable chips economically.",
   "bear_case": "Semiconductor manufacturing is capital intensive and unforgiving; a $3.7B valuation leaves little room for technical or production setbacks.",
-  "latest_round": "September 2026: $500M Series A at $3.7B",
+  "latest_round": "Reported September 2026: $500M Series A at $3.7B",
   "directory_notes": [
     "Modular semiconductor fabs",
-    "$500M Series A at $3.7B in September 2026."
+    "A September 2026 $500M Series A at a reported $3.7B valuation; the SEC filing confirms an offering, not the valuation."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
@@ -31,8 +31,8 @@
     "metrics": [
       {
         "value": "$3.7B",
-        "label": "Latest valuation",
-        "note": "September 2026 Series A"
+        "label": "Reported valuation",
+        "note": "Reported September 2026 Series A"
       },
       {
         "value": "Private",
@@ -52,25 +52,25 @@
     ],
     "company": [
       "Fab2 is building compact semiconductor facilities and manufacturing much of the equipment used inside them. Its model targets smaller, faster-to-deploy fab capacity rather than one enormous conventional plant.",
-      "Formerly Atomic Semi, Fab2 raised a $500 million Series A at a $3.7 billion valuation in September 2026. The round was led by Fundomo; the company is associated with founders Sam Zeloof and Jim Keller."
+      "Formerly Atomic Semi, Fab2 filed a Form D in September 2026. Public reporting placed a $500 million Series A at a $3.7 billion valuation; the filing itself does not establish that valuation."
     ],
     "why_it_matters": "Fab2 is a high-risk private wager on whether chip manufacturing can be productised and deployed more quickly. Manufacturing yield, equipment reliability and customer qualification will matter more than the headline Series A.",
     "valuation_history": [
       {
         "value": "$3.7B",
         "date": "Sep 2026",
-        "round": "Series A"
+        "round": "Reported Series A"
       }
     ],
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Fab2 filed a Form D in September 2026 following its rebrand from Atomic Semi."
       }
     ],
     "takeaways": [
       "Fab2 is pursuing modular chip production, not simply chip design.",
-      "The $3.7B valuation is tied to a reported $500M September 2026 Series A.",
+      "The $3.7B valuation is tied to a reported $500M September 2026 Series A, not the SEC filing itself.",
       "Yield, cost and customer qualification are the central milestones."
     ],
     "quick_facts": [
@@ -89,7 +89,15 @@
     ],
     "sources": [
       {
-        "label": "Company website",
+        "label": "SEC Form D: Fab2",
+        "url": "https://www.sec.gov/Archives/edgar/data/2151752/000215175226000002/0002151752-26-000002-index.htm"
+      },
+      {
+        "label": "Tom's Hardware: Atomic Semi becomes Fab2",
+        "url": "https://www.tomshardware.com/tech-industry/atomic-semi-rebrands-as-fab2-and-shifts-operations-to-texas"
+      },
+      {
+        "label": "Fab2 company website",
         "url": "https://fab2.com"
       }
     ]
