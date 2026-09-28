@@ -8,6 +8,7 @@ ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'_site'
 E=html.escape
 style_version=hashlib.sha256((ROOT/'assets'/'style.css').read_bytes()).hexdigest()[:12]
+enhancements_version=hashlib.sha256((ROOT/'assets'/'enhancements.css').read_bytes()).hexdigest()[:12]
 
 def soup(text):return BeautifulSoup(text,'html.parser')
 def read(path):return json.loads((ROOT/path).read_text())
@@ -92,7 +93,7 @@ def shell(kind,title,description,route,image=''):
   stylesheet['href']=f'/style.css?v={style_version}'
  favicon=s.select_one('link[rel="icon"]');favicon['href']='/favicon.png?v=3';favicon['sizes']='64x64';favicon['type']='image/png'
  for asset in s.select('link[href="/enhancements.css"],script[src="/enhancements.js"]'):
-  asset['href' if asset.name=='link' else 'src']=('/enhancements.css?v=2' if asset.name=='link' else '/enhancements.js?v=2')
+  asset['href' if asset.name=='link' else 'src']=(f'/enhancements.css?v={enhancements_version}' if asset.name=='link' else '/enhancements.js?v=2')
  for font_link in s.select('link[href*="fonts.googleapis.com"]'):
   font_link['href']='https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap'
  s.select_one('meta[name="description"]')['content']=description
