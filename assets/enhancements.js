@@ -11,6 +11,7 @@
       earningsEvents.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
       panel.innerHTML = `<p class="overline">${button.dataset.ticker} / ${button.dataset.confidence}</p><h3>${button.dataset.company}</h3><p class="earnings-timing">${button.dataset.timing}</p><p>${button.dataset.impact}</p><a href="${button.dataset.source}" rel="noopener">Earnings source ↗</a>`;
     };
+    document.querySelectorAll('.ipo-event:not([data-oura-calendar])').forEach(link => { if (link.textContent.includes('Oura')) link.remove(); });
 (() => {
   const grid = document.querySelector('.ipo-month-grid');
   const firstWeek = grid?.querySelector('.ipo-week');
