@@ -14,7 +14,7 @@
       "label": "Latest financing",
       "value": "$5B strategic round",
       "note": "Closed August 2026 at a reported $190B valuation.",
-      "source": "https://www.databricks.com/company/newsroom/press-releases/databricks-closes-5-billion-funding-round-190-billion-valuation"
+      "source": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/"
     }
   ],
   "directory_rank": 11,
@@ -38,6 +38,6 @@
     "changed": [{"date":"2023","text":"Acquired MosaicML, expanding from data tooling toward foundation-model and generative-AI workloads."},{"date":"2025","text":"Raised capital at a reported $100B valuation as investor attention shifted to enterprise AI infrastructure."},{"date":"Dec 2025","text":"A financing reportedly placed Databricks at $134B."},{"date":"Aug 2026","text":"Closed a $5B strategic round at $190B and reported revenue run-rate above $7B."}],
     "takeaways": ["The valuation rests on proving its data platform is central to enterprise AI deployment, not merely analytics.","A $7B-plus run-rate gives Databricks unusual scale for a private software company.","Lakebase, Genie, and Unity AI Gateway move it closer to workflows where AI value is captured.","Risks include premium valuation, cloud-platform dependency, and competition from Snowflake, hyperscalers, and specialists."],
     "quick_facts": [["Founded","2013"],["Headquarters","San Francisco, California"],["CEO","Ali Ghodsi"],["Focus","Data and AI platform"],["Website","databricks.com"],["Public status","Private"]],
-    "sources": [{"label":"Databricks: $5B financing announcement","url":"https://www.databricks.com/company/newsroom/press-releases/databricks-closes-5-billion-funding-round-190-billion-valuation"},{"label":"Reuters financing report","url":"https://www.reuters.com/world/us/ai-firm-databricks-valued-190-billion-latest-funding-round-2026-08-13/"},{"label":"Databricks company website","url":"https://www.databricks.com/company"}]
+    "sources": [{"label":"TechCrunch: $5B financing report","url":"https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/"},{"label":"Reuters financing report","url":"https://www.reuters.com/world/us/ai-firm-databricks-valued-190-billion-latest-funding-round-2026-08-13/"},{"label":"Databricks company website","url":"https://www.databricks.com/company"}]
   }
 }

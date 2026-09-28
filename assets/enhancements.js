@@ -27,6 +27,28 @@
   if (empty) empty.innerHTML = '<strong>Oura is expected to list September 30.</strong> The calendar includes the September lead-in date before October trading sessions.';
 })();
 
+(() => {
+  const chart = document.querySelector('.weekly-chart-plot');
+  const tooltip = chart?.querySelector('.weekly-chart-tooltip');
+  if (!chart || !tooltip) return;
+  const show = event => {
+    const point = event.currentTarget;
+    tooltip.innerHTML = `<strong>${point.dataset.value}</strong><span>${point.dataset.date}</span><b>${point.dataset.round || 'Reported valuation event'}</b>`;
+    tooltip.hidden = false;
+    const plot = chart.getBoundingClientRect();
+    const box = point.getBoundingClientRect();
+    tooltip.style.left = `${Math.max(8, Math.min(chart.clientWidth - tooltip.offsetWidth - 8, box.left - plot.left + 12))}px`;
+    tooltip.style.top = `${Math.max(8, box.top - plot.top - tooltip.offsetHeight - 10)}px`;
+  };
+  const hide = () => { tooltip.hidden = true; };
+  chart.querySelectorAll('.weekly-chart-point').forEach(point => {
+    point.addEventListener('pointerenter', show);
+    point.addEventListener('pointerleave', hide);
+    point.addEventListener('focus', show);
+    point.addEventListener('blur', hide);
+  });
+})();
+
 
 (() => {
   const grid = document.querySelector('.ipo-month-grid');
