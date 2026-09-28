@@ -11,6 +11,30 @@
       earningsEvents.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
       panel.innerHTML = `<p class="overline">${button.dataset.ticker} / ${button.dataset.confidence}</p><h3>${button.dataset.company}</h3><p class="earnings-timing">${button.dataset.timing}</p><p>${button.dataset.impact}</p><a href="${button.dataset.source}" rel="noopener">Earnings source ↗</a>`;
     };
+(() => {
+  const grid = document.querySelector('.ipo-month-grid');
+  const firstWeek = grid?.querySelector('.ipo-week');
+  if (!firstWeek || firstWeek.querySelector('[data-oura-calendar]')) return;
+  const day = firstWeek.children[2];
+  day.removeAttribute('aria-hidden');
+  day.innerHTML = '<span>Sep 30</span><a class="ipo-event" data-oura-calendar href="/companies/oura/"><strong>Oura</strong><span>Expected Sep. 30</span></a>';
+  document.querySelectorAll('.ipo-tbd').forEach(card => { if (card.querySelector('h2')?.textContent === 'Oura') card.remove(); });
+  const empty = document.querySelector('.ipo-empty');
+  if (empty) empty.innerHTML = '<strong>Oura is expected to list September 30.</strong> The calendar includes the September lead-in date before October trading sessions.';
+})();
+
+
+(() => {
+  const grid = document.querySelector('.ipo-month-grid');
+  const firstWeek = grid?.querySelector('.ipo-week');
+  if (!firstWeek || firstWeek.querySelector('[data-oura-calendar]')) return;
+  const day = firstWeek.children[2];
+  day.removeAttribute('aria-hidden');
+  day.innerHTML = '<span>Sep 30</span><a class="ipo-event" data-oura-calendar href="/companies/oura/"><strong>Oura</strong><span>Expected Sep. 30</span></a>';
+  document.querySelectorAll('.ipo-tbd').forEach(card => { if (card.querySelector('h2')?.textContent === 'Oura') card.remove(); });
+  const empty = document.querySelector('.ipo-empty');
+  if (empty) empty.innerHTML = '<strong>Oura is expected to list September 30.</strong> The calendar includes the September lead-in date before October trading sessions.';
+})();
     earningsEvents.forEach(button => button.addEventListener('click', () => select(button)));
   }
 })();
