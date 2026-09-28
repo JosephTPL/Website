@@ -1,0 +1,67 @@
+{
+  "slug": "flipkart",
+  "name": "Flipkart",
+  "status": "Published",
+  "sector": "E-commerce",
+  "summary": "Flipkart is Walmart-backed Indian e-commerce platform operating a broad marketplace alongside businesses including Myntra, Shopsy and Cleartrip. A 2024 funding round valued the company at a reported $37 billion.",
+  "overview": "<p>Flipkart is one of India's largest online retail platforms. Its ecosystem spans a core marketplace, fashion through Myntra, value commerce through Shopsy, and travel through Cleartrip.</p>",
+  "as_of": "2026-09-28",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "May 2024: ~$1B round at reported $37B",
+      "note": "Walmart led the round and Google invested $350M; Flipkart did not publicly confirm the valuation.",
+      "source": "https://finance.yahoo.com/news/google-invest-350-million-indias-134109811.html"
+    }
+  ],
+  "directory_rank": 21,
+  "bull_case": "India's expanding e-commerce market and Flipkart's ecosystem of marketplace, fashion and value-commerce products can compound its customer and merchant base.",
+  "bear_case": "Competition from Amazon, Reliance and quick-commerce platforms, together with delivery economics and regulatory scrutiny, can pressure margins and an eventual IPO narrative.",
+  "latest_round": "May 2024: ~$1B round at reported $37B valuation",
+  "directory_notes": [
+    "Indian marketplace, fashion and value commerce",
+    "Watch market-share durability, quick-commerce strategy and IPO readiness."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Bengaluru, India",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=flipkart.com&sz=128",
+    "description": "Walmart-backed Indian e-commerce platform spanning marketplace, fashion, travel and value-commerce services.",
+    "metrics": [
+      {"value": "$37B", "label": "Reported valuation", "note": "May 2024 funding round"},
+      {"value": "~$1B", "label": "Latest funding", "note": "2023–24 round led by Walmart"},
+      {"value": "2007", "label": "Founded", "note": "Bengaluru, India"},
+      {"value": "Private", "label": "Public status", "note": "No confirmed IPO date"}
+    ],
+    "company": [
+      "Flipkart operates an Indian online marketplace and a broader consumer-internet portfolio that includes Myntra, Shopsy and Cleartrip. Walmart is its controlling shareholder, while Google joined the company's 2024 financing as a minority investor.",
+      "Reuters reported that Google's $350 million investment formed part of an approximately $1 billion round that valued Flipkart at $37 billion. Flipkart confirmed Google's investment and cloud collaboration, but did not publicly confirm the valuation."
+    ],
+    "why_it_matters": "Flipkart is a central private-market read-through on Indian digital consumption and the economics of competing with global and domestic commerce platforms. Its eventual route to public markets will depend on market share, logistics efficiency and whether adjacent businesses strengthen the core marketplace.",
+    "valuation_history": [
+      {"value": "$11.6B", "date": "Apr 2017", "round": "Funding round"},
+      {"value": "$37B", "date": "May 2024", "round": "Reported ~$1B funding round"}
+    ],
+    "changed": [
+      {"date": "May 2024", "text": "Google joined a Walmart-led funding round; Reuters reported a $37B valuation."},
+      {"date": "Mar 2026", "text": "Flipkart completed its move of domicile to India, a step often associated with public-market preparation."}
+    ],
+    "takeaways": [
+      "Flipkart's $37B valuation is reported, not company-confirmed.",
+      "Marketplace scale must translate into sustainable contribution margins as quick commerce expands.",
+      "Myntra, Shopsy and Cleartrip broaden the ecosystem but add execution complexity."
+    ],
+    "quick_facts": [
+      ["Controlling shareholder", "Walmart"],
+      ["Headquarters", "Bengaluru, India"],
+      ["Focus", "E-commerce and consumer internet"],
+      ["Website", "flipkart.com"]
+    ],
+    "sources": [
+      {"label": "Reuters: Google investment and reported valuation", "url": "https://finance.yahoo.com/news/google-invest-350-million-indias-134109811.html"},
+      {"label": "TechCrunch: Google investment in Flipkart", "url": "https://techcrunch.com/2024/05/24/google-invests-350-million-in-indias-flipkart/"},
+      {"label": "Flipkart company website", "url": "https://www.flipkart.com/"}
+    ]
+  }
+}
