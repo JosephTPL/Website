@@ -144,3 +144,20 @@ main{margin-top:72px;margin-left:238px;padding:46px 54px 0;max-width:1780px}.pag
   .ipo-month-grid{width:100%}
   .earnings-detail{border-left:0;border-top:1px solid #dcd6ca}
 }
+
+/* A restrained editorial image treatment: colour is carried by the Ledger palette,
+   while the underlying photography remains legible. */
+.cover-refined{isolation:isolate;background:#10293b}
+.cover-refined img{filter:grayscale(1) contrast(1.08) brightness(.94)}
+.cover-refined::before,.cover-refined::after{content:"";position:absolute;inset:0;pointer-events:none}
+.cover-refined::before{z-index:1;background-image:repeating-linear-gradient(135deg,rgba(243,196,104,.3) 0 1px,transparent 1px 13px);opacity:.22;mix-blend-mode:screen}
+.cover-refined::after{z-index:1;background:linear-gradient(122deg,rgba(8,35,54,.82),rgba(24,78,91,.34) 56%,rgba(213,162,70,.54));mix-blend-mode:color}
+.cover-refined img{position:relative;z-index:0}
+.cover-refined .cover-caption{z-index:2;color:#f7e9c7;text-shadow:0 1px 8px rgba(5,20,32,.8)}
+.card:hover .cover-refined img{filter:grayscale(.72) contrast(1.05) brightness(1)}
+
+/* Fine paper-like structure on the data-heavy editorial surfaces. */
+.intelligence-profile,.company-directory,.valuation-chart-shell{background-color:#fffdf9;background-image:radial-gradient(rgba(16,40,58,.075) .65px,transparent .8px);background-size:13px 13px}
+.weekly-lead-layout,.ipo-calendar{background-image:linear-gradient(90deg,rgba(175,137,72,.11) 1px,transparent 1px),linear-gradient(rgba(16,40,58,.045) 1px,transparent 1px);background-size:28px 28px}
+@media(max-width:700px){.cover-refined::before{opacity:.15}.weekly-lead-layout,.ipo-calendar{background-size:22px 22px}}
+@media(prefers-reduced-motion:reduce){.card:hover .cover-refined img{filter:grayscale(1) contrast(1.08) brightness(.94)}}
