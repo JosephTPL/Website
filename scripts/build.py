@@ -137,9 +137,34 @@ def configure_nav(s,active):
   link.attrs.pop('aria-current',None)
   link['class']=['active'] if link.get('data-view')==active else []
 
+def weekly_chart_markup():
+ """A single evidence-led chart for the weekly front page, drawn from profile data."""
+ company=companies.get('databricks',{})
+ events=[]
+ for item in company.get('intelligence',{}).get('valuation_history',[]):
+  raw=str(item.get('value','')).replace('~','').replace(',','').replace('>','').replace('<','').strip().rstrip('+')
+  match=re.fullmatch(r'\$(\d+(?:\.\d+)?)([MBT])',raw)
+  if not match:continue
+  amount=float(match.group(1))*({'M':.001,'B':1,'T':1000}[match.group(2)])
+  events.append({'amount':amount,'value':item['value'],'date':item['date'],'round':item.get('round','')})
+ if len(events)<2:return ''
+ width,height,left,right,top,bottom=760,274,58,28,26,206
+ maximum=max(event['amount'] for event in events)
+ ceiling=max(10,((int(maximum)+49)//50)*50)
+ step=(width-left-right)/(len(events)-1)
+ points=[]
+ for index,event in enumerate(events):
+  x=left+index*step;y=bottom-(event['amount']/ceiling)*(bottom-top)
+  points.append((x,y,event))
+ path=' '.join((f'M {x:.1f} {y:.1f}' if index==0 else f'L {x:.1f} {y:.1f}') for index,(x,y,event) in enumerate(points))
+ grid=''.join(f'<line x1="{left}" y1="{bottom-(value/ceiling)*(bottom-top):.1f}" x2="{width-right}" y2="{bottom-(value/ceiling)*(bottom-top):.1f}" class="weekly-chart-grid"/><text x="{left-12}" y="{bottom-(value/ceiling)*(bottom-top)+5:.1f}" text-anchor="end" class="weekly-chart-axis">${value:g}B</text>' for value in (0,ceiling/2,ceiling))
+ dots=''.join(f'<g><circle cx="{x:.1f}" cy="{y:.1f}" r="5" class="weekly-chart-point"><title>{E(event["date"])}: {E(event["value"])}. {E(event["round"])}.</title></circle><text x="{x:.1f}" y="{bottom+31}" text-anchor="middle" class="weekly-chart-date">{E(event["date"])}</text></g>' for x,y,event in points)
+ source=company.get('facts',[{}])[0].get('source','/companies/databricks/')
+ return f'''<section class="weekly-chart" aria-labelledby="weekly-chart-title"><header class="weekly-chart-head"><div><p class="overline">MOST IMPORTANT CHART THIS WEEK</p><h2 id="weekly-chart-title">Databricks: reported valuation history.</h2><p>Its August $5B strategic financing valued Databricks at $190B, making the company one of the largest private technology businesses in the market.</p></div><div class="weekly-chart-stat"><strong>$190B</strong><span>Latest reported valuation</span></div></header><div class="weekly-chart-plot"><svg viewBox="0 0 {width} {height}" role="img" aria-label="Databricks reported valuation rose from 38 billion dollars in August 2021 to 190 billion dollars in August 2026">{grid}<path d="{path}" class="weekly-chart-line"/>{dots}</svg></div><footer><a href="/companies/databricks/">Read the Databricks profile →</a><a href="/valuations/">Open valuation desk →</a><a href="{E(source)}" rel="noopener">Primary source ↗</a></footer></section>'''
+
 def weekly_markup():
  items=''.join(f'''<article class="weekly-item"><div><span class="weekly-number">{i:02d}</span><span class="weekly-tag">{E(item['tag'])}</span></div><h2>{E(item['company'])}</h2><p>{E(item['text'])}</p><a href="{E(item['source'])}" rel="noopener">Source ↗</a></article>''' for i,item in enumerate(weekly['items'],1))
- return f'''<section class="weekly-brief" aria-labelledby="weekly-title"><header class="weekly-head"><div><p class="overline">THE PRIVATE LEDGER / WEEKLY BRIEF</p><h1 id="weekly-title">{E(weekly['title'])}</h1><p class="subtitle">{E(weekly['intro'])}</p></div><p class="weekly-date">Last week<br/><strong>{E(weekly['period'])}</strong><span>Next update: {E(weekly['next_update'])}</span></p></header><div class="weekly-grid">{items}</div><div class="weekly-footer"><span>Updated every Sunday.</span><a class="text-link" href="/research/">Explore company research →</a></div></section>'''
+ return f'''<section class="weekly-brief" aria-labelledby="weekly-title"><header class="weekly-head"><div><p class="overline">THE PRIVATE LEDGER / WEEKLY BRIEF</p><h1 id="weekly-title">{E(weekly['title'])}</h1><p class="subtitle">{E(weekly['intro'])}</p></div><p class="weekly-date">Last week<br/><strong>{E(weekly['period'])}</strong><span>Next update: {E(weekly['next_update'])}</span></p></header><div class="weekly-grid">{items}</div>{weekly_chart_markup()}<div class="weekly-footer"><span>Updated every Sunday.</span><a class="text-link" href="/research/">Explore company research →</a></div></section>'''
 
 def ipo_markup():
  """A true month view; undated candidates stay out of arbitrary day cells."""
