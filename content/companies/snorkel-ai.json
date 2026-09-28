@@ -1,0 +1,125 @@
+{
+  "slug": "snorkel-ai",
+  "status": "Published",
+  "name": "Snorkel AI",
+  "sector": "AI data infrastructure",
+  "summary": "Snorkel AI develops data, evaluation, and simulation workflows for teams building and testing advanced AI systems.",
+  "overview": "<p>Snorkel AI provides data-development infrastructure and services for AI labs, enterprises, and public-sector customers.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "September 2026: $350M Series E at a $3.5B valuation",
+      "note": "Snorkel AI announced the financing was led by Insight Partners and S32.",
+      "source": "https://snorkel.ai/blog/data-2-0-and-the-research-era-of-ai-data/"
+    }
+  ],
+  "directory_rank": 94,
+  "bull_case": "Demand for expert training data, evaluation, and simulated environments can grow alongside more capable AI systems and a larger market for reliable agents.",
+  "bear_case": "Data infrastructure is competitive and model developers may increasingly internalize their own data generation, evaluation, and safety workflows.",
+  "latest_round": "September 2026: $350M Series E at a $3.5B valuation",
+  "directory_notes": [
+    "AI data, evaluation, and simulation infrastructure.",
+    "Watch customer concentration, data-as-a-service adoption, and margin durability."
+  ],
+  "intelligence": {
+    "kicker": "Company intelligence",
+    "location": "Redwood City, California",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=snorkel.ai&sz=128",
+    "description": "Snorkel AI builds the data and evaluation workflows used to train, test, and improve advanced AI systems. Its investment case rests on whether high-quality data becomes a durable infrastructure layer rather than a capability absorbed by the largest model builders.",
+    "metrics": [
+      {
+        "value": "$3.5B",
+        "label": "Latest valuation",
+        "note": "September 2026 Series E"
+      },
+      {
+        "value": "$350M",
+        "label": "Latest funding",
+        "note": "Series E financing"
+      },
+      {
+        "value": "$375M",
+        "label": "Annualized revenue run rate",
+        "note": "Company-reported, September 2026"
+      },
+      {
+        "value": "2019",
+        "label": "Founded",
+        "note": "Stanford AI Lab spinout"
+      }
+    ],
+    "company": [
+      "Snorkel AI emerged from research at Stanford's AI Lab and initially focused on programmatic data labeling. It has since expanded into data-development, evaluation, and simulation services for organizations training and deploying AI systems.",
+      "The company says its newer data-as-a-service offering combines software, synthetic data, and subject-matter expertise. That positioning places Snorkel between model developers that need reliable training and evaluation inputs and enterprise customers seeking more dependable AI applications."
+    ],
+    "why_it_matters": "Snorkel is a useful read-through on where value accumulates in the AI stack. If frontier models and enterprise agents require increasingly specialized data, environments, and evaluation, the suppliers of those inputs can become strategic infrastructure businesses.",
+    "valuation_history": [
+      {
+        "value": "$1B",
+        "date": "Aug 2021",
+        "round": "Series C"
+      },
+      {
+        "value": "$1.3B",
+        "date": "Apr 2025",
+        "round": "Series D"
+      },
+      {
+        "value": "$3.5B",
+        "date": "Sep 2026",
+        "round": "Series E"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2025",
+        "text": "Introduced its data-as-a-service offering, moving beyond a software-only positioning."
+      },
+      {
+        "date": "Sep 2026",
+        "text": "Raised $350M in a Series E led by Insight Partners and S32 at a $3.5B valuation."
+      }
+    ],
+    "takeaways": [
+      "High-quality AI data and evaluation can become more valuable as models move into complex, high-stakes workflows.",
+      "The Series E validates investor appetite for specialist infrastructure outside the model labs themselves.",
+      "A services-heavy data model can accelerate delivery but makes margin quality and expert-labor costs important to track.",
+      "Model builders, hyperscalers, and rival data providers can all pressure Snorkel's differentiation and pricing power."
+    ],
+    "quick_facts": [
+      {
+        "label": "Founded",
+        "value": "2019"
+      },
+      {
+        "label": "Headquarters",
+        "value": "Redwood City, California"
+      },
+      {
+        "label": "Co-founders",
+        "value": "Alex Ratner, Christopher Ré, and Braden Hancock"
+      },
+      {
+        "label": "Website",
+        "value": "snorkel.ai"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Snorkel AI: $350M Series E announcement",
+        "url": "https://snorkel.ai/blog/data-2-0-and-the-research-era-of-ai-data/"
+      },
+      {
+        "label": "TechCrunch: Snorkel AI Series E",
+        "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
+      },
+      {
+        "label": "Snorkel AI: company website",
+        "url": "https://snorkel.ai/"
+      }
+    ]
+  }
+}
