@@ -1,0 +1,78 @@
+{
+  "slug": "thinking-machines-lab",
+  "name": "Thinking Machines Lab",
+  "status": "Published",
+  "sector": "Artificial intelligence",
+  "summary": "Mira Murati's AI lab is building collaborative, multimodal AI systems and raised a record $2B seed round at a reported $12B valuation.",
+  "overview": "<p>Thinking Machines Lab is an AI research and product company founded by former OpenAI chief technology officer Mira Murati. It is pursuing multimodal systems designed for collaborative use and customization.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Reported valuation",
+      "value": "$12B",
+      "note": "July 2025 seed financing, reported by TechCrunch based on a company spokesperson.",
+      "source": "https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round/"
+    },
+    {
+      "label": "Latest disclosed financing",
+      "value": "$2B seed round",
+      "note": "Led by Andreessen Horowitz and reported in July 2025.",
+      "source": "https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round/"
+    }
+  ],
+  "directory_rank": 38,
+  "bull_case": "An experienced frontier-AI team, unusually large initial financing, and a focus on customization could establish a credible alternative to the largest model labs.",
+  "bear_case": "The company must turn research talent and capital into differentiated products while competing with better-resourced incumbents and fast-moving open models.",
+  "latest_round": "July 2025: $2B seed round at a reported $12B valuation",
+  "directory_notes": [
+    "Product adoption, developer traction, and research differentiation.",
+    "Compute costs, talent retention, and competition from larger model labs."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "San Francisco, California",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=thinkingmachines.ai&sz=128",
+    "description": "Thinking Machines Lab is an AI research and product company developing collaborative, multimodal systems with an emphasis on customization.",
+    "metrics": [
+      {"value": "$12B", "label": "Reported valuation", "note": "July 2025 seed financing"},
+      {"value": "$2B", "label": "Latest disclosed financing", "note": "Seed round"},
+      {"value": "2025", "label": "Founded", "note": "Frontier AI lab"},
+      {"value": "Private", "label": "Public status", "note": "No IPO announced"}
+    ],
+    "company": [
+      "Thinking Machines Lab was founded in 2025 by Mira Murati and a group of former OpenAI researchers and leaders. Its stated ambition is to build multimodal AI that works naturally with people and supports collaborative use, rather than focusing solely on a single consumer assistant.",
+      "The company closed a reported $2 billion seed round in July 2025 at a $12 billion valuation. In 2026 it released Inkling, an open-weight model positioned around customization, giving outside observers an early product signal after its initial research-focused period."
+    ],
+    "why_it_matters": "Thinking Machines Lab shows how investors are valuing founder quality, research talent, and AI optionality before a mature commercial business exists. Its progress is relevant to the competitive structure of frontier models, open-weight distribution, and the economics of building a new AI lab.",
+    "valuation_history": [
+      {"value": "Private", "date": "Feb 2025", "round": "Company launch"},
+      {"value": "$12B", "date": "Jul 2025", "round": "$2B seed financing"}
+    ],
+    "changed": [
+      {"date": "Feb 2025", "text": "Mira Murati introduces Thinking Machines Lab and its collaborative-AI mission."},
+      {"date": "Jul 2025", "text": "The company closes a reported $2B seed round at a $12B valuation."},
+      {"date": "Jul 2026", "text": "Thinking Machines releases Inkling, providing its first visible product and model-distribution signal."}
+    ],
+    "takeaways": [
+      "The reported $12B valuation reflects investor confidence in the team and research opportunity more than a mature revenue base.",
+      "Inkling gives the company an early test of its customization thesis and developer distribution strategy.",
+      "Competing for frontier talent and compute remains expensive, even after a record-sized seed round.",
+      "The most important proof point is whether products build durable user and enterprise demand beyond attention to the founding team."
+    ],
+    "quick_facts": [
+      ["Founded", "2025"],
+      ["Headquarters", "San Francisco, California"],
+      ["Founder and CEO", "Mira Murati"],
+      ["Focus", "Collaborative multimodal AI"],
+      ["Website", "thinkingmachines.ai"],
+      ["Public status", "Private"]
+    ],
+    "sources": [
+      {"label": "TechCrunch: $2B seed financing and reported valuation", "url": "https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round/"},
+      {"label": "Axios: Inkling model release", "url": "https://www.axios.com/2026/07/15/mira-murati-thinking-machines-open-weight-model-inkling"},
+      {"label": "Thinking Machines Lab website", "url": "https://thinkingmachines.ai/"}
+    ]
+  }
+}
