@@ -1,38 +1,43 @@
 {
   "slug": "arcana",
   "name": "Arcana",
-  "status": "Draft",
-  "sector": "Artificial intelligence",
-  "summary": "Draft profile held for verification before publication.",
-  "overview": "<p>This profile is not published because a verified operating company, product, and financing record could not be established for the listed domain.</p>",
+  "status": "Published",
+  "sector": "AI media production",
+  "summary": "Arcana Labs is an AI-powered content-production platform and studio. It emerged from stealth in April 2025 with $5.5 million of disclosed funding; the company's valuation was not disclosed.",
+  "overview": "<p>Arcana Labs builds an AI-powered content-production platform and studio for filmmakers, production companies, brands and marketers. Its April 2025 financing was publicly announced, while the valuation was not disclosed.</p>",
   "as_of": "2026-09-27",
   "facts": [
     {
-      "label": "Financing stage",
-      "value": "Seed",
-      "note": "Private company; its precise valuation has not been publicly disclosed.",
-      "source": "https://arcana.ai"
+      "label": "Latest disclosed financing",
+      "value": "April 2025: $5.5M funding",
+      "note": "Arcana Labs announced the financing when it emerged from stealth; no valuation was disclosed.",
+      "source": "https://www.globenewswire.com/news-release/2025/04/16/3062985/0/en/Arcana-Labs-Emerges-from-Stealth-with-5-5M-in-Funding-to-Disrupt-Hollywood-with-its-AI-Powered-Content-Production-Software-and-Studio.html"
     }
   ],
   "directory_rank": 85,
-  "bull_case": "An early-stage AI product can compound rapidly if it proves a differentiated workflow and earns a repeatable distribution channel. The opportunity is real, but public evidence does not yet allow a more specific underwriting case.",
-  "bear_case": "The company's product, financing and customer disclosures are too limited for a valuation-based thesis. Until Arcana publishes more evidence, readers should treat the profile as a watchlist entry rather than a fully underwritten investment case.",
-  "latest_round": "Seed financing; valuation undisclosed",
+  "bull_case": "A production workflow that combines generative tools, services and education can become embedded in a creator or brand pipeline if it produces consistently useful output and distribution.",
+  "bear_case": "Creative-AI tooling is crowded and rapidly changing. Arcana still has limited public operating disclosure, and the $5.5M financing does not establish a public valuation benchmark.",
+  "latest_round": "April 2025: $5.5M funding; valuation undisclosed",
   "directory_notes": [
     "Early-stage AI",
     "Seed stage; valuation undisclosed."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Undisclosed",
+    "location": "Los Angeles, California, United States",
     "status": "Private",
     "logo": "/logos/arcana.jpg",
-    "description": "An early-stage artificial-intelligence company with limited public operating disclosure.",
+    "description": "AI-powered content-production platform and studio for filmmaking, advertising and branded production.",
     "metrics": [
       {
         "value": "Undisclosed",
         "label": "Latest valuation",
-        "note": "Seed financing"
+        "note": "No public valuation disclosed with the April 2025 financing"
+      },
+      {
+        "value": "$5.5M",
+        "label": "Latest funding",
+        "note": "April 2025 financing announced by Arcana Labs"
       },
       {
         "value": "Private",
@@ -40,7 +45,7 @@
         "note": "No confirmed listing"
       },
       {
-        "value": "Artificial intelligence",
+        "value": "AI media production",
         "label": "Business focus",
         "note": "Company profile"
       },
@@ -51,47 +56,45 @@
       }
     ],
     "company": [
-      "Arcana is tracked as a seed-stage AI company. Its public footprint does not currently provide enough reliable detail to characterise its product, customer base or revenue model beyond that classification.",
-      "No precise valuation or completed financing amount has been substantiated in public sources reviewed for this profile. The profile will be expanded when a company announcement or reputable reporting supports a specific operating or funding claim."
+      "Arcana Labs operates an AI-powered content-production platform and studio aimed at filmmakers, production companies, brands and marketing organizations. The company says its offering combines software with production services and an education initiative for creative professionals.",
+      "Arcana Labs emerged from stealth in April 2025 with $5.5 million of announced funding. The financing confirms the company and its product focus, but neither the company nor its investors disclosed a valuation, so the directory does not assign one."
     ],
-    "why_it_matters": "The responsible treatment of early-stage companies is to distinguish a credible watchlist entry from an investment conclusion. Arcana remains monitored for an announced round, product launch or customer evidence that can support a fuller profile.",
+    "why_it_matters": "Arcana sits at the intersection of generative AI and the creative-production workflow, where the durable opportunity is not just image or video generation but production coordination and customer relationships. Its progress is useful for assessing whether AI-native studios can build repeatable services and software revenue together.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "Seed"
+        "value": "$5.5M funding",
+        "date": "Apr 2025",
+        "round": "Emergence from stealth; valuation undisclosed"
       }
     ],
     "changed": [
       {
-        "date": "Sep 2026",
-        "text": "Profile retained at seed stage after review found no substantiated valuation or detailed operating disclosure."
+        "date": "Apr 2025",
+        "text": "Arcana Labs emerged from stealth and announced $5.5M of funding for its AI production platform, studio and academy."
       }
     ],
     "takeaways": [
-      "Arcana is classified as seed-stage; no precise public valuation is supported.",
-      "The current public record does not justify invented customer, revenue or product claims.",
-      "A company announcement or reputable funding report is required before expanding the underwriting case."
+      "Arcana Labs has a disclosed $5.5M financing, but no disclosed valuation.",
+      "The company combines software, creative production services and education rather than a single-purpose model API.",
+      "Its underwriting case depends on proof that AI production workflows can create durable customer and distribution advantages."
     ],
     "quick_facts": [
       [
         "Focus",
-        "Artificial intelligence"
+        "AI media production"
+      ],
+      [
+        "Latest funding",
+        "$5.5M, April 2025"
       ],
       [
         "Website",
         "arcana.ai"
-      ],
-      [
-        "Public status",
-        "Private"
       ]
     ],
     "sources": [
-      {
-        "label": "Company website",
-        "url": "https://arcana.ai"
-      }
+      {"label": "Arcana Labs: $5.5M financing announcement", "url": "https://www.globenewswire.com/news-release/2025/04/16/3062985/0/en/Arcana-Labs-Emerges-from-Stealth-with-5-5M-in-Funding-to-Disrupt-Hollywood-with-its-AI-Powered-Content-Production-Software-and-Studio.html"},
+      {"label": "SEMCAP: Arcana Labs investment", "url": "https://www.globenewswire.com/news-release/2025/04/22/3065610/0/en/SEMCAP-Launches-SEMCAP-AI-to-Capitalize-on-the-Transformative-Power-of-Artificial-Intelligence.html"}
     ]
   }
 }
