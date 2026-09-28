@@ -1,52 +1,188 @@
 {
-  "title": "The IPO calendar",
-  "intro": "The major private companies closest to a public-market decision, separated by what is filed, reported, and still unconfirmed.",
-  "as_of": "September 28, 2026",
-  "calendar": {
-    "month": "October 2026",
-    "year": 2026,
-    "month_number": 10
-  },
-  "disclaimer": "Valuations are the latest publicly reported private-market figures. Timing is not issuer guidance unless a filing has been disclosed; this is a watchlist, not an offering calendar.",
-  "earnings": [
-    {"date":13,"company":"JPMorgan Chase","ticker":"JPM","timing":"Before open","confidence":"Confirmed","source":"https://www.jpmorganchase.com/ir/news/2026/jpmc-to-host-third-quarter-2026-earnings-call","impact":"JPMorgan's lending, deal pipeline, and capital-markets commentary is a read-through on private-company financing conditions. Watch for signals affecting Stripe, Brex, and Ramp."},
-    {"date":15,"company":"TSMC","ticker":"TSM","timing":"2:00 a.m. ET","confidence":"Confirmed","source":"https://investor.tsmc.com/english/quarterly-results/2026/q3","impact":"TSMC's capacity and advanced-node outlook shapes the supply of the chips behind AI hardware. It matters for Groq, xAI, and Figure AI."},
-    {"date":22,"company":"Blackstone","ticker":"BX","timing":"Time TBA","confidence":"Estimated","source":"https://www.earningstoday.com/earnings-calendar/monthly/2026-10","impact":"Blackstone's deployment and fundraising commentary helps frame demand for private credit and secondary liquidity. It is relevant to Stripe, Canva, and Databricks."},
-    {"date":27,"company":"Visa","ticker":"V","timing":"After close","confidence":"Estimated","source":"https://spzco.com/calendar/earnings/2026-W44","impact":"Visa's payment-volume and cross-border trends are a useful demand signal for fintech infrastructure. Watch the read-through for Stripe, Plaid, and Ramp."},
-    {"date":28,"company":"Alphabet","ticker":"GOOGL","timing":"After close","confidence":"Estimated","source":"https://www.theta.md/earnings","impact":"Google Cloud growth and AI spending reset the competitive backdrop for model and data companies. It affects Isomorphic Labs, Waymo, and Anthropic."},
-    {"date":28,"company":"Meta","ticker":"META","timing":"After close","confidence":"Estimated","source":"https://www.theta.md/earnings","impact":"Meta's AI capex and open-model strategy shape the economics of training and distribution. It matters for Mistral AI, Hugging Face, and xAI."},
-    {"date":28,"company":"Microsoft","ticker":"MSFT","timing":"After close","confidence":"Estimated","source":"https://www.theta.md/earnings","impact":"Azure demand and AI infrastructure spending remain central to the financing environment for frontier models. It affects OpenAI, Cohere, and Mistral AI."},
-    {"date":29,"company":"Apple","ticker":"AAPL","timing":"After close","confidence":"Estimated","source":"https://www.theta.md/earnings","impact":"Apple's services and platform-policy commentary matters for companies dependent on mobile distribution. It affects Discord, Perplexity, and Polymarket."},
-    {"date":29,"company":"Amazon","ticker":"AMZN","timing":"After close","confidence":"Estimated","source":"https://www.theta.md/earnings","impact":"AWS growth and Amazon's AI capex are direct signals for cloud demand and startup infrastructure costs. It affects Anthropic, Scale AI, and Stripe."},
-    {"date":29,"company":"Mastercard","ticker":"MA","timing":"Before open","confidence":"Estimated","source":"https://spzco.com/calendar/earnings/2026-W44","impact":"Mastercard's transaction and cross-border data provides a consumer-spending read-through for private fintech. It affects Stripe, Plaid, and Ramp."}
-  ],
-  "periods": [
-    {
-      "label": "Active filing",
-      "title": "A transaction is in motion",
-      "description": "Companies with a reported public filing or a specific reported listing window.",
-      "items": [
-        {"company":"Anthropic","sector":"Frontier AI","valuation":"$965B reported","status":"Filed","note":"Anthropic announced a confidential U.S. IPO filing in June. The filing starts the process, but it does not establish a pricing date.","source":"https://www.axios.com/2026/06/01/anthropic-ipo-openai"},
-        {"company":"Oura","company_slug":"oura","sector":"Health wearables","valuation":"$40–$44 proposed range","status":"Expected Sep. 30","date":30,"month":9,"note":"Oura is expected to begin trading on Nasdaq under OURA on September 30, following pricing on September 29. The offering remains subject to final pricing and market conditions.","source":"https://ipox.squarespace.com/ipo-calendar/ura"}
-      ]
+    "title": "The $5B+ IPO calendar.",
+    "intro": "The major private companies closest to a public-market decision, separated by what is filed, reported, and still unconfirmed.",
+    "as_of": "September 28, 2026",
+    "calendar": {
+        "month": "October 2026",
+        "year": 2026,
+        "month_number": 10
     },
-    {
-      "label": "2027 watch",
-      "title": "Large, but not dated",
-      "description": "Major candidates that have reported preparation or a credible public-market path without a confirmed offer date.",
-      "items": [
-        {"company":"OpenAI","sector":"Frontier AI","valuation":"$852B reported","status":"Watchlist","note":"OpenAI remains one of the market’s defining future listings, but reporting points to a later timetable rather than a 2026 debut.","source":"https://www.kiplinger.com/investing/stocks/upcoming-ipos"},
-        {"company":"Databricks","sector":"Data & AI infrastructure","valuation":"$190B reported","status":"Watchlist","note":"Databricks has a mature operating profile, but its CEO has said 2027 is the earliest potential IPO window and that no confidential S-1 has been filed.","source":"https://global.morningstar.com/en-eu/stocks/ahead-an-ipo-math-behind-databricks-usd-190-billion-valuation-doesnt-add-up"}
-      ]
-    },
-    {
-      "label": "No timetable",
-      "title": "Private-market giants to monitor",
-      "description": "Important $5B+ companies where a public debut remains possible but unannounced.",
-      "items": [
-        {"company":"Stripe","sector":"Payments infrastructure","valuation":"$159B reported","status":"No timetable","note":"Stripe’s latest reported valuation reinforced its scale, while the company continues to keep investors waiting for a public-market debut.","source":"https://www.bloomberg.com/news/articles/2026-02-24/stripe-hits-159-billion-valuation-as-payment-volume-soars"},
-        {"company":"Canva","sector":"Design software","valuation":"$42B reported","status":"No timetable","note":"Canva is a large software company frequently discussed as an IPO candidate, but it has not announced a listing timetable.","source":"https://www.kiplinger.com/investing/stocks/upcoming-ipos"}
-      ]
+    "disclaimer": "Valuations are the latest publicly reported private-market figures. Timing is not issuer guidance unless a filing has been disclosed; this is a watchlist, not an offering calendar.",
+    "earnings": [
+        {
+            "date": 13,
+            "company": "JPMorgan Chase",
+            "ticker": "JPM",
+            "timing": "Before open",
+            "confidence": "Confirmed",
+            "source": "https://www.jpmorganchase.com/ir/news/2026/jpmc-to-host-third-quarter-2026-earnings-call",
+            "impact": "JPMorgan's lending, deal pipeline, and capital-markets commentary is a read-through on private-company financing conditions. Watch for signals affecting Stripe, Brex, and Ramp."
+        },
+        {
+            "date": 15,
+            "company": "TSMC",
+            "ticker": "TSM",
+            "timing": "2:00 a.m. ET",
+            "confidence": "Confirmed",
+            "source": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
+            "impact": "TSMC's capacity and advanced-node outlook shapes the supply of the chips behind AI hardware. It matters for Groq, xAI, and Figure AI."
+        },
+        {
+            "date": 22,
+            "company": "Blackstone",
+            "ticker": "BX",
+            "timing": "Time TBA",
+            "confidence": "Estimated",
+            "source": "https://www.earningstoday.com/earnings-calendar/monthly/2026-10",
+            "impact": "Blackstone's deployment and fundraising commentary helps frame demand for private credit and secondary liquidity. It is relevant to Stripe, Canva, and Databricks."
+        },
+        {
+            "date": 27,
+            "company": "Visa",
+            "ticker": "V",
+            "timing": "After close",
+            "confidence": "Estimated",
+            "source": "https://spzco.com/calendar/earnings/2026-W44",
+            "impact": "Visa's payment-volume and cross-border trends are a useful demand signal for fintech infrastructure. Watch the read-through for Stripe, Plaid, and Ramp."
+        },
+        {
+            "date": 28,
+            "company": "Alphabet",
+            "ticker": "GOOGL",
+            "timing": "After close",
+            "confidence": "Estimated",
+            "source": "https://www.theta.md/earnings",
+            "impact": "Google Cloud growth and AI spending reset the competitive backdrop for model and data companies. It affects Isomorphic Labs, Waymo, and Anthropic."
+        },
+        {
+            "date": 28,
+            "company": "Meta",
+            "ticker": "META",
+            "timing": "After close",
+            "confidence": "Estimated",
+            "source": "https://www.theta.md/earnings",
+            "impact": "Meta's AI capex and open-model strategy shape the economics of training and distribution. It matters for Mistral AI, Hugging Face, and xAI."
+        },
+        {
+            "date": 28,
+            "company": "Microsoft",
+            "ticker": "MSFT",
+            "timing": "After close",
+            "confidence": "Estimated",
+            "source": "https://www.theta.md/earnings",
+            "impact": "Azure demand and AI infrastructure spending remain central to the financing environment for frontier models. It affects OpenAI, Cohere, and Mistral AI."
+        },
+        {
+            "date": 29,
+            "company": "Apple",
+            "ticker": "AAPL",
+            "timing": "After close",
+            "confidence": "Estimated",
+            "source": "https://www.theta.md/earnings",
+            "impact": "Apple's services and platform-policy commentary matters for companies dependent on mobile distribution. It affects Discord, Perplexity, and Polymarket."
+        },
+        {
+            "date": 29,
+            "company": "Amazon",
+            "ticker": "AMZN",
+            "timing": "After close",
+            "confidence": "Estimated",
+            "source": "https://www.theta.md/earnings",
+            "impact": "AWS growth and Amazon's AI capex are direct signals for cloud demand and startup infrastructure costs. It affects Anthropic, Scale AI, and Stripe."
+        },
+        {
+            "date": 29,
+            "company": "Mastercard",
+            "ticker": "MA",
+            "timing": "Before open",
+            "confidence": "Estimated",
+            "source": "https://spzco.com/calendar/earnings/2026-W44",
+            "impact": "Mastercard's transaction and cross-border data provides a consumer-spending read-through for private fintech. It affects Stripe, Plaid, and Ramp."
+        }
+    ],
+    "periods": [
+        {
+            "label": "Active filing",
+            "title": "A transaction is in motion",
+            "description": "Companies with a reported public filing or a specific reported listing window.",
+            "items": [
+                {
+                    "company": "Oura",
+                    "sector": "Health tech",
+                    "valuation": "$2.6B reported",
+                    "status": "Expected",
+                    "date": "Sep 30",
+                    "note": "Oura Ring maker expected to list September 30, 2026 via SPAC merger.",
+                    "source": "https://www.reuters.com/markets/ipo/oura-health-oy-2024-08-07/"
+                },
+                {
+                    "company": "Anthropic",
+                    "sector": "Frontier AI",
+                    "valuation": "$965B reported",
+                    "status": "Filed",
+                    "note": "Anthropic announced a confidential U.S. IPO filing in June. The filing starts the process, but it does not establish a pricing date.",
+                    "source": "https://www.axios.com/2026/06/01/anthropic-ipo-openai"
+                },
+                {
+                    "company": "SpaceX",
+                    "sector": "Space & communications",
+                    "valuation": "~$1.75T reported target",
+                    "status": "Reported window",
+                    "note": "Reporting has framed SpaceX as a potential record-setting listing, but no public registration statement or confirmed date is available.",
+                    "source": "https://www.kiplinger.com/retirement/retirement-planning/spacex-anthropic-openai-ipos-what-retirees-need-to-know-now"
+                }
+            ]
+        },
+        {
+            "label": "2027 watch",
+            "title": "Large, but not dated",
+            "description": "Major candidates that have reported preparation or a credible public-market path without a confirmed offer date.",
+            "items": [
+                {
+                    "company": "OpenAI",
+                    "sector": "Frontier AI",
+                    "valuation": "$852B reported",
+                    "status": "Watchlist",
+                    "note": "OpenAI remains one of the market\u2019s defining future listings, but reporting points to a later timetable rather than a 2026 debut.",
+                    "source": "https://www.kiplinger.com/investing/stocks/upcoming-ipos"
+                },
+                {
+                    "company": "Databricks",
+                    "sector": "Data & AI infrastructure",
+                    "valuation": "$190B reported",
+                    "status": "Watchlist",
+                    "note": "Databricks has a mature operating profile, but its CEO has said 2027 is the earliest potential IPO window and that no confidential S-1 has been filed.",
+                    "source": "https://global.morningstar.com/en-eu/stocks/ahead-an-ipo-math-behind-databricks-usd-190-billion-valuation-doesnt-add-up"
+                }
+            ]
+        },
+        {
+            "label": "No timetable",
+            "title": "Private-market giants to monitor",
+            "description": "Important $5B+ companies where a public debut remains possible but unannounced.",
+            "items": [
+                {
+                    "company": "Stripe",
+                    "sector": "Payments infrastructure",
+                    "valuation": "$159B reported",
+                    "status": "No timetable",
+                    "note": "Stripe\u2019s latest reported valuation reinforced its scale, while the company continues to keep investors waiting for a public-market debut.",
+                    "source": "https://www.bloomberg.com/news/articles/2026-02-24/stripe-hits-159-billion-valuation-as-payment-volume-soars"
+                },
+                {
+                    "company": "Canva",
+                    "sector": "Design software",
+                    "valuation": "$42B reported",
+                    "status": "No timetable",
+                    "note": "Canva is a large software company frequently discussed as an IPO candidate, but it has not announced a listing timetable.",
+                    "source": "https://www.kiplinger.com/investing/stocks/upcoming-ipos"
+                }
+            ]
+        }
+    ],
+    "calendar_september": {
+        "month": "September 2026",
+        "year": 2026,
+        "month_number": 9
     }
-  ]
 }
