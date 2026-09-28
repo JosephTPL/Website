@@ -76,7 +76,7 @@ def intelligence_profile(c):
  history=''.join(f'<li><strong>{E(item["value"])}</strong><span>→</span><small>{E(item["date"])}</small><em>{E(item["round"])}</em></li>' for item in d['valuation_history'])
  changed=''.join(f'<li><time>{E(item["date"])}</time><p>{E(item["text"])}</p></li>' for item in d['changed'])
  takeaways=''.join(f'<li><span>{i:02d}</span><p>{E(item)}</p></li>' for i,item in enumerate(d['takeaways'],1))
- quick=''.join(f'<dt>{E(label)}</dt><dd>{E(value)}</dd>' for label,value in d['quick_facts'])
+ quick=''.join(f'<dt>{E(item.get("label", ""))}</dt><dd>{E(item.get("value", ""))}</dd>' if isinstance(item,dict) else f'<dt>{E(item[0])}</dt><dd>{E(item[1])}</dd>' for item in d['quick_facts'])
  sources=''.join(f'<li><a href="{E(item["url"])}">{E(item["label"])} <span>↗</span></a></li>' for item in d['sources'])
  logo=f'<img src="{E(d["logo"])}" alt="{E(c["name"])} logo" loading="lazy">' if d.get('logo') else ''
  return f'''<section class="intelligence-profile">
@@ -281,7 +281,7 @@ for company in companies.values():
   logo=company.get('intelligence',{}).get('logo','')
   match=re.search(r'domain=([^&]+)',logo)
   domain=match.group(1) if match else company['slug']+'.com'
- profile_directory.append([company['name'],profile_valuations.get(company['name'].lower(),'Undisclosed'),domain])
+ profile_directory.append([company['name'],profile_valuations.get(company['name'].lower(),'Undisclosed'),domain,company.get('intelligence',{}).get('status','Private')])
 directory_script=OUT/'companies.js'
 directory_script.write_text(directory_script.read_text().replace('/* PROFILE_SLUGS */',json.dumps(profile_slugs,sort_keys=True)).replace('/* PROFILE_VALUATIONS */',json.dumps(profile_valuations,sort_keys=True)).replace('/* PROFILE_DIRECTORY */',json.dumps(profile_directory,sort_keys=True)))
 # The landing page is a concise weekly briefing; the two archives remain separate.
@@ -386,11 +386,11 @@ for company in companies.values():
  main.append(subscribe);main.append(footer);write(s,route)
 
 # A separate, editorial directory makes the company universe useful even when no long-form report exists yet.
-s=shell('home','Companies','A concise directory of notable private companies.','/companies/')
+s=shell('home','Companies','A concise directory of notable private companies and former private companies covered by The Private Ledger.','/companies/')
 s.body['data-page-view']='companies'
 configure_nav(s,'companies')
 main=s.select_one('main');main.clear()
-put(main,'<section class="company-directory"><header class="directory-head"><p class="overline">THE PRIVATE LEDGER / COMPANY DIRECTORY</p><h1>Companies to know <em>before</em> they go public.</h1><p>A living editorial watchlist of 50 notable private businesses. Each card captures the business, the latest disclosed financing context, and the argument on both sides.</p><div class="directory-disclaimer"><strong>AI-assisted editorial notes.</strong> Bull and bear cases are research prompts, not investment advice. Funding information reflects the latest public disclosure recorded in each profile.</div></header><section class="directory-tools" aria-label="Search companies"><label class="search"><input id="company-search" type="search" placeholder="Search a company or sector…" aria-label="Search companies"></label><span id="company-result-count"></span></section><div class="company-directory-grid" id="company-directory-grid"></div></section>')
+put(main,'<section class="company-directory"><header class="directory-head"><p class="overline">THE PRIVATE LEDGER / COMPANY DIRECTORY</p><h1>Companies to know <em>before</em> they go public.</h1><p>A living editorial watchlist of notable private businesses, alongside former private companies covered by The Ledger. Each card captures the business, the latest disclosed financing context, and the argument on both sides.</p><div class="directory-disclaimer"><strong>AI-assisted editorial notes.</strong> Bull and bear cases are research prompts, not investment advice. Funding information reflects the latest public disclosure recorded in each profile.</div></header><section class="directory-tools" aria-label="Search companies"><label class="search"><input id="company-search" type="search" placeholder="Search a company or sector…" aria-label="Search companies"></label><span id="company-result-count"></span></section><div class="company-directory-grid" id="company-directory-grid"></div></section>')
 grid=s.select_one('#company-directory-grid')
 for i,c in enumerate(sorted(companies.values(),key=lambda x:(x.get('directory_rank',999),x['name']))):
  notes=''.join('<li>'+E(note)+'</li>' for note in c.get('directory_notes',[])[:2])
