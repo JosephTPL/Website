@@ -112,3 +112,29 @@ main{margin-top:72px;margin-left:238px;padding:46px 54px 0;max-width:1780px}.pag
 
 /* Public-company earnings are catalysts, not IPO events. */
 .earnings-event{width:100%;border:0;border-left:3px solid #526c84;background:#edf0f4;color:#233d52;text-align:left;cursor:pointer}.earnings-event strong{display:block}.earnings-event>span{display:block;margin-top:3px;font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:#557064}.earnings-event[aria-pressed="true"]{background:#17222d;border-left-color:#e6ba67;color:#fff}.earnings-event[aria-pressed="true"]>span{color:#d9e3e9}.earnings-detail{border-left:1px solid #dcd6ca;background:#f5f3ee;padding:20px}.earnings-detail .overline{margin:0 0 9px;color:#9a6a26;font-size:.66rem;font-weight:700;letter-spacing:.1em}.earnings-detail h3{font-family:'Newsreader',Georgia,serif;font-size:1.65rem;font-weight:500;margin:0 0 8px;color:#173549}.earnings-detail p{font-size:.86rem;line-height:1.58;color:#52616a;margin:0 0 13px}.earnings-detail .earnings-timing{font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#7b653d}.earnings-detail a{font-size:.78rem;font-weight:700;color:#79521e;text-decoration:none}@media(min-width:701px){.ipo-month{display:grid;grid-template-columns:minmax(0,1fr) 300px}.ipo-month>header,.ipo-weekdays,.ipo-empty{grid-column:1/-1}.ipo-month-grid{grid-column:1}.earnings-detail{grid-column:2;grid-row:3}}@media(max-width:700px){.earnings-detail{border-left:0;border-top:1px solid #dcd6ca}.earnings-event{min-width:0}}
+
+/* IPO Calendar view toggle for mobile responsiveness */
+.ipo-view-toggle{display:flex;gap:8px;margin:0 0 24px;border-bottom:1px solid var(--line);padding-bottom:16px}.view-toggle{min-height:42px;border:1px solid #d8d0c1;background:#fff;color:#526879;padding:9px 18px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;cursor:pointer;border-radius:0;transition:background .12s ease,border-color .12s ease,color .12s ease}.view-toggle:hover{border-color:#9bacba}.view-toggle.active{background:var(--navy);border-color:var(--navy);color:#fff}.ipo-view-content{display:none}.ipo-view-content[style*="display:block"]{display:block!important}
+
+/* IPO earnings list view */
+.ipo-earnings-list{margin:0 0 50px;border:1px solid #dcd6ca;background:#fff}.ipo-earnings-list header{padding:22px 26px;border-bottom:1px solid #dcd6ca}.ipo-earnings-list .overline{margin:0 0 9px;color:#9a6a26;font-size:.7rem;font-weight:700;letter-spacing:.12em}.ipo-earnings-list h2{font-family:Georgia,serif;font-size:2.15rem;letter-spacing:-.04em;margin:6px 0 0;color:#10283a}.ipo-earnings-list header>p:last-of-type{font-size:.88rem;line-height:1.55;color:#61717b;margin:12px 0 0}.earnings-list-items{display:flex;flex-direction:column}.ipo-list-item{display:grid;gap:14px;padding:20px 26px;border-bottom:1px solid #e3ded5;transition:background .12s ease}.ipo-list-item:last-child{border-bottom:0}.ipo-list-item:hover{background:#faf9f6}.ipo-list-item header{display:flex;gap:16px;align-items:center}.ipo-list-item strong{font-family:Georgia,serif;font-size:1.4rem;letter-spacing:-.02em;color:#10283a}.ipo-list-item .ticker{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:#8b6b40}.ipo-list-item .timing{font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#7b653d;margin:0}.ipo-list-item .confidence{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:#567082;margin:6px 0 0}.ipo-list-item .earnings-event-mini{background:transparent;border:1px solid #c9c5bc;color:#34424a;padding:8px 11px;font-size:11px;letter-spacing:.07em;text-transform:uppercase;border-radius:0;cursor:pointer;margin-top:8px}.ipo-list-item .earnings-event-mini:hover{background:#efede7}
+
+/* Responsive adjustments for calendar and list views */
+@media(max-width:900px){.ipo-view-toggle{justify-content:center}}
+@media(max-width:700px){
+  .ipo-view-toggle{margin:0 0 20px;padding-bottom:14px;gap:6px;justify-content:center}
+  .view-toggle{padding:8px 14px;font-size:11px;min-height:40px}
+  .ipo-earnings-list{margin:0 0 30px;border-left:0;border-right:0;border-radius:0}
+  .ipo-earnings-list header{padding:20px}
+  .ipo-earnings-list h2{font-size:1.8rem}
+  .ipo-list-item{grid-template-columns:1fr;gap:12px;padding:18px 20px}
+  .ipo-list-item header{flex-direction:column;gap:8px;align-items:flex-start}
+  .ipo-list-item strong{font-size:1.35rem}
+}
+@media(max-width:560px){
+  .ipo-view-toggle{gap:4px;padding-bottom:12px}
+  .view-toggle{padding:8px 12px;font-size:10px;letter-spacing:.1em}
+  .ipo-list-item strong{font-size:1.2rem}
+  .ipo-earnings-list header{padding:16px}
+  .ipo-list-item{padding:14px 16px}
+}

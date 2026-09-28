@@ -174,12 +174,12 @@ grid=s.select_one('#research-grid');grid.clear()
 for i,a in enumerate(ordered):
  name=a.get('card_title') or a['title'];img=f'<img src="{E(a["cover_image"])}" alt="{E(a.get("cover_alt",name))}" loading="lazy" decoding="async">' if a.get('cover_image') else ''
  kind='General articles' if a['sector']=='Insights' else 'Deep dive'
-   else:
-    prior_day=calendar.monthrange(year if month_number>1 else year-1,month_number-1 or 12)[1]-week.count(0)+cells.__len__()+1
-    entries=''.join(event_markup(item) for item in lead_in_events.get(str(prior_day),[])) if week_index==0 else ''
-    aria_hidden=' aria-hidden="true"' if not entries else ''
-    content=f'<span>Sep {prior_day}</span>{entries}' if entries else ''
-    cells.append(f'<div class="ipo-day is-outside"{aria_hidden}>{content}</div>')
+ markup=f'''<article class="card" data-slug="{a['slug']}" data-sector="{E(a['sector'])}" data-kind="{E(kind)}" data-order="{i}" data-name="{E(name)}" data-search="{E(name+' '+a['summary']+' '+a['sector'])}"><a class="card-cover cover-refined" href="{a['url']}" aria-label="Read {E(name)}">{img}<span class="cover-caption">{E(settings['site_name'].upper())}</span></a><div class="card-content"><span class="sector-inline">{E(kind if kind=='General articles' else a['sector'])}</span><h3><a href="{a['url']}">{E(name)}</a></h3><p class="description">{E(a['summary'])}</p><div class="card-meta"><span>{date_text(a['date'])}</span><span>{a['minutes']} min</span></div><a class="read-button" href="{a['url']}">Read {'article' if kind=='General articles' else 'research'} →</a><button class="card-save" type="button" data-save="{a['slug']}" aria-pressed="false">Save for later</button></div></article>'''
+ put(grid,markup)
+write(s,'/research/')
+
+# Keep the former archive URL working while directing readers to the unified Research page.
+legacy=soup('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>General articles | The Private Ledger</title><meta http-equiv="refresh" content="0; url=/research/?type=articles"><link rel="canonical" href="/research/?type=articles"></head><body><p>General articles are now part of <a href="/research/?type=articles">Research</a>.</p></body></html>')
 write(legacy,'/insights/')
 
 for a in ordered:
