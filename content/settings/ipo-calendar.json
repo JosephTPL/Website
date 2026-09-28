@@ -1,7 +1,7 @@
 {
   "title": "The $5B+ IPO calendar.",
   "intro": "The major private companies closest to a public-market decision, separated by what is filed, reported, and still unconfirmed.",
-  "as_of": "September 23, 2026",
+  "as_of": "September 28, 2026",
   "calendar": {
     "month": "October 2026",
     "year": 2026,
@@ -27,6 +27,7 @@
       "description": "Companies with a reported public filing or a specific reported listing window.",
       "items": [
         {"company":"Anthropic","sector":"Frontier AI","valuation":"$965B reported","status":"Filed","note":"Anthropic announced a confidential U.S. IPO filing in June. The filing starts the process, but it does not establish a pricing date.","source":"https://www.axios.com/2026/06/01/anthropic-ipo-openai"},
+        {"company":"Oura","sector":"Health wearables","valuation":"$40–$44 proposed range","status":"Filed","note":"Oura’s amended S-1 outlines a proposed $40–$44 share-price range and a Nasdaq listing under OURA. The registration statement remains preliminary and does not confirm a trading date.","source":"https://www.sec.gov/Archives/edgar/data/2133022/000119312526396051/d119865ds1a.htm"},
         {"company":"SpaceX","sector":"Space & communications","valuation":"~$1.75T reported target","status":"Reported window","note":"Reporting has framed SpaceX as a potential record-setting listing, but no public registration statement or confirmed date is available.","source":"https://www.kiplinger.com/retirement/retirement-planning/spacex-anthropic-openai-ipos-what-retirees-need-to-know-now"}
       ]
     },
