@@ -24,7 +24,7 @@
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "United States",
+    "location": "New York and El Segundo, California",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=lumaril.com&sz=128",
     "description": "Industrial-intelligence software that connects to existing control systems to improve plant operations.",
@@ -90,8 +90,12 @@
     ],
     "sources": [
       {
-        "label": "Company website",
+        "label": "Lumaril: industrial-intelligence platform",
         "url": "https://lumaril.com"
+      },
+      {
+        "label": "Lux Capital portfolio: Lumaril",
+        "url": "https://www.luxcapital.com/companies/lumaril"
       }
     ]
   }

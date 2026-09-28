@@ -89,8 +89,12 @@
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://quadrillion.com"
+      "label": "Quadrillion: research intelligence lab",
+      "url": "https://quadrillion.com"
+      },
+      {
+        "label": "Qualia product overview",
+        "url": "https://quadrillion.ai/qualia"
       }
     ]
   }

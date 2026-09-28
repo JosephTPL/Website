@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Undisclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
+      "value": "$15M seed",
+      "note": "Company site identifies a $15M seed; valuation was not disclosed.",
       "source": "https://www.trajectory.ai/"
     }
   ],
   "directory_rank": 69,
   "bull_case": "A dependable feedback loop between production usage and post-training could become essential infrastructure as companies move from static models to continuously improving AI products.",
   "bear_case": "Continual learning carries technical, data-governance and evaluation challenges. The company has not publicly disclosed a financing or valuation, so commercial maturity remains hard to assess.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "2026: $15M seed; valuation undisclosed",
   "directory_notes": [
     "Technology",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Continual-learning platform that turns production signals into ongoing improvement for AI systems.",
     "metrics": [
       {
-        "value": "Undisclosed",
-        "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "value": "$15M",
+        "label": "Latest disclosed funding",
+        "note": "Seed; valuation undisclosed"
       },
       {
         "value": "Private",
@@ -57,21 +57,21 @@
     "why_it_matters": "Many AI products are limited by the gap between a base model and real-world usage. If Trajectory can close that loop safely and reliably, it addresses a foundational problem for companies building differentiated AI applications.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$15M",
+        "date": "2026",
+        "round": "Seed funding"
       }
     ],
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Trajectory identifies a $15M seed and describes its continual-learning platform on its public site."
       }
     ],
     "takeaways": [
       "Trajectory turns production signals into feedback for AI post-training.",
       "The company is building a continual-learning platform rather than a standalone consumer model.",
-      "No public financing or valuation is asserted in this profile."
+      "The company identifies a $15M seed; a valuation was not disclosed."
     ],
     "quick_facts": [
       [
@@ -89,8 +89,12 @@
     ],
     "sources": [
       {
-        "label": "Company website",
+        "label": "Trajectory: continual-learning platform",
         "url": "https://www.trajectory.ai/"
+      },
+      {
+        "label": "Bessemer portfolio: Trajectory",
+        "url": "https://www.bvp.com/portfolio/trajectory"
       }
     ]
   }

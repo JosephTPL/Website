@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Undisclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
+      "value": "Pre-seed fundraising disclosed",
+      "note": "Tacit states that it is raising pre-seed; no amount or valuation is publicly disclosed.",
       "source": "https://tacitlabs.ai"
     }
   ],
   "directory_rank": 40,
   "bull_case": "If Tacit can turn fragmented underwriting history into a trusted workflow layer, it can benefit from deep integration, proprietary customer data and recurring insurance-software spend.",
   "bear_case": "Insurance buyers require accuracy, explainability and regulatory discipline. The company has not publicly disclosed financing, valuation or commercial metrics, so its progress is difficult to independently assess.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "Pre-seed fundraising disclosed; amount and valuation not public",
   "directory_notes": [
     "Technical price intelligence",
     "Public financing and operating metrics are limited; the investment case depends on whether proprietary judgment tools become embedded in customer workflows."
@@ -65,7 +65,7 @@
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Tacit’s public materials state that it is raising pre-seed; no completed-round amount or valuation is disclosed."
       }
     ],
     "takeaways": [
@@ -90,7 +90,11 @@
     ],
     "sources": [
       {
-        "label": "Company website",
+        "label": "Tacit: underwriting product",
+        "url": "https://www.tacitlabs.ai/insurance"
+      },
+      {
+        "label": "Tacit: company brief",
         "url": "https://tacitlabs.ai"
       }
     ]
