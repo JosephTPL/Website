@@ -183,3 +183,22 @@
   refresh();
   if (!available) announce('Browser storage is unavailable. Saved articles and reading progress may not persist.');
 })();
+
+(() => {
+  const input = document.querySelector('#weekly-archive-search');
+  const items = [...document.querySelectorAll('[data-weekly-archive-item]')];
+  const count = document.querySelector('#weekly-archive-count');
+  const empty = document.querySelector('.weekly-archive-empty');
+  if (!input || !items.length) return;
+  const filter = () => {
+    const query = input.value.trim().toLowerCase();
+    const visible = items.filter(item => {
+      const matches = item.dataset.search.toLowerCase().includes(query);
+      item.hidden = !matches;
+      return matches;
+    });
+    count.textContent = `${visible.length} briefing${visible.length === 1 ? '' : 's'}`;
+    empty.hidden = visible.length !== 0;
+  };
+  input.addEventListener('input', filter);
+})();

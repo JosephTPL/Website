@@ -1,0 +1,13 @@
+{
+  "title": "Five things that moved private markets.",
+  "period": "September 21–27, 2026",
+  "next_update": "Sunday, October 4",
+  "intro": "Five source-backed developments from the most recently completed week, with the valuation context that matters for private-market investors.",
+  "items": [
+    {"company":"OpenAI","tag":"MEGA-CAP AI","text":"On September 21, OpenAI released proposed international AI safety standards as US and Chinese officials discussed a dialogue on AI risk. The move matters because policy, safety requirements, and geopolitical access are becoming core variables in the economics of frontier-model companies.","source":"https://www.axios.com/2026/09/21/openai-ai-safety-standards-us-china"},
+    {"company":"Snorkel AI","tag":"FUNDING","text":"On September 22, Snorkel AI raised a $350 million Series E at a $3.5 billion valuation, according to TechCrunch. The round shows investors are assigning strategic value to the data and simulation layer that supports training and evaluating AI systems.","source":"https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"},
+    {"company":"Ema","tag":"FUNDING","text":"On September 23, Ema announced a $77 million Series B for its enterprise AI-agent platform, bringing reported total funding to $140 million. The financing points to continuing investor demand for software that can automate multi-step work inside established corporate systems.","source":"https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/"},
+    {"company":"Databricks","tag":"MEGA-CAP M&A","text":"On September 24, Databricks acquired Row Zero to bring governed spreadsheets into its Genie AI-coworker platform; the terms were not disclosed. For a reported $190 billion private company, the acquisition is a useful signal that product gaps in enterprise AI are increasingly being filled through startup M&A.","source":"https://www.databricks.com/company/newsroom/press-releases/databricks-acquires-row-zero-bringing-live-governed-spreadsheets"},
+    {"company":"Ando","tag":"NEW COMPANY","text":"On September 24, Ando emerged from stealth with $20 million of pre-seed and seed funding to build a messaging platform for teams and AI agents. The launch illustrates a new application layer forming around agent coordination, where incumbents such as Slack and Teams are now the explicit targets.","source":"https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/"}
+  ]
+}

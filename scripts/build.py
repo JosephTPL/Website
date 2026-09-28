@@ -58,6 +58,21 @@ def records(folder):
  return result
 
 settings=read('content/settings/site.json');weekly=read('content/settings/weekly.json');ipo_calendar=read('content/settings/ipo-calendar.json');articles=records('articles');companies=records('companies')
+
+def weekly_archive_records():
+ """Load published weekly editions without coupling them to the article CMS."""
+ editions=[]
+ for path in sorted((ROOT/'content'/'weekly').glob('*.json')):
+  edition=json.loads(path.read_text())
+  if not all(key in edition for key in ('title','period','intro','items')):
+   raise ValueError(f'{path.name}: incomplete weekly archive entry.')
+  edition['archive_key']=path.stem
+  editions.append(edition)
+ return sorted(editions,key=lambda edition:edition['archive_key'],reverse=True)
+
+weekly_archive=weekly_archive_records()
+if not any(edition['period']==weekly['period'] for edition in weekly_archive):
+ current_edition=dict(weekly);current_edition['archive_key']='current';weekly_archive.append(current_edition)
 base=os.environ.get('URL') or settings['site_url'];base=base.rstrip('/')
 if urlsplit(base).scheme not in ('http','https'):raise ValueError('Site URL must start with https://')
 for a in articles.values():
@@ -166,7 +181,15 @@ def weekly_chart_markup():
 
 def weekly_markup():
  items=''.join(f'''<article class="weekly-item"><div><span class="weekly-number">{i:02d}</span><span class="weekly-tag">{E(item['tag'])}</span></div><h2>{E(item['company'])}</h2><p>{E(item['text'])}</p><a href="{E(item['source'])}" rel="noopener">Source ↗</a></article>''' for i,item in enumerate(weekly['items'],1))
- return f'''<section class="weekly-brief" aria-labelledby="weekly-title"><header class="weekly-head"><div><p class="overline">THE PRIVATE LEDGER / WEEKLY BRIEF</p><h1 id="weekly-title">{E(weekly['title'])}</h1><p class="subtitle">{E(weekly['intro'])}</p></div><p class="weekly-date">Last week<br/><strong>{E(weekly['period'])}</strong><span>Next update: {E(weekly['next_update'])}</span></p></header><div class="weekly-grid">{items}</div>{weekly_chart_markup()}<div class="weekly-footer"><span>Updated every Sunday.</span><a class="text-link" href="/research/">Explore company research →</a></div></section>'''
+ return f'''<section class="weekly-brief" aria-labelledby="weekly-title"><header class="weekly-head"><div><p class="overline">THE PRIVATE LEDGER / WEEKLY BRIEF</p><h1 id="weekly-title">{E(weekly['title'])}</h1><p class="subtitle">{E(weekly['intro'])}</p></div><p class="weekly-date">Last week<br/><strong>{E(weekly['period'])}</strong><span>Next update: {E(weekly['next_update'])}</span></p></header><div class="weekly-grid">{items}</div>{weekly_chart_markup()}<div class="weekly-footer"><span>Updated every Sunday.</span><span class="weekly-footer-links"><a class="text-link" href="/weekly/">Browse weekly archive →</a><a class="text-link" href="/research/">Explore company research →</a></span></div></section>'''
+
+def weekly_archive_markup():
+ entries=[]
+ for index,edition in enumerate(weekly_archive):
+  search=' '.join([edition['title'],edition['period'],edition['intro']]+[f"{item.get('company','')} {item.get('tag','')} {item.get('text','')}" for item in edition['items']])
+  stories=''.join(f'<li><a href="{E(item["source"])}" rel="noopener"><span>{E(item["company"])}</span><small>{E(item["tag"])}</small></a></li>' for item in edition['items'])
+  entries.append(f'''<details class="weekly-archive-item" data-weekly-archive-item data-search="{E(search)}"{' open' if index==0 else ''}><summary><span class="weekly-archive-period">{E(edition['period'])}</span><span class="weekly-archive-summary"><strong>{E(edition['title'])}</strong><small>{E(edition['intro'])}</small></span><span class="weekly-archive-toggle" aria-hidden="true">+</span></summary><div class="weekly-archive-stories"><ol>{stories}</ol></div></details>''')
+ return f'''<section class="weekly-archive" aria-labelledby="weekly-archive-title"><header class="weekly-archive-head"><p class="overline">THE PRIVATE LEDGER / WEEKLY BRIEF</p><h1 id="weekly-archive-title">Weekly brief archive.</h1><p>Five source-backed developments from each completed week, kept in one searchable record.</p></header><div class="weekly-archive-tools"><label class="weekly-archive-search"><span class="sr-only">Search weekly briefs</span><input id="weekly-archive-search" type="search" placeholder="Search companies, themes, or dates" autocomplete="off"></label><span id="weekly-archive-count">{len(entries)} briefing{'s' if len(entries)!=1 else ''}</span></div><div class="weekly-archive-list">{''.join(entries)}</div><p class="weekly-archive-empty" hidden>No weekly brief matches that search.</p></section>'''
 
 def ipo_markup():
  """A true month view; undated candidates stay out of arbitrary day cells."""
@@ -275,6 +298,12 @@ for selector in ['.landing-hero','.page-heading','.start-here','.continue-readin
   if container:container.decompose()
 main=s.select_one('main');main.insert(0,soup(weekly_markup()))
 write(s,'/')
+
+# Weekly editions are their own searchable record, rather than being mixed into article research.
+s=shell('home','Weekly brief archive','A searchable record of The Private Ledger weekly private-market briefs.','/weekly/')
+s.body['data-page-view']='weekly-archive';configure_nav(s,'home')
+main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();main.clear();put(main,weekly_archive_markup());main.append(subscribe);main.append(footer)
+write(s,'/weekly/')
 
 # Company research and general articles live together in one searchable archive.
 s=shell('home',settings['library_title'],settings['library_subtitle'],'/research/')
@@ -397,7 +426,7 @@ write(s,'/valuations/')
 about=read('content/settings/about.json');s=shell('about',about['title'],about['description'],'/about/');configure_nav(s,'about');main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();about_body=clean(about['body']);hero=about_body.select_one('.about-hero');hero.decompose() if hero else None;main.clear();main.append(about_body);main.append(subscribe);main.append(footer);write(s,'/about/')
 # The editor is a separate authenticated service, not a public editing API.
 s=shell('about','Edit website','Open the secure content editor.','/admin/');configure_nav(s,'');s.select_one('main').clear();put(s.select_one('main'),'<section class="about-hero"><h1>Edit your publication.</h1><p>Sign in with your GitHub account to edit articles, company profiles, images, and homepage text.</p><a class="primary-button" href="https://app.pagescms.org">Open Pages CMS ↗</a></section>');put(s.head,'<meta name="robots" content="noindex">');write(s,'/admin/')
-routes=['/','/research/','/insights/','/companies/','/ipo-calendar/','/valuations/','/about/']+[a['url'] for a in ordered]+['/companies/'+c['slug']+'/' for c in companies.values()]
+routes=['/','/weekly/','/research/','/insights/','/companies/','/ipo-calendar/','/valuations/','/about/']+[a['url'] for a in ordered]+['/companies/'+c['slug']+'/' for c in companies.values()]
 (OUT/'sitemap.xml').write_text('<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+E(base+r)+'</loc></url>' for r in routes)+'</urlset>')
 (OUT/'robots.txt').write_text('User-agent: *\nAllow: /\nDisallow: /admin/\nSitemap: '+base+'/sitemap.xml\n')
 print(f'Built {len(articles)} published articles, {len(companies)} company profiles, and editable site pages.')
