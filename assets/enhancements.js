@@ -44,6 +44,7 @@
   chart.querySelectorAll('.weekly-chart-point').forEach(point => {
     point.addEventListener('pointerenter', show);
     point.addEventListener('pointerleave', hide);
+    point.addEventListener('click', show);
     point.addEventListener('focus', show);
     point.addEventListener('blur', hide);
   });
