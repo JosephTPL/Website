@@ -1,0 +1,143 @@
+{
+  "slug": "poolside",
+  "name": "Poolside",
+  "status": "Published",
+  "sector": "AI",
+  "summary": "Poolside builds AI models specialized for writing software and is developing a 2-gigawatt AI data-center campus in Texas.",
+  "overview": "<p>Poolside develops large language models focused on software development, along with the compute infrastructure to train them.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$12B",
+      "note": "Pre-money, August 2026, as reported.",
+      "source": "https://www.newcomer.co/p/sources-poolside-strikes-6-billion"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$1B",
+      "note": "Nvidia investment, as reported.",
+      "source": "https://www.newcomer.co/p/sources-poolside-strikes-6-billion"
+    }
+  ],
+  "directory_rank": 28,
+  "bull_case": "Nvidia backing, a large licensing deal and its own compute give Poolside resources few model startups have.",
+  "bear_case": "It competes with OpenAI, Anthropic and coding tools like Cursor, and its revenue has not been disclosed.",
+  "latest_round": "August 2026: reported $1B Nvidia investment at $12B pre-money",
+  "directory_notes": [
+    "Terms of the Nvidia licensing deal.",
+    "Progress of Project Horizon."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "San Francisco, California",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=poolside.ai&sz=128",
+    "description": "Poolside develops large language models focused on software development, along with the compute infrastructure to train them.",
+    "metrics": [
+      {
+        "value": "$12B",
+        "label": "Latest valuation",
+        "note": "Pre-money, August 2026, as reported"
+      },
+      {
+        "value": "$1B",
+        "label": "Latest funding",
+        "note": "Nvidia investment, as reported"
+      },
+      {
+        "value": "$6B",
+        "label": "Nvidia licensing deal",
+        "note": "August 2026, as reported"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Poolside was founded in 2023 by Jason Warner, a former GitHub CTO, and Eiso Kant. It builds AI models for coding and software development, released open-weight models including Laguna, and is developing Project Horizon, a 2-gigawatt AI campus in Pecos County, Texas.",
+      "Poolside raised a $500 million Series B at a $3 billion valuation in October 2024. Nvidia committed up to $1 billion in October 2025 at a $12 billion valuation, and in August 2026 an investor letter reported by Newcomer described a $6 billion non-exclusive licensing deal with Nvidia plus a $1 billion investment at a $12 billion pre-money valuation."
+    ],
+    "why_it_matters": "Poolside is a bet that specialized coding models can compete with general AI labs, and its Nvidia licensing deal is an unusual way for a model company to monetize.",
+    "valuation_history": [
+      {
+        "value": "$3B",
+        "date": "Oct 2024",
+        "round": "$500M Series B"
+      },
+      {
+        "value": "$12B",
+        "date": "Oct 2025",
+        "round": "Nvidia investment of up to $1B"
+      },
+      {
+        "value": "$12B",
+        "date": "Aug 2026",
+        "round": "Pre-money, reported"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2023",
+        "text": "Poolside is founded by Jason Warner and Eiso Kant."
+      },
+      {
+        "date": "Oct 2024",
+        "text": "A $500M Series B values Poolside at $3B."
+      },
+      {
+        "date": "Oct 2025",
+        "text": "Nvidia commits up to $1B at a $12B valuation; Project Horizon begins construction."
+      },
+      {
+        "date": "Aug 2026",
+        "text": "A reported $6B Nvidia licensing deal and $1B investment at $12B pre-money."
+      }
+    ],
+    "takeaways": [
+      "The latest figures come from a reported investor letter, not a company announcement.",
+      "The Nvidia licensing deal could matter more than the equity raise.",
+      "Coding is one of the most competitive areas in AI.",
+      "Owning data-center capacity adds capital intensity."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2023"
+      ],
+      [
+        "Headquarters",
+        "San Francisco, California"
+      ],
+      [
+        "Co-founders",
+        "Jason Warner and Eiso Kant"
+      ],
+      [
+        "Focus",
+        "AI models for software development"
+      ],
+      [
+        "Website",
+        "poolside.ai"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Newcomer: Poolside strikes $6B licensing deal with Nvidia",
+        "url": "https://www.newcomer.co/p/sources-poolside-strikes-6-billion"
+      },
+      {
+        "label": "Wikipedia: Poolside AI",
+        "url": "https://en.wikipedia.org/wiki/Poolside_AI"
+      }
+    ]
+  }
+}

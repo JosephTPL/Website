@@ -1,0 +1,129 @@
+{
+  "slug": "nscale",
+  "name": "Nscale",
+  "status": "Published",
+  "sector": "AI infrastructure",
+  "summary": "Nscale is a London-based AI cloud provider building GPU data centers across Europe and North America, and is preparing for an IPO.",
+  "overview": "<p>Nscale builds and operates AI data centers and sells GPU compute, networking and orchestration software for training and running AI models.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$14.6B",
+      "note": "March 2026 Series C.",
+      "source": "https://www.nscale.com/press-releases/nscale-series-c"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$3.36B",
+      "note": "Pre-IPO convertible notes, September 2026.",
+      "source": "https://www.nscale.com/press-releases/nscale-series-c"
+    }
+  ],
+  "directory_rank": 27,
+  "bull_case": "Huge contracted demand and backing from Nvidia and major funds position Nscale as a leading non-U.S. AI cloud.",
+  "bear_case": "Neoclouds carry heavy debt, customer concentration and GPU-price risk, and an AI spending slowdown would hit them first.",
+  "latest_round": "March 2026: $2B Series C at $14.6B; September 2026: $3.36B pre-IPO convertible",
+  "directory_notes": [
+    "IPO timing and valuation.",
+    "Customer concentration and financing costs."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "London, United Kingdom",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=nscale.com&sz=128",
+    "description": "Nscale builds and operates AI data centers and sells GPU compute, networking and orchestration software for training and running AI models.",
+    "metrics": [
+      {
+        "value": "$14.6B",
+        "label": "Latest valuation",
+        "note": "March 2026 Series C"
+      },
+      {
+        "value": "$3.36B",
+        "label": "Latest funding",
+        "note": "Pre-IPO convertible notes, September 2026"
+      },
+      {
+        "value": "$103B+",
+        "label": "Total contracted value",
+        "note": "Company reported, September 2026"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "IPO planned; date not set"
+      }
+    ],
+    "company": [
+      "Nscale builds vertically integrated AI infrastructure, from data centers to GPU compute and software, with sites in Norway, the UK, Portugal, Iceland and the United States. Founder and CEO Josh Payne describes the buildout as the largest in history.",
+      "In March 2026 Nscale raised a $2 billion Series C at a $14.6 billion valuation, led by Aker and 8090 Industries with Nvidia, Citadel, Jane Street and Point72 participating. In September 2026 it raised $3.36 billion in convertible notes that convert into shares at its IPO, led by Third Point, and reported more than $103 billion in total contracted value."
+    ],
+    "why_it_matters": "Nscale is Europe's largest AI-infrastructure bet and a read-through for the neocloud model popularized by CoreWeave, where specialist providers rent GPUs to AI labs and hyperscalers.",
+    "valuation_history": [
+      {
+        "value": "$14.6B",
+        "date": "Mar 2026",
+        "round": "$2B Series C"
+      }
+    ],
+    "changed": [
+      {
+        "date": "Mar 2026",
+        "text": "A $2B Series C, described as the largest in European history, values Nscale at $14.6B."
+      },
+      {
+        "date": "Sep 2026",
+        "text": "Nscale raises $3.36B in pre-IPO convertible notes, with Nvidia committing $1B."
+      }
+    ],
+    "takeaways": [
+      "Pre-IPO convertible notes point to a listing in the near term.",
+      "Contracted value is large relative to the valuation, but depends on customers honoring long contracts.",
+      "Nvidia is both an investor and the key supplier.",
+      "The model is capital-intensive and relies on continued debt and equity funding."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2024"
+      ],
+      [
+        "Headquarters",
+        "London, United Kingdom"
+      ],
+      [
+        "Founder and CEO",
+        "Josh Payne"
+      ],
+      [
+        "Focus",
+        "AI data centers and GPU cloud"
+      ],
+      [
+        "Website",
+        "nscale.com"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Nscale: $2B Series C",
+        "url": "https://www.nscale.com/press-releases/nscale-series-c"
+      },
+      {
+        "label": "Nscale: $3.36B pre-IPO convertible financing",
+        "url": "https://www.nscale.com/press-releases/pre-ipo-convertible-financing"
+      },
+      {
+        "label": "DCD: Nscale raises $2B at $14.6B",
+        "url": "https://www.datacenterdynamics.com/en/news/nscale-raises-2bn-in-series-c-funding-at-146bn-valuation/"
+      }
+    ]
+  }
+}
