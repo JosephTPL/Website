@@ -7,20 +7,20 @@
   "overview": "<p>Mistral AI is included in The Private Ledger\u2019s company directory for ongoing research.</p>",
   "image": "",
   "image_alt": "",
-  "as_of": "2026-09-25",
+  "as_of": "2026-09-28",
   "report": "",
   "facts": [
     {
       "label": "Latest disclosed financing",
-      "value": "June 2024: \u20ac600M Series B",
-      "note": "Publicly reported financing context; verify before relying on it.",
-      "source": ""
+      "value": "September 2026: €3B Series D at reported $24.4B",
+      "note": "Mistral announced the €3B Series D at a valuation above €21B; the USD figure is the reported September 2026 equivalent used for directory ranking.",
+      "source": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
     }
   ],
-  "directory_rank": 20,
+  "directory_rank": 29,
   "bull_case": "Efficient models and European positioning could make Mistral a strategic enterprise option.",
   "bear_case": "Global model leaders have large distribution and capital advantages.",
-  "latest_round": "June 2024: \u20ac600M Series B",
+  "latest_round": "September 2026: €3B Series D at reported $24.4B valuation",
   "directory_notes": [
     "Sovereign and open-weight AI",
     "Enterprise and government distribution."
@@ -32,7 +32,7 @@
     "logo": "https://www.google.com/s2/favicons?domain=mistral.ai&sz=128",
     "description": "Mistral builds frontier models, developer tools, and enterprise AI systems with a focus on open-weight and sovereign deployments.",
     "metrics": [
-      {"value": "€21B+", "label": "Latest valuation", "note": "Series D, September 2026"},
+      {"value": "$24.4B", "label": "Reported valuation", "note": "€21B+ Series D valuation, September 2026"},
       {"value": "€3B", "label": "Latest funding", "note": "Series D, September 2026"},
       {"value": "2023", "label": "Founded", "note": "Paris, France"},
       {"value": "Private", "label": "Public status", "note": "No announced listing"}
@@ -45,7 +45,7 @@
     "valuation_history": [
       {"value": "€5.8B", "date": "Jun 2024", "round": "Series B, €600M"},
       {"value": "€11.7B", "date": "Sep 2025", "round": "Series C, €1.7B"},
-      {"value": "€21B+", "date": "Sep 2026", "round": "Series D, €3B"}
+      {"value": "$24.4B", "date": "Sep 2026", "round": "Series D, €3B (reported €21B+)"}
     ],
     "changed": [
       {"date": "Sep 2025", "text": "Raised €1.7B in a Series C led by ASML at an €11.7B post-money valuation."},
