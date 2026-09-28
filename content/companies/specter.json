@@ -52,7 +52,7 @@
     ],
     "company": [
       "Specter offers a private-company database and sourcing platform for investors. It monitors company, people, funding and M&A changes and presents them as signals intended to surface relevant opportunities earlier.",
-      "The company says its data covers more than 50 million companies and 500 million people. No confirmed financing amount or valuation is publicly disclosed, so the profile does not infer one."
+      "The company says its data covers more than 55 million companies, 550 million people, 330,000 investors and one million transactions. No confirmed financing amount or valuation is publicly disclosed, so the profile does not infer one."
     ],
     "why_it_matters": "Better private-company discovery tools can change the timing and quality of venture sourcing. The critical diligence questions are data accuracy, workflow adoption and defensibility against larger information providers.",
     "valuation_history": [
@@ -89,8 +89,12 @@
     ],
     "sources": [
       {
-        "label": "Company website",
+        "label": "Specter: private-markets data platform",
         "url": "https://www.tryspecter.com/"
+      },
+      {
+        "label": "Specter: investor data product",
+        "url": "https://www.tryspecter.com/investors"
       }
     ]
   }

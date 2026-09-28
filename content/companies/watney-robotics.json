@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Undisclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://watneyrobotics.com"
+      "value": "September 2026: $80M Series A",
+      "note": "Watney says the financing brought total funding above $100M; valuation was not disclosed.",
+      "source": "https://watney.com/media/introducing-watney"
     }
   ],
   "directory_rank": 70,
   "bull_case": "Data-centre construction and operations are bottlenecked by physical work. Robots that safely raise deployment throughput can create value as AI infrastructure scales.",
   "bear_case": "Data-centre environments are safety-critical and customer qualification cycles are demanding. The company has not disclosed a valuation, commercial revenue or deployment metrics.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "September 2026: $80M Series A; valuation undisclosed",
   "directory_notes": [
     "Robotics",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Autonomous robotic systems for data-centre and supercomputing operations.",
     "metrics": [
       {
-        "value": "Undisclosed",
-        "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "value": "$80M",
+        "label": "Latest disclosed funding",
+        "note": "Series A; valuation undisclosed"
       },
       {
         "value": "Private",
@@ -57,15 +57,15 @@
     "why_it_matters": "The AI buildout needs more than chips and power: it also needs physical infrastructure assembled and maintained quickly. Watney is a private-market bet on automating that labour-intensive layer.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$80M",
+        "date": "Sep 2026",
+        "round": "Series A"
       }
     ],
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Watney announced an $80M Series A led by the Valor Atreides AI Fund and Hummingbird Ventures."
       }
     ],
     "takeaways": [
@@ -89,8 +89,12 @@
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://watneyrobotics.com"
+        "label": "Watney: Series A announcement",
+        "url": "https://watney.com/media/introducing-watney"
+      },
+      {
+        "label": "Watney company website",
+        "url": "https://watney.com"
       }
     ]
   }

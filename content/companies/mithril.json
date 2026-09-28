@@ -9,15 +9,15 @@
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Undisclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://mithril.com"
+      "value": "$80M Seed and Series A",
+      "note": "Announced as Foundry in March 2024; the business became Mithril in August 2025. Valuation was not disclosed.",
+      "source": "https://mithril.ai/blog/introducing-foundry"
     }
   ],
   "directory_rank": 74,
   "bull_case": "A unified cloud layer can become valuable if it meaningfully reduces the complexity and cost of acquiring compute for AI workloads.",
   "bear_case": "Cloud infrastructure is capital intensive and intensely competitive. Mithril has not publicly disclosed financing, valuation or operating metrics that would support a fuller underwriting case.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "March 2024: $80M Seed and Series A; valuation undisclosed",
   "directory_notes": [
     "Technology",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "An AI omnicloud platform for developers and research teams.",
     "metrics": [
       {
-        "value": "Undisclosed",
-        "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "value": "$80M",
+        "label": "Latest disclosed funding",
+        "note": "Seed and Series A; valuation undisclosed"
       },
       {
         "value": "Private",
@@ -57,21 +57,21 @@
     "why_it_matters": "As AI demand grows, developers increasingly need access to scarce and expensive compute. The question is whether Mithril can provide a differentiated layer above hyperscalers and specialized GPU clouds.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$80M",
+        "date": "Mar 2024",
+        "round": "Seed and Series A, announced as Foundry"
       }
     ],
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Foundry announced $80M in Seed and Series A financing; it rebranded as Mithril in August 2025."
       }
     ],
     "takeaways": [
       "Mithril is building an AI omnicloud platform for compute access.",
       "The company was previously known as Foundry.",
-      "No public financing or valuation is asserted in this profile."
+      "The company announced $80M in Seed and Series A funding; a valuation was not disclosed."
     ],
     "quick_facts": [
       [
@@ -89,8 +89,12 @@
     ],
     "sources": [
       {
-        "label": "Company website",
-        "url": "https://mithril.com"
+        "label": "Foundry: $80M financing announcement",
+        "url": "https://mithril.ai/blog/introducing-foundry"
+      },
+      {
+        "label": "Mithril: Foundry rebrand announcement",
+        "url": "https://mithril.ai/blog/foundry-is-now-mithril"
       }
     ]
   }
