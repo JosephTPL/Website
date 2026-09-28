@@ -1,0 +1,129 @@
+{
+  "slug": "wayve",
+  "name": "Wayve",
+  "status": "Published",
+  "sector": "Autonomous mobility",
+  "summary": "Wayve develops end-to-end AI software for self-driving cars, backed by Nvidia, Microsoft, Uber and several automakers.",
+  "overview": "<p>Wayve builds an AI driving system that learns from data and is designed to be licensed to automakers and fleets worldwide.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$8.6B",
+      "note": "February 2026 Series D post-money.",
+      "source": "https://wayve.ai/press/series-d/"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$1.5B",
+      "note": "Series D plus milestone capital from Uber.",
+      "source": "https://wayve.ai/press/series-d/"
+    }
+  ],
+  "directory_rank": 38,
+  "bull_case": "Backing from Nvidia, Microsoft, Uber and three automakers gives Wayve a clear path to deployment at scale.",
+  "bear_case": "Waymo, Tesla and Chinese rivals are further along, and regulators move slowly.",
+  "latest_round": "February 2026: $1.5B Series D at $8.6B",
+  "directory_notes": [
+    "Automaker production deals.",
+    "Robotaxi deployments with Uber."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "London, United Kingdom",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=wayve.ai&sz=128",
+    "description": "Wayve builds an AI driving system that learns from data and is designed to be licensed to automakers and fleets worldwide.",
+    "metrics": [
+      {
+        "value": "$8.6B",
+        "label": "Latest valuation",
+        "note": "February 2026 Series D post-money"
+      },
+      {
+        "value": "$1.5B",
+        "label": "Latest funding",
+        "note": "Series D plus milestone capital from Uber"
+      },
+      {
+        "value": "3",
+        "label": "Automaker investors",
+        "note": "Mercedes-Benz, Nissan, Stellantis"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Wayve was founded in 2017 by Alex Kendall and pioneered end-to-end AI for driving, where one model learns to drive from data instead of relying on hand-coded rules. It aims to license its system to automakers and robotaxi fleets rather than run its own service.",
+      "In February 2026 Wayve raised $1.5 billion, including a $1.2 billion Series D led by Eclipse, Balderton and SoftBank Vision Fund 2 and milestone-based capital from Uber, at an $8.6 billion valuation. Microsoft, Nvidia, Mercedes-Benz, Nissan and Stellantis also invested."
+    ],
+    "why_it_matters": "Wayve is the leading European self-driving company and a read-through for whether licensing AI driving software to automakers can rival Waymo's approach.",
+    "valuation_history": [
+      {
+        "value": "$8.6B",
+        "date": "Feb 2026",
+        "round": "$1.5B Series D"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2017",
+        "text": "Wayve is founded in London."
+      },
+      {
+        "date": "2024",
+        "text": "A $1.05B Series C led by SoftBank."
+      },
+      {
+        "date": "Feb 2026",
+        "text": "A $1.5B Series D values it at $8.6B."
+      }
+    ],
+    "takeaways": [
+      "Automaker investors double as potential customers.",
+      "Its licensing model avoids the cost of running robotaxi fleets.",
+      "Uber's milestone capital ties funding to deployments.",
+      "Proving safety at scale is the main hurdle."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2017"
+      ],
+      [
+        "Headquarters",
+        "London, United Kingdom"
+      ],
+      [
+        "Co-founder and CEO",
+        "Alex Kendall"
+      ],
+      [
+        "Focus",
+        "AI driving software"
+      ],
+      [
+        "Website",
+        "wayve.ai"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Wayve: $1.5B Series D",
+        "url": "https://wayve.ai/press/series-d/"
+      },
+      {
+        "label": "CNBC: Wayve hits $8.6B valuation",
+        "url": "https://www.cnbc.com/2026/02/24/wayve-fundraise-nvidia-microsoft.html"
+      }
+    ]
+  }
+}

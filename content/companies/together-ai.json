@@ -1,0 +1,130 @@
+{
+  "slug": "together-ai",
+  "name": "Together AI",
+  "status": "Published",
+  "sector": "AI infrastructure",
+  "summary": "Together AI runs a cloud for training and serving open-source AI models, with more than $1.15 billion in annual bookings.",
+  "overview": "<p>Together AI provides cloud infrastructure and software for running, fine-tuning and training open-source AI models.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$8.3B",
+      "note": "July 2026 Series C.",
+      "source": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$800M",
+      "note": "Series C, led by Aramco Ventures.",
+      "source": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/"
+    }
+  ],
+  "directory_rank": 38,
+  "bull_case": "As open-source models improve, companies want cheaper, flexible infrastructure, which is Together AI's core offering.",
+  "bear_case": "GPU-heavy clouds face tight margins, and hyperscalers and CoreWeave compete for the same customers.",
+  "latest_round": "July 2026: $800M Series C at $8.3B",
+  "directory_notes": [
+    "Adoption of open-source models.",
+    "Margins on GPU capacity."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "San Francisco, California",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=together.ai&sz=128",
+    "description": "Together AI provides cloud infrastructure and software for running, fine-tuning and training open-source AI models.",
+    "metrics": [
+      {
+        "value": "$8.3B",
+        "label": "Latest valuation",
+        "note": "July 2026 Series C"
+      },
+      {
+        "value": "$800M",
+        "label": "Latest funding",
+        "note": "Series C, led by Aramco Ventures"
+      },
+      {
+        "value": "$1.15B+",
+        "label": "Annual bookings",
+        "note": "Company reported, mid-2026"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Together AI was founded in 2022 by Vipul Ved Prakash, Stanford professor Percy Liang and Ce Zhang. It offers a cloud platform optimized for open-source AI models, letting companies run, fine-tune and train models without building their own GPU clusters.",
+      "In July 2026 Together AI raised an $800 million Series C led by Aramco Ventures, with Vista, General Catalyst and Nvidia participating, at an $8.3 billion valuation, up from $3.3 billion in its February 2025 Series B. It reported more than $1.15 billion in annual bookings."
+    ],
+    "why_it_matters": "Together AI is a leading bet on open-source AI models, and a read-through for whether specialist AI clouds can compete with hyperscalers and CoreWeave.",
+    "valuation_history": [
+      {
+        "value": "$3.3B",
+        "date": "Feb 2025",
+        "round": "Series B"
+      },
+      {
+        "value": "$8.3B",
+        "date": "Jul 2026",
+        "round": "$800M Series C"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2022",
+        "text": "Together AI is founded."
+      },
+      {
+        "date": "Feb 2025",
+        "text": "A Series B values it at $3.3B."
+      },
+      {
+        "date": "Jul 2026",
+        "text": "An $800M Series C led by Aramco Ventures values it at $8.3B."
+      }
+    ],
+    "takeaways": [
+      "The valuation grew about 2.5 times in 17 months.",
+      "Its growth depends on companies choosing open-source models.",
+      "Bookings are large, but GPU costs are heavy.",
+      "Hyperscalers and other neoclouds compete directly."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2022"
+      ],
+      [
+        "Headquarters",
+        "San Francisco, California"
+      ],
+      [
+        "Co-founder",
+        "Vipul Ved Prakash"
+      ],
+      [
+        "Focus",
+        "Open-source AI cloud"
+      ],
+      [
+        "Website",
+        "together.ai"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "TechCrunch: Together AI raises $800M at $8.3B",
+        "url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/"
+      }
+    ]
+  }
+}

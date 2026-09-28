@@ -1,0 +1,134 @@
+{
+  "slug": "hippocratic-ai",
+  "name": "Hippocratic AI",
+  "status": "Published",
+  "sector": "Healthcare AI",
+  "summary": "Hippocratic AI builds safety-focused AI agents that handle patient-facing tasks such as follow-up calls for health systems and insurers.",
+  "overview": "<p>Hippocratic AI develops AI agents for non-diagnostic, patient-facing healthcare tasks such as appointment follow-ups and care outreach.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$3.5B",
+      "note": "November 2025 Series C.",
+      "source": "https://www.fiercehealthcare.com/ai-and-machine-learning/hippocratic-ai-lands-126m-series-c-expand-patient-facing-ai-agents-fuel-ma"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$126M",
+      "note": "Series C, led by Avenir Growth.",
+      "source": "https://www.fiercehealthcare.com/ai-and-machine-learning/hippocratic-ai-lands-126m-series-c-expand-patient-facing-ai-agents-fuel-ma"
+    }
+  ],
+  "directory_rank": 48,
+  "bull_case": "Staff shortages in healthcare create strong demand for safe AI agents that handle routine patient contact.",
+  "bear_case": "Regulatory scrutiny, slow healthcare sales cycles and competition from larger AI firms could limit growth.",
+  "latest_round": "November 2025: $126M Series C at $3.5B",
+  "directory_notes": [
+    "Customer growth and outcomes data.",
+    "Regulation of patient-facing AI."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Palo Alto, California",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=hippocraticai.com&sz=128",
+    "description": "Hippocratic AI develops AI agents for non-diagnostic, patient-facing healthcare tasks such as appointment follow-ups and care outreach.",
+    "metrics": [
+      {
+        "value": "$3.5B",
+        "label": "Latest valuation",
+        "note": "November 2025 Series C"
+      },
+      {
+        "value": "$126M",
+        "label": "Latest funding",
+        "note": "Series C, led by Avenir Growth"
+      },
+      {
+        "value": "115M+",
+        "label": "Patient interactions",
+        "note": "Company reported"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Hippocratic AI was founded by Munjal Shah and focuses on AI agents for patient-facing tasks that do not involve diagnosis, such as follow-up calls and care reminders. It says its agents have handled more than 115 million patient interactions with no reported safety issues.",
+      "In November 2025 Hippocratic AI raised a $126 million Series C led by Avenir Growth, with CapitalG, General Catalyst, a16z and Kleiner Perkins participating, at a $3.5 billion valuation, up from $1.64 billion in January 2025. It has more than 50 health-system, payer and pharma customers across six countries."
+    ],
+    "why_it_matters": "Hippocratic AI is a leading test of AI agents in direct contact with patients, a high-stakes use where safety and regulation matter most.",
+    "valuation_history": [
+      {
+        "value": "$1.64B",
+        "date": "Jan 2025",
+        "round": "$141M Series B"
+      },
+      {
+        "value": "$3.5B",
+        "date": "Nov 2025",
+        "round": "$126M Series C"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2023",
+        "text": "Hippocratic AI is founded."
+      },
+      {
+        "date": "Jan 2025",
+        "text": "A $141M Series B values it at $1.64B."
+      },
+      {
+        "date": "Nov 2025",
+        "text": "A $126M Series C values it at $3.5B."
+      }
+    ],
+    "takeaways": [
+      "The valuation more than doubled in under a year.",
+      "Health systems are both customers and investors.",
+      "Safety is its main selling point.",
+      "Healthcare adoption can be slow and regulated."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2023"
+      ],
+      [
+        "Headquarters",
+        "Palo Alto, California"
+      ],
+      [
+        "Co-founder and CEO",
+        "Munjal Shah"
+      ],
+      [
+        "Focus",
+        "Patient-facing healthcare AI agents"
+      ],
+      [
+        "Website",
+        "hippocraticai.com"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Fierce Healthcare: Hippocratic AI $126M Series C at $3.5B",
+        "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/hippocratic-ai-lands-126m-series-c-expand-patient-facing-ai-agents-fuel-ma"
+      },
+      {
+        "label": "Hippocratic AI: Series C announcement",
+        "url": "https://hippocraticai.com/hippocratic-ai-announces-series-c-funding-126-million/"
+      }
+    ]
+  }
+}

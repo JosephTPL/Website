@@ -1,0 +1,147 @@
+{
+  "slug": "clickhouse",
+  "name": "ClickHouse",
+  "status": "Published",
+  "sector": "Data infrastructure",
+  "summary": "ClickHouse sells a fast open-source analytics database and cloud service used by more than 4,000 customers, including Anthropic, Meta and Capital One.",
+  "overview": "<p>ClickHouse develops an open-source, column-oriented database built for real-time analytics, and sells a managed cloud version.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$15B",
+      "note": "January 2026 Series D.",
+      "source": "https://techcrunch.com/2026/05/27/clickhouse-triples-annualized-revenue-to-250m-charting-a-path-toward-an-ipo/"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$400M",
+      "note": "Series D, led by Dragoneer.",
+      "source": "https://techcrunch.com/2026/05/27/clickhouse-triples-annualized-revenue-to-250m-charting-a-path-toward-an-ipo/"
+    }
+  ],
+  "directory_rank": 26,
+  "bull_case": "Fast growth, an open-source developer base and AI-driven demand could make ClickHouse a core database for real-time analytics.",
+  "bear_case": "A roughly 60x revenue multiple assumes growth continues, while Snowflake, Databricks and cloud providers compete aggressively.",
+  "latest_round": "January 2026: $400M Series D at $15B",
+  "directory_notes": [
+    "Revenue growth and path to IPO.",
+    "Competition from Snowflake, Databricks and hyperscalers."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "San Francisco Bay Area",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=clickhouse.com&sz=128",
+    "description": "ClickHouse develops an open-source, column-oriented database built for real-time analytics, and sells a managed cloud version.",
+    "metrics": [
+      {
+        "value": "$15B",
+        "label": "Latest valuation",
+        "note": "January 2026 Series D"
+      },
+      {
+        "value": "$400M",
+        "label": "Latest funding",
+        "note": "Series D, led by Dragoneer"
+      },
+      {
+        "value": "$250M",
+        "label": "Annualized revenue",
+        "note": "May 2026, company reported"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "The ClickHouse database was first developed at Yandex and became an independent company in 2021. It is used for real-time analytics, observability and increasingly for AI workloads, and the company sells a managed cloud service alongside the open-source project.",
+      "In January 2026 ClickHouse raised a $400 million Series D led by Dragoneer at a $15 billion valuation, up from about $6.35 billion in its May 2025 Series C. By May 2026 it reported annualized revenue of $250 million, roughly triple the prior year, and more than 4,000 customers."
+    ],
+    "why_it_matters": "ClickHouse shows how AI and observability workloads are driving demand for new data infrastructure, and it is an IPO candidate that would be compared directly with Snowflake and Databricks.",
+    "valuation_history": [
+      {
+        "value": "$2B",
+        "date": "Oct 2021",
+        "round": "$250M Series B"
+      },
+      {
+        "value": "~$6.35B",
+        "date": "May 2025",
+        "round": "$350M Series C"
+      },
+      {
+        "value": "$15B",
+        "date": "Jan 2026",
+        "round": "$400M Series D"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2021",
+        "text": "ClickHouse spins out as an independent company and raises its Series A and B."
+      },
+      {
+        "date": "May 2025",
+        "text": "A $350M Series C led by Khosla Ventures values it at about $6.35B."
+      },
+      {
+        "date": "Jan 2026",
+        "text": "A $400M Series D led by Dragoneer values it at $15B."
+      },
+      {
+        "date": "May 2026",
+        "text": "The company reports $250M in annualized revenue and says it is positioned for an IPO within a few years."
+      }
+    ],
+    "takeaways": [
+      "Revenue roughly tripled in a year, which supports a steep valuation step-up.",
+      "The valuation is about 60 times annualized revenue, leaving little room for a slowdown.",
+      "AI companies are a growing customer group.",
+      "An open-source core helps adoption but can limit pricing power."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2021"
+      ],
+      [
+        "Headquarters",
+        "San Francisco Bay Area"
+      ],
+      [
+        "Co-founder and President, Product and Technology",
+        "Yury Izrailevsky"
+      ],
+      [
+        "Focus",
+        "Real-time analytics database"
+      ],
+      [
+        "Website",
+        "clickhouse.com"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "TechCrunch: ClickHouse triples annualized revenue to $250M",
+        "url": "https://techcrunch.com/2026/05/27/clickhouse-triples-annualized-revenue-to-250m-charting-a-path-toward-an-ipo/"
+      },
+      {
+        "label": "ClickHouse: $400M Series D",
+        "url": "https://clickhouse.com/blog/clickhouse-raises-400-million-series-d-acquires-langfuse-launches-postgres"
+      },
+      {
+        "label": "Bloomberg: ClickHouse lands $15B valuation",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-16/clickhouse-lands-15-billion-valuation-in-ai-database-race"
+      }
+    ]
+  }
+}

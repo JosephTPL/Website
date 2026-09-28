@@ -1,0 +1,134 @@
+{
+  "slug": "applied-intuition",
+  "name": "Applied Intuition",
+  "status": "Published",
+  "sector": "Autonomy / Defense software",
+  "summary": "Applied Intuition builds autonomy software, simulation tools and vehicle operating systems used by most of the world's largest automakers and by U.S. defense programs.",
+  "overview": "<p>Applied Intuition develops vehicle intelligence software, including autonomy stacks, development toolchains and a vehicle operating system, for cars, trucks, defense and industrial vehicles.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$15B",
+      "note": "June 2025 Series F.",
+      "source": "https://www.appliedintuition.com/press-releases/series-f"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$600M",
+      "note": "Series F, led by BlackRock and Kleiner Perkins.",
+      "source": "https://www.appliedintuition.com/press-releases/series-f"
+    }
+  ],
+  "directory_rank": 26,
+  "bull_case": "Deep relationships with most major automakers plus defense contracts give it two large, sticky markets as vehicles become software-defined.",
+  "bear_case": "Automaker budgets are cyclical, and large customers may build more software in-house or consolidate suppliers.",
+  "latest_round": "June 2025: $600M Series F at $15B",
+  "directory_notes": [
+    "Automotive and defense contract wins.",
+    "Conversion of autonomy programs into production vehicles."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Mountain View, California",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=appliedintuition.com&sz=128",
+    "description": "Applied Intuition develops vehicle intelligence software, including autonomy stacks, development toolchains and a vehicle operating system, for cars, trucks, defense and industrial vehicles.",
+    "metrics": [
+      {
+        "value": "$15B",
+        "label": "Latest valuation",
+        "note": "June 2025 Series F"
+      },
+      {
+        "value": "$600M",
+        "label": "Latest funding",
+        "note": "Series F, led by BlackRock and Kleiner Perkins"
+      },
+      {
+        "value": "18 of top 20",
+        "label": "Global automakers as customers",
+        "note": "Company reported"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Founded in 2017 by Qasar Younis and Peter Ludwig, Applied Intuition started with simulation software that helps carmakers test self-driving systems. It has since expanded into full autonomy stacks, developer toolchains and a vehicle operating system, and sells into automotive, trucking, defense and industrial markets.",
+      "In June 2025 the company raised a $600 million Series F at a $15 billion valuation, led by BlackRock-managed funds and Kleiner Perkins. It says 18 of the top 20 global automakers and major U.S. Department of Defense programs use its products, with partners including Porsche, Audi, Isuzu and TRATON."
+    ],
+    "why_it_matters": "Applied Intuition is a rare large-scale software supplier to both carmakers and the military, and a read-through for how quickly autonomy moves from research into production vehicles and defense systems.",
+    "valuation_history": [
+      {
+        "value": "$6B",
+        "date": "Mar 2024",
+        "round": "Series E"
+      },
+      {
+        "value": "$15B",
+        "date": "Jun 2025",
+        "round": "$600M Series F"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2017",
+        "text": "Applied Intuition is founded by Qasar Younis and Peter Ludwig."
+      },
+      {
+        "date": "Mar 2024",
+        "text": "Series E values the company at $6B."
+      },
+      {
+        "date": "Jun 2025",
+        "text": "A $600M Series F values the company at $15B."
+      }
+    ],
+    "takeaways": [
+      "Its customer list spans most of the global auto industry, which is unusual for a private software company.",
+      "Defense work adds a second large market with long contracts.",
+      "The valuation more than doubled between the Series E and Series F.",
+      "Growth depends on automakers turning autonomy programs into production vehicles."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2017"
+      ],
+      [
+        "Headquarters",
+        "Mountain View, California"
+      ],
+      [
+        "Co-founder and CEO",
+        "Qasar Younis"
+      ],
+      [
+        "Focus",
+        "Vehicle autonomy and software"
+      ],
+      [
+        "Website",
+        "appliedintuition.com"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Applied Intuition: $600M Series F at $15B",
+        "url": "https://www.appliedintuition.com/press-releases/series-f"
+      },
+      {
+        "label": "Applied Intuition: Series E at $6B",
+        "url": "https://www.appliedintuition.com/blog/series-e"
+      }
+    ]
+  }
+}

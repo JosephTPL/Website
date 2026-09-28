@@ -1,0 +1,138 @@
+{
+  "slug": "suno",
+  "name": "Suno",
+  "status": "Published",
+  "sector": "AI media",
+  "summary": "Suno makes an AI music generator that creates full songs, with vocals, from a text prompt.",
+  "overview": "<p>Suno develops AI models that generate complete songs, including vocals and instruments, from text prompts.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$5.4B",
+      "note": "June 2026 financing.",
+      "source": "https://variety.com/2026/digital/news/ai-music-suno-funding-round-400-million-5-4-billion-valuation-1236765727/"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$400M",
+      "note": "June 2026.",
+      "source": "https://variety.com/2026/digital/news/ai-music-suno-funding-round-400-million-5-4-billion-valuation-1236765727/"
+    }
+  ],
+  "directory_rank": 42,
+  "bull_case": "Suno has the strongest consumer brand in AI music and a growing base of paying users.",
+  "bear_case": "Copyright disputes with labels and competition from Google and others could limit growth.",
+  "latest_round": "June 2026: $400M at $5.4B",
+  "directory_notes": [
+    "Label licensing and lawsuits.",
+    "Consumer subscription growth."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Cambridge, Massachusetts",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=suno.com&sz=128",
+    "description": "Suno develops AI models that generate complete songs, including vocals and instruments, from text prompts.",
+    "metrics": [
+      {
+        "value": "$5.4B",
+        "label": "Latest valuation",
+        "note": "June 2026 financing"
+      },
+      {
+        "value": "$400M",
+        "label": "Latest funding",
+        "note": "June 2026"
+      },
+      {
+        "value": "Consumer",
+        "label": "Main business",
+        "note": "Subscription app"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Suno was founded in 2022 by Mikey Shulman and colleagues, and its app lets anyone create full songs with vocals from a short text description. It has become the best-known AI music product, and has faced copyright lawsuits from major record labels.",
+      "In June 2026 Suno raised $400 million at a $5.4 billion valuation, more than double its $2.45 billion valuation from November 2025."
+    ],
+    "why_it_matters": "Suno is the leading test of AI-generated music as a consumer product and of how the music industry and AI companies settle copyright disputes.",
+    "valuation_history": [
+      {
+        "value": "$2.45B",
+        "date": "Nov 2025",
+        "round": "$250M Series C"
+      },
+      {
+        "value": "$5.4B",
+        "date": "Jun 2026",
+        "round": "$400M financing"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2022",
+        "text": "Suno is founded."
+      },
+      {
+        "date": "2024",
+        "text": "Major record labels sue Suno over copyright."
+      },
+      {
+        "date": "Nov 2025",
+        "text": "A $250M round values it at $2.45B."
+      },
+      {
+        "date": "Jun 2026",
+        "text": "A $400M round values it at $5.4B."
+      }
+    ],
+    "takeaways": [
+      "The valuation more than doubled in about seven months.",
+      "Copyright issues remain the key risk.",
+      "Consumer subscriptions drive revenue.",
+      "Big tech firms are building competing music models."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2022"
+      ],
+      [
+        "Headquarters",
+        "Cambridge, Massachusetts"
+      ],
+      [
+        "Co-founder and CEO",
+        "Mikey Shulman"
+      ],
+      [
+        "Focus",
+        "AI music generation"
+      ],
+      [
+        "Website",
+        "suno.com"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Variety: Suno raises $400M at $5.4B",
+        "url": "https://variety.com/2026/digital/news/ai-music-suno-funding-round-400-million-5-4-billion-valuation-1236765727/"
+      },
+      {
+        "label": "Bloomberg: Suno raises capital at $5.4B",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-03/ai-music-startup-suno-raises-capital-at-5-4-billion-valuation"
+      }
+    ]
+  }
+}

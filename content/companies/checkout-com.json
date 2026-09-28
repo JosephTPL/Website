@@ -1,0 +1,134 @@
+{
+  "slug": "checkout-com",
+  "name": "Checkout.com",
+  "status": "Published",
+  "sector": "Fintech",
+  "summary": "Checkout.com processes online payments for large merchants, handling more than $1 billion in e-commerce volume a day.",
+  "overview": "<p>Checkout.com provides online payment processing, acquiring and fraud tools for large global merchants.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$12B",
+      "note": "September 2025, set with employee buyback.",
+      "source": "https://www.checkout.com/newsroom/checkout-com-accelerates-towards-full-year-profitability-and-announces-employee-share-buy-back-and-a-new-12bn-valuation"
+    },
+    {
+      "label": "Latest financing",
+      "value": "Buyback",
+      "note": "Employee share buyback, September 2025.",
+      "source": "https://www.checkout.com/newsroom/checkout-com-accelerates-towards-full-year-profitability-and-announces-employee-share-buy-back-and-a-new-12bn-valuation"
+    }
+  ],
+  "directory_rank": 28,
+  "bull_case": "Large volumes, renewed growth and profitability make the reset valuation look conservative if growth continues.",
+  "bear_case": "Adyen and Stripe are bigger and well funded, and payment processing margins keep falling.",
+  "latest_round": "September 2025: $12B valuation set with an employee share buyback",
+  "directory_notes": [
+    "Growth versus Adyen and Stripe.",
+    "Profitability and any IPO plans."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "London, United Kingdom",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=checkout.com&sz=128",
+    "description": "Checkout.com provides online payment processing, acquiring and fraud tools for large global merchants.",
+    "metrics": [
+      {
+        "value": "$12B",
+        "label": "Latest valuation",
+        "note": "September 2025, set with employee buyback"
+      },
+      {
+        "value": "Buyback",
+        "label": "Latest funding",
+        "note": "Employee share buyback, September 2025"
+      },
+      {
+        "value": "$300B+",
+        "label": "Annual e-commerce volume",
+        "note": "2025, company expected"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Checkout.com was founded by Guillaume Pousaz and processes online payments for large merchants around the world. It says it handles more than $1 billion of e-commerce payment volume a day and expected to process over $300 billion in 2025.",
+      "At its peak in January 2022 the company was valued at $40 billion. In September 2025 it announced an employee share buyback at a $12 billion valuation, alongside net revenue growth above 30% in its core business and a return to full-year profitability."
+    ],
+    "why_it_matters": "Checkout.com is one of the clearest examples of a 2021-era valuation being reset, and a benchmark for how private payments companies are priced against Adyen and Stripe.",
+    "valuation_history": [
+      {
+        "value": "$40B",
+        "date": "Jan 2022",
+        "round": "Series D"
+      },
+      {
+        "value": "$12B",
+        "date": "Sep 2025",
+        "round": "Employee share buyback"
+      }
+    ],
+    "changed": [
+      {
+        "date": "Jan 2022",
+        "text": "Checkout.com is valued at $40B."
+      },
+      {
+        "date": "2022–2024",
+        "text": "The company lowers its internal valuation as fintech multiples fall."
+      },
+      {
+        "date": "Sep 2025",
+        "text": "An employee buyback sets a $12B valuation as the company returns to profitability."
+      }
+    ],
+    "takeaways": [
+      "The valuation is down 70% from its 2022 peak.",
+      "The business is growing and profitable again.",
+      "Payment processing is a scale business with thin margins.",
+      "It competes directly with Adyen and Stripe for large merchants."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2012"
+      ],
+      [
+        "Headquarters",
+        "London, United Kingdom"
+      ],
+      [
+        "Founder and CEO",
+        "Guillaume Pousaz"
+      ],
+      [
+        "Focus",
+        "Online payment processing"
+      ],
+      [
+        "Website",
+        "checkout.com"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Checkout.com: new $12B valuation",
+        "url": "https://www.checkout.com/newsroom/checkout-com-accelerates-towards-full-year-profitability-and-announces-employee-share-buy-back-and-a-new-12bn-valuation"
+      },
+      {
+        "label": "CNBC: Checkout.com now valued at $12B",
+        "url": "https://www.cnbc.com/2025/09/26/fintech-checkoutcoms-valuation-falls-to-12-billion.html"
+      }
+    ]
+  }
+}

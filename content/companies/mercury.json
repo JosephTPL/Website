@@ -1,0 +1,134 @@
+{
+  "slug": "mercury",
+  "name": "Mercury",
+  "status": "Published",
+  "sector": "Fintech",
+  "summary": "Mercury provides banking for startups and small businesses, serving roughly one in three U.S. startups, and has won conditional approval for a national bank charter.",
+  "overview": "<p>Mercury offers business bank accounts, cards, bill pay and treasury products built for startups and small companies.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$5.2B",
+      "note": "May 2026 Series D.",
+      "source": "https://www.businesswire.com/news/home/20260520511817/en/Mercury-Raises-$200-Million-Series-D-at-$5.2B-Valuation"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$200M",
+      "note": "Series D, led by TCV.",
+      "source": "https://www.businesswire.com/news/home/20260520511817/en/Mercury-Raises-$200-Million-Series-D-at-$5.2B-Valuation"
+    }
+  ],
+  "directory_rank": 42,
+  "bull_case": "Profitability, a strong startup brand and a national bank charter give Mercury room to grow.",
+  "bear_case": "Its customers are concentrated in startups, which exposes it to venture downturns and deposit flight.",
+  "latest_round": "May 2026: $200M Series D at $5.2B",
+  "directory_notes": [
+    "Final bank charter approval.",
+    "Growth beyond startups."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "San Francisco, California",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=mercury.com&sz=128",
+    "description": "Mercury offers business bank accounts, cards, bill pay and treasury products built for startups and small companies.",
+    "metrics": [
+      {
+        "value": "$5.2B",
+        "label": "Latest valuation",
+        "note": "May 2026 Series D"
+      },
+      {
+        "value": "$200M",
+        "label": "Latest funding",
+        "note": "Series D, led by TCV"
+      },
+      {
+        "value": "300K+",
+        "label": "Customers",
+        "note": "Company reported, May 2026"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Mercury was founded in 2017 by Immad Akhund and serves startups and small businesses with online banking, cards and financial tools. It says it has more than 300,000 customers, about one in three U.S. startups, and has been profitable for four consecutive years.",
+      "In May 2026 Mercury raised a $200 million Series D led by TCV at a $5.2 billion valuation, up 49% in 14 months. It also received conditional approval from the OCC to establish Mercury Bank, N.A., which would let it hold deposits directly."
+    ],
+    "why_it_matters": "Mercury is a read-through for startup formation and venture activity, and its bank charter would make it one of the few fintechs to become a national bank.",
+    "valuation_history": [
+      {
+        "value": "$3.5B",
+        "date": "Mar 2025",
+        "round": "Series C"
+      },
+      {
+        "value": "$5.2B",
+        "date": "May 2026",
+        "round": "$200M Series D"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2017",
+        "text": "Mercury is founded."
+      },
+      {
+        "date": "Mar 2025",
+        "text": "A Series C values it at $3.5B."
+      },
+      {
+        "date": "May 2026",
+        "text": "A $200M Series D values it at $5.2B; conditional OCC approval for a national bank."
+      }
+    ],
+    "takeaways": [
+      "It is profitable, which is unusual among fintechs.",
+      "A bank charter could lower costs and widen products.",
+      "Its customer base tracks startup funding cycles.",
+      "Deposits are concentrated in venture-backed companies."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2017"
+      ],
+      [
+        "Headquarters",
+        "San Francisco, California"
+      ],
+      [
+        "Co-founder and CEO",
+        "Immad Akhund"
+      ],
+      [
+        "Focus",
+        "Business banking"
+      ],
+      [
+        "Website",
+        "mercury.com"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Business Wire: Mercury raises $200M Series D at $5.2B",
+        "url": "https://www.businesswire.com/news/home/20260520511817/en/Mercury-Raises-$200-Million-Series-D-at-$5.2B-Valuation"
+      },
+      {
+        "label": "CNBC: Mercury hits $5.2B valuation",
+        "url": "https://www.cnbc.com/2026/05/20/fintech-mercury-valuation-fundraise-bank-charter.html"
+      }
+    ]
+  }
+}

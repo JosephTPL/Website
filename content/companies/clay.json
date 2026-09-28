@@ -1,0 +1,139 @@
+{
+  "slug": "clay",
+  "name": "Clay",
+  "status": "Published",
+  "sector": "Sales software",
+  "summary": "Clay is a go-to-market platform that uses AI agents and data to help sales and marketing teams find and reach customers.",
+  "overview": "<p>Clay combines customer data from many sources with AI agents that research prospects and run sales and marketing campaigns.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$7.1B",
+      "note": "September 2026 Series D.",
+      "source": "https://finance.yahoo.com/technology/ai/articles/clay-raises-115m-ai-growth-154600423.html"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$115M",
+      "note": "Series D, led by Wellington.",
+      "source": "https://finance.yahoo.com/technology/ai/articles/clay-raises-115m-ai-growth-154600423.html"
+    }
+  ],
+  "directory_rank": 40,
+  "bull_case": "A loyal user base and strong AI-company customers position Clay as the modern sales platform.",
+  "bear_case": "Salesforce, HubSpot and ZoomInfo are adding similar AI features, and data costs can squeeze margins.",
+  "latest_round": "September 2026: $115M Series D at $7.1B",
+  "directory_notes": [
+    "Enterprise expansion.",
+    "Competition from CRM incumbents."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "New York, New York",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=clay.com&sz=128",
+    "description": "Clay combines customer data from many sources with AI agents that research prospects and run sales and marketing campaigns.",
+    "metrics": [
+      {
+        "value": "$7.1B",
+        "label": "Latest valuation",
+        "note": "September 2026 Series D"
+      },
+      {
+        "value": "$115M",
+        "label": "Latest funding",
+        "note": "Series D, led by Wellington"
+      },
+      {
+        "value": "17,000+",
+        "label": "Customers",
+        "note": "Company reported, September 2026"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Clay was founded in 2017 by Kareem Amin and Nicolae Rusan. It lets sales and marketing teams pull together data on prospects from many providers and use AI agents to research accounts, spot buying signals and automate outreach.",
+      "In September 2026 Clay raised $115 million led by Wellington at a $7.1 billion valuation, more than double its $3.1 billion Series C. It says it has more than 17,000 customers, including Anthropic, Google, OpenAI and Stripe, and 80% of the Forbes AI 50."
+    ],
+    "why_it_matters": "Clay is a leading example of AI reshaping sales software, and a read-through for pressure on incumbents such as Salesforce and ZoomInfo.",
+    "valuation_history": [
+      {
+        "value": "$1.25B",
+        "date": "2025",
+        "round": "Series B expansion"
+      },
+      {
+        "value": "$3.1B",
+        "date": "2025",
+        "round": "$100M Series C"
+      },
+      {
+        "value": "$7.1B",
+        "date": "Sep 2026",
+        "round": "$115M Series D"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2017",
+        "text": "Clay is founded."
+      },
+      {
+        "date": "2025",
+        "text": "A $100M Series C values it at $3.1B."
+      },
+      {
+        "date": "Sep 2026",
+        "text": "A $115M Series D values it at $7.1B."
+      }
+    ],
+    "takeaways": [
+      "The valuation more than doubled from the Series C.",
+      "Many leading AI companies are customers.",
+      "It relies on third-party data providers.",
+      "Sales tools face competition from incumbents adding AI."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2017"
+      ],
+      [
+        "Headquarters",
+        "New York, New York"
+      ],
+      [
+        "Co-founder and CEO",
+        "Kareem Amin"
+      ],
+      [
+        "Focus",
+        "AI go-to-market platform"
+      ],
+      [
+        "Website",
+        "clay.com"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Yahoo Finance: Clay raises $115M",
+        "url": "https://finance.yahoo.com/technology/ai/articles/clay-raises-115m-ai-growth-154600423.html"
+      },
+      {
+        "label": "Crunchbase News: Clay valuation doubles to $3.1B",
+        "url": "https://news.crunchbase.com/venture/ai-powered-gtm-startup-clay-valuation-doubles-capitalg/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "slug": "unconventional-ai",
+  "name": "Unconventional AI",
+  "status": "Published",
+  "sector": "Semiconductors",
+  "summary": "Unconventional AI, founded by Naveen Rao, is building brain-inspired analog computing hardware to cut the energy cost of AI.",
+  "overview": "<p>Unconventional AI develops neuromorphic, analog computing hardware designed to run AI with far less power than digital chips.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$4.5B",
+      "note": "December 2025 seed.",
+      "source": "https://www.datacenterdynamics.com/en/news/neuromorphic-compute-startup-unconventional-ai-raises-475m-in-seed-funding/"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$475M",
+      "note": "Seed, led by a16z and Lightspeed.",
+      "source": "https://www.datacenterdynamics.com/en/news/neuromorphic-compute-startup-unconventional-ai-raises-475m-in-seed-funding/"
+    }
+  ],
+  "directory_rank": 45,
+  "bull_case": "A founder with two successful exits, and AI's growing power problem, make this a high-upside bet.",
+  "bear_case": "Analog and neuromorphic chips have struggled to reach commercial scale, and there is no product yet.",
+  "latest_round": "December 2025: $475M seed at $4.5B",
+  "directory_notes": [
+    "First chip prototypes.",
+    "Completion of the larger round."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "United States",
+    "status": "Private",
+    "logo": "",
+    "description": "Unconventional AI develops neuromorphic, analog computing hardware designed to run AI with far less power than digital chips.",
+    "metrics": [
+      {
+        "value": "$4.5B",
+        "label": "Latest valuation",
+        "note": "December 2025 seed"
+      },
+      {
+        "value": "$475M",
+        "label": "Latest funding",
+        "note": "Seed, led by a16z and Lightspeed"
+      },
+      {
+        "value": "2 exits",
+        "label": "Founder track record",
+        "note": "MosaicML and Nervana"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Unconventional AI was founded in 2025 by Naveen Rao, who previously founded MosaicML, sold to Databricks for $1.3 billion, and Nervana Systems, sold to Intel. It aims to build analog, brain-inspired chips that could run AI with much lower energy use.",
+      "Just two months after launching, the company raised a $475 million seed round at a $4.5 billion valuation, led by Andreessen Horowitz and Lightspeed with Lux Capital, DCVC and Jeff Bezos participating. It was described as the first part of a raise that could reach $1 billion."
+    ],
+    "why_it_matters": "Unconventional AI is one of the largest seed rounds ever and a read-through for investor appetite for new chip architectures that address AI's power problem.",
+    "valuation_history": [
+      {
+        "value": "$4.5B",
+        "date": "Dec 2025",
+        "round": "$475M seed"
+      }
+    ],
+    "changed": [
+      {
+        "date": "Oct 2025",
+        "text": "Unconventional AI is founded by Naveen Rao."
+      },
+      {
+        "date": "Dec 2025",
+        "text": "A $475M seed round values it at $4.5B."
+      }
+    ],
+    "takeaways": [
+      "The valuation rests on the founder's record, not a product.",
+      "Analog computing is technically risky.",
+      "AI power demand makes efficiency valuable.",
+      "Chip development takes years and a lot of capital."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2025"
+      ],
+      [
+        "Headquarters",
+        "United States"
+      ],
+      [
+        "Co-founder and CEO",
+        "Naveen Rao"
+      ],
+      [
+        "Focus",
+        "Neuromorphic AI hardware"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "DCD: Unconventional AI raises $475M seed",
+        "url": "https://www.datacenterdynamics.com/en/news/neuromorphic-compute-startup-unconventional-ai-raises-475m-in-seed-funding/"
+      },
+      {
+        "label": "TechCrunch: Unconventional AI confirms $475M seed",
+        "url": "https://techcrunch.com/2025/12/09/unconventional-ai-confirms-its-massive-475m-seed-round"
+      }
+    ]
+  }
+}

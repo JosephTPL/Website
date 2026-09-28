@@ -1,0 +1,138 @@
+{
+  "slug": "zepto",
+  "name": "Zepto",
+  "status": "Published",
+  "sector": "Consumer / Quick commerce",
+  "summary": "Zepto is an Indian quick-commerce company delivering groceries in minutes; it paused its IPO in 2026 and is raising privately at a lower valuation.",
+  "overview": "<p>Zepto runs a network of dark stores in India that deliver groceries and household goods in about 10 minutes.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$4.5B",
+      "note": "August 2026 private placement, as reported.",
+      "source": "https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet/"
+    },
+    {
+      "label": "Latest financing",
+      "value": "~₹1,000 crore",
+      "note": "Private placement replacing a paused IPO.",
+      "source": "https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet/"
+    }
+  ],
+  "directory_rank": 44,
+  "bull_case": "Rapid growth and rising ad revenue could make Zepto profitable as its store network matures.",
+  "bear_case": "Heavy losses and intense competition have already forced a valuation cut and a delayed IPO.",
+  "latest_round": "August 2026: reported private placement at $4.5B, down from $7B",
+  "directory_notes": [
+    "Path to profitability.",
+    "IPO timing in 2027."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "India",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=zepto.com&sz=128",
+    "description": "Zepto runs a network of dark stores in India that deliver groceries and household goods in about 10 minutes.",
+    "metrics": [
+      {
+        "value": "$4.5B",
+        "label": "Latest valuation",
+        "note": "August 2026 private placement, as reported"
+      },
+      {
+        "value": "~₹1,000 crore",
+        "label": "Latest funding",
+        "note": "Private placement replacing a paused IPO"
+      },
+      {
+        "value": "~$2.4B",
+        "label": "FY2026 revenue",
+        "note": "Up 104%, per IPO filing"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Zepto was founded in 2021 by Stanford dropouts Aadit Palicha and Kaivalya Vohra. It operates more than 1,100 dark stores and processed more than 640 million orders in fiscal 2026, with revenue of about $2.4 billion, up 104%, and a net loss of about $617 million.",
+      "Zepto was valued at $7 billion in October 2025. After filing for an IPO, it deferred the listing in August 2026 and was reported to be raising about ₹1,000 crore privately at a $4.5 billion valuation, with the IPO now targeted for early 2027."
+    ],
+    "why_it_matters": "Zepto is a test of whether quick commerce can become profitable, and its valuation cut shows how public-market investors are pricing loss-making growth companies.",
+    "valuation_history": [
+      {
+        "value": "$7B",
+        "date": "Oct 2025",
+        "round": "Financing"
+      },
+      {
+        "value": "$4.5B",
+        "date": "Aug 2026",
+        "round": "Private placement, reported"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2021",
+        "text": "Zepto is founded."
+      },
+      {
+        "date": "Oct 2025",
+        "text": "A financing values Zepto at $7B."
+      },
+      {
+        "date": "Jun 2026",
+        "text": "Zepto files for an Indian IPO."
+      },
+      {
+        "date": "Aug 2026",
+        "text": "Zepto pauses its IPO and raises privately at a reported $4.5B."
+      }
+    ],
+    "takeaways": [
+      "The valuation fell about 35% from its last round.",
+      "Revenue is doubling, but losses are growing too.",
+      "Advertising revenue is growing faster than sales.",
+      "Competition from Blinkit and Swiggy Instamart is fierce."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2021"
+      ],
+      [
+        "Headquarters",
+        "India"
+      ],
+      [
+        "Co-founder and CEO",
+        "Aadit Palicha"
+      ],
+      [
+        "Focus",
+        "Quick commerce"
+      ],
+      [
+        "Website",
+        "zepto.com"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "TechCrunch: Zepto IPO filing reveals growth and losses",
+        "url": "https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet/"
+      },
+      {
+        "label": "Whalesbook: Zepto IPO paused, valuation set at $4.5B",
+        "url": "https://www.whalesbook.com/news/English/startupsvc/Zepto-IPO-Paused-Valuation-Set-at-dollar45-Billion/6a72a0923b2431b255835670"
+      }
+    ]
+  }
+}

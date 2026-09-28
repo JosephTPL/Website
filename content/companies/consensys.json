@@ -1,0 +1,134 @@
+{
+  "slug": "consensys",
+  "name": "Consensys",
+  "status": "Published",
+  "sector": "Digital assets",
+  "summary": "Consensys builds Ethereum software including the MetaMask wallet, and has hired JPMorgan and Goldman Sachs for a possible IPO.",
+  "overview": "<p>Consensys develops Ethereum infrastructure and applications, including the MetaMask wallet, the Infura developer platform and the Linea network.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$7B",
+      "note": "Early 2022 Series D.",
+      "source": "https://www.coindesk.com/business/2026/05/13/ethereum-app-builder-consensys-has-delayed-its-potential-ipo-until-fall"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$450M",
+      "note": "Series D, 2022.",
+      "source": "https://www.coindesk.com/business/2026/05/13/ethereum-app-builder-consensys-has-delayed-its-potential-ipo-until-fall"
+    }
+  ],
+  "directory_rank": 41,
+  "bull_case": "MetaMask's large user base and Ethereum infrastructure give Consensys a strong position if crypto markets recover.",
+  "bear_case": "Revenue swings with crypto markets, the valuation is dated, and regulation remains uncertain.",
+  "latest_round": "2022: $450M Series D at $7B; IPO planned",
+  "directory_notes": [
+    "IPO timing and valuation.",
+    "MetaMask monetization."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "United States",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=consensys.io&sz=128",
+    "description": "Consensys develops Ethereum infrastructure and applications, including the MetaMask wallet, the Infura developer platform and the Linea network.",
+    "metrics": [
+      {
+        "value": "$7B",
+        "label": "Latest valuation",
+        "note": "Early 2022 Series D"
+      },
+      {
+        "value": "$450M",
+        "label": "Latest funding",
+        "note": "Series D, 2022"
+      },
+      {
+        "value": "Fall 2026",
+        "label": "Earliest IPO timing",
+        "note": "As reported, May 2026"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Consensys was founded in 2014 by Joseph Lubin, an Ethereum co-founder. Its best-known product is MetaMask, one of the most widely used crypto wallets, alongside Infura, which gives developers access to Ethereum, and the Linea network.",
+      "Consensys was last valued at $7 billion in its early 2022 Series D. It hired JPMorgan and Goldman Sachs for an IPO, but in May 2026 it was reported to have delayed plans until fall 2026 at the earliest because of weak crypto markets."
+    ],
+    "why_it_matters": "Consensys is a direct way to gauge public-market appetite for Ethereum infrastructure, and an IPO would test how crypto software companies are valued.",
+    "valuation_history": [
+      {
+        "value": "$3.2B",
+        "date": "Nov 2021",
+        "round": "Series C"
+      },
+      {
+        "value": "$7B",
+        "date": "Mar 2022",
+        "round": "$450M Series D"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2014",
+        "text": "Consensys is founded by Joseph Lubin."
+      },
+      {
+        "date": "Mar 2022",
+        "text": "A $450M Series D values it at $7B."
+      },
+      {
+        "date": "2026",
+        "text": "Consensys hires JPMorgan and Goldman Sachs for a potential IPO."
+      },
+      {
+        "date": "May 2026",
+        "text": "IPO plans are reported delayed until fall 2026 at the earliest."
+      }
+    ],
+    "takeaways": [
+      "The $7B valuation is from 2022 and may not reflect today's value.",
+      "MetaMask is its most valuable asset.",
+      "Revenue is tied to crypto trading activity.",
+      "IPO timing depends on crypto markets."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2014"
+      ],
+      [
+        "Headquarters",
+        "United States"
+      ],
+      [
+        "Founder and CEO",
+        "Joseph Lubin"
+      ],
+      [
+        "Focus",
+        "Ethereum software and wallets"
+      ],
+      [
+        "Website",
+        "consensys.io"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "CoinDesk: Consensys delays potential IPO until fall",
+        "url": "https://www.coindesk.com/business/2026/05/13/ethereum-app-builder-consensys-has-delayed-its-potential-ipo-until-fall"
+      }
+    ]
+  }
+}
