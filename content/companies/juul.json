@@ -1,0 +1,67 @@
+{
+  "slug": "juul",
+  "name": "JUUL",
+  "status": "Published",
+  "sector": "Consumer health",
+  "summary": "JUUL is a private e-vapor company whose investment narrative is now shaped primarily by U.S. regulatory authorization, litigation resolution and its ability to stabilize a regulated product business.",
+  "overview": "<p>JUUL develops e-vapor devices and nicotine products. The company remains private, but no current independently supported company valuation or recent primary equity round is publicly available.</p>",
+  "as_of": "2026-09-28",
+  "facts": [
+    {
+      "label": "Latest material development",
+      "value": "August 2026: JUUL2 received federal authorization",
+      "note": "The FDA authorization concerned an updated device with an optional age-verification system.",
+      "source": "https://apnews.com/article/10c93d78a67bf5e4be25f437528fb416"
+    }
+  ],
+  "directory_rank": 171,
+  "bull_case": "FDA-authorized products, a recognized brand and a more disciplined regulatory approach could allow JUUL to stabilize its adult-consumer franchise in a concentrated U.S. e-vapor market.",
+  "bear_case": "Regulatory scrutiny, litigation costs, competition and the legacy of youth-use concerns remain material constraints on growth, distribution and investor appetite.",
+  "latest_round": "No recent disclosed primary equity round located",
+  "directory_notes": [
+    "Private e-vapor company",
+    "Watch FDA authorizations, litigation exposure and distribution recovery."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Washington, D.C., United States",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=juul.com&sz=128",
+    "description": "Private e-vapor company whose value proposition depends on regulated adult-use products and durable authorization in the United States.",
+    "metrics": [
+      {"value": "Undisclosed", "label": "Current valuation", "note": "No current independently supported private valuation located"},
+      {"value": "Undisclosed", "label": "Latest funding", "note": "No recent disclosed primary equity round located"},
+      {"value": "2015", "label": "Founded", "note": "E-vapor company"},
+      {"value": "Private", "label": "Public status", "note": "No IPO filing disclosed"}
+    ],
+    "company": [
+      "JUUL develops e-vapor devices and nicotine products for adult consumers. Its operating outlook is defined less by traditional venture financing than by product authorization, legal exposure and its ability to retain distribution in a heavily regulated category.",
+      "Altria exchanged its entire minority economic investment in JUUL for intellectual-property rights in 2023, leaving no contemporaneous arm's-length equity valuation to use as a current company value. In August 2026, the FDA authorized an updated JUUL2 device with an optional age-verification system, providing a meaningful product-regulatory milestone."
+    ],
+    "why_it_matters": "JUUL illustrates how regulation and litigation can overwhelm conventional startup valuation narratives in consumer health categories. The company remains relevant to private-market investors as a case study in product authorization, reputational risk and the cost of regulatory remediation.",
+    "valuation_history": [
+      {"value": "$38B", "date": "Dec 2018", "round": "Historical Altria investment reference"},
+      {"value": "Undisclosed", "date": "Mar 2023", "round": "Altria exited its minority economic interest"}
+    ],
+    "changed": [
+      {"date": "Mar 2023", "text": "Altria exchanged its entire JUUL minority economic investment for a license to certain heated-tobacco intellectual property."},
+      {"date": "Aug 2026", "text": "The FDA authorized an updated JUUL2 device with an optional age-verification system."}
+    ],
+    "takeaways": [
+      "JUUL's historical $38B reference is not a current valuation and is not used in the directory.",
+      "No current independently supported valuation or recent primary equity financing has been identified.",
+      "Regulatory authorization and litigation outcomes are the core drivers to monitor."
+    ],
+    "quick_facts": [
+      ["Focus", "E-vapor products"],
+      ["Headquarters", "Washington, D.C., United States"],
+      ["Latest milestone", "JUUL2 FDA authorization, August 2026"],
+      ["Website", "juul.com"]
+    ],
+    "sources": [
+      {"label": "AP: FDA authorization for JUUL2", "url": "https://apnews.com/article/10c93d78a67bf5e4be25f437528fb416"},
+      {"label": "Altria: exchange of JUUL investment", "url": "https://investor.altria.com/press-releases/news-details/2023/Altria-Exchanges-Minority-Stake-in-JUUL-Labs-for-Heated-Tobacco-Intellectual-Property-Rights/"},
+      {"label": "SEC: Altria Form 8-K on JUUL transaction", "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418023000041/mo-20230303.htm"}
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "reflection-ai",
+  "name": "Reflection AI",
+  "status": "Published",
+  "sector": "Artificial intelligence",
+  "summary": "Reflection AI develops open frontier AI models. Its April 2026 Series C was reported at $2.5 billion on a $25 billion pre-money valuation.",
+  "overview": "<p>Reflection AI is a frontier-model company focused on developing open models and the infrastructure required to train and serve them at scale.</p>",
+  "as_of": "2026-09-28",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "April 2026: reported $2.5B Series C",
+      "note": "The round was reported at a $25B pre-money valuation, equivalent to approximately $27.5B post-money.",
+      "source": "https://reflection.ai/news"
+    }
+  ],
+  "directory_rank": 31,
+  "bull_case": "A credible open-model alternative can attract developers and enterprises seeking more control over model weights, deployment and cost, while a large capital base supports frontier-scale training.",
+  "bear_case": "Frontier-model development is exceptionally capital intensive, and open-model distribution does not by itself establish durable monetization or differentiation against larger labs.",
+  "latest_round": "April 2026: reported $2.5B Series C at $25B pre-money",
+  "directory_notes": [
+    "Open frontier-model developer",
+    "Watch model releases, compute commitments and enterprise adoption."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "New York, United States",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=reflection.ai&sz=128",
+    "description": "Frontier AI company developing open models and the infrastructure to train and deploy them.",
+    "metrics": [
+      {"value": "$27.5B", "label": "Reported post-money valuation", "note": "$25B pre-money plus reported $2.5B April 2026 round"},
+      {"value": "$2.5B", "label": "Latest funding", "note": "Reported Series C, April 2026"},
+      {"value": "2024", "label": "Founded", "note": "Frontier AI lab"},
+      {"value": "Private", "label": "Public status", "note": "No IPO filing disclosed"}
+    ],
+    "company": [
+      "Reflection AI is building open frontier models, positioning itself around access to model weights and the infrastructure needed to train and serve advanced systems. Its strategy places it in direct competition with both closed-model labs and the growing ecosystem around open-weight AI.",
+      "The company reported that it closed a $2.5 billion Series C in April 2026 at a $25 billion pre-money valuation. That implies an approximately $27.5 billion post-money value, but the pre-money figure is the directly reported valuation and should not be treated as a public-market price."
+    ],
+    "why_it_matters": "Reflection is a useful test of whether open frontier models can support a venture-scale business while training costs remain concentrated among a small number of capitalized labs. Its funding and compute access also matter for the competitive intensity facing AI infrastructure, data and application companies.",
+    "valuation_history": [
+      {"value": "$8B", "date": "2025", "round": "Reported financing valuation"},
+      {"value": "$25B pre-money", "date": "Apr 2026", "round": "Reported $2.5B Series C"}
+    ],
+    "changed": [
+      {"date": "Oct 2025", "text": "Reflection announced $2B of funding to advance open frontier intelligence."},
+      {"date": "Apr 2026", "text": "The company reported closing a $2.5B Series C at a $25B pre-money valuation."},
+      {"date": "Jul 2026", "text": "Reflection announced a long-term compute-capacity agreement with Nebius."}
+    ],
+    "takeaways": [
+      "The $27.5B figure is an implied post-money value; the reported valuation was $25B pre-money.",
+      "Open-weight distribution can broaden adoption, but it raises the bar for monetization and product differentiation.",
+      "Compute access is a strategic constraint alongside model quality and data."
+    ],
+    "quick_facts": [
+      ["Focus", "Open frontier AI models"],
+      ["Headquarters", "New York, United States"],
+      ["Latest reported round", "Series C, April 2026"],
+      ["Website", "reflection.ai"]
+    ],
+    "sources": [
+      {"label": "Reflection AI: news and financing coverage", "url": "https://reflection.ai/news"},
+      {"label": "Reflection AI: Frontier Open Intelligence", "url": "https://reflection.ai/blog/frontier-open-intelligence"},
+      {"label": "Reuters: Reflection AI compute-capacity agreement", "url": "https://www.investing.com/news/stock-market-news/ai-startup-reflection-signs-over-1-billion-computing-deal-with-nebius-4790506"}
+    ]
+  }
+}
