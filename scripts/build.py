@@ -2,7 +2,7 @@
 from pathlib import Path
 from datetime import date, datetime
 from urllib.parse import urlsplit, unquote
-import calendar, html, json, os, re, shutil, sys
+import calendar, hashlib, html, json, os, re, shutil, sys
 from bs4 import BeautifulSoup, NavigableString
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'_site'
@@ -284,6 +284,7 @@ for company in companies.values():
  profile_directory.append([company['name'],profile_valuations.get(company['name'].lower(),'Undisclosed'),domain,company.get('intelligence',{}).get('status','Private')])
 directory_script=OUT/'companies.js'
 directory_script.write_text(directory_script.read_text().replace('/* PROFILE_SLUGS */',json.dumps(profile_slugs,sort_keys=True)).replace('/* PROFILE_VALUATIONS */',json.dumps(profile_valuations,sort_keys=True)).replace('/* PROFILE_DIRECTORY */',json.dumps(profile_directory,sort_keys=True)))
+companies_script_version=hashlib.sha256(directory_script.read_bytes()).hexdigest()[:12]
 # The landing page is a concise weekly briefing; the two archives remain separate.
 s=shell('home',weekly['title'],weekly['intro'],'/')
 s.body['data-page-view']='home';configure_nav(s,'home')
@@ -396,7 +397,7 @@ for i,c in enumerate(sorted(companies.values(),key=lambda x:(x.get('directory_ra
  notes=''.join('<li>'+E(note)+'</li>' for note in c.get('directory_notes',[])[:2])
  funding=E(c.get('latest_round') or next((f.get('value','') for f in c.get('facts',[]) if 'fund' in f.get('label','').lower()),'Not yet added'))
  put(grid,f'''<article class="company-directory-card" data-search="{E(c['name']+' '+c.get('sector','')+' '+c.get('summary',''))}"><div class="company-card-kicker"><span>#{int(c.get('directory_rank',i+1)):02d}</span><span>{E(c.get('sector',''))}</span></div><h2><a href="/companies/{c['slug']}/">{E(c['name'])}</a></h2><p class="company-directory-summary">{E(c.get('summary',''))}</p><div class="funding-context"><span>Latest disclosed financing</span><strong>{funding}</strong></div><div class="thesis-columns"><div><span class="thesis-label bull">Bull case</span><p>{E(c.get('bull_case','Editorial note coming soon.'))}</p></div><div><span class="thesis-label bear">Bear case</span><p>{E(c.get('bear_case','Editorial note coming soon.'))}</p></div></div>{'<ul class="company-directory-notes">'+notes+'</ul>' if notes else ''}<a class="company-profile-link" href="/companies/{c['slug']}/">View company profile →</a></article>''')
-put(s.head,'<script defer src="/companies.js"></script>')
+put(s.head,f'<script defer src="/companies.js?v={companies_script_version}"></script>')
 write(s,'/companies/')
 
 # The calendar separates filed transactions from market watchlist names so timing stays honest.
