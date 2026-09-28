@@ -1,4 +1,23 @@
 (() => {
+  const toggleButtons = [...document.querySelectorAll('.view-toggle')];
+  const viewContents = [...document.querySelectorAll('.ipo-view-content')];
+  if (!toggleButtons.length) return;
+  const setView = view => {
+    toggleButtons.forEach(button => {
+      const active = button.dataset.view === view;
+      button.classList.toggle('active', active);
+      button.setAttribute('aria-pressed', String(active));
+    });
+    viewContents.forEach(content => content.hidden = content.dataset.view !== view);
+    try { localStorage.setItem('ipo-calendar-view', view); } catch { /* Optional preference only. */ }
+  };
+  let saved = 'calendar';
+  try { saved = localStorage.getItem('ipo-calendar-view') || saved; } catch { /* Optional preference only. */ }
+  setView(saved);
+  toggleButtons.forEach(button => button.addEventListener('click', () => setView(button.dataset.view)));
+})();
+
+(() => {
   const earningsEvents = [...document.querySelectorAll('.earnings-event')];
   const earningsMonth = document.querySelector('.ipo-month');
   if (earningsEvents.length && earningsMonth) {
