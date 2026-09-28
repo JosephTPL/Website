@@ -5,33 +5,33 @@
   "sector": "AI hardware",
   "summary": "Inference-chip company pursuing lower-latency, lower-cost AI serving.",
   "overview": "<p>Groq designs hardware and cloud services optimized for AI inference.</p>",
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-28",
   "report": "",
   "facts": [
     {
       "label": "Latest disclosed financing",
-      "value": "August 2024: $640M Series D",
-      "note": "Publicly reported financing context.",
-      "source": ""
+      "value": "August 2026: $350M growth round at $3.5B",
+      "note": "TechCrunch reported the financing established a $3.5B valuation for Groq after its NVIDIA licensing transaction.",
+      "source": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/"
     }
   ],
   "directory_rank": 39,
   "bull_case": "Inference demand may become enormous, rewarding specialized speed and efficiency.",
   "bear_case": "Nvidia, hyperscalers, and rapid model changes create an unforgiving hardware market.",
-  "latest_round": "August 2024: $640M Series D",
+  "latest_round": "August 2026: $350M growth round at $3.5B",
   "directory_notes": [
     "Inference demand",
     "cost-per-token advantage."
   ],
   "intelligence": {
     "kicker":"Company intelligence","location":"Mountain View, California","status":"Private","logo":"https://logo.clearbit.com/groq.com","description":"Groq operates an AI inference cloud built around its low-latency Language Processing Unit technology.",
-    "metrics":[{"value":"Undisclosed","label":"Current valuation","note":"Post-licensing deal mark unavailable"},{"value":"$650M","label":"Latest funding","note":"June 2026 growth capital"},{"value":"Private","label":"Public status","note":"Independent after NVIDIA agreement"}],
+    "metrics":[{"value":"$3.5B","label":"Reported valuation","note":"August 2026 growth round"},{"value":"$350M","label":"Latest funding","note":"August 2026 growth round"},{"value":"Private","label":"Public status","note":"Independent after NVIDIA agreement"}],
     "company":["Groq originally developed specialized hardware for fast, low-cost AI inference and later expanded into a global cloud service.","In December 2025 it entered a non-exclusive technology licensing agreement with NVIDIA while continuing to operate independently under new leadership."],
     "why_it_matters":"Groq is a rare case study in how a private AI infrastructure company can monetize technology without a full acquisition. The structure matters for founders and investors across inference, chips and cloud infrastructure.",
-    "valuation_history":[{"value":"$2.8B","date":"2024","round":"Series D"},{"value":"$6.9B","date":"2025","round":"Funding round"},{"value":"Not disclosed","date":"2026","round":"Growth capital"}],
-    "changed":[{"date":"2025","text":"Licensed inference technology to NVIDIA on a non-exclusive basis; the company remained independent."},{"date":"2026","text":"Raised $650M to expand its inference cloud footprint and capacity."}],
-    "takeaways":["The NVIDIA agreement validates inference as a strategic bottleneck.","GroqCloud remains a separate operating business after the licensing deal.","The current valuation was not disclosed with the 2026 financing."],
+    "valuation_history":[{"value":"$2.8B","date":"2024","round":"Series D"},{"value":"$6.9B","date":"2025","round":"Funding round"},{"value":"$3.5B","date":"2026","round":"Growth round"}],
+    "changed":[{"date":"2025","text":"Licensed inference technology to NVIDIA on a non-exclusive basis; the company remained independent."},{"date":"2026","text":"Raised $350M to expand its AI-inference cloud, with TechCrunch reporting a $3.5B valuation."}],
+    "takeaways":["The NVIDIA agreement validates inference as a strategic bottleneck.","GroqCloud remains a separate operating business after the licensing deal.","The August 2026 round established a reported $3.5B valuation for the post-licensing company."],
     "quick_facts":[{"label":"Founded","value":"2016"},{"label":"Headquarters","value":"Mountain View, CA"},{"label":"CEO","value":"Simon Edwards"},{"label":"Website","value":"groq.com"}],
-    "sources":[{"label":"Groq June 2026 funding announcement","url":"https://groq.com/newsroom/groq-raises-usd650m-to-scale-its-ai-inference-cloud-business"},{"label":"Groq NVIDIA licensing announcement","url":"https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale"}]
+    "sources":[{"label":"TechCrunch: Groq $350M growth round at reported $3.5B valuation","url":"https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/"},{"label":"Groq June 2026 funding announcement","url":"https://groq.com/newsroom/groq-raises-usd650m-to-scale-its-ai-inference-cloud-business"},{"label":"Groq NVIDIA licensing announcement","url":"https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale"}]
   }
 }
