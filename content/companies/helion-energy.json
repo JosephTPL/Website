@@ -1,0 +1,80 @@
+{
+  "slug": "helion-energy",
+  "name": "Helion Energy",
+  "status": "Published",
+  "sector": "Energy",
+  "summary": "Helion is building fusion power plants, with its first commercial plant under construction in Washington state and a deal to supply Microsoft with electricity by 2028.",
+  "overview": "<p>Helion Energy develops pulsed magnetic fusion machines intended to produce electricity directly. Its seventh-generation prototype, Polaris, is operating, and its first commercial plant, Orion, is under construction in Malaga, Washington.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Valuation",
+      "value": "$15.5B",
+      "note": "Post-money valuation of the Series G announced in June 2026.",
+      "source": "https://www.helionenergy.com/newsroom/helion-raises-465-million-series-g-funding-round-to-meet-surging-global-demand-for-power"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$465M",
+      "note": "Series G led by Thrive Capital. Helion later said the round closed at $500M in September 2026.",
+      "source": "https://www.helionenergy.com/newsroom/helion-raises-465-million-series-g-funding-round-to-meet-surging-global-demand-for-power"
+    }
+  ],
+  "directory_rank": 27,
+  "bull_case": "If Orion delivers power on schedule, Helion would be among the first companies to sell fusion electricity, with a signed customer in Microsoft and demand from data centers rising quickly.",
+  "bear_case": "Commercial fusion has never been demonstrated, and delays or technical setbacks at Orion would be hard to reconcile with a $15.5B valuation.",
+  "latest_round": "June 2026: $465M Series G at $15.5B",
+  "directory_notes": [
+    "Orion construction and the 2028 Microsoft delivery target.",
+    "Polaris results and the path from prototype to power sales."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Everett, Washington",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=helionenergy.com&sz=128",
+    "description": "Helion Energy is building fusion power plants designed to generate electricity directly from fusion reactions.",
+    "metrics": [
+      {"value": "$15.5B", "label": "Latest valuation", "note": "June 2026 post-money"},
+      {"value": "$465M", "label": "Latest funding", "note": "Series G, led by Thrive Capital"},
+      {"value": "$1.5B+", "label": "Total raised", "note": "As of June 2026"},
+      {"value": "Private", "label": "Public status", "note": "No confirmed IPO"}
+    ],
+    "company": [
+      "Helion was founded in 2013 by CEO David Kirtley and three co-founders and is based in Everett, Washington. Its approach uses pulsed magnetic fields to compress fuel to fusion conditions and aims to recover electricity directly from the process. Its seventh-generation prototype, Polaris, is described by the company as the first privately funded fusion machine to operate with deuterium-tritium fuel.",
+      "In June 2026 Helion announced a $465 million Series G at a $15.5 billion post-money valuation, nearly triple its Series F valuation from early 2025. Thrive Capital led the round, joined by new investors including Lux Capital, Peak XV Partners and BoxGroup and existing backers including SoftBank Vision Fund 2 and Lightspeed. The company has raised more than $1.5 billion in total."
+    ],
+    "why_it_matters": "Helion is among the most highly valued fusion companies and one of the few with a signed commercial customer. Its progress is a read-through for AI data-center power demand and for whether private capital can fund first-of-a-kind energy technology.",
+    "valuation_history": [
+      {"value": "~$5B", "date": "Early 2025", "round": "Series F"},
+      {"value": "$15.5B", "date": "Jun 2026", "round": "$465M Series G"}
+    ],
+    "changed": [
+      {"date": "2013", "text": "Helion is founded by David Kirtley and three co-founders."},
+      {"date": "2023", "text": "Helion signs an agreement to supply Microsoft with fusion electricity by 2028."},
+      {"date": "Jul 2025", "text": "Helion breaks ground on Orion, a 50-megawatt plant in Malaga, Washington."},
+      {"date": "Jun 2026", "text": "Helion announces a $465M Series G at a $15.5B valuation, led by Thrive Capital."},
+      {"date": "Sep 2026", "text": "Helion says the Series G closed at $500M."}
+    ],
+    "takeaways": [
+      "The valuation nearly tripled in about 18 months, reflecting investor demand for new power sources for AI data centers.",
+      "The Microsoft agreement gives Helion a named customer and a public deadline of 2028.",
+      "Orion is the key test: it must move from construction to delivering electricity.",
+      "The technology remains unproven commercially, so timelines deserve skepticism."
+    ],
+    "quick_facts": [
+      ["Founded", "2013"],
+      ["Headquarters", "Everett, Washington"],
+      ["CEO", "David Kirtley"],
+      ["Focus", "Fusion power plants"],
+      ["Website", "helionenergy.com"],
+      ["Public status", "Private"]
+    ],
+    "sources": [
+      {"label": "Helion: $465M Series G announcement", "url": "https://www.helionenergy.com/newsroom/helion-raises-465-million-series-g-funding-round-to-meet-surging-global-demand-for-power"},
+      {"label": "GeekWire: Helion hits $15.5B valuation", "url": "https://www.geekwire.com/2026/helion-hits-15-5b-valuation-with-465m-in-new-cash-to-commercialize-fusion-this-decade/"},
+      {"label": "ESG Today: Helion raises at nearly triple its prior valuation", "url": "https://www.esgtoday.com/fusion-developer-helion-raises-465-million-at-triple-its-prior-valuation/"}
+    ]
+  }
+}
