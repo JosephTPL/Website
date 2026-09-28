@@ -4,7 +4,6 @@ const additions='Conduit|Not publicly disclosed|conduit.com~Hone|Not publicly di
 const profileValuations=/* PROFILE_VALUATIONS */;
 for(const list of [featured,watch,additions])list.forEach(company=>{const valuation=profileValuations[company[0].toLowerCase()];if(valuation)company[1]=valuation});
 watch.push(['YMTC','$22.5B','ymtc.com'],['Cohere','$7B','cohere.com'],['Shield AI','$12.7B','shield.ai'],['Discord','$15B','discord.com'],['Hugging Face','$12.93B','huggingface.co'],['Groq','Undisclosed','groq.com'],['Notion','$11B','notion.so']);
-featured.push(['Oura','$15.6B','Sep 2026','ouraring.com','']);
 const present=new Set([...featured,...watch].map(x=>x[0].toLowerCase()));additions.forEach(x=>{if(!present.has(x[0].toLowerCase()))watch.push(x)});
 const grid=document.querySelector('#company-directory-grid'),search=document.querySelector('#company-search'),count=document.querySelector('#company-result-count'),intro=document.querySelector('.directory-head>p:not(.overline)');
 if(!grid||!search||!count)return;
