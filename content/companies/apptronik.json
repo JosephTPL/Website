@@ -1,0 +1,129 @@
+{
+  "slug": "apptronik",
+  "name": "Apptronik",
+  "status": "Published",
+  "sector": "Robotics",
+  "summary": "Apptronik builds Apollo, a general-purpose humanoid robot aimed at manufacturing and logistics, with backing from Google and Mercedes-Benz.",
+  "overview": "<p>Apptronik designs and manufactures Apollo, a humanoid robot built for factory and warehouse work.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$5.5B",
+      "note": "February 2026 financing.",
+      "source": "https://finance.yahoo.com/news/apptronik-raises-520-million-5-192431461.html"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$520M",
+      "note": "Led by Google, Mercedes-Benz and B Capital.",
+      "source": "https://finance.yahoo.com/news/apptronik-raises-520-million-5-192431461.html"
+    }
+  ],
+  "directory_rank": 40,
+  "bull_case": "Partnerships with Mercedes-Benz, GXO and Google DeepMind give Apptronik real deployment paths and AI support.",
+  "bear_case": "Humanoid robots are expensive and unproven at scale, and competition is crowded and well funded.",
+  "latest_round": "February 2026: $520M at $5.5B",
+  "directory_notes": [
+    "Pilot-to-production deployments.",
+    "Competition from Figure, Tesla and Chinese makers."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Austin, Texas",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=apptronik.com&sz=128",
+    "description": "Apptronik designs and manufactures Apollo, a humanoid robot built for factory and warehouse work.",
+    "metrics": [
+      {
+        "value": "$5.5B",
+        "label": "Latest valuation",
+        "note": "February 2026 financing"
+      },
+      {
+        "value": "$520M",
+        "label": "Latest funding",
+        "note": "Led by Google, Mercedes-Benz and B Capital"
+      },
+      {
+        "value": "~300",
+        "label": "Employees",
+        "note": "February 2026"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Apptronik grew out of the Human Centered Robotics Lab at the University of Texas at Austin. Its Apollo humanoid can work on legs or wheels and is being piloted in manufacturing and logistics, with partners including Mercedes-Benz, GXO Logistics and Google DeepMind.",
+      "In February 2026 Apptronik raised $520 million at a $5.5 billion valuation, led by Google, Mercedes-Benz and B Capital, with AT&T Ventures, John Deere and Qatar Investment Authority joining. That followed a $415 million raise in February 2025."
+    ],
+    "why_it_matters": "Apptronik is one of the leading U.S. humanoid-robot makers and a read-through for whether humanoids move from pilots into real factory deployments.",
+    "valuation_history": [
+      {
+        "value": "$5.5B",
+        "date": "Feb 2026",
+        "round": "$520M financing"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2016",
+        "text": "Apptronik is founded out of UT Austin's robotics lab."
+      },
+      {
+        "date": "Feb 2025",
+        "text": "Apptronik raises $415M."
+      },
+      {
+        "date": "Feb 2026",
+        "text": "A $520M round values it at $5.5B."
+      }
+    ],
+    "takeaways": [
+      "Strategic investors are also early customers and partners.",
+      "The valuation roughly tripled from its Series A.",
+      "Humanoids remain at the pilot stage across the industry.",
+      "Competition includes Figure, Tesla Optimus and Chinese makers."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2016"
+      ],
+      [
+        "Headquarters",
+        "Austin, Texas"
+      ],
+      [
+        "Co-founder and CEO",
+        "Jeff Cardenas"
+      ],
+      [
+        "Focus",
+        "Humanoid robots"
+      ],
+      [
+        "Website",
+        "apptronik.com"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Yahoo Finance: Apptronik raises $520M at $5.5B",
+        "url": "https://finance.yahoo.com/news/apptronik-raises-520-million-5-192431461.html"
+      },
+      {
+        "label": "CNBC: Apptronik raises $520M",
+        "url": "https://www.cnbc.com/2026/02/11/apptronik-raises-520-million-at-5-billion-valuation-for-apollo-robot.html"
+      }
+    ]
+  }
+}

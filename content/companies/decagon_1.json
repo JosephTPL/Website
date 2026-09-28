@@ -1,0 +1,134 @@
+{
+  "slug": "decagon",
+  "name": "Decagon",
+  "status": "Published",
+  "sector": "Enterprise AI",
+  "summary": "Decagon builds AI agents that handle customer-support conversations for companies such as Chime.",
+  "overview": "<p>Decagon provides AI agents that resolve customer-support requests across chat, email and voice.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$4.5B",
+      "note": "January 2026 Series D.",
+      "source": "https://decagon.ai/blog/decagon-closes-employee-tender-at-4-5-billion-valuation"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$250M",
+      "note": "Series D; employee tender at the same value in March 2026.",
+      "source": "https://decagon.ai/blog/decagon-closes-employee-tender-at-4-5-billion-valuation"
+    }
+  ],
+  "directory_rank": 44,
+  "bull_case": "Strong growth and top-tier backers position Decagon as a leader in AI customer support.",
+  "bear_case": "Sierra, Salesforce and the AI labs compete for the same budgets, and pricing may fall.",
+  "latest_round": "January 2026: $250M Series D at $4.5B",
+  "directory_notes": [
+    "Competition with Sierra.",
+    "Customer growth and pricing."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "San Francisco, California",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=decagon.ai&sz=128",
+    "description": "Decagon provides AI agents that resolve customer-support requests across chat, email and voice.",
+    "metrics": [
+      {
+        "value": "$4.5B",
+        "label": "Latest valuation",
+        "note": "January 2026 Series D"
+      },
+      {
+        "value": "$250M",
+        "label": "Latest funding",
+        "note": "Series D; employee tender at the same value in March 2026"
+      },
+      {
+        "value": "Tender",
+        "label": "Employee liquidity",
+        "note": "March 2026"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Decagon was founded in 2023 by Jesse Zhang and Ashwin Sreenivas. It builds AI agents that answer and resolve customer-support requests for companies including Chime, and competes directly with Sierra.",
+      "In January 2026 Decagon raised a $250 million Series D at a $4.5 billion valuation, roughly triple its previous round, with Coatue, Index and a16z among the investors. In March 2026 those investors led an employee tender offer at the same valuation."
+    ],
+    "why_it_matters": "Decagon, alongside Sierra, is a leading test of AI agents replacing customer-support work, and of how many winners that market can support.",
+    "valuation_history": [
+      {
+        "value": "$4.5B",
+        "date": "Jan 2026",
+        "round": "$250M Series D"
+      },
+      {
+        "value": "$4.5B",
+        "date": "Mar 2026",
+        "round": "Employee tender"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2023",
+        "text": "Decagon is founded."
+      },
+      {
+        "date": "Jan 2026",
+        "text": "A $250M Series D values it at $4.5B."
+      },
+      {
+        "date": "Mar 2026",
+        "text": "An employee tender offer is completed at $4.5B."
+      }
+    ],
+    "takeaways": [
+      "The valuation roughly tripled from the prior round.",
+      "An early employee tender signals strong investor demand.",
+      "Sierra is a direct, larger competitor.",
+      "Revenue is not disclosed by the company."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2023"
+      ],
+      [
+        "Headquarters",
+        "San Francisco, California"
+      ],
+      [
+        "Co-founder and CEO",
+        "Jesse Zhang"
+      ],
+      [
+        "Focus",
+        "AI customer-support agents"
+      ],
+      [
+        "Website",
+        "decagon.ai"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Decagon: employee tender at $4.5B",
+        "url": "https://decagon.ai/blog/decagon-closes-employee-tender-at-4-5-billion-valuation"
+      },
+      {
+        "label": "Bloomberg: Decagon valued at $4.5B",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-28/ai-customer-support-startup-decagon-valued-at-4-5-billion"
+      }
+    ]
+  }
+}

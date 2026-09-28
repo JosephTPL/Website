@@ -1,0 +1,130 @@
+{
+  "slug": "replit",
+  "name": "Replit",
+  "status": "Published",
+  "sector": "Developer tools",
+  "summary": "Replit makes a browser-based coding platform whose AI Agent lets people build and deploy apps by describing them in plain language.",
+  "overview": "<p>Replit provides an online development environment and an AI agent that writes, runs and deploys software from natural-language instructions.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$9B",
+      "note": "September 2025 financing.",
+      "source": "https://replit.com/news/funding-announcement"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$400M",
+      "note": "Led by Georgian.",
+      "source": "https://replit.com/news/funding-announcement"
+    }
+  ],
+  "directory_rank": 37,
+  "bull_case": "A simple way for anyone to build and host apps with AI could make Replit a mass-market software platform.",
+  "bear_case": "Cursor, Lovable, and coding tools from OpenAI and Anthropic compete for the same users, and churn can be high.",
+  "latest_round": "September 2025: $400M at $9B",
+  "directory_notes": [
+    "Revenue growth and retention.",
+    "Competition from Cursor, Lovable and AI labs."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Foster City, California",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=replit.com&sz=128",
+    "description": "Replit provides an online development environment and an AI agent that writes, runs and deploys software from natural-language instructions.",
+    "metrics": [
+      {
+        "value": "$9B",
+        "label": "Latest valuation",
+        "note": "September 2025 financing"
+      },
+      {
+        "value": "$400M",
+        "label": "Latest funding",
+        "note": "Led by Georgian"
+      },
+      {
+        "value": "500K+",
+        "label": "Professional users",
+        "note": "Company reported"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Replit was founded by Amjad Masad and started as an online coding environment. Its AI Agent now lets users build and deploy full applications by describing them, which has turned it into one of the leading vibe-coding platforms for both professionals and non-programmers.",
+      "In September 2025 Replit raised $400 million led by Georgian, with a16z, Coatue and Qatar Investment Authority participating, at a $9 billion valuation, three times the $3 billion it was valued at six months earlier. The company said it was on track for $1 billion in annual recurring revenue."
+    ],
+    "why_it_matters": "Replit is a leading test of whether non-programmers will pay to build software with AI, and competes directly with Cursor, Lovable and the AI labs.",
+    "valuation_history": [
+      {
+        "value": "$3B",
+        "date": "Early 2025",
+        "round": "Financing"
+      },
+      {
+        "value": "$9B",
+        "date": "Sep 2025",
+        "round": "$400M financing"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2016",
+        "text": "Replit is founded."
+      },
+      {
+        "date": "Early 2025",
+        "text": "A financing values it at $3B."
+      },
+      {
+        "date": "Sep 2025",
+        "text": "A $400M round led by Georgian values it at $9B."
+      }
+    ],
+    "takeaways": [
+      "The valuation tripled in about six months.",
+      "Its audience includes non-programmers, not just developers.",
+      "Revenue growth has been very fast, as reported by the company.",
+      "Competition in AI coding is intense and switching costs are low."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2016"
+      ],
+      [
+        "Headquarters",
+        "Foster City, California"
+      ],
+      [
+        "Co-founder and CEO",
+        "Amjad Masad"
+      ],
+      [
+        "Focus",
+        "AI app building and coding"
+      ],
+      [
+        "Website",
+        "replit.com"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Replit: $400M at $9B",
+        "url": "https://replit.com/news/funding-announcement"
+      }
+    ]
+  }
+}

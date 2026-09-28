@@ -1,0 +1,129 @@
+{
+  "slug": "abridge",
+  "name": "Abridge",
+  "status": "Published",
+  "sector": "Healthcare AI",
+  "summary": "Abridge uses AI to turn doctor–patient conversations into clinical notes, and is used by more than 150 large U.S. health systems.",
+  "overview": "<p>Abridge provides ambient AI documentation that listens to clinical conversations and drafts notes inside electronic health records.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$5.3B",
+      "note": "April 2026, reported by secondary-market data providers.",
+      "source": "https://www.abridge.com/blog/series-e"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$316M",
+      "note": "Series E extension, reported.",
+      "source": "https://www.abridge.com/blog/series-e"
+    }
+  ],
+  "directory_rank": 41,
+  "bull_case": "Broad adoption among large health systems and a clear time-saving benefit make Abridge a leader in clinical AI.",
+  "bear_case": "Epic, Microsoft's Nuance and many startups compete, which could push prices down.",
+  "latest_round": "April 2026: reported $316M Series E extension at $5.3B",
+  "directory_notes": [
+    "Health-system expansion.",
+    "Competition from Epic and Microsoft Nuance."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Pittsburgh, Pennsylvania",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=abridge.com&sz=128",
+    "description": "Abridge provides ambient AI documentation that listens to clinical conversations and drafts notes inside electronic health records.",
+    "metrics": [
+      {
+        "value": "$5.3B",
+        "label": "Latest valuation",
+        "note": "April 2026, reported by secondary-market data providers"
+      },
+      {
+        "value": "$316M",
+        "label": "Latest funding",
+        "note": "Series E extension, reported"
+      },
+      {
+        "value": "150+",
+        "label": "Health systems",
+        "note": "Company reported"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Abridge was founded in 2018 by cardiologist Dr. Shiv Rao. Its software listens to conversations between clinicians and patients and drafts clinical notes directly in electronic health records, reducing documentation time for doctors.",
+      "Abridge raised a $300 million Series E led by Andreessen Horowitz in June 2025, with Khosla Ventures participating, and says more than 150 large U.S. health systems use its product. A $316 million extension at a $5.3 billion valuation was reported in April 2026 by secondary-market data providers, without a company announcement."
+    ],
+    "why_it_matters": "Abridge is the leading example of vertical AI in healthcare and a read-through for how quickly hospitals adopt AI in clinical workflows.",
+    "valuation_history": [
+      {
+        "value": "$5.3B",
+        "date": "Apr 2026",
+        "round": "Series E extension, reported"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2018",
+        "text": "Abridge is founded by Dr. Shiv Rao."
+      },
+      {
+        "date": "Jun 2025",
+        "text": "A $300M Series E is led by Andreessen Horowitz."
+      },
+      {
+        "date": "Apr 2026",
+        "text": "A $316M extension at $5.3B is reported."
+      }
+    ],
+    "takeaways": [
+      "The latest valuation is reported, not company-confirmed.",
+      "Adoption by large health systems is broad.",
+      "Epic and Microsoft's Nuance offer competing tools.",
+      "Healthcare sales cycles are long but contracts are sticky."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2018"
+      ],
+      [
+        "Headquarters",
+        "Pittsburgh, Pennsylvania"
+      ],
+      [
+        "Co-founder and CEO",
+        "Dr. Shiv Rao"
+      ],
+      [
+        "Focus",
+        "Clinical documentation AI"
+      ],
+      [
+        "Website",
+        "abridge.com"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Abridge: $300M Series E",
+        "url": "https://www.abridge.com/blog/series-e"
+      },
+      {
+        "label": "TechJack Solutions: Abridge reported $316M extension at $5.3B",
+        "url": "https://techjacksolutions.com/ai-brief/abridge-closes-reported-316m-series-e-extension-at-53b-valua/"
+      }
+    ]
+  }
+}

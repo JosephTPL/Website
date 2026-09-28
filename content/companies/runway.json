@@ -1,0 +1,125 @@
+{
+  "slug": "runway",
+  "name": "Runway",
+  "status": "Published",
+  "sector": "AI media",
+  "summary": "Runway makes AI video-generation tools used by filmmakers and creators, and is building \"world models\" that simulate the physical world.",
+  "overview": "<p>Runway develops AI models and tools for generating and editing video, and is expanding into world models.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$5.3B",
+      "note": "February 2026 Series E.",
+      "source": "https://techcrunch.com/2026/02/10/ai-video-startup-runway-raises-315m-at-5-3b-valuation-eyes-more-capable-world-models/"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$315M",
+      "note": "Series E, led by General Atlantic.",
+      "source": "https://techcrunch.com/2026/02/10/ai-video-startup-runway-raises-315m-at-5-3b-valuation-eyes-more-capable-world-models/"
+    }
+  ],
+  "directory_rank": 41,
+  "bull_case": "A strong creative-industry customer base and early world models give Runway room to grow beyond video editing.",
+  "bear_case": "Google, OpenAI and Chinese labs compete with well-funded video models, and compute costs are high.",
+  "latest_round": "February 2026: $315M Series E at $5.3B",
+  "directory_notes": [
+    "World-model products and customers.",
+    "Competition from big-tech video models."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "New York, New York",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=runwayml.com&sz=128",
+    "description": "Runway develops AI models and tools for generating and editing video, and is expanding into world models.",
+    "metrics": [
+      {
+        "value": "$5.3B",
+        "label": "Latest valuation",
+        "note": "February 2026 Series E"
+      },
+      {
+        "value": "$315M",
+        "label": "Latest funding",
+        "note": "Series E, led by General Atlantic"
+      },
+      {
+        "value": "Gen-4.5",
+        "label": "Latest video model",
+        "note": "With native audio"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Runway was founded in 2018 by Cristóbal Valenzuela, Anastasis Germanidis and Alejandro Matamala. Its Gen series of models generate and edit video from text and images, and it released its first world model in December 2025.",
+      "In February 2026 Runway raised a $315 million Series E led by General Atlantic, with Nvidia, Fidelity, Adobe Ventures and AMD Ventures participating, at a $5.3 billion valuation, nearly double its previous round."
+    ],
+    "why_it_matters": "Runway is the leading independent AI-video company and a read-through for how generative video competes with offerings from Google, OpenAI and others.",
+    "valuation_history": [
+      {
+        "value": "$5.3B",
+        "date": "Feb 2026",
+        "round": "$315M Series E"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2018",
+        "text": "Runway is founded."
+      },
+      {
+        "date": "Dec 2025",
+        "text": "Runway releases its first world model."
+      },
+      {
+        "date": "Feb 2026",
+        "text": "A $315M Series E values it at $5.3B."
+      }
+    ],
+    "takeaways": [
+      "The valuation nearly doubled from the prior round.",
+      "World models broaden the opportunity beyond video tools.",
+      "Big tech firms are releasing strong competing video models.",
+      "Training video models is very compute-intensive."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2018"
+      ],
+      [
+        "Headquarters",
+        "New York, New York"
+      ],
+      [
+        "Co-founder and CEO",
+        "Cristóbal Valenzuela"
+      ],
+      [
+        "Focus",
+        "AI video and world models"
+      ],
+      [
+        "Website",
+        "runwayml.com"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "TechCrunch: Runway raises $315M at $5.3B",
+        "url": "https://techcrunch.com/2026/02/10/ai-video-startup-runway-raises-315m-at-5-3b-valuation-eyes-more-capable-world-models/"
+      }
+    ]
+  }
+}

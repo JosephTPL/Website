@@ -1,0 +1,125 @@
+{
+  "slug": "black-forest-labs",
+  "name": "Black Forest Labs",
+  "status": "Published",
+  "sector": "AI media",
+  "summary": "Black Forest Labs makes the FLUX image-generation models used by Adobe, Canva, Meta and Microsoft.",
+  "overview": "<p>Black Forest Labs develops frontier image and video generation models, sold through an API and licensed to major software companies.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$3.25B",
+      "note": "December 2025 Series B post-money.",
+      "source": "https://bfl.ai/blog/our-300m-series-b"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$300M",
+      "note": "Series B, led by Salesforce Ventures and AMP.",
+      "source": "https://bfl.ai/blog/our-300m-series-b"
+    }
+  ],
+  "directory_rank": 48,
+  "bull_case": "FLUX is embedded in major creative products, giving Black Forest Labs scale and credibility.",
+  "bear_case": "Big AI labs release competing image models, and partner concentration is a risk.",
+  "latest_round": "December 2025: $300M Series B at $3.25B",
+  "directory_notes": [
+    "Partner licensing growth.",
+    "Competition from Google and OpenAI image models."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Freiburg, Germany and San Francisco",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=bfl.ai&sz=128",
+    "description": "Black Forest Labs develops frontier image and video generation models, sold through an API and licensed to major software companies.",
+    "metrics": [
+      {
+        "value": "$3.25B",
+        "label": "Latest valuation",
+        "note": "December 2025 Series B post-money"
+      },
+      {
+        "value": "$300M",
+        "label": "Latest funding",
+        "note": "Series B, led by Salesforce Ventures and AMP"
+      },
+      {
+        "value": "FLUX",
+        "label": "Model family",
+        "note": "Used by Adobe, Canva, Meta, Microsoft"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Black Forest Labs was founded in 2024 by researchers behind Stable Diffusion. Its FLUX models generate and edit images and video and are licensed to companies including Adobe, Canva, Meta and Microsoft, as well as offered through platforms such as fal and Replicate.",
+      "In December 2025 the company raised a $300 million Series B led by Salesforce Ventures and Anjney Midha at a $3.25 billion post-money valuation, with a16z, Nvidia, General Catalyst and Temasek participating."
+    ],
+    "why_it_matters": "Black Forest Labs is Europe's leading generative-image company and a read-through for whether independent model makers can win by licensing to large software platforms.",
+    "valuation_history": [
+      {
+        "value": "$3.25B",
+        "date": "Dec 2025",
+        "round": "$300M Series B"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2024",
+        "text": "Black Forest Labs is founded by former Stable Diffusion researchers."
+      },
+      {
+        "date": "Dec 2025",
+        "text": "A $300M Series B values it at $3.25B."
+      }
+    ],
+    "takeaways": [
+      "Licensing to big platforms gives it distribution without a large consumer app.",
+      "Its founders have a track record in image models.",
+      "Google and OpenAI offer strong competing image models.",
+      "Revenue depends on a small number of large partners."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2024"
+      ],
+      [
+        "Headquarters",
+        "Freiburg, Germany and San Francisco"
+      ],
+      [
+        "Co-founder and CEO",
+        "Robin Rombach"
+      ],
+      [
+        "Focus",
+        "Image and video generation models"
+      ],
+      [
+        "Website",
+        "bfl.ai"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Black Forest Labs: $300M Series B",
+        "url": "https://bfl.ai/blog/our-300m-series-b"
+      },
+      {
+        "label": "TechCrunch: Black Forest Labs raises $300M at $3.25B",
+        "url": "https://techcrunch.com/2025/12/01/black-forest-labs-raises-300m-at-3-25b-valuation/"
+      }
+    ]
+  }
+}
