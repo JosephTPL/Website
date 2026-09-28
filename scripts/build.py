@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup, NavigableString
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'_site'
 E=html.escape
+style_version=hashlib.sha256((ROOT/'assets'/'style.css').read_bytes()).hexdigest()[:12]
 
 def soup(text):return BeautifulSoup(text,'html.parser')
 def read(path):return json.loads((ROOT/path).read_text())
@@ -87,6 +88,8 @@ def intelligence_profile(c):
 
 def shell(kind,title,description,route,image=''):
  s=soup((ROOT/'templates'/f'{kind}.html').read_text());s.title.string=title+' | '+settings['site_name']
+ for stylesheet in s.select('link[href="/style.css"]'):
+  stylesheet['href']=f'/style.css?v={style_version}'
  favicon=s.select_one('link[rel="icon"]');favicon['href']='/favicon.png?v=3';favicon['sizes']='64x64';favicon['type']='image/png'
  for asset in s.select('link[href="/enhancements.css"],script[src="/enhancements.js"]'):
   asset['href' if asset.name=='link' else 'src']=('/enhancements.css?v=2' if asset.name=='link' else '/enhancements.js?v=2')
