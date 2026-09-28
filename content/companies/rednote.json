@@ -1,0 +1,77 @@
+{
+  "slug": "rednote",
+  "name": "RedNote (Xiaohongshu)",
+  "status": "Published",
+  "sector": "Consumer internet",
+  "summary": "Xiaohongshu, known internationally as RedNote, combines lifestyle content and e-commerce for more than 400 million monthly users, and is reportedly preparing a Hong Kong IPO.",
+  "overview": "<p>Xiaohongshu is a Chinese lifestyle-content and shopping platform where users share reviews, recommendations, and guides. It drew international attention as RedNote when U.S. users joined during the TikTok uncertainty.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Reported valuation",
+      "value": "$50B+",
+      "note": "Implied by private secondary share transactions, as reported in June 2026. Not a priced primary round.",
+      "source": "https://www.investing.com/news/stock-market-news/chinas-xiaohongshu-prepares-hong-kong-ipo-at-over-70-bln-valuation--wsj-4746470"
+    },
+    {
+      "label": "Reported IPO target",
+      "value": "$70B+",
+      "note": "Valuation sought by major investors for a Hong Kong listing as early as the end of 2026, per June 2026 reporting.",
+      "source": "https://www.investing.com/news/stock-market-news/chinas-xiaohongshu-prepares-hong-kong-ipo-at-over-70-bln-valuation--wsj-4746470"
+    }
+  ],
+  "directory_rank": 6,
+  "bull_case": "A large, engaged audience that searches the platform for purchase decisions gives Xiaohongshu unusually valuable advertising and commerce intent, and it is already reported to be profitable.",
+  "bear_case": "Chinese content regulation, heavy dependence on advertising, and competition from Douyin and Taobao could cap growth and the valuation a listing achieves.",
+  "latest_round": "No recent priced round; secondary transactions reportedly imply $50B+",
+  "directory_notes": [
+    "Hong Kong IPO timing and valuation.",
+    "Advertising and e-commerce monetization of a search-like audience."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Shanghai, China",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=xiaohongshu.com&sz=128",
+    "description": "Xiaohongshu (RedNote) is a lifestyle-content and e-commerce platform where users discover, review, and buy products.",
+    "metrics": [
+      {"value": "$50B+", "label": "Reported valuation", "note": "Implied by secondary trades, June 2026"},
+      {"value": "$70B+", "label": "Reported IPO target", "note": "Hong Kong listing, per June 2026 reporting"},
+      {"value": ">$2B", "label": "2025 net profit", "note": "As reported, June 2026"},
+      {"value": "Private", "label": "Public status", "note": "IPO reportedly in preparation"}
+    ],
+    "company": [
+      "Founded in Shanghai in 2013, Xiaohongshu began as a shopping-guide community and grew into a platform where users post notes, photos, and videos about products, travel, food, and beauty. Many users treat it as a search engine for purchase decisions, which makes its audience valuable to advertisers and merchants.",
+      "In June 2026, reporting said major investors were seeking a valuation above $70 billion in a Hong Kong IPO that could come as early as the end of 2026, up from more than $50 billion implied in recent private secondary share transactions. The same reporting put 2025 net profit above $2 billion and expected 2026 net profit above $3 billion, with more than 400 million monthly active users."
+    ],
+    "why_it_matters": "Xiaohongshu is one of the largest private consumer-internet companies in the world and one of the few that is already profitable at scale. A listing would test how public investors value Chinese consumer platforms and content-led commerce.",
+    "valuation_history": [
+      {"value": "$50B+", "date": "Jun 2026", "round": "Implied by secondary transactions"},
+      {"value": "$70B+", "date": "2026", "round": "Reported IPO target"}
+    ],
+    "changed": [
+      {"date": "2013", "text": "Xiaohongshu is founded in Shanghai as a shopping-guide community."},
+      {"date": "Jan 2025", "text": "The app gains international attention as RedNote when U.S. users join during TikTok uncertainty."},
+      {"date": "Jun 2026", "text": "Reporting says investors are preparing a Hong Kong IPO at a valuation above $70 billion."}
+    ],
+    "takeaways": [
+      "The $50B+ figure comes from secondary trading, not a priced primary round, so it is an indication rather than a company-set valuation.",
+      "Reported profitability sets it apart from most private companies of its size.",
+      "Its audience uses the app to decide what to buy, which supports both advertising and commerce revenue.",
+      "Chinese regulation and listing conditions in Hong Kong will shape both timing and valuation."
+    ],
+    "quick_facts": [
+      ["Founded", "2013"],
+      ["Headquarters", "Shanghai, China"],
+      ["International name", "RedNote"],
+      ["Focus", "Lifestyle content and e-commerce"],
+      ["Website", "xiaohongshu.com"],
+      ["Public status", "Private"]
+    ],
+    "sources": [
+      {"label": "Investing.com (WSJ): Xiaohongshu prepares Hong Kong IPO at over $70B valuation", "url": "https://www.investing.com/news/stock-market-news/chinas-xiaohongshu-prepares-hong-kong-ipo-at-over-70-bln-valuation--wsj-4746470"},
+      {"label": "Xiaohongshu website", "url": "https://www.xiaohongshu.com/"}
+    ]
+  }
+}
