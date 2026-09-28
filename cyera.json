@@ -1,0 +1,134 @@
+{
+  "slug": "cyera",
+  "name": "Cyera",
+  "status": "Published",
+  "sector": "Cybersecurity",
+  "summary": "Cyera sells data-security software that finds and protects sensitive data across companies' cloud systems and AI tools.",
+  "overview": "<p>Cyera provides a data security platform that discovers sensitive data, controls who and what can access it, and governs how AI systems use it.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$12B",
+      "note": "June 2026 financing.",
+      "source": "https://www.cyera.com/press-releases/cyera-raises-600-million-at-12-billion-valuation-to-continue-building-the-trust-layer-for-the-ai-era"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$600M",
+      "note": "Led by Evolution Equity Partners.",
+      "source": "https://www.cyera.com/press-releases/cyera-raises-600-million-at-12-billion-valuation-to-continue-building-the-trust-layer-for-the-ai-era"
+    }
+  ],
+  "directory_rank": 28,
+  "bull_case": "As companies deploy AI on their own data, controlling what those systems can see becomes essential, and Cyera is an early leader.",
+  "bear_case": "Large security platforms such as Microsoft, Palo Alto Networks and CrowdStrike can bundle similar features.",
+  "latest_round": "June 2026: $600M at $12B",
+  "directory_notes": [
+    "AI data-governance adoption.",
+    "Competition from bundled security platforms."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "New York, New York",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=cyera.com&sz=128",
+    "description": "Cyera provides a data security platform that discovers sensitive data, controls who and what can access it, and governs how AI systems use it.",
+    "metrics": [
+      {
+        "value": "$12B",
+        "label": "Latest valuation",
+        "note": "June 2026 financing"
+      },
+      {
+        "value": "$600M",
+        "label": "Latest funding",
+        "note": "Led by Evolution Equity Partners"
+      },
+      {
+        "value": "$2B+",
+        "label": "Total raised",
+        "note": "As of June 2026"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Cyera was founded in 2021 by Yotam Segev and Tamar Bar-Ilan, veterans of Israeli military cyber units. Its platform maps where sensitive data lives across cloud and on-premises systems and controls access to it, and it now positions that as the trust layer for enterprise AI.",
+      "In June 2026 Cyera raised $600 million at a $12 billion valuation, led by Evolution Equity Partners with Temasek and existing backers including Accel, Blackstone and Coatue. The company says annual recurring revenue has tripled three years in a row, and it has made five acquisitions."
+    ],
+    "why_it_matters": "Cyera shows how AI adoption is creating new security spending around data access, and it is one of the fastest-rising private cybersecurity companies.",
+    "valuation_history": [
+      {
+        "value": "$6B",
+        "date": "Jun 2025",
+        "round": "Financing"
+      },
+      {
+        "value": "$12B",
+        "date": "Jun 2026",
+        "round": "$600M financing"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2021",
+        "text": "Cyera is founded by Yotam Segev and Tamar Bar-Ilan."
+      },
+      {
+        "date": "Jun 2025",
+        "text": "A financing values Cyera at $6B."
+      },
+      {
+        "date": "Jun 2026",
+        "text": "A $600M round led by Evolution Equity Partners values it at $12B."
+      }
+    ],
+    "takeaways": [
+      "The valuation doubled in a year.",
+      "AI data governance is a new and fast-growing budget line.",
+      "Acquisitions are broadening the platform.",
+      "Reported revenue multiples are high, so growth needs to continue."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2021"
+      ],
+      [
+        "Headquarters",
+        "New York, New York"
+      ],
+      [
+        "Co-founder and CEO",
+        "Yotam Segev"
+      ],
+      [
+        "Focus",
+        "Data and AI security"
+      ],
+      [
+        "Website",
+        "cyera.com"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Cyera: $600M at $12B valuation",
+        "url": "https://www.cyera.com/press-releases/cyera-raises-600-million-at-12-billion-valuation-to-continue-building-the-trust-layer-for-the-ai-era"
+      },
+      {
+        "label": "SecurityWeek: Cyera raises $600M at $12B",
+        "url": "https://www.securityweek.com/cyera-raises-600-million-at-12-billion-valuation/"
+      }
+    ]
+  }
+}

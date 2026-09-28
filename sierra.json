@@ -1,0 +1,129 @@
+{
+  "slug": "sierra",
+  "name": "Sierra",
+  "status": "Published",
+  "sector": "Enterprise AI",
+  "summary": "Sierra, co-founded by Bret Taylor, builds AI agents that handle customer service and sales conversations for large companies.",
+  "overview": "<p>Sierra builds AI agents that answer customers, resolve issues and complete transactions on behalf of enterprises.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$15B+",
+      "note": "May 2026 post-money.",
+      "source": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$950M",
+      "note": "Led by Tiger Global and GV.",
+      "source": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/"
+    }
+  ],
+  "directory_rank": 26,
+  "bull_case": "Strong founders, blue-chip customers and a clear use case put Sierra in position to lead AI customer service.",
+  "bear_case": "A very high revenue multiple and crowded competition, including from AI model providers, leave little room for error.",
+  "latest_round": "May 2026: $950M at a $15B+ valuation",
+  "directory_notes": [
+    "Revenue growth relative to valuation.",
+    "Competition from Salesforce and AI labs."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "San Francisco, California",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=sierra.ai&sz=128",
+    "description": "Sierra builds AI agents that answer customers, resolve issues and complete transactions on behalf of enterprises.",
+    "metrics": [
+      {
+        "value": "$15B+",
+        "label": "Latest valuation",
+        "note": "May 2026 post-money"
+      },
+      {
+        "value": "$950M",
+        "label": "Latest funding",
+        "note": "Led by Tiger Global and GV"
+      },
+      {
+        "value": "$150M",
+        "label": "Annualized revenue",
+        "note": "February 2026, as reported"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Sierra was co-founded in 2023 by Bret Taylor, a former Salesforce co-CEO and chair of OpenAI's board, and Clay Bavor, a former Google executive. It sells AI agents that handle customer conversations for large companies and is paid in part by outcomes such as resolved cases.",
+      "In May 2026 Sierra raised $950 million led by Tiger Global and GV at a post-money valuation above $15 billion. It reported about $150 million of annualized revenue in early 2026 and says more than 40% of the Fortune 50 are customers."
+    ],
+    "why_it_matters": "Sierra is a leading test of whether AI agents can replace a large share of customer-service work, and of how much enterprises will pay for that.",
+    "valuation_history": [
+      {
+        "value": "$15B+",
+        "date": "May 2026",
+        "round": "$950M financing"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2023",
+        "text": "Sierra is founded by Bret Taylor and Clay Bavor."
+      },
+      {
+        "date": "Feb 2026",
+        "text": "Annualized revenue reaches about $150M, as reported."
+      },
+      {
+        "date": "May 2026",
+        "text": "Sierra raises $950M at a valuation above $15B."
+      }
+    ],
+    "takeaways": [
+      "Enterprise adoption is broad, with more than 40% of the Fortune 50 as customers.",
+      "The valuation is roughly 100 times reported annualized revenue.",
+      "Outcome-based pricing ties revenue to results, not seats.",
+      "Competition from Salesforce, other agent startups and AI labs is intense."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2023"
+      ],
+      [
+        "Headquarters",
+        "San Francisco, California"
+      ],
+      [
+        "Co-founder and CEO",
+        "Bret Taylor"
+      ],
+      [
+        "Focus",
+        "AI customer-service agents"
+      ],
+      [
+        "Website",
+        "sierra.ai"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "TechCrunch: Sierra raises $950M",
+        "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/"
+      },
+      {
+        "label": "CNBC: Sierra raises nearly $1B",
+        "url": "https://www.cnbc.com/2026/05/04/bret-taylor-sierra-fundraise-openai.html"
+      }
+    ]
+  }
+}

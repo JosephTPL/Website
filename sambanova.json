@@ -1,0 +1,129 @@
+{
+  "slug": "sambanova",
+  "name": "SambaNova",
+  "status": "Published",
+  "sector": "Semiconductors",
+  "summary": "SambaNova designs AI chips and systems built for fast inference, and sells them as hardware, on-premises stacks and a cloud service.",
+  "overview": "<p>SambaNova builds reconfigurable dataflow AI chips (RDUs) and full systems for running AI models, sold as racks, on-premises software and a cloud service.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$11B",
+      "note": "July 2026 post-money.",
+      "source": "https://sambanova.ai/press/sambanova-completes-first-close-of-1b-financing-at-11b-valuation"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$1B",
+      "note": "Series F first close, led by General Atlantic.",
+      "source": "https://sambanova.ai/press/sambanova-completes-first-close-of-1b-financing-at-11b-valuation"
+    }
+  ],
+  "directory_rank": 29,
+  "bull_case": "Demand for cheaper, faster AI inference is exploding, and SambaNova has working systems and enterprise customers.",
+  "bear_case": "Nvidia's dominance and software ecosystem make it hard for challengers to win large customers at scale.",
+  "latest_round": "July 2026: $1B Series F first close at $11B",
+  "directory_notes": [
+    "Enterprise inference wins against Nvidia.",
+    "Remaining Series F closes and any IPO plans."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "San Jose, California",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=sambanova.ai&sz=128",
+    "description": "SambaNova builds reconfigurable dataflow AI chips (RDUs) and full systems for running AI models, sold as racks, on-premises software and a cloud service.",
+    "metrics": [
+      {
+        "value": "$11B",
+        "label": "Latest valuation",
+        "note": "July 2026 post-money"
+      },
+      {
+        "value": "$1B",
+        "label": "Latest funding",
+        "note": "Series F first close, led by General Atlantic"
+      },
+      {
+        "value": "JPMorganChase",
+        "label": "Newly announced customer",
+        "note": "July 2026"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "SambaNova was founded in 2017 and is led by co-founder and CEO Rodrigo Liang. It designs its own AI chips, known as RDUs, and sells complete systems, on-premises software and SambaCloud, with a focus on running AI models quickly and efficiently.",
+      "In July 2026 SambaNova completed a $1 billion first close of its Series F at an $11 billion post-money valuation, led by General Atlantic with BlackRock, T. Rowe Price, Intel Capital, Qatar Investment Authority and Vista. It came months after a $350 million-plus raise with an Intel partnership, and alongside a JPMorganChase deployment."
+    ],
+    "why_it_matters": "SambaNova is one of the main private challengers to Nvidia in AI inference, and a read-through for whether specialized chips can win share as inference spending grows.",
+    "valuation_history": [
+      {
+        "value": "$11B",
+        "date": "Jul 2026",
+        "round": "$1B Series F first close"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2017",
+        "text": "SambaNova is founded."
+      },
+      {
+        "date": "Early 2026",
+        "text": "It raises $350M+ alongside a partnership with Intel."
+      },
+      {
+        "date": "Jul 2026",
+        "text": "A $1B Series F first close values SambaNova at $11B; JPMorganChase deployment announced."
+      }
+    ],
+    "takeaways": [
+      "Inference, not training, is its focus, and that market is growing fastest.",
+      "Blue-chip investors and a major bank customer add credibility.",
+      "It competes with Nvidia and several other chip startups.",
+      "Chip businesses need heavy ongoing investment."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2017"
+      ],
+      [
+        "Headquarters",
+        "San Jose, California"
+      ],
+      [
+        "Co-founder and CEO",
+        "Rodrigo Liang"
+      ],
+      [
+        "Focus",
+        "AI inference chips and systems"
+      ],
+      [
+        "Website",
+        "sambanova.ai"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "SambaNova: $1B first close at $11B",
+        "url": "https://sambanova.ai/press/sambanova-completes-first-close-of-1b-financing-at-11b-valuation"
+      },
+      {
+        "label": "TechCrunch: SambaNova raises $1B at $11B",
+        "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"
+      }
+    ]
+  }
+}

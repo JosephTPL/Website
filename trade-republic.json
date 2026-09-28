@@ -1,0 +1,134 @@
+{
+  "slug": "trade-republic",
+  "name": "Trade Republic",
+  "status": "Published",
+  "sector": "Fintech",
+  "summary": "Trade Republic is a Berlin-based investing app and bank offering low-cost stock, ETF and crypto trading and savings accounts across Europe.",
+  "overview": "<p>Trade Republic is a European broker and fully licensed bank offering stocks, ETFs, crypto, private-market products and savings accounts through a mobile app.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "€12.5B",
+      "note": "About $14.5B; December 2025 secondary sale.",
+      "source": "https://www.fintechfutures.com/venture-capital-funding/trade-republic-hits-12-5bn-valuation-following-1-2bn-secondary-share-sale"
+    },
+    {
+      "label": "Latest financing",
+      "value": "€1.2B",
+      "note": "Secondary share sale.",
+      "source": "https://www.fintechfutures.com/venture-capital-funding/trade-republic-hits-12-5bn-valuation-following-1-2bn-secondary-share-sale"
+    }
+  ],
+  "directory_rank": 27,
+  "bull_case": "Profitability, a banking licence and Europe's low share of retail investing give Trade Republic a long runway.",
+  "bear_case": "EU rules on payment for order flow, falling interest rates and competition from banks and brokers could squeeze revenue.",
+  "latest_round": "December 2025: €1.2B secondary sale at €12.5B",
+  "directory_notes": [
+    "Customer growth across Europe.",
+    "Impact of EU trading-fee regulation and interest rates."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Berlin, Germany",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=traderepublic.com&sz=128",
+    "description": "Trade Republic is a European broker and fully licensed bank offering stocks, ETFs, crypto, private-market products and savings accounts through a mobile app.",
+    "metrics": [
+      {
+        "value": "€12.5B",
+        "label": "Latest valuation",
+        "note": "About $14.5B; December 2025 secondary sale"
+      },
+      {
+        "value": "€1.2B",
+        "label": "Latest funding",
+        "note": "Secondary share sale"
+      },
+      {
+        "value": "3 years",
+        "label": "Profitable",
+        "note": "Company reported, January 2026"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Trade Republic was founded in Berlin in 2015 and offers low-cost investing in stocks, ETFs and crypto, along with savings accounts. It received a full banking licence from the European Central Bank in December 2023.",
+      "In a €1.2 billion secondary share sale completed around the turn of 2026, investors including Founders Fund, Fidelity, GIC and Wellington bought shares at a €12.5 billion valuation, up from €5 billion in 2022. The company says it has been profitable for three years and does not need new capital."
+    ],
+    "why_it_matters": "Trade Republic is Europe's leading retail-investing platform and a read-through for the shift of European savings into markets, and for how Robinhood-style businesses are valued in Europe.",
+    "valuation_history": [
+      {
+        "value": "€5B",
+        "date": "Jun 2022",
+        "round": "Series C extension"
+      },
+      {
+        "value": "€12.5B",
+        "date": "Dec 2025",
+        "round": "€1.2B secondary sale"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2015",
+        "text": "Trade Republic is founded in Berlin."
+      },
+      {
+        "date": "Jun 2022",
+        "text": "A €250M Series C extension values it at €5B."
+      },
+      {
+        "date": "Dec 2023",
+        "text": "It receives a full banking licence from the ECB."
+      },
+      {
+        "date": "Dec 2025",
+        "text": "A €1.2B secondary sale values it at €12.5B."
+      }
+    ],
+    "takeaways": [
+      "The latest valuation comes from a secondary sale, not new money into the company.",
+      "It is profitable, which is rare for a fast-growing fintech.",
+      "A banking licence lets it earn interest income as well as trading fees.",
+      "Regulation of payment for order flow in the EU is a risk to trading revenue."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2015"
+      ],
+      [
+        "Headquarters",
+        "Berlin, Germany"
+      ],
+      [
+        "Co-founder and CEO",
+        "Christian Hecker"
+      ],
+      [
+        "Focus",
+        "Retail investing and banking"
+      ],
+      [
+        "Website",
+        "traderepublic.com"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "FinTech Futures: Trade Republic hits €12.5B valuation",
+        "url": "https://www.fintechfutures.com/venture-capital-funding/trade-republic-hits-12-5bn-valuation-following-1-2bn-secondary-share-sale"
+      }
+    ]
+  }
+}

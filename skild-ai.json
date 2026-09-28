@@ -1,0 +1,130 @@
+{
+  "slug": "skild-ai",
+  "name": "Skild AI",
+  "status": "Published",
+  "sector": "Robotics",
+  "summary": "Skild AI builds a general-purpose \"robot brain\": foundation models and software that can be fitted to many kinds of robots and tasks.",
+  "overview": "<p>Skild AI develops general-purpose robotics foundation models designed to run across different robot bodies without extensive retraining.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest valuation",
+      "value": "$14B+",
+      "note": "January 2026 Series C.",
+      "source": "https://techcrunch.com/2026/01/14/robotic-software-maker-skild-ai-hits-14b-valuation/"
+    },
+    {
+      "label": "Latest financing",
+      "value": "$1.4B",
+      "note": "Series C, led by SoftBank.",
+      "source": "https://techcrunch.com/2026/01/14/robotic-software-maker-skild-ai-hits-14b-valuation/"
+    }
+  ],
+  "directory_rank": 27,
+  "bull_case": "If one model can control many kinds of robots, Skild could become the default software layer for a fast-growing robotics industry.",
+  "bear_case": "Revenue is undisclosed, and general-purpose robotics may take longer to reach reliable real-world deployment than investors expect.",
+  "latest_round": "January 2026: $1.4B Series C at $14B+",
+  "directory_notes": [
+    "Deployments with robot manufacturers.",
+    "Evidence of revenue behind a $14B valuation."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Pittsburgh, Pennsylvania",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=skild.ai&sz=128",
+    "description": "Skild AI develops general-purpose robotics foundation models designed to run across different robot bodies without extensive retraining.",
+    "metrics": [
+      {
+        "value": "$14B+",
+        "label": "Latest valuation",
+        "note": "January 2026 Series C"
+      },
+      {
+        "value": "$1.4B",
+        "label": "Latest funding",
+        "note": "Series C, led by SoftBank"
+      },
+      {
+        "value": "$2B+",
+        "label": "Total raised",
+        "note": "As of January 2026"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Skild AI was founded in 2023 by robotics researchers Deepak Pathak and Abhinav Gupta. Rather than building its own robots, it develops foundation models and software that can be retrofitted to different machines and tasks, aiming to be a shared intelligence layer for the robotics industry.",
+      "In January 2026 Skild AI raised a $1.4 billion Series C led by SoftBank, with Nvidia and Macquarie participating, at a valuation above $14 billion. That was roughly triple the $4.5 billion valuation it reached in the summer of 2025, and brought total funding above $2 billion."
+    ],
+    "why_it_matters": "Skild AI is one of the largest bets that robotics will follow the AI-model playbook, with one general model serving many machines, and a read-through for the humanoid and industrial robot boom.",
+    "valuation_history": [
+      {
+        "value": "$4.5B",
+        "date": "Summer 2025",
+        "round": "Financing"
+      },
+      {
+        "value": "$14B+",
+        "date": "Jan 2026",
+        "round": "$1.4B Series C"
+      }
+    ],
+    "changed": [
+      {
+        "date": "2023",
+        "text": "Skild AI is founded by Deepak Pathak and Abhinav Gupta."
+      },
+      {
+        "date": "2025",
+        "text": "A financing values the company at $4.5B."
+      },
+      {
+        "date": "Jan 2026",
+        "text": "A $1.4B Series C led by SoftBank values it above $14B."
+      }
+    ],
+    "takeaways": [
+      "Its valuation roughly tripled in about six months.",
+      "It sells software to robot makers rather than competing with them on hardware.",
+      "SoftBank and Nvidia are both backers, tying it to the wider AI hardware ecosystem.",
+      "Commercial revenue has not been disclosed, so the valuation rests on expected adoption."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2023"
+      ],
+      [
+        "Headquarters",
+        "Pittsburgh, Pennsylvania"
+      ],
+      [
+        "CEO",
+        "Deepak Pathak"
+      ],
+      [
+        "Focus",
+        "Robotics foundation models"
+      ],
+      [
+        "Website",
+        "skild.ai"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "TechCrunch: Skild AI hits $14B valuation",
+        "url": "https://techcrunch.com/2026/01/14/robotic-software-maker-skild-ai-hits-14b-valuation/"
+      }
+    ]
+  }
+}
