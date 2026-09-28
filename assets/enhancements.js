@@ -28,6 +28,21 @@
 })();
 
 (() => {
+  const grid = document.querySelector('.ipo-month-grid');
+  const firstWeek = grid?.querySelector('.ipo-week');
+  if (!firstWeek || firstWeek.querySelector('[data-oura-calendar]')) return;
+  const day = firstWeek.children[2];
+  day.removeAttribute('aria-hidden');
+  day.innerHTML = '<span>Sep 30</span><a class="ipo-event" data-oura-calendar href="/companies/oura/"><strong>Oura</strong><span>Expected Sep. 30</span></a>';
+  document.querySelectorAll('.ipo-tbd').forEach(card => { if (card.querySelector('h2')?.textContent === 'Oura') card.remove(); });
+  const empty = document.querySelector('.ipo-empty');
+  if (empty) empty.innerHTML = '<strong>Oura is expected to list September 30.</strong> The calendar includes the September lead-in date before October trading sessions.';
+})();
+    earningsEvents.forEach(button => button.addEventListener('click', () => select(button)));
+  }
+})();
+
+(() => {
   const chart = document.querySelector('.weekly-chart-plot');
   const tooltip = chart?.querySelector('.weekly-chart-tooltip');
   if (!chart || !tooltip) return;
@@ -48,22 +63,6 @@
     point.addEventListener('focus', show);
     point.addEventListener('blur', hide);
   });
-})();
-
-
-(() => {
-  const grid = document.querySelector('.ipo-month-grid');
-  const firstWeek = grid?.querySelector('.ipo-week');
-  if (!firstWeek || firstWeek.querySelector('[data-oura-calendar]')) return;
-  const day = firstWeek.children[2];
-  day.removeAttribute('aria-hidden');
-  day.innerHTML = '<span>Sep 30</span><a class="ipo-event" data-oura-calendar href="/companies/oura/"><strong>Oura</strong><span>Expected Sep. 30</span></a>';
-  document.querySelectorAll('.ipo-tbd').forEach(card => { if (card.querySelector('h2')?.textContent === 'Oura') card.remove(); });
-  const empty = document.querySelector('.ipo-empty');
-  if (empty) empty.innerHTML = '<strong>Oura is expected to list September 30.</strong> The calendar includes the September lead-in date before October trading sessions.';
-})();
-    earningsEvents.forEach(button => button.addEventListener('click', () => select(button)));
-  }
 })();
 
 (() => {
