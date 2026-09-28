@@ -3,21 +3,21 @@
   "name": "Verse Medical",
   "status": "Published",
   "sector": "Healthcare technology",
-  "summary": "Verse Medical provides AI-enabled ordering and fulfilment for durable medical equipment. It works with major health systems to reduce the administrative friction, coverage checks and delivery failures associated with DME orders.",
-  "overview": "<p>Verse Medical is a healthcare-technology company focused on durable medical equipment ordering and fulfilment. Its platform uses AI to validate medical necessity and coverage while fitting into providers' existing workflows.</p>",
-  "as_of": "2026-09-25",
+  "summary": "Verse Medical provides AI-enabled ordering and fulfilment for durable medical equipment. It works with major health systems to reduce the administrative friction, coverage checks and delivery failures associated with DME orders; private-market databases report a $53 million Series C in June 2025.",
+  "overview": "<p>Verse Medical is a healthcare-technology company focused on durable medical equipment ordering and fulfilment. Its platform uses AI to validate medical necessity and coverage while fitting into providers' existing workflows. Private-market database reporting identifies a $53 million Series C in June 2025; Verse has not publicly announced a valuation.</p>",
+  "as_of": "2026-09-28",
   "facts": [
     {
       "label": "Latest financing",
-      "value": "Undisclosed",
-      "note": "No confirmed priced financing was located during this profile update.",
-      "source": "https://versemedical.com"
+      "value": "Reported June 2025: $53M Series C",
+      "note": "Forge reports the Series C and a $735.18M post-money value; the company has not publicly announced the valuation.",
+      "source": "https://forgeglobal.com/verse-medical_ipo/"
     }
   ],
   "directory_rank": 117,
   "bull_case": "DME ordering is administratively complex and touches providers, payors and patients, creating room for a platform that improves fulfilment and payment integrity.",
-  "bear_case": "Healthcare procurement, reimbursement rules and operational fulfilment can slow scaling; no confirmed financing or valuation is publicly available.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "bear_case": "Healthcare procurement, reimbursement rules and operational fulfilment can slow scaling; the latest funding and valuation figures rely on private-market database reporting rather than a company announcement.",
+  "latest_round": "Reported June 2025: $53M Series C; valuation not company-confirmed",
   "directory_notes": [
     "Healthcare technology",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "AI-enabled durable-medical-equipment ordering and fulfilment platform.",
     "metrics": [
       {
-        "value": "Undisclosed",
-        "label": "Latest valuation",
-        "note": "No confirmed priced round"
+        "value": "$735.18M",
+        "label": "Reported valuation",
+        "note": "Forge-reported June 2025 Series C; not company-confirmed"
       },
       {
         "value": "Private",
@@ -52,25 +52,25 @@
     ],
     "company": [
       "Verse Medical provides AI-enabled ordering and fulfilment for durable medical equipment, including medical-record validation of necessity and coverage validation. The company is designed to fit into clinical workflows while helping patients receive equipment on time.",
-      "Verse says it works with nine of the ten largest health systems by revenue and can fulfil orders across DME categories. Those operating claims are company-reported; no confirmed financing amount or valuation has been publicly substantiated."
+      "Verse says it works with nine of the ten largest health systems by revenue and can fulfil orders across DME categories. Forge reports a $53 million June 2025 Series C at a $735.18 million post-money valuation; those financing figures are database-reported rather than announced by Verse."
     ],
     "why_it_matters": "Verse targets a large but operationally difficult healthcare workflow where automation can improve both patient experience and payment integrity. Its opportunity depends on clinical integration, reimbursement compliance and fulfilment execution.",
     "valuation_history": [
       {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
+        "value": "$735.18M",
+        "date": "Jun 2025",
+        "round": "Reported Series C, $53M"
       }
     ],
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Private-market databases reported a $53M Series C in June 2025; Verse has not publicly confirmed the valuation."
       }
     ],
     "takeaways": [
       "Verse is focused on durable medical-equipment ordering and fulfilment.",
-      "No confirmed financing amount or valuation has been identified.",
+      "Private-market databases report a $53M Series C and $735.18M post-money value, neither confirmed by Verse.",
       "Health-system adoption and on-time delivery are the critical proof points."
     ],
     "quick_facts": [
@@ -89,7 +89,15 @@
     ],
     "sources": [
       {
-        "label": "Company website",
+        "label": "Forge: Verse Medical financing profile",
+        "url": "https://forgeglobal.com/verse-medical_ipo/"
+      },
+      {
+        "label": "Y Combinator: Verse Medical company profile",
+        "url": "https://www.ycombinator.com/companies/verse-medical"
+      },
+      {
+        "label": "Verse Medical company website",
         "url": "https://versemedical.com"
       }
     ]

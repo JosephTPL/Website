@@ -5,33 +5,33 @@
   "sector": "Nuclear energy",
   "summary": "Valar Atomics develops standardised nuclear power plants for AI, industrial and national-security demand. It closed a $1 billion Series B and a separate $200 million credit facility in August 2026, at a reported $6 billion valuation.",
   "overview": "<p>Valar Atomics is developing standardised nuclear power plants aimed at large energy users, including AI data centres and industrial customers. Its model relies on repeatable manufacturing rather than bespoke nuclear construction.</p>",
-  "as_of": "2026-09-25",
+  "as_of": "2026-09-28",
   "facts": [
     {
       "label": "Latest financing",
-      "value": "August 2026: $1B Series B at $6B",
-      "note": "Reported Series B financing and valuation.",
+      "value": "August 2026: $1B Series B at reported $6B",
+      "note": "Valar confirmed the $1B equity financing; Axios reported the $6B post-money valuation.",
       "source": "https://www.axios.com/newsletters/axios-pro-rata-f1a989ea-b33c-4058-a94b-4cfce74faa1c"
     }
   ],
   "directory_rank": 115,
   "bull_case": "The need for firm power for data centres and industry could support major demand if Valar can deliver licensable, standardised plants.",
   "bear_case": "Nuclear projects face extraordinary regulatory, manufacturing and financing risk; the $6B valuation requires execution over many years.",
-  "latest_round": "August 2026: $1B Series B at $6B",
+  "latest_round": "August 2026: $1B Series B at reported $6B valuation",
   "directory_notes": [
     "Nuclear energy",
     "Public financing and operating data remain limited."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Undisclosed",
+    "location": "El Segundo, California",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=valaratomics.com&sz=128",
     "description": "Developer of standardised nuclear plants for AI, industrial and national-security power demand.",
     "metrics": [
       {
         "value": "$6B",
-        "label": "Latest valuation",
+        "label": "Reported valuation",
         "note": "August 2026 Series B"
       },
       {
@@ -65,7 +65,7 @@
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Valar closed a $1B Series B led by Sequoia and a separate $200M credit facility."
       }
     ],
     "takeaways": [
@@ -89,8 +89,16 @@
     ],
     "sources": [
       {
-        "label": "Company website",
+        "label": "Valar Atomics: Series B announcement",
         "url": "https://www.valaratomics.com/docs/Announcing-our-1B-Series-B-Led-By-Sequoia"
+      },
+      {
+        "label": "Axios: Series B and reported valuation",
+        "url": "https://www.axios.com/newsletters/axios-pro-rata-f1a989ea-b33c-4058-a94b-4cfce74faa1c"
+      },
+      {
+        "label": "Morgan Lewis: Valar credit facility",
+        "url": "https://www.morganlewis.com/news/2026/08/morgan-lewis-advises-crescent-cove-in-financing-for-valar-atomics"
       }
     ]
   }

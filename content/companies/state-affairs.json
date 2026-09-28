@@ -5,19 +5,19 @@
   "sector": "Government intelligence",
   "summary": "State Affairs combines state-policy reporting, original data, and AI tools for institutions navigating regulation. It announced $70 million of total funding in July 2026; no valuation was disclosed.",
   "overview": "<p>State Affairs provides real-time intelligence on legislation, regulation, hearings and political developments across all 50 states and the federal government. It combines reporting, data and AI tools for regulated businesses and institutional users.</p>",
-  "as_of": "2026-09-25",
+  "as_of": "2026-09-28",
   "facts": [
     {
       "label": "Latest financing",
       "value": "July 2026: $70M total funding",
       "note": "State Affairs announced $70 million of total funding; valuation was not disclosed.",
-      "source": "https://stateaffairs.com"
+      "source": "https://www.prnewswire.com/news-releases/state-affairs-raises-70-million-to-help-institutions-navigate-the-policy-and-regulatory-economy-302824501.html"
     }
   ],
   "directory_rank": 114,
   "bull_case": "Regulatory complexity creates recurring demand for timely, trusted policy intelligence across large institutions.",
   "bear_case": "The business must defend differentiated reporting and data against established government-relations and information providers.",
-  "latest_round": "No confirmed financing publicly disclosed",
+  "latest_round": "July 2026: $70M total funding; valuation undisclosed",
   "directory_notes": [
     "Government intelligence",
     "Public financing and operating data remain limited."
@@ -65,7 +65,7 @@
     "changed": [
       {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "State Affairs announced $70M in total funding to accelerate its policy-intelligence platform."
       }
     ],
     "takeaways": [
@@ -91,6 +91,14 @@
       {
         "label": "State Affairs: $70M funding announcement",
         "url": "https://www.prnewswire.com/news-releases/state-affairs-raises-70-million-to-help-institutions-navigate-the-policy-and-regulatory-economy-302824501.html"
+      },
+      {
+        "label": "Yahoo Finance: State Affairs funding release",
+        "url": "https://finance.yahoo.com/economy/policy/articles/state-affairs-raises-70-million-110000098.html"
+      },
+      {
+        "label": "State Affairs company website",
+        "url": "https://stateaffairs.com"
       }
     ]
   }
