@@ -145,7 +145,9 @@ def parse_people(root: ET.Element) -> list[dict[str, str]]:
     for node in root.iter():
         if local_name(node) not in {"relatedPersonInfo", "relatedPerson"}:
             continue
-        name_node = find_node(node, {"relatedPersonName", "personName", "name"}) or node
+        name_node = find_node(node, {"relatedPersonName", "personName", "name"})
+        if name_node is None:
+            name_node = node
         first = find_first(name_node, {"firstName"})
         middle = find_first(name_node, {"middleName"})
         last = find_first(name_node, {"lastName"})
@@ -173,7 +175,9 @@ def parse_security_types(root: ET.Element) -> list[str]:
 
 def parse_form_d(xml: bytes, company: dict[str, Any], filing: dict[str, str]) -> dict[str, Any]:
     root = ET.fromstring(xml)
-    issuer = find_node(root, {"primaryIssuer", "issuer"}) or root
+    issuer = find_node(root, {"primaryIssuer", "issuer"})
+    if issuer is None:
+        issuer = root
     filer_name = find_first(issuer, {"entityName", "issuerName", "name"}) or company["name"]
     filer_cik = find_first(issuer, {"cik", "issuerCik"}) or filing["cik"]
     form_type = filing["form"]
@@ -252,7 +256,9 @@ def filing_xml_url(client: SecClient, filing: dict[str, str]) -> str:
     directory = filing["accession"].replace("-", "")
     primary = filing.get("primary_document", "")
     if primary.endswith(".xml"):
-        return f"{SEC_ARCHIVES}/{cik_digits}/{directory}/{primary}"
+        # EDGAR submissions may point through an XSL viewer path such as
+        # xslFormDX01/primary_doc.xml; the raw filing lives at the directory root.
+        return f"{SEC_ARCHIVES}/{cik_digits}/{directory}/{primary.rsplit('/', 1)[-1]}"
     index = client.json(f"{SEC_ARCHIVES}/{cik_digits}/{directory}/index.json")
     items = index.get("directory", {}).get("item", [])
     names = [item.get("name", "") for item in items]
