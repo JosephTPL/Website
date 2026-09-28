@@ -24,6 +24,7 @@
     "kicker":"COMPANY INTELLIGENCE",
     "location":"San Francisco, California; founded in Finland",
     "status":"IPO filed",
+    "logo":"https://www.google.com/s2/favicons?domain=ouraring.com&sz=128",
     "description":"Oura develops a smart ring and companion membership that deliver personalized health data, insights, and daily guidance.",
     "metrics":[
       {"value":"$40–$44","label":"Proposed IPO range","note":"September 2026 amended S-1"},
@@ -63,7 +64,8 @@
       ["Website","ouraring.com"]
     ],
     "sources":[
-      {"label":"Oura amended S-1","url":"https://www.sec.gov/Archives/edgar/data/2133022/000119312526396051/d119865ds1a.htm"}
+      {"label":"Oura amended S-1","url":"https://www.sec.gov/Archives/edgar/data/2133022/000119312526396051/d119865ds1a.htm"},
+      {"label":"SEC filing index: Oura S-1/A","url":"https://www.sec.gov/Archives/edgar/data/2133022/000119312526396051/0001193125-26-396051-index.htm"}
     ]
   }
 }

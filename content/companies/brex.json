@@ -12,7 +12,7 @@
       "label": "Latest disclosed financing",
       "value": "January 2022: $300M Series D-2",
       "note": "Publicly reported financing context.",
-      "source": ""
+      "source": "https://www.capitalone.com/about/newsroom/capital-one-to-acquire-brex/"
     }
   ],
   "directory_rank": 32,
@@ -29,6 +29,6 @@
     "changed":[{"date":"Jan 2026","text":"Capital One announced a definitive agreement to acquire Brex for $5.15B."}],
     "takeaways":["Brex is now an acquisition profile, not a standalone IPO candidate.","The deal illustrates strategic demand for business-payments infrastructure.","Closing terms and integration are the primary remaining watch items."],
     "quick_facts":[["Founded","2017"],["Focus","Business payments and spend management"],["Status","Acquisition agreed"],["Website","brex.com"]],
-    "sources":[{"label":"Capital One acquisition announcement","url":"https://www.sec.gov/Archives/edgar/data/927628/000119312526019543/d97758dex991.htm"}]
+    "sources":[{"label":"Capital One acquisition announcement","url":"https://www.capitalone.com/about/newsroom/capital-one-to-acquire-brex/"},{"label":"Brex: joining forces with Capital One","url":"https://www.brex.com/journal/brex-and-capital-one-join-forces"}]
   }
 }
