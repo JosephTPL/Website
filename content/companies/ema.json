@@ -1,40 +1,67 @@
 {
   "slug": "ema",
-  "status": "Draft",
+  "status": "Published",
   "name": "Ema",
   "sector": "Enterprise AI",
   "summary": "Ema develops AI-agent software designed to automate multi-step enterprise workflows across functions including HR, IT, and finance.",
   "overview": "<p>Ema builds enterprise AI agents intended to work across a company’s existing software applications.</p>",
   "image": "",
   "image_alt": "",
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "report": "",
   "facts": [
     {
       "label": "Latest disclosed financing",
       "value": "September 2026: $77M Series B",
-      "note": "TechCrunch reported the primary-equity round brought total funding to $140M; Ema did not disclose its valuation.",
-      "source": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/"
+      "note": "The company said the round brought total funding to $140M; it did not disclose an exact valuation.",
+      "source": "https://www.ema.ai/blog/funding-announcement/ema-raises-series-b"
     }
   ],
-  "directory_rank": 0,
-  "bull_case": "Enterprise automation could make Ema useful across large, fragmented software stacks.",
-  "bear_case": "Enterprise AI is a crowded market and broad deployments must prove durable returns.",
+  "directory_rank": 172,
+  "bull_case": "A platform that can automate workflows across HR, IT, finance, and other systems could become a durable layer in the enterprise software stack.",
+  "bear_case": "Enterprise AI is crowded, and long sales cycles, security reviews, and incumbent platforms can limit adoption and pricing power.",
   "latest_round": "September 2026: $77M Series B",
-  "directory_notes": ["Draft profile", "Valuation undisclosed."],
+  "directory_notes": ["Enterprise AI-agent platform.", "Watch customer expansion, retention, and evidence of repeatable deployment."],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Not publicly disclosed",
+    "location": "Mountain View, California",
     "status": "Private",
-    "logo": "",
-    "description": "Ema develops AI-agent software for enterprise workflow automation.",
-    "metrics": [{"value": "$77M", "label": "Latest funding", "note": "Series B, September 2026"}],
-    "company": ["Ema develops AI agents intended to automate business processes across existing enterprise software."],
-    "why_it_matters": "The company sits in the growing market for AI software intended to automate enterprise workflows.",
+    "logo": "https://www.google.com/s2/favicons?domain=ema.ai&sz=128",
+    "description": "Ema develops AI agents for enterprise workflow automation across existing business systems.",
+    "metrics": [
+      {"value": "$77M", "label": "Latest funding", "note": "Series B, September 2026"},
+      {"value": "$140M", "label": "Total funding", "note": "Company reported"},
+      {"value": "4x+", "label": "Valuation change", "note": "Company said versus the prior round"},
+      {"value": "Private", "label": "Public status", "note": "No IPO filing disclosed"}
+    ],
+    "company": [
+      "Ema builds AI agents that enterprises can deploy across their existing software applications. Its platform includes pre-built agents and a workflow engine intended for functions such as HR, IT, finance, sales, and customer support.",
+      "The company says its technology combines multiple models and integrations so customers can configure agents around their own systems and data. Its investment case depends on whether those deployments become recurring operational software rather than short-lived AI experiments."
+    ],
+    "why_it_matters": "Ema is a useful read-through on the private-market race to make AI agents part of everyday enterprise operations. A durable winner in this category would need to prove security, reliability, integration depth, and measurable returns across established software stacks.",
     "valuation_history": [],
-    "changed": [{"date": "2026", "text": "Raised a $77M Series B."}],
-    "takeaways": ["The latest valuation was not disclosed."],
-    "quick_facts": [["Status", "Draft for review"]],
-    "sources": [{"label": "TechCrunch: Ema $77M Series B", "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/"}]
+    "changed": [
+      {"date": "2025", "text": "Ema expanded its platform for building and deploying enterprise AI agents."},
+      {"date": "Sep 2026", "text": "Raised a $77M Series B led by Creaegis, with Accel, S32, and Prosus increasing their investments."}
+    ],
+    "takeaways": [
+      "The Series B brings Ema's reported total funding to $140M, but the company did not disclose an exact valuation.",
+      "Its opportunity is broad because enterprise workflows span many systems, but broad platforms must prove clear ownership of the customer relationship.",
+      "Security, governance, and repeatable deployment matter as much as model capability for enterprise adoption.",
+      "Large software platforms and other AI-agent vendors can compete for the same workflow budgets."
+    ],
+    "quick_facts": [
+      ["Headquarters", "Mountain View, California"],
+      ["Founder and CEO", "Surojit Chatterjee"],
+      ["Focus", "Enterprise AI agents"],
+      ["Latest round", "$77M Series B"],
+      ["Website", "ema.ai"],
+      ["Public status", "Private"]
+    ],
+    "sources": [
+      {"label": "Ema: $77M Series B announcement", "url": "https://www.ema.ai/blog/funding-announcement/ema-raises-series-b"},
+      {"label": "Ema: Generative Workflow Engine", "url": "https://www.ema.co/gwe-generative-workflow-engine"},
+      {"label": "TechCrunch: Ema Series B", "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/"}
+    ]
   }
 }
