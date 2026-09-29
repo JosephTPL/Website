@@ -1,7 +1,7 @@
 {
     "title": "The $5B+ IPO calendar.",
     "intro": "The major private companies closest to a public-market decision, separated by what is filed, reported, and still unconfirmed.",
-    "as_of": "September 28, 2026",
+    "as_of": "September 29, 2026",
     "calendar": {
         "month": "October 2026",
         "year": 2026,
@@ -109,11 +109,10 @@
                 {
                     "company": "Oura",
                     "sector": "Health tech",
-                    "valuation": "$2.6B reported",
-                    "status": "Expected",
-                    "date": "Sep 30",
-                    "note": "Oura Ring maker expected to list September 30, 2026 via SPAC merger.",
-                    "source": "https://www.reuters.com/markets/ipo/oura-health-oy-2024-08-07/"
+                    "valuation": "$13.5B planned IPO valuation",
+                    "status": "Postponed",
+                    "note": "Oura said September 29 that it postponed its planned Nasdaq IPO because of market uncertainty. No revised pricing or listing date has been announced.",
+                    "source": "https://apnews.com/article/36ae9ef8f167d4fe061204c582f78c51"
                 },
                 {
                     "company": "Anthropic",
@@ -179,10 +178,5 @@
                 }
             ]
         }
-    ],
-    "calendar_september": {
-        "month": "September 2026",
-        "year": 2026,
-        "month_number": 9
-    }
+    ]
 }
