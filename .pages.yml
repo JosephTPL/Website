@@ -355,6 +355,28 @@
       ]
     },
     {
+      "name": "valuations",
+      "label": "Valuation events",
+      "type": "file",
+      "path": "content/data/valuations.csv",
+      "format": "csv",
+      "description": "One disclosed valuation or funding event per row. A row marked source_checked: no must be verified before changing it to yes.",
+      "fields": [
+        {"name": "company_slug", "label": "Company file slug", "type": "string"},
+        {"name": "date", "label": "Date (YYYY-MM or YYYY-MM-DD)", "type": "string"},
+        {"name": "event_type", "label": "Event type", "type": "select", "options": {"values": ["priced_round", "secondary", "tender", "ipo", "acquisition", "talks"]}},
+        {"name": "valuation_usd_b", "label": "Valuation (USD billions)", "type": "number"},
+        {"name": "valuation_basis", "label": "Valuation basis", "type": "select", "options": {"values": ["post", "pre"]}},
+        {"name": "amount_raised_usd_b", "label": "Amount raised (USD billions)", "type": "number"},
+        {"name": "original_currency", "label": "Original currency", "type": "string"},
+        {"name": "original_value", "label": "Original value", "type": "string"},
+        {"name": "round_label", "label": "Round or event label", "type": "string"},
+        {"name": "source_url", "label": "Direct source URL", "type": "string"},
+        {"name": "notes", "label": "Notes", "type": "text"},
+        {"name": "source_checked", "label": "Source checked", "type": "select", "options": {"values": ["yes", "no"]}}
+      ]
+    },
+    {
       "name": "homepage",
       "label": "Homepage and site text",
       "type": "file",

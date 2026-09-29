@@ -31,6 +31,10 @@ To create an article, choose Articles → Add, fill in the title, unique lowerca
 
 Members-only articles must store only their free preview in `body`; the complete paid text stays on Substack. Set `preview_end` to the final text visible before the Substack paywall. The build rejects any members-only article whose body extends beyond that approved free-preview boundary.
 
+## How to add a funding round
+
+Add one row to `content/data/valuations.csv`, rather than editing a company profile. Use the profile's filename as `company_slug`, a `YYYY`, `YYYY-MM`, or `YYYY-MM-DD` date, an allowed event type, and a direct source URL. Use a year-only date only when the source supports the year but not a more precise date, and explain that limitation in `notes`. Enter valuations and amounts raised in USD billions, retaining any original currency in the dedicated columns. Set `source_checked` to `yes` only after confirming that the linked source states the event's date and number; otherwise leave it as `no`. Entries without a reliable date or source belong in `content/data/valuations_unverified.md` until they can be verified. Run `python scripts/build.py` before publishing: it rejects missing or invalid required valuation data.
+
 To change homepage copy, choose Homepage and site text, edit the relevant title, introduction or featured article, then save. Site URL should contain the final production origin. Netlify's URL environment variable supplies its production origin automatically.
 
 ## Deploy under your own account
