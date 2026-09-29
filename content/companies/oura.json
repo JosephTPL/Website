@@ -3,19 +3,20 @@
   "name": "Oura",
   "status": "Published",
   "sector": "Health wearables",
-  "summary": "A smart-ring and membership business heading toward a public-market test of consumer health subscriptions.",
-  "overview": "<p>Oura combines a health-tracking ring with a paid membership that turns longitudinal biometric data into personalized insights. Its public filing gives investors a clearer view of a hardware business whose economics increasingly depend on recurring software revenue.</p>",
-  "as_of": "2026-09-28",
+  "summary": "A smart-ring and membership business whose planned public listing has been postponed.",
+  "overview": "<p>Oura combines a health-tracking ring with a paid membership that turns longitudinal biometric data into personalized insights. On September 29, 2026, the company postponed its planned Nasdaq IPO because of market uncertainty; it has not announced a revised pricing or listing date.</p>",
+  "as_of": "2026-09-29",
   "facts": [
-    {"label":"Proposed IPO range","value":"$40–$44 per share","note":"Amended S-1 filed September 21, 2026","source":"https://www.sec.gov/Archives/edgar/data/2133022/000119312526396051/d119865ds1a.htm"},
+    {"label":"Planned IPO valuation","value":"$13.5B","note":"Planned valuation before the September 29, 2026 postponement","source":"https://apnews.com/article/36ae9ef8f167d4fe061204c582f78c51"},
+    {"label":"Last proposed IPO range","value":"$40–$44 per share","note":"Range in the September 21 amended S-1, before the postponement","source":"https://www.sec.gov/Archives/edgar/data/2133022/000119312526396051/d119865ds1a.htm"},
     {"label":"Nine-month revenue","value":"$1.21 billion","note":"Nine months ended June 30, 2026","source":"https://www.sec.gov/Archives/edgar/data/2133022/000119312526396051/d119865ds1a.htm"},
     {"label":"Paid members","value":"5.0 million","note":"As of June 30, 2026","source":"https://www.sec.gov/Archives/edgar/data/2133022/000119312526396051/d119865ds1a.htm"},
-    {"label":"IPO status","value":"Filed","note":"Applied to list on Nasdaq under OURA; timing remains unconfirmed","source":"https://www.sec.gov/Archives/edgar/data/2133022/000119312526396051/d119865ds1a.htm"}
+    {"label":"IPO status","value":"Postponed","note":"No revised pricing or listing date announced","source":"https://apnews.com/article/36ae9ef8f167d4fe061204c582f78c51"}
   ],
   "directory_rank": 11,
   "bull_case": "A growing installed base and high membership conversion can make health insights a durable recurring-revenue business.",
   "bear_case": "Hardware cycles, large-platform competition, and privacy or clinical-evidence demands could limit long-term margins and retention.",
-  "latest_round": "September 2026: proposed IPO at $40–$44 per share",
+  "latest_round": "September 2026: planned IPO postponed; no revised date announced",
   "directory_notes": [
     "Paid-member growth and retention",
     "Hardware gross margin and subscription mix."
@@ -23,37 +24,39 @@
   "intelligence": {
     "kicker":"COMPANY INTELLIGENCE",
     "location":"San Francisco, California; founded in Finland",
-    "status":"IPO filed",
+    "status":"IPO postponed",
     "logo":"https://www.google.com/s2/favicons?domain=ouraring.com&sz=128",
     "description":"Oura develops a smart ring and companion membership that deliver personalized health data, insights, and daily guidance.",
     "metrics":[
-      {"value":"$40–$44","label":"Proposed IPO range","note":"September 2026 amended S-1"},
+      {"value":"$13.5B","label":"Planned IPO valuation","note":"Before September 29 postponement"},
+      {"value":"$40–$44","label":"Last proposed IPO range","note":"September 2026 amended S-1"},
       {"value":"$1.21B","label":"Nine-month revenue","note":"Ended June 30, 2026"},
       {"value":"5.0M","label":"Paid members","note":"As of June 30, 2026"},
-      {"value":"Filed","label":"Public status","note":"Nasdaq ticker: OURA"}
+      {"value":"Postponed","label":"Public status","note":"No revised Nasdaq date announced"}
     ],
     "company":[
       "Oura sells a smart ring through direct-to-consumer and wholesale channels, then monetizes the relationship through paid memberships that unlock features in its companion app. The company says more than 94% of ring activations have historically converted to paid memberships.",
       "The company was founded in Finland in 2013 and redomiciled to the United States in 2026. Its amended S-1 reveals a business that generated $1.21 billion of revenue and $60.8 million of GAAP net income in the first nine months of fiscal 2026."
     ],
-    "why_it_matters":"Oura is a direct test of whether public investors will value a consumer wearable as a recurring health-intelligence platform rather than as a hardware product alone. Its IPO will offer a useful reference point for subscription retention, hardware gross margin, and the market appetite for consumer preventive-health businesses.",
+    "why_it_matters":"Oura remains a useful private-market reference point for whether investors value a consumer wearable as a recurring health-intelligence platform rather than as a hardware product alone. A future IPO would offer a reference point for subscription retention, hardware gross margin, and demand for consumer preventive-health businesses.",
     "valuation_history":[
       {"value":"$2.55B","date":"2022","round":"Series C"},
       {"value":"$5.2B","date":"2024","round":"Series D"},
       {"value":"$10.9B","date":"2025","round":"Series E"},
-      {"value":"$40–$44","date":"Sep 2026","round":"Proposed IPO range"}
+      {"value":"$13.5B","date":"Sep 2026","round":"Planned IPO valuation"}
     ],
     "changed":[
       {"date":"2013","text":"Oura is founded in Finland around the Oura Ring health wearable."},
       {"date":"2022","text":"The company begins monetizing its paid membership subscription."},
       {"date":"2025","text":"Reported revenue reaches $907.9 million for the fiscal year, with direct-to-consumer and wholesale channels both expanding."},
-      {"date":"2026","text":"Oura redomiciles to the United States and files an amended S-1 for a Nasdaq listing under OURA."}
+      {"date":"2026","text":"Oura redomiciles to the United States and files an amended S-1 for a Nasdaq listing under OURA."},
+      {"date":"Sep 29, 2026","text":"Oura postpones its planned Nasdaq IPO because of market uncertainty and does not announce a revised pricing or listing date."}
     ],
     "takeaways":[
       "Membership conversion and retention are central to the thesis, not an add-on to ring sales.",
       "The filing shows meaningful reported revenue and positive GAAP net income for the first nine months of fiscal 2026.",
       "Oura must sustain product differentiation against smartwatches, new ring entrants, and other health platforms.",
-      "The IPO price range is preliminary; it is not a confirmed trading date or final valuation."
+      "The prior IPO range is not a confirmed trading date or final valuation, and the planned listing is now postponed."
     ],
     "quick_facts":[
       ["Founded","2013"],
@@ -64,6 +67,7 @@
       ["Website","ouraring.com"]
     ],
     "sources":[
+      {"label":"Oura postponement report","url":"https://apnews.com/article/36ae9ef8f167d4fe061204c582f78c51"},
       {"label":"Oura amended S-1","url":"https://www.sec.gov/Archives/edgar/data/2133022/000119312526396051/d119865ds1a.htm"},
       {"label":"SEC filing index: Oura S-1/A","url":"https://www.sec.gov/Archives/edgar/data/2133022/000119312526396051/0001193125-26-396051-index.htm"}
     ]

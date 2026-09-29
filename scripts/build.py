@@ -221,6 +221,25 @@ def ipo_markup():
  """A true month view; undated candidates stay out of arbitrary day cells."""
  month=ipo_calendar['calendar']['month'];year=int(ipo_calendar['calendar']['year']);month_number=int(ipo_calendar['calendar']['month_number'])
  items=[item for period in ipo_calendar['periods'] for item in period['items']]
+ def profile_status(company):
+  intelligence=company.get('intelligence',{})
+  return ' '.join(str(value) for value in (company.get('status',''),intelligence.get('status',''))).casefold()
+ def profile_valuation(company):
+  for fact in company.get('facts',[])+company.get('intelligence',{}).get('metrics',[]):
+   if 'valuation' in str(fact.get('label','')).casefold():return str(fact.get('value','')).strip()
+  raise ValueError(f'IPO calendar company {company["name"]} has no valuation fact in its profile.')
+ for item in items:
+  slug=str(item.get('company_slug','')).strip()
+  if not slug:raise ValueError(f'IPO calendar entry {item.get("company", "unknown")} is missing company_slug.')
+  company=companies.get(slug)
+  if not company:raise ValueError(f'IPO calendar entry {item.get("company", "unknown")} points to missing published profile: {slug}.')
+  if any(status in profile_status(company) for status in ('public','acquired','acquisition agreed')):
+   profile_label=company.get('intelligence',{}).get('status',company.get('status',''))
+   raise ValueError(f'IPO calendar entry {item["company"]} points to a non-private profile ({profile_label}). Remove it from the watchlist.')
+  override=item.get('valuation_override')
+  if override and not str(item.get('valuation_override_note','')).strip():
+   raise ValueError(f'IPO calendar entry {item["company"]} has valuation_override without valuation_override_note.')
+  item['display_valuation']=str(override).strip() if override else profile_valuation(company)
  events={};lead_in_events={}
  for item in items:
   if item.get('date'):
@@ -254,7 +273,7 @@ def ipo_markup():
     entries=''.join(event_markup(item) for item in lead_in_events.get(str(prior_day),[])) if week_index==0 else ''
     cells.append(f'<div class="ipo-day is-outside"{"" if entries else " aria-hidden=\\\"true\\\""}>{f"<span>Sep {prior_day}</span>{entries}" if entries else ""}</div>')
   weeks.append('<div class="ipo-week">'+''.join(cells)+'</div>')
- tbd=''.join(f'''<article class="ipo-tbd"><div><span class="ipo-status {E(item['status'].lower().replace(' ','-'))}">{E(item['status'])}</span><span class="ipo-valuation">{E(item['valuation'])}</span></div><h2>{E(item['company'])}</h2><p>{E(item['note'])}</p><a href="{E(item['source'])}" rel="noopener">Source ↗</a></article>''' for item in items if not item.get('date'))
+ tbd=''.join(f'''<article class="ipo-tbd"><div><span class="ipo-status {E(item['status'].lower().replace(' ','-'))}">{E(item['status'])}</span><span class="ipo-valuation">{E(item['display_valuation'])}</span></div><h2>{E(item['company'])}</h2><p>{E(item['note'])}</p><a href="{E(item['source'])}" rel="noopener">Source ↗</a></article>''' for item in items if not item.get('date'))
  earnings_list=''.join(f'''<article class="ipo-list-item"><header><strong>{E(item['company'])}</strong><span class="ticker">{E(item['ticker'])}</span></header><p class="timing">{E(str(item['date']))} · {E(item['timing'])}</p><p>{E(item['impact'])}</p><a class="earnings-event-mini" href="{E(item['source'])}" rel="noopener">Earnings source ↗</a></article>''' for item in ipo_calendar.get('earnings',[]))
  return f'''<section class="ipo-calendar" aria-labelledby="ipo-title"><header class="ipo-head"><div><h1 id="ipo-title">{E(ipo_calendar['title'])}</h1><p class="subtitle">{E(ipo_calendar['intro'])}</p></div><p class="ipo-as-of">As of<br/><strong>{E(ipo_calendar['as_of'])}</strong></p></header><div class="ipo-note"><strong>How to read this.</strong> {E(ipo_calendar['disclaimer'])}</div><div class="ipo-view-toggle" role="group" aria-label="IPO calendar view"><button class="view-toggle active" type="button" data-view="calendar" aria-pressed="true">Calendar</button><button class="view-toggle" type="button" data-view="list" aria-pressed="false">Earnings list</button></div><div class="ipo-view-content" data-view="calendar"><section class="ipo-month" aria-labelledby="ipo-month-title"><header><div><h2 id="ipo-month-title">{E(month)}</h2></div><p><strong>Public earnings watch.</strong> Hover a marker for The Ledger's private-market read-through.</p></header><div class="ipo-weekdays"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div><div class="ipo-month-grid">{''.join(weeks)}</div><p class="ipo-empty"><strong>No confirmed $5B+ IPO dates are on the public calendar for {E(month)}.</strong> Public-company earnings markers use confirmed dates where disclosed and labelled estimates otherwise.</p></section><section class="ipo-tbd-section" aria-labelledby="ipo-tbd-title"><header><h2 id="ipo-tbd-title">The $5B+ IPO watchlist.</h2><p>Private-market giants with a reported filing, window, or credible path to market, but no confirmed day to put on the calendar yet.</p></header><div class="ipo-tbd-grid">{tbd}</div></section></div><section class="ipo-earnings-list ipo-view-content" data-view="list" hidden><header><h2>Private-market read-throughs.</h2><p>Confirmed earnings dates and the public-company results most relevant to private-market investors.</p></header><div class="earnings-list-items">{earnings_list}</div></section></section>'''
 
