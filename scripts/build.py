@@ -201,7 +201,8 @@ def weekly_markup():
    sources=entry.get('sources',[])
    if not isinstance(sources,list) or not all(isinstance(source,dict) and source.get('label') and source.get('url') for source in sources):return ''
    source_links=''.join(f'<li><a href="{E(source["url"])}" rel="noopener">{E(source["label"])} ↗</a></li>' for source in sources)
-   figures.append(f'''<article class="weekly-scoreboard-figure"><strong>{E(str(entry['value']))}</strong><span>{E(str(entry['label']))}</span><p>{E(str(entry['note']))}</p><details><summary>Sources</summary><ul>{source_links}</ul></details></article>''')
+   source_markup=f'<details><summary>Sources</summary><ul>{source_links}</ul></details>' if source_links else ''
+   figures.append(f'''<article class="weekly-scoreboard-figure"><strong>{E(str(entry['value']))}</strong><span>{E(str(entry['label']))}</span><p>{E(str(entry['note']))}</p>{source_markup}</article>''')
   if len(figures)!=4:return ''
   return f'''<section class="weekly-scoreboard" aria-labelledby="weekly-scoreboard-title"><header><p class="weekly-scoreboard-kicker">WEEKLY SCOREBOARD</p><h2 id="weekly-scoreboard-title">Private-market activity, counted.</h2></header><div class="weekly-scoreboard-grid">{''.join(figures)}</div><a class="weekly-scoreboard-method" href="#weekly-scoreboard-method">How we count ↓</a><p class="weekly-scoreboard-method-copy" id="weekly-scoreboard-method">We count disclosed private financings of $100M or more, newly reported $1B-plus valuations, and confirmed IPO filings, pricings, and exits. Every count links to a source.</p></section>'''
  weekly_items=sorted(weekly['items'],key=lambda item:(amount(item) is None,-(amount(item) or 0)))
