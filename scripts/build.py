@@ -169,8 +169,21 @@ def weekly_chart_markup():
  return f'''<section class="weekly-chart weekly-chart--sidebar" aria-labelledby="weekly-chart-title"><header class="weekly-chart-head"><div><h2 id="weekly-chart-title">Databricks valuation history.</h2><p>Its August financing valued Databricks at $190B.</p></div><div class="weekly-chart-stat"><strong>$190B</strong><span>Latest reported valuation</span></div></header><div class="weekly-chart-plot"><svg viewBox="0 0 {width} {height}" role="img" aria-label="Databricks reported valuation rose from 38 billion dollars in August 2021 to 190 billion dollars in August 2026">{grid}<path d="{path}" class="weekly-chart-line"/>{dots}</svg><div class="weekly-chart-tooltip" hidden aria-live="polite"></div></div><footer><a href="/companies/databricks/">Profile →</a><a href="/valuations/">Valuation desk →</a><a href="{E(source)}" rel="noopener">Funding report ↗</a></footer></section>'''
 
 def weekly_markup():
+ def amount(item):
+  value=item.get('amount_usd')
+  if value is None:return None
+  if not isinstance(value,(int,float)):raise ValueError(f'Weekly amount_usd for {item.get("company", "an item")} must be a number or null.')
+  return float(value)
+ def profile_url(item):
+  company_name=str(item.get('company','')).casefold()
+  for slug,company in companies.items():
+   if str(company.get('name','')).casefold()==company_name:return f'/companies/{slug}/'
+  return ''
  def item_markup(item,index,lead=False):
-  return f'''<article class="weekly-item{' weekly-item--lead' if lead else ''}"><div><span class="weekly-number">{index:02d}</span><span class="weekly-tag">{E(item['tag'])}</span></div><h2>{E(item['company'])}</h2><p>{E(item['text'])}</p><a href="{E(item['source'])}" rel="noopener">Source ↗</a></article>'''
+  profile=profile_url(item)
+  links=f'<a href="{E(item["source"])}" rel="noopener">Source ↗</a>'
+  if profile:links+=f'<a href="{profile}">Profile →</a>'
+  return f'''<article class="weekly-item{' weekly-item--lead' if lead else ''}"><div><span class="weekly-number">{index:02d}</span><span class="weekly-tag">{E(item['tag'])}</span></div><h2>{E(item['company'])}</h2><p>{E(item['text'])}</p><div class="weekly-item-links">{links}</div></article>'''
  def scoreboard_markup():
   scoreboard=weekly.get('scoreboard',[])
   if not isinstance(scoreboard,list) or not scoreboard:return ''
@@ -183,8 +196,11 @@ def weekly_markup():
    figures.append(f'''<article class="weekly-scoreboard-figure"><strong>{E(str(entry['value']))}</strong><span>{E(str(entry['label']))}</span><p>{E(str(entry['note']))}</p><details><summary>Sources</summary><ul>{source_links}</ul></details></article>''')
   if len(figures)!=4:return ''
   return f'''<section class="weekly-scoreboard" aria-labelledby="weekly-scoreboard-title"><header><p class="weekly-scoreboard-kicker">WEEKLY SCOREBOARD</p><h2 id="weekly-scoreboard-title">Private-market activity, counted.</h2></header><div class="weekly-scoreboard-grid">{''.join(figures)}</div><a class="weekly-scoreboard-method" href="#weekly-scoreboard-method">How we count ↓</a><p class="weekly-scoreboard-method-copy" id="weekly-scoreboard-method">We count disclosed private financings of $100M or more, newly reported $1B-plus valuations, and confirmed IPO filings, pricings, and exits. Every count links to a source.</p></section>'''
- lead=item_markup(weekly['items'][0],1,True)
- items=''.join(item_markup(item,index) for index,item in enumerate(weekly['items'][1:],2))
+ weekly_items=sorted(weekly['items'],key=lambda item:(amount(item) is None,-(amount(item) or 0)))
+ for item in weekly_items:
+  if 'policy' in str(item.get('tag','')).casefold():print(f'Warning: policy-tagged weekly item: {item.get("company", "unknown")}',file=sys.stderr)
+ lead=item_markup(weekly_items[0],1,True)
+ items=''.join(item_markup(item,index) for index,item in enumerate(weekly_items[1:],2))
  return f'''<section class="weekly-brief" aria-labelledby="weekly-title"><header class="weekly-head"><div><h1 id="weekly-title">{E(weekly['title'])}</h1><p class="subtitle">{E(weekly['intro'])}</p></div><p class="weekly-date">Last week<br/><strong>{E(weekly['period'])}</strong><span>Next update: {E(weekly['next_update'])}</span></p></header>{scoreboard_markup()}<div class="weekly-lead-layout">{lead}{weekly_chart_markup()}</div><div class="weekly-grid weekly-grid--secondary">{items}</div><div class="weekly-footer"><span>Updated every Sunday.</span><a class="text-link" href="/research/">Explore company research →</a></div></section>'''
 
 def ipo_markup():
