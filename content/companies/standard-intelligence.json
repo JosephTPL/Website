@@ -26,7 +26,7 @@
     "kicker": "COMPANY INTELLIGENCE",
     "location": "United States",
     "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=standardintelligence.com&sz=128",
+    "logo": "/logos/standard-intelligence.png",
     "description": "Standard Intelligence is tracked as a private AI company. Public evidence around its financing, products, and financial performance remains limited.",
     "metrics": [
       {
@@ -94,7 +94,7 @@
       ],
       [
         "Website",
-        "standardintelligence.com"
+        "si.inc"
       ],
       [
         "Public status",

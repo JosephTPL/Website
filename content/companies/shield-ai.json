@@ -24,7 +24,7 @@
     "autonomy software adoption."
   ],
   "intelligence": {
-    "kicker":"Company intelligence","location":"San Diego, California","status":"Private","logo":"https://logo.clearbit.com/shield.ai","description":"Shield AI develops autonomy software and aircraft systems intended to operate without GPS, communications or a pilot in contested environments.",
+    "kicker":"Company intelligence","location":"San Diego, California","status":"Private","logo":"https://www.google.com/s2/favicons?domain=shield.ai&sz=128","description":"Shield AI develops autonomy software and aircraft systems intended to operate without GPS, communications or a pilot in contested environments.",
     "metrics":[{"value":"$12.7B","label":"Latest valuation","note":"March 2026 post-money"},{"value":"$1.5B","label":"Latest funding","note":"Series G, March 2026"},{"value":"Private","label":"Public status","note":"No listed shares"}],
     "company":["Shield AI's Hivemind software is designed to enable autonomous decision-making for aircraft and other systems operating in denied environments.","The company pairs the software platform with defense aircraft and a growing set of government and industry relationships."],
     "why_it_matters":"Shield AI captures the defense-tech shift from individual platforms toward software-defined autonomy. Its commercial proof points matter for a wider cohort of private companies selling AI into national-security budgets.",

@@ -28,7 +28,7 @@
     "community activity."
   ],
   "intelligence": {
-    "kicker":"Company intelligence","location":"New York, New York","status":"Acquisition agreed","logo":"https://logo.clearbit.com/huggingface.co","description":"Hugging Face is an open platform where developers and organizations share, evaluate and deploy machine-learning models, datasets and applications.",
+    "kicker":"Company intelligence","location":"New York, New York","status":"Acquisition agreed","logo":"https://www.google.com/s2/favicons?domain=huggingface.co&sz=128","description":"Hugging Face is an open platform where developers and organizations share, evaluate and deploy machine-learning models, datasets and applications.",
     "metrics":[{"value":"$12.93B","label":"Agreed acquisition value","note":"September 2026"},{"value":"$235M","label":"Last funding round","note":"Series D, 2023"},{"value":"Acquisition agreed","label":"Public status","note":"NVIDIA"}],
     "company":["Hugging Face became a central hub for the open machine-learning ecosystem, combining community infrastructure, model hosting, tools and enterprise services.","NVIDIA agreed to acquire the company in 2026 while stating that the platform will remain open and hardware-agnostic."],
     "why_it_matters":"The deal assigns strategic value to the open-model ecosystem, not simply a software revenue multiple. It also changes the competitive landscape for companies building developer infrastructure around AI models.",

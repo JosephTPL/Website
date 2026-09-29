@@ -24,7 +24,7 @@
     "cost-per-token advantage."
   ],
   "intelligence": {
-    "kicker":"Company intelligence","location":"Mountain View, California","status":"Private","logo":"https://logo.clearbit.com/groq.com","description":"Groq operates an AI inference cloud built around its low-latency Language Processing Unit technology.",
+    "kicker":"Company intelligence","location":"Mountain View, California","status":"Private","logo":"https://www.google.com/s2/favicons?domain=groq.com&sz=128","description":"Groq operates an AI inference cloud built around its low-latency Language Processing Unit technology.",
     "metrics":[{"value":"$3.5B","label":"Reported valuation","note":"August 2026 growth round"},{"value":"$350M","label":"Latest funding","note":"August 2026 growth round"},{"value":"Private","label":"Public status","note":"Independent after NVIDIA agreement"}],
     "company":["Groq originally developed specialized hardware for fast, low-cost AI inference and later expanded into a global cloud service.","In December 2025 it entered a non-exclusive technology licensing agreement with NVIDIA while continuing to operate independently under new leadership."],
     "why_it_matters":"Groq is a rare case study in how a private AI infrastructure company can monetize technology without a full acquisition. The structure matters for founders and investors across inference, chips and cloud infrastructure.",

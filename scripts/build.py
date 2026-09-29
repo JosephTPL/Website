@@ -64,6 +64,8 @@ for company in companies.values():
  profile_text=' '.join((str(company.get('summary','')),str(company.get('intelligence',{}).get('description','')))).casefold()
  if 'is a private company tracked by the private ledger' in profile_text or 'placeholder' in profile_text:
   raise ValueError(f'Published company profile {company["name"]} contains placeholder research text.')
+ if 'logo.clearbit.com' in str(company.get('intelligence',{}).get('logo','')).casefold():
+  raise ValueError(f'Published company profile {company["name"]} uses the retired Clearbit logo service.')
 base=os.environ.get('URL') or settings['site_url'];base=base.rstrip('/')
 if urlsplit(base).scheme not in ('http','https'):raise ValueError('Site URL must start with https://')
 for a in articles.values():
@@ -90,8 +92,9 @@ def intelligence_profile(c):
  quick=''.join(f'<dt>{E(item.get("label", ""))}</dt><dd>{E(item.get("value", ""))}</dd>' if isinstance(item,dict) else f'<dt>{E(item[0])}</dt><dd>{E(item[1])}</dd>' for item in d['quick_facts'])
  sources=''.join(f'<li><a href="{E(item["url"])}">{E(item["label"])} <span>↗</span></a></li>' for item in d['sources'])
  logo=f'<img src="{E(d["logo"])}" alt="{E(c["name"])} logo" loading="lazy">' if d.get('logo') else ''
+ logo_class=' intelligence-logo-dark' if c['name'].casefold() in ('long lake','neros','revel','ricursive') else ''
  return f'''<section class="intelligence-profile">
- <header class="intelligence-header"><div><h1>{E(c["name"])}</h1><p class="intelligence-meta">{E(c["sector"])} <span>·</span> {E(d["location"])} <span>·</span> {E(d["status"])}</p><p class="intelligence-description">{E(d["description"])}</p></div><div class="intelligence-logo">{logo}<strong>{E(c["name"])}</strong></div></header>
+ <header class="intelligence-header"><div><h1>{E(c["name"])}</h1><p class="intelligence-meta">{E(c["sector"])} <span>·</span> {E(d["location"])} <span>·</span> {E(d["status"])}</p><p class="intelligence-description">{E(d["description"])}</p></div><div class="intelligence-logo{logo_class}">{logo}<strong>{E(c["name"])}</strong></div></header>
  <section class="intelligence-metrics">{metrics}</section>
  <div class="intelligence-content"><div class="intelligence-main"><section><h2>The Company</h2>{''.join('<p>'+E(p)+'</p>' for p in d['company'])}</section><section><h2>Why It Matters</h2><p>{E(d["why_it_matters"])}</p></section><section><h2>Valuation History</h2><ol class="valuation-history">{history}</ol></section><section><h2>What Changed</h2><ol class="change-log">{changed}</ol></section></div><aside class="intelligence-aside"><section><h2>Key Takeaways</h2><ol class="takeaways">{takeaways}</ol></section><section><h2>Quick Facts</h2><dl class="quick-facts">{quick}</dl></section><section><h2>Sources</h2><ul class="intelligence-sources">{sources}</ul></section></aside></div>
  </section>'''
@@ -350,7 +353,7 @@ for company in companies.values():
   logo=company.get('intelligence',{}).get('logo','')
   match=re.search(r'domain=([^&]+)',logo)
   domain=match.group(1) if match else company['slug']+'.com'
- profile_directory.append([company['name'],profile_valuations.get(company['name'].lower(),'Undisclosed'),domain,company.get('intelligence',{}).get('status','Private'),company.get('ownership','independent'),company.get('parent',''),company.get('deal_value','')])
+ profile_directory.append([company['name'],profile_valuations.get(company['name'].lower(),'Undisclosed'),domain,company.get('intelligence',{}).get('status','Private'),company.get('ownership','independent'),company.get('parent',''),company.get('deal_value',''),company.get('intelligence',{}).get('logo','')])
 directory_script=OUT/'companies.js'
 directory_script.write_text(directory_script.read_text().replace('/* PROFILE_SLUGS */',json.dumps(profile_slugs,sort_keys=True)).replace('/* PROFILE_VALUATIONS */',json.dumps(profile_valuations,sort_keys=True)).replace('/* PROFILE_DIRECTORY */',json.dumps(profile_directory,sort_keys=True)))
 companies_script_version=hashlib.sha256(directory_script.read_bytes()).hexdigest()[:12]

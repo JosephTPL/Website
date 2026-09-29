@@ -24,7 +24,7 @@
     "detection efficacy."
   ],
   "intelligence": {
-    "kicker":"Company intelligence","location":"Las Vegas, Nevada","status":"Private","logo":"https://logo.clearbit.com/abnormal.ai","description":"Abnormal AI uses behavioral models to detect phishing, social-engineering and other human-targeted attacks across cloud email and collaboration environments.",
+    "kicker":"Company intelligence","location":"Las Vegas, Nevada","status":"Private","logo":"https://www.google.com/s2/favicons?domain=abnormal.ai&sz=128","description":"Abnormal AI uses behavioral models to detect phishing, social-engineering and other human-targeted attacks across cloud email and collaboration environments.",
     "metrics":[{"value":"$5.1B","label":"Latest valuation","note":"August 2024"},{"value":"$250M","label":"Latest funding","note":"Series D, August 2024"},{"value":"Private","label":"Public status","note":"No listed shares"}],
     "company":["Abnormal's platform models normal communication patterns to flag impersonation, business-email compromise and related attacks that evade rule-based filters.","It sells primarily to enterprises and has expanded its positioning from email security toward broader human-behavior security."],
     "why_it_matters":"Abnormal is a leading example of AI-native security software with clear enterprise budgets. Its performance is relevant to private cybersecurity peers using models to automate high-value analyst work.",

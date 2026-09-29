@@ -24,7 +24,7 @@
     "platform consolidation."
   ],
   "intelligence": {
-    "kicker":"Company intelligence","location":"Boston, Massachusetts","status":"Private","logo":"https://logo.clearbit.com/snyk.io","description":"Snyk provides developer-focused security tools for finding and fixing vulnerabilities across code, open source dependencies, containers and cloud configurations.",
+    "kicker":"Company intelligence","location":"Boston, Massachusetts","status":"Private","logo":"https://www.google.com/s2/favicons?domain=snyk.io&sz=128","description":"Snyk provides developer-focused security tools for finding and fixing vulnerabilities across code, open source dependencies, containers and cloud configurations.",
     "metrics":[{"value":"$7.4B","label":"Last disclosed valuation","note":"December 2022"},{"value":"$196.5M","label":"Latest disclosed funding","note":"December 2022"},{"value":"Private","label":"Public status","note":"No listed shares"}],
     "company":["Snyk embeds security testing into developer workflows, helping engineering teams identify issues before software reaches production.","Its platform strategy combines open-source security, code scanning, cloud security and application security posture management."],
     "why_it_matters":"Snyk is a key private benchmark for the developer-security market. Its next liquidity event will test how investors value security platforms built around developer adoption in a tighter software market.",

@@ -24,7 +24,7 @@
     "video quality and cost."
   ],
   "intelligence": {
-    "kicker":"Company intelligence","location":"Palo Alto, California","status":"Private","logo":"https://logo.clearbit.com/lumalabs.ai","description":"Luma AI develops generative video, 3D and multimodal world-model technology for creative and physical-world applications.",
+    "kicker":"Company intelligence","location":"Palo Alto, California","status":"Private","logo":"https://www.google.com/s2/favicons?domain=lumalabs.ai&sz=128","description":"Luma AI develops generative video, 3D and multimodal world-model technology for creative and physical-world applications.",
     "metrics":[{"value":"~$4B","label":"Reported valuation","note":"2025 Series C reporting"},{"value":"$900M","label":"Latest funding","note":"Series C, 2025"},{"value":"Private","label":"Public status","note":"No listed shares"}],
     "company":["Luma started in visual capture and generative media, then broadened its ambition to multimodal models that can understand and simulate the physical world.","The company has said its Series C will support model training and deployment, including a planned compute partnership with Humain."],
     "why_it_matters":"Luma sits where video generation, 3D tools and world models meet. That puts it in direct competition for creative workloads while also creating an option on robotics and simulation.",

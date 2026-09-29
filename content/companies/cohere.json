@@ -24,7 +24,7 @@
     "model performance."
   ],
   "intelligence": {
-    "kicker":"Company intelligence","location":"Toronto, Canada","status":"Private","logo":"https://logo.clearbit.com/cohere.com","description":"Cohere builds secure, customizable foundation models and agentic software for enterprise and government customers.",
+    "kicker":"Company intelligence","location":"Toronto, Canada","status":"Private","logo":"https://www.google.com/s2/favicons?domain=cohere.com&sz=128","description":"Cohere builds secure, customizable foundation models and agentic software for enterprise and government customers.",
     "metrics":[{"value":"~$7B","label":"Latest valuation","note":"September 2025 second close"},{"value":"$600M","label":"Latest round total","note":"2025 funding round"},{"value":"Private","label":"Public status","note":"No listed shares"}],
     "company":["Cohere differentiates itself from consumer-first model labs through private deployment, data control and enterprise integrations.","Its product line includes large language models and North, a security-first agentic AI platform."],
     "why_it_matters":"Cohere is one of the clearest private-market plays on enterprise AI adoption rather than consumer chatbot distribution. Its customer requirements make sovereignty, deployment and trust central to the investment case.",

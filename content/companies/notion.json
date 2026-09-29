@@ -24,7 +24,7 @@
     "AI feature adoption."
   ],
   "intelligence": {
-    "kicker":"Company intelligence","location":"San Francisco, California","status":"Private","logo":"https://logo.clearbit.com/notion.so","description":"Notion is a collaborative workspace for documents, databases, wikis and AI-assisted knowledge management.",
+    "kicker":"Company intelligence","location":"San Francisco, California","status":"Private","logo":"https://www.google.com/s2/favicons?domain=notion.so&sz=128","description":"Notion is a collaborative workspace for documents, databases, wikis and AI-assisted knowledge management.",
     "metrics":[{"value":"$11B","label":"Latest valuation","note":"2025 tender offer"},{"value":"$270M","label":"Latest liquidity event","note":"Employee tender, 2025"},{"value":"Private","label":"Public status","note":"No listed shares"}],
     "company":["Notion combines flexible documents, databases and team knowledge into an adaptable workspace used by individuals and organizations.","It has extended its product line with AI features, calendar and email products, increasing its ambition to become a broader work hub."],
     "why_it_matters":"Notion is a useful private-market test of whether AI can deepen engagement for collaborative software rather than merely add a feature. Its employee tender gave a more current mark after the 2021 venture boom.",

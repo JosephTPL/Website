@@ -24,7 +24,7 @@
     "repeat aerospace orders."
   ],
   "intelligence": {
-    "kicker":"Company intelligence","location":"Torrance, California","status":"Private","logo":"https://logo.clearbit.com/hadrian.co","description":"Hadrian builds software-defined factories that manufacture precision parts, assemblies and systems for aerospace and defense customers.",
+    "kicker":"Company intelligence","location":"Torrance, California","status":"Private","logo":"https://www.google.com/s2/favicons?domain=hadrian.co&sz=128","description":"Hadrian builds software-defined factories that manufacture precision parts, assemblies and systems for aerospace and defense customers.",
     "metrics":[{"value":"~$8B","label":"Latest valuation","note":"August 2026"},{"value":"$1.37B","label":"Latest funding","note":"Series D, August 2026"},{"value":"Private","label":"Public status","note":"No listed shares"}],
     "company":["Hadrian uses automation, software and vertically integrated factory operations to produce mission-critical components and systems for aerospace and defense.","Its factories-as-a-service model is designed to expand domestic industrial capacity for both incumbent primes and newer defense companies."],
     "why_it_matters":"Hadrian is a leading private bet on reindustrialization and defense production. Its funding demonstrates the scale of capital moving into companies that pair automation with hard manufacturing capacity.",

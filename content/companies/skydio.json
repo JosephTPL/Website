@@ -24,7 +24,7 @@
     "manufacturing scale."
   ],
   "intelligence": {
-    "kicker":"Company intelligence","location":"San Mateo, California","status":"Private","logo":"https://logo.clearbit.com/skydio.com","description":"Skydio builds autonomous drones and software for defense, public safety, infrastructure and other enterprise uses.",
+    "kicker":"Company intelligence","location":"San Mateo, California","status":"Private","logo":"https://www.google.com/s2/favicons?domain=skydio.com&sz=128","description":"Skydio builds autonomous drones and software for defense, public safety, infrastructure and other enterprise uses.",
     "metrics":[{"value":"$4.4B","label":"Latest valuation","note":"April 2026"},{"value":"$110M","label":"Latest funding","note":"Series F, April 2026"},{"value":"Private","label":"Public status","note":"No listed shares"}],
     "company":["Skydio designs and manufactures autonomous drones in the United States, prioritizing enterprise and government customers over consumer hardware.","Its autonomy stack and domestic supply chain are central to its pitch as organizations reduce reliance on Chinese drone suppliers."],
     "why_it_matters":"Skydio is one of the most important private benchmarks in U.S. defense and industrial autonomy. Its latest funding shows that investors will support hardware companies when revenue quality and strategic demand are credible.",

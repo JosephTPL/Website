@@ -33,7 +33,7 @@
     "kicker": "COMPANY INTELLIGENCE",
     "location": "United States",
     "status": "Private",
-    "logo": "",
+    "logo": "/logos/unconventional-ai.png",
     "description": "Unconventional AI develops neuromorphic, analog computing hardware designed to run AI with far less power than digital chips.",
     "metrics": [
       {
@@ -101,6 +101,10 @@
       [
         "Focus",
         "Neuromorphic AI hardware"
+      ],
+      [
+        "Website",
+        "unconventional.ws"
       ],
       [
         "Public status",

@@ -24,7 +24,7 @@
     "API platform growth."
   ],
   "intelligence": {
-    "kicker":"Company intelligence","location":"San Francisco, California","status":"Private","logo":"https://logo.clearbit.com/postman.com","description":"Postman provides an API platform for designing, testing, documenting and managing APIs across software teams.",
+    "kicker":"Company intelligence","location":"San Francisco, California","status":"Private","logo":"https://www.google.com/s2/favicons?domain=postman.com&sz=128","description":"Postman provides an API platform for designing, testing, documenting and managing APIs across software teams.",
     "metrics":[{"value":"$5.6B","label":"Last disclosed valuation","note":"August 2021"},{"value":"$225M","label":"Latest funding","note":"Series D, August 2021"},{"value":"Private","label":"Public status","note":"No listed shares"}],
     "company":["Postman began as a developer utility and expanded into a collaborative platform for the full API lifecycle.","Its users include individual developers and larger organizations that need standard workflows across distributed engineering teams."],
     "why_it_matters":"APIs are core infrastructure for modern software. Postman is a useful private-market measure of whether broad developer adoption can translate into durable enterprise monetization.",

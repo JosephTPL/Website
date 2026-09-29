@@ -27,7 +27,7 @@
     "workflow adoption."
   ],
   "intelligence": {
-    "kicker":"Company intelligence","location":"San Francisco, California","status":"Acquisition agreed","logo":"https://logo.clearbit.com/airtable.com","description":"Airtable is a collaborative application-building and workflow platform that brought spreadsheet-like interfaces to structured business data.",
+    "kicker":"Company intelligence","location":"San Francisco, California","status":"Acquisition agreed","logo":"https://www.google.com/s2/favicons?domain=airtable.com&sz=128","description":"Airtable is a collaborative application-building and workflow platform that brought spreadsheet-like interfaces to structured business data.",
     "metrics":[{"value":"$1.29B","label":"Agreed acquisition value","note":"August 2026"},{"value":"$735M","label":"Last funding round","note":"Series F, 2021"},{"value":"Acquisition agreed","label":"Public status","note":"Bending Spoons"}],
     "company":["Airtable lets teams build databases, internal applications and workflows without conventional software development for every use case.","The company shifted toward an AI-native product strategy before Bending Spoons agreed to acquire it in 2026."],
     "why_it_matters":"Airtable's exit is an important mark for the no-code and collaboration-software cohort. It shows how far late-stage private software valuations can move when growth expectations reset.",

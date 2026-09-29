@@ -33,7 +33,7 @@
     "kicker": "COMPANY INTELLIGENCE",
     "location": "Shanghai, China",
     "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=xiaohongshu.com&sz=128",
+    "logo": "/logos/rednote.ico",
     "description": "Xiaohongshu (RedNote) is a lifestyle-content and e-commerce platform where users discover, review, and buy products.",
     "metrics": [
       {"value": "$50B+", "label": "Reported valuation", "note": "Implied by secondary trades, June 2026"},

@@ -29,7 +29,7 @@
     "infrastructure scale and product trust."
   ],
   "intelligence": {
-    "kicker": "FORMER PRIVATE COMPANY", "location": "Palo Alto, California", "status": "Public-company subsidiary", "logo": "https://logo.clearbit.com/x.ai", "description": "xAI was a standalone private AI company before becoming a wholly owned subsidiary of publicly traded SpaceX.",
+    "kicker": "FORMER PRIVATE COMPANY", "location": "Palo Alto, California", "status": "Public-company subsidiary", "logo": "https://www.google.com/s2/favicons?domain=x.ai&sz=128", "description": "xAI was a standalone private AI company before becoming a wholly owned subsidiary of publicly traded SpaceX.",
     "metrics": [{"value":"$230B+","label":"Last standalone valuation","note":"Reported before the SpaceX acquisition"},{"value":"$20B","label":"Last standalone funding","note":"Series E, January 2026"},{"value":"Public parent","label":"Current status","note":"Now part of public SpaceX"}],
     "company": ["Founded by Elon Musk in 2023, xAI develops the Grok model family, with distribution through X and its own applications.", "SpaceX acquired xAI on February 2, 2026, making it a wholly owned subsidiary. SpaceX completed its IPO in June 2026, so xAI should no longer be treated as a standalone private company."],
     "why_it_matters": "xAI remains relevant to AI competition, but its economics and ownership now sit inside SpaceX. This profile preserves the private-company record; xAI is no longer a standalone private-company valuation comparable to the active private businesses in this directory.",

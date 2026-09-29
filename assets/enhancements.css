@@ -90,6 +90,14 @@ main{margin-top:72px;margin-left:238px;padding:46px 54px 0;max-width:1780px}.pag
   .sidebar nav a{flex:0 0 auto}
   .article-actions{flex-wrap:wrap}
 }
+
+/* White wordmarks need a consistent dark tile in every company profile. */
+.intelligence-logo.intelligence-logo-dark img{
+  box-sizing:border-box;
+  padding:8px;
+  border-radius:4px;
+  background:#101923;
+}
 @media(max-width:560px){
   .ipo-month{overflow-x:auto}
   .ipo-weekdays,.ipo-week{min-width:560px}
