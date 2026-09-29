@@ -132,6 +132,9 @@ def configure_nav(s,active):
  nav=s.select_one('nav[aria-label="Primary"]')
  home=nav.select_one('[data-view="library"]')
  home['data-view']='home';home['href']='/';home.clear();put(home,'<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 4h6v16H4z M14 4h6v16h-6z"></path></svg> This week')
+ companies_link=nav.select_one('[data-view="companies"]')
+ if companies_link:
+  companies_link.extract();home.insert_before(companies_link)
  research=soup('<a data-view="library" href="/research/?type=deep-dives"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 4h6v16H4z M14 4h6v16h-6z"></path></svg>Research</a>').a
  home.insert_after(research)
  for old_link in nav.select('a[data-view="insights"]'):old_link.decompose()
