@@ -1,6 +1,9 @@
 {
   "slug": "xai",
   "status": "Published",
+  "ownership": "subsidiary",
+  "parent": "SpaceX",
+
   "name": "xAI",
   "sector": "AI",
   "summary": "Formerly a standalone private AI company, xAI is now SpaceX's AI division, developing the Grok model family and AI infrastructure.",

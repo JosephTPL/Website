@@ -2,9 +2,9 @@
   "slug": "twenty",
   "name": "Twenty",
   "status": "Published",
-  "sector": "Cybersecurity",
-  "summary": "Twenty is a cyber-warfare startup that raised $100 million in a June 2026 Series B at a $1 billion valuation, according to Axios.",
-  "overview": "<p>Twenty develops cyber-warfare capabilities for national-security use cases. Its Series B was led by Accel, with the financing directed toward research, development and its existing product roadmap.</p>",
+  "sector": "Cyber warfare",
+  "summary": "Twenty builds AI-enabled cyber-warfare systems for the U.S. military and intelligence community. It raised a $100M Series B at a $1B valuation in June 2026.",
+  "overview": "<p>Twenty builds AI-enabled, end-to-end cyber operations systems for the U.S. military and intelligence community. Its June 2026 Series B was intended to expand research, development, and deployment of its cyber-warfare capabilities.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -19,15 +19,15 @@
   "bear_case": "The sector has long procurement cycles, significant policy exposure and limited public product disclosure.",
   "latest_round": "June 2026: $100M Series B at $1B valuation",
   "directory_notes": [
-    "Enterprise software",
-    "Public financing and operating data remain limited."
+    "Cyber operations for U.S. national-security customers",
+    "Contract conversion, deployment controls, and procurement execution."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Undisclosed",
+    "location": "Arlington, Virginia",
     "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=twenty.com&sz=128",
-    "description": "Twenty is a private company tracked by The Private Ledger in enterprise software.",
+    "logo": "https://www.google.com/s2/favicons?domain=twenty.io&sz=128",
+    "description": "Twenty builds AI-enabled cyber-warfare systems for U.S. military and intelligence-community missions.",
     "metrics": [
       {
         "value": "$1B",
@@ -35,24 +35,24 @@
         "note": "June 2026 Series B"
       },
       {
+        "value": "$100M",
+        "label": "Latest funding",
+        "note": "Series B led by Accel"
+      },
+      {
         "value": "Private",
         "label": "Public status",
         "note": "No confirmed listing"
       },
       {
-        "value": "Enterprise software",
+        "value": "Cyber warfare",
         "label": "Business focus",
-        "note": "Company profile"
-      },
-      {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Editorial review"
+        "note": "AI-enabled cyber operations"
       }
     ],
     "company": [
-      "Twenty is a cyber-warfare company building capabilities for national-security operations. In June 2026 it announced a Series B intended to accelerate research and development.",
-      "Axios reported that Accel led the $100 million financing at a $1 billion valuation, with Point72 Ventures, Caffeinated Capital and Friends & Family Capital also backing the company."
+      "Twenty builds AI-enabled, end-to-end cyber operations systems for the U.S. military and intelligence community. The company describes its product as industrial-scale capability for modern cyber conflict.",
+      "In June 2026, Twenty announced a $100 million Series B led by Accel at a $1 billion valuation. It said the funding brought total capital raised to $138 million and would support research, development, and deployment."
     ],
     "why_it_matters": "Twenty reflects investor demand for cyber capabilities tied to national security. Contract conversion and responsible operational use will be more important than its early valuation headline.",
     "valuation_history": [
@@ -64,8 +64,8 @@
     ],
     "changed": [
       {
-        "date": "Sep 2026",
-        "text": "Twenty announced a $100M Series B led by Accel at a $1B valuation."
+        "date": "Jun 17, 2026",
+        "text": "Twenty announces a $100M Series B led by Accel at a $1B valuation."
       }
     ],
     "takeaways": [
@@ -75,12 +75,20 @@
     ],
     "quick_facts": [
       [
+        "Founded",
+        "2024"
+      ],
+      [
+        "Headquarters",
+        "Arlington, VA"
+      ],
+      [
         "Focus",
-        "Enterprise software"
+        "Cyber-warfare systems"
       ],
       [
         "Website",
-        "twenty.com"
+        "twenty.io"
       ],
       [
         "Public status",

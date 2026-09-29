@@ -2,6 +2,9 @@
   "slug": "adani-airports",
   "name": "Adani Airports",
   "status": "Published",
+  "ownership": "subsidiary",
+  "parent": "Adani Enterprises",
+
   "sector": "Infrastructure",
   "summary": "Adani Airports operates and develops airports across India.",
   "overview": "<p>Adani Airports operates and develops airports across India. The business is an infrastructure platform tied to passenger growth, commercial income, and airport-capacity expansion.</p>",

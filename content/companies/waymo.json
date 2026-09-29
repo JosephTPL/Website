@@ -1,5 +1,8 @@
 {
-  "slug": "waymo", "status": "Published", "name": "Waymo", "sector": "Autonomous mobility",
+  "slug": "waymo", "status": "Published",
+  "ownership": "subsidiary",
+  "parent": "Alphabet",
+ "name": "Waymo", "sector": "Autonomous mobility",
   "summary": "Waymo operates fully autonomous ride-hailing services and develops the Waymo Driver, a self-driving system for passenger and commercial mobility.",
   "overview": "<p>Waymo is Alphabet's autonomous-driving business, commercializing the Waymo Driver through a growing driverless ride-hailing network.</p>", "as_of": "2026-09-25", "report": "",
   "facts": [{"label":"Latest financing","value":"$16B investment round","note":"Announced February 2026 at a $126B post-money valuation.","source":"https://waymo.com/blog/2026/02/waymo-raises-usd16-billion-investment-round/"}], "directory_rank": 26,

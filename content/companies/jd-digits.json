@@ -1,6 +1,9 @@
 {
   "slug": "jd-digits",
   "status": "Published",
+  "ownership": "subsidiary",
+  "parent": "JD.com",
+
   "name": "JD Digits",
   "sector": "Fintech",
   "summary": "JD Digits, also known as JD Technology, supplies digital-technology and financial-services capabilities within the JD.com ecosystem.",

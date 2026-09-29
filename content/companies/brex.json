@@ -1,6 +1,10 @@
 {
   "slug": "brex",
   "status": "Published",
+  "ownership": "acquisition_pending",
+  "parent": "Capital One",
+  "deal_value": "$5.15B",
+
   "name": "Brex",
   "sector": "Fintech",
   "summary": "Spend management and financial services platform for companies.",

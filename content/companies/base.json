@@ -2,6 +2,9 @@
   "slug": "base",
   "name": "Base",
   "status": "Published",
+  "ownership": "subsidiary",
+  "parent": "Coinbase",
+
   "sector": "Blockchain infrastructure",
   "summary": "Base is an Ethereum Layer-2 network incubated by public company Coinbase, built on the OP Stack. It is not a standalone venture-backed company, so a private valuation and funding-round history do not apply.",
   "overview": "<p>Base is an Ethereum Layer-2 network incubated inside Coinbase and built with the OP Stack in collaboration with Optimism. The network is relevant to private-market investors as an ecosystem and distribution layer, but should not be presented as a separately financed private company.</p>",

@@ -2,6 +2,9 @@
   "slug": "viiv-healthcare",
   "name": "ViiV Healthcare",
   "status": "Published",
+  "ownership": "subsidiary",
+  "parent": "GSK",
+
   "sector": "Healthcare",
   "summary": "ViiV Healthcare is a specialist HIV company majority owned by GSK with Pfizer and Shionogi as shareholders.",
   "overview": "<p>ViiV Healthcare is a specialist HIV company majority owned by GSK with Pfizer and Shionogi as shareholders. It develops and commercializes prevention and treatment medicines.</p>",

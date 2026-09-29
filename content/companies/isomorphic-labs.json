@@ -2,6 +2,9 @@
   "slug": "isomorphic-labs",
   "name": "Isomorphic Labs",
   "status": "Published",
+  "ownership": "subsidiary",
+  "parent": "Alphabet",
+
   "sector": "Healthcare",
   "summary": "From protein prediction to drug discovery: the promise and the clinical proof still needed.",
   "overview": "<p>Isomorphic Labs aims to translate advances in AI and protein modelling into better drug discovery. Pharmaceutical partnerships provide capital and commercial validation, but the report draws a crucial distinction between predicting molecular behaviour and proving that a treatment is safe and effective in people.</p>",

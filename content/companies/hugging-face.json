@@ -1,6 +1,10 @@
 {
   "slug": "hugging-face",
   "status": "Published",
+  "ownership": "acquisition_pending",
+  "parent": "NVIDIA",
+  "deal_value": "$12.93B",
+
   "name": "Hugging Face",
   "sector": "AI infrastructure",
   "summary": "Open-source AI platform connecting models, datasets, and developers.",

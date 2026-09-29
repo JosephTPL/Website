@@ -1,10 +1,10 @@
 {
   "slug": "normal",
   "name": "Normal",
-  "status": "Published",
+  "status": "Draft",
   "sector": "Artificial intelligence",
-  "summary": "Normal Computing develops AI software for chip design and energy-efficient processors for inference workloads. It raised $50 million in March 2026, according to Fortune.",
-  "overview": "<p>Normal is tracked as a private company with limited public financial disclosure. Its profile should be read as a research placeholder rather than a valuation claim.</p>",
+  "summary": "Draft profile awaiting verified company and funding information.",
+  "overview": "<p>Draft profile awaiting verified company and funding information.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -27,7 +27,7 @@
     "location": "United States",
     "status": "Private",
     "logo": "/logos/normal.svg",
-    "description": "Normal is tracked as a private company with limited public financial disclosure. Its profile should be read as a research placeholder rather than a valuation claim.",
+    "description": "Draft profile awaiting verified company and funding information.",
     "metrics": [
       {
         "value": "Undisclosed",
@@ -111,5 +111,6 @@
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
-  }
+  },
+  "ownership": "independent"
 }

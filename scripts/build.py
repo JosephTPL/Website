@@ -60,6 +60,10 @@ def records(folder):
  return result
 
 settings=read('content/settings/site.json');weekly=read('content/settings/weekly.json');ipo_calendar=read('content/settings/ipo-calendar.json');articles=records('articles');companies=records('companies')
+for company in companies.values():
+ profile_text=' '.join((str(company.get('summary','')),str(company.get('intelligence',{}).get('description','')))).casefold()
+ if 'is a private company tracked by the private ledger' in profile_text or 'placeholder' in profile_text:
+  raise ValueError(f'Published company profile {company["name"]} contains placeholder research text.')
 base=os.environ.get('URL') or settings['site_url'];base=base.rstrip('/')
 if urlsplit(base).scheme not in ('http','https'):raise ValueError('Site URL must start with https://')
 for a in articles.values():
@@ -346,7 +350,7 @@ for company in companies.values():
   logo=company.get('intelligence',{}).get('logo','')
   match=re.search(r'domain=([^&]+)',logo)
   domain=match.group(1) if match else company['slug']+'.com'
- profile_directory.append([company['name'],profile_valuations.get(company['name'].lower(),'Undisclosed'),domain,company.get('intelligence',{}).get('status','Private')])
+ profile_directory.append([company['name'],profile_valuations.get(company['name'].lower(),'Undisclosed'),domain,company.get('intelligence',{}).get('status','Private'),company.get('ownership','independent'),company.get('parent',''),company.get('deal_value','')])
 directory_script=OUT/'companies.js'
 directory_script.write_text(directory_script.read_text().replace('/* PROFILE_SLUGS */',json.dumps(profile_slugs,sort_keys=True)).replace('/* PROFILE_VALUATIONS */',json.dumps(profile_valuations,sort_keys=True)).replace('/* PROFILE_DIRECTORY */',json.dumps(profile_directory,sort_keys=True)))
 companies_script_version=hashlib.sha256(directory_script.read_bytes()).hexdigest()[:12]

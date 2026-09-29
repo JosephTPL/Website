@@ -1,6 +1,10 @@
 {
   "slug": "anysphere",
   "status": "Published",
+  "ownership": "acquired",
+  "parent": "SpaceX",
+  "deal_value": "$60B",
+
   "name": "Anysphere (Cursor)",
   "sector": "Developer tools",
   "summary": "AI-native coding environment built around the Cursor editor.",

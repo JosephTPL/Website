@@ -2,6 +2,9 @@
   "slug": "kling-ai",
   "name": "Kling AI",
   "status": "Published",
+  "ownership": "subsidiary",
+  "parent": "Kuaishou",
+
   "sector": "Artificial intelligence",
   "summary": "Kling AI is Kuaishou\u2019s generative-video model and product platform.",
   "overview": "<p>Kling AI is Kuaishou\u2019s generative-video model and product platform. It competes in a fast-moving market for video creation, advertising tools, and creator workflows.</p>",

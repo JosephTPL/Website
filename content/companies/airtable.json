@@ -1,6 +1,9 @@
 {
   "slug": "airtable",
   "status": "Published",
+  "ownership": "acquisition_pending",
+  "parent": "Bending Spoons",
+
   "name": "Airtable",
   "sector": "Enterprise software",
   "summary": "Flexible database and workflow platform for non-technical business teams.",
