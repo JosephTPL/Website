@@ -14,7 +14,7 @@
   const searchResults=document.querySelector('#valuation-search-results');
   const selectedList=document.querySelector('#valuation-selected');
   // A focused opening view preserves legibility across companies with very different scales.
-  const selected=new Set(['anthropic','openai','stripe'].filter(slug=>series.some(item=>item.slug===slug)));
+  const selected=new Set(series.slice(0,3).map(item=>item.slug));
   let range='all';
   let indexed=false;
   const colors=['#ff5c58','#5d9cff','#f3ab39','#58b293','#c87fe8','#56c3bf','#e07a9e','#d8cb70','#9d88e9','#ec8c54','#61a4d9','#a9b75c','#db7690','#b491df','#4eb2a7','#dfbf65','#7697e8','#df6e67','#73bd83','#e69aab','#4f86aa','#a7d2c2','#d99845','#a382bd','#b6c56b','#c56e62','#78aacd','#cba85f','#84a86b'];
@@ -38,7 +38,8 @@
   };
   const showTooltip=(pointerEvent,item,color,valuationEvent)=>{
     tooltip.hidden=false;
-    tooltip.innerHTML=`<strong>${item.name}</strong><span>${valuationEvent.label} · ${valuationEvent.round||'Reported event'}</span><b>${valuationEvent.value}${indexed?` <small>${percent(valuationEvent.chartAmount)} from first visible event</small>`:''}</b>`;
+    const source=valuationEvent.source?`<a href="${valuationEvent.source}" rel="noopener">Source ↗</a>`:'';
+    tooltip.innerHTML=`<strong>${item.name}</strong><span>${valuationEvent.label} · ${valuationEvent.round||'Reported event'}</span><b>${valuationEvent.value}${indexed?` <small>${percent(valuationEvent.chartAmount)} from first visible event</small>`:''}</b>${source}`;
     tooltip.style.left=`${Math.max(8,Math.min(root.clientWidth-190,pointerEvent.clientX-root.getBoundingClientRect().left+12))}px`;
     tooltip.style.top=`${Math.max(8,pointerEvent.clientY-root.getBoundingClientRect().top-94)}px`;
     tooltip.style.setProperty('--tip-color',color);
@@ -54,15 +55,17 @@
     const dates=allEvents.map(item=>new Date(item.date).getTime());
     const amounts=allEvents.map(item=>item.chartAmount);
     const minDate=Math.min(...dates),maxDate=Math.max(...dates),maxAmount=Math.max(...amounts)*1.12;
-    const minAmount=indexed?Math.min(0,...amounts)*1.12:0;
+    const minAmount=indexed?Math.min(0,...amounts)*1.12:Math.min(...amounts)*.8;
     const width=1000,height=520,pad={top:42,right:38,bottom:61,left:76};
     const x=value=>pad.left+(width-pad.left-pad.right)*((value-minDate)/(maxDate-minDate||1));
-    const y=value=>height-pad.bottom-(height-pad.top-pad.bottom)*((value-minAmount)/(maxAmount-minAmount||1));
+    const logarithmic=!indexed;
+    const logMin=logarithmic?Math.log10(Math.max(minAmount,.000001)):0,logMax=logarithmic?Math.log10(maxAmount):0;
+    const y=value=>logarithmic?height-pad.bottom-(height-pad.top-pad.bottom)*((Math.log10(Math.max(value,.000001))-logMin)/(logMax-logMin||1)):height-pad.bottom-(height-pad.top-pad.bottom)*((value-minAmount)/(maxAmount-minAmount||1));
     const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');
     svg.setAttribute('viewBox',`0 0 ${width} ${height}`);svg.setAttribute('preserveAspectRatio','none');svg.setAttribute('aria-hidden','true');
     const add=(name,attrs={},text='')=>{const el=document.createElementNS('http://www.w3.org/2000/svg',name);Object.entries(attrs).forEach(([key,value])=>el.setAttribute(key,value));if(text)el.textContent=text;svg.append(el);return el};
     for(let i=0;i<5;i++){
-      const amount=maxAmount*i/4,py=y(amount);
+      const amount=logarithmic?10**(logMin+(logMax-logMin)*i/4):maxAmount*i/4,py=y(amount);
       add('line',{x1:pad.left,y1:py,x2:width-pad.right,y2:py,class:'valuation-gridline'});
       add('text',{x:pad.left-13,y:py+5,'text-anchor':'end',class:'valuation-axis-label'},indexed?percent(amount):money(amount));
     }
@@ -81,7 +84,7 @@
       });
       add('path',{d:path,class:'valuation-line',stroke:color});
       item.events.forEach(event=>{
-        const point=add('circle',{cx:x(new Date(event.date).getTime()),cy:y(event.chartAmount),r:6,fill:color,class:'valuation-point',tabindex:'0'});
+        const point=add('circle',{cx:x(new Date(event.date).getTime()),cy:y(event.chartAmount),r:6,fill:event.event_type==='talks'?'transparent':color,stroke:color,'stroke-width':event.event_type==='talks'?3:1,class:'valuation-point',tabindex:'0'});
         point.setAttribute('aria-label',`${item.name}, ${event.label}: ${event.round||'Reported event'}, ${event.value}`);
         point.addEventListener('pointerenter',e=>showTooltip(e,item,color,event));
         point.addEventListener('pointerleave',()=>tooltip.hidden=true);

@@ -2,7 +2,7 @@
 from pathlib import Path
 from datetime import date, datetime
 from urllib.parse import urlsplit, unquote
-import calendar, hashlib, html, json, math, os, re, shutil, sys
+import calendar, csv, hashlib, html, json, math, os, re, shutil, sys
 from bs4 import BeautifulSoup, NavigableString
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'_site'
@@ -55,11 +55,57 @@ def records(folder):
   record=json.loads(path.read_text());slug=record.get('slug',path.stem)
   if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',slug):raise ValueError(f'{path.name}: web address must use lowercase letters, numbers, and hyphens.')
   if slug in result:raise ValueError('Duplicate web address: '+slug)
-  record['slug']=slug
+  record['slug']=slug;record['_file_slug']=path.stem
   if record.get('status')=='Published':result[slug]=record
  return result
 
+COMPANY_STATUSES={'private','public','acquired','acquisition_pending','subsidiary'}
+SECTORS={'AI & Machine Learning','Data, Cloud & Developer Tools','Financial Services & Digital Assets','Enterprise Software & Business Services','Consumer, Commerce & Media','Defense, Aerospace & Space','Hardware, Robotics & Semiconductors','Energy, Climate & Industrial','Healthcare & Life Sciences','Mobility, Transport & Logistics','Telecommunications & Infrastructure','Other / Diversified'}
+EVENT_TYPES={'priced_round','secondary','tender','ipo','acquisition','talks'}
+company_files={path.stem:json.loads(path.read_text()) for path in (ROOT/'content/companies').glob('*.json')}
+for file_slug,company in company_files.items():
+ if company.get('company_status') not in COMPANY_STATUSES:raise ValueError(f'Company {file_slug}: invalid company_status {company.get("company_status")!r}.')
+ if company.get('sector') not in SECTORS:raise ValueError(f'Company {file_slug}: invalid sector {company.get("sector")!r}.')
 settings=read('content/settings/site.json');weekly=read('content/settings/weekly.json');ipo_calendar=read('content/settings/ipo-calendar.json');articles=records('articles');companies=records('companies')
+file_slugs={company['_file_slug']:slug for slug,company in companies.items()}
+valuation_rows=[]
+with (ROOT/'content/data/valuations.csv').open(newline='',encoding='utf-8') as f:
+ reader=csv.DictReader(f)
+ required_columns={'company_slug','date','event_type','valuation_usd_b','source_url','source_checked'}
+ if not reader.fieldnames or not required_columns.issubset(reader.fieldnames):raise ValueError('valuations.csv is missing required columns: '+', '.join(sorted(required_columns-set(reader.fieldnames or []))))
+ for line_number,row in enumerate(reader,2):
+  company_ref=row.get('company_slug','').strip() or '<missing company_slug>'
+  row_label=f'valuations.csv line {line_number} ({company_ref})'
+  if company_ref not in company_files:raise ValueError(f'{row_label}: company_slug does not match a company file.')
+  if not row.get('date','').strip():raise ValueError(f'{row_label}: date is required.')
+  try:
+   if len(row['date'])==4:datetime.strptime(row['date'], '%Y')
+   elif len(row['date'])==7:datetime.strptime(row['date'], '%Y-%m')
+   else:datetime.strptime(row['date'], '%Y-%m-%d')
+  except ValueError:raise ValueError(f'{row_label}: date must use YYYY, YYYY-MM or YYYY-MM-DD.')
+  if row.get('event_type') not in EVENT_TYPES:raise ValueError(f'{row_label}: invalid event_type {row.get("event_type")!r}.')
+  if not row.get('source_url','').strip():raise ValueError(f'{row_label}: source_url is required.')
+  if row.get('source_checked') not in {'yes','no'}:raise ValueError(f'{row_label}: source_checked must be yes or no.')
+  slug=file_slugs.get(row['company_slug'])
+  if not slug:continue
+  try:valuation=float(row['valuation_usd_b']) if row.get('valuation_usd_b') else None
+  except ValueError:raise ValueError(f'{row_label}: valuation_usd_b must be a number.')
+  if valuation is not None and valuation<=0:raise ValueError(f'{row_label}: valuation_usd_b must be a positive number.')
+  try:raised=float(row['amount_raised_usd_b']) if row.get('amount_raised_usd_b') else None
+  except ValueError:raise ValueError(f'Invalid amount raised for {row["company_slug"]}: {row["amount_raised_usd_b"]}')
+  row.update({'slug':slug,'valuation':valuation,'raised':raised})
+  valuation_rows.append(row)
+valuations_by_slug={slug:[] for slug in companies}
+for row in valuation_rows:valuations_by_slug[row['slug']].append(row)
+for rows in valuations_by_slug.values():rows.sort(key=lambda row:(bool(row['date']),row['date']))
+
+def money_b(value):
+ if value is None:return ''
+ return f'${value/1000:g}T' if value>=1000 else (f'${value*1000:g}M' if value<1 else f'${value:g}B')
+
+def latest_valuation(slug):
+ rows=[row for row in valuations_by_slug.get(slug,[]) if row['valuation'] is not None]
+ return rows[-1] if rows else None
 for company in companies.values():
  profile_text=' '.join((str(company.get('summary','')),str(company.get('intelligence',{}).get('description','')))).casefold()
  if 'is a private company tracked by the private ledger' in profile_text or 'placeholder' in profile_text:
@@ -86,7 +132,7 @@ def facts(c):
 def intelligence_profile(c):
  d=c['intelligence']
  metrics=''.join(f'<div><strong>{E(item["value"])}</strong><span>{E(item["label"])}</span><small>{E(item.get("note",""))}</small></div>' for item in d['metrics'])
- history=''.join(f'<li><strong>{E(item["value"])}</strong><span>→</span><small>{E(item["date"])}</small><em>{E(item["round"])}</em></li>' for item in d['valuation_history'])
+ history=''.join(f'<li><strong>{E(money_b(item["valuation"]) if item["valuation"] is not None else ("Raised "+money_b(item["raised"])+" · valuation undisclosed" if item["raised"] is not None else "Valuation undisclosed"))}</strong><span>→</span><small>{E(item["date"] or "Date undisclosed")}</small><em>{E(item["round_label"] or item["event_type"].replace("_"," ").title())}</em><a href="{E(item["source_url"])}" rel="noopener">Source ↗</a></li>' for item in valuations_by_slug.get(c['slug'],[])) or '<li><strong>No disclosed valuation events</strong></li>'
  changed=''.join(f'<li><time>{E(item["date"])}</time><p>{E(item["text"])}</p></li>' for item in d['changed'])
  takeaways=''.join(f'<li><span>{i:02d}</span><p>{E(item)}</p></li>' for i,item in enumerate(d['takeaways'],1))
  quick=''.join(f'<dt>{E(item.get("label", ""))}</dt><dd>{E(item.get("value", ""))}</dd>' if isinstance(item,dict) else f'<dt>{E(item[0])}</dt><dd>{E(item[1])}</dd>' for item in d['quick_facts'])
@@ -94,7 +140,7 @@ def intelligence_profile(c):
  logo=f'<img src="{E(d["logo"])}" alt="{E(c["name"])} logo" loading="lazy">' if d.get('logo') else ''
  logo_class=' intelligence-logo-dark' if c['name'].casefold() in ('long lake','neros','revel','ricursive') else ''
  return f'''<section class="intelligence-profile">
- <header class="intelligence-header"><div><h1>{E(c["name"])}</h1><p class="intelligence-meta">{E(c["sector"])} <span>·</span> {E(d["location"])} <span>·</span> {E(d["status"])}</p><p class="intelligence-description">{E(d["description"])}</p></div><div class="intelligence-logo{logo_class}">{logo}<strong>{E(c["name"])}</strong></div></header>
+ <header class="intelligence-header"><div><h1>{E(c["name"])}</h1><p class="intelligence-meta">{E(c["sector"])} <span>·</span> {E(d["location"])} <span>·</span> {E(c.get("company_status", d["status"]).replace("_", " ").title())}</p><p class="intelligence-description">{E(d["description"])}</p></div><div class="intelligence-logo{logo_class}">{logo}<strong>{E(c["name"])}</strong></div></header>
  <section class="intelligence-metrics">{metrics}</section>
  <div class="intelligence-content"><div class="intelligence-main"><section><h2>The Company</h2>{''.join('<p>'+E(p)+'</p>' for p in d['company'])}</section><section><h2>Why It Matters</h2><p>{E(d["why_it_matters"])}</p></section><section><h2>Valuation History</h2><ol class="valuation-history">{history}</ol></section><section><h2>What Changed</h2><ol class="change-log">{changed}</ol></section></div><aside class="intelligence-aside"><section><h2>Key Takeaways</h2><ol class="takeaways">{takeaways}</ol></section><section><h2>Quick Facts</h2><dl class="quick-facts">{quick}</dl></section><section><h2>Sources</h2><ul class="intelligence-sources">{sources}</ul></section></aside></div>
  </section>'''
@@ -163,14 +209,8 @@ def weekly_chart_markup(lead_item):
  company_name=str(lead_item.get('company','')).casefold()
  company=next((record for record in companies.values() if str(record.get('name','')).casefold()==company_name),None)
  if not company:return ''
- events=[]
- for item in company.get('intelligence',{}).get('valuation_history',[]):
-  raw=str(item.get('value','')).replace('~','').replace(',','').replace('>','').replace('<','').strip().rstrip('+')
-  match=re.fullmatch(r'([$£€])\s*(\d+(?:\.\d+)?)(?:\s*[–-]\s*(\d+(?:\.\d+)?))?\s*([MBT])',raw)
-  if not match:continue
-  amount=float(match.group(3) or match.group(2))*({'M':.001,'B':1,'T':1000}[match.group(4)])
-  events.append({'amount':amount,'currency':match.group(1),'value':item['value'],'date':item['date'],'round':item.get('round','')})
- if len(events)<2 or len({event['currency'] for event in events})!=1:return ''
+ events=[{'amount':row['valuation'],'value':money_b(row['valuation']),'date':row['date'],'round':row['round_label'],'source':row['source_url']} for row in valuations_by_slug.get(company['slug'],[]) if row['valuation'] is not None and row['date']]
+ if len(events)<2:return ''
  width,height,left,right,top,bottom=760,274,58,28,26,206
  maximum=max(event['amount'] for event in events)
  step_size=1 if maximum<=10 else 10 if maximum<=50 else 50
@@ -181,11 +221,10 @@ def weekly_chart_markup(lead_item):
   x=left+index*step;y=bottom-(event['amount']/ceiling)*(bottom-top)
   points.append((x,y,event))
  path=' '.join((f'M {x:.1f} {y:.1f}' if index==0 else f'L {x:.1f} {y:.1f}') for index,(x,y,event) in enumerate(points))
- currency=events[0]['currency']
- grid=''.join(f'<line x1="{left}" y1="{bottom-(value/ceiling)*(bottom-top):.1f}" x2="{width-right}" y2="{bottom-(value/ceiling)*(bottom-top):.1f}" class="weekly-chart-grid"/><text x="{left-12}" y="{bottom-(value/ceiling)*(bottom-top)+5:.1f}" text-anchor="end" class="weekly-chart-axis">{currency}{value:g}B</text>' for value in (0,ceiling/2,ceiling))
+ grid=''.join(f'<line x1="{left}" y1="{bottom-(value/ceiling)*(bottom-top):.1f}" x2="{width-right}" y2="{bottom-(value/ceiling)*(bottom-top):.1f}" class="weekly-chart-grid"/><text x="{left-12}" y="{bottom-(value/ceiling)*(bottom-top)+5:.1f}" text-anchor="end" class="weekly-chart-axis">{E(money_b(value))}</text>' for value in (0,ceiling/2,ceiling))
  dots=''.join(f'<g><circle cx="{x:.1f}" cy="{y:.1f}" r="5" class="weekly-chart-point" data-date="{E(event["date"])}" data-value="{E(event["value"])}" data-round="{E(event["round"])}" tabindex="0" role="button" aria-label="{E(event["date"])}: {E(event["value"])}. {E(event["round"])}."><title>{E(event["date"])}: {E(event["value"])}. {E(event["round"])}.</title></circle><text x="{x:.1f}" y="{bottom+31}" text-anchor="middle" class="weekly-chart-date">{E(event["date"])}</text></g>' for x,y,event in points)
  latest=events[-1]
- source=lead_item.get('source') or company.get('facts',[{}])[0].get('source',f'/companies/{company["slug"]}/')
+ source=latest.get('source') or lead_item.get('source') or company.get('facts',[{}])[0].get('source',f'/companies/{company["slug"]}/')
  return f'''<section class="weekly-chart weekly-chart--sidebar" aria-labelledby="weekly-chart-title"><header class="weekly-chart-head"><div><h2 id="weekly-chart-title">{E(company['name'])} valuation history.</h2><p>{E(latest['round'] or 'Latest reported valuation event')} at {E(latest['value'])}.</p></div><div class="weekly-chart-stat"><strong>{E(latest['value'])}</strong><span>Latest reported value</span></div></header><div class="weekly-chart-plot"><svg viewBox="0 0 {width} {height}" role="img" aria-label="{E(company['name'])} reported valuation history">{grid}<path d="{path}" class="weekly-chart-line"/>{dots}</svg><div class="weekly-chart-tooltip" hidden aria-live="polite"></div></div><footer><a href="/companies/{E(company['slug'])}/">Profile →</a><a href="/valuations/">Valuation desk →</a><a href="{E(source)}" rel="noopener">Source ↗</a></footer></section>'''
 
 def weekly_markup():
@@ -229,19 +268,17 @@ def ipo_markup():
  month=ipo_calendar['calendar']['month'];year=int(ipo_calendar['calendar']['year']);month_number=int(ipo_calendar['calendar']['month_number'])
  items=[item for period in ipo_calendar['periods'] for item in period['items']]
  def profile_status(company):
-  intelligence=company.get('intelligence',{})
-  return ' '.join(str(value) for value in (company.get('status',''),intelligence.get('status',''))).casefold()
+  return str(company.get('company_status','private')).casefold()
  def profile_valuation(company):
-  for fact in company.get('facts',[])+company.get('intelligence',{}).get('metrics',[]):
-   if 'valuation' in str(fact.get('label','')).casefold():return str(fact.get('value','')).strip()
-  raise ValueError(f'IPO calendar company {company["name"]} has no valuation fact in its profile.')
+  row=latest_valuation(company['slug'])
+  return money_b(row['valuation']) if row else 'No disclosed valuation'
  for item in items:
   slug=str(item.get('company_slug','')).strip()
   if not slug:raise ValueError(f'IPO calendar entry {item.get("company", "unknown")} is missing company_slug.')
   company=companies.get(slug)
   if not company:raise ValueError(f'IPO calendar entry {item.get("company", "unknown")} points to missing published profile: {slug}.')
-  if any(status in profile_status(company) for status in ('public','acquired','acquisition agreed')):
-   profile_label=company.get('intelligence',{}).get('status',company.get('status',''))
+  if profile_status(company) in ('public','acquired','acquisition_pending'):
+   profile_label=company.get('company_status','private')
    raise ValueError(f'IPO calendar entry {item["company"]} points to a non-private profile ({profile_label}). Remove it from the watchlist.')
   override=item.get('valuation_override')
   if override and not str(item.get('valuation_override_note','')).strip():
@@ -297,35 +334,15 @@ def chart_date(value):
  return ''
 
 def valuation_chart_markup():
- """A small, evidence-led comparison set, rather than synthetic daily price data."""
- # The ten businesses covered in the publication. Isomorphic Labs remains visible below
- # as a research profile, but has no disclosed valuation event to draw responsibly.
- selected=('saronic','isomorphic-labs','substack','polymarket','spacex','anthropic','openai','stripe','bytedance','anduril',
-           'tether','databricks','waymo','reliance-retail','ant-group','revolut','reliance-jio','deepseek','ripple','cognition')
- selected=selected+('ramp','prometheus','figure','canva','safe-superintelligence','crusoe','vast-data','scale-ai','the-boring-company','kalshi')
- selected=selected+('rippling','epic-games','discord','plaid','mistral-ai','kraken','shield-ai','notion','whatnot',
-                    'cohere','elevenlabs','mercor','lovable','perplexity','lukoil','citadel-securities','etched','helsing','fireworks-ai')
- selected=selected+('moonshot-ai','figure-ai','jd-digits','authentic-brands-group','vanta','snyk','abnormal-security','chobani','postman','brex')
- selected=selected+('fluidstack','deel','airtable','hugging-face','groq','anysphere','luma-ai','skydio','redwood-materials','hadrian')
+ """Render every company whose CSV history supports a meaningful comparison."""
  series=[]
- for slug in selected:
-  company=companies.get(slug)
-  if not company:continue
-  events=[]
-  for item in company.get('intelligence',{}).get('valuation_history',[]):
-   value=str(item.get('value','')).replace('~','').replace(',','').replace('>','').replace('<','').strip().rstrip('+')
-   match=re.fullmatch(r'\$(\d+(?:\.\d+)?)([MBT])',value)
-   when=chart_date(item.get('date',''))
-   if not match or not when:continue
-   unit=match.group(2);amount=float(match.group(1))*(1000 if unit=='T' else .001 if unit=='M' else 1)
-   if amount<=0:continue
-   events.append({'date':when,'label':item['date'],'value':item['value'],'amount':amount,'round':item.get('round','')})
+ for slug,company in companies.items():
+  events=[{'date':row['date']+'-01' if len(row['date'])==7 else row['date'],'label':row['date'],'value':money_b(row['valuation']),'amount':row['valuation'],'round':row['round_label'],'event_type':row['event_type'],'source':row['source_url']} for row in valuations_by_slug.get(slug,[]) if row['valuation'] is not None and row['valuation']>0 and row['date']]
   if len(events)>1:
    series.append({'name':company['name'],'slug':slug,'url':'/companies/'+slug+'/', 'events':events})
+ series.sort(key=lambda item:item['name'].casefold())
  data=json.dumps(series,separators=(',',':')).replace('</','<\\/')
- default_series={'spacex','anthropic','openai'}
- chart_colors=('#ff5c58','#5d9cff','#f3ab39','#58b293','#c87fe8','#56c3bf','#e07a9e','#d8cb70','#9d88e9','#ec8c54','#61a4d9','#a9b75c','#db7690','#b491df','#4eb2a7','#dfbf65','#7697e8','#df6e67','#73bd83','#e69aab','#4f86aa','#a7d2c2','#d99845','#a382bd','#b6c56b','#c56e62','#78aacd','#cba85f','#84a86b')
- return f'''<section class="valuation-page" aria-labelledby="valuation-title"><header class="valuation-head"><div><h1 id="valuation-title">Private valuation history.</h1><p>Reported point-in-time valuations at confirmed financings and other disclosed liquidity events.</p></div><a href="/companies/" class="valuation-directory-link">Browse companies <span aria-hidden="true">→</span></a></header><div class="valuation-method"><strong>Not a market-price chart.</strong> Each step marks a disclosed valuation event. A flat line means no newer confirmed value is recorded, not that the company’s value was unchanged.</div><section class="valuation-chart-shell" aria-label="Private valuation comparison"><div class="valuation-toolbar"><div class="valuation-picker"><p class="valuation-control-label">COMPARE COMPANIES</p><label class="valuation-search"><span class="sr-only">Search a company</span><input id="valuation-company-search" type="search" placeholder="Search companies" autocomplete="off"></label><div id="valuation-search-results" class="valuation-search-results" hidden></div><div id="valuation-selected" class="valuation-selected" aria-label="Companies shown"></div></div><div><p class="valuation-control-label">VIEW</p><div class="valuation-range" aria-label="Chart view"><button type="button" data-range="1">1Y</button><button type="button" data-range="3">3Y</button><button type="button" data-range="5">5Y</button><button type="button" data-range="all" class="is-active">All</button><button type="button" class="valuation-index" aria-pressed="false">Index to zero</button></div></div></div><div class="valuation-chart" id="valuation-chart" data-valuation-series='{E(data)}'><div class="valuation-chart-canvas" role="img" aria-label="Reported private valuation history chart"></div><div class="valuation-tooltip" hidden></div></div><div class="valuation-legend" aria-label="Visible companies"></div><p class="valuation-unavailable">Isomorphic Labs is covered by The Ledger, but no valuation was publicly disclosed for its reported funding events. <a href="/companies/isomorphic-labs/">View profile →</a></p></section><p class="valuation-footnote">Figures are reported valuations, not continuous marks or investment advice. Click any company in the legend to read its profile.</p></section>'''
+ return f'''<section class="valuation-page" aria-labelledby="valuation-title"><header class="valuation-head"><div><h1 id="valuation-title">Private valuation history.</h1><p>Reported point-in-time valuations at disclosed financings and liquidity events.</p></div><a href="/companies/" class="valuation-directory-link">Browse companies <span aria-hidden="true">→</span></a></header><div class="valuation-method"><strong>Not a market-price chart.</strong> The logarithmic view makes different-sized companies readable. Hollow points are reported talks, not closed transactions.</div><section class="valuation-chart-shell" aria-label="Private valuation comparison"><div class="valuation-toolbar"><div class="valuation-picker"><p class="valuation-control-label">COMPARE COMPANIES</p><label class="valuation-search"><span class="sr-only">Search a company</span><input id="valuation-company-search" type="search" placeholder="Search companies" autocomplete="off"></label><div id="valuation-search-results" class="valuation-search-results" hidden></div><div id="valuation-selected" class="valuation-selected" aria-label="Companies shown"></div></div><div><p class="valuation-control-label">VIEW</p><div class="valuation-range" aria-label="Chart view"><button type="button" data-range="1">1Y</button><button type="button" data-range="3">3Y</button><button type="button" data-range="5">5Y</button><button type="button" data-range="all" class="is-active">All</button><button type="button" class="valuation-index" aria-pressed="false">Index to zero</button></div></div></div><div class="valuation-chart" id="valuation-chart" data-valuation-series='{E(data)}'><div class="valuation-chart-canvas" role="img" aria-label="Reported private valuation history chart"></div><div class="valuation-tooltip" hidden></div></div><div class="valuation-legend" aria-label="Visible companies"></div></section><p class="valuation-footnote">Each point has a direct source link on hover or focus. Figures are reported valuations, not investment advice.</p></section>'''
 
 if OUT.exists():shutil.rmtree(OUT)
 OUT.mkdir()
@@ -333,29 +350,12 @@ for f in (ROOT/'assets').iterdir():
  if f.is_file():shutil.copy2(f,OUT/f.name)
  elif f.is_dir():shutil.copytree(f,OUT/f.name)
 shutil.copytree(ROOT/'media',OUT/'media')
-profile_slugs={company['name'].lower():company['slug'] for company in companies.values()}
-profile_valuations={}
-for company in companies.values():
- for metric in company.get('intelligence',{}).get('metrics',[]):
-  if 'valuation' in metric.get('label','').lower() and metric.get('value'):
-   profile_valuations[company['name'].lower()]=metric['value']
-   break
 profile_directory=[]
 for company in companies.values():
- domain=''
- for fact in company.get('intelligence',{}).get('quick_facts',[]):
-  if isinstance(fact,dict):label,value=fact.get('label',''),fact.get('value','')
-  else:label,value=fact
-  if label.lower()=='website':
-   domain=value.replace('https://','').replace('http://','').split('/')[0]
-   break
- if not domain:
-  logo=company.get('intelligence',{}).get('logo','')
-  match=re.search(r'domain=([^&]+)',logo)
-  domain=match.group(1) if match else company['slug']+'.com'
- profile_directory.append([company['name'],profile_valuations.get(company['name'].lower(),'Undisclosed'),domain,company.get('intelligence',{}).get('status','Private'),company.get('ownership','independent'),company.get('parent',''),company.get('deal_value',''),company.get('intelligence',{}).get('logo','')])
+ row=latest_valuation(company['slug'])
+ profile_directory.append({'name':company['name'],'slug':company['slug'],'sector':company.get('sector','Other / Diversified'),'status':company.get('company_status','private'),'parent':company.get('parent',''),'deal_value':company.get('deal_value',''),'website':company.get('website',''),'logo':company.get('intelligence',{}).get('logo',''),'valuation':row['valuation'] if row else None,'valuation_label':money_b(row['valuation']) if row else 'No disclosed valuation','valuation_date':row['date'] if row else ''})
 directory_script=OUT/'companies.js'
-directory_script.write_text(directory_script.read_text().replace('/* PROFILE_SLUGS */',json.dumps(profile_slugs,sort_keys=True)).replace('/* PROFILE_VALUATIONS */',json.dumps(profile_valuations,sort_keys=True)).replace('/* PROFILE_DIRECTORY */',json.dumps(profile_directory,sort_keys=True)))
+directory_script.write_text(directory_script.read_text().replace('/* PROFILE_DIRECTORY */',json.dumps(profile_directory,separators=(',',':')).replace('</','<\\/')))
 companies_script_version=hashlib.sha256(directory_script.read_bytes()).hexdigest()[:12]
 # The landing page is a concise weekly briefing; the two archives remain separate.
 s=shell('home',weekly['title'],weekly['intro'],'/')
