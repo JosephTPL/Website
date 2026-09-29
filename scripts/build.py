@@ -103,6 +103,12 @@ def money_b(value):
  if value is None:return ''
  return f'${value/1000:g}T' if value>=1000 else (f'${value*1000:g}M' if value<1 else f'${value:g}B')
 
+def valuation_date_label(value):
+ value=str(value)
+ if re.fullmatch(r'\d{4}',value):return value
+ try:return datetime.strptime(value[:7],'%Y-%m').strftime('%b %Y')
+ except ValueError:return value
+
 def latest_valuation(slug):
  rows=[row for row in valuations_by_slug.get(slug,[]) if row['valuation'] is not None]
  return rows[-1] if rows else None
@@ -132,7 +138,7 @@ def facts(c):
 def intelligence_profile(c):
  d=c['intelligence']
  metrics=''.join(f'<div><strong>{E(item["value"])}</strong><span>{E(item["label"])}</span><small>{E(item.get("note",""))}</small></div>' for item in d['metrics'])
- history=''.join(f'<li><strong>{E(money_b(item["valuation"]) if item["valuation"] is not None else ("Raised "+money_b(item["raised"])+" · valuation undisclosed" if item["raised"] is not None else "Valuation undisclosed"))}</strong><span>→</span><small>{E(item["date"] or "Date undisclosed")}</small><em>{E(item["round_label"] or item["event_type"].replace("_"," ").title())}</em><a href="{E(item["source_url"])}" rel="noopener">Source ↗</a></li>' for item in valuations_by_slug.get(c['slug'],[])) or '<li><strong>No disclosed valuation events</strong></li>'
+ history=''.join(f'<li><strong>{E(money_b(item["valuation"]) if item["valuation"] is not None else ("Raised "+money_b(item["raised"])+" · valuation undisclosed" if item["raised"] is not None else "Valuation undisclosed"))}</strong><span>→</span><small>{E(valuation_date_label(item["date"]) if item["date"] else "Date undisclosed")}</small><em>{E(item["round_label"] or item["event_type"].replace("_"," ").title())}</em><a href="{E(item["source_url"])}" rel="noopener">Source ↗</a></li>' for item in valuations_by_slug.get(c['slug'],[])) or '<li><strong>No disclosed valuation events</strong></li>'
  changed=''.join(f'<li><time>{E(item["date"])}</time><p>{E(item["text"])}</p></li>' for item in d['changed'])
  takeaways=''.join(f'<li><span>{i:02d}</span><p>{E(item)}</p></li>' for i,item in enumerate(d['takeaways'],1))
  quick=''.join(f'<dt>{E(item.get("label", ""))}</dt><dd>{E(item.get("value", ""))}</dd>' if isinstance(item,dict) else f'<dt>{E(item[0])}</dt><dd>{E(item[1])}</dd>' for item in d['quick_facts'])
@@ -337,7 +343,7 @@ def valuation_chart_markup():
  """Render every company whose CSV history supports a meaningful comparison."""
  series=[]
  for slug,company in companies.items():
-  events=[{'date':row['date']+'-01' if len(row['date'])==7 else row['date'],'label':row['date'],'value':money_b(row['valuation']),'amount':row['valuation'],'round':row['round_label'],'event_type':row['event_type'],'source':row['source_url']} for row in valuations_by_slug.get(slug,[]) if row['valuation'] is not None and row['valuation']>0 and row['date']]
+  events=[{'date':row['date']+'-07-01' if len(row['date'])==4 else row['date']+'-01' if len(row['date'])==7 else row['date'],'label':valuation_date_label(row['date']),'value':money_b(row['valuation']),'amount':row['valuation'],'round':row['round_label'],'event_type':row['event_type'],'source':row['source_url']} for row in valuations_by_slug.get(slug,[]) if row['valuation'] is not None and row['valuation']>0 and row['date']]
   if len(events)>1:
    series.append({'name':company['name'],'slug':slug,'url':'/companies/'+slug+'/', 'events':events})
  series.sort(key=lambda item:item['name'].casefold())

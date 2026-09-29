@@ -14,7 +14,7 @@
   const searchResults=document.querySelector('#valuation-search-results');
   const selectedList=document.querySelector('#valuation-selected');
   // A focused opening view preserves legibility across companies with very different scales.
-  const selected=new Set(series.slice(0,3).map(item=>item.slug));
+  const selected=new Set(['anthropic','openai','stripe'].filter(slug=>series.some(item=>item.slug===slug)));
   let range='all';
   let indexed=false;
   const colors=['#ff5c58','#5d9cff','#f3ab39','#58b293','#c87fe8','#56c3bf','#e07a9e','#d8cb70','#9d88e9','#ec8c54','#61a4d9','#a9b75c','#db7690','#b491df','#4eb2a7','#dfbf65','#7697e8','#df6e67','#73bd83','#e69aab','#4f86aa','#a7d2c2','#d99845','#a382bd','#b6c56b','#c56e62','#78aacd','#cba85f','#84a86b'];
