@@ -158,7 +158,9 @@ main{margin-top:72px;margin-left:238px;padding:46px 54px 0;max-width:1780px}.pag
 .card:hover .cover-refined img{filter:grayscale(.72) contrast(1.05) brightness(1)}
 
 /* Fine paper-like structure on the data-heavy editorial surfaces. */
-.intelligence-profile,.company-directory,.valuation-chart-shell{background-color:#fffdf9;background-image:radial-gradient(rgba(16,40,58,.075) .65px,transparent .8px);background-size:13px 13px}
+.valuation-chart-shell{background-color:#fffdf9;background-image:radial-gradient(rgba(16,40,58,.075) .65px,transparent .8px);background-size:13px 13px}
+/* Company pages share the page's paper surface; the data texture belongs only on charts. */
+.intelligence-profile,.company-directory{background:transparent;background-image:none}
 .weekly-lead-layout,.ipo-calendar{background-image:linear-gradient(90deg,rgba(175,137,72,.11) 1px,transparent 1px),linear-gradient(rgba(16,40,58,.045) 1px,transparent 1px);background-size:28px 28px}
 @media(max-width:700px){.cover-refined::before{opacity:.15}.weekly-lead-layout,.ipo-calendar{background-size:22px 22px}}
 
