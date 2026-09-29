@@ -64,7 +64,12 @@ base=os.environ.get('URL') or settings['site_url'];base=base.rstrip('/')
 if urlsplit(base).scheme not in ('http','https'):raise ValueError('Site URL must start with https://')
 for a in articles.values():
  a['date']=a['date'][:10];datetime.strptime(a['date'],'%Y-%m-%d')
- a['minutes']=max(1,round(len(soup(a['body']).get_text(' ',strip=True).split())/220));a['url']='/articles/'+a['slug']+'/'
+ if a.get('excerpt'):
+  preview_end=str(a.get('preview_end','')).strip()
+  body_text=soup(a['body']).get_text(' ',strip=True)
+  if not preview_end or not body_text.endswith(preview_end):
+   raise ValueError(f'Members-only article {a["title"]} contains paid content; trim it to the approved free preview boundary.')
+ a['minutes']=int(a.get('minutes') or max(1,round(len(soup(a['body']).get_text(' ',strip=True).split())/220)));a['url']='/articles/'+a['slug']+'/'
 ordered=sorted(articles.values(),key=lambda a:(a['date'],a['title']),reverse=True)
 
 def date_text(value):return datetime.strptime(value[:10],'%Y-%m-%d').strftime('%b %d, %Y').replace(' 0',' ')
@@ -370,12 +375,6 @@ for a in ordered:
  for x in s.select('.brief,.facts,.excerpt-notice'):x.decompose()
  for button in s.select('[data-save]'):button['data-save']=a['slug'];button['aria-pressed']='false';button.attrs.pop('aria-label',None);button.string='Save for later'
  body=s.select_one('.article-body');body.clear();body.append(link_substack_mentions(clean(a['body'])))
- if a.get('excerpt'):
-  headings=body.select('h2,h3')
-  if len(headings)>1:
-   node=headings[1]
-   while node:
-    next_node=node.next_sibling;node.decompose();node=next_node
  mapping={r['title']:r['id'] for r in a.get('section_anchors',[])};used=set(mapping.values());toc=[]
  for i,h in enumerate(body.select('h2,h3')):
   title=h.get_text(' ',strip=True);anchor=mapping.get(title) or h.get('id')

@@ -29,6 +29,8 @@ After this repository is connected to Pages CMS:
 
 To create an article, choose Articles → Add, fill in the title, unique lowercase web address (slug), date, sector, summary and body. Choose Draft while preparing it. Set Status to Published and save when ready. Draft entries are omitted from the built site, but remain visible to anyone with repository access. Changing a published entry to Draft removes its public page on the next successful deployment. Keep published slugs unchanged to preserve links. Published records are immediately eligible for publishing; the date field is not a scheduling system.
 
+Members-only articles must store only their free preview in `body`; the complete paid text stays on Substack. Set `preview_end` to the final text visible before the Substack paywall. The build rejects any members-only article whose body extends beyond that approved free-preview boundary.
+
 To change homepage copy, choose Homepage and site text, edit the relevant title, introduction or featured article, then save. Site URL should contain the final production origin. Netlify's URL environment variable supplies its production origin automatically.
 
 ## Deploy under your own account
