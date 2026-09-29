@@ -171,9 +171,21 @@ def weekly_chart_markup():
 def weekly_markup():
  def item_markup(item,index,lead=False):
   return f'''<article class="weekly-item{' weekly-item--lead' if lead else ''}"><div><span class="weekly-number">{index:02d}</span><span class="weekly-tag">{E(item['tag'])}</span></div><h2>{E(item['company'])}</h2><p>{E(item['text'])}</p><a href="{E(item['source'])}" rel="noopener">Source ↗</a></article>'''
+ def scoreboard_markup():
+  scoreboard=weekly.get('scoreboard',[])
+  if not isinstance(scoreboard,list) or not scoreboard:return ''
+  figures=[]
+  for entry in scoreboard:
+   if not isinstance(entry,dict) or not all(entry.get(key) for key in ('value','label','note')):return ''
+   sources=entry.get('sources',[])
+   if not isinstance(sources,list) or not all(isinstance(source,dict) and source.get('label') and source.get('url') for source in sources):return ''
+   source_links=''.join(f'<li><a href="{E(source["url"])}" rel="noopener">{E(source["label"])} ↗</a></li>' for source in sources)
+   figures.append(f'''<article class="weekly-scoreboard-figure"><strong>{E(str(entry['value']))}</strong><span>{E(str(entry['label']))}</span><p>{E(str(entry['note']))}</p><details><summary>Sources</summary><ul>{source_links}</ul></details></article>''')
+  if len(figures)!=4:return ''
+  return f'''<section class="weekly-scoreboard" aria-labelledby="weekly-scoreboard-title"><header><p class="weekly-scoreboard-kicker">WEEKLY SCOREBOARD</p><h2 id="weekly-scoreboard-title">Private-market activity, counted.</h2></header><div class="weekly-scoreboard-grid">{''.join(figures)}</div><a class="weekly-scoreboard-method" href="#weekly-scoreboard-method">How we count ↓</a><p class="weekly-scoreboard-method-copy" id="weekly-scoreboard-method">We count disclosed private financings of $100M or more, newly reported $1B-plus valuations, and confirmed IPO filings, pricings, and exits. Every count links to a source.</p></section>'''
  lead=item_markup(weekly['items'][0],1,True)
  items=''.join(item_markup(item,index) for index,item in enumerate(weekly['items'][1:],2))
- return f'''<section class="weekly-brief" aria-labelledby="weekly-title"><header class="weekly-head"><div><h1 id="weekly-title">{E(weekly['title'])}</h1><p class="subtitle">{E(weekly['intro'])}</p></div><p class="weekly-date">Last week<br/><strong>{E(weekly['period'])}</strong><span>Next update: {E(weekly['next_update'])}</span></p></header><div class="weekly-lead-layout">{lead}{weekly_chart_markup()}</div><div class="weekly-grid weekly-grid--secondary">{items}</div><div class="weekly-footer"><span>Updated every Sunday.</span><a class="text-link" href="/research/">Explore company research →</a></div></section>'''
+ return f'''<section class="weekly-brief" aria-labelledby="weekly-title"><header class="weekly-head"><div><h1 id="weekly-title">{E(weekly['title'])}</h1><p class="subtitle">{E(weekly['intro'])}</p></div><p class="weekly-date">Last week<br/><strong>{E(weekly['period'])}</strong><span>Next update: {E(weekly['next_update'])}</span></p></header>{scoreboard_markup()}<div class="weekly-lead-layout">{lead}{weekly_chart_markup()}</div><div class="weekly-grid weekly-grid--secondary">{items}</div><div class="weekly-footer"><span>Updated every Sunday.</span><a class="text-link" href="/research/">Explore company research →</a></div></section>'''
 
 def ipo_markup():
  """A true month view; undated candidates stay out of arbitrary day cells."""

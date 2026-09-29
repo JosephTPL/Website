@@ -3,6 +3,8 @@
   "period": "September 21–27, 2026",
   "next_update": "Sunday, October 4",
   "intro": "Five source-backed developments from the most recently completed week, with the valuation context that matters for private-market investors.",
+  "scoreboard": [],
+  "scoreboard_deals": [],
   "items": [
     {"company":"OpenAI","tag":"MEGA-CAP AI","text":"On September 21, OpenAI released proposed international AI safety standards as US and Chinese officials discussed a dialogue on AI risk. The move matters because policy, safety requirements, and geopolitical access are becoming core variables in the economics of frontier-model companies.","source":"https://www.axios.com/2026/09/21/openai-ai-safety-standards-us-china"},
     {"company":"Snorkel AI","tag":"FUNDING","text":"On September 22, Snorkel AI raised a $350 million Series E at a $3.5 billion valuation, according to TechCrunch. The round shows investors are assigning strategic value to the data and simulation layer that supports training and evaluating AI systems.","source":"https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"},
