@@ -2,7 +2,7 @@
   "slug": "checkout-com",
   "name": "Checkout.com",
   "status": "Published",
-  "sector": "Fintech",
+  "sector": "Financial Services & Digital Assets",
   "summary": "Checkout.com processes online payments for large merchants, handling more than $1 billion in e-commerce volume a day.",
   "overview": "<p>Checkout.com provides online payment processing, acquiring and fraud tools for large global merchants.</p>",
   "as_of": "2026-09-29",
@@ -62,18 +62,6 @@
       "At its peak in January 2022 the company was valued at $40 billion. In September 2025 it announced an employee share buyback at a $12 billion valuation, alongside net revenue growth above 30% in its core business and a return to full-year profitability."
     ],
     "why_it_matters": "Checkout.com is one of the clearest examples of a 2021-era valuation being reset, and a benchmark for how private payments companies are priced against Adyen and Stripe.",
-    "valuation_history": [
-      {
-        "value": "$40B",
-        "date": "Jan 2022",
-        "round": "Series D"
-      },
-      {
-        "value": "$12B",
-        "date": "Sep 2025",
-        "round": "Employee share buyback"
-      }
-    ],
     "changed": [
       {
         "date": "Jan 2022",
@@ -130,5 +118,7 @@
         "url": "https://www.cnbc.com/2025/09/26/fintech-checkoutcoms-valuation-falls-to-12-billion.html"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://checkout.com"
 }

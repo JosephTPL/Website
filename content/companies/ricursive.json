@@ -2,7 +2,7 @@
   "slug": "ricursive",
   "name": "Ricursive",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Ricursive Intelligence is a frontier AI lab using AI to design and improve semiconductor hardware.",
   "overview": "<p>Ricursive Intelligence was founded by the co-creators of AlphaChip to build AI systems that accelerate semiconductor design. It announced a $300 million Series A led by Lightspeed at a $4 billion post-money valuation in January 2026.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "Ricursive announced a $300M Series A at a $4B valuation in January 2026, led by Lightspeed. The company says the capital will accelerate AI-driven semiconductor design; detailed customer and operating metrics remain undisclosed."
     ],
     "why_it_matters": "Compute demand makes chip design strategically important to the entire AI stack. Ricursive is a high-valuation bet that AI can materially improve the pace and quality of semiconductor development, not merely assist isolated design tasks.",
-    "valuation_history": [
-      {
-        "value": "$4B",
-        "date": "Jan 2026",
-        "round": "$300M Series A"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://ricursive.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://ricursive.com"
 }

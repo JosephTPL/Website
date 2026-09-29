@@ -2,7 +2,7 @@
   "slug": "beacon",
   "name": "Beacon",
   "status": "Published",
-  "sector": "Vertical software",
+  "sector": "Enterprise Software & Business Services",
   "summary": "Beacon Software acquires essential-business software companies and modernises them with an AI-native operating platform. It raised $225 million in a June 2026 Series C, bringing reported capital raised above $550 million; no valuation was disclosed.",
   "overview": "<p>Beacon Software is building an AI-enabled acquisition platform for essential businesses. Rather than selling software to a fragmented industry from the outside, it acquires mission-critical operators and integrates them into a shared technology and operating system.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "In June 2026, Beacon announced a $225 million Series C led by General Catalyst and HarbourVest, taking reported capital raised above $550 million. It said it was acquiring roughly one business per week and reported EBITDA growth of more than 50% over the prior year; a company valuation was not disclosed."
     ],
     "why_it_matters": "Beacon is a notable attempt to apply AI to the long tail of real-economy businesses through ownership, not just software sales. The central diligence question is whether its acquisition and integration playbook stays effective as the portfolio scales.",
-    "valuation_history": [
-      {
-        "value": "$550M total funding",
-        "date": "Current",
-        "round": "Reported cumulative funding"
-      }
-    ],
     "changed": [
       {
         "date": "Jun 2026",
@@ -97,5 +90,7 @@
         "url": "https://www.businesswire.com/news/home/20260609855732/en/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://beacon.com"
 }

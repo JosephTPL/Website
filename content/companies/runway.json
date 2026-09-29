@@ -2,7 +2,7 @@
   "slug": "runway",
   "name": "Runway",
   "status": "Published",
-  "sector": "AI media",
+  "sector": "Consumer, Commerce & Media",
   "summary": "Runway makes AI video-generation tools used by filmmakers and creators, and is building \"world models\" that simulate the physical world.",
   "overview": "<p>Runway develops AI models and tools for generating and editing video, and is expanding into world models.</p>",
   "as_of": "2026-09-29",
@@ -62,13 +62,6 @@
       "In February 2026 Runway raised a $315 million Series E led by General Atlantic, with Nvidia, Fidelity, Adobe Ventures and AMD Ventures participating, at a $5.3 billion valuation, nearly double its previous round."
     ],
     "why_it_matters": "Runway is the leading independent AI-video company and a read-through for how generative video competes with offerings from Google, OpenAI and others.",
-    "valuation_history": [
-      {
-        "value": "$5.3B",
-        "date": "Feb 2026",
-        "round": "$315M Series E"
-      }
-    ],
     "changed": [
       {
         "date": "2018",
@@ -121,5 +114,7 @@
         "url": "https://techcrunch.com/2026/02/10/ai-video-startup-runway-raises-315m-at-5-3b-valuation-eyes-more-capable-world-models/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://runwayml.com"
 }

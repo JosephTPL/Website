@@ -2,7 +2,7 @@
   "slug": "valar-atomics",
   "name": "Valar Atomics",
   "status": "Published",
-  "sector": "Nuclear energy",
+  "sector": "Energy, Climate & Industrial",
   "summary": "Valar Atomics develops standardised nuclear power plants for AI, industrial and national-security demand. It closed a $1 billion Series B and a separate $200 million credit facility in August 2026, at a reported $6 billion valuation.",
   "overview": "<p>Valar Atomics is developing standardised nuclear power plants aimed at large energy users, including AI data centres and industrial customers. Its model relies on repeatable manufacturing rather than bespoke nuclear construction.</p>",
   "as_of": "2026-09-28",
@@ -55,13 +55,6 @@
       "In August 2026 Valar announced a $1 billion Series B led by Sequoia and a separate $200 million credit facility. Axios reported a $6 billion post-money valuation."
     ],
     "why_it_matters": "Valar is one of the largest private bets on nuclear power as an answer to AI energy demand. Licensing, first-plant delivery and cost discipline are far more important than the financing headline.",
-    "valuation_history": [
-      {
-        "value": "$6B",
-        "date": "Aug 2026",
-        "round": "Series B"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -101,5 +94,7 @@
         "url": "https://www.morganlewis.com/news/2026/08/morgan-lewis-advises-crescent-cove-in-financing-for-valar-atomics"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://valaratomics.com"
 }

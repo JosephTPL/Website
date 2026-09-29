@@ -2,7 +2,7 @@
   "slug": "trajectory",
   "name": "Trajectory",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Trajectory is a San Francisco research and product lab building AI systems designed for continual learning from real-world feedback.",
   "overview": "<p>Trajectory is a research and product lab building continual-learning infrastructure for AI products. It uses production signals to identify where models succeed or fail, then helps teams post-train models using that real-world feedback.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "The company describes itself as both a research lab and product lab. Public financing and valuation details remain undisclosed, so the profile focuses on its technology and avoids an inferred transaction."
     ],
     "why_it_matters": "Many AI products are limited by the gap between a base model and real-world usage. If Trajectory can close that loop safely and reliably, it addresses a foundational problem for companies building differentiated AI applications.",
-    "valuation_history": [
-      {
-        "value": "$15M",
-        "date": "2026",
-        "round": "Seed funding"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://www.bvp.com/portfolio/trajectory"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://trajectory.ai"
 }

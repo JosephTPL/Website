@@ -2,7 +2,7 @@
   "slug": "convergent",
   "name": "Convergent",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Convergent provides AI simulations and role-play tools for high-stakes workplace interactions.",
   "overview": "<p>Convergent provides AI simulations and role-play tools for high-stakes workplace interactions. Teams can tailor personas, tone, language and scoring to a role or market without a bespoke engineering build.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "The company has not publicly confirmed financing, operating metrics or a valuation. This profile therefore focuses on the product category and does not infer a transaction from similarly named companies."
     ],
     "why_it_matters": "AI role play can shorten training and create repeatable assessments for enterprise teams. The relevant diligence is whether customers use it in live workflows, renew it and trust its evaluation output.",
-    "valuation_history": [
-      {
-        "value": "Undisclosed",
-        "date": "Current",
-        "round": "No company-confirmed priced round"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -94,5 +87,7 @@
         "url": "https://www.convergent.org/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://convergent.org"
 }

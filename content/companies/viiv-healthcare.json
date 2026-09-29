@@ -4,8 +4,7 @@
   "status": "Published",
   "ownership": "subsidiary",
   "parent": "GSK",
-
-  "sector": "Healthcare",
+  "sector": "Healthcare & Life Sciences",
   "summary": "ViiV Healthcare is a specialist HIV company majority owned by GSK with Pfizer and Shionogi as shareholders.",
   "overview": "<p>ViiV Healthcare is a specialist HIV company majority owned by GSK with Pfizer and Shionogi as shareholders. It develops and commercializes prevention and treatment medicines.</p>",
   "as_of": "2026-09-25",
@@ -58,18 +57,6 @@
       "The company is driven by long-acting HIV therapies, market access, patents, and clinical evidence. The displayed figure is a market-watch estimate, not a current public financing value."
     ],
     "why_it_matters": "The company is driven by long-acting HIV therapies, market access, patents, and clinical evidence. The displayed figure is a market-watch estimate, not a current public financing value.",
-    "valuation_history": [
-      {
-        "value": "N/A",
-        "date": "N/A",
-        "round": "Earlier reported context"
-      },
-      {
-        "value": "$18.2B",
-        "date": "2026",
-        "round": "Not independently disclosed"
-      }
-    ],
     "changed": [
       {
         "date": "N/A",
@@ -114,5 +101,7 @@
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
-  }
+  },
+  "company_status": "subsidiary",
+  "website": "https://viivhealthcare.com"
 }

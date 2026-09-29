@@ -2,7 +2,7 @@
   "slug": "state-affairs",
   "name": "State Affairs",
   "status": "Published",
-  "sector": "Government intelligence",
+  "sector": "Other / Diversified",
   "summary": "State Affairs combines state-policy reporting, original data, and AI tools for institutions navigating regulation. It announced $70 million of total funding in July 2026; no valuation was disclosed.",
   "overview": "<p>State Affairs provides real-time intelligence on legislation, regulation, hearings and political developments across all 50 states and the federal government. It combines reporting, data and AI tools for regulated businesses and institutional users.</p>",
   "as_of": "2026-09-28",
@@ -55,13 +55,6 @@
       "The company announced $70 million in total funding in July 2026 to accelerate its intelligence platform. It did not disclose a valuation."
     ],
     "why_it_matters": "Policy information is a high-value workflow for regulated industries. State Affairs is a private bet on combining journalism, data and AI into a more actionable regulatory-intelligence product.",
-    "valuation_history": [
-      {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -101,5 +94,7 @@
         "url": "https://stateaffairs.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://stateaffairs.com"
 }

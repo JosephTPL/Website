@@ -2,18 +2,68 @@
   "slug": "mazama-energy",
   "status": "Draft",
   "name": "Mazama Energy",
-  "sector": "Climate infrastructure",
+  "sector": "Energy, Climate & Industrial",
   "summary": "Mazama Energy is developing superhot-rock geothermal projects intended to provide firm power for large electricity users.",
   "overview": "<p>Mazama Energy is a geothermal developer focused on superhot-rock resources.</p>",
   "image": "",
   "image_alt": "",
   "as_of": "2026-09-28",
   "report": "",
-  "facts": [{"label": "Latest disclosed financing", "value": "September 2026: $135M Series B", "note": "Mazama announced an oversubscribed Series B to develop its geothermal projects.", "source": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/"}],
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "September 2026: $135M Series B",
+      "note": "Mazama announced an oversubscribed Series B to develop its geothermal projects.",
+      "source": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/"
+    }
+  ],
   "directory_rank": 0,
   "bull_case": "Firm low-carbon power could be strategically important to data-center and industrial demand.",
   "bear_case": "Geothermal development has significant engineering, permitting, and construction risk.",
   "latest_round": "September 2026: $135M Series B",
-  "directory_notes": ["Draft profile", "Valuation undisclosed."],
-  "intelligence": {"kicker": "COMPANY INTELLIGENCE", "location": "Oregon, United States", "status": "Private", "logo": "", "description": "Mazama Energy develops superhot-rock geothermal resources.", "metrics": [{"value": "$135M", "label": "Latest funding", "note": "Series B, September 2026"}], "company": ["Mazama Energy is developing geothermal projects using superhot-rock resources."], "why_it_matters": "The company addresses the need for reliable, low-carbon power as power demand from data centers grows.", "valuation_history": [], "changed": [{"date": "2026", "text": "Raised a $135M Series B."}], "takeaways": ["The latest valuation was not disclosed."], "quick_facts": [["Status", "Draft for review"]], "sources": [{"label": "TechCrunch: Mazama Energy $135M Series B", "url": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/"}]}
+  "directory_notes": [
+    "Draft profile",
+    "Valuation undisclosed."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Oregon, United States",
+    "status": "Private",
+    "logo": "",
+    "description": "Mazama Energy develops superhot-rock geothermal resources.",
+    "metrics": [
+      {
+        "value": "$135M",
+        "label": "Latest funding",
+        "note": "Series B, September 2026"
+      }
+    ],
+    "company": [
+      "Mazama Energy is developing geothermal projects using superhot-rock resources."
+    ],
+    "why_it_matters": "The company addresses the need for reliable, low-carbon power as power demand from data centers grows.",
+    "changed": [
+      {
+        "date": "2026",
+        "text": "Raised a $135M Series B."
+      }
+    ],
+    "takeaways": [
+      "The latest valuation was not disclosed."
+    ],
+    "quick_facts": [
+      [
+        "Status",
+        "Draft for review"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "TechCrunch: Mazama Energy $135M Series B",
+        "url": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/"
+      }
+    ]
+  },
+  "company_status": "private",
+  "website": "https://mazamaenergy.com"
 }

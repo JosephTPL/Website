@@ -2,7 +2,7 @@
   "slug": "serval",
   "name": "Serval",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Serval builds an AI-native system of record and automation platform for IT and operational teams.",
   "overview": "<p>Serval provides enterprise automation and service-management software designed to let operational teams automate work from natural-language prompts. The company announced a $75 million Series B led by Sequoia in December 2025 at a $1 billion valuation.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "In December 2025, Serval announced a $75 million Series B led by Sequoia at a $1 billion valuation. The company said the financing brought total capital raised to $127 million since August."
     ],
     "why_it_matters": "Serval is a direct test of whether AI can become the operating layer for internal enterprise work, not merely an assistive feature. Its traction matters to the broader service-management and automation software market.",
-    "valuation_history": [
-      {
-        "value": "$1B",
-        "date": "Dec 2025",
-        "round": "$75M Series B"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://serval.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://serval.com"
 }

@@ -2,7 +2,7 @@
   "slug": "moonshot-ai",
   "status": "Published",
   "name": "Moonshot AI",
-  "sector": "Artificial intelligence",
+  "sector": "AI & Machine Learning",
   "summary": "Moonshot AI is the Beijing-based developer of Kimi, a family of open-weight and consumer-facing AI models.",
   "overview": "<p>Moonshot AI develops the Kimi model family and consumer AI products.</p>",
   "as_of": "2026-09-25",
@@ -56,23 +56,6 @@
       "The financing trajectory has been steep: reporting placed a roughly $700M early-2026 round at $10B, followed by a reported $2B round at $20B in May. The market estimates sometimes attached to Moonshot are not equivalent to a new confirmed priced financing."
     ],
     "why_it_matters": "Moonshot is a read-through on the speed with which capable, lower-cost Chinese models can reshape global AI pricing and distribution. Its open-weight approach gives developers a counterweight to closed, API-only labs.",
-    "valuation_history": [
-      {
-        "value": "$2.5B",
-        "date": "2024",
-        "round": "Reported financing"
-      },
-      {
-        "value": "$10B",
-        "date": "Early 2026",
-        "round": "Reported $700M financing"
-      },
-      {
-        "value": "$20B",
-        "date": "May 2026",
-        "round": "Reported ~$2B financing"
-      }
-    ],
     "changed": [
       {
         "date": "2025",
@@ -133,5 +116,7 @@
         "url": "https://www.moonshot.cn/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://moonshot.cn"
 }

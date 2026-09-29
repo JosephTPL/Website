@@ -2,7 +2,7 @@
   "slug": "medra",
   "name": "Medra",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Medra develops an AI and robotics platform intended to design, execute, and interpret experiments for biopharma research.",
   "overview": "<p>Medra is building a physical-AI system for scientific research, combining hypothesis generation with robotic experimental execution. It announced a $52 million Series A in December 2025, led by Human Capital, without disclosing a valuation.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "In December 2025, Medra announced a $52 million Series A led by Human Capital. It named Genentech, Cultivarium, and Addition Therapeutics as early biopharma partners, while the funding announcement did not disclose a valuation."
     ],
     "why_it_matters": "Drug discovery is a high-value application for AI, but the bottleneck often remains physical experimental work. Medra is a private-market bet on bringing model-driven workflows directly into laboratory execution.",
-    "valuation_history": [
-      {
-        "value": "$52M raised",
-        "date": "Dec 2025",
-        "round": "Series A"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://medra.ai"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://medra.ai"
 }

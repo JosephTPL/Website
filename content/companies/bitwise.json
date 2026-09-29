@@ -2,7 +2,7 @@
   "slug": "bitwise",
   "name": "Bitwise",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Bitwise is a San Francisco-based crypto asset manager serving advisers, institutions, and wealth platforms through ETFs, separately managed accounts, private funds, and staking strategies.",
   "overview": "<p>Bitwise is a crypto-specialist asset manager whose product set spans exchange-traded products, separately managed accounts, private funds, and onchain strategies. Its February 2025 equity raise followed rapid growth in client assets, though the company did not disclose a financing valuation.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "The company is a useful read-through on whether crypto allocation is becoming a durable institutional product category rather than a retail-led trading cycle. Its financing supports the balance sheet, but it did not establish a public valuation benchmark."
     ],
     "why_it_matters": "Bitwise sits at the intersection of private fintech infrastructure and public-market crypto access. Asset flows and product adoption can signal how institutional demand for digital assets is evolving.",
-    "valuation_history": [
-      {
-        "value": "$70M raised",
-        "date": "Feb 2025",
-        "round": "Equity financing"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://bitwiseinvestments.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://bitwiseinvestments.com"
 }

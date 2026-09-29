@@ -2,7 +2,7 @@
   "slug": "tacit-labs",
   "name": "Tacit Labs",
   "status": "Published",
-  "sector": "Artificial intelligence",
+  "sector": "AI & Machine Learning",
   "summary": "Tacit develops AI-assisted underwriting intelligence for MGAs and Lloyd's coverholders, recovering judgement embedded in prior pricing and risk decisions.",
   "overview": "<p>Tacit develops underwriting intelligence for MGAs and Lloyd's coverholders. Its platform is designed to recover the judgment embedded in historical pricing and risk decisions, then make that context available in future underwriting workflows.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "The company has not publicly disclosed financing, valuation or operating metrics. This profile therefore assesses the product category and does not infer a transaction or commercial scale."
     ],
     "why_it_matters": "Insurance underwriting depends on institutional knowledge that is often poorly captured across spreadsheets and systems. A product that makes that judgment accessible and auditable could be valuable, but adoption depends on accuracy, explainability and trust.",
-    "valuation_history": [
-      {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -98,5 +91,7 @@
         "url": "https://tacitlabs.ai"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://tacitlabs.ai"
 }

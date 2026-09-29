@@ -2,7 +2,7 @@
   "slug": "kalshi",
   "name": "Kalshi",
   "status": "Published",
-  "sector": "Financial markets",
+  "sector": "Financial Services & Digital Assets",
   "summary": "Kalshi operates a regulated event-contract exchange where users trade on the outcomes of real-world events.",
   "overview": "<p>Kalshi operates a regulated event-contract exchange where users trade on the outcomes of real-world events.</p>",
   "as_of": "2026-09-25",
@@ -55,18 +55,6 @@
       "It announced a $1 billion Series F at a $22 billion valuation in May 2026."
     ],
     "why_it_matters": "Kalshi is a consequential test of whether regulated prediction markets can become a durable financial-market category. Its growth also has direct read-through for adjacent platforms such as Polymarket.",
-    "valuation_history": [
-      {
-        "value": "$11B",
-        "date": "Dec 2025",
-        "round": "Series E, $1B"
-      },
-      {
-        "value": "$22B",
-        "date": "May 2026",
-        "round": "Series F, $1B"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -102,5 +90,7 @@
         "url": "https://kalshi.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://kalshi.com"
 }

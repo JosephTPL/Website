@@ -2,7 +2,7 @@
   "slug": "handshake",
   "name": "Handshake",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Handshake operates a career network and recruiting platform focused on students and early-career talent, connecting employers with a large university-based candidate base.",
   "overview": "<p>Handshake is a career network for students and recent graduates that sells recruiting access and workflow tools to employers. In January 2022, it announced a $200 million Series F at a $3.5 billion valuation, a benchmark that has not been superseded by a disclosed priced round in this profile.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "The company is exposed to the structure of graduate hiring, which can be sensitive to macro hiring conditions. Its installed university relationships are valuable, but a new valuation or updated operating disclosure has not been announced in this profile."
     ],
     "why_it_matters": "Early-career recruiting is a large, fragmented workflow category where network density matters. Handshake offers a private-company perspective on how AI and hiring-market shifts are changing talent acquisition.",
-    "valuation_history": [
-      {
-        "value": "$3.5B",
-        "date": "Jan 2022",
-        "round": "$200M Series F"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://joinhandshake.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://joinhandshake.com"
 }

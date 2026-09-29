@@ -2,7 +2,7 @@
   "slug": "harvey",
   "name": "Harvey",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Harvey builds AI products for law firms, in-house legal teams, and professional-services organizations.",
   "overview": "<p>Harvey builds AI products for law firms, in-house legal teams, and professional-services organizations.</p>",
   "as_of": "2026-09-25",
@@ -55,18 +55,6 @@
       "The company announced $550 million of funding at a $15.5 billion valuation in September 2026."
     ],
     "why_it_matters": "Legal AI is a useful test of whether vertical software can build a defensible product layer on top of foundation models. Harvey's customer base makes it one of the category's most consequential private companies.",
-    "valuation_history": [
-      {
-        "value": "$11B",
-        "date": "Mar 2026",
-        "round": "Funding round, $200M"
-      },
-      {
-        "value": "$15.5B",
-        "date": "Sep 2026",
-        "round": "Funding round, $550M"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -102,5 +90,7 @@
         "url": "https://harvey.ai"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://harvey.ai"
 }

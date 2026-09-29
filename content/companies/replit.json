@@ -2,7 +2,7 @@
   "slug": "replit",
   "name": "Replit",
   "status": "Published",
-  "sector": "Developer tools",
+  "sector": "Data, Cloud & Developer Tools",
   "summary": "Replit makes a browser-based coding platform whose AI Agent lets people build and deploy apps by describing them in plain language.",
   "overview": "<p>Replit provides an online development environment and an AI agent that writes, runs and deploys software from natural-language instructions.</p>",
   "as_of": "2026-09-29",
@@ -62,18 +62,6 @@
       "In September 2025 Replit raised $400 million led by Georgian, with a16z, Coatue and Qatar Investment Authority participating, at a $9 billion valuation, three times the $3 billion it was valued at six months earlier. The company said it was on track for $1 billion in annual recurring revenue."
     ],
     "why_it_matters": "Replit is a leading test of whether non-programmers will pay to build software with AI, and competes directly with Cursor, Lovable and the AI labs.",
-    "valuation_history": [
-      {
-        "value": "$3B",
-        "date": "Early 2025",
-        "round": "Financing"
-      },
-      {
-        "value": "$9B",
-        "date": "Sep 2025",
-        "round": "$400M financing"
-      }
-    ],
     "changed": [
       {
         "date": "2016",
@@ -126,5 +114,7 @@
         "url": "https://replit.com/news/funding-announcement"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://replit.com"
 }

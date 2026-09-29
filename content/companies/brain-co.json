@@ -2,7 +2,7 @@
   "slug": "brain-co",
   "name": "Brain Co.",
   "status": "Published",
-  "sector": "Enterprise AI",
+  "sector": "AI & Machine Learning",
   "summary": "Brain Co. launched from stealth in September 2025 with a $30 million Series A to help large organisations adopt AI. The company describes its mandate broadly, and no valuation was announced with the round.",
   "overview": "<p>Brain Co. is an enterprise-AI company that emerged from stealth in September 2025. It was incubated by Elad Gil, Jared Kushner, Luis Videgaray and Eric Wu, and aims to help large institutions incorporate AI into consequential operations.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "The financing announcement named a broad group of technology and business leaders as participants but did not disclose a valuation, product revenue or detailed customer base. The profile therefore treats it as an early enterprise-AI platform rather than assigning a more specific category unsupported by public evidence."
     ],
     "why_it_matters": "Brain Co. is a useful watchlist case for the institutionalisation of AI adoption. The next evidence needed is a concrete product narrative, deployment outcomes and identifiable customer demand.",
-    "valuation_history": [
-      {
-        "value": "$30M raised",
-        "date": "Sep 2025",
-        "round": "Series A"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://brain.co/blog/introducing-brain-co-9gk9a"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://brainco.tech"
 }

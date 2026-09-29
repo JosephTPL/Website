@@ -2,7 +2,7 @@
   "slug": "general-matter",
   "name": "General Matter",
   "status": "Published",
-  "sector": "Nuclear energy",
+  "sector": "Energy, Climate & Industrial",
   "summary": "General Matter is building domestic uranium-enrichment capacity for low-enriched uranium and HALEU. It raised a $50 million Founders Fund-led Series A in April 2025, with no public valuation disclosed.",
   "overview": "<p>General Matter is developing uranium-enrichment capacity in the United States, focused on the low-enriched uranium and high-assay low-enriched uranium needed by the existing and next generation of reactors. The company is tackling a strategic supply-chain gap rather than building a reactor itself.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "The company raised a $50 million Founders Fund-led Series A in April 2025; its valuation was not disclosed. In January 2026, General Matter announced a $900 million contract to produce and supply HALEU, a material commercial milestone but not equity financing."
     ],
     "why_it_matters": "Fuel availability is a binding constraint on the next wave of advanced nuclear projects. General Matter is therefore exposed both to a large strategic opportunity and to the regulatory and execution hurdles inherent in an enrichment business.",
-    "valuation_history": [
-      {
-        "value": "$50M raised",
-        "date": "Apr 2025",
-        "round": "Series A"
-      }
-    ],
     "changed": [
       {
         "date": "Jan 2026",
@@ -105,5 +98,7 @@
         "url": "https://www.world-nuclear-news.org/articles/us-uranium-enrichment-startup-emerges-from-stealth"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://generalmatter.com"
 }

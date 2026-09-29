@@ -2,7 +2,7 @@
   "slug": "keenable",
   "name": "Keenable",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Keenable is building a web-search index designed for AI agents, backed by a $26 million seed round led by Accel.",
   "overview": "<p>Keenable is building a web-search index designed for AI agents. The company announced a $26 million seed financing led by Accel; its valuation was not disclosed.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "Axios reported a $26 million seed financing led by Accel. The company has not publicly disclosed a valuation or operating metrics, so this profile does not infer either."
     ],
     "why_it_matters": "As AI agents take on more research and workflow tasks, reliable search and retrieval can become a meaningful infrastructure layer. The investment case remains early because public evidence on product adoption and differentiation is limited.",
-    "valuation_history": [
-      {
-        "value": "$26M raised",
-        "date": "2025",
-        "round": "Seed"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -98,5 +91,7 @@
         "url": "https://keenable.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://keenable.com"
 }

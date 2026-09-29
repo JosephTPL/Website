@@ -2,7 +2,7 @@
   "slug": "arcana",
   "name": "Arcana",
   "status": "Published",
-  "sector": "AI media production",
+  "sector": "Consumer, Commerce & Media",
   "summary": "Arcana Labs is an AI-powered content-production platform and studio. It emerged from stealth in April 2025 with $5.5 million of disclosed funding; the company's valuation was not disclosed.",
   "overview": "<p>Arcana Labs builds an AI-powered content-production platform and studio for filmmakers, production companies, brands and marketers. Its April 2025 financing was publicly announced, while the valuation was not disclosed.</p>",
   "as_of": "2026-09-27",
@@ -60,13 +60,6 @@
       "Arcana Labs emerged from stealth in April 2025 with $5.5 million of announced funding. The financing confirms the company and its product focus, but neither the company nor its investors disclosed a valuation, so the directory does not assign one."
     ],
     "why_it_matters": "Arcana sits at the intersection of generative AI and the creative-production workflow, where the durable opportunity is not just image or video generation but production coordination and customer relationships. Its progress is useful for assessing whether AI-native studios can build repeatable services and software revenue together.",
-    "valuation_history": [
-      {
-        "value": "$5.5M funding",
-        "date": "Apr 2025",
-        "round": "Emergence from stealth; valuation undisclosed"
-      }
-    ],
     "changed": [
       {
         "date": "Apr 2025",
@@ -93,8 +86,16 @@
       ]
     ],
     "sources": [
-      {"label": "Arcana Labs: $5.5M financing announcement", "url": "https://www.globenewswire.com/news-release/2025/04/16/3062985/0/en/Arcana-Labs-Emerges-from-Stealth-with-5-5M-in-Funding-to-Disrupt-Hollywood-with-its-AI-Powered-Content-Production-Software-and-Studio.html"},
-      {"label": "SEMCAP: Arcana Labs investment", "url": "https://www.globenewswire.com/news-release/2025/04/22/3065610/0/en/SEMCAP-Launches-SEMCAP-AI-to-Capitalize-on-the-Transformative-Power-of-Artificial-Intelligence.html"}
+      {
+        "label": "Arcana Labs: $5.5M financing announcement",
+        "url": "https://www.globenewswire.com/news-release/2025/04/16/3062985/0/en/Arcana-Labs-Emerges-from-Stealth-with-5-5M-in-Funding-to-Disrupt-Hollywood-with-its-AI-Powered-Content-Production-Software-and-Studio.html"
+      },
+      {
+        "label": "SEMCAP: Arcana Labs investment",
+        "url": "https://www.globenewswire.com/news-release/2025/04/22/3065610/0/en/SEMCAP-Launches-SEMCAP-AI-to-Capitalize-on-the-Transformative-Power-of-Artificial-Intelligence.html"
+      }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://arcanalabs.ai"
 }

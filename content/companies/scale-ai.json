@@ -2,7 +2,7 @@
   "slug": "scale-ai",
   "status": "Published",
   "name": "Scale AI",
-  "sector": "AI infrastructure",
+  "sector": "Telecommunications & Infrastructure",
   "summary": "Scale AI provides data, evaluation, and safety infrastructure used to build and assess artificial-intelligence systems.",
   "overview": "<p>Scale AI supplies data operations and evaluation infrastructure for AI developers, enterprises, and public-sector customers.</p>",
   "as_of": "2026-09-25",
@@ -56,28 +56,6 @@
       "Meta's June 2025 investment and the move of Scale co-founder Alexandr Wang to Meta reshaped the company. Scale remains a private business, but the transaction made independence, customer relationships, and governance central questions for its next phase."
     ],
     "why_it_matters": "Scale sits at a bottleneck in the AI economy: trustworthy training data and evaluation. Its trajectory is a read-through on whether value accrues to model companies, infrastructure vendors, or the operational layer that makes models usable in the real world.",
-    "valuation_history": [
-      {
-        "value": "$3.5B",
-        "date": "Apr 2021",
-        "round": "Series D"
-      },
-      {
-        "value": "$7.3B",
-        "date": "May 2022",
-        "round": "Series F"
-      },
-      {
-        "value": "$13.8B",
-        "date": "May 2024",
-        "round": "Series F extension"
-      },
-      {
-        "value": "$29B",
-        "date": "Jun 2025",
-        "round": "Meta investment"
-      }
-    ],
     "changed": [
       {
         "date": "2021",
@@ -138,5 +116,7 @@
         "url": "https://www.reuters.com/business/finance/meta-finalizes-investment-scale-ai-valuing-startup-29-billion-2025-06-13/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://scale.com"
 }

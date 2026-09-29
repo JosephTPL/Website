@@ -2,7 +2,7 @@
   "slug": "nscale",
   "name": "Nscale",
   "status": "Published",
-  "sector": "AI infrastructure",
+  "sector": "Telecommunications & Infrastructure",
   "summary": "Nscale is a London-based AI cloud provider building GPU data centers across Europe and North America, and is preparing for an IPO.",
   "overview": "<p>Nscale builds and operates AI data centers and sells GPU compute, networking and orchestration software for training and running AI models.</p>",
   "as_of": "2026-09-29",
@@ -62,13 +62,6 @@
       "In March 2026 Nscale raised a $2 billion Series C at a $14.6 billion valuation, led by Aker and 8090 Industries with Nvidia, Citadel, Jane Street and Point72 participating. In September 2026 it raised $3.36 billion in convertible notes that convert into shares at its IPO, led by Third Point, and reported more than $103 billion in total contracted value."
     ],
     "why_it_matters": "Nscale is Europe's largest AI-infrastructure bet and a read-through for the neocloud model popularized by CoreWeave, where specialist providers rent GPUs to AI labs and hyperscalers.",
-    "valuation_history": [
-      {
-        "value": "$14.6B",
-        "date": "Mar 2026",
-        "round": "$2B Series C"
-      }
-    ],
     "changed": [
       {
         "date": "Mar 2026",
@@ -125,5 +118,7 @@
         "url": "https://www.datacenterdynamics.com/en/news/nscale-raises-2bn-in-series-c-funding-at-146bn-valuation/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://nscale.com"
 }

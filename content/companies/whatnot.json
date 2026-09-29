@@ -2,7 +2,7 @@
   "slug": "whatnot",
   "name": "Whatnot",
   "status": "Published",
-  "sector": "Commerce",
+  "sector": "Consumer, Commerce & Media",
   "summary": "Whatnot operates a live-shopping marketplace that combines creator-led video, community, and transactions.",
   "overview": "<p>Whatnot operates a live-shopping marketplace that combines creator-led video, community, and transactions. It began in collectibles and has expanded into broader categories.</p>",
   "as_of": "2026-09-25",
@@ -55,18 +55,6 @@
       "Its investment case rests on marketplace liquidity and seller economics rather than a conventional retail catalog. TikTok Shop and other platforms remain substantial competitive threats."
     ],
     "why_it_matters": "Its investment case rests on marketplace liquidity and seller economics rather than a conventional retail catalog. TikTok Shop and other platforms remain substantial competitive threats.",
-    "valuation_history": [
-      {
-        "value": "$11.5B",
-        "date": "Oct 2025",
-        "round": "Earlier reported context"
-      },
-      {
-        "value": "$20B",
-        "date": "Aug 2026",
-        "round": "$545M Series G"
-      }
-    ],
     "changed": [
       {
         "date": "Oct 2025",
@@ -111,5 +99,7 @@
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://robinhood.com"
 }

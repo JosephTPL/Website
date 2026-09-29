@@ -2,18 +2,68 @@
   "slug": "hang-ten-systems",
   "status": "Draft",
   "name": "Hang Ten Systems",
-  "sector": "Enterprise AI",
+  "sector": "AI & Machine Learning",
   "summary": "Hang Ten Systems is an AI startup advising large enterprises on AI strategy and software modernization.",
   "overview": "<p>Hang Ten Systems works with large enterprises on AI strategy and software modernization.</p>",
   "image": "",
   "image_alt": "",
   "as_of": "2026-09-28",
   "report": "",
-  "facts": [{"label": "Latest disclosed financing", "value": "September 2026: $53M seed extension", "note": "TechCrunch reported the extension brought total seed financing to $85M.", "source": "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/"}],
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "September 2026: $53M seed extension",
+      "note": "TechCrunch reported the extension brought total seed financing to $85M.",
+      "source": "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/"
+    }
+  ],
   "directory_rank": 0,
   "bull_case": "The company may benefit if large enterprises accelerate AI-enabled software modernization.",
   "bear_case": "Services-led enterprise AI businesses face execution and differentiation risks.",
   "latest_round": "September 2026: $53M seed extension",
-  "directory_notes": ["Draft profile", "Valuation undisclosed."],
-  "intelligence": {"kicker": "COMPANY INTELLIGENCE", "location": "Not publicly disclosed", "status": "Private", "logo": "", "description": "Hang Ten Systems advises large enterprises on AI strategy and software modernization.", "metrics": [{"value": "$85M", "label": "Reported total seed funding", "note": "As reported in September 2026"}], "company": ["Hang Ten Systems works with large enterprises on AI strategy and software modernization."], "why_it_matters": "It reflects venture interest in companies helping established enterprises implement AI across existing systems.", "valuation_history": [], "changed": [{"date": "2026", "text": "Added $53M to its seed funding."}], "takeaways": ["The latest valuation was not disclosed."], "quick_facts": [["Status", "Draft for review"]], "sources": [{"label": "TechCrunch: Hang Ten Systems seed extension", "url": "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/"}]}
+  "directory_notes": [
+    "Draft profile",
+    "Valuation undisclosed."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Not publicly disclosed",
+    "status": "Private",
+    "logo": "",
+    "description": "Hang Ten Systems advises large enterprises on AI strategy and software modernization.",
+    "metrics": [
+      {
+        "value": "$85M",
+        "label": "Reported total seed funding",
+        "note": "As reported in September 2026"
+      }
+    ],
+    "company": [
+      "Hang Ten Systems works with large enterprises on AI strategy and software modernization."
+    ],
+    "why_it_matters": "It reflects venture interest in companies helping established enterprises implement AI across existing systems.",
+    "changed": [
+      {
+        "date": "2026",
+        "text": "Added $53M to its seed funding."
+      }
+    ],
+    "takeaways": [
+      "The latest valuation was not disclosed."
+    ],
+    "quick_facts": [
+      [
+        "Status",
+        "Draft for review"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "TechCrunch: Hang Ten Systems seed extension",
+        "url": "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/"
+      }
+    ]
+  },
+  "company_status": "private",
+  "website": "https://hangten.ai"
 }

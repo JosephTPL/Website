@@ -2,7 +2,7 @@
   "slug": "conduit",
   "name": "Conduit",
   "status": "Published",
-  "sector": "Fintech",
+  "sector": "Financial Services & Digital Assets",
   "summary": "Conduit is tracked as a private financial-infrastructure company.",
   "overview": "<p>Conduit is tracked as a private financial-infrastructure company. Public disclosure of its financing and operating metrics is limited.</p>",
   "as_of": "2026-09-25",
@@ -55,18 +55,6 @@
       "This profile will become more specific when the company discloses a priced financing, product milestones, or operating data."
     ],
     "why_it_matters": "This profile will become more specific when the company discloses a priced financing, product milestones, or operating data.",
-    "valuation_history": [
-      {
-        "value": "N/A",
-        "date": "N/A",
-        "round": "Earlier reported context"
-      },
-      {
-        "value": "$58.9M total funding",
-        "date": "Current",
-        "round": "Reported cumulative funding"
-      }
-    ],
     "changed": [
       {
         "date": "N/A",
@@ -111,5 +99,7 @@
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://conduit.com"
 }

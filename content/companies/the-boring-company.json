@@ -2,7 +2,7 @@
   "slug": "the-boring-company",
   "name": "The Boring Company",
   "status": "Published",
-  "sector": "Infrastructure",
+  "sector": "Telecommunications & Infrastructure",
   "summary": "The Boring Company builds tunnels and proposes Loop transit systems intended to reduce urban-congestion costs.",
   "overview": "<p>The Boring Company builds tunnels and proposes Loop transit systems intended to reduce urban-congestion costs. It is a physical-infrastructure bet with a long sales, permitting, and construction cycle.</p>",
   "as_of": "2026-09-25",
@@ -55,18 +55,6 @@
       "The company must prove that tunnel delivery can translate from a Las Vegas operating footprint into repeatable municipal projects with attractive economics."
     ],
     "why_it_matters": "The company must prove that tunnel delivery can translate from a Las Vegas operating footprint into repeatable municipal projects with attractive economics.",
-    "valuation_history": [
-      {
-        "value": "$5.7B",
-        "date": "Apr 2022",
-        "round": "Earlier reported context"
-      },
-      {
-        "value": "$23B",
-        "date": "Sep 2026",
-        "round": "$3B reported financing"
-      }
-    ],
     "changed": [
       {
         "date": "Apr 2022",
@@ -111,5 +99,7 @@
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://techcrunch.com"
 }

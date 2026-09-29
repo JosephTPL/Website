@@ -2,7 +2,7 @@
   "slug": "verse-medical",
   "name": "Verse Medical",
   "status": "Published",
-  "sector": "Healthcare technology",
+  "sector": "Healthcare & Life Sciences",
   "summary": "Verse Medical provides AI-enabled ordering and fulfilment for durable medical equipment. It works with major health systems to reduce the administrative friction, coverage checks and delivery failures associated with DME orders; private-market databases report a $53 million Series C in June 2025.",
   "overview": "<p>Verse Medical is a healthcare-technology company focused on durable medical equipment ordering and fulfilment. Its platform uses AI to validate medical necessity and coverage while fitting into providers' existing workflows. Private-market database reporting identifies a $53 million Series C in June 2025; Verse has not publicly announced a valuation.</p>",
   "as_of": "2026-09-28",
@@ -55,13 +55,6 @@
       "Verse says it works with nine of the ten largest health systems by revenue and can fulfil orders across DME categories. Forge reports a $53 million June 2025 Series C at a $735.18 million post-money valuation; those financing figures are database-reported rather than announced by Verse."
     ],
     "why_it_matters": "Verse targets a large but operationally difficult healthcare workflow where automation can improve both patient experience and payment integrity. Its opportunity depends on clinical integration, reimbursement compliance and fulfilment execution.",
-    "valuation_history": [
-      {
-        "value": "$735.18M",
-        "date": "Jun 2025",
-        "round": "Reported Series C, $53M"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -101,5 +94,7 @@
         "url": "https://versemedical.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://versemedical.com"
 }

@@ -3,9 +3,8 @@
   "status": "Published",
   "ownership": "subsidiary",
   "parent": "JD.com",
-
   "name": "JD Digits",
-  "sector": "Fintech",
+  "sector": "Financial Services & Digital Assets",
   "summary": "JD Digits, also known as JD Technology, supplies digital-technology and financial-services capabilities within the JD.com ecosystem.",
   "overview": "<p>JD Digits provides technology and consumer-finance services connected to the broader JD ecosystem.</p>",
   "as_of": "2026-09-25",
@@ -59,23 +58,6 @@
       "Public disclosure is more limited than for JD.com itself. JD.com's 2025 annual filing says JD Technology provides consumer financing to customers and retains certain receivable-risk arrangements, which makes parent-company filings a more useful source than valuation aggregators for operational context."
     ],
     "why_it_matters": "JD Digits is a reminder that some of China's largest private fintech assets are embedded in public platform companies rather than operating as transparent standalone businesses. Its outcomes matter for the economics of commerce-linked credit, merchant services, and financial regulation.",
-    "valuation_history": [
-      {
-        "value": "RMB46.7B",
-        "date": "2016",
-        "round": "JD Finance Series A"
-      },
-      {
-        "value": "$2.4B",
-        "date": "2021",
-        "round": "JD Cloud transfer value"
-      },
-      {
-        "value": "$28B",
-        "date": "2026",
-        "round": "Market estimate, not financing"
-      }
-    ],
     "changed": [
       {
         "date": "2016",
@@ -136,5 +118,7 @@
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
-  }
+  },
+  "company_status": "subsidiary",
+  "website": "https://jddglobal.com"
 }

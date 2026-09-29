@@ -2,7 +2,7 @@
   "slug": "xbow",
   "name": "XBOW",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "XBOW builds autonomous offensive-security software designed to find and validate vulnerabilities before attackers exploit them.",
   "overview": "<p>XBOW is an AI-powered penetration-testing company that helps security teams identify exploitable weaknesses. It announced a $120 million Series C in March 2026, led by DFJ Growth and Northzone, at a valuation above $1 billion.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "In March 2026, XBOW announced a $120 million Series C led by DFJ Growth and Northzone at a valuation above $1 billion. The financing included Sofina, Alkeon Capital, Altimeter, NFDG Ventures, and Sequoia Capital."
     ],
     "why_it_matters": "Security is one of the clearest enterprise markets for applied AI because the cost of finding threats early is measurable. XBOW is a prominent private bet on automating offensive testing without handing control to attackers.",
-    "valuation_history": [
-      {
-        "value": "$1B+",
-        "date": "Mar 2026",
-        "round": "$120M Series C"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://xbow.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://xbow.com"
 }

@@ -4,8 +4,7 @@
   "status": "Published",
   "ownership": "subsidiary",
   "parent": "Adani Enterprises",
-
-  "sector": "Infrastructure",
+  "sector": "Telecommunications & Infrastructure",
   "summary": "Adani Airports operates and develops airports across India.",
   "overview": "<p>Adani Airports operates and develops airports across India. The business is an infrastructure platform tied to passenger growth, commercial income, and airport-capacity expansion.</p>",
   "as_of": "2026-09-25",
@@ -58,18 +57,6 @@
       "Its value is determined by passenger traffic, regulated tariffs, capital programs, and financing. It should be evaluated as an infrastructure asset rather than a software-style private company."
     ],
     "why_it_matters": "Its value is determined by passenger traffic, regulated tariffs, capital programs, and financing. It should be evaluated as an infrastructure asset rather than a software-style private company.",
-    "valuation_history": [
-      {
-        "value": "N/A",
-        "date": "N/A",
-        "round": "Earlier reported context"
-      },
-      {
-        "value": "$19B",
-        "date": "2026",
-        "round": "No recent priced round disclosed"
-      }
-    ],
     "changed": [
       {
         "date": "N/A",
@@ -114,5 +101,7 @@
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
-  }
+  },
+  "company_status": "subsidiary",
+  "website": "https://www.adaniairports.com"
 }

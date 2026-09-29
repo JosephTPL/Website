@@ -2,7 +2,7 @@
   "slug": "listen-labs",
   "name": "Listen Labs",
   "status": "Published",
-  "sector": "Customer research",
+  "sector": "Enterprise Software & Business Services",
   "summary": "Listen Labs provides an AI-first customer-research platform, using conversational interviews to speed up insight gathering. It raised a $69 million Series B in January 2026; its valuation was reported above $500 million.",
   "overview": "<p>Listen Labs runs AI-assisted customer interviews and research workflows for enterprise teams. The platform is positioned as a faster alternative to conventional qualitative research and has access to a large pool of pre-qualified participants.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "The company announced a $69 million Series B led by Ribbit Capital in January 2026. Listen said it had reached eight-figure annualised revenue, interviewed more than one million people and served hundreds of enterprises; the valuation above $500 million was reported separately."
     ],
     "why_it_matters": "Listen Labs is a test of whether AI can make qualitative research faster without eroding decision quality. Its competitive edge depends on research rigor, participant access and enterprise trust.",
-    "valuation_history": [
-      {
-        "value": "$500M+",
-        "date": "Jan 2026",
-        "round": "Series B"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://listenlabs.ai"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://listenlabs.ai"
 }

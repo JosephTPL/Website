@@ -2,7 +2,7 @@
   "slug": "factory",
   "name": "Factory",
   "status": "Published",
-  "sector": "AI developer tools",
+  "sector": "Data, Cloud & Developer Tools",
   "summary": "Factory builds AI systems for software development, aiming to help enterprises create and improve software with governed agents. It raised $200 million at a $5 billion valuation in September 2026.",
   "overview": "<p>Factory provides AI software-development tools for enterprises. Its platform is designed to govern a single system across the software-development lifecycle rather than stitch together separate coding agents.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "In September 2026, Factory announced a $200 million financing at a $5 billion valuation, taking total funding above $400 million. It said hundreds of thousands of developers use the platform, including teams at Nvidia, Blackstone, RBC, Adobe and T-Mobile."
     ],
     "why_it_matters": "Factory is a direct private-market bet on AI changing the economics of enterprise software production. Retention, deployment depth and governance requirements will determine whether that becomes a durable platform category.",
-    "valuation_history": [
-      {
-        "value": "$5B",
-        "date": "Sep 2026",
-        "round": "Latest financing"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://factory.ai"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://factory.ai"
 }

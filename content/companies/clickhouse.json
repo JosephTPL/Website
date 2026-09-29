@@ -2,7 +2,7 @@
   "slug": "clickhouse",
   "name": "ClickHouse",
   "status": "Published",
-  "sector": "Data infrastructure",
+  "sector": "Data, Cloud & Developer Tools",
   "summary": "ClickHouse sells a fast open-source analytics database and cloud service used by more than 4,000 customers, including Anthropic, Meta and Capital One.",
   "overview": "<p>ClickHouse develops an open-source, column-oriented database built for real-time analytics, and sells a managed cloud version.</p>",
   "as_of": "2026-09-29",
@@ -62,23 +62,6 @@
       "In January 2026 ClickHouse raised a $400 million Series D led by Dragoneer at a $15 billion valuation, up from about $6.35 billion in its May 2025 Series C. By May 2026 it reported annualized revenue of $250 million, roughly triple the prior year, and more than 4,000 customers."
     ],
     "why_it_matters": "ClickHouse shows how AI and observability workloads are driving demand for new data infrastructure, and it is an IPO candidate that would be compared directly with Snowflake and Databricks.",
-    "valuation_history": [
-      {
-        "value": "$2B",
-        "date": "Oct 2021",
-        "round": "$250M Series B"
-      },
-      {
-        "value": "~$6.35B",
-        "date": "May 2025",
-        "round": "$350M Series C"
-      },
-      {
-        "value": "$15B",
-        "date": "Jan 2026",
-        "round": "$400M Series D"
-      }
-    ],
     "changed": [
       {
         "date": "2021",
@@ -143,5 +126,7 @@
         "url": "https://www.bloomberg.com/news/articles/2026-01-16/clickhouse-lands-15-billion-valuation-in-ai-database-race"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://clickhouse.com"
 }

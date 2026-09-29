@@ -2,7 +2,7 @@
   "slug": "exa",
   "name": "Exa",
   "status": "Published",
-  "sector": "AI search infrastructure",
+  "sector": "Telecommunications & Infrastructure",
   "summary": "Exa builds a web-search API for AI applications, combining search, retrieval, and web-content tools for developers and agents.",
   "overview": "<p>Exa is an AI search company building APIs for applications and agents that need web-scale retrieval, search, and content extraction.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "In May 2026, Exa announced a $250 million Series C led by Andreessen Horowitz at a $2.2 billion valuation. The company said its tools were used by more than 400,000 developers."
     ],
     "why_it_matters": "Exa is a useful indicator of whether AI search becomes a distinct infrastructure market rather than a feature absorbed by model providers or incumbent search engines.",
-    "valuation_history": [
-      {
-        "value": "$2.2B",
-        "date": "May 2026",
-        "round": "Series C"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -89,8 +82,16 @@
       ]
     ],
     "sources": [
-      {"label": "Exa: Series C announcement", "url": "https://exa.ai/blog/announcing-series-c"},
-      {"label": "Exa: company overview", "url": "https://exa.ai/about"}
+      {
+        "label": "Exa: Series C announcement",
+        "url": "https://exa.ai/blog/announcing-series-c"
+      },
+      {
+        "label": "Exa: company overview",
+        "url": "https://exa.ai/about"
+      }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://exa.ai"
 }

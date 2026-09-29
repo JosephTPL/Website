@@ -2,7 +2,7 @@
   "slug": "fractile",
   "name": "Fractile",
   "status": "Published",
-  "sector": "AI infrastructure",
+  "sector": "Telecommunications & Infrastructure",
   "summary": "Fractile is developing inference hardware intended to reduce the memory bottlenecks of large-scale AI deployment. It announced a $220 million raise in May 2026; later reports of a $6.5 billion pre-money fundraise remained discussions, not a confirmed round.",
   "overview": "<p>Fractile develops AI inference hardware focused on moving memory and compute closer together. Its thesis is that inference, rather than training alone, will become the critical infrastructure constraint as models are deployed at scale.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "Fractile announced a $220 million financing in May 2026. Bloomberg later reported that the company was in discussions for a new round at a $6.5 billion pre-money valuation; because no completed transaction was announced, that figure is kept separate from confirmed financing."
     ],
     "why_it_matters": "Inference economics increasingly determine whether AI applications can scale profitably. Fractile is a high-risk, high-upside attempt to build a new hardware layer beneath that market, making product benchmarks and customer deployments more important than private-market headlines.",
-    "valuation_history": [
-      {
-        "value": "$220M raised",
-        "date": "May 2026",
-        "round": "Financing"
-      }
-    ],
     "changed": [
       {
         "date": "May 2026",
@@ -97,5 +90,7 @@
         "url": "https://news.bloomberglaw.com/artificial-intelligence/chip-firm-fractile-seeks-6-5-billion-value-after-anthropic-deal"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://fractile.ai"
 }

@@ -2,7 +2,7 @@
   "slug": "lukoil",
   "name": "Lukoil",
   "status": "Published",
-  "sector": "Energy",
+  "sector": "Energy, Climate & Industrial",
   "summary": "Lukoil is a publicly traded integrated energy company with oil and gas production, refining, and marketing operations.",
   "overview": "<p>Lukoil is a publicly traded integrated energy company with oil and gas production, refining, and marketing operations. Its ordinary shares trade on the Moscow Exchange under ticker LKOH.</p>",
   "as_of": "2026-09-29",
@@ -55,13 +55,6 @@
       "Its ordinary shares are listed on the Moscow Exchange under ticker LKOH, making it a public company rather than a private-market valuation case."
     ],
     "why_it_matters": "Lukoil is included as a former private-company reference, not as a private-market valuation. Commodity prices, sanctions, and capital-market access remain material to its operating outlook.",
-    "valuation_history": [
-      {
-        "value": "Public",
-        "date": "2003",
-        "round": "MOEX listing"
-      }
-    ],
     "changed": [
       {
         "date": "2003",
@@ -111,5 +104,7 @@
       }
     ]
   },
-  "ownership": "independent"
+  "ownership": "independent",
+  "company_status": "public",
+  "website": "https://www.lukoil.com"
 }

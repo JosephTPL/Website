@@ -2,7 +2,7 @@
   "slug": "clay",
   "name": "Clay",
   "status": "Published",
-  "sector": "Sales software",
+  "sector": "Enterprise Software & Business Services",
   "summary": "Clay is a go-to-market platform that uses AI agents and data to help sales and marketing teams find and reach customers.",
   "overview": "<p>Clay combines customer data from many sources with AI agents that research prospects and run sales and marketing campaigns.</p>",
   "as_of": "2026-09-29",
@@ -62,23 +62,6 @@
       "In September 2026 Clay raised $115 million led by Wellington at a $7.1 billion valuation, more than double its $3.1 billion Series C. It says it has more than 17,000 customers, including Anthropic, Google, OpenAI and Stripe, and 80% of the Forbes AI 50."
     ],
     "why_it_matters": "Clay is a leading example of AI reshaping sales software, and a read-through for pressure on incumbents such as Salesforce and ZoomInfo.",
-    "valuation_history": [
-      {
-        "value": "$1.25B",
-        "date": "2025",
-        "round": "Series B expansion"
-      },
-      {
-        "value": "$3.1B",
-        "date": "2025",
-        "round": "$100M Series C"
-      },
-      {
-        "value": "$7.1B",
-        "date": "Sep 2026",
-        "round": "$115M Series D"
-      }
-    ],
     "changed": [
       {
         "date": "2017",
@@ -135,5 +118,7 @@
         "url": "https://news.crunchbase.com/venture/ai-powered-gtm-startup-clay-valuation-doubles-capitalg/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://clay.com"
 }

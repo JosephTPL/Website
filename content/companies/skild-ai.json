@@ -2,7 +2,7 @@
   "slug": "skild-ai",
   "name": "Skild AI",
   "status": "Published",
-  "sector": "Robotics",
+  "sector": "Hardware, Robotics & Semiconductors",
   "summary": "Skild AI builds a general-purpose \"robot brain\": foundation models and software that can be fitted to many kinds of robots and tasks.",
   "overview": "<p>Skild AI develops general-purpose robotics foundation models designed to run across different robot bodies without extensive retraining.</p>",
   "as_of": "2026-09-29",
@@ -62,18 +62,6 @@
       "In January 2026 Skild AI raised a $1.4 billion Series C led by SoftBank, with Nvidia and Macquarie participating, at a valuation above $14 billion. That was roughly triple the $4.5 billion valuation it reached in the summer of 2025, and brought total funding above $2 billion."
     ],
     "why_it_matters": "Skild AI is one of the largest bets that robotics will follow the AI-model playbook, with one general model serving many machines, and a read-through for the humanoid and industrial robot boom.",
-    "valuation_history": [
-      {
-        "value": "$4.5B",
-        "date": "Summer 2025",
-        "round": "Financing"
-      },
-      {
-        "value": "$14B+",
-        "date": "Jan 2026",
-        "round": "$1.4B Series C"
-      }
-    ],
     "changed": [
       {
         "date": "2023",
@@ -126,5 +114,7 @@
         "url": "https://techcrunch.com/2026/01/14/robotic-software-maker-skild-ai-hits-14b-valuation/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://skild.ai"
 }

@@ -2,7 +2,7 @@
   "slug": "mercor",
   "name": "Mercor",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Mercor operates a talent network that helps AI labs and enterprises source, evaluate, and manage expert human work.",
   "overview": "<p>Mercor operates a talent network that helps AI labs and enterprises source, evaluate, and manage expert human work.</p>",
   "as_of": "2026-09-25",
@@ -55,18 +55,6 @@
       "Mercor announced a $350M Series C at a $10B valuation in October 2025. Its long-term value depends on sustaining both specialist supply and demand as the mix of AI training and evaluation work changes."
     ],
     "why_it_matters": "Mercor is exposed to one of the less visible constraints in AI: high-quality human expertise for model training and evaluation. Its progress is a useful indicator of whether AI-labor marketplaces can become durable infrastructure businesses.",
-    "valuation_history": [
-      {
-        "value": "$2B",
-        "date": "Feb 2025",
-        "round": "Series B, $100M"
-      },
-      {
-        "value": "$10B",
-        "date": "Oct 2025",
-        "round": "Series C, $350M"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -102,5 +90,7 @@
         "url": "https://mercor.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://mercor.com"
 }

@@ -2,7 +2,7 @@
   "slug": "higgsfield",
   "name": "Higgsfield",
   "status": "Published",
-  "sector": "Generative media",
+  "sector": "Consumer, Commerce & Media",
   "summary": "Higgsfield creates AI video and image tools for creators, brands, agencies and studios. It raised a $400 million Series B at a $5.4 billion valuation in August 2026.",
   "overview": "<p>Higgsfield is a generative-media platform with tools for creating AI images and video. It sells into creative and marketing workflows, while competing in a compute-intensive and fast-moving category.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "The company announced a $400 million Series B at a $5.4 billion valuation in August 2026, led by DST Global. It said it had reached $700 million of annualized revenue, 30 million users and 390 Fortune 500 customers; those operating figures are company-reported."
     ],
     "why_it_matters": "Higgsfield is a high-valuation test of whether generative video becomes an enduring enterprise production tool. Compute economics and retention will determine whether its rapid growth is durable.",
-    "valuation_history": [
-      {
-        "value": "$5.4B",
-        "date": "Aug 2026",
-        "round": "Series B"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://higgsfield.ai"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://higgsfield.ai"
 }

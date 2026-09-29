@@ -2,7 +2,7 @@
   "slug": "luzern-risk",
   "name": "Luzern Risk",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Luzern Risk helps businesses form and manage captive insurance companies through a digital risk-management platform.",
   "overview": "<p>Luzern Risk is an AI-native captive manager. It combines captive-insurance expertise with a digital platform to help companies evaluate, form and run insurance programs that they own.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "Luzern announced a $45M Series B in September 2026 led by Insight Partners, following a 2023 seed and a $12M Series A in 2025. It did not disclose a valuation."
     ],
     "why_it_matters": "Captives let businesses retain more control over risk, capital and underwriting economics. Luzern is a private-market test of whether software and operational expertise can broaden a historically specialized insurance structure.",
-    "valuation_history": [
-      {
-        "value": "$45M raised",
-        "date": "Sep 2026",
-        "round": "Series B"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://luzernrisk.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://luzernrisk.com"
 }

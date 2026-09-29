@@ -2,7 +2,7 @@
   "slug": "watney-robotics",
   "name": "Watney Robotics",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Watney builds autonomous robotic systems for physical operations inside data centres and supercomputing infrastructure.",
   "overview": "<p>Watney deploys autonomous robots to help data-centre operators accelerate physical infrastructure work. In September 2026, it announced an $80 million Series A, bringing total funding above $100 million.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "Watney announced an $80 million Series A in September 2026, bringing total funding above $100 million. The company did not disclose a valuation."
     ],
     "why_it_matters": "The AI buildout needs more than chips and power: it also needs physical infrastructure assembled and maintained quickly. Watney is a private-market bet on automating that labour-intensive layer.",
-    "valuation_history": [
-      {
-        "value": "$80M",
-        "date": "Sep 2026",
-        "round": "Series A"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://watney.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://watney.com"
 }

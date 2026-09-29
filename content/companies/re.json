@@ -2,7 +2,7 @@
   "slug": "re",
   "name": "Re",
   "status": "Draft",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Draft profile held for verification before publication.",
   "overview": "<p>This profile is not published because a verifiable operating company, product, and financing record could not be established from the available domain and public sources.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "Public financing and operating data remain limited, so the profile avoids a valuation claim until a primary source or credible priced transaction is available."
     ],
     "why_it_matters": "The company is on the watchlist because private-market activity in this category can become relevant before public disclosures are widely available.",
-    "valuation_history": [
-      {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -93,5 +86,7 @@
         "url": "https://re.ai"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://re.ai"
 }

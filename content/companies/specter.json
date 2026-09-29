@@ -2,7 +2,7 @@
   "slug": "specter",
   "name": "Specter",
   "status": "Published",
-  "sector": "Private-market data",
+  "sector": "Enterprise Software & Business Services",
   "summary": "Specter provides AI-powered startup data and deal-sourcing tools for investors. Its platform tracks private companies, people, funding and M&A events, while its own financing remains undisclosed.",
   "overview": "<p>Specter is a private-market intelligence platform used for company discovery and deal sourcing. It turns changes in company, funding, people and transaction data into investor signals.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "The company says its data covers more than 55 million companies, 550 million people, 330,000 investors and one million transactions. No confirmed financing amount or valuation is publicly disclosed, so the profile does not infer one."
     ],
     "why_it_matters": "Better private-company discovery tools can change the timing and quality of venture sourcing. The critical diligence questions are data accuracy, workflow adoption and defensibility against larger information providers.",
-    "valuation_history": [
-      {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://www.tryspecter.com/investors"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://tryspecter.com"
 }

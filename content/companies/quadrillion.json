@@ -2,7 +2,7 @@
   "slug": "quadrillion",
   "name": "Quadrillion",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Quadrillion is a frontier AI lab building general research intelligence for complex scientific and industrial problems.",
   "overview": "<p>Quadrillion is a frontier AI lab building general research intelligence. Its Qualia product plans and runs experiments, interprets results and proposes new directions; its forthcoming Lemma model is being trained for long-horizon research, creativity and insight.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "The company says its Lemma model is trained to make complex research decisions over long horizons, including developing hypotheses, allocating compute and interpreting results. It has not publicly disclosed financing, operating metrics or a valuation."
     ],
     "why_it_matters": "Research automation could matter across scientific and industrial R&D if systems can reliably improve the quality and speed of experimentation. The relevant proof is measured research output and scientist adoption, not merely agent demonstrations.",
-    "valuation_history": [
-      {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -89,13 +82,15 @@
     ],
     "sources": [
       {
-      "label": "Quadrillion: research intelligence lab",
-      "url": "https://quadrillion.com"
+        "label": "Quadrillion: research intelligence lab",
+        "url": "https://quadrillion.com"
       },
       {
         "label": "Qualia product overview",
         "url": "https://quadrillion.ai/qualia"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://quadrillion.com"
 }

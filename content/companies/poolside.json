@@ -2,7 +2,7 @@
   "slug": "poolside",
   "name": "Poolside",
   "status": "Published",
-  "sector": "AI",
+  "sector": "AI & Machine Learning",
   "summary": "Poolside builds AI models specialized for writing software and is developing a 2-gigawatt AI data-center campus in Texas.",
   "overview": "<p>Poolside develops large language models focused on software development, along with the compute infrastructure to train them.</p>",
   "as_of": "2026-09-29",
@@ -62,23 +62,6 @@
       "Poolside raised a $500 million Series B at a $3 billion valuation in October 2024. Nvidia committed up to $1 billion in October 2025 at a $12 billion valuation, and in August 2026 an investor letter reported by Newcomer described a $6 billion non-exclusive licensing deal with Nvidia plus a $1 billion investment at a $12 billion pre-money valuation."
     ],
     "why_it_matters": "Poolside is a bet that specialized coding models can compete with general AI labs, and its Nvidia licensing deal is an unusual way for a model company to monetize.",
-    "valuation_history": [
-      {
-        "value": "$3B",
-        "date": "Oct 2024",
-        "round": "$500M Series B"
-      },
-      {
-        "value": "$12B",
-        "date": "Oct 2025",
-        "round": "Nvidia investment of up to $1B"
-      },
-      {
-        "value": "$12B",
-        "date": "Aug 2026",
-        "round": "Pre-money, reported"
-      }
-    ],
     "changed": [
       {
         "date": "2023",
@@ -139,5 +122,7 @@
         "url": "https://en.wikipedia.org/wiki/Poolside_AI"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://poolside.ai"
 }

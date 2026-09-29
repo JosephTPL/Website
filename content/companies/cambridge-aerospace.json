@@ -2,7 +2,7 @@
   "slug": "cambridge-aerospace",
   "name": "Cambridge Aerospace",
   "status": "Published",
-  "sector": "Defence technology",
+  "sector": "Defense, Aerospace & Space",
   "summary": "Cambridge Aerospace develops low-cost systems to counter drones and missiles. It raised a $300 million Series C at a $3.4 billion post-money valuation in August 2026, led by DFJ Growth.",
   "overview": "<p>Cambridge Aerospace builds counter-drone and air-defence systems aimed at changing the cost equation of modern aerial warfare. Its product set includes drone interceptors, missile interceptors and radar systems for detecting and defeating threats.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "The company raised a $300 million Series C at a $3.4 billion post-money valuation in August 2026, led by DFJ Growth. The round followed a reported $200 million Series B at a $1.3 billion valuation in April 2026, underscoring how rapidly investor interest in European counter-drone defence has grown."
     ],
     "why_it_matters": "Counter-drone defence is becoming a central procurement category as low-cost aerial systems reshape conflict. Cambridge Aerospace is an unusually highly valued private bet on whether a new generation of systems can deliver performance at economically sustainable cost.",
-    "valuation_history": [
-      {
-        "value": "$3.4B",
-        "date": "Aug 2026",
-        "round": "Series C"
-      }
-    ],
     "changed": [
       {
         "date": "Aug 2026",
@@ -97,5 +90,7 @@
         "url": "https://cambridgeaerospace.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://cambridgeaerospace.com"
 }

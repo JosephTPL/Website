@@ -2,7 +2,7 @@
   "slug": "prometheus",
   "status": "Published",
   "name": "Prometheus",
-  "sector": "Industrial AI",
+  "sector": "Energy, Climate & Industrial",
   "summary": "Prometheus is an industrial-AI company co-founded by Jeff Bezos and Vik Bajaj, pursuing an artificial general engineer for physical-world industries.",
   "overview": "<p>Prometheus is developing industrial AI systems for scientific and engineering applications.</p>",
   "as_of": "2026-09-25",
@@ -56,18 +56,6 @@
       "The company describes its goal as an artificial general engineer. That framing places it between foundation-model research, engineering software, industrial automation, and scientific discovery, but its product, revenue, and customer base remain largely undisclosed."
     ],
     "why_it_matters": "Prometheus is a concentrated bet on the claim that advanced AI will move from language and knowledge work into engineering and industrial systems. The financing is also a sharp signal of how much private capital is willing to underwrite frontier AI before a commercial product is visible.",
-    "valuation_history": [
-      {
-        "value": "$6.2B",
-        "date": "2025",
-        "round": "Reported Series A"
-      },
-      {
-        "value": "$41B",
-        "date": "Jun 2026",
-        "round": "$12B Series B"
-      }
-    ],
     "changed": [
       {
         "date": "2025",
@@ -124,5 +112,7 @@
         "url": "https://prometheus.ai/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://prometheus.ai"
 }

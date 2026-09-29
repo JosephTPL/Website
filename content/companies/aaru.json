@@ -2,7 +2,7 @@
   "slug": "aaru",
   "name": "Aaru",
   "status": "Published",
-  "sector": "Consumer intelligence",
+  "sector": "Consumer, Commerce & Media",
   "summary": "Aaru builds simulated populations that organisations use to test consumer, investor and stakeholder decisions before committing capital. Its December 2025 Series A carried a reported $1 billion headline valuation, though reported terms included lower pricing for some investors.",
   "overview": "<p>Aaru builds AI-driven population simulations that aim to forecast how people will behave, rather than relying exclusively on conventional survey responses. Its product is aimed at strategic decisions such as pricing, product innovation, market research and communications.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "TechCrunch reported that Aaru's December 2025 Series A carried a $1 billion headline valuation, while noting that some investors entered at lower pricing. That distinction matters: the headline figure is reported financing context, not a simple universally priced mark."
     ],
     "why_it_matters": "Aaru is part of the emerging market for AI systems that attempt to replace or augment expensive human research. The key question is whether it can demonstrate reliable predictive performance across repeatable commercial use cases, rather than generate merely plausible simulations.",
-    "valuation_history": [
-      {
-        "value": "$1B",
-        "date": "Dec 2025",
-        "round": "Series A (reported headline)"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://aaru.com/publications/population-simulation-at-the-replication-floor-research"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://aaru.com"
 }

@@ -2,7 +2,7 @@
   "slug": "owner",
   "name": "Owner",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Owner provides AI-native commerce, marketing, and operations software for independent restaurants.",
   "overview": "<p>Owner provides AI-native commerce, marketing, and operations software for independent restaurants.</p>",
   "as_of": "2026-09-25",
@@ -55,18 +55,6 @@
       "It announced a $240 million Series D at a $2.3 billion valuation in August 2026."
     ],
     "why_it_matters": "Owner illustrates how vertical software companies are using AI to compete for the economics and customer relationships that previously flowed to delivery marketplaces and restaurant chains.",
-    "valuation_history": [
-      {
-        "value": "$1B",
-        "date": "May 2025",
-        "round": "Series C, $120M"
-      },
-      {
-        "value": "$2.3B",
-        "date": "Aug 2026",
-        "round": "Series D, $240M"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -102,5 +90,7 @@
         "url": "https://owner.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://owner.com"
 }

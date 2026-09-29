@@ -2,7 +2,7 @@
   "slug": "baseten",
   "name": "Baseten",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Baseten provides production infrastructure for deploying, scaling, and operating AI models and inference workloads.",
   "overview": "<p>Baseten provides production infrastructure for deploying, scaling, and operating AI models and inference workloads.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "Baseten announced a $300M Series E at a $5B valuation in February 2026. The financing is a useful benchmark for the value investors are assigning to inference infrastructure as AI applications move into production."
     ],
     "why_it_matters": "Inference infrastructure is a critical layer in the AI stack, where reliability, latency, and cost shape the economics of every application company. Baseten is a useful private-market benchmark for the production-model serving category.",
-    "valuation_history": [
-      {
-        "value": "$5B",
-        "date": "Feb 2026",
-        "round": "Series E, $300M"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://baseten.co"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://baseten.co"
 }

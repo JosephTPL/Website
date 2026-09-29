@@ -2,9 +2,9 @@
   "slug": "mistral-ai",
   "status": "Published",
   "name": "Mistral AI",
-  "sector": "AI",
+  "sector": "AI & Machine Learning",
   "summary": "Mistral AI is a Paris-based frontier-model company focused on open-weight and sovereign AI systems for enterprises and governments.",
-  "overview": "<p>Mistral AI is included in The Private Ledger\u2019s company directory for ongoing research.</p>",
+  "overview": "<p>Mistral AI is included in The Private Ledger’s company directory for ongoing research.</p>",
   "image": "",
   "image_alt": "",
   "as_of": "2026-09-28",
@@ -32,24 +32,41 @@
     "logo": "https://www.google.com/s2/favicons?domain=mistral.ai&sz=128",
     "description": "Mistral builds frontier models, developer tools, and enterprise AI systems with a focus on open-weight and sovereign deployments.",
     "metrics": [
-      {"value": "$24.4B", "label": "Reported valuation", "note": "€21B+ Series D valuation, September 2026"},
-      {"value": "€3B", "label": "Latest funding", "note": "Series D, September 2026"},
-      {"value": "2023", "label": "Founded", "note": "Paris, France"},
-      {"value": "Private", "label": "Public status", "note": "No announced listing"}
+      {
+        "value": "$24.4B",
+        "label": "Reported valuation",
+        "note": "€21B+ Series D valuation, September 2026"
+      },
+      {
+        "value": "€3B",
+        "label": "Latest funding",
+        "note": "Series D, September 2026"
+      },
+      {
+        "value": "2023",
+        "label": "Founded",
+        "note": "Paris, France"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No announced listing"
+      }
     ],
     "company": [
       "Mistral develops frontier models, developer tools, and enterprise AI systems. Its strategy combines open-weight model releases with commercial products and tailored deployments for large organizations.",
       "The company positions itself as a European provider of sovereign AI, serving customers in sectors including finance, manufacturing, defense, energy, and the public sector."
     ],
     "why_it_matters": "Mistral is the clearest private-market test of whether Europe can produce an independent frontier-model company with global enterprise relevance. Its open-weight and sovereignty positioning gives it a differentiated distribution route, but it still faces the enormous capital demands of frontier AI.",
-    "valuation_history": [
-      {"value": "€5.8B", "date": "Jun 2024", "round": "Series B, €600M"},
-      {"value": "€11.7B", "date": "Sep 2025", "round": "Series C, €1.7B"},
-      {"value": "$24.4B", "date": "Sep 2026", "round": "Series D, €3B (reported €21B+)"}
-    ],
     "changed": [
-      {"date": "Sep 2025", "text": "Raised €1.7B in a Series C led by ASML at an €11.7B post-money valuation."},
-      {"date": "Sep 2026", "text": "Announced a €3B Series D at a post-money valuation above €21B."}
+      {
+        "date": "Sep 2025",
+        "text": "Raised €1.7B in a Series C led by ASML at an €11.7B post-money valuation."
+      },
+      {
+        "date": "Sep 2026",
+        "text": "Announced a €3B Series D at a post-money valuation above €21B."
+      }
     ],
     "takeaways": [
       "Mistral's latest financing made it one of Europe's most valuable private technology companies.",
@@ -58,16 +75,42 @@
       "The company is a key benchmark for independent European frontier AI."
     ],
     "quick_facts": [
-      ["Founders", "Arthur Mensch, Guillaume Lample, Timothée Lacroix"],
-      ["Headquarters", "Paris, France"],
-      ["Focus", "Frontier models, enterprise AI, developer tools"],
-      ["Website", "mistral.ai"]
+      [
+        "Founders",
+        "Arthur Mensch, Guillaume Lample, Timothée Lacroix"
+      ],
+      [
+        "Headquarters",
+        "Paris, France"
+      ],
+      [
+        "Focus",
+        "Frontier models, enterprise AI, developer tools"
+      ],
+      [
+        "Website",
+        "mistral.ai"
+      ]
     ],
     "sources": [
-      {"label": "Mistral: Series D announcement", "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"},
-      {"label": "Mistral: Series C announcement", "url": "https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai/"},
-      {"label": "Mistral: company overview", "url": "https://mistral.ai/about/"},
-      {"label": "Mistral legal notice", "url": "https://mistral.ai/legal/"}
+      {
+        "label": "Mistral: Series D announcement",
+        "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
+      },
+      {
+        "label": "Mistral: Series C announcement",
+        "url": "https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai/"
+      },
+      {
+        "label": "Mistral: company overview",
+        "url": "https://mistral.ai/about/"
+      },
+      {
+        "label": "Mistral legal notice",
+        "url": "https://mistral.ai/legal/"
+      }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://mistral.ai"
 }

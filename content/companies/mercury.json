@@ -2,7 +2,7 @@
   "slug": "mercury",
   "name": "Mercury",
   "status": "Published",
-  "sector": "Fintech",
+  "sector": "Financial Services & Digital Assets",
   "summary": "Mercury provides banking for startups and small businesses, serving roughly one in three U.S. startups, and has won conditional approval for a national bank charter.",
   "overview": "<p>Mercury offers business bank accounts, cards, bill pay and treasury products built for startups and small companies.</p>",
   "as_of": "2026-09-29",
@@ -62,18 +62,6 @@
       "In May 2026 Mercury raised a $200 million Series D led by TCV at a $5.2 billion valuation, up 49% in 14 months. It also received conditional approval from the OCC to establish Mercury Bank, N.A., which would let it hold deposits directly."
     ],
     "why_it_matters": "Mercury is a read-through for startup formation and venture activity, and its bank charter would make it one of the few fintechs to become a national bank.",
-    "valuation_history": [
-      {
-        "value": "$3.5B",
-        "date": "Mar 2025",
-        "round": "Series C"
-      },
-      {
-        "value": "$5.2B",
-        "date": "May 2026",
-        "round": "$200M Series D"
-      }
-    ],
     "changed": [
       {
         "date": "2017",
@@ -130,5 +118,7 @@
         "url": "https://www.cnbc.com/2026/05/20/fintech-mercury-valuation-fundraise-bank-charter.html"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://mercury.com"
 }

@@ -2,7 +2,7 @@
   "slug": "unconventional-ai",
   "name": "Unconventional AI",
   "status": "Published",
-  "sector": "Semiconductors",
+  "sector": "Hardware, Robotics & Semiconductors",
   "summary": "Unconventional AI, founded by Naveen Rao, is building brain-inspired analog computing hardware to cut the energy cost of AI.",
   "overview": "<p>Unconventional AI develops neuromorphic, analog computing hardware designed to run AI with far less power than digital chips.</p>",
   "as_of": "2026-09-29",
@@ -62,13 +62,6 @@
       "Just two months after launching, the company raised a $475 million seed round at a $4.5 billion valuation, led by Andreessen Horowitz and Lightspeed with Lux Capital, DCVC and Jeff Bezos participating. It was described as the first part of a raise that could reach $1 billion."
     ],
     "why_it_matters": "Unconventional AI is one of the largest seed rounds ever and a read-through for investor appetite for new chip architectures that address AI's power problem.",
-    "valuation_history": [
-      {
-        "value": "$4.5B",
-        "date": "Dec 2025",
-        "round": "$475M seed"
-      }
-    ],
     "changed": [
       {
         "date": "Oct 2025",
@@ -121,5 +114,7 @@
         "url": "https://techcrunch.com/2025/12/09/unconventional-ai-confirms-its-massive-475m-seed-round"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://unconventional.ws"
 }

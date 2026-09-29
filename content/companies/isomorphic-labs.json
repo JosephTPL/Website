@@ -4,18 +4,17 @@
   "status": "Published",
   "ownership": "subsidiary",
   "parent": "Alphabet",
-
-  "sector": "Healthcare",
+  "sector": "Healthcare & Life Sciences",
   "summary": "From protein prediction to drug discovery: the promise and the clinical proof still needed.",
   "overview": "<p>Isomorphic Labs aims to translate advances in AI and protein modelling into better drug discovery. Pharmaceutical partnerships provide capital and commercial validation, but the report draws a crucial distinction between predicting molecular behaviour and proving that a treatment is safe and effective in people.</p>",
   "image": "https://substack-post-media.s3.amazonaws.com/public/images/5ecaf90c-1e15-4d83-96ec-9baab27b441d_1600x840.jpeg",
-  "image_alt": "Isomorphic Labs \u2014 The Private Ledger",
+  "image_alt": "Isomorphic Labs — The Private Ledger",
   "as_of": "2026-09-24",
   "report": "the-breakdown-isomorphic-labs",
   "facts": [
     {
       "label": "Valuation estimates",
-      "value": "$10\u201320 billion",
+      "value": "$10–20 billion",
       "note": "Range of third-party estimates discussed; no single confirmed valuation",
       "source": "/articles/the-breakdown-isomorphic-labs/#section-8"
     },
@@ -47,15 +46,99 @@
     "partnerships and clinical proof."
   ],
   "intelligence": {
-    "kicker":"COMPANY INTELLIGENCE","location":"London, United Kingdom","status":"Private","logo":"/logos/isomorphic-labs.png",
-    "description":"Isomorphic Labs applies AI to drug design and development, building on advances in protein-structure prediction.",
-    "metrics":[{"value":"Not disclosed","label":"Latest valuation","note":"Series B terms were not disclosed"},{"value":"$2.1B","label":"Latest funding","note":"May 2026 Series B"},{"value":"Private","label":"Public status","note":"No IPO announced"},{"value":"2021","label":"Founded","note":"Alphabet spinout"}],
-    "company":["Isomorphic Labs was founded to apply AI-native approaches to drug discovery and development. Its opportunity is to turn model capabilities into medicines, a task requiring both computational advances and clinical validation.","The May 2026 Series B is intended to move its platform and drug pipeline toward clinical-scale work. The company did not disclose a valuation, so this profile does not substitute an estimate for a confirmed figure."],
-    "why_it_matters":"Isomorphic Labs sits at the intersection of private AI investment and biotechnology. Its progress could reshape drug-development timelines and affects the strategic position of pharmaceutical partners, Alphabet, and the broader AI-biology ecosystem.",
-    "valuation_history":[{"value":"Undisclosed","date":"2021","round":"Founded"},{"value":"Undisclosed","date":"2025","round":"Series A"},{"value":"Undisclosed","date":"May 2026","round":"Series B"}],
-    "changed":[{"date":"2021","text":"Isomorphic Labs launches as a Google DeepMind spinout."},{"date":"2024","text":"Pharmaceutical partnerships validate demand for AI-led drug discovery."},{"date":"2025","text":"The company raises its first external financing."},{"date":"2026","text":"A $2.1 billion Series B funds the move toward applying models at scale."}],
-    "takeaways":["Drug discovery requires clinical evidence, not only model performance.","Alphabet backing provides unusual technical and commercial support.","The latest funding is confirmed; the valuation is not disclosed.","Pipeline milestones are more important than short-term software metrics."],
-    "quick_facts":[["Founded","2021"],["Headquarters","London, UK"],["Founder","Demis Hassabis"],["Parent relationship","Alphabet-backed"],["Focus","AI drug design"],["Website","isomorphiclabs.com"]],
-    "sources":[{"label":"Series B announcement","url":"https://www.isomorphiclabs.com/press/isomorphic-labs-funding"},{"label":"Isomorphic Labs breakdown","url":"/articles/the-breakdown-isomorphic-labs/"}]
-  }
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "London, United Kingdom",
+    "status": "Private",
+    "logo": "/logos/isomorphic-labs.png",
+    "description": "Isomorphic Labs applies AI to drug design and development, building on advances in protein-structure prediction.",
+    "metrics": [
+      {
+        "value": "Not disclosed",
+        "label": "Latest valuation",
+        "note": "Series B terms were not disclosed"
+      },
+      {
+        "value": "$2.1B",
+        "label": "Latest funding",
+        "note": "May 2026 Series B"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No IPO announced"
+      },
+      {
+        "value": "2021",
+        "label": "Founded",
+        "note": "Alphabet spinout"
+      }
+    ],
+    "company": [
+      "Isomorphic Labs was founded to apply AI-native approaches to drug discovery and development. Its opportunity is to turn model capabilities into medicines, a task requiring both computational advances and clinical validation.",
+      "The May 2026 Series B is intended to move its platform and drug pipeline toward clinical-scale work. The company did not disclose a valuation, so this profile does not substitute an estimate for a confirmed figure."
+    ],
+    "why_it_matters": "Isomorphic Labs sits at the intersection of private AI investment and biotechnology. Its progress could reshape drug-development timelines and affects the strategic position of pharmaceutical partners, Alphabet, and the broader AI-biology ecosystem.",
+    "changed": [
+      {
+        "date": "2021",
+        "text": "Isomorphic Labs launches as a Google DeepMind spinout."
+      },
+      {
+        "date": "2024",
+        "text": "Pharmaceutical partnerships validate demand for AI-led drug discovery."
+      },
+      {
+        "date": "2025",
+        "text": "The company raises its first external financing."
+      },
+      {
+        "date": "2026",
+        "text": "A $2.1 billion Series B funds the move toward applying models at scale."
+      }
+    ],
+    "takeaways": [
+      "Drug discovery requires clinical evidence, not only model performance.",
+      "Alphabet backing provides unusual technical and commercial support.",
+      "The latest funding is confirmed; the valuation is not disclosed.",
+      "Pipeline milestones are more important than short-term software metrics."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2021"
+      ],
+      [
+        "Headquarters",
+        "London, UK"
+      ],
+      [
+        "Founder",
+        "Demis Hassabis"
+      ],
+      [
+        "Parent relationship",
+        "Alphabet-backed"
+      ],
+      [
+        "Focus",
+        "AI drug design"
+      ],
+      [
+        "Website",
+        "isomorphiclabs.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Series B announcement",
+        "url": "https://www.isomorphiclabs.com/press/isomorphic-labs-funding"
+      },
+      {
+        "label": "Isomorphic Labs breakdown",
+        "url": "/articles/the-breakdown-isomorphic-labs/"
+      }
+    ]
+  },
+  "company_status": "subsidiary",
+  "website": "https://isomorphiclabs.com"
 }

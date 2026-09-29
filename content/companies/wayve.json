@@ -2,7 +2,7 @@
   "slug": "wayve",
   "name": "Wayve",
   "status": "Published",
-  "sector": "Autonomous mobility",
+  "sector": "Mobility, Transport & Logistics",
   "summary": "Wayve develops end-to-end AI software for self-driving cars, backed by Nvidia, Microsoft, Uber and several automakers.",
   "overview": "<p>Wayve builds an AI driving system that learns from data and is designed to be licensed to automakers and fleets worldwide.</p>",
   "as_of": "2026-09-29",
@@ -62,13 +62,6 @@
       "In February 2026 Wayve raised $1.5 billion, including a $1.2 billion Series D led by Eclipse, Balderton and SoftBank Vision Fund 2 and milestone-based capital from Uber, at an $8.6 billion valuation. Microsoft, Nvidia, Mercedes-Benz, Nissan and Stellantis also invested."
     ],
     "why_it_matters": "Wayve is the leading European self-driving company and a read-through for whether licensing AI driving software to automakers can rival Waymo's approach.",
-    "valuation_history": [
-      {
-        "value": "$8.6B",
-        "date": "Feb 2026",
-        "round": "$1.5B Series D"
-      }
-    ],
     "changed": [
       {
         "date": "2017",
@@ -125,5 +118,7 @@
         "url": "https://www.cnbc.com/2026/02/24/wayve-fundraise-nvidia-microsoft.html"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://wayve.ai"
 }

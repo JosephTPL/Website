@@ -2,7 +2,7 @@
   "slug": "snorkel-ai",
   "status": "Published",
   "name": "Snorkel AI",
-  "sector": "AI data infrastructure",
+  "sector": "Data, Cloud & Developer Tools",
   "summary": "Snorkel AI develops data, evaluation, and simulation workflows for teams building and testing advanced AI systems.",
   "overview": "<p>Snorkel AI provides data-development infrastructure and services for AI labs, enterprises, and public-sector customers.</p>",
   "as_of": "2026-09-29",
@@ -56,23 +56,6 @@
       "The company says its newer data-as-a-service offering combines software, synthetic data, and subject-matter expertise. That positioning places Snorkel between model developers that need reliable training and evaluation inputs and enterprise customers seeking more dependable AI applications."
     ],
     "why_it_matters": "Snorkel is a useful read-through on where value accumulates in the AI stack. If frontier models and enterprise agents require increasingly specialized data, environments, and evaluation, the suppliers of those inputs can become strategic infrastructure businesses.",
-    "valuation_history": [
-      {
-        "value": "$1B",
-        "date": "Aug 2021",
-        "round": "Series C"
-      },
-      {
-        "value": "$1.3B",
-        "date": "Apr 2025",
-        "round": "Series D"
-      },
-      {
-        "value": "$3.5B",
-        "date": "Sep 2026",
-        "round": "Series E"
-      }
-    ],
     "changed": [
       {
         "date": "2025",
@@ -121,5 +104,7 @@
         "url": "https://snorkel.ai/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://snorkel.ai"
 }

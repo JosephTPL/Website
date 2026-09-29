@@ -2,7 +2,7 @@
   "slug": "consensys",
   "name": "Consensys",
   "status": "Published",
-  "sector": "Digital assets",
+  "sector": "Financial Services & Digital Assets",
   "summary": "Consensys builds Ethereum software including the MetaMask wallet, and has hired JPMorgan and Goldman Sachs for a possible IPO.",
   "overview": "<p>Consensys develops Ethereum infrastructure and applications, including the MetaMask wallet, the Infura developer platform and the Linea network.</p>",
   "as_of": "2026-09-29",
@@ -62,18 +62,6 @@
       "Consensys was last valued at $7 billion in its early 2022 Series D. It hired JPMorgan and Goldman Sachs for an IPO, but in May 2026 it was reported to have delayed plans until fall 2026 at the earliest because of weak crypto markets."
     ],
     "why_it_matters": "Consensys is a direct way to gauge public-market appetite for Ethereum infrastructure, and an IPO would test how crypto software companies are valued.",
-    "valuation_history": [
-      {
-        "value": "$3.2B",
-        "date": "Nov 2021",
-        "round": "Series C"
-      },
-      {
-        "value": "$7B",
-        "date": "Mar 2022",
-        "round": "$450M Series D"
-      }
-    ],
     "changed": [
       {
         "date": "2014",
@@ -130,5 +118,7 @@
         "url": "https://www.coindesk.com/business/2026/05/13/ethereum-app-builder-consensys-has-delayed-its-potential-ipo-until-fall"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://consensys.io"
 }

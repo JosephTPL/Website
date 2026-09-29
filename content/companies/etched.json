@@ -2,7 +2,7 @@
   "slug": "etched",
   "name": "Etched",
   "status": "Published",
-  "sector": "Semiconductors",
+  "sector": "Hardware, Robotics & Semiconductors",
   "summary": "Etched designs purpose-built inference chips for transformer models.",
   "overview": "<p>Etched designs purpose-built inference chips for transformer models. Its claim is that a specialised chip can beat general-purpose accelerators on the cost and efficiency of serving models.</p>",
   "as_of": "2026-09-25",
@@ -55,18 +55,6 @@
       "The $21B valuation puts a large price on a still-early hardware company. The key evidence to watch is customer deployment, software support, and production yield."
     ],
     "why_it_matters": "The $21B valuation puts a large price on a still-early hardware company. The key evidence to watch is customer deployment, software support, and production yield.",
-    "valuation_history": [
-      {
-        "value": "$5B",
-        "date": "Jan 2026",
-        "round": "Earlier reported context"
-      },
-      {
-        "value": "$21B",
-        "date": "Aug 2026",
-        "round": "$700M Series D"
-      }
-    ],
     "changed": [
       {
         "date": "Jan 2026",
@@ -111,5 +99,7 @@
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://www.etched.com"
 }

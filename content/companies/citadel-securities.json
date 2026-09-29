@@ -2,7 +2,7 @@
   "slug": "citadel-securities",
   "name": "Citadel Securities",
   "status": "Published",
-  "sector": "Financial markets",
+  "sector": "Financial Services & Digital Assets",
   "summary": "Citadel Securities is a leading market maker across equities, options, fixed income, and other electronic markets.",
   "overview": "<p>Citadel Securities is a leading market maker across equities, options, fixed income, and other electronic markets.</p>",
   "as_of": "2026-09-25",
@@ -67,18 +67,6 @@
       "The company's investment case is tied to market making and institutional trading. This profile will be refreshed when material financing, operating, or market-structure developments are publicly reported."
     ],
     "why_it_matters": "Market making and institutional trading is central to the company story. The key question is whether Citadel Securities can translate private-market momentum into a durable operating position.",
-    "valuation_history": [
-      {
-        "value": "Private",
-        "date": "2002",
-        "round": "Company founded or established"
-      },
-      {
-        "value": "$22B",
-        "date": "2026",
-        "round": "Latest reported estimate"
-      }
-    ],
     "changed": [
       {
         "date": "2002",
@@ -131,5 +119,7 @@
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://www.citadelsecurities.com"
 }

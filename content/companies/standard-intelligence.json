@@ -2,7 +2,7 @@
   "slug": "standard-intelligence",
   "name": "Standard Intelligence",
   "status": "Published",
-  "sector": "Artificial intelligence",
+  "sector": "AI & Machine Learning",
   "summary": "Standard Intelligence is tracked as a private AI company.",
   "overview": "<p>Standard Intelligence is tracked as a private AI company. Public evidence around its financing, products, and financial performance remains limited.</p>",
   "as_of": "2026-09-25",
@@ -55,18 +55,6 @@
       "The displayed value is an estimate rather than a confirmed current priced round; future updates require primary company disclosure or credible reporting."
     ],
     "why_it_matters": "The displayed value is an estimate rather than a confirmed current priced round; future updates require primary company disclosure or credible reporting.",
-    "valuation_history": [
-      {
-        "value": "N/A",
-        "date": "N/A",
-        "round": "Earlier reported context"
-      },
-      {
-        "value": "$500M",
-        "date": "2026",
-        "round": "Market-watch estimate"
-      }
-    ],
     "changed": [
       {
         "date": "N/A",
@@ -111,5 +99,7 @@
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://si.inc"
 }

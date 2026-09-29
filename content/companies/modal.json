@@ -2,7 +2,7 @@
   "slug": "modal",
   "name": "Modal",
   "status": "Published",
-  "sector": "Cloud infrastructure",
+  "sector": "Data, Cloud & Developer Tools",
   "summary": "Modal is a cloud platform for AI workloads, offering elastic compute, inference, training, batch jobs, and isolated sandboxes through code-first developer tooling.",
   "overview": "<p>Modal provides cloud infrastructure for AI developers. Its platform is built for elastic inference, training, agent runtimes, batch jobs, and sandboxed execution.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "In May 2026, Modal announced a $355 million Series C at a $4.65 billion post-money valuation. It said annualized revenue had surpassed $300 million after growing fivefold since September."
     ],
     "why_it_matters": "Modal is a signal of where value may accrue in AI infrastructure: not only in chips and model providers, but in the software layer that makes demanding workloads usable by developers.",
-    "valuation_history": [
-      {
-        "value": "$4.65B",
-        "date": "May 2026",
-        "round": "Series C"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -89,8 +82,16 @@
       ]
     ],
     "sources": [
-      {"label": "Modal: Series C announcement", "url": "https://modal.com/blog/modal-series-c"},
-      {"label": "Modal: sandbox scale update", "url": "https://modal.com/blog/scaling-to-1-million-concurrent-sandboxes-in-seconds"}
+      {
+        "label": "Modal: Series C announcement",
+        "url": "https://modal.com/blog/modal-series-c"
+      },
+      {
+        "label": "Modal: sandbox scale update",
+        "url": "https://modal.com/blog/scaling-to-1-million-concurrent-sandboxes-in-seconds"
+      }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://modal.com"
 }

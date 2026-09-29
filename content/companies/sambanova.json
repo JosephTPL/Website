@@ -2,7 +2,7 @@
   "slug": "sambanova",
   "name": "SambaNova",
   "status": "Published",
-  "sector": "Semiconductors",
+  "sector": "Hardware, Robotics & Semiconductors",
   "summary": "SambaNova designs AI chips and systems built for fast inference, and sells them as hardware, on-premises stacks and a cloud service.",
   "overview": "<p>SambaNova builds reconfigurable dataflow AI chips (RDUs) and full systems for running AI models, sold as racks, on-premises software and a cloud service.</p>",
   "as_of": "2026-09-29",
@@ -62,13 +62,6 @@
       "In July 2026 SambaNova completed a $1 billion first close of its Series F at an $11 billion post-money valuation, led by General Atlantic with BlackRock, T. Rowe Price, Intel Capital, Qatar Investment Authority and Vista. It came months after a $350 million-plus raise with an Intel partnership, and alongside a JPMorganChase deployment."
     ],
     "why_it_matters": "SambaNova is one of the main private challengers to Nvidia in AI inference, and a read-through for whether specialized chips can win share as inference spending grows.",
-    "valuation_history": [
-      {
-        "value": "$11B",
-        "date": "Jul 2026",
-        "round": "$1B Series F first close"
-      }
-    ],
     "changed": [
       {
         "date": "2017",
@@ -125,5 +118,7 @@
         "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://sambanova.ai"
 }

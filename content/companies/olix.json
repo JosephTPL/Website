@@ -2,7 +2,7 @@
   "slug": "olix",
   "name": "OLIX",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "OLIX is a UK-based AI-chip startup developing specialised inference hardware linked by a photonic interconnect.",
   "overview": "<p>OLIX is developing custom AI inference chips and a photonic interconnect intended to support high-performance AI systems. In August 2026, it announced a $312 million Series B at a $3.3 billion valuation to support first-rack delivery and custom-silicon execution.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "In August 2026, OLIX announced a $312 million Series B at a $3.3 billion valuation, following a February fundraise reported at a $1 billion valuation. The financing is intended to support silicon development, manufacturing commitments, and delivery to customers."
     ],
     "why_it_matters": "AI inference is drawing investment beyond the leading GPU supply chain. OLIX is a high-risk, high-capital example of a private company trying to build an alternative hardware stack.",
-    "valuation_history": [
-      {
-        "value": "$3.3B",
-        "date": "Aug 2026",
-        "round": "$312M Series B"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://olix.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://olix.com"
 }

@@ -2,7 +2,7 @@
   "slug": "suno",
   "name": "Suno",
   "status": "Published",
-  "sector": "AI media",
+  "sector": "Consumer, Commerce & Media",
   "summary": "Suno makes an AI music generator that creates full songs, with vocals, from a text prompt.",
   "overview": "<p>Suno develops AI models that generate complete songs, including vocals and instruments, from text prompts.</p>",
   "as_of": "2026-09-29",
@@ -62,18 +62,6 @@
       "In June 2026 Suno raised $400 million at a $5.4 billion valuation, more than double its $2.45 billion valuation from November 2025."
     ],
     "why_it_matters": "Suno is the leading test of AI-generated music as a consumer product and of how the music industry and AI companies settle copyright disputes.",
-    "valuation_history": [
-      {
-        "value": "$2.45B",
-        "date": "Nov 2025",
-        "round": "$250M Series C"
-      },
-      {
-        "value": "$5.4B",
-        "date": "Jun 2026",
-        "round": "$400M financing"
-      }
-    ],
     "changed": [
       {
         "date": "2022",
@@ -134,5 +122,7 @@
         "url": "https://www.bloomberg.com/news/articles/2026-06-03/ai-music-startup-suno-raises-capital-at-5-4-billion-valuation"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://suno.com"
 }

@@ -2,7 +2,7 @@
   "slug": "fanatics",
   "name": "Fanatics",
   "status": "Published",
-  "sector": "Sports commerce",
+  "sector": "Consumer, Commerce & Media",
   "summary": "Fanatics is a global sports platform spanning licensed merchandise, collectibles, betting and events. Its latest disclosed equity round raised about $700 million at a $31 billion valuation in December 2022.",
   "overview": "<p>Fanatics has expanded from licensed sports merchandise into trading cards and collectibles, betting and gaming, events, and a wider sports-commerce ecosystem.</p>",
   "as_of": "2026-09-28",
@@ -29,24 +29,41 @@
     "logo": "https://www.google.com/s2/favicons?domain=fanatics.com&sz=128",
     "description": "Sports-commerce platform spanning licensed merchandise, trading cards and collectibles, betting, gaming and live events.",
     "metrics": [
-      {"value": "$31B", "label": "Latest disclosed valuation", "note": "December 2022 equity round"},
-      {"value": "~$700M", "label": "Latest equity funding", "note": "December 2022"},
-      {"value": "1995", "label": "Founded", "note": "Michael Rubin acquired the business in 2011"},
-      {"value": "Private", "label": "Public status", "note": "No confirmed IPO filing"}
+      {
+        "value": "$31B",
+        "label": "Latest disclosed valuation",
+        "note": "December 2022 equity round"
+      },
+      {
+        "value": "~$700M",
+        "label": "Latest equity funding",
+        "note": "December 2022"
+      },
+      {
+        "value": "1995",
+        "label": "Founded",
+        "note": "Michael Rubin acquired the business in 2011"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO filing"
+      }
     ],
     "company": [
       "Fanatics operates licensed sports merchandise, trading cards and collectibles through Topps, betting and gaming products, and fan events. Its strategy is to connect league and athlete rights with direct fan distribution across several categories.",
       "In December 2022, Fanatics raised about $700 million at a $31 billion valuation, according to a Wall Street Journal report published by the company. Its subsequent expansion has included new collectibles partnerships and a 2026 agreement to acquire BGC assets for a prediction-market exchange."
     ],
     "why_it_matters": "Fanatics is an unusual private-company case: a consumer platform built around scarce sports rights rather than a single product category. The key question is whether the shared customer, data and licensing infrastructure produces durable cross-sell economics across commerce, collectibles and regulated gaming.",
-    "valuation_history": [
-      {"value": "$18B", "date": "Aug 2021", "round": "Funding round"},
-      {"value": "$27B", "date": "Apr 2022", "round": "Investment round"},
-      {"value": "$31B", "date": "Dec 2022", "round": "~$700M equity round"}
-    ],
     "changed": [
-      {"date": "Dec 2022", "text": "Raised about $700M at a $31B valuation, according to the Wall Street Journal."},
-      {"date": "Jul 2026", "text": "Announced an agreement to acquire a contract market and clearinghouse from BGC for a prediction-market exchange."}
+      {
+        "date": "Dec 2022",
+        "text": "Raised about $700M at a $31B valuation, according to the Wall Street Journal."
+      },
+      {
+        "date": "Jul 2026",
+        "text": "Announced an agreement to acquire a contract market and clearinghouse from BGC for a prediction-market exchange."
+      }
     ],
     "takeaways": [
       "The latest disclosed $31B valuation dates to 2022, not a current market mark.",
@@ -54,15 +71,38 @@
       "Collectibles and betting can expand the platform, but add cyclicality and regulation."
     ],
     "quick_facts": [
-      ["Founder", "Michael Rubin"],
-      ["Headquarters", "New York, New York"],
-      ["Focus", "Sports commerce and collectibles"],
-      ["Website", "fanatics.com"]
+      [
+        "Founder",
+        "Michael Rubin"
+      ],
+      [
+        "Headquarters",
+        "New York, New York"
+      ],
+      [
+        "Focus",
+        "Sports commerce and collectibles"
+      ],
+      [
+        "Website",
+        "fanatics.com"
+      ]
     ],
     "sources": [
-      {"label": "Fanatics: $31B funding-round report", "url": "https://www.fanaticsinc.com/news/the-wall-street-journal-fanatics-hits-31-billion-valuation-in-latest-funding-round"},
-      {"label": "Fanatics company history", "url": "https://www.fanaticsinc.com/our-history"},
-      {"label": "Reuters: BGC assets acquisition", "url": "https://finance.yahoo.com/markets/options/articles/fanatics-buy-bgc-group-assets-130941346.html"}
+      {
+        "label": "Fanatics: $31B funding-round report",
+        "url": "https://www.fanaticsinc.com/news/the-wall-street-journal-fanatics-hits-31-billion-valuation-in-latest-funding-round"
+      },
+      {
+        "label": "Fanatics company history",
+        "url": "https://www.fanaticsinc.com/our-history"
+      },
+      {
+        "label": "Reuters: BGC assets acquisition",
+        "url": "https://finance.yahoo.com/markets/options/articles/fanatics-buy-bgc-group-assets-130941346.html"
+      }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://fanatics.com"
 }

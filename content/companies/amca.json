@@ -2,7 +2,7 @@
   "slug": "amca",
   "name": "Amca",
   "status": "Published",
-  "sector": "Industrial technology",
+  "sector": "Energy, Climate & Industrial",
   "summary": "Amca acquires, upgrades and operates certified U.S. manufacturers of aerospace and defence components. Its $300 million May 2026 Series B valued the company above $1 billion, according to its announcement.",
   "overview": "<p>Amca is building an integrated platform for engineering, qualifying and manufacturing critical aerospace and defence components. It combines acquired certified factories with its RAPID development workflow, targeting supply-chain bottlenecks in legacy industrial capacity.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "The company announced a $300 million Series B in May 2026, led by Caffeinated Capital, at a valuation above $1 billion. Amca said it then operated six factories in California, Iowa and New York, supplying components across hydraulics, avionics and power electronics."
     ],
     "why_it_matters": "Amca is a private-market expression of the effort to rebuild domestic industrial capacity for aerospace and defence. Its ability to turn acquisitions into qualified production and repeatable customer programs is more important than its headline valuation.",
-    "valuation_history": [
-      {
-        "value": "$1B+",
-        "date": "May 2026",
-        "round": "Series B"
-      }
-    ],
     "changed": [
       {
         "date": "May 2026",
@@ -97,5 +90,7 @@
         "url": "https://www.amca.com/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://amca.com"
 }

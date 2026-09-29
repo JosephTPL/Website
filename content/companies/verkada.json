@@ -2,7 +2,7 @@
   "slug": "verkada",
   "name": "Verkada",
   "status": "Published",
-  "sector": "Physical security software",
+  "sector": "Enterprise Software & Business Services",
   "summary": "Verkada sells a cloud-managed physical-security platform that combines video cameras, access control, sensors, alarms, intercoms, and AI-powered investigation tools.",
   "overview": "<p>Verkada provides a cloud-managed physical-security platform for enterprises, schools, and other organizations. It brings video, access control, sensors, alarms, and intercoms into one software environment.</p>",
   "as_of": "2026-09-27",
@@ -61,18 +61,6 @@
       "In December 2025, Verkada said a CapitalG-led investment valued the company at $5.8 billion. The company said it had surpassed $1 billion in annualized bookings and had more than two million devices deployed across 171 countries."
     ],
     "why_it_matters": "Verkada is a test case for applying cloud software and AI to physical infrastructure rather than only digital workflows. Its scale makes it a notable private-company benchmark in security technology and enterprise hardware-enabled software.",
-    "valuation_history": [
-      {
-        "value": "Private",
-        "date": "Before IPO",
-        "round": "Private-company period"
-      },
-      {
-        "value": "$5.8B",
-        "date": "Dec 2025",
-        "round": "CapitalG-led investment"
-      }
-    ],
     "changed": [
       {
         "date": "2026",
@@ -113,5 +101,7 @@
         "url": "https://www.investing.com/news/stock-market-news/aipowered-security-firm-verkada-valued-at-58-billion-in-latest-investment-round-4388796"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://verkada.com"
 }

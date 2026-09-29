@@ -2,7 +2,7 @@
   "slug": "elevenlabs",
   "status": "Published",
   "name": "ElevenLabs",
-  "sector": "AI media",
+  "sector": "Consumer, Commerce & Media",
   "summary": "ElevenLabs builds AI voice, audio, dubbing, and conversational-agent tools for creators, developers, and enterprises.",
   "overview": "<p>ElevenLabs builds AI voice, audio, dubbing, and conversational-agent tools for creators, developers, and enterprises.</p>",
   "as_of": "2026-09-25",
@@ -56,18 +56,6 @@
       "The company raised $500 million in a Series D at an $11 billion valuation in February 2026."
     ],
     "why_it_matters": "Voice is becoming a core interface for AI agents and customer operations. ElevenLabs is a leading private-company signal for how much value can accrue to the audio and agent layer rather than the underlying foundation models alone.",
-    "valuation_history": [
-      {
-        "value": "$6.6B",
-        "date": "Sep 2025",
-        "round": "Employee tender offer"
-      },
-      {
-        "value": "$11B",
-        "date": "Feb 2026",
-        "round": "Series D, $500M"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -107,5 +95,7 @@
         "url": "https://elevenlabs.io"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://elevenlabs.io"
 }

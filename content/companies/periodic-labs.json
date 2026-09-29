@@ -2,7 +2,7 @@
   "slug": "periodic-labs",
   "name": "Periodic Labs",
   "status": "Published",
-  "sector": "AI for science",
+  "sector": "AI & Machine Learning",
   "summary": "Periodic Labs is building AI models and autonomous laboratories for scientific discovery. It emerged from stealth with a $300 million founding round in September 2025; the valuation was not disclosed.",
   "overview": "<p>Periodic Labs is building AI models and autonomous laboratories intended to accelerate scientific discovery. The company is targeting experimental science rather than general-purpose chat, combining model development with deployment in physical labs.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "The company emerged from stealth in September 2025 with a $300 million founding round led by Andreessen Horowitz. In September 2026 it announced Periodic Neon, a one-trillion-parameter model it says is post-trained on experimental results and deployed into physical labs."
     ],
     "why_it_matters": "Periodic is a test of whether frontier AI can create defensible value in scientific workflows rather than simply automate knowledge work. The important evidence will be repeatable experimental outcomes, customer demand and a credible route from research platform to commercial product.",
-    "valuation_history": [
-      {
-        "value": "$300M raised",
-        "date": "Sep 2025",
-        "round": "Seed"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -105,5 +98,7 @@
         "url": "https://periodic.com/news"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://periodiclabs.com"
 }

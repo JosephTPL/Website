@@ -2,7 +2,7 @@
   "slug": "workos",
   "name": "WorkOS",
   "status": "Published",
-  "sector": "Enterprise developer infrastructure",
+  "sector": "Data, Cloud & Developer Tools",
   "summary": "WorkOS gives software companies APIs for enterprise features such as single sign-on, directory sync, permissions, audit logs, and user management.",
   "overview": "<p>WorkOS sells developer infrastructure for adding enterprise-grade authentication, provisioning, permissions, and compliance features to software products.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "In March 2026, WorkOS announced a $100 million Series C led by Meritech and Sapphire at a $2 billion valuation. The company says it serves thousands of customers and processes billions of API requests each month."
     ],
     "why_it_matters": "WorkOS is a useful indicator of the enterprise-readiness layer behind the AI-software boom. More applications need authentication, authorization, and auditability before large organizations will adopt them.",
-    "valuation_history": [
-      {
-        "value": "$2B",
-        "date": "Mar 2026",
-        "round": "Series C"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -89,8 +82,16 @@
       ]
     ],
     "sources": [
-      {"label": "WorkOS: Series C announcement", "url": "https://workos.com/blog/series-c"},
-      {"label": "WorkOS: product overview", "url": "https://workos.com/"}
+      {
+        "label": "WorkOS: Series C announcement",
+        "url": "https://workos.com/blog/series-c"
+      },
+      {
+        "label": "WorkOS: product overview",
+        "url": "https://workos.com/"
+      }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://workos.com"
 }

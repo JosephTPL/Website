@@ -2,7 +2,7 @@
   "slug": "telegram",
   "name": "Telegram",
   "status": "Published",
-  "sector": "Consumer internet",
+  "sector": "Consumer, Commerce & Media",
   "summary": "Telegram is a global messaging platform with a growing advertising, subscription and mini-app ecosystem. It raised $1.7 billion through convertible bonds in May 2025; a $30 billion valuation has been reported as an investor reference, not a confirmed priced equity round.",
   "overview": "<p>Telegram operates a messaging platform with privacy-oriented communications, channels, advertising, subscriptions and a developer ecosystem around mini apps. It remains privately held.</p>",
   "as_of": "2026-09-28",
@@ -29,23 +29,41 @@
     "logo": "https://www.google.com/s2/favicons?domain=telegram.org&sz=128",
     "description": "Global messaging platform with advertising, subscription and mini-app monetization layers.",
     "metrics": [
-      {"value": "$30B", "label": "Reported valuation reference", "note": "Not a confirmed priced equity round"},
-      {"value": "$1.7B", "label": "Latest financing", "note": "May 2025 convertible bonds"},
-      {"value": "2013", "label": "Founded", "note": "Pavel and Nikolai Durov"},
-      {"value": "Private", "label": "Public status", "note": "No confirmed IPO filing"}
+      {
+        "value": "$30B",
+        "label": "Reported valuation reference",
+        "note": "Not a confirmed priced equity round"
+      },
+      {
+        "value": "$1.7B",
+        "label": "Latest financing",
+        "note": "May 2025 convertible bonds"
+      },
+      {
+        "value": "2013",
+        "label": "Founded",
+        "note": "Pavel and Nikolai Durov"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO filing"
+      }
     ],
     "company": [
       "Telegram is a messaging platform that combines private chats, large public channels, groups, advertising, subscriptions and a developer ecosystem built around mini apps. Its business model is evolving beyond messaging toward consumer-platform monetization.",
       "Telegram raised $1.7 billion of five-year convertible bonds in May 2025, using much of the proceeds to refinance debt due in 2026. A $30 billion valuation has been reported in connection with investor interest, but Telegram has not announced a priced equity financing at that value."
     ],
     "why_it_matters": "Telegram is a private-market test of whether a global messaging platform can build durable revenue while retaining a differentiated product and ownership model. Its path to public markets depends as much on regulation and governance as on monetizing its unusually broad user and developer base.",
-    "valuation_history": [
-      {"value": "$30B", "date": "Mar 2024", "round": "Reported investor valuation reference"},
-      {"value": "$1.7B", "date": "May 2025", "round": "Convertible bonds; not equity valuation"}
-    ],
     "changed": [
-      {"date": "Mar 2024", "text": "Pavel Durov said Telegram had received investor offers implying a valuation above $30B."},
-      {"date": "May 2025", "text": "Raised $1.7B in convertible bonds, largely refinancing existing debt."}
+      {
+        "date": "Mar 2024",
+        "text": "Pavel Durov said Telegram had received investor offers implying a valuation above $30B."
+      },
+      {
+        "date": "May 2025",
+        "text": "Raised $1.7B in convertible bonds, largely refinancing existing debt."
+      }
     ],
     "takeaways": [
       "The $30B number is a reported investor reference, not a confirmed priced equity valuation.",
@@ -53,15 +71,38 @@
       "Advertising, subscriptions and mini apps are the core monetization proof points."
     ],
     "quick_facts": [
-      ["Founder", "Pavel Durov"],
-      ["Headquarters", "Dubai, United Arab Emirates"],
-      ["Focus", "Messaging and consumer internet"],
-      ["Website", "telegram.org"]
+      [
+        "Founder",
+        "Pavel Durov"
+      ],
+      [
+        "Headquarters",
+        "Dubai, United Arab Emirates"
+      ],
+      [
+        "Focus",
+        "Messaging and consumer internet"
+      ],
+      [
+        "Website",
+        "telegram.org"
+      ]
     ],
     "sources": [
-      {"label": "Bloomberg: Telegram convertible-bond financing", "url": "https://www.bloomberg.com/news/articles/2025-05-29/telegram-raises-1-7-billion-convertible-bond-to-fund-debt-swap"},
-      {"label": "TechCrunch: Telegram bond financing", "url": "https://techcrunch.com/2024/03/18/telegram-raises-330-million-fresh-capital-through-bond-sales/"},
-      {"label": "Telegram website", "url": "https://telegram.org/"}
+      {
+        "label": "Bloomberg: Telegram convertible-bond financing",
+        "url": "https://www.bloomberg.com/news/articles/2025-05-29/telegram-raises-1-7-billion-convertible-bond-to-fund-debt-swap"
+      },
+      {
+        "label": "TechCrunch: Telegram bond financing",
+        "url": "https://techcrunch.com/2024/03/18/telegram-raises-330-million-fresh-capital-through-bond-sales/"
+      },
+      {
+        "label": "Telegram website",
+        "url": "https://telegram.org/"
+      }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://telegram.org"
 }

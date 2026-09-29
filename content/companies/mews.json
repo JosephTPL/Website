@@ -1,1 +1,106 @@
-{"slug":"mews","name":"Mews","status":"Published","sector":"Hospitality software","summary":"Mews provides a cloud operating system for hotels. Its 2024 round valued the company at $1.2 billion, and a 2026 Series D added $300 million of disclosed capital.","overview":"<p>Mews provides hotel-management software spanning property operations, payments and guest-facing workflows for hospitality businesses.</p>","as_of":"2026-09-28","facts":[{"label":"Latest disclosed financing","value":"January 2026: $300M Series D","note":"The company announced the round without a valuation.","source":"https://tools.prnewswire.com/en-us/live/20813/release/20260122EN69046"},{"label":"Latest reported valuation","value":"March 2024: $1.2B","note":"Reuters reported the valuation with a $110M financing.","source":"https://tech.yahoo.com/general/articles/software-developer-mews-valued-1-150115167.html"}],"directory_rank":126,"bull_case":"A cloud operating system can become deeply embedded across hotel operations, payments and distribution as customers consolidate point solutions.","bear_case":"Hospitality spending is cyclical, migrations are difficult and incumbents can defend distribution through existing property-management integrations.","latest_round":"January 2026: $300M Series D; valuation not disclosed","directory_notes":["Hospitality operating system","Watch payments adoption and enterprise-hotel expansion."],"intelligence":{"kicker":"COMPANY INTELLIGENCE","location":"Amsterdam, Netherlands","status":"Private","logo":"https://www.google.com/s2/favicons?domain=mews.com&sz=128","description":"Cloud operating system for hotels covering property management, payments and guest operations.","metrics":[{"value":"$1.2B","label":"Latest reported valuation","note":"March 2024 financing"},{"value":"$300M","label":"Latest funding","note":"Series D, January 2026"},{"value":"2012","label":"Founded","note":"Hospitality software"},{"value":"Private","label":"Public status","note":"No IPO filing disclosed"}],"company":["Mews sells a cloud operating system for hospitality businesses, with products across property management, payments and guest operations. The platform aims to replace legacy hotel software with a more integrated workflow.","Reuters reported a $1.2 billion valuation in Mews's March 2024 financing. The company later announced a $300 million Series D in January 2026 but did not disclose an updated valuation."],"why_it_matters":"Mews is a private-market benchmark for vertical SaaS in hospitality, where payments attachment and operational workflow depth can matter as much as seat growth. Its ability to serve larger hotel groups tests whether cloud-native systems can displace entrenched property-management software.","valuation_history":[{"value":"$1.2B","date":"Mar 2024","round":"$110M financing"}],"changed":[{"date":"Jan 2026","text":"Mews announced a $300M Series D to fund expansion and product investment."}],"takeaways":["The $1.2B figure is the latest reported valuation, not the 2026 round's valuation.","Payments are an important potential expansion lever.","Hotel software has high switching costs and a cyclical customer base."],"quick_facts":[["Founded","2012"],["Headquarters","Amsterdam"],["Focus","Hospitality operating system"],["Website","mews.com"]],"sources":[{"label":"Mews: $300M Series D announcement","url":"https://tools.prnewswire.com/en-us/live/20813/release/20260122EN69046"},{"label":"Reuters: 2024 valuation","url":"https://tech.yahoo.com/general/articles/software-developer-mews-valued-1-150115167.html"}]}}
+{
+  "slug": "mews",
+  "name": "Mews",
+  "status": "Published",
+  "sector": "Consumer, Commerce & Media",
+  "summary": "Mews provides a cloud operating system for hotels. Its 2024 round valued the company at $1.2 billion, and a 2026 Series D added $300 million of disclosed capital.",
+  "overview": "<p>Mews provides hotel-management software spanning property operations, payments and guest-facing workflows for hospitality businesses.</p>",
+  "as_of": "2026-09-28",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "January 2026: $300M Series D",
+      "note": "The company announced the round without a valuation.",
+      "source": "https://tools.prnewswire.com/en-us/live/20813/release/20260122EN69046"
+    },
+    {
+      "label": "Latest reported valuation",
+      "value": "March 2024: $1.2B",
+      "note": "Reuters reported the valuation with a $110M financing.",
+      "source": "https://tech.yahoo.com/general/articles/software-developer-mews-valued-1-150115167.html"
+    }
+  ],
+  "directory_rank": 126,
+  "bull_case": "A cloud operating system can become deeply embedded across hotel operations, payments and distribution as customers consolidate point solutions.",
+  "bear_case": "Hospitality spending is cyclical, migrations are difficult and incumbents can defend distribution through existing property-management integrations.",
+  "latest_round": "January 2026: $300M Series D; valuation not disclosed",
+  "directory_notes": [
+    "Hospitality operating system",
+    "Watch payments adoption and enterprise-hotel expansion."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Amsterdam, Netherlands",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=mews.com&sz=128",
+    "description": "Cloud operating system for hotels covering property management, payments and guest operations.",
+    "metrics": [
+      {
+        "value": "$1.2B",
+        "label": "Latest reported valuation",
+        "note": "March 2024 financing"
+      },
+      {
+        "value": "$300M",
+        "label": "Latest funding",
+        "note": "Series D, January 2026"
+      },
+      {
+        "value": "2012",
+        "label": "Founded",
+        "note": "Hospitality software"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No IPO filing disclosed"
+      }
+    ],
+    "company": [
+      "Mews sells a cloud operating system for hospitality businesses, with products across property management, payments and guest operations. The platform aims to replace legacy hotel software with a more integrated workflow.",
+      "Reuters reported a $1.2 billion valuation in Mews's March 2024 financing. The company later announced a $300 million Series D in January 2026 but did not disclose an updated valuation."
+    ],
+    "why_it_matters": "Mews is a private-market benchmark for vertical SaaS in hospitality, where payments attachment and operational workflow depth can matter as much as seat growth. Its ability to serve larger hotel groups tests whether cloud-native systems can displace entrenched property-management software.",
+    "changed": [
+      {
+        "date": "Jan 2026",
+        "text": "Mews announced a $300M Series D to fund expansion and product investment."
+      }
+    ],
+    "takeaways": [
+      "The $1.2B figure is the latest reported valuation, not the 2026 round's valuation.",
+      "Payments are an important potential expansion lever.",
+      "Hotel software has high switching costs and a cyclical customer base."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2012"
+      ],
+      [
+        "Headquarters",
+        "Amsterdam"
+      ],
+      [
+        "Focus",
+        "Hospitality operating system"
+      ],
+      [
+        "Website",
+        "mews.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Mews: $300M Series D announcement",
+        "url": "https://tools.prnewswire.com/en-us/live/20813/release/20260122EN69046"
+      },
+      {
+        "label": "Reuters: 2024 valuation",
+        "url": "https://tech.yahoo.com/general/articles/software-developer-mews-valued-1-150115167.html"
+      }
+    ]
+  },
+  "company_status": "private",
+  "website": "https://mews.com"
+}

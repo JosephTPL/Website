@@ -2,7 +2,7 @@
   "slug": "aven",
   "name": "Aven",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Aven offers a home-equity-backed credit card designed to lower the cost of revolving consumer credit.",
   "overview": "<p>Aven offers a home-equity-backed credit card designed to lower the cost of revolving consumer credit.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "The company announced a $110 million Series E at a $2.2 billion valuation in September 2025."
     ],
     "why_it_matters": "Aven sits at the intersection of consumer credit, home equity, and fintech underwriting. Its model is a useful indicator of whether private lenders can use household balance sheets to compete with conventional card economics.",
-    "valuation_history": [
-      {
-        "value": "$2.2B",
-        "date": "Sep 2025",
-        "round": "Series E, $110M"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://www.aven.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://www.aven.com"
 }

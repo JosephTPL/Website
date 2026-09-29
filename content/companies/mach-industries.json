@@ -2,7 +2,7 @@
   "slug": "mach-industries",
   "name": "Mach Industries",
   "status": "Published",
-  "sector": "Defence technology",
+  "sector": "Defense, Aerospace & Space",
   "summary": "Mach Industries develops defence hardware and manufacturing capacity. It raised an additional $600 million in a September 2026 Series C continuation at a $3.7 billion valuation.",
   "overview": "<p>Mach Industries is a defence-technology company focused on building and scaling manufacturing capacity for modern defence systems. Its financing supports a broader push to accelerate defence production.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "In September 2026, Mach announced an additional $600 million Series C continuation at a $3.7 billion valuation to scale defence manufacturing."
     ],
     "why_it_matters": "Mach reflects the push to add venture-backed capacity to defence manufacturing. Contract wins and sustained production are the critical next evidence, not financing alone.",
-    "valuation_history": [
-      {
-        "value": "$3.7B",
-        "date": "Sep 2026",
-        "round": "$600M Series C continuation"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://machindustries.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://machindustries.com"
 }

@@ -2,7 +2,7 @@
   "slug": "safe-superintelligence",
   "status": "Published",
   "name": "Safe Superintelligence",
-  "sector": "Artificial intelligence",
+  "sector": "AI & Machine Learning",
   "summary": "Safe Superintelligence is Ilya Sutskever's research lab focused solely on developing safe superintelligent AI systems.",
   "overview": "<p>Safe Superintelligence is a research-first AI lab founded by Ilya Sutskever, Daniel Gross, and Daniel Levy.</p>",
   "as_of": "2026-09-25",
@@ -56,23 +56,6 @@
       "That focus has made the company an unusually concentrated talent-and-compute vehicle. The NVIDIA partnership announced in July 2026 gives SSI access to the Vera Rubin platform and, according to the companies, aims to increase available compute by an order of magnitude."
     ],
     "why_it_matters": "SSI demonstrates how capital is pricing frontier-AI research organizations before commercial monetization. Its structure is an important contrast with product-led labs: the upside rests on breakthrough capability and alignment work, while conventional revenue evidence is absent.",
-    "valuation_history": [
-      {
-        "value": "$5B",
-        "date": "Sep 2024",
-        "round": "$1B financing"
-      },
-      {
-        "value": "$32B",
-        "date": "Feb 2025",
-        "round": "$2B financing"
-      },
-      {
-        "value": "Undisclosed",
-        "date": "Jul 2026",
-        "round": "NVIDIA strategic investment"
-      }
-    ],
     "changed": [
       {
         "date": "2024",
@@ -133,5 +116,7 @@
         "url": "https://ssi.inc/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://ssi.inc"
 }

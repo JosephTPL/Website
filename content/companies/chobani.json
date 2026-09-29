@@ -2,7 +2,7 @@
   "slug": "chobani",
   "name": "Chobani",
   "status": "Published",
-  "sector": "Consumer goods",
+  "sector": "Consumer, Commerce & Media",
   "summary": "Chobani has expanded from Greek yogurt into creamers, oat milk, ready-to-drink coffee, and other food categories.",
   "overview": "<p>Chobani has expanded from Greek yogurt into creamers, oat milk, ready-to-drink coffee, and other food categories. The business pairs a powerful consumer brand with a large manufacturing footprint.</p>",
   "as_of": "2026-09-25",
@@ -55,18 +55,6 @@
       "The fresh equity capital supports production expansion. The key question is whether Chobani can maintain growth and brand pricing while managing input costs and category competition."
     ],
     "why_it_matters": "The fresh equity capital supports production expansion. The key question is whether Chobani can maintain growth and brand pricing while managing input costs and category competition.",
-    "valuation_history": [
-      {
-        "value": "$10B+",
-        "date": "2021 IPO filing context",
-        "round": "Earlier reported context"
-      },
-      {
-        "value": "$20B",
-        "date": "Oct 2025",
-        "round": "$650M equity capital"
-      }
-    ],
     "changed": [
       {
         "date": "2021 IPO filing context",
@@ -111,5 +99,7 @@
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://www.chobani.com"
 }

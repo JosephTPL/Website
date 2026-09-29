@@ -2,7 +2,7 @@
   "slug": "pangram-labs",
   "name": "Pangram Labs",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Pangram Labs develops tools intended to identify AI-generated writing.",
   "overview": "<p>Pangram Labs develops AI-detection software for text and images. Its July 2026 financing was intended to improve text-detection accuracy and expand the product into other media, beginning with images.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "SiliconANGLE reported a $9M financing led by Menlo Ventures in July 2026, bringing reported total funding to almost $13M. The company did not disclose a valuation."
     ],
     "why_it_matters": "As synthetic media becomes more prevalent, credible detection can become part of editorial, academic and enterprise-control workflows. Pangram's durability depends on independently robust performance as generation models evolve.",
-    "valuation_history": [
-      {
-        "value": "$9M raised",
-        "date": "Jul 2026",
-        "round": "Financing"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -98,5 +91,7 @@
         "url": "https://pangram.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://pangram.com"
 }

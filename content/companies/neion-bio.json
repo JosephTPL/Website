@@ -2,7 +2,7 @@
   "slug": "neion-bio",
   "name": "Neion Bio",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Neion Bio uses genetic engineering to turn chicken eggs into production systems for complex biologic medicines.",
   "overview": "<p>Neion Bio is developing an egg-based biomanufacturing platform for biologics and biosimilars. It announced an oversubscribed $23 million Series A in June 2026, led by Caffeinated Capital, without a disclosed valuation.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "In June 2026, Neion announced an oversubscribed $23 million Series A led by Caffeinated Capital. It said the financing followed emergence from stealth and a commercial co-development and supply agreement with a major pharmaceutical company."
     ],
     "why_it_matters": "Biologics manufacturing is expensive and capacity constrained. Neion's egg-based approach is a distinctive attempt to lower cost and shorten iteration cycles, but its value depends on scientific validation, regulatory progress and real commercial supply.",
-    "valuation_history": [
-      {
-        "value": "$23M raised",
-        "date": "Jun 2026",
-        "round": "Series A"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -98,5 +91,7 @@
         "url": "https://neionbio.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://neionbio.com"
 }

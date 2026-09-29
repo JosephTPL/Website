@@ -2,7 +2,7 @@
   "slug": "whop",
   "name": "Whop",
   "status": "Published",
-  "sector": "Commerce infrastructure",
+  "sector": "Consumer, Commerce & Media",
   "summary": "Whop is an internet commerce platform that lets individuals and businesses create storefronts, accept payments, and sell digital products, memberships, and services.",
   "overview": "<p>Whop provides commerce infrastructure for internet businesses. Its platform combines storefronts, payments, communities, and tools for selling digital products and services.</p>",
   "as_of": "2026-09-27",
@@ -61,18 +61,6 @@
       "In December 2025, Whop announced a $200 million strategic investment from Tether at a $1.6 billion valuation. Whop says more than $4.6 billion has been paid to businesses through its platform."
     ],
     "why_it_matters": "Whop sits where payments, digital commerce, and creator tools overlap. Its ability to aggregate merchant activity makes it a relevant private-market signal for the economics of online entrepreneurship and payments infrastructure.",
-    "valuation_history": [
-      {
-        "value": "Private",
-        "date": "Before IPO",
-        "round": "Private-company period"
-      },
-      {
-        "value": "$1.6B",
-        "date": "Dec 2025",
-        "round": "Strategic investment"
-      }
-    ],
     "changed": [
       {
         "date": "2026",
@@ -113,5 +101,7 @@
         "url": "https://newsroom.whop.com/about/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://whop.com"
 }

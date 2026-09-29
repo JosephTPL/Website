@@ -2,7 +2,7 @@
   "slug": "tennet-germany",
   "status": "Published",
   "name": "TenneT Germany",
-  "sector": "Energy infrastructure",
+  "sector": "Energy, Climate & Industrial",
   "summary": "TenneT Germany operates Germany's largest high-voltage electricity-transmission grid, a critical link for renewables, industry, and data centres.",
   "overview": "<p>TenneT Germany owns and operates a high-voltage transmission network across central Germany.</p>",
   "as_of": "2026-09-25",
@@ -56,23 +56,6 @@
       "Its ownership structure shifted in 2025 and 2026. APG, Norges Bank Investment Management, and GIC agreed to invest €9.5B for up to 46%, while KfW acquired 25.1% on behalf of the German federal government. Those transactions are funding and governance events, not conventional equity rounds."
     ],
     "why_it_matters": "Power availability is a hard constraint on new data centres, industrial electrification, renewable integration, and ultimately AI-compute expansion. TenneT Germany is a useful window into the long-duration infrastructure capital required behind those themes.",
-    "valuation_history": [
-      {
-        "value": "~€22B",
-        "date": "2023",
-        "round": "Earlier state-sale discussion"
-      },
-      {
-        "value": "~€40B",
-        "date": "Sep 2025",
-        "round": "Implied transaction enterprise value"
-      },
-      {
-        "value": "25.1%",
-        "date": "Jul 2026",
-        "round": "KfW ownership completed"
-      }
-    ],
     "changed": [
       {
         "date": "2025",
@@ -133,5 +116,7 @@
         "url": "https://www.tennet.eu/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://tennet.eu"
 }

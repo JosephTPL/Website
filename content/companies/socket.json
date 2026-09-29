@@ -2,7 +2,7 @@
   "slug": "socket",
   "name": "Socket",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Socket is a developer-first security platform that analyzes open-source dependencies for malicious behavior and software supply-chain risk before they reach production.",
   "overview": "<p>Socket helps engineering teams identify malicious or risky open-source packages before those dependencies enter production. It announced a $60 million Series C at a $1 billion valuation in May 2026, led by Thrive Capital, after earlier seed, Series A, and Series B financings.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "The company raised a $60 million Series C at a $1 billion valuation in May 2026, led by Thrive Capital. Socket said the financing brought total funding to $125 million and would support its next phase of growth as AI changes software-development workflows."
     ],
     "why_it_matters": "The expansion of AI coding tools increases the volume of open-source code flowing into production environments. Socket is a direct private-market bet on the security layer needed to manage that change.",
-    "valuation_history": [
-      {
-        "value": "$1B",
-        "date": "May 2026",
-        "round": "$60M Series C"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://socket.dev"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://socket.dev"
 }

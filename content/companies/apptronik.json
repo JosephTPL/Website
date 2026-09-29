@@ -2,7 +2,7 @@
   "slug": "apptronik",
   "name": "Apptronik",
   "status": "Published",
-  "sector": "Robotics",
+  "sector": "Hardware, Robotics & Semiconductors",
   "summary": "Apptronik builds Apollo, a general-purpose humanoid robot aimed at manufacturing and logistics, with backing from Google and Mercedes-Benz.",
   "overview": "<p>Apptronik designs and manufactures Apollo, a humanoid robot built for factory and warehouse work.</p>",
   "as_of": "2026-09-29",
@@ -62,13 +62,6 @@
       "In February 2026 Apptronik raised $520 million at a $5.5 billion valuation, led by Google, Mercedes-Benz and B Capital, with AT&T Ventures, John Deere and Qatar Investment Authority joining. That followed a $415 million raise in February 2025."
     ],
     "why_it_matters": "Apptronik is one of the leading U.S. humanoid-robot makers and a read-through for whether humanoids move from pilots into real factory deployments.",
-    "valuation_history": [
-      {
-        "value": "$5.5B",
-        "date": "Feb 2026",
-        "round": "$520M financing"
-      }
-    ],
     "changed": [
       {
         "date": "2016",
@@ -125,5 +118,7 @@
         "url": "https://www.cnbc.com/2026/02/11/apptronik-raises-520-million-at-5-billion-valuation-for-apollo-robot.html"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://apptronik.com"
 }

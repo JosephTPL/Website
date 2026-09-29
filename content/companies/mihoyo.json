@@ -2,7 +2,7 @@
   "slug": "mihoyo",
   "name": "miHoYo",
   "status": "Published",
-  "sector": "Gaming",
+  "sector": "Consumer, Commerce & Media",
   "summary": "miHoYo develops and publishes globally distributed games, including Genshin Impact and Honkai: Star Rail.",
   "overview": "<p>miHoYo develops and publishes globally distributed games, including Genshin Impact and Honkai: Star Rail.</p>",
   "as_of": "2026-09-25",
@@ -67,18 +67,6 @@
       "The company's investment case is tied to live-service games and intellectual property. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
     ],
     "why_it_matters": "Its success shows how a private studio can build enduring global franchises through content cadence and direct player relationships.",
-    "valuation_history": [
-      {
-        "value": "Private",
-        "date": "2011",
-        "round": "Company founded"
-      },
-      {
-        "value": "$23B",
-        "date": "2026",
-        "round": "Latest reported estimate"
-      }
-    ],
     "changed": [
       {
         "date": "2011",
@@ -131,5 +119,7 @@
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://www.mihoyo.com"
 }

@@ -2,7 +2,7 @@
   "slug": "fireworks-ai",
   "name": "Fireworks AI",
   "status": "Published",
-  "sector": "Artificial intelligence",
+  "sector": "AI & Machine Learning",
   "summary": "Fireworks AI provides infrastructure for developers to run, fine-tune, and deploy generative models.",
   "overview": "<p>Fireworks AI provides infrastructure for developers to run, fine-tune, and deploy generative models. It is positioned between model providers and the applications that need production inference.</p>",
   "as_of": "2026-09-25",
@@ -55,18 +55,6 @@
       "Its value depends on whether developer tooling and serving infrastructure retain a differentiated role as models and cloud platforms commoditise."
     ],
     "why_it_matters": "Its value depends on whether developer tooling and serving infrastructure retain a differentiated role as models and cloud platforms commoditise.",
-    "valuation_history": [
-      {
-        "value": "$4B",
-        "date": "2025 reported estimate",
-        "round": "Earlier reported context"
-      },
-      {
-        "value": "$17.5B",
-        "date": "2026",
-        "round": "Reported financing context"
-      }
-    ],
     "changed": [
       {
         "date": "2025 reported estimate",
@@ -111,5 +99,7 @@
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://fireworks.ai"
 }

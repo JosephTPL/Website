@@ -2,7 +2,7 @@
   "slug": "revel",
   "name": "Revel",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Revel develops software for testing, operating, and controlling hardware in aerospace, energy, and advanced-manufacturing environments.",
   "overview": "<p>Revel provides a modern software layer for high-consequence hardware testing and control. It announced a $150 million Series B led by Index Ventures in February 2026; the company described the round as valuing Revel at more than $1 billion.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "The company announced a $150 million Series B led by Index Ventures in February 2026. Revel's newsroom described the financing as a $1 billion-plus valuation milestone, though the round announcement did not state a precise valuation."
     ],
     "why_it_matters": "As aerospace, defense, energy, and advanced manufacturing attract capital, the software systems used to test and operate hardware can become valuable infrastructure. Revel is a private-market read-through on that tooling layer.",
-    "valuation_history": [
-      {
-        "value": "$150M raised",
-        "date": "Feb 2026",
-        "round": "Series B"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://revel.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://revel.com"
 }

@@ -2,7 +2,7 @@
   "slug": "rogo",
   "name": "Rogo",
   "status": "Published",
-  "sector": "Financial AI",
+  "sector": "Financial Services & Digital Assets",
   "summary": "Rogo builds an agentic AI platform for financial-services professionals. It raised $160 million in an April 2026 Series D at a reported $2 billion valuation.",
   "overview": "<p>Rogo provides AI tools for financial institutions and professionals, targeting research, analysis and workflow automation. The company is competing for adoption in a high-value, tightly regulated enterprise market.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "The company announced a $160 million Series D in April 2026 to scale the platform. A $2 billion valuation was reported alongside the financing and is labelled as reported context in this profile."
     ],
     "why_it_matters": "Rogo is a direct private-market test of whether vertical AI can earn durable financial-institution budgets. Enterprise retention, accuracy and secure deployment are more meaningful indicators than its reported valuation alone.",
-    "valuation_history": [
-      {
-        "value": "$2B",
-        "date": "Apr 2026",
-        "round": "$160M Series D"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -101,5 +94,7 @@
         "url": "https://rogo.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://rogo.com"
 }

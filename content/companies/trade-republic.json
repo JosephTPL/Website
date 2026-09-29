@@ -2,7 +2,7 @@
   "slug": "trade-republic",
   "name": "Trade Republic",
   "status": "Published",
-  "sector": "Fintech",
+  "sector": "Financial Services & Digital Assets",
   "summary": "Trade Republic is a Berlin-based investing app and bank offering low-cost stock, ETF and crypto trading and savings accounts across Europe.",
   "overview": "<p>Trade Republic is a European broker and fully licensed bank offering stocks, ETFs, crypto, private-market products and savings accounts through a mobile app.</p>",
   "as_of": "2026-09-29",
@@ -62,18 +62,6 @@
       "In a €1.2 billion secondary share sale completed around the turn of 2026, investors including Founders Fund, Fidelity, GIC and Wellington bought shares at a €12.5 billion valuation, up from €5 billion in 2022. The company says it has been profitable for three years and does not need new capital."
     ],
     "why_it_matters": "Trade Republic is Europe's leading retail-investing platform and a read-through for the shift of European savings into markets, and for how Robinhood-style businesses are valued in Europe.",
-    "valuation_history": [
-      {
-        "value": "€5B",
-        "date": "Jun 2022",
-        "round": "Series C extension"
-      },
-      {
-        "value": "€12.5B",
-        "date": "Dec 2025",
-        "round": "€1.2B secondary sale"
-      }
-    ],
     "changed": [
       {
         "date": "2015",
@@ -130,5 +118,7 @@
         "url": "https://www.fintechfutures.com/venture-capital-funding/trade-republic-hits-12-5bn-valuation-following-1-2bn-secondary-share-sale"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://traderepublic.com"
 }

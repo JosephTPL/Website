@@ -2,7 +2,7 @@
   "slug": "xdof",
   "name": "XDOF",
   "status": "Published",
-  "sector": "Robotics",
+  "sector": "Hardware, Robotics & Semiconductors",
   "summary": "XDOF builds teleoperation-data pipelines and annotation systems for training general-purpose robots. It raised $70 million in June 2026, while a later $1.2 billion valuation was only reported as financing talks.",
   "overview": "<p>XDOF builds data pipelines, collection tools and annotation systems for training general-purpose robots. TechCrunch reported a $70M Series A in June 2026; later reporting of a $1.2B valuation described financing talks, not a completed round.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "TechCrunch reported a $70M Series A in June 2026 and said annualized revenue was approaching $50M with 20 customers, including frontier AI labs. It separately reported that a Series B at about $1.2B was under discussion, not final."
     ],
     "why_it_matters": "Robotics needs real-world training data that the internet cannot supply. XDOF is positioned as a data-supply-chain provider for physical AI, where collection quality and operational scale may be more valuable than a single robot product.",
-    "valuation_history": [
-      {
-        "value": "$70M",
-        "date": "Jun 2026",
-        "round": "Series A"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://xdof.ai"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://xdof.ai"
 }

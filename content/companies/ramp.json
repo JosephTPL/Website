@@ -2,7 +2,7 @@
   "slug": "ramp",
   "status": "Published",
   "name": "Ramp",
-  "sector": "Fintech",
+  "sector": "Financial Services & Digital Assets",
   "summary": "Ramp provides corporate cards and finance-operations software for spend, payables, travel, and procurement.",
   "overview": "<p>Ramp combines payments, expense management, accounts payable, procurement, and automation into a finance-operations platform.</p>",
   "as_of": "2026-09-25",
@@ -56,28 +56,6 @@
       "The June 2026 Series F followed a fast step-up in private-market valuation. Ramp said the capital would support further investment in AI-powered financial operations, while its disclosed annualized revenue and free-cash-flow status make it one of the more mature software-led fintechs in the private market."
     ],
     "why_it_matters": "Ramp is a useful read-through on whether the next generation of fintech winners capture a broad finance workflow or remain dependent on interchange and card spend. It competes for budgets with legacy expense tools, payments companies, ERPs, and newer AI finance products.",
-    "valuation_history": [
-      {
-        "value": "$8.1B",
-        "date": "Mar 2024",
-        "round": "Series D extension"
-      },
-      {
-        "value": "$13B",
-        "date": "Mar 2025",
-        "round": "Funding round"
-      },
-      {
-        "value": "$32B",
-        "date": "Nov 2025",
-        "round": "Reported financing"
-      },
-      {
-        "value": "$44B",
-        "date": "Jun 2026",
-        "round": "$750M Series F"
-      }
-    ],
     "changed": [
       {
         "date": "2024",
@@ -138,5 +116,7 @@
         "url": "https://ramp.com/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://ramp.com"
 }

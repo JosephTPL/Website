@@ -2,30 +2,123 @@
   "slug": "faire",
   "name": "Faire",
   "status": "Published",
-  "sector": "B2B marketplace",
+  "sector": "Consumer, Commerce & Media",
   "summary": "Faire operates a wholesale marketplace connecting independent retailers with brands, using software and financing to modernize local retail purchasing.",
   "overview": "<p>Faire is a wholesale marketplace for independent retailers and brands. It combines product discovery, ordering, payment terms, and software intended to make local retail purchasing more efficient.</p>",
   "as_of": "2026-09-29",
   "report": "",
   "facts": [
-    {"label": "Reported valuation", "value": "$12.4B", "note": "November 2021 Series G.", "source": "https://www.businesswire.com/news/home/20211116005386/en/Faire-Valuation-Grows-to-12.4-Billion-With-400-Million-Series-G-Funding-Round-Co-Led-by-Durable-Capital-Partners-LP"},
-    {"label": "Latest disclosed financing", "value": "$400M Series G", "note": "Company-announced November 2021 round.", "source": "https://www.businesswire.com/news/home/20211116005386/en/Faire-Valuation-Grows-to-12.4-Billion-With-400-Million-Series-G-Funding-Round-Co-Led-by-Durable-Capital-Partners-LP"}
+    {
+      "label": "Reported valuation",
+      "value": "$12.4B",
+      "note": "November 2021 Series G.",
+      "source": "https://www.businesswire.com/news/home/20211116005386/en/Faire-Valuation-Grows-to-12.4-Billion-With-400-Million-Series-G-Funding-Round-Co-Led-by-Durable-Capital-Partners-LP"
+    },
+    {
+      "label": "Latest disclosed financing",
+      "value": "$400M Series G",
+      "note": "Company-announced November 2021 round.",
+      "source": "https://www.businesswire.com/news/home/20211116005386/en/Faire-Valuation-Grows-to-12.4-Billion-With-400-Million-Series-G-Funding-Round-Co-Led-by-Durable-Capital-Partners-LP"
+    }
   ],
   "directory_rank": 38,
   "bull_case": "A scaled wholesale network can compound through retailer demand, brand supply, transaction data, and embedded financial services.",
   "bear_case": "Wholesale demand is cyclical, and a large marketplace must maintain liquidity and disciplined unit economics across many small merchants.",
   "latest_round": "November 2021: $400M Series G at a reported $12.4B valuation",
-  "directory_notes": ["Independent retailer activity and repeat ordering.", "Marketplace liquidity, payment terms, and contribution margins."],
+  "directory_notes": [
+    "Independent retailer activity and repeat ordering.",
+    "Marketplace liquidity, payment terms, and contribution margins."
+  ],
   "intelligence": {
-    "kicker": "COMPANY INTELLIGENCE", "location": "San Francisco, California", "status": "Private", "logo": "https://www.google.com/s2/favicons?domain=faire.com&sz=128",
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "San Francisco, California",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=faire.com&sz=128",
     "description": "Faire operates a digital wholesale marketplace for independent retailers and brands, combining discovery, ordering, payment terms, and merchant tools.",
-    "metrics": [{"value":"$12.4B","label":"Reported valuation","note":"November 2021 Series G"},{"value":"$400M","label":"Latest disclosed financing","note":"Series G"},{"value":"$1B+","label":"Total funding","note":"Company reported in 2021"},{"value":"Private","label":"Public status","note":"No confirmed IPO"}],
-    "company": ["Faire connects independent retailers with brands through a wholesale marketplace designed to replace manual product discovery and ordering. The platform also offers payment terms and software, making its commercial model broader than a simple product catalogue.", "The company announced a $400 million Series G in November 2021 at a $12.4 billion valuation. Its long-term thesis is that small retailers can gain a more efficient buying workflow while brands receive a scalable distribution channel outside traditional trade-show and sales-representative models."],
+    "metrics": [
+      {
+        "value": "$12.4B",
+        "label": "Reported valuation",
+        "note": "November 2021 Series G"
+      },
+      {
+        "value": "$400M",
+        "label": "Latest disclosed financing",
+        "note": "Series G"
+      },
+      {
+        "value": "$1B+",
+        "label": "Total funding",
+        "note": "Company reported in 2021"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
+    ],
+    "company": [
+      "Faire connects independent retailers with brands through a wholesale marketplace designed to replace manual product discovery and ordering. The platform also offers payment terms and software, making its commercial model broader than a simple product catalogue.",
+      "The company announced a $400 million Series G in November 2021 at a $12.4 billion valuation. Its long-term thesis is that small retailers can gain a more efficient buying workflow while brands receive a scalable distribution channel outside traditional trade-show and sales-representative models."
+    ],
     "why_it_matters": "Faire is a useful private-market test of whether vertical marketplaces can become durable commerce infrastructure. Its results reflect the health of independent retail, merchant software adoption, and the economics of extending credit around marketplace transactions.",
-    "valuation_history": [{"value":"$7B","date":"Jun 2021","round":"Series F"},{"value":"$12.4B","date":"Nov 2021","round":"$400M Series G"}],
-    "changed": [{"date":"2017","text":"Faire is founded to modernize wholesale purchasing for independent retailers."},{"date":"Jun 2021","text":"A Series F round values the company at $7B."},{"date":"Nov 2021","text":"The company announces $400M of Series G funding at a $12.4B valuation."}],
-    "takeaways": ["Faire needs both retailer demand and brand supply to remain liquid across categories.", "Payment terms can strengthen retention but introduce credit and balance-sheet considerations.", "Its reported valuation was set in 2021, so it should not be treated as a live market price.", "The core question is whether software and transaction services deepen the marketplace's defensibility."],
-    "quick_facts": [["Founded","2017"],["Headquarters","San Francisco, California"],["Co-founder and CEO","Max Rhodes"],["Focus","Wholesale marketplace"],["Website","faire.com"],["Public status","Private"]],
-    "sources": [{"label":"Faire Series G announcement","url":"https://www.businesswire.com/news/home/20211116005386/en/Faire-Valuation-Grows-to-12.4-Billion-With-400-Million-Series-G-Funding-Round-Co-Led-by-Durable-Capital-Partners-LP"},{"label":"Faire website","url":"https://www.faire.com/"}]
-  }
+    "changed": [
+      {
+        "date": "2017",
+        "text": "Faire is founded to modernize wholesale purchasing for independent retailers."
+      },
+      {
+        "date": "Jun 2021",
+        "text": "A Series F round values the company at $7B."
+      },
+      {
+        "date": "Nov 2021",
+        "text": "The company announces $400M of Series G funding at a $12.4B valuation."
+      }
+    ],
+    "takeaways": [
+      "Faire needs both retailer demand and brand supply to remain liquid across categories.",
+      "Payment terms can strengthen retention but introduce credit and balance-sheet considerations.",
+      "Its reported valuation was set in 2021, so it should not be treated as a live market price.",
+      "The core question is whether software and transaction services deepen the marketplace's defensibility."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2017"
+      ],
+      [
+        "Headquarters",
+        "San Francisco, California"
+      ],
+      [
+        "Co-founder and CEO",
+        "Max Rhodes"
+      ],
+      [
+        "Focus",
+        "Wholesale marketplace"
+      ],
+      [
+        "Website",
+        "faire.com"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Faire Series G announcement",
+        "url": "https://www.businesswire.com/news/home/20211116005386/en/Faire-Valuation-Grows-to-12.4-Billion-With-400-Million-Series-G-Funding-Round-Co-Led-by-Durable-Capital-Partners-LP"
+      },
+      {
+        "label": "Faire website",
+        "url": "https://www.faire.com/"
+      }
+    ]
+  },
+  "company_status": "private",
+  "website": "https://faire.com"
 }

@@ -2,7 +2,7 @@
   "slug": "groq",
   "status": "Published",
   "name": "Groq",
-  "sector": "AI hardware",
+  "sector": "Hardware, Robotics & Semiconductors",
   "summary": "Inference-chip company pursuing lower-latency, lower-cost AI serving.",
   "overview": "<p>Groq designs hardware and cloud services optimized for AI inference.</p>",
   "as_of": "2026-09-28",
@@ -24,14 +24,81 @@
     "cost-per-token advantage."
   ],
   "intelligence": {
-    "kicker":"Company intelligence","location":"Mountain View, California","status":"Private","logo":"https://www.google.com/s2/favicons?domain=groq.com&sz=128","description":"Groq operates an AI inference cloud built around its low-latency Language Processing Unit technology.",
-    "metrics":[{"value":"$3.5B","label":"Reported valuation","note":"August 2026 growth round"},{"value":"$350M","label":"Latest funding","note":"August 2026 growth round"},{"value":"Private","label":"Public status","note":"Independent after NVIDIA agreement"}],
-    "company":["Groq originally developed specialized hardware for fast, low-cost AI inference and later expanded into a global cloud service.","In December 2025 it entered a non-exclusive technology licensing agreement with NVIDIA while continuing to operate independently under new leadership."],
-    "why_it_matters":"Groq is a rare case study in how a private AI infrastructure company can monetize technology without a full acquisition. The structure matters for founders and investors across inference, chips and cloud infrastructure.",
-    "valuation_history":[{"value":"$2.8B","date":"2024","round":"Series D"},{"value":"$6.9B","date":"2025","round":"Funding round"},{"value":"$3.5B","date":"2026","round":"Growth round"}],
-    "changed":[{"date":"2025","text":"Licensed inference technology to NVIDIA on a non-exclusive basis; the company remained independent."},{"date":"2026","text":"Raised $350M to expand its AI-inference cloud, with TechCrunch reporting a $3.5B valuation."}],
-    "takeaways":["The NVIDIA agreement validates inference as a strategic bottleneck.","GroqCloud remains a separate operating business after the licensing deal.","The August 2026 round established a reported $3.5B valuation for the post-licensing company."],
-    "quick_facts":[{"label":"Founded","value":"2016"},{"label":"Headquarters","value":"Mountain View, CA"},{"label":"CEO","value":"Simon Edwards"},{"label":"Website","value":"groq.com"}],
-    "sources":[{"label":"TechCrunch: Groq $350M growth round at reported $3.5B valuation","url":"https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/"},{"label":"Groq June 2026 funding announcement","url":"https://groq.com/newsroom/groq-raises-usd650m-to-scale-its-ai-inference-cloud-business"},{"label":"Groq NVIDIA licensing announcement","url":"https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale"}]
-  }
+    "kicker": "Company intelligence",
+    "location": "Mountain View, California",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=groq.com&sz=128",
+    "description": "Groq operates an AI inference cloud built around its low-latency Language Processing Unit technology.",
+    "metrics": [
+      {
+        "value": "$3.5B",
+        "label": "Reported valuation",
+        "note": "August 2026 growth round"
+      },
+      {
+        "value": "$350M",
+        "label": "Latest funding",
+        "note": "August 2026 growth round"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "Independent after NVIDIA agreement"
+      }
+    ],
+    "company": [
+      "Groq originally developed specialized hardware for fast, low-cost AI inference and later expanded into a global cloud service.",
+      "In December 2025 it entered a non-exclusive technology licensing agreement with NVIDIA while continuing to operate independently under new leadership."
+    ],
+    "why_it_matters": "Groq is a rare case study in how a private AI infrastructure company can monetize technology without a full acquisition. The structure matters for founders and investors across inference, chips and cloud infrastructure.",
+    "changed": [
+      {
+        "date": "2025",
+        "text": "Licensed inference technology to NVIDIA on a non-exclusive basis; the company remained independent."
+      },
+      {
+        "date": "2026",
+        "text": "Raised $350M to expand its AI-inference cloud, with TechCrunch reporting a $3.5B valuation."
+      }
+    ],
+    "takeaways": [
+      "The NVIDIA agreement validates inference as a strategic bottleneck.",
+      "GroqCloud remains a separate operating business after the licensing deal.",
+      "The August 2026 round established a reported $3.5B valuation for the post-licensing company."
+    ],
+    "quick_facts": [
+      {
+        "label": "Founded",
+        "value": "2016"
+      },
+      {
+        "label": "Headquarters",
+        "value": "Mountain View, CA"
+      },
+      {
+        "label": "CEO",
+        "value": "Simon Edwards"
+      },
+      {
+        "label": "Website",
+        "value": "groq.com"
+      }
+    ],
+    "sources": [
+      {
+        "label": "TechCrunch: Groq $350M growth round at reported $3.5B valuation",
+        "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/"
+      },
+      {
+        "label": "Groq June 2026 funding announcement",
+        "url": "https://groq.com/newsroom/groq-raises-usd650m-to-scale-its-ai-inference-cloud-business"
+      },
+      {
+        "label": "Groq NVIDIA licensing announcement",
+        "url": "https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale"
+      }
+    ]
+  },
+  "company_status": "private",
+  "website": "https://groq.com"
 }

@@ -2,7 +2,7 @@
   "slug": "pallet",
   "name": "Pallet",
   "status": "Published",
-  "sector": "Logistics software",
+  "sector": "Mobility, Transport & Logistics",
   "summary": "Pallet builds software for transportation and warehouse operations, giving freight businesses a more automated operating system for dispatch, billing, and back-office workflows.",
   "overview": "<p>Pallet builds software for transportation and warehouse operators. Its platform targets the operational work behind freight movement, including dispatch, billing, and back-office workflows.</p>",
   "as_of": "2026-09-27",
@@ -61,18 +61,6 @@
       "In May 2025, Pallet raised a $27 million Series B led by General Catalyst. The company did not disclose a valuation with that financing."
     ],
     "why_it_matters": "Pallet is a useful read-through on whether vertical software can modernize a large, operationally complex freight market. Its progress matters to investors watching workflow automation beyond the most crowded enterprise software categories.",
-    "valuation_history": [
-      {
-        "value": "Private",
-        "date": "Before IPO",
-        "round": "Private-company period"
-      },
-      {
-        "value": "$27M raised",
-        "date": "May 2025",
-        "round": "Series B"
-      }
-    ],
     "changed": [
       {
         "date": "2026",
@@ -113,5 +101,7 @@
         "url": "https://pallet.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://pallet.com"
 }

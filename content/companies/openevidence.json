@@ -2,7 +2,7 @@
   "slug": "openevidence",
   "name": "OpenEvidence",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "OpenEvidence builds an AI search and decision-support platform for clinicians, grounded in medical evidence.",
   "overview": "<p>OpenEvidence builds an AI search and decision-support platform for clinicians, grounded in medical evidence.</p>",
   "as_of": "2026-09-25",
@@ -55,18 +55,6 @@
       "It raised a $250 million Series D at a $12 billion valuation in January 2026, doubling the valuation reported at its preceding round."
     ],
     "why_it_matters": "Clinical AI is a high-stakes category where product quality, evidence partnerships, and workflow adoption matter as much as model capability. OpenEvidence is a key private-market signal for trusted, vertical AI distribution.",
-    "valuation_history": [
-      {
-        "value": "$6B",
-        "date": "Oct 2025",
-        "round": "Series C, $200M"
-      },
-      {
-        "value": "$12B",
-        "date": "Jan 2026",
-        "round": "Series D, $250M"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -106,5 +94,7 @@
         "url": "https://openevidence.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://openevidence.com"
 }

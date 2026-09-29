@@ -2,7 +2,7 @@
   "slug": "vapi",
   "name": "Vapi",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Vapi provides an API-native platform for businesses to build, deploy, and manage voice AI agents at scale.",
   "overview": "<p>Vapi is a voice-AI infrastructure provider that lets enterprises configure and operate voice agents. It announced a $50 million Series B in May 2026 after reporting one billion calls; reporting placed the post-money valuation at roughly $500 million.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "In May 2026, Vapi announced a $50 million Series B led by Peak XV and said it had reached one billion calls. The company did not announce a valuation; TechCrunch reported a valuation of around $500 million after the financing."
     ],
     "why_it_matters": "Voice is a costly and operationally sensitive customer-service channel, making it a consequential deployment area for AI agents. Vapi's funding and customer claims offer a private-market signal on adoption beyond text-based assistants.",
-    "valuation_history": [
-      {
-        "value": "$500M",
-        "date": "May 2026",
-        "round": "$50M Series B"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -101,5 +94,7 @@
         "url": "https://vapi.ai"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://vapi.ai"
 }

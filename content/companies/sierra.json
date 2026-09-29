@@ -2,7 +2,7 @@
   "slug": "sierra",
   "name": "Sierra",
   "status": "Published",
-  "sector": "Enterprise AI",
+  "sector": "AI & Machine Learning",
   "summary": "Sierra, co-founded by Bret Taylor, builds AI agents that handle customer service and sales conversations for large companies.",
   "overview": "<p>Sierra builds AI agents that answer customers, resolve issues and complete transactions on behalf of enterprises.</p>",
   "as_of": "2026-09-29",
@@ -62,13 +62,6 @@
       "In May 2026 Sierra raised $950 million led by Tiger Global and GV at a post-money valuation above $15 billion. It reported about $150 million of annualized revenue in early 2026 and says more than 40% of the Fortune 50 are customers."
     ],
     "why_it_matters": "Sierra is a leading test of whether AI agents can replace a large share of customer-service work, and of how much enterprises will pay for that.",
-    "valuation_history": [
-      {
-        "value": "$15B+",
-        "date": "May 2026",
-        "round": "$950M financing"
-      }
-    ],
     "changed": [
       {
         "date": "2023",
@@ -125,5 +118,7 @@
         "url": "https://www.cnbc.com/2026/05/04/bret-taylor-sierra-fundraise-openai.html"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://sierra.ai"
 }

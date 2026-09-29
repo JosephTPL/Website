@@ -2,7 +2,7 @@
   "slug": "crypto-com",
   "name": "Crypto.com",
   "status": "Published",
-  "sector": "Digital assets",
+  "sector": "Financial Services & Digital Assets",
   "summary": "Crypto.",
   "overview": "<p>Crypto.com operates an exchange, consumer app, cards, and related digital-asset services. It is trying to connect retail crypto activity with broader financial-market infrastructure.</p>",
   "as_of": "2026-09-25",
@@ -55,18 +55,6 @@
       "Citadel Securities investment provides institutional validation, but the company remains exposed to crypto-market cycles, regulation, and execution in new asset classes."
     ],
     "why_it_matters": "Citadel Securities investment provides institutional validation, but the company remains exposed to crypto-market cycles, regulation, and execution in new asset classes.",
-    "valuation_history": [
-      {
-        "value": "N/A",
-        "date": "N/A",
-        "round": "Earlier reported context"
-      },
-      {
-        "value": "$20B",
-        "date": "Jul 2026",
-        "round": "$400M strategic investment"
-      }
-    ],
     "changed": [
       {
         "date": "N/A",
@@ -111,5 +99,7 @@
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://crypto.com"
 }

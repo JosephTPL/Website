@@ -2,7 +2,7 @@
   "slug": "stoke-space",
   "name": "Stoke Space",
   "status": "Published",
-  "sector": "Space launch",
+  "sector": "Defense, Aerospace & Space",
   "summary": "Stoke Space is developing a fully reusable launch vehicle. Its September 2026 Series E was reported at a $9 billion private-market valuation, while the company announced a $1 billion financing.",
   "overview": "<p>Stoke Space is building a fully reusable launch system aimed at lowering the cost and increasing the cadence of access to orbit. The company is progressing from technology demonstration toward commercial launch capability.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "The company announced a $1 billion Series E in September 2026. Private-market data providers reported a $9 billion valuation; that figure is labelled as reported rather than company-disclosed pricing."
     ],
     "why_it_matters": "Stoke is among the high-value private launch bets competing for a market shaped by reusability. Flight tests, payload contracts and launch reliability will determine whether the valuation holds.",
-    "valuation_history": [
-      {
-        "value": "$9B",
-        "date": "Sep 2026",
-        "round": "Series E reported valuation"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://stokespace.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://stokespace.com"
 }

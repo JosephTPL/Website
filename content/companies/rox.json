@@ -2,7 +2,7 @@
   "slug": "rox",
   "name": "Rox",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Rox develops an AI-native revenue platform that uses autonomous agents across prospecting, account management, CRM updates, and renewals.",
   "overview": "<p>Rox positions itself as a revenue operating system that layers AI agents on top of existing sales systems. TechCrunch reported in March 2026 that a new financing valued the company at $1.2 billion; Rox did not confirm the round or valuation.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "TechCrunch reported that Rox closed a financing at a $1.2 billion valuation, with General Catalyst leading, but the company did not comment on the report. Rox had previously announced $50 million of seed and Series A funding and named Ramp, MongoDB, and New Relic as customers."
     ],
     "why_it_matters": "Revenue operations is a concrete commercial test for autonomous agents: the buyer wants measurable productivity, not generic AI experimentation. Rox is an indicator of how much private capital is underwriting that workflow shift.",
-    "valuation_history": [
-      {
-        "value": "$1.2B",
-        "date": "Mar 2026",
-        "round": "Reported financing"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://rox.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://rox.com"
 }

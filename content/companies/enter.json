@@ -2,7 +2,7 @@
   "slug": "enter",
   "name": "Enter",
   "status": "Published",
-  "sector": "Legal technology",
+  "sector": "Enterprise Software & Business Services",
   "summary": "Enter builds AI software for corporate legal departments, with particular focus on civil and labour litigation. Its May 2026 Series B raised more than $100 million at a $1.2 billion valuation, making it Latin America's first AI unicorn by its own account.",
   "overview": "<p>Enter provides an AI operating system for legal departments, covering workflows around civil and labour litigation. The company was founded in Brazil and is expanding an enterprise product designed to support legal teams and their external law firms.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "In May 2026, the company announced a Series B of more than $100 million at a $1.2 billion valuation, led by Founders Fund. Enter said that its revenue had grown more than tenfold over the prior year and that EnterOS was handling more than 300,000 lawsuits annually; those operating figures are company-reported."
     ],
     "why_it_matters": "Enter is a leading example of AI adoption in a regulated, high-stakes enterprise workflow outside the U.S. The important proof points are customer retention, accuracy and expansion into new legal systems, not just its unicorn headline.",
-    "valuation_history": [
-      {
-        "value": "$1.2B",
-        "date": "May 2026",
-        "round": "Series B"
-      }
-    ],
     "changed": [
       {
         "date": "May 2026",
@@ -97,5 +90,7 @@
         "url": "https://www.getenter.ai/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://enter.com"
 }

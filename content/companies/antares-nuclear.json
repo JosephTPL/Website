@@ -2,7 +2,7 @@
   "slug": "antares-nuclear",
   "name": "Antares Nuclear",
   "status": "Published",
-  "sector": "Nuclear energy",
+  "sector": "Energy, Climate & Industrial",
   "summary": "Antares is developing factory-produced fission microreactors for critical missions, including U.S. military applications. It announced a $470 million Series C in July 2026, with no valuation disclosed.",
   "overview": "<p>Antares develops small fission microreactors intended for strategic and remote power applications. The company is pursuing a factory-production approach and has disclosed work with the Department of Energy and U.S. military stakeholders.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "The company announced a $470 million Series C in July 2026, comprising $370 million of equity and $100 million of debt, without disclosing a valuation. It later announced a strategic-breakthrough award for a space-reactor demonstration and a long-term TRISO fuel-supply agreement."
     ],
     "why_it_matters": "Antares is one of the clearest private bets on compact nuclear power for defence and other mission-critical use cases. The investment case depends on moving from engineering and demonstrations to a licensable, fuelled and repeatably manufactured product.",
-    "valuation_history": [
-      {
-        "value": "$470M raised",
-        "date": "Jul 2026",
-        "round": "Series C"
-      }
-    ],
     "changed": [
       {
         "date": "Jul 2026",
@@ -97,5 +90,7 @@
         "url": "https://techcrunch.com/2026/07/27/antares-raises-470m-to-build-nuclear-reactors-for-the-u-s-military/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://antaresnuclear.com"
 }

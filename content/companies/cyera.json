@@ -2,7 +2,7 @@
   "slug": "cyera",
   "name": "Cyera",
   "status": "Published",
-  "sector": "Cybersecurity",
+  "sector": "Other / Diversified",
   "summary": "Cyera sells data-security software that finds and protects sensitive data across companies' cloud systems and AI tools.",
   "overview": "<p>Cyera provides a data security platform that discovers sensitive data, controls who and what can access it, and governs how AI systems use it.</p>",
   "as_of": "2026-09-29",
@@ -62,18 +62,6 @@
       "In June 2026 Cyera raised $600 million at a $12 billion valuation, led by Evolution Equity Partners with Temasek and existing backers including Accel, Blackstone and Coatue. The company says annual recurring revenue has tripled three years in a row, and it has made five acquisitions."
     ],
     "why_it_matters": "Cyera shows how AI adoption is creating new security spending around data access, and it is one of the fastest-rising private cybersecurity companies.",
-    "valuation_history": [
-      {
-        "value": "$6B",
-        "date": "Jun 2025",
-        "round": "Financing"
-      },
-      {
-        "value": "$12B",
-        "date": "Jun 2026",
-        "round": "$600M financing"
-      }
-    ],
     "changed": [
       {
         "date": "2021",
@@ -130,5 +118,7 @@
         "url": "https://www.securityweek.com/cyera-raises-600-million-at-12-billion-valuation/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://cyera.com"
 }

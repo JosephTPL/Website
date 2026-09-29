@@ -2,7 +2,7 @@
   "slug": "infisical",
   "name": "Infisical",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Infisical is an open-source secrets, identity, and access-management platform for development teams and enterprise infrastructure.",
   "overview": "<p>Infisical provides developer infrastructure for managing application secrets and configuration.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "In June 2025, Infisical announced a $16M Series A led by Elad Gil. The company said it was cash-flow positive and securing workloads for Fortune 50 enterprises; those operating statements are company-reported."
     ],
     "why_it_matters": "AI systems increase the number of credentials, services and agents that need secure access. Infisical is a private-market test of whether an open-source developer foothold can expand into a broad enterprise-security platform.",
-    "valuation_history": [
-      {
-        "value": "$16M raised",
-        "date": "Jun 2025",
-        "round": "Series A"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://infisical.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://infisical.com"
 }

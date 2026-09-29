@@ -2,7 +2,7 @@
   "slug": "bilt",
   "name": "Bilt",
   "status": "Published",
-  "sector": "Fintech / Consumer",
+  "sector": "Financial Services & Digital Assets",
   "summary": "Bilt turns housing and neighborhood spending into a rewards and commerce network, with rent, mortgage, and local merchants as its core distribution channels.",
   "overview": "<p>Bilt operates a rewards and commerce network built around housing spend. It works with property owners, residents, merchants, and financial partners to make rent, mortgage, and neighborhood spending a source of loyalty value.</p>",
   "as_of": "2026-09-29",
@@ -36,24 +36,45 @@
     "logo": "https://www.google.com/s2/favicons?domain=biltrewards.com&sz=128",
     "description": "Bilt is a housing-focused rewards and commerce platform that connects residents, property partners, financial institutions, and local merchants.",
     "metrics": [
-      {"value": "$10.75B", "label": "Reported valuation", "note": "July 2025 financing"},
-      {"value": "$250M", "label": "Latest financing", "note": "Primary funding, July 2025"},
-      {"value": "2021", "label": "Founded", "note": "Housing rewards platform"},
-      {"value": "Private", "label": "Public status", "note": "No confirmed IPO date"}
+      {
+        "value": "$10.75B",
+        "label": "Reported valuation",
+        "note": "July 2025 financing"
+      },
+      {
+        "value": "$250M",
+        "label": "Latest financing",
+        "note": "Primary funding, July 2025"
+      },
+      {
+        "value": "2021",
+        "label": "Founded",
+        "note": "Housing rewards platform"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO date"
+      }
     ],
     "company": [
       "Bilt began by making rent payments rewardable, then expanded its proposition to housing-related and neighborhood commerce. The company works with property owners, residents, merchants, and financial partners, which makes the platform a combination of loyalty program, payments infrastructure, and consumer marketplace.",
       "In July 2025, Bilt announced $250 million in new primary funding. FT Partners, which advised on the transaction, said the round valued Bilt at $10.75 billion and was led by General Catalyst and GID, with United Wholesale Mortgage participating in a strategic partnership."
     ],
     "why_it_matters": "Bilt is a useful private-market case study in whether an overlooked recurring expense can become a valuable distribution layer for financial services and commerce. Its performance is a read-through for loyalty economics, housing fintech, consumer credit, and merchant-funded rewards.",
-    "valuation_history": [
-      {"value": "Private", "date": "2021", "round": "Company launch"},
-      {"value": "$10.75B", "date": "Jul 2025", "round": "$250M primary financing"}
-    ],
     "changed": [
-      {"date": "2021", "text": "Bilt launches a rewards proposition centered on rent payments."},
-      {"date": "Jul 2025", "text": "Bilt announces $250M of primary funding at a reported $10.75B valuation."},
-      {"date": "2025", "text": "A strategic partnership with United Wholesale Mortgage extends the company's housing focus toward mortgage distribution."}
+      {
+        "date": "2021",
+        "text": "Bilt launches a rewards proposition centered on rent payments."
+      },
+      {
+        "date": "Jul 2025",
+        "text": "Bilt announces $250M of primary funding at a reported $10.75B valuation."
+      },
+      {
+        "date": "2025",
+        "text": "A strategic partnership with United Wholesale Mortgage extends the company's housing focus toward mortgage distribution."
+      }
     ],
     "takeaways": [
       "Bilt's differentiator is access to a recurring housing-payment relationship rather than a conventional credit-card acquisition funnel.",
@@ -62,16 +83,42 @@
       "Its consumer brand is strong, but its long-term defensibility will depend on partner retention and repeat transaction behavior."
     ],
     "quick_facts": [
-      ["Founded", "2021"],
-      ["Headquarters", "New York, New York"],
-      ["Founder and CEO", "Ankur Jain"],
-      ["Focus", "Housing rewards and commerce"],
-      ["Website", "biltrewards.com"],
-      ["Public status", "Private"]
+      [
+        "Founded",
+        "2021"
+      ],
+      [
+        "Headquarters",
+        "New York, New York"
+      ],
+      [
+        "Founder and CEO",
+        "Ankur Jain"
+      ],
+      [
+        "Focus",
+        "Housing rewards and commerce"
+      ],
+      [
+        "Website",
+        "biltrewards.com"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
     ],
     "sources": [
-      {"label": "FT Partners: $250M financing and reported valuation", "url": "https://www.ftpartners.com/transactions/bilt250"},
-      {"label": "Bilt website", "url": "https://www.biltrewards.com/"}
+      {
+        "label": "FT Partners: $250M financing and reported valuation",
+        "url": "https://www.ftpartners.com/transactions/bilt250"
+      },
+      {
+        "label": "Bilt website",
+        "url": "https://www.biltrewards.com/"
+      }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://biltrewards.com"
 }

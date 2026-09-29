@@ -2,7 +2,7 @@
   "slug": "kraken",
   "name": "Kraken",
   "status": "Published",
-  "sector": "Digital assets",
+  "sector": "Financial Services & Digital Assets",
   "summary": "Kraken is a global digital-asset platform spanning spot trading, derivatives, custody, payments, and tokenized equities.",
   "overview": "<p>Kraken is a global digital-asset platform spanning spot trading, derivatives, custody, payments, and tokenized equities.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "It announced $800 million in financing in November 2025; the Citadel Securities strategic-investment tranche was executed at a $20 billion valuation."
     ],
     "why_it_matters": "Kraken is a major private-market proxy for institutional adoption of digital-asset infrastructure. Its expansion into multiple financial products makes its execution relevant beyond crypto trading alone.",
-    "valuation_history": [
-      {
-        "value": "$20B",
-        "date": "Nov 2025",
-        "round": "Citadel Securities strategic investment"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://kraken.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://kraken.com"
 }

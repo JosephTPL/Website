@@ -2,7 +2,7 @@
   "slug": "zepto",
   "name": "Zepto",
   "status": "Published",
-  "sector": "Consumer / Quick commerce",
+  "sector": "Consumer, Commerce & Media",
   "summary": "Zepto is an Indian quick-commerce company delivering groceries in minutes; it paused its IPO in 2026 and is raising privately at a lower valuation.",
   "overview": "<p>Zepto runs a network of dark stores in India that deliver groceries and household goods in about 10 minutes.</p>",
   "as_of": "2026-09-29",
@@ -62,18 +62,6 @@
       "Zepto was valued at $7 billion in October 2025. After filing for an IPO, it deferred the listing in August 2026 and was reported to be raising about ₹1,000 crore privately at a $4.5 billion valuation, with the IPO now targeted for early 2027."
     ],
     "why_it_matters": "Zepto is a test of whether quick commerce can become profitable, and its valuation cut shows how public-market investors are pricing loss-making growth companies.",
-    "valuation_history": [
-      {
-        "value": "$7B",
-        "date": "Oct 2025",
-        "round": "Financing"
-      },
-      {
-        "value": "$4.5B",
-        "date": "Aug 2026",
-        "round": "Private placement, reported"
-      }
-    ],
     "changed": [
       {
         "date": "2021",
@@ -134,5 +122,7 @@
         "url": "https://www.whalesbook.com/news/English/startupsvc/Zepto-IPO-Paused-Valuation-Set-at-dollar45-Billion/6a72a0923b2431b255835670"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://zepto.com"
 }

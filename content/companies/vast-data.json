@@ -2,7 +2,7 @@
   "slug": "vast-data",
   "status": "Published",
   "name": "VAST Data",
-  "sector": "Data infrastructure",
+  "sector": "Data, Cloud & Developer Tools",
   "summary": "VAST Data provides a data platform for AI, analytics, and enterprise workloads across large-scale infrastructure.",
   "overview": "<p>VAST Data builds a distributed data platform designed for AI-era data and compute workloads.</p>",
   "as_of": "2026-09-25",
@@ -56,23 +56,6 @@
       "The company said its April 2026 Series F reflected a combination of growth and profitability. The funding, led by Drive Capital with Access Industries as co-lead, more than tripled the valuation assigned to its 2023 Series E."
     ],
     "why_it_matters": "AI systems depend on accessible, governed, high-throughput data. VAST is a private-market signal for whether the infrastructure layer beneath models can capture a large share of the economics, rather than becoming a commodity owned by hyperscalers.",
-    "valuation_history": [
-      {
-        "value": "$3.7B",
-        "date": "May 2021",
-        "round": "Series D"
-      },
-      {
-        "value": "$9.1B",
-        "date": "Dec 2023",
-        "round": "Series E"
-      },
-      {
-        "value": "$30B",
-        "date": "Apr 2026",
-        "round": "Series F"
-      }
-    ],
     "changed": [
       {
         "date": "2021",
@@ -133,5 +116,7 @@
         "url": "https://techcrunch.com/2025/06/10/ai-storage-platform-vast-data-aimed-for-25b-valuation-in-new-round-sources-say/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://vastdata.com"
 }

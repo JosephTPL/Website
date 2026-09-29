@@ -2,7 +2,7 @@
   "slug": "juul",
   "name": "JUUL",
   "status": "Published",
-  "sector": "Consumer health",
+  "sector": "Consumer, Commerce & Media",
   "summary": "JUUL is a private e-vapor company whose investment narrative is now shaped primarily by U.S. regulatory authorization, litigation resolution and its ability to stabilize a regulated product business. The latest public valuation reference is an approximately $1.3 billion implied company value from Altria's July 2022 mark of its former 35% stake.",
   "overview": "<p>JUUL develops e-vapor devices and nicotine products. The company remains private; its most recent public valuation reference is an implied value based on a former shareholder's 2022 fair-value mark, not a current financing.</p>",
   "as_of": "2026-09-28",
@@ -29,24 +29,41 @@
     "logo": "https://www.google.com/s2/favicons?domain=juul.com&sz=128",
     "description": "Private e-vapor company whose value proposition depends on regulated adult-use products and durable authorization in the United States.",
     "metrics": [
-      {"value": "~$1.3B", "label": "Implied valuation reference", "note": "July 2022: inferred from Altria's $450M mark of its former 35% stake; not a current financing"},
-      {"value": "Undisclosed", "label": "Latest funding", "note": "No recent disclosed primary equity round located"},
-      {"value": "2015", "label": "Founded", "note": "E-vapor company"},
-      {"value": "Private", "label": "Public status", "note": "No IPO filing disclosed"}
+      {
+        "value": "~$1.3B",
+        "label": "Implied valuation reference",
+        "note": "July 2022: inferred from Altria's $450M mark of its former 35% stake; not a current financing"
+      },
+      {
+        "value": "Undisclosed",
+        "label": "Latest funding",
+        "note": "No recent disclosed primary equity round located"
+      },
+      {
+        "value": "2015",
+        "label": "Founded",
+        "note": "E-vapor company"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No IPO filing disclosed"
+      }
     ],
     "company": [
       "JUUL develops e-vapor devices and nicotine products for adult consumers. Its operating outlook is defined less by traditional venture financing than by product authorization, legal exposure and its ability to retain distribution in a heavily regulated category.",
       "Altria marked its then-35% JUUL stake at $450 million in July 2022, implying a company value of approximately $1.3 billion at that time. Altria later exchanged its entire minority economic investment for intellectual-property rights in 2023, so that implied reference is historical rather than a current financing valuation; in August 2026, the FDA authorized an updated JUUL2 device with an optional age-verification system."
     ],
     "why_it_matters": "JUUL illustrates how regulation and litigation can overwhelm conventional startup valuation narratives in consumer health categories. The company remains relevant to private-market investors as a case study in product authorization, reputational risk and the cost of regulatory remediation.",
-    "valuation_history": [
-      {"value": "$38B", "date": "Dec 2018", "round": "Historical Altria investment reference"},
-      {"value": "~$1.3B implied", "date": "Jul 2022", "round": "Altria marked its former 35% stake at $450M"},
-      {"value": "Undisclosed", "date": "Mar 2023", "round": "Altria exited its minority economic interest"}
-    ],
     "changed": [
-      {"date": "Mar 2023", "text": "Altria exchanged its entire JUUL minority economic investment for a license to certain heated-tobacco intellectual property."},
-      {"date": "Aug 2026", "text": "The FDA authorized an updated JUUL2 device with an optional age-verification system."}
+      {
+        "date": "Mar 2023",
+        "text": "Altria exchanged its entire JUUL minority economic investment for a license to certain heated-tobacco intellectual property."
+      },
+      {
+        "date": "Aug 2026",
+        "text": "The FDA authorized an updated JUUL2 device with an optional age-verification system."
+      }
     ],
     "takeaways": [
       "The directory uses the approximately $1.3B implied July 2022 reference, derived from Altria's former 35% stake mark.",
@@ -54,16 +71,42 @@
       "Regulatory authorization and litigation outcomes are the core drivers to monitor."
     ],
     "quick_facts": [
-      ["Focus", "E-vapor products"],
-      ["Headquarters", "Washington, D.C., United States"],
-      ["Latest milestone", "JUUL2 FDA authorization, August 2026"],
-      ["Website", "juul.com"]
+      [
+        "Focus",
+        "E-vapor products"
+      ],
+      [
+        "Headquarters",
+        "Washington, D.C., United States"
+      ],
+      [
+        "Latest milestone",
+        "JUUL2 FDA authorization, August 2026"
+      ],
+      [
+        "Website",
+        "juul.com"
+      ]
     ],
     "sources": [
-      {"label": "AP: FDA authorization for JUUL2", "url": "https://apnews.com/article/10c93d78a67bf5e4be25f437528fb416"},
-      {"label": "Altria: former stake valued at $450M", "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418022000091/mo-20220630.htm"},
-      {"label": "Altria: exchange of JUUL investment", "url": "https://investor.altria.com/press-releases/news-details/2023/Altria-Exchanges-Minority-Stake-in-JUUL-Labs-for-Heated-Tobacco-Intellectual-Property-Rights/"},
-      {"label": "SEC: Altria Form 8-K on JUUL transaction", "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418023000041/mo-20230303.htm"}
+      {
+        "label": "AP: FDA authorization for JUUL2",
+        "url": "https://apnews.com/article/10c93d78a67bf5e4be25f437528fb416"
+      },
+      {
+        "label": "Altria: former stake valued at $450M",
+        "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418022000091/mo-20220630.htm"
+      },
+      {
+        "label": "Altria: exchange of JUUL investment",
+        "url": "https://investor.altria.com/press-releases/news-details/2023/Altria-Exchanges-Minority-Stake-in-JUUL-Labs-for-Heated-Tobacco-Intellectual-Property-Rights/"
+      },
+      {
+        "label": "SEC: Altria Form 8-K on JUUL transaction",
+        "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418023000041/mo-20230303.htm"
+      }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://juul.com"
 }

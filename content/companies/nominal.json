@@ -2,7 +2,7 @@
   "slug": "nominal",
   "name": "Nominal",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Nominal develops AI-enabled accounting and financial-operations software for mid-market and enterprise finance teams.",
   "overview": "<p>Nominal provides an accounting and financial-operations platform designed to automate close, reporting, and related workflows. The company announced a $20 million Series A in July 2025; the financing valuation was not disclosed.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "In July 2025, Nominal announced a $20 million Series A. The company disclosed the round but not a valuation, so this profile does not treat the financing as a priced valuation event."
     ],
     "why_it_matters": "Financial workflow software is a practical testing ground for AI adoption because the buyer already measures speed, accuracy, and control. Nominal is relevant to the private-market software stack competing for the finance office's system of record.",
-    "valuation_history": [
-      {
-        "value": "$20M raised",
-        "date": "Jul 2025",
-        "round": "Series A"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://nominal.io"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://nominal.io"
 }

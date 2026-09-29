@@ -2,7 +2,7 @@
   "slug": "monzo",
   "name": "Monzo",
   "status": "Published",
-  "sector": "Fintech",
+  "sector": "Financial Services & Digital Assets",
   "summary": "Monzo is a UK digital bank with 15.2 million customers, and is reportedly in talks to be acquired by Nubank for £8–10 billion.",
   "overview": "<p>Monzo is a UK-licensed digital bank offering current accounts, savings, loans and business banking through its app.</p>",
   "as_of": "2026-09-29",
@@ -62,18 +62,6 @@
       "Monzo was last valued at £4.5 billion in an October 2024 employee share sale. In September 2026 Sky News and Bloomberg reported that Brazil's Nubank was in talks to buy Monzo for £8–10 billion, roughly double that valuation."
     ],
     "why_it_matters": "Monzo is the UK's most prominent fintech, and a Nubank deal would be one of the largest fintech acquisitions and a benchmark for neobank valuations.",
-    "valuation_history": [
-      {
-        "value": "£4.5B",
-        "date": "Oct 2024",
-        "round": "Employee share sale"
-      },
-      {
-        "value": "£8–10B",
-        "date": "Sep 2026",
-        "round": "Reported Nubank offer"
-      }
-    ],
     "changed": [
       {
         "date": "2015",
@@ -134,5 +122,7 @@
         "url": "https://www.bloomberg.com/news/articles/2026-09-26/monzo-in-talks-on-possible-sale-to-brazil-s-nubank-sky-reports"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://monzo.com"
 }

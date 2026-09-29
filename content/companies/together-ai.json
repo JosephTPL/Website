@@ -2,7 +2,7 @@
   "slug": "together-ai",
   "name": "Together AI",
   "status": "Published",
-  "sector": "AI infrastructure",
+  "sector": "Telecommunications & Infrastructure",
   "summary": "Together AI runs a cloud for training and serving open-source AI models, with more than $1.15 billion in annual bookings.",
   "overview": "<p>Together AI provides cloud infrastructure and software for running, fine-tuning and training open-source AI models.</p>",
   "as_of": "2026-09-29",
@@ -62,18 +62,6 @@
       "In July 2026 Together AI raised an $800 million Series C led by Aramco Ventures, with Vista, General Catalyst and Nvidia participating, at an $8.3 billion valuation, up from $3.3 billion in its February 2025 Series B. It reported more than $1.15 billion in annual bookings."
     ],
     "why_it_matters": "Together AI is a leading bet on open-source AI models, and a read-through for whether specialist AI clouds can compete with hyperscalers and CoreWeave.",
-    "valuation_history": [
-      {
-        "value": "$3.3B",
-        "date": "Feb 2025",
-        "round": "Series B"
-      },
-      {
-        "value": "$8.3B",
-        "date": "Jul 2026",
-        "round": "$800M Series C"
-      }
-    ],
     "changed": [
       {
         "date": "2022",
@@ -126,5 +114,7 @@
         "url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://together.ai"
 }

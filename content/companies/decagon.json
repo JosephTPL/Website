@@ -2,7 +2,7 @@
   "slug": "decagon",
   "name": "Decagon",
   "status": "Published",
-  "sector": "Enterprise AI",
+  "sector": "AI & Machine Learning",
   "summary": "Decagon builds AI agents that handle customer-support conversations for companies such as Chime.",
   "overview": "<p>Decagon provides AI agents that resolve customer-support requests across chat, email and voice.</p>",
   "as_of": "2026-09-29",
@@ -62,18 +62,6 @@
       "In January 2026 Decagon raised a $250 million Series D at a $4.5 billion valuation, roughly triple its previous round, with Coatue, Index and a16z among the investors. In March 2026 those investors led an employee tender offer at the same valuation."
     ],
     "why_it_matters": "Decagon, alongside Sierra, is a leading test of AI agents replacing customer-support work, and of how many winners that market can support.",
-    "valuation_history": [
-      {
-        "value": "$4.5B",
-        "date": "Jan 2026",
-        "round": "$250M Series D"
-      },
-      {
-        "value": "$4.5B",
-        "date": "Mar 2026",
-        "round": "Employee tender"
-      }
-    ],
     "changed": [
       {
         "date": "2023",
@@ -130,5 +118,7 @@
         "url": "https://www.bloomberg.com/news/articles/2026-01-28/ai-customer-support-startup-decagon-valued-at-4-5-billion"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://decagon.ai"
 }

@@ -2,7 +2,7 @@
   "slug": "knds",
   "name": "KNDS",
   "status": "Published",
-  "sector": "Defense",
+  "sector": "Defense, Aerospace & Space",
   "summary": "KNDS is a European land-defense group producing systems including tanks, artillery, and ammunition.",
   "overview": "<p>KNDS is a European land-defense group producing systems including tanks, artillery, and ammunition. It benefits from a multi-year rearmament cycle across Europe.</p>",
   "as_of": "2026-09-25",
@@ -20,7 +20,7 @@
   "latest_round": "2026: No recent priced round disclosed",
   "directory_notes": [
     "Land defense systems",
-    "2025 revenue reached \u20ac4.4B and backlog \u20ac33.1B, according to the company. Execution on production capacity and a proposed IPO are the main watch items."
+    "2025 revenue reached €4.4B and backlog €33.1B, according to the company. Execution on production capacity and a proposed IPO are the main watch items."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
@@ -52,21 +52,9 @@
     ],
     "company": [
       "KNDS is a European land-defense group producing systems including tanks, artillery, and ammunition. It benefits from a multi-year rearmament cycle across Europe.",
-      "2025 revenue reached \u20ac4.4B and backlog \u20ac33.1B, according to the company. Execution on production capacity and a proposed IPO are the main watch items."
+      "2025 revenue reached €4.4B and backlog €33.1B, according to the company. Execution on production capacity and a proposed IPO are the main watch items."
     ],
-    "why_it_matters": "2025 revenue reached \u20ac4.4B and backlog \u20ac33.1B, according to the company. Execution on production capacity and a proposed IPO are the main watch items.",
-    "valuation_history": [
-      {
-        "value": "N/A",
-        "date": "N/A",
-        "round": "Earlier reported context"
-      },
-      {
-        "value": "$20B",
-        "date": "2026",
-        "round": "No recent priced round disclosed"
-      }
-    ],
+    "why_it_matters": "2025 revenue reached €4.4B and backlog €33.1B, according to the company. Execution on production capacity and a proposed IPO are the main watch items.",
     "changed": [
       {
         "date": "N/A",
@@ -79,7 +67,7 @@
     ],
     "takeaways": [
       "KNDS is a private-market name in land defense systems.",
-      "2025 revenue reached \u20ac4.4B and backlog \u20ac33.1B, according to the company. Execution on production capacity and a proposed IPO are the main watch items.",
+      "2025 revenue reached €4.4B and backlog €33.1B, according to the company. Execution on production capacity and a proposed IPO are the main watch items.",
       "The displayed valuation should be read with its disclosure context, not as a live market price.",
       "Future updates will focus on operating evidence, financing, and execution."
     ],
@@ -111,5 +99,7 @@
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://knds.com"
 }

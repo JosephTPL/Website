@@ -2,7 +2,7 @@
   "slug": "blue-origin",
   "name": "Blue Origin",
   "status": "Published",
-  "sector": "Space and aerospace",
+  "sector": "Defense, Aerospace & Space",
   "summary": "Blue Origin is Jeff Bezos's private space company, spanning orbital launch, rocket engines, lunar systems and human spaceflight. Its central investment question is whether New Glenn can translate a deep industrial base into reliable launch cadence and durable commercial revenue.",
   "overview": "<p>Blue Origin builds launch vehicles, rocket engines, lunar systems and human-spaceflight services. New Glenn is the company’s pivotal commercial platform: its execution will determine how quickly Blue Origin can convert years of founder-funded infrastructure into a scaled aerospace business.</p>",
   "as_of": "2026-09-28",
@@ -35,25 +35,49 @@
     "logo": "https://www.google.com/s2/favicons?domain=blueorigin.com&sz=128",
     "description": "Jeff Bezos-founded aerospace company developing reusable launch vehicles, rocket engines, lunar systems and human-spaceflight services.",
     "metrics": [
-      {"value": "$130B", "label": "Reported financing valuation", "note": "Reported July 2026 pre-money target; not a confirmed closed round"},
-      {"value": "$10B", "label": "Reported outside capital", "note": "Reported planned first outside funding round"},
-      {"value": "2000", "label": "Founded", "note": "Founded by Jeff Bezos"},
-      {"value": "Private", "label": "Public status", "note": "No IPO filing disclosed"}
+      {
+        "value": "$130B",
+        "label": "Reported financing valuation",
+        "note": "Reported July 2026 pre-money target; not a confirmed closed round"
+      },
+      {
+        "value": "$10B",
+        "label": "Reported outside capital",
+        "note": "Reported planned first outside funding round"
+      },
+      {
+        "value": "2000",
+        "label": "Founded",
+        "note": "Founded by Jeff Bezos"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No IPO filing disclosed"
+      }
     ],
     "company": [
       "Blue Origin develops launch vehicles, propulsion systems, lunar landers and human-spaceflight services. Its operating base includes New Shepard, BE-4 engines used by United Launch Alliance’s Vulcan vehicle, and New Glenn, the heavy-lift orbital rocket intended to serve commercial, civil and national-security customers.",
       "New Glenn is the company’s key commercial inflection point. Blue Origin says its first stage is designed for at least 25 flights and that the vehicle can carry up to 45 metric tons to low Earth orbit; reliable reuse and a consistent launch cadence will be more consequential than any single test or mission milestone."
     ],
     "why_it_matters": "Blue Origin is one of the largest private bets in industrial technology, with the potential to shape launch capacity, rocket-engine supply and the economics of large satellite constellations. It is also a useful benchmark for how founder-funded capital-intensive companies transition to external financing and commercial discipline.",
-    "valuation_history": [
-      {"value": "Founder-funded", "date": "2000–2025", "round": "No disclosed outside primary round"},
-      {"value": "$130B pre-money", "date": "Jul 2026", "round": "Reported $10B outside-capital financing target"}
-    ],
     "changed": [
-      {"date": "Jan 2025", "text": "New Glenn reached orbit on its first mission, according to Blue Origin."},
-      {"date": "Apr 2026", "text": "Blue Origin reported the third New Glenn mission launched from Launch Complex 36."},
-      {"date": "May–Jun 2026", "text": "A hotfire anomaly damaged launch-site equipment; Blue Origin outlined a recovery plan and targeted return to flight by year-end."},
-      {"date": "Jul 2026", "text": "The Information reported a planned first outside funding round of $10B at a $130B pre-money valuation."}
+      {
+        "date": "Jan 2025",
+        "text": "New Glenn reached orbit on its first mission, according to Blue Origin."
+      },
+      {
+        "date": "Apr 2026",
+        "text": "Blue Origin reported the third New Glenn mission launched from Launch Complex 36."
+      },
+      {
+        "date": "May–Jun 2026",
+        "text": "A hotfire anomaly damaged launch-site equipment; Blue Origin outlined a recovery plan and targeted return to flight by year-end."
+      },
+      {
+        "date": "Jul 2026",
+        "text": "The Information reported a planned first outside funding round of $10B at a $130B pre-money valuation."
+      }
     ],
     "takeaways": [
       "The $130B figure is a reported pre-money financing target and not a confirmed completed valuation.",
@@ -61,17 +85,46 @@
       "Blue Origin has meaningful exposure to launch, engines, lunar systems and human spaceflight, but each requires sustained capital and execution."
     ],
     "quick_facts": [
-      ["Founder", "Jeff Bezos"],
-      ["CEO", "Dave Limp"],
-      ["Headquarters", "Kent, Washington"],
-      ["Core platform", "New Glenn"],
-      ["Website", "blueorigin.com"]
+      [
+        "Founder",
+        "Jeff Bezos"
+      ],
+      [
+        "CEO",
+        "Dave Limp"
+      ],
+      [
+        "Headquarters",
+        "Kent, Washington"
+      ],
+      [
+        "Core platform",
+        "New Glenn"
+      ],
+      [
+        "Website",
+        "blueorigin.com"
+      ]
     ],
     "sources": [
-      {"label": "Blue Origin: New Glenn return-to-flight update", "url": "https://www.blueorigin.com/news/new-glenn-return-to-flight"},
-      {"label": "Blue Origin: New Glenn vehicle overview", "url": "https://www.blueorigin.com/new-glenn"},
-      {"label": "Blue Origin: NG-3 mission", "url": "https://www.blueorigin.com/missions/ng-3"},
-      {"label": "The Information: reported outside-capital financing", "url": "https://www.theinformation.com/briefings/blue-origin-raise-10-billion-130-billion-valuation"}
+      {
+        "label": "Blue Origin: New Glenn return-to-flight update",
+        "url": "https://www.blueorigin.com/news/new-glenn-return-to-flight"
+      },
+      {
+        "label": "Blue Origin: New Glenn vehicle overview",
+        "url": "https://www.blueorigin.com/new-glenn"
+      },
+      {
+        "label": "Blue Origin: NG-3 mission",
+        "url": "https://www.blueorigin.com/missions/ng-3"
+      },
+      {
+        "label": "The Information: reported outside-capital financing",
+        "url": "https://www.theinformation.com/briefings/blue-origin-raise-10-billion-130-billion-valuation"
+      }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://blueorigin.com"
 }

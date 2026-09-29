@@ -2,7 +2,7 @@
   "slug": "braintrust",
   "name": "Braintrust",
   "status": "Published",
-  "sector": "AI infrastructure",
+  "sector": "Telecommunications & Infrastructure",
   "summary": "Braintrust provides evaluation and observability tools for production AI systems. It raised an $80 million Series B in February 2026 at an $800 million post-money valuation, according to the company and Axios Pro.",
   "overview": "<p>Braintrust provides tools for evaluating, testing and observing AI applications in production. It addresses the operational problem of measuring whether models and AI features perform reliably after they leave experimentation.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "In February 2026, Braintrust announced an $80 million Series B led by ICONIQ. Axios Pro reported that the round valued the company at $800 million post-money, while the company described the financing as support for becoming an observability layer for production AI."
     ],
     "why_it_matters": "Production AI requires testing and measurement infrastructure that traditional software-monitoring tools were not built to provide. Braintrust is a direct bet on that emerging software layer, where enterprise standardisation could create durable platforms.",
-    "valuation_history": [
-      {
-        "value": "$800M",
-        "date": "Feb 2026",
-        "round": "Series B"
-      }
-    ],
     "changed": [
       {
         "date": "Feb 2026",
@@ -97,5 +90,7 @@
         "url": "https://www.axios.com/pro/enterprise-software-deals/2026/02/17/ai-observability-braintrust-80-million-800-million"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://usebraintrust.com"
 }

@@ -2,7 +2,7 @@
   "slug": "fluidstack",
   "name": "Fluidstack",
   "status": "Published",
-  "sector": "Cloud infrastructure",
+  "sector": "Data, Cloud & Developer Tools",
   "summary": "Fluidstack provides GPU cloud capacity and AI infrastructure.",
   "overview": "<p>Fluidstack provides GPU cloud capacity and AI infrastructure. It competes in a market where power, hardware access, network design, and financing determine whether demand turns into usable compute.</p>",
   "as_of": "2026-09-25",
@@ -55,18 +55,6 @@
       "The central question is how much value remains with specialist clouds as hyperscalers and AI labs build their own capacity."
     ],
     "why_it_matters": "The central question is how much value remains with specialist clouds as hyperscalers and AI labs build their own capacity.",
-    "valuation_history": [
-      {
-        "value": "$4B",
-        "date": "2025 reported estimate",
-        "round": "Earlier reported context"
-      },
-      {
-        "value": "$18B",
-        "date": "2026",
-        "round": "Reported financing context"
-      }
-    ],
     "changed": [
       {
         "date": "2025 reported estimate",
@@ -111,5 +99,7 @@
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://www.fluidstack.io"
 }

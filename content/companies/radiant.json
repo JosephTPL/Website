@@ -2,7 +2,7 @@
   "slug": "radiant",
   "name": "Radiant",
   "status": "Published",
-  "sector": "Nuclear energy",
+  "sector": "Energy, Climate & Industrial",
   "summary": "Radiant develops portable microreactors for resilient power. It announced more than $300 million of Series D financing in December 2025, without disclosing a valuation.",
   "overview": "<p>Radiant is developing portable nuclear microreactors intended for remote and mission-critical power. Its private-market case depends on moving from reactor development to repeatable production and deployment.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "Radiant announced more than $300 million in Series D financing in December 2025 to scale production. It did not disclose a valuation."
     ],
     "why_it_matters": "Radiant is a private bet on compact nuclear power for resilience-sensitive customers. Licensing and first commercial deployments are the decisive milestones.",
-    "valuation_history": [
-      {
-        "value": "$300M+ raised",
-        "date": "Dec 2025",
-        "round": "Series D"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://radiantnuclear.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://radiantnuclear.com"
 }

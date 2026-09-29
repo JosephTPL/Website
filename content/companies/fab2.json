@@ -2,7 +2,7 @@
   "slug": "fab2",
   "name": "Fab2",
   "status": "Published",
-  "sector": "Semiconductors",
+  "sector": "Hardware, Robotics & Semiconductors",
   "summary": "Fab2, formerly Atomic Semi, is developing compact chipmaking facilities and the tools inside them. A $500 million September 2026 Series A at a reported $3.7 billion valuation has been reported publicly.",
   "overview": "<p>Fab2 is attempting to make semiconductor production faster and less capital intensive through modular fabrication facilities, in-house equipment and software. The Austin company was previously known as Atomic Semi.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "Formerly Atomic Semi, Fab2 filed a Form D in September 2026. Public reporting placed a $500 million Series A at a $3.7 billion valuation; the filing itself does not establish that valuation."
     ],
     "why_it_matters": "Fab2 is a high-risk private wager on whether chip manufacturing can be productised and deployed more quickly. Manufacturing yield, equipment reliability and customer qualification will matter more than the headline Series A.",
-    "valuation_history": [
-      {
-        "value": "$3.7B",
-        "date": "Sep 2026",
-        "round": "Reported Series A"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -101,5 +94,7 @@
         "url": "https://fab2.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://fab2.com"
 }

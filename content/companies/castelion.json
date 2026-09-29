@@ -2,7 +2,7 @@
   "slug": "castelion",
   "name": "Castelion",
   "status": "Published",
-  "sector": "Defense technology",
+  "sector": "Defense, Aerospace & Space",
   "summary": "Castelion develops mass-producible hypersonic strike systems for the United States and its allies. Its August 2026 financing paired an $800 million Series C with a $250 million revolver at a disclosed $13 billion valuation.",
   "overview": "<p>Castelion develops mass-producible hypersonic strike systems designed for the United States and allied militaries. The company is pursuing a manufacturing-led defence thesis: lower-cost systems produced at scale rather than a small number of exquisite platforms.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "In August 2026, Castelion announced a $1 billion financing package: $800 million of Series C equity and a $250 million committed revolving credit facility, at a $13 billion valuation. It also said it had secured more than $500 million in U.S. military contracts during the preceding 18 months."
     ],
     "why_it_matters": "Castelion illustrates the new defence-tech model: venture-backed companies competing for programs traditionally supplied by major primes. The profile should be monitored for production milestones, additional contract detail and the conversion of development work into recurring program revenue.",
-    "valuation_history": [
-      {
-        "value": "$13B",
-        "date": "Aug 2026",
-        "round": "Series C"
-      }
-    ],
     "changed": [
       {
         "date": "Aug 2026",
@@ -97,5 +90,7 @@
         "url": "https://www.castelion.com/news/series-b/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://castelion.com"
 }

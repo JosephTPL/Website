@@ -2,7 +2,7 @@
   "slug": "authentic-brands-group",
   "name": "Authentic Brands Group",
   "status": "Published",
-  "sector": "Consumer brands",
+  "sector": "Consumer, Commerce & Media",
   "summary": "Authentic acquires consumer and celebrity brands, then licenses product, retail, and media rights through a global partner network.",
   "overview": "<p>Authentic acquires consumer and celebrity brands, then licenses product, retail, and media rights through a global partner network. Its model is based on asset-light brand management rather than operating stores.</p>",
   "as_of": "2026-09-25",
@@ -55,18 +55,6 @@
       "The business is a private-capital case study in extracting recurring royalties from durable consumer IP, but acquisition discipline and consumer relevance are central risks."
     ],
     "why_it_matters": "The business is a private-capital case study in extracting recurring royalties from durable consumer IP, but acquisition discipline and consumer relevance are central risks.",
-    "valuation_history": [
-      {
-        "value": "$12.7B",
-        "date": "2021",
-        "round": "Earlier reported context"
-      },
-      {
-        "value": "$20B",
-        "date": "2024",
-        "round": "$500M growth equity"
-      }
-    ],
     "changed": [
       {
         "date": "2021",
@@ -111,5 +99,7 @@
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://corporate.authentic.com"
 }

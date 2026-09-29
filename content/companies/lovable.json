@@ -2,7 +2,7 @@
   "slug": "lovable",
   "name": "Lovable",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Lovable is an AI software-development platform that lets users build applications from natural-language prompts.",
   "overview": "<p>Lovable is an AI software-development platform that lets users build applications from natural-language prompts.</p>",
   "as_of": "2026-09-25",
@@ -55,18 +55,6 @@
       "It raised $400 million in a Series C at a $13.3 billion valuation in August 2026."
     ],
     "why_it_matters": "Lovable is a leading indicator for the economics of AI-native software creation. The company tests whether prompt-to-app products can develop into durable application-development platforms rather than feature layers.",
-    "valuation_history": [
-      {
-        "value": "$6.6B",
-        "date": "Dec 2025",
-        "round": "Series B, $330M"
-      },
-      {
-        "value": "$13.3B",
-        "date": "Aug 2026",
-        "round": "Series C, $400M"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -102,5 +90,7 @@
         "url": "https://lovable.dev"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://lovable.dev"
 }

@@ -2,7 +2,7 @@
   "slug": "mithril",
   "name": "Mithril",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Mithril provides an AI omnicloud platform intended to make compute more accessible and efficient for AI developers and research teams.",
   "overview": "<p>Mithril provides an AI omnicloud platform for developers and research teams. The company says its platform is designed to make compute more accessible across cloud environments while supporting AI workloads.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "Its public materials emphasize AI workloads and cross-cloud access, but do not disclose financing, valuation, customers or operating metrics. This profile therefore does not infer commercial scale."
     ],
     "why_it_matters": "As AI demand grows, developers increasingly need access to scarce and expensive compute. The question is whether Mithril can provide a differentiated layer above hyperscalers and specialized GPU clouds.",
-    "valuation_history": [
-      {
-        "value": "$80M",
-        "date": "Mar 2024",
-        "round": "Seed and Series A, announced as Foundry"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://mithril.ai/blog/foundry-is-now-mithril"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://mithril.com"
 }

@@ -4,8 +4,7 @@
   "status": "Published",
   "ownership": "subsidiary",
   "parent": "Coinbase",
-
-  "sector": "Blockchain infrastructure",
+  "sector": "Telecommunications & Infrastructure",
   "summary": "Base is an Ethereum Layer-2 network incubated by public company Coinbase, built on the OP Stack. It is not a standalone venture-backed company, so a private valuation and funding-round history do not apply.",
   "overview": "<p>Base is an Ethereum Layer-2 network incubated inside Coinbase and built with the OP Stack in collaboration with Optimism. The network is relevant to private-market investors as an ecosystem and distribution layer, but should not be presented as a separately financed private company.</p>",
   "as_of": "2026-09-27",
@@ -58,13 +57,6 @@
       "It has no standalone venture financing, public equity valuation or announced native token. Any analysis of its strategic value belongs primarily in an assessment of Coinbase and the wider Ethereum ecosystem, rather than a conventional private-company valuation profile."
     ],
     "why_it_matters": "Base shows why the directory needs to distinguish companies from strategically important platforms. It matters to fintech and crypto startups building on it, but its economics and governance cannot be assessed through the same financing framework used for an independent private company.",
-    "valuation_history": [
-      {
-        "value": "N/A",
-        "date": "Current",
-        "round": "Coinbase-operated network"
-      }
-    ],
     "changed": [
       {
         "date": "Feb 2023",
@@ -100,5 +92,7 @@
         "url": "https://blog.base.org/bases-commitment-to-decentralization-with-the-superchain"
       }
     ]
-  }
+  },
+  "company_status": "subsidiary",
+  "website": "https://base.org"
 }

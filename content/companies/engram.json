@@ -2,7 +2,7 @@
   "slug": "engram",
   "name": "Engram",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Engram is building a learned memory layer that gives enterprise AI systems persistent organisational context.",
   "overview": "<p>Engram emerged from stealth in June 2026 with $98 million in financing to build a memory layer for enterprise AI. It named Microsoft, Notion, and Harvey as early partners; the company did not announce a valuation.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "Engram emerged from stealth with $98 million in financing from General Catalyst, Kleiner Perkins, Sequoia Capital, Factory, and others. Microsoft, Notion, and Harvey were named as early partners; no valuation was disclosed."
     ],
     "why_it_matters": "Memory and organisational context are likely to be key control points in enterprise AI stacks. Engram is a high-funded private effort to own that layer rather than leave it to application vendors or model providers.",
-    "valuation_history": [
-      {
-        "value": "$98M",
-        "date": "Jun 2026",
-        "round": "Launch financing; valuation undisclosed"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://engram.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://engram.com"
 }

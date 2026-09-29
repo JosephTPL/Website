@@ -2,7 +2,7 @@
   "slug": "instinct",
   "name": "Instinct",
   "status": "Published",
-  "sector": "Consumer AI",
+  "sector": "Consumer, Commerce & Media",
   "summary": "Instinct is a consumer AI assistant that connects to users' apps and devices to complete tasks through text and voice interactions. Its September 2026 Series C valued it at $10 billion.",
   "overview": "<p>Instinct is a consumer agent built to take actions across connected services. On September 28, 2026, the company announced a $1 billion Series C from Sequoia Capital, Benchmark Capital, and Coatue at a $10 billion valuation.</p>",
   "as_of": "2026-09-29",
@@ -50,18 +50,6 @@
       "In September 2026, Instinct announced a $1 billion Series C at a $10 billion valuation from Sequoia Capital, Benchmark Capital, and Coatue. The completed round followed an August Series B reported at $250 million and a $2.5 billion valuation."
     ],
     "why_it_matters": "Consumer agents are a high-upside but high-trust category: real task completion creates more value than a chatbot only if users grant broad access. Instinct's rapid move from a $2.5 billion Series B valuation to $10 billion in a month is a useful read-through on investor appetite for that model.",
-    "valuation_history": [
-      {
-        "value": "$2.5B",
-        "date": "Aug 2026",
-        "round": "$250M Series B"
-      },
-      {
-        "value": "$10B",
-        "date": "Sep 2026",
-        "round": "$1B Series C"
-      }
-    ],
     "changed": [
       {
         "date": "Aug 2026",
@@ -117,5 +105,7 @@
         "url": "https://instinct.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://instinct.com"
 }

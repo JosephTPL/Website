@@ -2,7 +2,7 @@
   "slug": "normal",
   "name": "Normal",
   "status": "Draft",
-  "sector": "Artificial intelligence",
+  "sector": "AI & Machine Learning",
   "summary": "Draft profile awaiting verified company and funding information.",
   "overview": "<p>Draft profile awaiting verified company and funding information.</p>",
   "as_of": "2026-09-25",
@@ -55,18 +55,6 @@
       "Future updates should focus on product adoption, financing, and any evidence of differentiated distribution or economics."
     ],
     "why_it_matters": "Future updates should focus on product adoption, financing, and any evidence of differentiated distribution or economics.",
-    "valuation_history": [
-      {
-        "value": "N/A",
-        "date": "N/A",
-        "round": "Earlier reported context"
-      },
-      {
-        "value": "Undisclosed",
-        "date": "2026",
-        "round": "No confirmed financing disclosed"
-      }
-    ],
     "changed": [
       {
         "date": "N/A",
@@ -112,5 +100,7 @@
       }
     ]
   },
-  "ownership": "independent"
+  "ownership": "independent",
+  "company_status": "private",
+  "website": "https://normal.com"
 }

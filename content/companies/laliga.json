@@ -2,7 +2,7 @@
   "slug": "laliga",
   "status": "Published",
   "name": "LaLiga",
-  "sector": "Sports media",
+  "sector": "Consumer, Commerce & Media",
   "summary": "LaLiga organizes Spain's top professional football competitions and commercialises audiovisual, sponsorship, and international media rights.",
   "overview": "<p>LaLiga is the commercial and organizational body for Spain's leading professional football competitions.</p>",
   "as_of": "2026-09-25",
@@ -56,23 +56,6 @@
       "In 2021 LaLiga reached an agreement with CVC to create a vehicle for commercial rights, under which CVC would invest €2.7B. LaLiga stated the transaction valued the organization at €24.25B, while retaining its sporting and organizational functions."
     ],
     "why_it_matters": "LaLiga is a useful private-capital case study in turning durable media rights into investable infrastructure. It is relevant to the private-market debate over sports leagues, live entertainment, global fan monetisation, and long-dated revenue-sharing arrangements.",
-    "valuation_history": [
-      {
-        "value": "€24.25B",
-        "date": "Aug 2021",
-        "round": "CVC transaction value"
-      },
-      {
-        "value": "€2.7B",
-        "date": "2021",
-        "round": "LaLiga Impulso investment"
-      },
-      {
-        "value": "8.2%",
-        "date": "2021",
-        "round": "CVC rights participation"
-      }
-    ],
     "changed": [
       {
         "date": "2021",
@@ -133,5 +116,7 @@
         "url": "https://cdn.vev.design/private/aTCxVXgBbmVvmw45NvpIseApVuy2/1jco82-uefa-benchmarking-ecfil-report-embargo.pdf"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://laliga.com"
 }

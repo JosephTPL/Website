@@ -2,7 +2,7 @@
   "slug": "twenty",
   "name": "Twenty",
   "status": "Published",
-  "sector": "Cyber warfare",
+  "sector": "AI & Machine Learning",
   "summary": "Twenty builds AI-enabled cyber-warfare systems for the U.S. military and intelligence community. It raised a $100M Series B at a $1B valuation in June 2026.",
   "overview": "<p>Twenty builds AI-enabled, end-to-end cyber operations systems for the U.S. military and intelligence community. Its June 2026 Series B was intended to expand research, development, and deployment of its cyber-warfare capabilities.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "In June 2026, Twenty announced a $100 million Series B led by Accel at a $1 billion valuation. It said the funding brought total capital raised to $138 million and would support research, development, and deployment."
     ],
     "why_it_matters": "Twenty reflects investor demand for cyber capabilities tied to national security. Contract conversion and responsible operational use will be more important than its early valuation headline.",
-    "valuation_history": [
-      {
-        "value": "$1B",
-        "date": "Jun 2026",
-        "round": "Series B, $100M"
-      }
-    ],
     "changed": [
       {
         "date": "Jun 17, 2026",
@@ -105,5 +98,7 @@
         "url": "https://www.prnewswire.com/news-releases/americas-first-vc-backed-cyber-warfare-startup-raises-100m-series-b-at-1b-valuation-302802401.html"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://twenty.io"
 }

@@ -4,10 +4,9 @@
   "status": "Published",
   "ownership": "subsidiary",
   "parent": "Kuaishou",
-
-  "sector": "Artificial intelligence",
-  "summary": "Kling AI is Kuaishou\u2019s generative-video model and product platform.",
-  "overview": "<p>Kling AI is Kuaishou\u2019s generative-video model and product platform. It competes in a fast-moving market for video creation, advertising tools, and creator workflows.</p>",
+  "sector": "AI & Machine Learning",
+  "summary": "Kling AI is Kuaishou’s generative-video model and product platform.",
+  "overview": "<p>Kling AI is Kuaishou’s generative-video model and product platform. It competes in a fast-moving market for video creation, advertising tools, and creator workflows.</p>",
   "as_of": "2026-09-25",
   "facts": [
     {
@@ -30,7 +29,7 @@
     "location": "Beijing, China",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=klingai.com&sz=128",
-    "description": "Kling AI is Kuaishou\u2019s generative-video model and product platform. It competes in a fast-moving market for video creation, advertising tools, and creator workflows.",
+    "description": "Kling AI is Kuaishou’s generative-video model and product platform. It competes in a fast-moving market for video creation, advertising tools, and creator workflows.",
     "metrics": [
       {
         "value": "$18B",
@@ -54,22 +53,10 @@
       }
     ],
     "company": [
-      "Kling AI is Kuaishou\u2019s generative-video model and product platform. It competes in a fast-moving market for video creation, advertising tools, and creator workflows.",
+      "Kling AI is Kuaishou’s generative-video model and product platform. It competes in a fast-moving market for video creation, advertising tools, and creator workflows.",
       "Model quality, creator adoption, compute cost, and distribution through the Kuaishou ecosystem will determine whether it develops into a standalone value pool."
     ],
     "why_it_matters": "Model quality, creator adoption, compute cost, and distribution through the Kuaishou ecosystem will determine whether it develops into a standalone value pool.",
-    "valuation_history": [
-      {
-        "value": "N/A",
-        "date": "N/A",
-        "round": "Earlier reported context"
-      },
-      {
-        "value": "$18B",
-        "date": "2026",
-        "round": "Not independently disclosed"
-      }
-    ],
     "changed": [
       {
         "date": "N/A",
@@ -114,5 +101,7 @@
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
-  }
+  },
+  "company_status": "subsidiary",
+  "website": "https://klingai.com"
 }

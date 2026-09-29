@@ -2,7 +2,7 @@
   "slug": "abridge",
   "name": "Abridge",
   "status": "Published",
-  "sector": "Healthcare AI",
+  "sector": "Healthcare & Life Sciences",
   "summary": "Abridge uses AI to turn doctor–patient conversations into clinical notes, and is used by more than 150 large U.S. health systems.",
   "overview": "<p>Abridge provides ambient AI documentation that listens to clinical conversations and drafts notes inside electronic health records.</p>",
   "as_of": "2026-09-29",
@@ -62,13 +62,6 @@
       "Abridge raised a $300 million Series E led by Andreessen Horowitz in June 2025, with Khosla Ventures participating, and says more than 150 large U.S. health systems use its product. A $316 million extension at a $5.3 billion valuation was reported in April 2026 by secondary-market data providers, without a company announcement."
     ],
     "why_it_matters": "Abridge is the leading example of vertical AI in healthcare and a read-through for how quickly hospitals adopt AI in clinical workflows.",
-    "valuation_history": [
-      {
-        "value": "$5.3B",
-        "date": "Apr 2026",
-        "round": "Series E extension, reported"
-      }
-    ],
     "changed": [
       {
         "date": "2018",
@@ -125,5 +118,7 @@
         "url": "https://techjacksolutions.com/ai-brief/abridge-closes-reported-316m-series-e-extension-at-53b-valua/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://abridge.com"
 }

@@ -2,7 +2,7 @@
   "slug": "neuralink",
   "name": "Neuralink",
   "status": "Published",
-  "sector": "Neurotechnology",
+  "sector": "Hardware, Robotics & Semiconductors",
   "summary": "Neuralink, co-founded by Elon Musk, develops brain-computer interface implants that let people with paralysis control devices with their thoughts.",
   "overview": "<p>Neuralink develops implantable brain-computer interfaces and the surgical robot used to place them, with human clinical trials underway.</p>",
   "as_of": "2026-09-29",
@@ -62,13 +62,6 @@
       "In June 2025 Neuralink raised a $650 million Series E at a reported $9 billion pre-money valuation, to expand patient access to its device and develop new applications. It remains in clinical trials, with no approved commercial product."
     ],
     "why_it_matters": "Neuralink is the most prominent private brain-computer interface company, and a read-through for how investors value medical technology that is still in clinical trials.",
-    "valuation_history": [
-      {
-        "value": "$9B",
-        "date": "Jun 2025",
-        "round": "$650M Series E, reported pre-money"
-      }
-    ],
     "changed": [
       {
         "date": "2016",
@@ -125,5 +118,7 @@
         "url": "https://siliconangle.com/2025/06/02/neuralink-raises-another-650m-reported-9b-pre-money-valuation/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://neuralink.com"
 }

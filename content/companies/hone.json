@@ -2,7 +2,7 @@
   "slug": "hone",
   "name": "Hone",
   "status": "Published",
-  "sector": "Workforce software",
+  "sector": "Enterprise Software & Business Services",
   "summary": "Hone provides cohort-based management and workforce training.",
   "overview": "<p>Hone provides cohort-based management and workforce training. It sells into employers seeking scalable development for managers and teams.</p>",
   "as_of": "2026-09-25",
@@ -55,18 +55,6 @@
       "The main questions are enterprise retention, content differentiation, and whether learning spend remains resilient in tighter software budgets."
     ],
     "why_it_matters": "The main questions are enterprise retention, content differentiation, and whether learning spend remains resilient in tighter software budgets.",
-    "valuation_history": [
-      {
-        "value": "N/A",
-        "date": "N/A",
-        "round": "Earlier reported context"
-      },
-      {
-        "value": "Undisclosed",
-        "date": "2026",
-        "round": "No confirmed financing disclosed"
-      }
-    ],
     "changed": [
       {
         "date": "N/A",
@@ -111,5 +99,7 @@
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://www.honehq.com"
 }

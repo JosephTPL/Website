@@ -2,7 +2,7 @@
   "slug": "long-lake",
   "name": "Long Lake",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Long Lake is a private financial-services company with a reported May 2026 Series D valuation benchmark.",
   "overview": "<p>Public operating information about Long Lake is limited. Forge Global lists a reported May 2026 Series D of $2.25 billion at a $12.44 billion post-money valuation; this profile treats that as secondary-market information, not a company-issued announcement.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "Forge Global lists a May 2026 Series D of $2.25 billion at a reported $12.44 billion post-money valuation. The profile treats this as reported secondary-market information rather than a company-issued financing announcement."
     ],
     "why_it_matters": "The reported $12.44B benchmark makes Long Lake material enough to monitor, but it should not be treated as a fully underwritten profile until primary disclosures clarify the business and transaction terms.",
-    "valuation_history": [
-      {
-        "value": "$12.44B",
-        "date": "May 2026",
-        "round": "Series D"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://longlake.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://longlake.com"
 }

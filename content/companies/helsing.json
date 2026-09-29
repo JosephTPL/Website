@@ -2,7 +2,7 @@
   "slug": "helsing",
   "status": "Published",
   "name": "Helsing",
-  "sector": "Defense AI",
+  "sector": "Defense, Aerospace & Space",
   "summary": "Helsing builds AI software and systems for defense applications, including electronic warfare, autonomy, and battlefield decision support.",
   "overview": "<p>Helsing builds AI software and systems for defense applications, including electronic warfare, autonomy, and battlefield decision support.</p>",
   "as_of": "2026-09-25",
@@ -18,7 +18,7 @@
   "directory_rank": 25,
   "bull_case": "European rearmament creates demand for sovereign, software-defined defense systems.",
   "bear_case": "Defense sales remain politically constrained and dependent on long programs.",
-  "latest_round": "Jun 2025: \u20ac600M Series D",
+  "latest_round": "Jun 2025: €600M Series D",
   "directory_notes": [
     "Defense AI and software",
     "European defense spending and sovereign technology demand create a large opportunity, but deployment, procurement, and geopolitical conditions drive the business."
@@ -36,7 +36,7 @@
         "note": "Jun 2025"
       },
       {
-        "value": "\u20ac600M Series D",
+        "value": "€600M Series D",
         "label": "Latest financing",
         "note": "Jun 2025"
       },
@@ -56,18 +56,6 @@
       "European defense spending and sovereign technology demand create a large opportunity, but deployment, procurement, and geopolitical conditions drive the business."
     ],
     "why_it_matters": "European defense spending and sovereign technology demand create a large opportunity, but deployment, procurement, and geopolitical conditions drive the business.",
-    "valuation_history": [
-      {
-        "value": "\u20ac5B",
-        "date": "2025 prior round",
-        "round": "Earlier reported context"
-      },
-      {
-        "value": "$18B",
-        "date": "Jun 2025",
-        "round": "\u20ac600M Series D"
-      }
-    ],
     "changed": [
       {
         "date": "2025 prior round",
@@ -75,7 +63,7 @@
       },
       {
         "date": "Jun 2025",
-        "text": "Latest profile review: \u20ac600M Series D."
+        "text": "Latest profile review: €600M Series D."
       }
     ],
     "takeaways": [
@@ -112,5 +100,7 @@
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://helsing.ai"
 }

@@ -2,7 +2,7 @@
   "slug": "sail-research",
   "name": "Sail Research",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Sail Research provides infrastructure designed to run long-horizon AI agents efficiently and reliably.",
   "overview": "<p>Sail Research is building cloud infrastructure for AI agents that operate over long tasks rather than brief interactions. It announced $80 million of seed and Series A funding at a $450 million valuation in June 2026.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "In June 2026, Sail announced $80 million of seed and Series A funding at a $450 million valuation. Sequoia led the seed and Kleiner Perkins led the Series A."
     ],
     "why_it_matters": "The infrastructure required for agents that operate for hours or days differs from simple chat inference. Sail is an early private benchmark for whether persistent agent workloads develop into a distinct cloud category.",
-    "valuation_history": [
-      {
-        "value": "$450M",
-        "date": "Jun 2026",
-        "round": "$80M seed and Series A"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://sailresearch.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://sailresearch.com"
 }

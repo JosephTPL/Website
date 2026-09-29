@@ -2,7 +2,7 @@
   "slug": "anthropic",
   "name": "Anthropic",
   "status": "Published",
-  "sector": "Artificial intelligence",
+  "sector": "AI & Machine Learning",
   "summary": "Claude's enterprise momentum, compute economics, and the race to build a lasting AI business.",
   "overview": "<p>Anthropic's business case rests on valuable professional use, especially coding and enterprise work. Claude's growth and major technology partnerships support that case, while the company must keep investing heavily in compute and research as competition intensifies.</p>",
   "image": "https://substackcdn.com/image/fetch/$s_!_lS3!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb33ff6ae-8a4c-4075-a1f5-edc16bdcd29e_1600x840.jpeg",
@@ -50,28 +50,49 @@
     "logo": "/logos/anthropic.svg",
     "description": "Anthropic develops Claude, an AI assistant and model platform used across consumer, developer, and enterprise workflows.",
     "metrics": [
-      {"value": "$965B", "label": "Latest valuation", "note": "May 2026 post-money"},
-      {"value": "$65B", "label": "Latest funding", "note": "Series H"},
-      {"value": ">$100B", "label": "Reported revenue pace", "note": "September 2026 media report"},
-      {"value": "Private", "label": "Public status", "note": "No confirmed IPO"}
+      {
+        "value": "$965B",
+        "label": "Latest valuation",
+        "note": "May 2026 post-money"
+      },
+      {
+        "value": "$65B",
+        "label": "Latest funding",
+        "note": "Series H"
+      },
+      {
+        "value": ">$100B",
+        "label": "Reported revenue pace",
+        "note": "September 2026 media report"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed IPO"
+      }
     ],
     "company": [
       "Anthropic is a public benefit corporation founded in 2021 by former OpenAI leaders. It develops Claude, a family of foundation models and products positioned around reliable, steerable AI for professional and enterprise use.",
       "The commercial story is increasingly tied to coding, knowledge work, and API adoption. Its latest disclosed financing is intended to expand compute, safety and interpretability research, and the products and partnerships built around Claude."
     ],
     "why_it_matters": "Anthropic is one of the clearest examples of a private company already shaping public-market infrastructure. Its demand for cloud capacity, chips, and enterprise software distribution affects Amazon, Google, Microsoft, Nvidia, and the broader AI supply chain. The eventual transition from private funding to public markets will be a major test of AI revenue durability, capital intensity, and valuation discipline.",
-    "valuation_history": [
-      {"value": "$15B", "date": "2023", "round": "Series C"},
-      {"value": "$61.5B", "date": "2025", "round": "Series E"},
-      {"value": "$183B", "date": "2025", "round": "Series F"},
-      {"value": "$380B", "date": "Feb 2026", "round": "Series G"},
-      {"value": "$965B", "date": "May 2026", "round": "Series H"}
-    ],
     "changed": [
-      {"date": "2021", "text": "Anthropic is founded by former OpenAI leaders, with a public-benefit structure and a focus on AI safety."},
-      {"date": "2023", "text": "Claude enters the market and Anthropic expands its cloud distribution through strategic partnerships."},
-      {"date": "2025", "text": "Enterprise adoption accelerates, pushing the company into the top tier of private AI companies by valuation."},
-      {"date": "2026", "text": "Series G and Series H financing fund a rapid expansion of compute capacity, enterprise products, and research."}
+      {
+        "date": "2021",
+        "text": "Anthropic is founded by former OpenAI leaders, with a public-benefit structure and a focus on AI safety."
+      },
+      {
+        "date": "2023",
+        "text": "Claude enters the market and Anthropic expands its cloud distribution through strategic partnerships."
+      },
+      {
+        "date": "2025",
+        "text": "Enterprise adoption accelerates, pushing the company into the top tier of private AI companies by valuation."
+      },
+      {
+        "date": "2026",
+        "text": "Series G and Series H financing fund a rapid expansion of compute capacity, enterprise products, and research."
+      }
     ],
     "takeaways": [
       "Claude's strength in professional and coding workflows gives Anthropic a commercially valuable enterprise position.",
@@ -80,18 +101,50 @@
       "A potential IPO would be a landmark test of whether public investors will support private-market AI valuations at scale."
     ],
     "quick_facts": [
-      ["Founded", "2021"],
-      ["Headquarters", "San Francisco, CA"],
-      ["Leadership", "Dario Amodei, CEO; Daniela Amodei, President"],
-      ["Structure", "Public benefit corporation"],
-      ["Core product", "Claude"],
-      ["Website", "anthropic.com"]
+      [
+        "Founded",
+        "2021"
+      ],
+      [
+        "Headquarters",
+        "San Francisco, CA"
+      ],
+      [
+        "Leadership",
+        "Dario Amodei, CEO; Daniela Amodei, President"
+      ],
+      [
+        "Structure",
+        "Public benefit corporation"
+      ],
+      [
+        "Core product",
+        "Claude"
+      ],
+      [
+        "Website",
+        "anthropic.com"
+      ]
     ],
     "sources": [
-      {"label": "Series H announcement", "url": "https://www.anthropic.com/news/series-h"},
-      {"label": "Latest reported revenue pace", "url": "https://www.axios.com/2026/09/18/anthropic-100-billion-revenue"},
-      {"label": "Anthropic leadership", "url": "https://www.anthropic.com/company/leadership"},
-      {"label": "Anthropic breakdown", "url": "/articles/the-breakdown-anthropic/"}
+      {
+        "label": "Series H announcement",
+        "url": "https://www.anthropic.com/news/series-h"
+      },
+      {
+        "label": "Latest reported revenue pace",
+        "url": "https://www.axios.com/2026/09/18/anthropic-100-billion-revenue"
+      },
+      {
+        "label": "Anthropic leadership",
+        "url": "https://www.anthropic.com/company/leadership"
+      },
+      {
+        "label": "Anthropic breakdown",
+        "url": "/articles/the-breakdown-anthropic/"
+      }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://anthropic.com"
 }

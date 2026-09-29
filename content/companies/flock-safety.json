@@ -1,1 +1,100 @@
-{"slug":"flock-safety","name":"Flock Safety","status":"Published","sector":"Public safety technology","summary":"Flock Safety sells camera, license-plate recognition and investigative software to public-safety customers. Its March 2025 financing valued the company at $7.5 billion.","overview":"<p>Flock Safety combines networked cameras, automated license-plate recognition and software for public-safety investigations.</p>","as_of":"2026-09-28","facts":[{"label":"Latest disclosed valuation","value":"March 2025: $275M at $7.5B","note":"Flock announced the financing was led by Andreessen Horowitz.","source":"https://www.globenewswire.com/news-release/2025/03/13/3042227/0/en/Flock-Safety-Raises-275-Million-to-Advance-the-Safety-Technology-Ecosystem-and-Strengthen-Communities-Across-the-U-S.html"}],"directory_rank":63,"bull_case":"A growing camera and software network can create data and workflow advantages for customers as public-safety agencies consolidate tools.","bear_case":"Privacy concerns, public scrutiny, policy changes and procurement risk can constrain expansion or raise the cost of maintaining trust.","latest_round":"March 2025: $275M at $7.5B","directory_notes":["Public-safety cameras and software","Watch privacy governance and recurring-software adoption."],"intelligence":{"kicker":"COMPANY INTELLIGENCE","location":"Atlanta, Georgia, United States","status":"Private","logo":"https://www.google.com/s2/favicons?domain=flocksafety.com&sz=128","description":"Public-safety technology platform combining cameras, automated license-plate recognition and investigative software.","metrics":[{"value":"$7.5B","label":"Reported valuation","note":"March 2025 financing"},{"value":"$275M","label":"Latest funding","note":"March 2025 round"},{"value":"2017","label":"Founded","note":"Public-safety technology"},{"value":"Private","label":"Public status","note":"No IPO filing disclosed"}],"company":["Flock Safety sells hardware and software used by law enforcement, neighborhoods and businesses to investigate incidents. Its platform combines cameras, automated license-plate recognition and software workflows.","The company announced a $275 million financing at a $7.5 billion valuation in March 2025. The central strategic question is whether it can scale a sensitive public-safety network while maintaining privacy safeguards and customer trust."],"why_it_matters":"Flock is a significant private-market example of a hardware-plus-software network business. Its trajectory shows both the appetite for public-safety technology and the governance risks that can shape adoption and valuation.","valuation_history":[{"value":"$4.8B","date":"2024","round":"Prior reported valuation"},{"value":"$7.5B","date":"Mar 2025","round":"$275M financing"}],"changed":[{"date":"Mar 2025","text":"Flock announced a $275M fundraise at a $7.5B valuation."}],"takeaways":["Network density can improve product value but increases governance responsibility.","Privacy and procurement scrutiny are core investment risks.","The $7.5B valuation came from a disclosed financing."],"quick_facts":[["Founded","2017"],["Headquarters","Atlanta, GA"],["Focus","Public-safety technology"],["Website","flocksafety.com"]],"sources":[{"label":"Flock: $275M financing announcement","url":"https://www.globenewswire.com/news-release/2025/03/13/3042227/0/en/Flock-Safety-Raises-275-Million-to-Advance-the-Safety-Technology-Ecosystem-and-Strengthen-Communities-Across-the-U-S.html"},{"label":"TechCrunch: Flock financing","url":"https://techcrunch.com/2025/03/13/y-combinators-police-surveillance-darling-flock-safety-raises-275m-at-7-5b-valuation/"}]}}
+{
+  "slug": "flock-safety",
+  "name": "Flock Safety",
+  "status": "Published",
+  "sector": "Defense, Aerospace & Space",
+  "summary": "Flock Safety sells camera, license-plate recognition and investigative software to public-safety customers. Its March 2025 financing valued the company at $7.5 billion.",
+  "overview": "<p>Flock Safety combines networked cameras, automated license-plate recognition and software for public-safety investigations.</p>",
+  "as_of": "2026-09-28",
+  "facts": [
+    {
+      "label": "Latest disclosed valuation",
+      "value": "March 2025: $275M at $7.5B",
+      "note": "Flock announced the financing was led by Andreessen Horowitz.",
+      "source": "https://www.globenewswire.com/news-release/2025/03/13/3042227/0/en/Flock-Safety-Raises-275-Million-to-Advance-the-Safety-Technology-Ecosystem-and-Strengthen-Communities-Across-the-U-S.html"
+    }
+  ],
+  "directory_rank": 63,
+  "bull_case": "A growing camera and software network can create data and workflow advantages for customers as public-safety agencies consolidate tools.",
+  "bear_case": "Privacy concerns, public scrutiny, policy changes and procurement risk can constrain expansion or raise the cost of maintaining trust.",
+  "latest_round": "March 2025: $275M at $7.5B",
+  "directory_notes": [
+    "Public-safety cameras and software",
+    "Watch privacy governance and recurring-software adoption."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Atlanta, Georgia, United States",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=flocksafety.com&sz=128",
+    "description": "Public-safety technology platform combining cameras, automated license-plate recognition and investigative software.",
+    "metrics": [
+      {
+        "value": "$7.5B",
+        "label": "Reported valuation",
+        "note": "March 2025 financing"
+      },
+      {
+        "value": "$275M",
+        "label": "Latest funding",
+        "note": "March 2025 round"
+      },
+      {
+        "value": "2017",
+        "label": "Founded",
+        "note": "Public-safety technology"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No IPO filing disclosed"
+      }
+    ],
+    "company": [
+      "Flock Safety sells hardware and software used by law enforcement, neighborhoods and businesses to investigate incidents. Its platform combines cameras, automated license-plate recognition and software workflows.",
+      "The company announced a $275 million financing at a $7.5 billion valuation in March 2025. The central strategic question is whether it can scale a sensitive public-safety network while maintaining privacy safeguards and customer trust."
+    ],
+    "why_it_matters": "Flock is a significant private-market example of a hardware-plus-software network business. Its trajectory shows both the appetite for public-safety technology and the governance risks that can shape adoption and valuation.",
+    "changed": [
+      {
+        "date": "Mar 2025",
+        "text": "Flock announced a $275M fundraise at a $7.5B valuation."
+      }
+    ],
+    "takeaways": [
+      "Network density can improve product value but increases governance responsibility.",
+      "Privacy and procurement scrutiny are core investment risks.",
+      "The $7.5B valuation came from a disclosed financing."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2017"
+      ],
+      [
+        "Headquarters",
+        "Atlanta, GA"
+      ],
+      [
+        "Focus",
+        "Public-safety technology"
+      ],
+      [
+        "Website",
+        "flocksafety.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Flock: $275M financing announcement",
+        "url": "https://www.globenewswire.com/news-release/2025/03/13/3042227/0/en/Flock-Safety-Raises-275-Million-to-Advance-the-Safety-Technology-Ecosystem-and-Strengthen-Communities-Across-the-U-S.html"
+      },
+      {
+        "label": "TechCrunch: Flock financing",
+        "url": "https://techcrunch.com/2025/03/13/y-combinators-police-surveillance-darling-flock-safety-raises-275m-at-7-5b-valuation/"
+      }
+    ]
+  },
+  "company_status": "private",
+  "website": "https://flocksafety.com"
+}

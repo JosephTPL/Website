@@ -1,1 +1,125 @@
-{"slug":"cognition","name":"Cognition","status":"Published","sector":"AI software engineering","summary":"Cognition builds Devin, an AI software engineer for automating software-development workflows.","overview":"<p>Cognition builds Devin, an AI software engineer designed to plan, write, test, and maintain software.</p>","as_of":"2026-09-25","facts":[{"label":"Latest financing","value":"$2B+ at $48B","note":"Series E announced September 2026.","source":"https://cognition.com/blog/series-e"}],"directory_rank":7,"bull_case":"AI agents can expand software output without proportional engineering headcount.","bear_case":"Competition from model labs and developer tools may compress pricing and product differentiation.","latest_round":"September 2026: $2B+ at $48B","directory_notes":["Devin usage, enterprise expansion, and ARR","Agent reliability, cost, and model competition."],"intelligence":{"kicker":"COMPANY INTELLIGENCE","location":"New York, New York","status":"Private","logo":"https://www.google.com/s2/favicons?domain=cognition.com&sz=128","description":"Cognition develops Devin, an AI software engineer that can take on scoped development tasks and work alongside human engineering teams.","metrics":[{"value":"$48B","label":"Latest valuation","note":"September 2026"},{"value":"$2B+","label":"Capital raised","note":"Series E"},{"value":"$900M","label":"ARR run-rate","note":"Company reported, September 2026"},{"value":">10x","label":"Enterprise usage growth","note":"From start of 2026 to May"}],"company":["Cognition was founded in 2024 to build AI agents capable of completing meaningful software-engineering work. Its flagship product, Devin, is positioned as a cloud agent that can understand codebases, plan work, write and test code, and operate in development workflows.","The company’s value has accelerated with adoption of coding agents. Cognition said its annualised revenue run-rate grew to $492M by May 2026 and then to $900M by September, alongside a Series E that brought total capital raised above $2B at a $48B valuation."],"why_it_matters":"Cognition is one of the clearest private-market tests of whether AI agents become a new software-production layer rather than a feature inside existing developer tools. Its trajectory affects model providers, IDEs, cloud platforms, outsourcing businesses, and the economics of venture-backed software teams.","valuation_history":[{"value":"$2B","date":"Mar 2024","round":"Early funding valuation reported"},{"value":"$10.2B","date":"Sep 2025","round":"$400M financing"},{"value":"$26B","date":"May 2026","round":"$1B+ Series D"},{"value":"$48B","date":"Sep 2026","round":"$2B+ Series E"}],"changed":[{"date":"2024","text":"Cognition launches Devin, its AI software engineer."},{"date":"Sep 2025","text":"Raises $400M at a $10.2B post-money valuation."},{"date":"May 2026","text":"Raises more than $1B at a $26B valuation and reports $492M revenue run-rate."},{"date":"Sep 2026","text":"Raises more than $2B at a $48B valuation and reports $900M annualised revenue run-rate."}],"takeaways":["Cognition’s valuation assumes coding agents become a major software-production category, not just a productivity feature.","Fast reported revenue growth shows demand, but retention and gross margins remain central questions.","Devin competes in a market where frontier model capabilities can shift rapidly.","Enterprise trust, security, and reliable execution across complex codebases will determine whether agents capture durable budgets."],"quick_facts":[["Founded","2024"],["Headquarters","New York, New York"],["CEO","Scott Wu"],["Product","Devin"],["Focus","AI software engineering agents"],["Website","cognition.com"]],"sources":[{"label":"Cognition Series E announcement","url":"https://cognition.com/blog/series-e"},{"label":"Cognition Series D announcement","url":"https://cognition.com/blog/series-d"},{"label":"Cognition company blog","url":"https://cognition.com/blog"}]}}
+{
+  "slug": "cognition",
+  "name": "Cognition",
+  "status": "Published",
+  "sector": "AI & Machine Learning",
+  "summary": "Cognition builds Devin, an AI software engineer for automating software-development workflows.",
+  "overview": "<p>Cognition builds Devin, an AI software engineer designed to plan, write, test, and maintain software.</p>",
+  "as_of": "2026-09-25",
+  "facts": [
+    {
+      "label": "Latest financing",
+      "value": "$2B+ at $48B",
+      "note": "Series E announced September 2026.",
+      "source": "https://cognition.com/blog/series-e"
+    }
+  ],
+  "directory_rank": 7,
+  "bull_case": "AI agents can expand software output without proportional engineering headcount.",
+  "bear_case": "Competition from model labs and developer tools may compress pricing and product differentiation.",
+  "latest_round": "September 2026: $2B+ at $48B",
+  "directory_notes": [
+    "Devin usage, enterprise expansion, and ARR",
+    "Agent reliability, cost, and model competition."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "New York, New York",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=cognition.com&sz=128",
+    "description": "Cognition develops Devin, an AI software engineer that can take on scoped development tasks and work alongside human engineering teams.",
+    "metrics": [
+      {
+        "value": "$48B",
+        "label": "Latest valuation",
+        "note": "September 2026"
+      },
+      {
+        "value": "$2B+",
+        "label": "Capital raised",
+        "note": "Series E"
+      },
+      {
+        "value": "$900M",
+        "label": "ARR run-rate",
+        "note": "Company reported, September 2026"
+      },
+      {
+        "value": ">10x",
+        "label": "Enterprise usage growth",
+        "note": "From start of 2026 to May"
+      }
+    ],
+    "company": [
+      "Cognition was founded in 2024 to build AI agents capable of completing meaningful software-engineering work. Its flagship product, Devin, is positioned as a cloud agent that can understand codebases, plan work, write and test code, and operate in development workflows.",
+      "The company’s value has accelerated with adoption of coding agents. Cognition said its annualised revenue run-rate grew to $492M by May 2026 and then to $900M by September, alongside a Series E that brought total capital raised above $2B at a $48B valuation."
+    ],
+    "why_it_matters": "Cognition is one of the clearest private-market tests of whether AI agents become a new software-production layer rather than a feature inside existing developer tools. Its trajectory affects model providers, IDEs, cloud platforms, outsourcing businesses, and the economics of venture-backed software teams.",
+    "changed": [
+      {
+        "date": "2024",
+        "text": "Cognition launches Devin, its AI software engineer."
+      },
+      {
+        "date": "Sep 2025",
+        "text": "Raises $400M at a $10.2B post-money valuation."
+      },
+      {
+        "date": "May 2026",
+        "text": "Raises more than $1B at a $26B valuation and reports $492M revenue run-rate."
+      },
+      {
+        "date": "Sep 2026",
+        "text": "Raises more than $2B at a $48B valuation and reports $900M annualised revenue run-rate."
+      }
+    ],
+    "takeaways": [
+      "Cognition’s valuation assumes coding agents become a major software-production category, not just a productivity feature.",
+      "Fast reported revenue growth shows demand, but retention and gross margins remain central questions.",
+      "Devin competes in a market where frontier model capabilities can shift rapidly.",
+      "Enterprise trust, security, and reliable execution across complex codebases will determine whether agents capture durable budgets."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2024"
+      ],
+      [
+        "Headquarters",
+        "New York, New York"
+      ],
+      [
+        "CEO",
+        "Scott Wu"
+      ],
+      [
+        "Product",
+        "Devin"
+      ],
+      [
+        "Focus",
+        "AI software engineering agents"
+      ],
+      [
+        "Website",
+        "cognition.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Cognition Series E announcement",
+        "url": "https://cognition.com/blog/series-e"
+      },
+      {
+        "label": "Cognition Series D announcement",
+        "url": "https://cognition.com/blog/series-d"
+      },
+      {
+        "label": "Cognition company blog",
+        "url": "https://cognition.com/blog"
+      }
+    ]
+  },
+  "company_status": "private",
+  "website": "https://cognition.com"
+}

@@ -2,7 +2,7 @@
   "slug": "vercel",
   "name": "Vercel",
   "status": "Published",
-  "sector": "Developer tools",
+  "sector": "Data, Cloud & Developer Tools",
   "summary": "Vercel runs a cloud platform for deploying websites and web apps, and maintains Next.js and the v0 AI interface builder.",
   "overview": "<p>Vercel provides a frontend cloud for deploying and scaling web applications, and develops the Next.js framework and v0 AI app builder.</p>",
   "as_of": "2026-09-29",
@@ -62,18 +62,6 @@
       "In September 2025 Vercel raised a $300 million Series F led by Accel and GIC at a $9.3 billion valuation, up from $3.25 billion in May 2024. Annualized revenue was reported at about $340 million in February 2026, roughly double a year earlier."
     ],
     "why_it_matters": "Vercel sits where web development and AI-generated software meet, and its growth is a read-through for how AI changes the way apps are built and hosted.",
-    "valuation_history": [
-      {
-        "value": "$3.25B",
-        "date": "May 2024",
-        "round": "Series E"
-      },
-      {
-        "value": "$9.3B",
-        "date": "Sep 2025",
-        "round": "$300M Series F"
-      }
-    ],
     "changed": [
       {
         "date": "2015",
@@ -126,5 +114,7 @@
         "url": "https://sacra.com/c/vercel/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://vercel.com"
 }

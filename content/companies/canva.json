@@ -2,7 +2,7 @@
   "slug": "canva",
   "status": "Published",
   "name": "Canva",
-  "sector": "Design software",
+  "sector": "Other / Diversified",
   "summary": "Canva is a visual-communication platform serving individuals, teams, and enterprises with design, publishing, and AI-assisted creative tools.",
   "overview": "<p>Canva is a Sydney-based visual-communication platform expanding from simple design tools into collaborative workplace software.</p>",
   "as_of": "2025-08-20",
@@ -62,33 +62,6 @@
       "The company’s 2025 review reported $3.5B in revenue, illustrating its scale beyond the original consumer product. The next question is whether Canva can turn that user base into a durable enterprise platform while AI lowers the barriers to making visual content."
     ],
     "why_it_matters": "Canva is a major private-market test of whether collaborative design can become a broad workplace-software category. Its success influences the opportunity for AI design tools, productivity software, creator platforms, and enterprise collaboration products.",
-    "valuation_history": [
-      {
-        "value": "$1B",
-        "date": "2018",
-        "round": "$40M financing"
-      },
-      {
-        "value": "$15B",
-        "date": "Apr 2021",
-        "round": "Private financing"
-      },
-      {
-        "value": "$40B",
-        "date": "Sep 2021",
-        "round": "$200M financing"
-      },
-      {
-        "value": "$32B",
-        "date": "Oct 2024",
-        "round": "Secondary transaction"
-      },
-      {
-        "value": "$42B",
-        "date": "Aug 2025",
-        "round": "Employee share sale"
-      }
-    ],
     "changed": [
       {
         "date": "2013",
@@ -161,5 +134,7 @@
         "url": "https://www.canva.com/newsroom/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://canva.com"
 }

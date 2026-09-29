@@ -2,7 +2,7 @@
   "slug": "supabase",
   "name": "Supabase",
   "status": "Published",
-  "sector": "Developer tools",
+  "sector": "Data, Cloud & Developer Tools",
   "summary": "Supabase is an open-source Postgres database platform that has become a default backend for AI coding tools and vibe-coded apps.",
   "overview": "<p>Supabase provides a hosted Postgres database with authentication, storage and APIs, used by developers and AI app builders to launch backends quickly.</p>",
   "as_of": "2026-09-29",
@@ -62,23 +62,6 @@
       "In June 2026 Supabase raised a $500 million Series F led by GIC at a $10.5 billion valuation, roughly double the $5 billion it reached in its October 2025 Series E. The company reports more than 250,000 customers, 9 million developers and a 600% year-over-year increase in databases."
     ],
     "why_it_matters": "Supabase is one of the clearest beneficiaries of AI-assisted coding, and a read-through for how much infrastructure value flows to the tools behind vibe-coded apps.",
-    "valuation_history": [
-      {
-        "value": "$2B",
-        "date": "Mid-2025",
-        "round": "Series D"
-      },
-      {
-        "value": "$5B",
-        "date": "Oct 2025",
-        "round": "$100M Series E"
-      },
-      {
-        "value": "$10.5B",
-        "date": "Jun 2026",
-        "round": "$500M Series F"
-      }
-    ],
     "changed": [
       {
         "date": "2020",
@@ -139,5 +122,7 @@
         "url": "https://techcrunch.com/2025/10/03/supabase-nabs-5b-valuation-four-months-after-hitting-2b/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://supabase.com"
 }

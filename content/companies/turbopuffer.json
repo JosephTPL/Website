@@ -2,7 +2,7 @@
   "slug": "turbopuffer",
   "name": "Turbopuffer",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Turbopuffer provides a serverless search and vector-database service designed for large-scale, low-cost retrieval workloads.",
   "overview": "<p>Turbopuffer is a developer infrastructure company offering serverless search and vector storage. Public reporting describes a December 2025 seed financing involving Thrive Capital, but neither a priced valuation nor a detailed round size has been publicly disclosed.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "Its reported 2025 seed financing is a useful early signal of investor interest in AI data infrastructure, but the available reporting does not establish a priced valuation or a detailed round size. The profile therefore keeps those fields undisclosed."
     ],
     "why_it_matters": "Vector search is foundational to many retrieval-augmented AI applications. Turbopuffer is a small but relevant indicator of where venture capital is looking for infrastructure alternatives to managed database incumbents.",
-    "valuation_history": [
-      {
-        "value": "Amount undisclosed",
-        "date": "Dec 2025",
-        "round": "Seed"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://turbopuffer.com"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://turbopuffer.com"
 }

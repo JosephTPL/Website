@@ -2,7 +2,7 @@
   "slug": "chaos-industries",
   "name": "CHAOS Industries",
   "status": "Published",
-  "sector": "Defense",
+  "sector": "Defense, Aerospace & Space",
   "summary": "CHAOS Industries builds networked radar and sensing systems that detect drones and other threats faster than traditional radars.",
   "overview": "<p>CHAOS Industries develops distributed radar and communications systems for defense, including counter-drone detection.</p>",
   "as_of": "2026-09-29",
@@ -62,13 +62,6 @@
       "In November 2025 CHAOS raised a $510 million Series D led by Valor Equity Partners at a $4.5 billion valuation, just four months after a $275 million Series C, bringing total funding above $1 billion."
     ],
     "why_it_matters": "CHAOS is part of the new wave of venture-backed defense companies, and a read-through for demand for counter-drone systems after recent conflicts.",
-    "valuation_history": [
-      {
-        "value": "$4.5B",
-        "date": "Nov 2025",
-        "round": "$510M Series D"
-      }
-    ],
     "changed": [
       {
         "date": "2022",
@@ -121,5 +114,7 @@
         "url": "https://www.chaosinc.com/news/chaos-industries-raises-510-million-led-by-valor-equity-partners-to-accelerate-next-generation-defense-systems"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://chaosinc.com"
 }

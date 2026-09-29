@@ -2,7 +2,7 @@
   "slug": "lumaril",
   "name": "Lumaril",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Lumaril develops intelligence software for the physical economy, where industrial activity and operating conditions are difficult to observe in real time.",
   "overview": "<p>Lumaril builds an intelligence layer for physical production. It connects to existing industrial control systems, learns operating conditions and uses control methods, AI and machine learning to optimize throughput, yield and reliability.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "Its stated target customers are complex, capital-intensive operations, including manufacturing, chemicals, biologics, oil and gas. The company has not publicly disclosed a priced financing or valuation."
     ],
     "why_it_matters": "Industrial AI can create value through operational improvement rather than pure knowledge-work automation. The important proof points are verified customer outcomes, safe deployment and the time required to integrate into plant workflows.",
-    "valuation_history": [
-      {
-        "value": "Not disclosed",
-        "date": "Current",
-        "round": "No confirmed priced round"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -98,5 +91,7 @@
         "url": "https://www.luxcapital.com/companies/lumaril"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://lumaril.com"
 }

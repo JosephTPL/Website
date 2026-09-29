@@ -2,7 +2,7 @@
   "slug": "ymtc",
   "name": "YMTC",
   "status": "Published",
-  "sector": "Semiconductors",
+  "sector": "Hardware, Robotics & Semiconductors",
   "summary": "Yangtze Memory Technologies Co. develops NAND flash memory and related semiconductor technology.",
   "overview": "<p>Yangtze Memory Technologies Co. develops NAND flash memory and related semiconductor technology.</p>",
   "as_of": "2026-09-25",
@@ -67,18 +67,6 @@
       "The company's investment case is tied to memory semiconductors. The Private Ledger will update this profile when material financing, operating, or market-structure developments are publicly reported."
     ],
     "why_it_matters": "YMTC is relevant to the global chip supply chain and the strategic push for domestic semiconductor capacity in China.",
-    "valuation_history": [
-      {
-        "value": "Private",
-        "date": "2016",
-        "round": "Company founded"
-      },
-      {
-        "value": "$22.5B",
-        "date": "2026",
-        "round": "Latest reported estimate"
-      }
-    ],
     "changed": [
       {
         "date": "2016",
@@ -131,5 +119,7 @@
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://www.ymtc.com"
 }

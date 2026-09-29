@@ -2,7 +2,7 @@
   "slug": "perplexity",
   "status": "Published",
   "name": "Perplexity",
-  "sector": "AI search",
+  "sector": "AI & Machine Learning",
   "summary": "Perplexity combines web search, cited answers, and AI agents.",
   "overview": "<p>Perplexity combines web search, cited answers, and AI agents. Its strategic challenge is turning high-frequency research usage into a durable consumer and enterprise subscription business.</p>",
   "as_of": "2026-09-25",
@@ -56,18 +56,6 @@
       "It is a direct test of whether AI search can capture user behavior and monetisation from incumbent search engines without unsustainable content and inference costs."
     ],
     "why_it_matters": "It is a direct test of whether AI search can capture user behavior and monetisation from incumbent search engines without unsustainable content and inference costs.",
-    "valuation_history": [
-      {
-        "value": "$9B",
-        "date": "Dec 2024",
-        "round": "Earlier reported context"
-      },
-      {
-        "value": "$20B",
-        "date": "Sep 2025",
-        "round": "$200M reported financing"
-      }
-    ],
     "changed": [
       {
         "date": "Dec 2024",
@@ -112,5 +100,7 @@
         "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://www.perplexity.ai"
 }

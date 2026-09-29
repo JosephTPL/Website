@@ -2,7 +2,7 @@
   "slug": "simile",
   "name": "Simile",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Simile develops synthetic users for product and market research, using AI agents to simulate audience behavior and feedback.",
   "overview": "<p>Simile offers synthetic users for marketing and product research. In July 2026, the company announced a $200 million Series B at a $2 billion valuation, five months after a $100 million Series A.</p>",
   "as_of": "2026-09-27",
@@ -55,13 +55,6 @@
       "The company announced a $200 million Series B at a $2 billion valuation in July 2026, led by Greenoaks. It followed a $100 million Series A announced five months earlier, making the pace of financing itself a notable part of the profile."
     ],
     "why_it_matters": "Synthetic research is an emerging application layer for AI, where value depends on whether simulated behavior is decision-useful rather than merely convincing. Simile is a high-profile private-market test of that proposition.",
-    "valuation_history": [
-      {
-        "value": "$2B",
-        "date": "Jul 2026",
-        "round": "Reported $200M+ Series B"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://simile.ai"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://simile.ai"
 }

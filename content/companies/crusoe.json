@@ -2,7 +2,7 @@
   "slug": "crusoe",
   "status": "Published",
   "name": "Crusoe",
-  "sector": "Cloud infrastructure",
+  "sector": "Data, Cloud & Developer Tools",
   "summary": "Crusoe builds vertically integrated AI infrastructure, from power and data centres to cloud services.",
   "overview": "<p>Crusoe develops AI factories and cloud infrastructure designed around power availability and large-scale compute.</p>",
   "as_of": "2026-09-25",
@@ -56,23 +56,6 @@
       "The company raised a $600M Series D at $2.8B in late 2024, then a $1.375B Series E above $10B in 2025. Its September 2026 Series F materially increased the scale of both its financing and valuation."
     ],
     "why_it_matters": "Crusoe shows how the AI boom is transferring value from software into power, land, construction, networking, and finance. It is a key private comparable for the economics of the emerging AI-factory model.",
-    "valuation_history": [
-      {
-        "value": "$2.8B",
-        "date": "Dec 2024",
-        "round": "$600M Series D"
-      },
-      {
-        "value": ">$10B",
-        "date": "Oct 2025",
-        "round": "$1.375B Series E"
-      },
-      {
-        "value": "$30.9B",
-        "date": "Sep 2026",
-        "round": "$3.9B Series F"
-      }
-    ],
     "changed": [
       {
         "date": "2024",
@@ -133,5 +116,7 @@
         "url": "https://www.crusoe.ai/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://crusoe.ai"
 }

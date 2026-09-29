@@ -2,7 +2,7 @@
   "slug": "neros",
   "name": "Neros",
   "status": "Published",
-  "sector": "Defense technology",
+  "sector": "Defense, Aerospace & Space",
   "summary": "Neros develops autonomous drone and counter-drone systems designed for cost-effective, scalable defense deployment.",
   "overview": "<p>Neros is a defense technology company building autonomous drone and interceptor systems, with a focus on scalable production and multi-drone operations.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "In August 2026, Neros announced a $250 million Series C at a $2.5 billion post-money valuation, co-led by Sequoia Capital and American Strategic Technology Fund."
     ],
     "why_it_matters": "Neros is a private-market signal for the shift toward autonomous, lower-cost systems in defense procurement. The investment case rests on manufacturing scale as much as software and autonomy.",
-    "valuation_history": [
-      {
-        "value": "$2.5B",
-        "date": "Aug 2026",
-        "round": "Series C"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -89,8 +82,16 @@
       ]
     ],
     "sources": [
-      {"label": "Neros: Series C announcement", "url": "https://www.neros.tech/articles/neros-raises-250m-series-c-at-2-5b-valuation-to-scale-autonomous-and-interceptor-drone-programs"},
-      {"label": "Neros website", "url": "https://neros.com"}
+      {
+        "label": "Neros: Series C announcement",
+        "url": "https://www.neros.tech/articles/neros-raises-250m-series-c-at-2-5b-valuation-to-scale-autonomous-and-interceptor-drone-programs"
+      },
+      {
+        "label": "Neros website",
+        "url": "https://neros.com"
+      }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://neros.com"
 }

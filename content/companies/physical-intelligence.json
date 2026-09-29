@@ -2,7 +2,7 @@
   "slug": "physical-intelligence",
   "name": "Physical Intelligence",
   "status": "Published",
-  "sector": "Private markets",
+  "sector": "Other / Diversified",
   "summary": "Physical Intelligence develops foundation models and training data for robots that learn general-purpose physical tasks.",
   "overview": "<p>Physical Intelligence develops foundation models and training data for robots that learn general-purpose physical tasks.</p>",
   "as_of": "2026-09-25",
@@ -55,13 +55,6 @@
       "The company raised $600 million in November 2025 at a reported $5.6 billion valuation."
     ],
     "why_it_matters": "Robotics AI requires capital-intensive data collection, hardware integration, and long development cycles. Physical Intelligence is a key private-market bet on whether foundation-model economics can extend from digital work into the physical world.",
-    "valuation_history": [
-      {
-        "value": "$5.6B",
-        "date": "Nov 2025",
-        "round": "Series B, $600M"
-      }
-    ],
     "changed": [
       {
         "date": "Sep 2026",
@@ -97,5 +90,7 @@
         "url": "https://physicalintelligence.company"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://physicalintelligence.company"
 }

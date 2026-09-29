@@ -2,7 +2,7 @@
   "slug": "black-forest-labs",
   "name": "Black Forest Labs",
   "status": "Published",
-  "sector": "AI media",
+  "sector": "Consumer, Commerce & Media",
   "summary": "Black Forest Labs makes the FLUX image-generation models used by Adobe, Canva, Meta and Microsoft.",
   "overview": "<p>Black Forest Labs develops frontier image and video generation models, sold through an API and licensed to major software companies.</p>",
   "as_of": "2026-09-29",
@@ -62,13 +62,6 @@
       "In December 2025 the company raised a $300 million Series B led by Salesforce Ventures and Anjney Midha at a $3.25 billion post-money valuation, with a16z, Nvidia, General Catalyst and Temasek participating."
     ],
     "why_it_matters": "Black Forest Labs is Europe's leading generative-image company and a read-through for whether independent model makers can win by licensing to large software platforms.",
-    "valuation_history": [
-      {
-        "value": "$3.25B",
-        "date": "Dec 2025",
-        "round": "$300M Series B"
-      }
-    ],
     "changed": [
       {
         "date": "2024",
@@ -121,5 +114,7 @@
         "url": "https://techcrunch.com/2025/12/01/black-forest-labs-raises-300m-at-3-25b-valuation/"
       }
     ]
-  }
+  },
+  "company_status": "private",
+  "website": "https://bfl.ai"
 }
