@@ -2,7 +2,7 @@
 from pathlib import Path
 from datetime import date, datetime
 from urllib.parse import urlsplit, unquote
-import calendar, hashlib, html, json, os, re, shutil, sys
+import calendar, hashlib, html, json, math, os, re, shutil, sys
 from bs4 import BeautifulSoup, NavigableString
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'_site'
@@ -146,30 +146,35 @@ def configure_nav(s,active):
   link.attrs.pop('aria-current',None)
   link['class']=['active'] if link.get('data-view')==active else []
 
-def weekly_chart_markup():
- """A single evidence-led chart for the weekly front page, drawn from profile data."""
- company=companies.get('databricks',{})
+def weekly_chart_markup(lead_item):
+ """Render the lead story's documented valuation history, never another company's chart."""
+ company_name=str(lead_item.get('company','')).casefold()
+ company=next((record for record in companies.values() if str(record.get('name','')).casefold()==company_name),None)
+ if not company:return ''
  events=[]
  for item in company.get('intelligence',{}).get('valuation_history',[]):
   raw=str(item.get('value','')).replace('~','').replace(',','').replace('>','').replace('<','').strip().rstrip('+')
-  match=re.fullmatch(r'\$(\d+(?:\.\d+)?)([MBT])',raw)
+  match=re.fullmatch(r'([$£€])\s*(\d+(?:\.\d+)?)(?:\s*[–-]\s*(\d+(?:\.\d+)?))?\s*([MBT])',raw)
   if not match:continue
-  amount=float(match.group(1))*({'M':.001,'B':1,'T':1000}[match.group(2)])
-  events.append({'amount':amount,'value':item['value'],'date':item['date'],'round':item.get('round','')})
- if len(events)<2:return ''
+  amount=float(match.group(3) or match.group(2))*({'M':.001,'B':1,'T':1000}[match.group(4)])
+  events.append({'amount':amount,'currency':match.group(1),'value':item['value'],'date':item['date'],'round':item.get('round','')})
+ if len(events)<2 or len({event['currency'] for event in events})!=1:return ''
  width,height,left,right,top,bottom=760,274,58,28,26,206
  maximum=max(event['amount'] for event in events)
- ceiling=max(10,((int(maximum)+49)//50)*50)
+ step_size=1 if maximum<=10 else 10 if maximum<=50 else 50
+ ceiling=max(step_size,math.ceil(maximum/step_size)*step_size)
  step=(width-left-right)/(len(events)-1)
  points=[]
  for index,event in enumerate(events):
   x=left+index*step;y=bottom-(event['amount']/ceiling)*(bottom-top)
   points.append((x,y,event))
  path=' '.join((f'M {x:.1f} {y:.1f}' if index==0 else f'L {x:.1f} {y:.1f}') for index,(x,y,event) in enumerate(points))
- grid=''.join(f'<line x1="{left}" y1="{bottom-(value/ceiling)*(bottom-top):.1f}" x2="{width-right}" y2="{bottom-(value/ceiling)*(bottom-top):.1f}" class="weekly-chart-grid"/><text x="{left-12}" y="{bottom-(value/ceiling)*(bottom-top)+5:.1f}" text-anchor="end" class="weekly-chart-axis">${value:g}B</text>' for value in (0,ceiling/2,ceiling))
+ currency=events[0]['currency']
+ grid=''.join(f'<line x1="{left}" y1="{bottom-(value/ceiling)*(bottom-top):.1f}" x2="{width-right}" y2="{bottom-(value/ceiling)*(bottom-top):.1f}" class="weekly-chart-grid"/><text x="{left-12}" y="{bottom-(value/ceiling)*(bottom-top)+5:.1f}" text-anchor="end" class="weekly-chart-axis">{currency}{value:g}B</text>' for value in (0,ceiling/2,ceiling))
  dots=''.join(f'<g><circle cx="{x:.1f}" cy="{y:.1f}" r="5" class="weekly-chart-point" data-date="{E(event["date"])}" data-value="{E(event["value"])}" data-round="{E(event["round"])}" tabindex="0" role="button" aria-label="{E(event["date"])}: {E(event["value"])}. {E(event["round"])}."><title>{E(event["date"])}: {E(event["value"])}. {E(event["round"])}.</title></circle><text x="{x:.1f}" y="{bottom+31}" text-anchor="middle" class="weekly-chart-date">{E(event["date"])}</text></g>' for x,y,event in points)
- source=company.get('facts',[{}])[0].get('source','/companies/databricks/')
- return f'''<section class="weekly-chart weekly-chart--sidebar" aria-labelledby="weekly-chart-title"><header class="weekly-chart-head"><div><h2 id="weekly-chart-title">Databricks valuation history.</h2><p>Its August financing valued Databricks at $190B.</p></div><div class="weekly-chart-stat"><strong>$190B</strong><span>Latest reported valuation</span></div></header><div class="weekly-chart-plot"><svg viewBox="0 0 {width} {height}" role="img" aria-label="Databricks reported valuation rose from 38 billion dollars in August 2021 to 190 billion dollars in August 2026">{grid}<path d="{path}" class="weekly-chart-line"/>{dots}</svg><div class="weekly-chart-tooltip" hidden aria-live="polite"></div></div><footer><a href="/companies/databricks/">Profile →</a><a href="/valuations/">Valuation desk →</a><a href="{E(source)}" rel="noopener">Funding report ↗</a></footer></section>'''
+ latest=events[-1]
+ source=lead_item.get('source') or company.get('facts',[{}])[0].get('source',f'/companies/{company["slug"]}/')
+ return f'''<section class="weekly-chart weekly-chart--sidebar" aria-labelledby="weekly-chart-title"><header class="weekly-chart-head"><div><h2 id="weekly-chart-title">{E(company['name'])} valuation history.</h2><p>{E(latest['round'] or 'Latest reported valuation event')} at {E(latest['value'])}.</p></div><div class="weekly-chart-stat"><strong>{E(latest['value'])}</strong><span>Latest reported value</span></div></header><div class="weekly-chart-plot"><svg viewBox="0 0 {width} {height}" role="img" aria-label="{E(company['name'])} reported valuation history">{grid}<path d="{path}" class="weekly-chart-line"/>{dots}</svg><div class="weekly-chart-tooltip" hidden aria-live="polite"></div></div><footer><a href="/companies/{E(company['slug'])}/">Profile →</a><a href="/valuations/">Valuation desk →</a><a href="{E(source)}" rel="noopener">Source ↗</a></footer></section>'''
 
 def weekly_markup():
  def amount(item):
@@ -204,7 +209,7 @@ def weekly_markup():
   if 'policy' in str(item.get('tag','')).casefold():print(f'Warning: policy-tagged weekly item: {item.get("company", "unknown")}',file=sys.stderr)
  lead=item_markup(weekly_items[0],1,True)
  items=''.join(item_markup(item,index) for index,item in enumerate(weekly_items[1:],2))
- return f'''<section class="weekly-brief" aria-labelledby="weekly-title"><header class="weekly-head"><div><h1 id="weekly-title">{E(weekly['title'])}</h1><p class="subtitle">{E(weekly['intro'])}</p></div><p class="weekly-date">Last week<br/><strong>{E(weekly['period'])}</strong><span>Next update: {E(weekly['next_update'])}</span></p></header>{scoreboard_markup()}<div class="weekly-lead-layout">{lead}{weekly_chart_markup()}</div><div class="weekly-grid weekly-grid--secondary">{items}</div><div class="weekly-footer"><span>Updated every Sunday.</span><a class="text-link" href="/research/">Explore company research →</a></div></section>'''
+ return f'''<section class="weekly-brief" aria-labelledby="weekly-title"><header class="weekly-head"><div><h1 id="weekly-title">{E(weekly['title'])}</h1><p class="subtitle">{E(weekly['intro'])}</p></div><p class="weekly-date">Last week<br/><strong>{E(weekly['period'])}</strong><span>Next update: {E(weekly['next_update'])}</span></p></header>{scoreboard_markup()}<div class="weekly-lead-layout">{lead}{weekly_chart_markup(weekly_items[0])}</div><div class="weekly-grid weekly-grid--secondary">{items}</div><div class="weekly-footer"><span>Updated every Sunday.</span><a class="text-link" href="/research/">Explore company research →</a></div></section>'''
 
 def ipo_markup():
  """A true month view; undated candidates stay out of arbitrary day cells."""
