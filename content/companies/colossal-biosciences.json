@@ -1,0 +1,31 @@
+{
+  "slug": "colossal-biosciences",
+  "name": "Colossal Biosciences",
+  "status": "Published",
+  "sector": "Biotechnology",
+  "summary": "Colossal Biosciences develops genetic-engineering and computational-biology technologies for conservation applications and de-extinction projects.",
+  "overview": "<p>Colossal Biosciences is a biotechnology company developing genetic engineering, computational biology, and reproductive technologies for conservation and de-extinction programs.</p>",
+  "as_of": "2026-09-29",
+  "report": "",
+  "facts": [
+    {"label": "Latest valuation", "value": "$10.2B", "note": "January 2025 Series C; company announced the valuation.", "source": "https://colossal.com/colossal-biosciences-raises-200-million-series-c/"},
+    {"label": "Latest financing", "value": "$200M Series C", "note": "Led by TWG Global in January 2025.", "source": "https://colossal.com/colossal-biosciences-raises-200-million-series-c/"}
+  ],
+  "directory_rank": 39,
+  "bull_case": "Colossal can turn high-profile de-extinction programs into valuable genetic-engineering, reproductive-biology, and conservation technology platforms.",
+  "bear_case": "The commercial model is early, technical milestones are difficult, and the valuation requires execution well beyond attention around individual species projects.",
+  "latest_round": "January 2025: $200M Series C at a $10.2B valuation",
+  "directory_notes": ["Genetic-engineering milestones and partner demand.", "Commercialization of platform technologies and regulatory progress."],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE", "location": "Dallas, Texas", "status": "Private", "logo": "https://www.google.com/s2/favicons?domain=colossal.com&sz=128",
+    "description": "Colossal Biosciences develops genetic engineering and computational-biology technology for conservation and de-extinction projects.",
+    "metrics": [{"value":"$10.2B","label":"Latest valuation","note":"January 2025 Series C"},{"value":"$200M","label":"Latest financing","note":"Series C"},{"value":"$435M","label":"Total funding","note":"Company reported, January 2025"},{"value":"Private","label":"Public status","note":"No confirmed IPO"}],
+    "company": ["Colossal Biosciences was founded to develop technologies that can support de-extinction and conservation efforts. Its work spans computational biology, genome engineering, reproductive technology, and species-specific programs involving animals such as mammoths, thylacines, and dodos.", "In January 2025, Colossal announced a $200 million Series C led by TWG Global at a $10.2 billion valuation. The investment case rests less on a single species project than on whether the underlying technology can produce durable applications in conservation, animal health, and biotechnology."],
+    "why_it_matters": "Colossal is an unusual private-market example of a platform-biotech valuation being driven by long-duration scientific optionality. It shows how capital is pricing genomic tools, high-profile research programs, and potential spinout businesses before conventional revenue scale is established.",
+    "valuation_history": [{"value":"$1.5B","date":"2023","round":"Series B"},{"value":"$10.2B","date":"Jan 2025","round":"$200M Series C"}],
+    "changed": [{"date":"2021","text":"Colossal is founded to develop de-extinction and conservation technologies."},{"date":"2023","text":"The company raises Series B financing to expand its genetic-engineering work."},{"date":"Jan 2025","text":"A $200M Series C values Colossal at $10.2B."}],
+    "takeaways": ["The valuation is tied to platform technology and long-term scientific optionality, not mature operating earnings.", "Conservation and genetic-engineering applications could matter more commercially than any one de-extinction program.", "Scientific, regulatory, and commercialization timelines are major risks.", "The company must demonstrate that its underlying tools can create repeatable businesses beyond research milestones."],
+    "quick_facts": [["Founded","2021"],["Headquarters","Dallas, Texas"],["Co-founders","Ben Lamm and George Church"],["Focus","Genetic engineering and conservation"],["Website","colossal.com"],["Public status","Private"]],
+    "sources": [{"label":"Colossal Series C announcement","url":"https://colossal.com/colossal-biosciences-raises-200-million-series-c/"},{"label":"Colossal website","url":"https://colossal.com/"}]
+  }
+}

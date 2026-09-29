@@ -4,6 +4,7 @@ const additions='Conduit|Not publicly disclosed|conduit.com~Hone|Not publicly di
 const profileValuations=/* PROFILE_VALUATIONS */;
 for(const list of [featured,watch,additions])list.forEach(company=>{const valuation=profileValuations[company[0].toLowerCase()];if(valuation)company[1]=valuation});
 watch.push(['Blue Origin','$130B','blueorigin.com'],['YMTC','$22.5B','ymtc.com'],['Cohere','$7B','cohere.com'],['Shield AI','$12.7B','shield.ai'],['Discord','$15B','discord.com'],['Hugging Face','$12.93B','huggingface.co'],['Flock Safety','$7.5B','flocksafety.com'],['Glean','$7.2B','glean.com'],['Nuro','$6B','nuro.ai'],['Vanta','$4.15B','vanta.com'],['Groq','$3.5B','groq.com'],['Perk (TravelPerk)','$2.7B','perk.com'],['Mews','$1.2B','mews.com'],['Notion','$11B','notion.so']);
+watch.push(['Faire','$12.4B','faire.com'],['Colossal Biosciences','$10.2B','colossal.com'],['1Password','$6.8B','1password.com']);
 const present=new Set([...featured,...watch].map(x=>x[0].toLowerCase()));additions.forEach(x=>{if(!present.has(x[0].toLowerCase()))watch.push(x)});
 const grid=document.querySelector('#company-directory-grid'),search=document.querySelector('#company-search'),count=document.querySelector('#company-result-count'),intro=document.querySelector('.directory-head>p:not(.overline)');
 if(!grid||!search||!count)return;
