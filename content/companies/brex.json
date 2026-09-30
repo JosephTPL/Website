@@ -1,14 +1,14 @@
 {
   "slug": "brex",
   "status": "Published",
-  "ownership": "acquisition_pending",
+  "ownership": "acquired",
   "parent": "Capital One",
   "deal_value": "$5.15B",
   "name": "Brex",
   "sector": "Financial Services & Digital Assets",
   "summary": "Spend management and financial services platform for companies.",
   "overview": "<p>Brex combines cards, expense management, payments, and treasury products.</p>",
-  "as_of": "2026-09-21",
+  "as_of": "2026-04-07",
   "report": "",
   "facts": [
     {
@@ -29,17 +29,17 @@
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
     "location": "San Francisco, California",
-    "status": "Acquisition agreed",
+    "status": "Acquired by Capital One",
     "logo": "https://www.google.com/s2/favicons?domain=brex.com&sz=128",
     "description": "Brex provides corporate cards, spend management, and treasury products for businesses.",
     "metrics": [
       {
         "value": "$5.15B",
         "label": "Acquisition value",
-        "note": "Capital One agreement, January 2026"
+        "note": "Completed April 2026"
       },
       {
-        "value": "Acquisition agreed",
+        "value": "Acquired",
         "label": "Current status",
         "note": "Capital One"
       },
@@ -49,26 +49,26 @@
         "note": "Fintech"
       },
       {
-        "value": "Private",
+        "value": "Acquired",
         "label": "Public status",
-        "note": "Pending transaction"
+        "note": "Capital One, April 2026"
       }
     ],
     "company": [
       "Brex built a financial platform combining corporate cards, spend controls, and cash-management products for businesses.",
-      "Capital One announced a definitive agreement to acquire Brex for $5.15 billion in a cash-and-stock transaction in January 2026."
+      "Capital One completed its $5.15 billion cash-and-stock acquisition of Brex in April 2026."
     ],
     "why_it_matters": "The transaction is an important fintech exit signal: a major bank is buying software-led business-payments infrastructure rather than building it internally.",
     "changed": [
       {
-        "date": "Jan 2026",
-        "text": "Capital One announced a definitive agreement to acquire Brex for $5.15B."
+        "date": "Apr 2026",
+        "text": "Capital One completed its $5.15B acquisition of Brex."
       }
     ],
     "takeaways": [
       "Brex is now an acquisition profile, not a standalone IPO candidate.",
       "The deal illustrates strategic demand for business-payments infrastructure.",
-      "Closing terms and integration are the primary remaining watch items."
+      "Integration into Capital One is the primary watch item."
     ],
     "quick_facts": [
       [
@@ -81,7 +81,7 @@
       ],
       [
         "Status",
-        "Acquisition agreed"
+        "Acquired by Capital One"
       ],
       [
         "Website",
@@ -90,8 +90,8 @@
     ],
     "sources": [
       {
-        "label": "Capital One acquisition announcement",
-        "url": "https://www.capitalone.com/about/newsroom/capital-one-to-acquire-brex/"
+        "label": "Capital One acquisition completion",
+        "url": "https://www.capitalone.com/about/newsroom/capital-one-completes-acquisition-of-brex/"
       },
       {
         "label": "Brex: joining forces with Capital One",
@@ -99,6 +99,6 @@
       }
     ]
   },
-  "company_status": "acquisition_pending",
+  "company_status": "acquired",
   "website": "https://brex.com"
 }
