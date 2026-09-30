@@ -3,24 +3,24 @@
   "name": "Periodic Labs",
   "status": "Published",
   "sector": "AI & Machine Learning",
-  "summary": "Periodic Labs is building AI models and autonomous laboratories for scientific discovery. It emerged from stealth with a $300 million founding round in September 2025; the valuation was not disclosed.",
+  "summary": "Periodic Labs is building AI models and autonomous laboratories for scientific discovery. It emerged from stealth with a $300 million seed round at a reported $1.3 billion valuation and was later reported to be in $7 billion financing discussions.",
   "overview": "<p>Periodic Labs is building AI models and autonomous laboratories intended to accelerate scientific discovery. The company is targeting experimental science rather than general-purpose chat, combining model development with deployment in physical labs.</p>",
-  "as_of": "2026-09-27",
+  "as_of": "2026-09-30",
   "facts": [
     {
       "label": "Latest financing",
       "value": "September 2025: $300M seed",
-      "note": "Periodic Labs emerged from stealth with a $300 million seed round; its valuation was not publicly disclosed.",
-      "source": "https://techcrunch.com/2025/09/30/former-openai-and-deepmind-researchers-raise-whopping-300m-seed-to-automate-science/"
+      "note": "The $300 million September 2025 seed was reported at a $1.3 billion valuation; Bloomberg later reported financing discussions at about $7 billion.",
+      "source": "https://www.bloomberg.com/news/articles/2026-03-25/ai-science-startup-periodic-labs-is-in-deal-talks-at-about-7-billion-valuation"
     }
   ],
   "directory_rank": 86,
   "bull_case": "A successful platform could turn laboratory iteration into a software-and-data flywheel in large scientific markets. The size of the founding round gives the team unusual capacity to build models, lab automation and proprietary datasets together.",
   "bear_case": "Scientific progress is slower and harder to measure than consumer-model adoption, while physical labs introduce capital and operational complexity. The $300 million round does not establish a disclosed valuation or commercial traction.",
-  "latest_round": "September 2025 seed: $300M; valuation undisclosed",
+  "latest_round": "March 2026 financing discussions: about $7B reported valuation; not closed",
   "directory_notes": [
     "AI models and autonomous laboratories",
-    "$300M founding round; valuation undisclosed."
+    "$1.3B reported seed valuation; $7B financing discussions not closed."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
@@ -30,9 +30,9 @@
     "description": "An AI-for-science company combining frontier models with autonomous experimental labs.",
     "metrics": [
       {
-        "value": "Undisclosed",
-        "label": "Latest valuation",
-        "note": "Valuation was not publicly disclosed with the seed round"
+        "value": "~$7B",
+        "label": "Reported valuation in talks",
+        "note": "March 2026 financing discussions, not a completed round"
       },
       {
         "value": "Private",
@@ -52,17 +52,17 @@
     ],
     "company": [
       "Periodic Labs is pursuing a model in which AI systems propose and evaluate experiments while autonomous laboratories generate the physical-world feedback needed to improve them. Its founding team includes researchers with backgrounds at OpenAI and DeepMind.",
-      "The company emerged from stealth in September 2025 with a $300 million founding round led by Andreessen Horowitz. In September 2026 it announced Periodic Neon, a one-trillion-parameter model it says is post-trained on experimental results and deployed into physical labs."
+      "The company emerged from stealth in September 2025 with a $300 million founding round at a reported $1.3 billion valuation. Bloomberg reported in March 2026 that Periodic was discussing a new financing at about $7 billion; the discussions were not a completed round."
     ],
     "why_it_matters": "Periodic is a test of whether frontier AI can create defensible value in scientific workflows rather than simply automate knowledge work. The important evidence will be repeatable experimental outcomes, customer demand and a credible route from research platform to commercial product.",
     "changed": [
       {
-        "date": "Sep 2026",
-        "text": "Announced Periodic Neon, a model designed for experimental science and physical-lab deployment."
+        "date": "Mar 2026",
+        "text": "Bloomberg reported financing discussions at about a $7B valuation; no completed round was reported."
       }
     ],
     "takeaways": [
-      "The $300M founding round is confirmed; its valuation was not disclosed.",
+      "The $300M seed was reported at a $1.3B valuation, while the later $7B figure is from financing discussions rather than a closed round.",
       "Periodic's differentiator depends on connecting models to high-quality experimental feedback loops.",
       "Commercial proof should be judged by scientific outcomes and customer adoption, not model size alone."
     ],
@@ -84,6 +84,10 @@
       {
         "label": "TechCrunch: Periodic Labs $300M seed",
         "url": "https://techcrunch.com/2025/09/30/former-openai-and-deepmind-researchers-raise-whopping-300m-seed-to-automate-science/"
+      },
+      {
+        "label": "Bloomberg: $7B financing discussions",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-25/ai-science-startup-periodic-labs-is-in-deal-talks-at-about-7-billion-valuation"
       },
       {
         "label": "Company website",

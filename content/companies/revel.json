@@ -5,19 +5,19 @@
   "sector": "Other / Diversified",
   "summary": "Revel develops software for testing, operating, and controlling hardware in aerospace, energy, and advanced-manufacturing environments.",
   "overview": "<p>Revel provides a modern software layer for high-consequence hardware testing and control. It announced a $150 million Series B led by Index Ventures in February 2026; the company described the round as valuing Revel at more than $1 billion.</p>",
-  "as_of": "2026-09-27",
+  "as_of": "2026-09-30",
   "facts": [
     {
       "label": "Latest financing",
       "value": "February 2026: $150M Series B",
-      "note": "Revel announced $150 million in Series B funding; its valuation was not disclosed.",
-      "source": "https://www.revel.io/newsroom/accelerating-revel"
+      "note": "Revel announced $150 million in Series B funding and described the milestone as more than $1 billion in value.",
+      "source": "https://app.dealroom.co/news/note/revel-crosses-1b-valuation-with-150m-raise-for-hardware-testing"
     }
   ],
   "directory_rank": 75,
   "bull_case": "A common software layer for hardware testing can become deeply embedded as aerospace and industrial customers scale increasingly complex programs.",
   "bear_case": "Hardware-sector customers have long procurement cycles, bespoke requirements, and budget sensitivity when programs are delayed.",
-  "latest_round": "February 2026 Series B: $150M; valuation undisclosed",
+  "latest_round": "February 2026 Series B: $150M at a reported $1B-plus valuation",
   "directory_notes": [
     "Technology",
     "Public financing and operating data remain limited."
@@ -30,9 +30,9 @@
     "description": "Software for high-consequence hardware testing and operational control.",
     "metrics": [
       {
-        "value": "Undisclosed",
+        "value": "$1B+",
         "label": "Latest valuation",
-        "note": "Valuation was not announced with the Series B"
+        "note": "Reported with the February 2026 Series B"
       },
       {
         "value": "Private",
@@ -57,8 +57,8 @@
     "why_it_matters": "As aerospace, defense, energy, and advanced manufacturing attract capital, the software systems used to test and operate hardware can become valuable infrastructure. Revel is a private-market read-through on that tooling layer.",
     "changed": [
       {
-        "date": "Sep 2026",
-        "text": "Revel announced a $150M Series B led by Index Ventures."
+        "date": "Feb 2026",
+        "text": "Revel announced a $150M Series B and reported a valuation above $1B."
       }
     ],
     "takeaways": [
@@ -84,6 +84,10 @@
       {
         "label": "Revel: $150M Series B",
         "url": "https://www.revel.io/newsroom/accelerating-revel"
+      },
+      {
+        "label": "Dealroom: $1B-plus Series B valuation",
+        "url": "https://app.dealroom.co/news/note/revel-crosses-1b-valuation-with-150m-raise-for-hardware-testing"
       },
       {
         "label": "Company website",

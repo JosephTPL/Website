@@ -7,14 +7,14 @@
   "overview": "<p>Epic Games is included in The Private Ledger’s company directory for ongoing research.</p>",
   "image": "",
   "image_alt": "",
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-30",
   "report": "",
   "facts": [
     {
       "label": "Latest disclosed financing",
       "value": "February 2024: $1.5B strategic investment from Disney",
-      "note": "Publicly reported financing context; verify before relying on it.",
-      "source": ""
+      "note": "Disney invested $1.5 billion in February 2024; the transaction was reported at a $22.5 billion valuation.",
+      "source": "https://media.bailliegifford.com/mws/bhln2z3k/20250326145511_top-10-private-companies-progress-report-mar-2025.pdf"
     }
   ],
   "directory_rank": 17,
@@ -35,7 +35,7 @@
       {
         "value": "$22.5B",
         "label": "Last disclosed valuation",
-        "note": "2022 funding round"
+        "note": "Disney strategic investment, February 2024"
       },
       {
         "value": "$1.5B",
@@ -94,6 +94,14 @@
       {
         "label": "Sacra Epic Games research",
         "url": "https://assets.ctfassets.net/f1df9zr7wr1a/6cqpshQ90Zq3x3CMyGwOZv/1c3ee6af5625b64dc2a97b5f8d0ab2f8/epic-games.pdf"
+      },
+      {
+        "label": "Epic: 2022 Sony and KIRKBI funding",
+        "url": "https://www.epicgames.com/site/news/sony-and-kirkbi-invest-in-epic-games-to-build-the-future-of-digital-entertainment"
+      },
+      {
+        "label": "Baillie Gifford: February 2024 valuation",
+        "url": "https://media.bailliegifford.com/mws/bhln2z3k/20250326145511_top-10-private-companies-progress-report-mar-2025.pdf"
       }
     ]
   },

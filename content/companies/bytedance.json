@@ -7,14 +7,14 @@
   "overview": "<p>ByteDance is much more than TikTok: the report examines a portfolio spanning Chinese consumer platforms, video, commerce, and AI. Its scale and growth are substantial, but understanding the business requires taking its political and regulatory environment as seriously as its financial performance.</p>",
   "image": "https://substack-post-media.s3.amazonaws.com/public/images/399aab86-d43f-483e-a949-3b236d19b9d4_1731x909.png",
   "image_alt": "ByteDance — The Private Ledger",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-30",
   "report": "the-breakdown-bytedance",
   "facts": [
     {
       "label": "Valuation reference",
       "value": "$480 billion",
       "note": "Secondary-share transaction cited; not a public-market price",
-      "source": "/articles/the-breakdown-bytedance/#section-15"
+      "source": "https://www.marketscreener.com/news/bytedance-valued-at-550-billion-in-proposed-share-sale-by-general-atlantic-sources-say-ce7e5cdbda80f724"
     },
     {
       "label": "2025 revenue",
@@ -26,7 +26,7 @@
       "label": "Funding context",
       "value": "Secondary share sale",
       "note": "The transaction cited is not presented as new capital raised by the company",
-      "source": "/articles/the-breakdown-bytedance/#section-15"
+      "source": "https://www.marketscreener.com/news/bytedance-valued-at-550-billion-in-proposed-share-sale-by-general-atlantic-sources-say-ce7e5cdbda80f724"
     },
     {
       "label": "IPO outlook",
@@ -51,9 +51,9 @@
     "description": "ByteDance operates consumer-content, commerce, and AI products, led globally by TikTok and domestically by Douyin.",
     "metrics": [
       {
-        "value": "~$370B",
+        "value": "$480B",
         "label": "Secondary-market mark",
-        "note": "September 2026 estimate"
+        "note": "November 2025 secondary transaction"
       },
       {
         "value": "Undisclosed",
@@ -91,7 +91,7 @@
       },
       {
         "date": "2026",
-        "text": "Private-market marks remain high while global regulatory uncertainty persists."
+        "text": "Reuters reported a November 2025 secondary transaction at $480B and a proposed February 2026 General Atlantic sale at $550B."
       }
     ],
     "takeaways": [
@@ -128,8 +128,8 @@
     ],
     "sources": [
       {
-        "label": "Current private-market mark",
-        "url": "https://privatemarketview.com/companies/bytedance"
+        "label": "Reuters: proposed General Atlantic sale",
+        "url": "https://www.marketscreener.com/news/bytedance-valued-at-550-billion-in-proposed-share-sale-by-general-atlantic-sources-say-ce7e5cdbda80f724"
       },
       {
         "label": "ByteDance breakdown",

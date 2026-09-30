@@ -5,20 +5,20 @@
   "sector": "Financial Services & Digital Assets",
   "summary": "Revolut is a global financial app spanning payments, cards, deposits, wealth products, business banking, and cross-border money movement.",
   "overview": "<p>Revolut is a London-headquartered financial platform building a multi-product bank and payments business across consumer and business customers.</p>",
-  "as_of": "2026-09-25",
+  "as_of": "2026-09-30",
   "report": "",
   "facts": [
     {
       "label": "Latest disclosed valuation",
-      "value": "$75B",
-      "note": "Fundraising process completed in 2025, according to the company’s 2025 annual report.",
-      "source": "https://assets.revolut.com/pdf/annualreport2025.pdf"
+      "value": "$115B",
+      "note": "A July 2026 secondary share sale was reported at a $115 billion valuation.",
+      "source": "https://www.marketscreener.com/news/revolut-starts-share-sale-at-115-billion-valuation-source-says-ce7f51d9dc8ff723"
     }
   ],
   "directory_rank": 14,
   "bull_case": "A broad product suite, growing customer base, and improving profitability can turn Revolut into a global financial operating system.",
   "bear_case": "Bank licensing, compliance demands, regional competition, and the complexity of credit products can slow international execution.",
-  "latest_round": "2025: fundraising process at $75B implied valuation",
+  "latest_round": "July 2026 secondary share sale: $115B reported valuation",
   "directory_notes": [
     "Revenue, customer growth, and licensing progress",
     "Credit, deposits, and international expansion."
@@ -31,9 +31,9 @@
     "description": "Revolut is building a global financial app that combines everyday spending, payments, deposits, investing, foreign exchange, and business financial tools. Its challenge is to turn high engagement into durable, regulated banking economics across markets.",
     "metrics": [
       {
-        "value": "$75B",
+        "value": "$115B",
         "label": "Latest valuation",
-        "note": "2025 fundraising process"
+        "note": "July 2026 secondary sale"
       },
       {
         "value": "£4.5B",
@@ -53,7 +53,7 @@
     ],
     "company": [
       "Revolut started with foreign-exchange and prepaid-card products, then expanded into a much broader consumer financial platform. The product now spans payments, cards, savings, investing, travel, and business financial operations, allowing the company to cross-sell from a large customer base.",
-      "The 2025 annual report describes a business whose revenue rose 46% to £4.5 billion. It also says Revolut completed a fundraising process at an implied $75 billion valuation, while continuing to invest in its regulatory and compliance capabilities as it broadens banking operations."
+      "The 2025 annual report describes a business whose revenue rose 46% to £4.5 billion and confirms that a $75 billion secondary sale was completed. Reuters later reported that a July 2026 company-sponsored secondary sale was underway at a $115 billion valuation, while Revolut continued to invest in regulatory and compliance capabilities as it broadened banking operations."
     ],
     "why_it_matters": "Revolut is a major test of whether a digital financial app can become a global, multi-product bank without losing the speed and distribution advantages of fintech. Its execution is relevant to private payments, neobanking, wealth, compliance, and infrastructure companies.",
     "changed": [
@@ -71,7 +71,11 @@
       },
       {
         "date": "2025",
-        "text": "The company completed a fundraising process at an implied $75B valuation."
+        "text": "The company completed a secondary share sale at an implied $75B valuation."
+      },
+      {
+        "date": "Jul 2026",
+        "text": "A company-sponsored secondary share sale was reported at a $115B valuation."
       }
     ],
     "takeaways": [
@@ -114,6 +118,10 @@
       {
         "label": "Revolut fundraising announcement",
         "url": "https://www.revolut.com/en-LU/news/revolut_completes_fundraising_process_establishing_75_billion_valuation/"
+      },
+      {
+        "label": "Reuters: July 2026 secondary sale",
+        "url": "https://www.marketscreener.com/news/revolut-starts-share-sale-at-115-billion-valuation-source-says-ce7f51d9dc8ff723"
       },
       {
         "label": "Revolut company website",
