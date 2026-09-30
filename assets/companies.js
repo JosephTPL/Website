@@ -3,21 +3,31 @@
   if(!grid||!search||!count)return;
   const companies=/* PROFILE_DIRECTORY */;
   const darkLogoNames=new Set(['long lake','neros','revel','ricursive']);
-  const sectors=[...new Set(companies.map(company=>company.sector).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
-  let activeSector='',activeStatus='all',activeValuation='all';
+  let activeCategory='all',activeValuation='all';
   const controls=document.createElement('div');controls.className='ledger-filters';controls.setAttribute('aria-label','Filter companies');
-  const makeButton=(value,label,group='status')=>{const button=document.createElement('button');button.type='button';button.className='ledger-filter';button.dataset.group=group;button.dataset.value=value;button.setAttribute('aria-pressed',String(value==='all'));button.textContent=label;controls.append(button)};
-  makeButton('all','All');makeButton('private','Private');makeButton('ownership','Acquired & subsidiaries');
-  sectors.forEach(sector=>makeButton(sector,sector,'sector'));
+  const makeButton=(value,label)=>{const button=document.createElement('button');button.type='button';button.className='ledger-filter';button.dataset.value=value;button.setAttribute('aria-pressed',String(value==='all'));button.textContent=label;controls.append(button)};
+  // Keep the public directory deliberately editorial: these are reader-facing lenses,
+  // not a mirror of every internal data taxonomy.
+  [['all','All'],['ai','AI'],['fintech','Fintech'],['defense','Defense'],['social','Social'],['ownership','Acquired & subsidiaries']].forEach(([value,label])=>makeButton(value,label));
   const valuationLabel=document.createElement('label'),valuation=document.createElement('select');valuationLabel.className='ledger-valuation-filter';valuationLabel.textContent='Valuation ';
   [['all','Any value'],['100','$100B+'],['10','$10B–$99.9B'],['1','$1B–$9.9B'],['under-1','Under $1B'],['undisclosed','No disclosed valuation']].forEach(([value,label])=>{const option=document.createElement('option');option.value=value;option.textContent=label;valuation.append(option)});
   valuation.setAttribute('aria-label','Filter by reported valuation');valuationLabel.append(valuation);controls.append(valuationLabel);document.querySelector('.directory-tools').after(controls);
   const relationship=company=>company.status==='subsidiary'?`Subsidiary of ${company.parent}`:company.status==='acquired'?`Acquired by ${company.parent}${company.deal_value?` · ${company.deal_value}`:''}`:company.status==='acquisition_pending'?`Being acquired by ${company.parent}${company.deal_value?` · ${company.deal_value}`:''}`:company.status==='public'?'Former private company · Now public':company.sector;
   const matchesValuation=company=>activeValuation==='all'||(activeValuation==='undisclosed'?company.valuation===null:activeValuation==='under-1'?company.valuation!==null&&company.valuation<1:company.valuation!==null&&company.valuation>=Number(activeValuation)&&(activeValuation==='100'||company.valuation<Number(activeValuation)*10));
+  const categoryMatches=company=>{
+    if(activeCategory==='all')return true;
+    if(activeCategory==='ownership')return ['acquired','acquisition_pending','subsidiary'].includes(company.status);
+    const sectors={
+      ai:['AI & Machine Learning','Data, Cloud & Developer Tools'],
+      fintech:['Financial Services & Digital Assets'],
+      defense:['Defense, Aerospace & Space'],
+      social:['Consumer, Commerce & Media']
+    };
+    return sectors[activeCategory]?.includes(company.sector)??false;
+  };
   const matches=company=>{
     const haystack=[company.name,company.sector,company.parent,company.website,company.status].join(' ').toLowerCase();
-    const status=activeStatus==='all'||(activeStatus==='ownership'?['acquired','acquisition_pending','subsidiary'].includes(company.status):company.status===activeStatus);
-    return (!search.value.trim()||haystack.includes(search.value.trim().toLowerCase()))&&status&&(!activeSector||company.sector===activeSector)&&matchesValuation(company);
+    return (!search.value.trim()||haystack.includes(search.value.trim().toLowerCase()))&&categoryMatches(company)&&matchesValuation(company);
   };
   const card=company=>{
     const article=document.createElement('article'),link=document.createElement('a'),image=document.createElement('img'),body=document.createElement('div'),title=document.createElement('h2'),meta=document.createElement('p'),value=document.createElement('strong');
@@ -29,6 +39,6 @@
     groups.forEach(([label,items])=>{if(!items.length)return;const heading=document.createElement('h2');heading.className='ledger-label';heading.textContent=label;grid.append(heading);items.forEach(company=>grid.append(card(company)))});
     count.textContent=`${shown.length} companies`;
   };
-  controls.addEventListener('click',event=>{const button=event.target.closest('.ledger-filter');if(!button)return;if(button.dataset.group==='sector')activeSector=activeSector===button.dataset.value?'':button.dataset.value;else activeStatus=button.dataset.value;controls.querySelectorAll('.ledger-filter').forEach(item=>item.setAttribute('aria-pressed',String((item.dataset.group==='sector'?item.dataset.value===activeSector:item.dataset.value===activeStatus))));render()});
+  controls.addEventListener('click',event=>{const button=event.target.closest('.ledger-filter');if(!button)return;activeCategory=button.dataset.value;controls.querySelectorAll('.ledger-filter').forEach(item=>item.setAttribute('aria-pressed',String(item.dataset.value===activeCategory)));render()});
   search.addEventListener('input',render);valuation.addEventListener('change',()=>{activeValuation=valuation.value;render()});render();
 })();
