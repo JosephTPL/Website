@@ -8,17 +8,15 @@
   const makeButton=(value,label)=>{const button=document.createElement('button');button.type='button';button.className='ledger-filter';button.dataset.value=value;button.setAttribute('aria-pressed',String(value==='all'));button.textContent=label;controls.append(button)};
   // Keep the public directory deliberately editorial: these are reader-facing lenses,
   // not a mirror of every internal data taxonomy.
-  [['all','All'],['ai','AI'],['fintech','Fintech'],['defense','Defense'],['hardware','Robotics & hardware'],['social','Social'],['recent','Recently added'],['ownership','Acquired & subsidiaries']].forEach(([value,label])=>makeButton(value,label));
+  [['all','All'],['ai','AI'],['fintech','Fintech'],['defense','Defense'],['hardware','Robotics, hardware & semiconductors'],['social','Social'],['ownership','Acquired & subsidiaries']].forEach(([value,label])=>makeButton(value,label));
   const valuationLabel=document.createElement('label'),valuation=document.createElement('select');valuationLabel.className='ledger-valuation-filter';valuationLabel.textContent='Valuation ';
   [['all','Any value'],['100','$100B+'],['10','$10B–$99.9B'],['1','$1B–$9.9B'],['under-1','Under $1B'],['undisclosed','No disclosed valuation']].forEach(([value,label])=>{const option=document.createElement('option');option.value=value;option.textContent=label;valuation.append(option)});
   valuation.setAttribute('aria-label','Filter by reported valuation');valuationLabel.append(valuation);controls.append(valuationLabel);document.querySelector('.directory-tools').after(controls);
   const relationship=company=>company.status==='subsidiary'?`Subsidiary of ${company.parent}`:company.status==='acquired'?`Acquired by ${company.parent}${company.deal_value?` · ${company.deal_value}`:''}`:company.status==='acquisition_pending'?`Being acquired by ${company.parent}${company.deal_value?` · ${company.deal_value}`:''}`:company.status==='public'?'Former private company · Now public':company.sector;
   const matchesValuation=company=>activeValuation==='all'||(activeValuation==='undisclosed'?company.valuation===null:activeValuation==='under-1'?company.valuation!==null&&company.valuation<1:company.valuation!==null&&company.valuation>=Number(activeValuation)&&(activeValuation==='100'||company.valuation<Number(activeValuation)*10));
-  const recentlyAdded=new Set(['1password','colossal-biosciences','faire','applied-intuition','checkout-com','clay','clickhouse','consensys','cyera','hippocratic-ai','mercury','monzo','sambanova','sierra','skild-ai','suno','together-ai','trade-republic','unconventional-ai','wayve','zepto']);
   const categoryMatches=company=>{
     if(activeCategory==='all')return true;
     if(activeCategory==='ownership')return ['acquired','acquisition_pending','subsidiary'].includes(company.status);
-    if(activeCategory==='recent')return recentlyAdded.has(company.slug);
     const sectors={
       ai:['AI & Machine Learning','Data, Cloud & Developer Tools'],
       fintech:['Financial Services & Digital Assets'],
