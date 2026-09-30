@@ -26,7 +26,7 @@
     "kicker": "COMPANY INTELLIGENCE",
     "location": "Undisclosed",
     "status": "Private",
-    "logo": "https://www.google.com/s2/favicons?domain=nominal.io&sz=128",
+    "logo": "https://www.google.com/s2/favicons?domain=nominal.so&sz=128",
     "description": "AI-enabled accounting and financial-operations software for modern finance teams.",
     "metrics": [
       {
@@ -73,7 +73,7 @@
       ],
       [
         "Website",
-        "nominal.io"
+        "nominal.so"
       ],
       [
         "Public status",
@@ -87,10 +87,10 @@
       },
       {
         "label": "Company website",
-        "url": "https://nominal.io"
+        "url": "https://www.nominal.so"
       }
     ]
   },
   "company_status": "private",
-  "website": "https://nominal.io"
+  "website": "https://www.nominal.so"
 }
