@@ -37,6 +37,10 @@ Add one row to `content/data/valuations.csv`, rather than editing a company prof
 
 To change homepage copy, choose Homepage and site text, edit the relevant title, introduction or featured article, then save. Site URL should contain the final production origin. Netlify's URL environment variable supplies its production origin automatically.
 
+## How to add or update an SPV
+
+Add one row per vehicle to `content/data/spvs.csv`. Take each value from the vehicle's latest SEC EDGAR Form D filing. When a Form D/A arrives, replace that vehicle's row with the new accession, filing date, and restated totals while retaining its original `first_filed` date. See `content/data/spvs_method.md` for the sourcing method, exclusions, and field meanings. Run `python scripts/build.py` before publishing.
+
 ## Deploy under your own account
 
 1. Push this complete source folder to your GitHub repository, preferably private while preparing content.

@@ -1,6 +1,6 @@
 """Build the publication from CMS-managed content. No CMS runtime or database required."""
 from pathlib import Path
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from urllib.parse import urlsplit, unquote
 import calendar, csv, hashlib, html, json, math, os, re, shutil, sys
 from bs4 import BeautifulSoup, NavigableString
@@ -99,9 +99,57 @@ valuations_by_slug={slug:[] for slug in companies}
 for row in valuation_rows:valuations_by_slug[row['slug']].append(row)
 for rows in valuations_by_slug.values():rows.sort(key=lambda row:(bool(row['date']),row['date']))
 
+SPV_COLUMNS={'company_slug','issuer_cik','vehicle_name','family','platform','manager','latest_accession','latest_form','latest_filed','first_filed','filings','first_sale','offering_usd','sold_usd','investors','min_investment_usd','commissions_usd','finders_fees_usd','exemption','notes'}
+SPV_REQUIRED={'company_slug','issuer_cik','vehicle_name','latest_accession','latest_form','latest_filed','first_filed','filings'}
+SPV_INTEGER_COLUMNS={'filings','offering_usd','sold_usd','investors','min_investment_usd','commissions_usd','finders_fees_usd'}
+spv_rows=[];spv_keys=set()
+with (ROOT/'content/data/spvs.csv').open(newline='',encoding='utf-8') as f:
+ reader=csv.DictReader(f)
+ if not reader.fieldnames or not SPV_COLUMNS.issubset(reader.fieldnames):raise ValueError('spvs.csv is missing required columns: '+', '.join(sorted(SPV_COLUMNS-set(reader.fieldnames or []))))
+ for line_number,row in enumerate(reader,2):
+  company_ref=row.get('company_slug','').strip() or '<missing company_slug>'
+  row_label=f'spvs.csv line {line_number} ({company_ref})'
+  if any(not row.get(field,'').strip() for field in SPV_REQUIRED):raise ValueError(f'{row_label}: required field is empty.')
+  if company_ref not in company_files:raise ValueError(f'{row_label}: company_slug does not match a company file.')
+  if not re.fullmatch(r'\d+',row['issuer_cik']):raise ValueError(f'{row_label}: issuer_cik must contain digits only.')
+  if not re.fullmatch(r'\d{10}-\d{2}-\d{6}',row['latest_accession']):raise ValueError(f'{row_label}: latest_accession must use ##########-##-######.')
+  if row['latest_form'] not in {'D','D/A'}:raise ValueError(f'{row_label}: latest_form must be D or D/A.')
+  parsed_dates={}
+  for field in ('latest_filed','first_filed','first_sale'):
+   if row.get(field,'').strip():
+    try:parsed_dates[field]=datetime.strptime(row[field],'%Y-%m-%d').date()
+    except ValueError:raise ValueError(f'{row_label}: {field} must use YYYY-MM-DD.')
+  if parsed_dates['first_filed']>parsed_dates['latest_filed']:raise ValueError(f'{row_label}: first_filed must not be after latest_filed.')
+  for field in SPV_INTEGER_COLUMNS:
+   value=row.get(field,'').strip()
+   if value:
+    if not re.fullmatch(r'\d+',value):raise ValueError(f'{row_label}: {field} must be a non-negative integer.')
+    row[field]=int(value)
+   else:row[field]=None
+  if row['filings'] is None or row['filings']<1:raise ValueError(f'{row_label}: filings must be an integer of at least 1.')
+  if row.get('exemption','') not in {'','506(b)','506(c)'}:raise ValueError(f'{row_label}: exemption must be 506(b), 506(c), or blank.')
+  key=(company_ref,row['issuer_cik'],row['vehicle_name'])
+  if key in spv_keys:raise ValueError(f'{row_label}: duplicate company_slug, issuer_cik, and vehicle_name.')
+  spv_keys.add(key)
+  slug=file_slugs.get(company_ref)
+  if not slug:continue
+  row.update({'slug':slug,'first_filed_date':parsed_dates['first_filed'],'latest_filed_date':parsed_dates['latest_filed'],'filing_url':f"https://www.sec.gov/Archives/edgar/data/{int(row['issuer_cik'])}/{row['latest_accession'].replace('-', '')}/xslFormDX01/primary_doc.xml",'issuer_url':f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={row['issuer_cik']}&type=D&dateb=&owner=include&count=40",'backer':row.get('platform') or row.get('manager') or 'Standalone'})
+  spv_rows.append(row)
+spvs_by_slug={slug:[] for slug in companies}
+for row in spv_rows:spvs_by_slug[row['slug']].append(row)
+for rows in spvs_by_slug.values():rows.sort(key=lambda row:row['first_filed_date'],reverse=True)
+spv_as_of=max((row['latest_filed_date'] for row in spv_rows),default=None)
+
 def money_b(value):
  if value is None:return ''
  return f'${value/1000:g}T' if value>=1000 else (f'${value*1000:g}M' if value<1 else f'${value:g}B')
+
+def spv_usd(amount):
+ if amount is None:return '—'
+ if amount>=1_000_000_000:return '$'+f'{amount/1_000_000_000:.2f}'.rstrip('0').rstrip('.')+'B'
+ if amount>=1_000_000:return '$'+f'{amount/1_000_000:.1f}'+'M'
+ if amount>=1_000:return '$'+f'{amount/1_000:.1f}'.rstrip('0').rstrip('.')+'K'
+ return '$'+str(amount)
 
 def valuation_date_label(value):
  value=str(value)
@@ -139,6 +187,7 @@ def intelligence_profile(c):
  d=c['intelligence']
  metrics=''.join(f'<div><strong>{E(item["value"])}</strong><span>{E(item["label"])}</span><small>{E(item.get("note",""))}</small></div>' for item in d['metrics'])
  history=''.join(f'<li><strong>{E(money_b(item["valuation"]) if item["valuation"] is not None else ("Raised "+money_b(item["raised"])+" · valuation undisclosed" if item["raised"] is not None else "Valuation undisclosed"))}</strong><span>→</span><small>{E(valuation_date_label(item["date"]) if item["date"] else "Date undisclosed")}</small><em>{E(item["round_label"] or item["event_type"].replace("_"," ").title())}</em><a href="{E(item["source_url"])}" rel="noopener">Source ↗</a></li>' for item in valuations_by_slug.get(c['slug'],[])) or '<li><strong>No disclosed valuation events</strong></li>'
+ spv_link=f'<p class="spv-profile-link"><a href="/spv-tracker/#{E(c["slug"])}">{len(spvs_by_slug[c["slug"]])} SPVs have filed Form D for {E(c["name"])} · SPV tracker →</a></p>' if spvs_by_slug.get(c['slug']) else ''
  changed=''.join(f'<li><time>{E(item["date"])}</time><p>{E(item["text"])}</p></li>' for item in d['changed'])
  takeaways=''.join(f'<li><span>{i:02d}</span><p>{E(item)}</p></li>' for i,item in enumerate(d['takeaways'],1))
  quick=''.join(f'<dt>{E(item.get("label", ""))}</dt><dd>{E(item.get("value", ""))}</dd>' if isinstance(item,dict) else f'<dt>{E(item[0])}</dt><dd>{E(item[1])}</dd>' for item in d['quick_facts'])
@@ -148,7 +197,7 @@ def intelligence_profile(c):
  return f'''<section class="intelligence-profile">
  <header class="intelligence-header"><div><h1>{E(c["name"])}</h1><p class="intelligence-meta">{E(c["sector"])} <span>·</span> {E(d["location"])} <span>·</span> {E(c.get("company_status", d["status"]).replace("_", " ").title())}</p><p class="intelligence-description">{E(d["description"])}</p></div><div class="intelligence-logo{logo_class}">{logo}<strong>{E(c["name"])}</strong></div></header>
  <section class="intelligence-metrics">{metrics}</section>
- <div class="intelligence-content"><div class="intelligence-main"><section><h2>The Company</h2>{''.join('<p>'+E(p)+'</p>' for p in d['company'])}</section><section><h2>Why It Matters</h2><p>{E(d["why_it_matters"])}</p></section><section><h2>Valuation History</h2><ol class="valuation-history">{history}</ol></section><section><h2>What Changed</h2><ol class="change-log">{changed}</ol></section></div><aside class="intelligence-aside"><section><h2>Key Takeaways</h2><ol class="takeaways">{takeaways}</ol></section><section><h2>Quick Facts</h2><dl class="quick-facts">{quick}</dl></section><section><h2>Sources</h2><ul class="intelligence-sources">{sources}</ul></section></aside></div>
+ <div class="intelligence-content"><div class="intelligence-main"><section><h2>The Company</h2>{''.join('<p>'+E(p)+'</p>' for p in d['company'])}</section><section><h2>Why It Matters</h2><p>{E(d["why_it_matters"])}</p></section><section><h2>Valuation History</h2><ol class="valuation-history">{history}</ol>{spv_link}</section><section><h2>What Changed</h2><ol class="change-log">{changed}</ol></section></div><aside class="intelligence-aside"><section><h2>Key Takeaways</h2><ol class="takeaways">{takeaways}</ol></section><section><h2>Quick Facts</h2><dl class="quick-facts">{quick}</dl></section><section><h2>Sources</h2><ul class="intelligence-sources">{sources}</ul></section></aside></div>
  </section>'''
 
 def shell(kind,title,description,route,image=''):
@@ -206,6 +255,8 @@ def configure_nav(s,active):
  research.insert_after(ipo)
  valuations=soup('<a data-view="valuations" href="/valuations/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 18V6m0 12h16"></path><path d="m7 15 4-4 3 2 4-6"></path></svg>Valuations</a>').a
  ipo.insert_after(valuations)
+ spvs=soup('<a data-view="spvs" href="/spv-tracker/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M5 5h14v14H5z"></path><path d="M8 9h8M8 12h8M8 15h5"></path></svg>SPV tracker</a>').a
+ valuations.insert_after(spvs)
  for link in nav.select('a'):
   link.attrs.pop('aria-current',None)
   link['class']=['active'] if link.get('data-view')==active else []
@@ -350,6 +401,33 @@ def valuation_chart_markup():
  data=json.dumps(series,separators=(',',':')).replace('</','<\\/')
  return f'''<section class="valuation-page" aria-labelledby="valuation-title"><header class="valuation-head"><div><h1 id="valuation-title">Private valuation history.</h1><p>Reported point-in-time valuations at disclosed financings and liquidity events.</p></div><a href="/companies/" class="valuation-directory-link">Browse companies <span aria-hidden="true">→</span></a></header><div class="valuation-method"><strong>Not a market-price chart.</strong> The logarithmic view makes different-sized companies readable. Hollow points are reported talks, not closed transactions.</div><section class="valuation-chart-shell" aria-label="Private valuation comparison"><div class="valuation-toolbar"><div class="valuation-picker"><p class="valuation-control-label">COMPARE COMPANIES</p><label class="valuation-search"><span class="sr-only">Search a company</span><input id="valuation-company-search" type="search" placeholder="Search companies" autocomplete="off"></label><div id="valuation-search-results" class="valuation-search-results" hidden></div><div id="valuation-selected" class="valuation-selected" aria-label="Companies shown"></div></div><div><p class="valuation-control-label">VIEW</p><div class="valuation-range" aria-label="Chart view"><button type="button" data-range="1">1Y</button><button type="button" data-range="3">3Y</button><button type="button" data-range="5">5Y</button><button type="button" data-range="all" class="is-active">All</button><button type="button" class="valuation-index" aria-pressed="false">Index to zero</button></div></div></div><div class="valuation-chart" id="valuation-chart" data-valuation-series='{E(data)}'><div class="valuation-chart-canvas" role="img" aria-label="Reported private valuation history chart"></div><div class="valuation-tooltip" hidden></div></div><div class="valuation-legend" aria-label="Visible companies"></div></section><p class="valuation-footnote">Each point has a direct source link on hover or focus. Figures are reported valuations, not investment advice.</p></section>'''
 
+def spv_tracker_markup():
+ """Render a reproducible, filing-backed view of company SPV activity."""
+ cutoff=spv_as_of-timedelta(days=365)
+ def median(values):
+  values=sorted(values);middle=len(values)//2
+  return values[middle] if len(values)%2 else (values[middle-1]+values[middle])//2
+ def latest_priced(slug):
+  rows=[row for row in valuations_by_slug.get(slug,[]) if row['event_type']=='priced_round' and row['valuation'] is not None]
+  return rows[-1] if rows else None
+ def card(slug,rows):
+  company=companies[slug];sold=sum(row['sold_usd'] or 0 for row in rows);investors=sum(row['investors'] or 0 for row in rows)
+  new=[row for row in rows if row['first_filed_date']>=cutoff];new_sold=sum(row['sold_usd'] or 0 for row in new)
+  minimums=[row['min_investment_usd'] for row in rows if row['min_investment_usd']]
+  marketed=round(100*sum(row['exemption']=='506(c)' for row in rows)/len(rows))
+  backers={}
+  for row in rows:backers[row['backer']]=backers.get(row['backer'],0)+1
+  top=', '.join(f'{E(name)} ({count})' for name,count in sorted(backers.items(),key=lambda item:(-item[1],item[0]))[:3])
+  years=range(min(row['first_filed_date'].year for row in rows),spv_as_of.year+1);year_counts={year:sum(row['first_filed_date'].year==year for row in rows) for year in years};maximum=max(year_counts.values())
+  bars=''.join(f'<g><rect class="spv-bar{" spv-bar-as-of" if year==spv_as_of.year else ""}" x="{index*48+7}" y="{66-(count/maximum)*48:.1f}" width="31" height="{(count/maximum)*48:.1f}"><title>{year}: {count} vehicles</title></rect><text x="{index*48+22}" y="80" text-anchor="middle">{year}</text></g>' for index,(year,count) in enumerate(year_counts.items()))
+  priced=latest_priced(slug);context=f'<p class="spv-context">Last priced round: {E(money_b(priced["valuation"]))} · {E(priced["round_label"])} · {E(valuation_date_label(priced["date"]))}</p>' if priced else ''
+  table_rows=''.join(f'<tr{" data-recent=\"true\"" if row["first_filed_date"]>=cutoff else ""}><td data-label="First filed">{E(row["first_filed"])}</td><td data-label="Vehicle"><a href="{E(row["issuer_url"])}" rel="noopener">{E(row["vehicle_name"])}</a><small>{E(row["platform"] or row["manager"] or "Standalone")}{(" · "+E(row["notes"])) if row["notes"] else ""}</small></td><td data-label="Reported sold">{E(spv_usd(row["sold_usd"]))}{(" of "+E(spv_usd(row["offering_usd"]))) if row["offering_usd"] is not None else ""}</td><td data-label="Investors">{("{:,}".format(row["investors"])) if row["investors"] is not None else "—"}</td><td data-label="Minimum">{E("Not stated" if not row["min_investment_usd"] else spv_usd(row["min_investment_usd"]))}</td><td data-label="Sales comp">{E(spv_usd((row["commissions_usd"] or 0)+(row["finders_fees_usd"] or 0)) if (row["commissions_usd"] or 0)+(row["finders_fees_usd"] or 0) else "—")}</td><td data-label="Exemption">{E(row["exemption"] or "—")}</td><td data-label="Filing"><a href="{E(row["filing_url"])}" rel="noopener">Form {E(row["latest_form"])} ↗</a></td></tr>' for row in rows)
+  search=' '.join([company['name']]+[f'{row["vehicle_name"]} {row["platform"]} {row["manager"]}' for row in rows])
+  return f'''<article class="spv-card" id="{E(slug)}" data-name="{E(company['name'])}" data-search="{E(search)}" data-sold="{sold}" data-vehicles="{len(rows)}" data-newest="{max(row['latest_filed'] for row in rows)}"><header><div><p class="spv-kicker">{E(company.get('sector',''))}</p><h2><a href="/companies/{E(slug)}/">{E(company['name'])}</a></h2></div></header><dl class="spv-summary"><div><dt>Vehicles</dt><dd>{len(rows)}</dd></div><div><dt>Reported sold</dt><dd>{E(spv_usd(sold))}</dd></div><div><dt>Investors</dt><dd>{investors:,}</dd></div><div><dt>New in last 12 months</dt><dd>{len(new)} · {E(spv_usd(new_sold))}</dd></div><div><dt>Median minimum</dt><dd>{E(spv_usd(median(minimums)) if minimums else 'Not stated')}</dd></div><div><dt>Share marketed under 506(c)</dt><dd>{marketed}%</dd></div></dl>{context}<p class="spv-platforms"><strong>Top platforms:</strong> {top}</p><svg class="spv-chart" viewBox="0 0 {len(year_counts)*48} 88" role="img" aria-label="{E(company['name'])} vehicles by first filing year">{bars}</svg><details><summary>Show {len(rows)} vehicles</summary><div class="spv-table-wrap"><table><thead><tr><th>First filed</th><th>Vehicle</th><th>Reported sold</th><th>Investors</th><th>Minimum</th><th>Sales comp</th><th>Exemption</th><th>Filing</th></tr></thead><tbody>{table_rows}</tbody></table></div></details></article>'''
+ cards=[(slug,rows) for slug,rows in spvs_by_slug.items() if rows];cards.sort(key=lambda item:-sum(row['sold_usd'] or 0 for row in item[1]))
+ total_sold=sum(row['sold_usd'] or 0 for row in spv_rows);total_investors=sum(row['investors'] or 0 for row in spv_rows);new_total=sum(row['first_filed_date']>=cutoff for row in spv_rows)
+ return f'''<section class="spv-page" id="spv-tracker" aria-labelledby="spv-title"><header class="valuation-head"><div><h1 id="spv-title">SPV tracker.</h1><p>Special purpose vehicles filing with the SEC to invest in the most-watched private companies.</p></div><a href="/valuations/" class="valuation-directory-link">Valuation history <span aria-hidden="true">→</span></a></header><div class="valuation-method"><strong>Straight from SEC filings.</strong> Every vehicle below filed a Form D, the notice required when a private fund sells securities. Amounts are cumulative and self-reported as of each vehicle's latest filing. Form D does not disclose price, valuation or fees. Vehicles are found by name, so counts are a floor. <a href="https://github.com/JosephTPL/Website/blob/main/content/data/spvs_method.md" rel="noopener">How we built this ↗</a></div><section class="spv-stats"><div><strong>{len(spv_rows)}</strong><span>Vehicles tracked</span></div><div><strong>{E(spv_usd(total_sold))}</strong><span>Reported sold</span></div><div><strong>{total_investors:,}</strong><span>Investors</span></div><div><strong>{new_total}</strong><span>New vehicles, last 12 months</span></div></section><p class="spv-as-of">Filings through {spv_as_of.strftime('%b %d, %Y').replace(' 0',' ')}.</p><section class="spv-controls" aria-label="SPV tracker controls"><label>Search <input type="search" id="spv-search" placeholder="Company, vehicle, platform or manager"></label><button type="button" id="spv-recent" aria-pressed="false">Last 12 months only</button><label>Sort <select id="spv-sort"><option value="sold">Reported sold</option><option value="vehicles">Vehicles</option><option value="newest">Newest filing</option><option value="name">Name</option></select></label><span id="spv-count" aria-live="polite">{len(cards)} of {len(cards)} companies</span></section><div class="spv-cards">{''.join(card(slug,rows) for slug,rows in cards)}</div><p class="valuation-footnote">Source: SEC EDGAR Form D filings. Not an offer, solicitation or investment advice.</p></section>'''
+
 if OUT.exists():shutil.rmtree(OUT)
 OUT.mkdir()
 for f in (ROOT/'assets').iterdir():
@@ -363,6 +441,7 @@ for company in companies.values():
 directory_script=OUT/'companies.js'
 directory_script.write_text(directory_script.read_text().replace('/* PROFILE_DIRECTORY */',json.dumps(profile_directory,separators=(',',':')).replace('</','<\\/')))
 companies_script_version=hashlib.sha256(directory_script.read_bytes()).hexdigest()[:12]
+spvs_script_version=hashlib.sha256((OUT/'spvs.js').read_bytes()).hexdigest()[:12]
 # The landing page is a concise weekly briefing; the two archives remain separate.
 s=shell('home',weekly['title'],weekly['intro'],'/')
 s.body['data-page-view']='home';configure_nav(s,'home')
@@ -485,10 +564,16 @@ main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=m
 put(s.head,'<script defer src="/valuations.js"></script>')
 write(s,'/valuations/')
 
+s=shell('home','SPV tracker','SEC Form D filings for special purpose vehicles targeting covered private companies.','/spv-tracker/')
+s.body['data-page-view']='spvs';configure_nav(s,'spvs')
+main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();main.clear();put(main,spv_tracker_markup());main.append(subscribe);main.append(footer)
+put(s.head,f'<script defer src="/spvs.js?v={spvs_script_version}"></script>')
+write(s,'/spv-tracker/')
+
 about=read('content/settings/about.json');s=shell('about',about['title'],about['description'],'/about/');configure_nav(s,'about');main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();about_body=clean(about['body']);hero=about_body.select_one('.about-hero');hero.decompose() if hero else None;main.clear();main.append(about_body);main.append(subscribe);main.append(footer);write(s,'/about/')
 # The editor is a separate authenticated service, not a public editing API.
 s=shell('about','Edit website','Open the secure content editor.','/admin/');configure_nav(s,'');s.select_one('main').clear();put(s.select_one('main'),'<section class="about-hero"><h1>Edit your publication.</h1><p>Sign in with your GitHub account to edit articles, company profiles, images, and homepage text.</p><a class="primary-button" href="https://app.pagescms.org">Open Pages CMS ↗</a></section>');put(s.head,'<meta name="robots" content="noindex">');write(s,'/admin/')
-routes=['/','/research/','/insights/','/companies/','/ipo-calendar/','/valuations/','/about/']+[a['url'] for a in ordered]+['/companies/'+c['slug']+'/' for c in companies.values()]
+routes=['/','/research/','/insights/','/companies/','/ipo-calendar/','/valuations/','/spv-tracker/','/about/']+[a['url'] for a in ordered]+['/companies/'+c['slug']+'/' for c in companies.values()]
 (OUT/'sitemap.xml').write_text('<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+E(base+r)+'</loc></url>' for r in routes)+'</urlset>')
 (OUT/'robots.txt').write_text('User-agent: *\nAllow: /\nDisallow: /admin/\nSitemap: '+base+'/sitemap.xml\n')
 print(f'Built {len(articles)} published articles, {len(companies)} company profiles, and editable site pages.')
