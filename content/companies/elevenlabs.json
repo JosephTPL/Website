@@ -5,23 +5,23 @@
   "sector": "Consumer, Commerce & Media",
   "summary": "ElevenLabs builds AI voice, audio, dubbing, and conversational-agent tools for creators, developers, and enterprises.",
   "overview": "<p>ElevenLabs builds AI voice, audio, dubbing, and conversational-agent tools for creators, developers, and enterprises.</p>",
-  "as_of": "2026-09-25",
+  "as_of": "2026-09-30",
   "report": "",
   "facts": [
     {
-      "label": "Latest financing",
-      "value": "$500M Series D at an $11B valuation",
-      "note": "Announced February 2026.",
-      "source": "https://elevenlabs.io/blog/series-d"
+      "label": "Latest valuation event",
+      "value": "$300M employee tender at a $22B valuation",
+      "note": "Completed September 2026; tender proceeds went to selling shareholders.",
+      "source": "https://elevenlabs.io/blog/tender-22bn"
     }
   ],
   "directory_rank": 38,
   "bull_case": "High-quality voice can become a foundational interface for media and software.",
   "bear_case": "Rights management, platform competition, and synthetic-content concerns are material.",
-  "latest_round": "$500M Series D at an $11B valuation (Feb 2026)",
+  "latest_round": "$300M employee tender at a $22B valuation (Sep 2026)",
   "directory_notes": [
     "Voice AI",
-    "$11B valuation disclosed in February 2026."
+    "$22B valuation disclosed in September 2026."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
@@ -31,9 +31,9 @@
     "description": "ElevenLabs builds AI voice, audio, dubbing, and conversational-agent tools for creators, developers, and enterprises.",
     "metrics": [
       {
-        "value": "$11B",
+        "value": "$22B",
         "label": "Latest valuation",
-        "note": "Series D, February 2026"
+        "note": "Employee tender, September 2026"
       },
       {
         "value": "Private",
@@ -53,17 +53,17 @@
     ],
     "company": [
       "ElevenLabs builds AI voice and audio products, including speech generation, dubbing, and tools for conversational agents.",
-      "The company raised $500 million in a Series D at an $11 billion valuation in February 2026."
+      "In September 2026, ElevenLabs completed a $300 million employee tender that valued the company at $22 billion. The tender created liquidity for existing shareholders and did not represent new operating capital for the company."
     ],
     "why_it_matters": "Voice is becoming a core interface for AI agents and customer operations. ElevenLabs is a leading private-company signal for how much value can accrue to the audio and agent layer rather than the underlying foundation models alone.",
     "changed": [
       {
-        "date": "Sep 2026",
-        "text": "Raised $500M Series D at an $11B valuation."
+        "date": "Sep 30, 2026",
+        "text": "Completed a $300M employee tender at a $22B valuation."
       }
     ],
     "takeaways": [
-      "The Series D set a disclosed $11B valuation.",
+      "A September 2026 employee tender set a disclosed $22B valuation.",
       "ElevenLabs reported more than $330M in ARR at the end of 2025 and later announced it had crossed $500M ARR.",
       "Enterprise retention and competition from model providers remain key watch items."
     ],
@@ -82,6 +82,10 @@
       ]
     ],
     "sources": [
+      {
+        "label": "ElevenLabs: $22B employee tender",
+        "url": "https://elevenlabs.io/blog/tender-22bn"
+      },
       {
         "label": "ElevenLabs: Series D announcement",
         "url": "https://elevenlabs.io/blog/series-d"
