@@ -510,7 +510,7 @@ for a in ordered:
  company=companies.get(a.get('company',''))
  if company:
   body.insert_before(soup(f'<a class="snapshot-link brief-compact" id="company-facts" href="/companies/{company["slug"]}/"><span>Company snapshot<small>{E(company["name"])} · {date_text(company["as_of"])}</small></span><span class="details-icon" aria-hidden="true">→</span></a>'))
- if a.get('excerpt'):body.insert_before(soup(f'<section class="member-gate"><h2>Continue this report on Substack.</h2><p>The opening section is available here. The complete analysis and references are for paid members on Substack.</p><a class="primary-button" href="{E(a["original_url"])}">Unlock on Substack ↗</a></section>'))
+ if a.get('excerpt'):put(body,f'<section class="member-gate"><h2>Continue this report on Substack.</h2><p>The preview above is available here. The complete analysis and references are for paid members on Substack.</p><a class="primary-button" href="{E(a["original_url"])}">Unlock on Substack ↗</a></section>')
  if a.get('original_url'):put(body,f'<div class="original">Originally published in {E(settings["site_name"])}. <a href="{E(a["original_url"])}">View original post</a>.</div>')
  destination='/insights/' if a['sector']=='Insights' else '/research/'
  s.select_one('.back')['href']=destination;s.select_one('.back').string='← '+('General articles' if a['sector']=='Insights' else 'Research library')
