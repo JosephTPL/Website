@@ -1,0 +1,83 @@
+{
+  "slug": "armadin",
+  "status": "Draft",
+  "name": "Armadin",
+  "sector": "Enterprise Software & Business Services",
+  "summary": "Armadin builds an AI-native cybersecurity platform that runs autonomous attack campaigns to identify exploitable risk.",
+  "overview": "<p>Armadin combines AI systems and offensive-security expertise to help organizations identify attack paths across their environments.</p>",
+  "image": "",
+  "image_alt": "",
+  "as_of": "2026-10-01",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest financing",
+      "value": "October 2026: $255.5M Series B at a valuation above $2.5B",
+      "note": "The company said the Series B brought total funding to $445M.",
+      "source": "https://www.armadin.com/blog-posts/investors-back-armadin-platform-strategy-with-new-round-of-funding"
+    }
+  ],
+  "directory_rank": 0,
+  "bull_case": "Organizations may increase spending on automated offensive security as AI expands the speed and scale of potential attacks.",
+  "bear_case": "Cybersecurity buyers have long evaluation cycles, and Armadin faces competition from incumbent platforms and specialized security vendors.",
+  "latest_round": "October 2026: $255.5M Series B at a valuation above $2.5B",
+  "directory_notes": [
+    "Draft profile",
+    "AI-native cybersecurity"
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Palo Alto, California",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=armadin.com&sz=128",
+    "description": "AI-native cybersecurity platform focused on autonomous offensive security.",
+    "metrics": [
+      {
+        "value": ">$2.5B",
+        "label": "Reported valuation",
+        "note": "Series B, October 2026"
+      },
+      {
+        "value": "$255.5M",
+        "label": "Latest funding",
+        "note": "Series B, October 2026"
+      }
+    ],
+    "company": [
+      "Armadin builds an AI-native cybersecurity platform designed to find exploitable attack paths through autonomous security testing. The company is led by founder and chief executive Kevin Mandia."
+    ],
+    "why_it_matters": "The financing is a notable signal of investor appetite for security platforms that use AI in offensive testing as well as defense.",
+    "changed": [
+      {
+        "date": "Oct 1, 2026",
+        "text": "Raised a $255.5M Series B at a valuation above $2.5B."
+      }
+    ],
+    "takeaways": [
+      "The Series B brought the company's reported total funding to $445M.",
+      "The valuation was disclosed as above $2.5B."
+    ],
+    "quick_facts": [
+      [
+        "Status",
+        "Draft for review"
+      ],
+      [
+        "Website",
+        "armadin.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Armadin: Series B announcement",
+        "url": "https://www.armadin.com/blog-posts/investors-back-armadin-platform-strategy-with-new-round-of-funding"
+      },
+      {
+        "label": "Armadin website",
+        "url": "https://www.armadin.com/"
+      }
+    ]
+  },
+  "company_status": "private",
+  "website": "https://www.armadin.com/"
+}
