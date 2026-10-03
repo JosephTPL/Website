@@ -1,0 +1,118 @@
+{
+  "slug": "grafana-labs",
+  "status": "Published",
+  "name": "Grafana Labs",
+  "sector": "Data, Cloud & Developer Tools",
+  "summary": "Grafana Labs builds open-source and cloud observability software for monitoring metrics, logs, traces, and application performance.",
+  "overview": "<p>Grafana Labs develops the open-source Grafana visualization platform and Grafana Cloud, a managed observability service used to monitor infrastructure and applications. Its products bring together metrics, logs, traces, profiles, and incident-response workflows for engineering teams.</p>",
+  "image": "",
+  "image_alt": "",
+  "as_of": "2026-10-03",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed valuation",
+      "value": "August 2024: over $6B",
+      "note": "Grafana Labs completed a $270M primary and secondary transaction that extended its Series D financing.",
+      "source": "https://grafana.com/press/2024/08/21/grafana-labs-soars-past-250m-arr-and-5000-customers-completes-270m-primary-and-secondary-transaction-and-named-a-leader-in-the-gartner-magic-quadrant-for-observability-platforms/"
+    },
+    {
+      "label": "Operating milestone",
+      "value": "$400M+ ARR and 7,000+ customers",
+      "note": "Disclosed with a September 2025 secondary transaction.",
+      "source": "https://grafana.com/press/2025/09/30/grafana-labs-surpasses-400m-arr-and-7000-customers-gains-new-investors-to-accelerate-global-expansion/"
+    }
+  ],
+  "directory_rank": 0,
+  "bull_case": "Open-source adoption creates a broad developer funnel, while Grafana Cloud can convert that usage into recurring enterprise revenue across a large observability market.",
+  "bear_case": "Observability is crowded, and hyperscalers plus established vendors can bundle monitoring capabilities into broader cloud and software platforms.",
+  "latest_round": "August 2024 primary and secondary transaction: over $6B valuation",
+  "directory_notes": [
+    "Open observability",
+    "Latest disclosed valuation: over $6B"
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "New York, New York",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=grafana.com&sz=128",
+    "description": "Open-source and cloud observability software for infrastructure, applications, and digital services.",
+    "metrics": [
+      {
+        "value": ">$6B",
+        "label": "Latest disclosed valuation",
+        "note": "August 2024 transaction"
+      },
+      {
+        "value": "$400M+",
+        "label": "Annual recurring revenue",
+        "note": "Company disclosure, September 2025"
+      },
+      {
+        "value": "7,000+",
+        "label": "Customers",
+        "note": "Company disclosure, September 2025"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed listing"
+      }
+    ],
+    "company": [
+      "Grafana Labs is the company behind Grafana, an open-source platform for visualizing and querying operational data. Its commercial products extend the ecosystem into managed observability, including monitoring for metrics, logs, traces, profiles, and incident response.",
+      "The company reported more than $400 million in annual recurring revenue and more than 7,000 customers in September 2025. It completed a secondary transaction that month, although the company did not disclose a new valuation or capital amount."
+    ],
+    "why_it_matters": "Observability sits close to the core infrastructure of modern software and AI deployments. Grafana Labs is a useful private-market benchmark for how open-source developer products can build enterprise-scale recurring revenue without relying solely on a proprietary software model.",
+    "changed": [
+      {
+        "date": "Sep 30, 2025",
+        "text": "Completed a secondary transaction and reported more than $400M in ARR and 7,000 customers."
+      },
+      {
+        "date": "Aug 21, 2024",
+        "text": "Completed a $270M primary and secondary transaction that extended its Series D financing at a valuation above $6B."
+      }
+    ],
+    "takeaways": [
+      "Open-source distribution gives Grafana Labs access to a broad developer audience.",
+      "The company reported more than $400M in ARR as of September 2025.",
+      "The latest disclosed valuation is above $6B from the August 2024 transaction.",
+      "Competition includes specialist observability vendors and bundled cloud-platform products."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2014"
+      ],
+      [
+        "Focus",
+        "Open-source and cloud observability"
+      ],
+      [
+        "Website",
+        "grafana.com"
+      ],
+      [
+        "Public status",
+        "Private"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Grafana Labs: 2024 financing and valuation",
+        "url": "https://grafana.com/press/2024/08/21/grafana-labs-soars-past-250m-arr-and-5000-customers-completes-270m-primary-and-secondary-transaction-and-named-a-leader-in-the-gartner-magic-quadrant-for-observability-platforms/"
+      },
+      {
+        "label": "Grafana Labs: 2025 ARR and customer update",
+        "url": "https://grafana.com/press/2025/09/30/grafana-labs-surpasses-400m-arr-and-7000-customers-gains-new-investors-to-accelerate-global-expansion/"
+      },
+      {
+        "label": "Grafana Labs: 2021 Series C",
+        "url": "https://grafana.com/press/2021/08/24/grafana-labs-raises-220m-to-accelerate-global-adoption-and-development-of-open-source-visualization-and-observability-platform/"
+      }
+    ]
+  },
+  "company_status": "private",
+  "website": "https://grafana.com/"
+}
