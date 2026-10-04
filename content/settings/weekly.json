@@ -1,66 +1,245 @@
 {
   "title": "Five things that moved private markets.",
-  "period": "September 21–27, 2026",
-  "next_update": "Sunday, October 4",
+  "period": "September 28 – October 3, 2026",
+  "next_update": "Sunday, October 11",
+  "previous_url": "/weekly/2026-09-21/",
   "intro": "Five source-backed developments from the most recently completed week, with the valuation context that matters for private-market investors.",
   "scoreboard": [
     {
-      "value": "$3.71B",
+      "value": "$2.33B",
       "label": "Raised in private rounds",
-      "note": "Two disclosed financings of $100M or more.",
+      "note": "Eight disclosed financings of $100M or more.",
       "sources": [
-        {"label": "Nscale: $3.36B pre-IPO financing", "url": "https://www.nscale.com/press-releases/pre-ipo-convertible-financing"},
-        {"label": "TechCrunch: Snorkel AI $350M Series E", "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"}
+        {
+          "label": "Instinct: $1B Series C",
+          "url": "https://www.finsmes.com/2026/09/instinct-raises-1-billion-in-series-c-funding-at-10-billion-valuation.html"
+        },
+        {
+          "label": "Armadin: $255.5M Series B",
+          "url": "https://unite.ai/armadin-raises-255-5m-series-b-at-over-2-5b-valuation-to-scale-its-agentic-security-platform"
+        },
+        {
+          "label": "Varda: $251M Series D",
+          "url": "https://startups.gallery/news"
+        },
+        {
+          "label": "PaleBlueDot AI: $200M Series C",
+          "url": "https://hoodline.com/2026/10/palo-alto-s-palebluedot-ai-lands-200m-hits-3-2b-valuation-in-nine-months/"
+        },
+        {
+          "label": "Simple Energy: $180M Series C",
+          "url": "https://inc42.com/buzz/from-simple-energy-to-arivihan-indian-startups-raised-over-233-mn-this-week"
+        },
+        {
+          "label": "SiMa.ai: $150M Series C",
+          "url": "https://tech-insider.org/sima-ai-150-million-series-c-edge-ai-chips-2026/"
+        },
+        {
+          "label": "Supabase: $150M",
+          "url": "https://siliconangle.com/2026/10/02/database-startup-supabase-raises-150m-acquires-turso"
+        },
+        {
+          "label": "CScale: $145M Series C",
+          "url": "https://vcnewsdaily.com/"
+        }
       ]
     },
     {
       "value": "1",
       "label": "$1B+ rounds",
-      "note": "Nscale's $3.36B convertible financing.",
+      "note": "Instinct's $1B Series C.",
       "sources": [
-        {"label": "Nscale: $3.36B pre-IPO financing", "url": "https://www.nscale.com/press-releases/pre-ipo-convertible-financing"}
+        {
+          "label": "Instinct: $1B Series C",
+          "url": "https://www.finsmes.com/2026/09/instinct-raises-1-billion-in-series-c-funding-at-10-billion-valuation.html"
+        }
       ]
     },
     {
-      "value": "0",
+      "value": "1",
       "label": "New unicorns",
-      "note": "No newly reported $1B-plus valuation was confirmed in the period.",
-      "sources": []
+      "note": "SiMa.ai, valued at $1.45B after its Series C.",
+      "sources": [
+        {
+          "label": "SiMa.ai: $150M Series C",
+          "url": "https://tech-insider.org/sima-ai-150-million-series-c-edge-ai-chips-2026/"
+        }
+      ]
     },
     {
-      "value": "0",
+      "value": "1",
       "label": "IPO filings, pricings & exits",
-      "note": "No confirmed filing, pricing, or private-company exit was recorded in the period.",
-      "sources": []
+      "note": "AMD's agreed $8.2B acquisition of World Labs.",
+      "sources": [
+        {
+          "label": "CNBC: AMD agrees to acquire World Labs",
+          "url": "https://www.cnbc.com/2026/09/28/amd-fei-fei-li-world-labs.html"
+        }
+      ]
     }
   ],
   "scoreboard_deals": [
     {
-      "company": "Nscale",
-      "date": "2026-09-25",
+      "company": "Instinct",
+      "date": "2026-09-28",
       "category": "funding",
-      "amount_usd": 3.36,
-      "valuation_usd": 14.6,
-      "round_type": "Pre-IPO convertible financing",
-      "summary": "Nscale announced a $3.36B convertible financing, including an initial $2.36B tranche and a $1B Nvidia commitment expected in November.",
-      "sources": [{"label": "Nscale announcement", "url": "https://www.nscale.com/press-releases/pre-ipo-convertible-financing"}]
+      "amount_usd": 1,
+      "valuation_usd": 10,
+      "round_type": "Series C",
+      "summary": "Instinct raised a $1B Series C at a $10B valuation.",
+      "sources": [
+        {
+          "label": "Instinct Series C",
+          "url": "https://www.finsmes.com/2026/09/instinct-raises-1-billion-in-series-c-funding-at-10-billion-valuation.html"
+        }
+      ]
     },
     {
-      "company": "Snorkel AI",
-      "date": "2026-09-22",
+      "company": "Armadin",
+      "date": "2026-10-01",
       "category": "funding",
-      "amount_usd": 0.35,
-      "valuation_usd": 3.5,
-      "round_type": "Series E",
-      "summary": "Snorkel AI raised a $350M Series E at a $3.5B valuation.",
-      "sources": [{"label": "TechCrunch reporting", "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"}]
+      "amount_usd": 0.2555,
+      "valuation_usd": 2.5,
+      "round_type": "Series B",
+      "summary": "Armadin raised a $255.5M Series B at a valuation above $2.5B.",
+      "sources": [
+        {
+          "label": "Armadin Series B",
+          "url": "https://unite.ai/armadin-raises-255-5m-series-b-at-over-2-5b-valuation-to-scale-its-agentic-security-platform"
+        }
+      ]
+    },
+    {
+      "company": "Varda",
+      "date": "2026-10-01",
+      "category": "funding",
+      "amount_usd": 0.251,
+      "valuation_usd": null,
+      "round_type": "Series D",
+      "summary": "Varda raised a $251M Series D.",
+      "sources": [
+        {
+          "label": "Varda Series D",
+          "url": "https://startups.gallery/news"
+        }
+      ]
+    },
+    {
+      "company": "PaleBlueDot AI",
+      "date": "2026-10-01",
+      "category": "funding",
+      "amount_usd": 0.2,
+      "valuation_usd": 3.2,
+      "round_type": "Series C",
+      "summary": "PaleBlueDot AI raised a $200M Series C.",
+      "sources": [
+        {
+          "label": "PaleBlueDot AI Series C",
+          "url": "https://hoodline.com/2026/10/palo-alto-s-palebluedot-ai-lands-200m-hits-3-2b-valuation-in-nine-months/"
+        }
+      ]
+    },
+    {
+      "company": "Simple Energy",
+      "date": "2026-10-01",
+      "category": "funding",
+      "amount_usd": 0.18,
+      "valuation_usd": null,
+      "round_type": "Series C",
+      "summary": "Simple Energy raised a $180M Series C.",
+      "sources": [
+        {
+          "label": "Simple Energy Series C",
+          "url": "https://inc42.com/buzz/from-simple-energy-to-arivihan-indian-startups-raised-over-233-mn-this-week"
+        }
+      ]
+    },
+    {
+      "company": "SiMa.ai",
+      "date": "2026-10-01",
+      "category": "funding",
+      "amount_usd": 0.15,
+      "valuation_usd": 1.45,
+      "round_type": "Series C",
+      "summary": "SiMa.ai raised a $150M Series C at a $1.45B valuation.",
+      "sources": [
+        {
+          "label": "SiMa.ai Series C",
+          "url": "https://tech-insider.org/sima-ai-150-million-series-c-edge-ai-chips-2026/"
+        }
+      ]
+    },
+    {
+      "company": "Supabase",
+      "date": "2026-10-02",
+      "category": "funding",
+      "amount_usd": 0.15,
+      "valuation_usd": null,
+      "round_type": "Funding round",
+      "summary": "Supabase raised $150M.",
+      "sources": [
+        {
+          "label": "Supabase funding",
+          "url": "https://siliconangle.com/2026/10/02/database-startup-supabase-raises-150m-acquires-turso"
+        }
+      ]
+    },
+    {
+      "company": "CScale",
+      "date": "2026-10-02",
+      "category": "funding",
+      "amount_usd": 0.145,
+      "valuation_usd": null,
+      "round_type": "Series C",
+      "summary": "CScale raised a $145M Series C.",
+      "sources": [
+        {
+          "label": "CScale Series C",
+          "url": "https://vcnewsdaily.com/"
+        }
+      ]
     }
   ],
   "items": [
-    {"company":"Monzo","tag":"M&A","amount_usd":12.7,"text":"On September 26, Bloomberg reported that Nubank was in talks to buy Monzo for £8–10 billion, roughly twice the £4.5 billion valuation set in an October 2024 employee share sale; the talks may not lead to a deal. The reported top end would make it one of the largest fintech acquisitions and reset the valuation benchmark for profitable digital banks.","source":"https://www.forbes.com/sites/zennonkapron/2026/09/27/nubank-wants-to-pay-up-to-10-billion-for-monzo-that-is-twice-monzos-last-valuation-and-115-times-its-pre-tax-profit/"},
-    {"company":"Nscale","tag":"PRE-IPO","amount_usd":3.36,"text":"On September 25, Nscale announced a $3.36 billion convertible-note financing led by Third Point, including a $1 billion commitment from Nvidia, with the notes converting into shares at an IPO. The raise puts a large new financing marker beneath its $14.6 billion March 2026 valuation and tests public-market appetite for capital-intensive AI infrastructure.","source":"https://www.nscale.com/press-releases/pre-ipo-convertible-financing"},
-    {"company":"Snorkel AI","tag":"FUNDING","amount_usd":0.35,"text":"On September 22, Snorkel AI raised a $350 million Series E at a $3.5 billion valuation, according to TechCrunch. The round shows investors are assigning strategic value to the data and simulation layer that supports training and evaluating AI systems.","source":"https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"},
-    {"company":"Ema","tag":"FUNDING","amount_usd":0.077,"text":"On September 23, Ema announced a $77 million Series B for its enterprise AI-agent platform, bringing reported total funding to $140 million. The financing points to continuing investor demand for software that can automate multi-step work inside established corporate systems.","source":"https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/"},
-    {"company":"Databricks","tag":"MEGA-CAP M&A","amount_usd":null,"text":"On September 24, Databricks acquired Row Zero to bring governed spreadsheets into its Genie AI-coworker platform; the terms were not disclosed. For a reported $190 billion private company, the acquisition is a useful signal that product gaps in enterprise AI are increasingly being filled through startup M&A.","source":"https://www.databricks.com/company/newsroom/press-releases/databricks-acquires-row-zero-bringing-live-governed-spreadsheets"}
+    {
+      "company": "Anthropic",
+      "tag": "IPO",
+      "amount_usd": null,
+      "chart_dates": [
+        "2026-02-12",
+        "2026-05-28",
+        "2026-09-28"
+      ],
+      "text": "On September 28, Reuters reported on Anthropic's IPO prospectus, giving investors their first look at the company's finances. Revenue reached nearly $4.6 billion in 2025, a twelvefold increase from the prior year, alongside an operating loss exceeding $8 billion. The headline net loss of about $42 billion included a roughly $34 billion accounting charge tied to the rising estimated value of financing that could convert into shares, rather than operating spend. The prospectus also shows $518 billion in planned cloud, computing and infrastructure obligations, and nearly a quarter of 2025 revenue came from two customers. The reported target valuation is more than double the $965 billion mark set in May, which would make this the private-to-public repricing every AI lab investor is watching.",
+      "source": "https://www.cnbc.com/2026/09/28/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-reuters.html"
+    },
+    {
+      "company": "World Labs",
+      "tag": "M&A",
+      "amount_usd": 8.2,
+      "text": "On September 28, AMD agreed to acquire World Labs, the San Francisco AI lab developing a world model, for $8.2 billion in an all-stock transaction. AMD was already an investor, and the deal is its second-largest on record after the roughly $50 billion Xilinx purchase. Closing is expected by year-end, subject to regulatory approval. It's the week's largest venture-backed exit, and another sign chipmakers are buying model capability rather than building it.",
+      "source": "https://www.cnbc.com/2026/09/28/amd-fei-fei-li-world-labs.html"
+    },
+    {
+      "company": "Oura",
+      "tag": "IPO WATCH",
+      "amount_usd": null,
+      "text": "On September 29, Oura postponed its Nasdaq IPO, citing market uncertainty and giving no new date; it had aimed to raise up to $2.2 billion, at a valuation near $15 billion. The company said demand was strong, and the deal was reportedly about four times oversubscribed. Oura wasn't alone: Holtec Nuclear withdrew its IPO, Amaero postponed, and Bamboo Insurance postponed in the days before. For pre-IPO holders, it's a reminder that rising yields can close the window even for profitable issuers.",
+      "source": "https://www.cnbc.com/2026/09/29/ipo-postponements-are-accelerating-in-third-quarter-even-beyond-oura.html"
+    },
+    {
+      "company": "Instinct",
+      "tag": "FUNDING",
+      "amount_usd": 1,
+      "text": "On September 28, Instinct, which is building a personal AI assistant for everyday tasks, raised a $1 billion Series C from Sequoia, Benchmark and Coatue at a $10 billion valuation, roughly a year after founding. It was the only $1B+ private round of the week, and a striking price for a consumer-agent company with no public comparable.",
+      "source": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct"
+    },
+    {
+      "company": "Armadin",
+      "tag": "FUNDING",
+      "amount_usd": 0.2555,
+      "text": "On October 1, AI-native cybersecurity company Armadin raised a $255.5 million Series B co-led by Andreessen Horowitz and Accel, at a valuation of over $2.5 billion, bringing total funding to $445 million. In-Q-Tel and GV were among returning backers, signaling that agentic security is drawing both government-adjacent and growth capital.",
+      "source": "https://unite.ai/armadin-raises-255-5m-series-b-at-over-2-5b-valuation-to-scale-its-agentic-security-platform"
+    }
   ]
 }

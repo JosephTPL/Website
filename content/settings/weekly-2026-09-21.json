@@ -1,0 +1,66 @@
+{
+  "title": "Five things that moved private markets.",
+  "period": "September 21–27, 2026",
+  "next_update": "Sunday, October 4",
+  "intro": "Five source-backed developments from the most recently completed week, with the valuation context that matters for private-market investors.",
+  "scoreboard": [
+    {
+      "value": "$3.71B",
+      "label": "Raised in private rounds",
+      "note": "Two disclosed financings of $100M or more.",
+      "sources": [
+        {"label": "Nscale: $3.36B pre-IPO financing", "url": "https://www.nscale.com/press-releases/pre-ipo-convertible-financing"},
+        {"label": "TechCrunch: Snorkel AI $350M Series E", "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"}
+      ]
+    },
+    {
+      "value": "1",
+      "label": "$1B+ rounds",
+      "note": "Nscale's $3.36B convertible financing.",
+      "sources": [
+        {"label": "Nscale: $3.36B pre-IPO financing", "url": "https://www.nscale.com/press-releases/pre-ipo-convertible-financing"}
+      ]
+    },
+    {
+      "value": "0",
+      "label": "New unicorns",
+      "note": "No newly reported $1B-plus valuation was confirmed in the period.",
+      "sources": []
+    },
+    {
+      "value": "0",
+      "label": "IPO filings, pricings & exits",
+      "note": "No confirmed filing, pricing, or private-company exit was recorded in the period.",
+      "sources": []
+    }
+  ],
+  "scoreboard_deals": [
+    {
+      "company": "Nscale",
+      "date": "2026-09-25",
+      "category": "funding",
+      "amount_usd": 3.36,
+      "valuation_usd": 14.6,
+      "round_type": "Pre-IPO convertible financing",
+      "summary": "Nscale announced a $3.36B convertible financing, including an initial $2.36B tranche and a $1B Nvidia commitment expected in November.",
+      "sources": [{"label": "Nscale announcement", "url": "https://www.nscale.com/press-releases/pre-ipo-convertible-financing"}]
+    },
+    {
+      "company": "Snorkel AI",
+      "date": "2026-09-22",
+      "category": "funding",
+      "amount_usd": 0.35,
+      "valuation_usd": 3.5,
+      "round_type": "Series E",
+      "summary": "Snorkel AI raised a $350M Series E at a $3.5B valuation.",
+      "sources": [{"label": "TechCrunch reporting", "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"}]
+    }
+  ],
+  "items": [
+    {"company":"Monzo","tag":"M&A","amount_usd":12.7,"text":"On September 26, Bloomberg reported that Nubank was in talks to buy Monzo for £8–10 billion, roughly twice the £4.5 billion valuation set in an October 2024 employee share sale; the talks may not lead to a deal. The reported top end would make it one of the largest fintech acquisitions and reset the valuation benchmark for profitable digital banks.","source":"https://www.forbes.com/sites/zennonkapron/2026/09/27/nubank-wants-to-pay-up-to-10-billion-for-monzo-that-is-twice-monzos-last-valuation-and-115-times-its-pre-tax-profit/"},
+    {"company":"Nscale","tag":"PRE-IPO","amount_usd":3.36,"text":"On September 25, Nscale announced a $3.36 billion convertible-note financing led by Third Point, including a $1 billion commitment from Nvidia, with the notes converting into shares at an IPO. The raise puts a large new financing marker beneath its $14.6 billion March 2026 valuation and tests public-market appetite for capital-intensive AI infrastructure.","source":"https://www.nscale.com/press-releases/pre-ipo-convertible-financing"},
+    {"company":"Snorkel AI","tag":"FUNDING","amount_usd":0.35,"text":"On September 22, Snorkel AI raised a $350 million Series E at a $3.5 billion valuation, according to TechCrunch. The round shows investors are assigning strategic value to the data and simulation layer that supports training and evaluating AI systems.","source":"https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"},
+    {"company":"Ema","tag":"FUNDING","amount_usd":0.077,"text":"On September 23, Ema announced a $77 million Series B for its enterprise AI-agent platform, bringing reported total funding to $140 million. The financing points to continuing investor demand for software that can automate multi-step work inside established corporate systems.","source":"https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/"},
+    {"company":"Databricks","tag":"MEGA-CAP M&A","amount_usd":null,"text":"On September 24, Databricks acquired Row Zero to bring governed spreadsheets into its Genie AI-coworker platform; the terms were not disclosed. For a reported $190 billion private company, the acquisition is a useful signal that product gaps in enterprise AI are increasingly being filled through startup M&A.","source":"https://www.databricks.com/company/newsroom/press-releases/databricks-acquires-row-zero-bringing-live-governed-spreadsheets"}
+  ]
+}

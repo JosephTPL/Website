@@ -7,9 +7,15 @@
   "overview": "<p>Anthropic's business case rests on valuable professional use, especially coding and enterprise work. Claude's growth and major technology partnerships support that case, while the company must keep investing heavily in compute and research as competition intensifies.</p>",
   "image": "https://substackcdn.com/image/fetch/$s_!_lS3!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb33ff6ae-8a4c-4075-a1f5-edc16bdcd29e_1600x840.jpeg",
   "image_alt": "Anthropic - The Private Ledger",
-  "as_of": "2026-09-24",
+  "as_of": "2026-10-03",
   "report": "the-breakdown-anthropic",
   "facts": [
+    {
+      "label": "Reported IPO target",
+      "value": ">$2 trillion",
+      "note": "Reuters reported the target from Anthropic's September 28, 2026 prospectus; it is not a confirmed valuation.",
+      "source": "https://www.cnbc.com/2026/09/28/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-reuters.html"
+    },
     {
       "label": "Latest valuation",
       "value": "$965 billion",

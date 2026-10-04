@@ -66,7 +66,7 @@ company_files={path.stem:json.loads(path.read_text()) for path in (ROOT/'content
 for file_slug,company in company_files.items():
  if company.get('company_status') not in COMPANY_STATUSES:raise ValueError(f'Company {file_slug}: invalid company_status {company.get("company_status")!r}.')
  if company.get('sector') not in SECTORS:raise ValueError(f'Company {file_slug}: invalid sector {company.get("sector")!r}.')
-settings=read('content/settings/site.json');weekly=read('content/settings/weekly.json');ipo_calendar=read('content/settings/ipo-calendar.json');articles=records('articles');companies=records('companies')
+settings=read('content/settings/site.json');weekly=read('content/settings/weekly.json');weekly_archives=[('2026-09-21',read('content/settings/weekly-2026-09-21.json'))];ipo_calendar=read('content/settings/ipo-calendar.json');articles=records('articles');companies=records('companies')
 file_slugs={company['_file_slug']:slug for slug,company in companies.items()}
 valuation_rows=[]
 with (ROOT/'content/data/valuations.csv').open(newline='',encoding='utf-8') as f:
@@ -266,7 +266,10 @@ def weekly_chart_markup(lead_item):
  company_name=str(lead_item.get('company','')).casefold()
  company=next((record for record in companies.values() if str(record.get('name','')).casefold()==company_name),None)
  if not company:return ''
- events=[{'amount':row['valuation'],'value':money_b(row['valuation']),'date':row['date'],'round':row['round_label'],'source':row['source_url']} for row in valuations_by_slug.get(company['slug'],[]) if row['valuation'] is not None and row['date']]
+ event_rows=[row for row in valuations_by_slug.get(company['slug'],[]) if row['valuation'] is not None and row['date']]
+ chart_dates=set(lead_item.get('chart_dates',[]))
+ if chart_dates:event_rows=[row for row in event_rows if row['date'] in chart_dates]
+ events=[{'amount':row['valuation'],'value':('>'+money_b(row['valuation']) if 'ipo target' in row['round_label'].casefold() else money_b(row['valuation'])),'date':date_text(row['date']),'round':row['round_label'],'source':row['source_url'],'reported':row['event_type']=='talks','target':'ipo target' in row['round_label'].casefold()} for row in event_rows]
  if len(events)<2:return ''
  width,height,left,right,top,bottom=760,274,58,28,26,206
  maximum=max(event['amount'] for event in events)
@@ -277,14 +280,16 @@ def weekly_chart_markup(lead_item):
  for index,event in enumerate(events):
   x=left+index*step;y=bottom-(event['amount']/ceiling)*(bottom-top)
   points.append((x,y,event))
- path=' '.join((f'M {x:.1f} {y:.1f}' if index==0 else f'L {x:.1f} {y:.1f}') for index,(x,y,event) in enumerate(points))
  grid=''.join(f'<line x1="{left}" y1="{bottom-(value/ceiling)*(bottom-top):.1f}" x2="{width-right}" y2="{bottom-(value/ceiling)*(bottom-top):.1f}" class="weekly-chart-grid"/><text x="{left-12}" y="{bottom-(value/ceiling)*(bottom-top)+5:.1f}" text-anchor="end" class="weekly-chart-axis">{E(money_b(value))}</text>' for value in (0,ceiling/2,ceiling))
- dots=''.join(f'<g><circle cx="{x:.1f}" cy="{y:.1f}" r="5" class="weekly-chart-point" data-date="{E(event["date"])}" data-value="{E(event["value"])}" data-round="{E(event["round"])}" tabindex="0" role="button" aria-label="{E(event["date"])}: {E(event["value"])}. {E(event["round"])}."><title>{E(event["date"])}: {E(event["value"])}. {E(event["round"])}.</title></circle><text x="{x:.1f}" y="{bottom+31}" text-anchor="middle" class="weekly-chart-date">{E(event["date"])}</text></g>' for x,y,event in points)
+ segments=''.join(f'<path d="M {points[index-1][0]:.1f} {points[index-1][1]:.1f} L {x:.1f} {y:.1f}" class="weekly-chart-line{" weekly-chart-line--reported" if event["reported"] else ""}"/>' for index,(x,y,event) in enumerate(points) if index)
+ dots=''.join(f'<g><circle cx="{x:.1f}" cy="{y:.1f}" r="5" class="weekly-chart-point{" weekly-chart-point--reported" if event["reported"] else ""}" data-date="{E(event["date"])}" data-value="{E(event["value"])}" data-round="{E(event["round"])}" tabindex="0" role="button" aria-label="{E(event["date"])}: {E(event["value"])}. {E(event["round"])}."><title>{E(event["date"])}: {E(event["value"])}. {E(event["round"])}.</title></circle><text x="{x:.1f}" y="{bottom+31}" text-anchor="middle" class="weekly-chart-date">{E(event["date"])}</text></g>' for x,y,event in points)
  latest=events[-1]
  source=latest.get('source') or lead_item.get('source') or company.get('facts',[{}])[0].get('source',f'/companies/{company["slug"]}/')
- return f'''<section class="weekly-chart weekly-chart--sidebar" aria-labelledby="weekly-chart-title"><header class="weekly-chart-head"><div><h2 id="weekly-chart-title">{E(company['name'])} valuation history.</h2><p>{E(latest['round'] or 'Latest reported valuation event')} at {E(latest['value'])}.</p></div><div class="weekly-chart-stat"><strong>{E(latest['value'])}</strong><span>Latest reported value</span></div></header><div class="weekly-chart-plot"><svg viewBox="0 0 {width} {height}" role="img" aria-label="{E(company['name'])} reported valuation history">{grid}<path d="{path}" class="weekly-chart-line"/>{dots}</svg><div class="weekly-chart-tooltip" hidden aria-live="polite"></div></div><footer><a href="/companies/{E(company['slug'])}/">Profile →</a><a href="/valuations/">Valuation desk →</a><a href="{E(source)}" rel="noopener">Source ↗</a></footer></section>'''
+ latest_label='Reported IPO target' if latest['target'] else 'Latest reported value'
+ chart_description=f'{company["name"]} valuation history, including a reported IPO target' if latest['target'] else f'{company["name"]} reported valuation history'
+ return f'''<section class="weekly-chart weekly-chart--sidebar" aria-labelledby="weekly-chart-title"><header class="weekly-chart-head"><div><h2 id="weekly-chart-title">{E(company['name'])} valuation history.</h2><p>{E(latest['round'] or latest_label)} at {E(latest['value'])}.</p></div><div class="weekly-chart-stat"><strong>{E(latest['value'])}</strong><span>{latest_label}</span></div></header><div class="weekly-chart-plot"><svg viewBox="0 0 {width} {height}" role="img" aria-label="{E(chart_description)}">{grid}{segments}{dots}</svg><div class="weekly-chart-tooltip" hidden aria-live="polite"></div></div><footer><a href="/companies/{E(company['slug'])}/">Profile →</a><a href="/valuations/">Valuation desk →</a><a href="{E(source)}" rel="noopener">Source ↗</a></footer></section>'''
 
-def weekly_markup():
+def weekly_markup(data=weekly):
  def amount(item):
   value=item.get('amount_usd')
   if value is None:return None
@@ -301,7 +306,7 @@ def weekly_markup():
   if profile:links+=f'<a href="{profile}">Profile →</a>'
   return f'''<article class="weekly-item{' weekly-item--lead' if lead else ''}"><div><span class="weekly-number">{index:02d}</span><span class="weekly-tag">{E(item['tag'])}</span></div><h2>{E(item['company'])}</h2><p>{E(item['text'])}</p><div class="weekly-item-links">{links}</div></article>'''
  def scoreboard_markup():
-  scoreboard=weekly.get('scoreboard',[])
+  scoreboard=data.get('scoreboard',[])
   if not isinstance(scoreboard,list) or not scoreboard:return ''
   figures=[]
   for entry in scoreboard:
@@ -313,12 +318,13 @@ def weekly_markup():
    figures.append(f'''<article class="weekly-scoreboard-figure"><strong>{E(str(entry['value']))}</strong><span>{E(str(entry['label']))}</span><p>{E(str(entry['note']))}</p>{source_markup}</article>''')
   if len(figures)!=4:return ''
   return f'''<section class="weekly-scoreboard" aria-labelledby="weekly-scoreboard-title"><header><p class="weekly-scoreboard-kicker">WEEKLY SCOREBOARD</p><h2 id="weekly-scoreboard-title">Private-market activity, counted.</h2></header><div class="weekly-scoreboard-grid">{''.join(figures)}</div><a class="weekly-scoreboard-method" href="#weekly-scoreboard-method">How we count ↓</a><p class="weekly-scoreboard-method-copy" id="weekly-scoreboard-method">We count disclosed private financings of $100M or more, newly reported $1B-plus valuations, and confirmed IPO filings, pricings, and exits. Every count links to a source.</p></section>'''
- weekly_items=sorted(weekly['items'],key=lambda item:(amount(item) is None,-(amount(item) or 0)))
+ weekly_items=data['items']
  for item in weekly_items:
   if 'policy' in str(item.get('tag','')).casefold():print(f'Warning: policy-tagged weekly item: {item.get("company", "unknown")}',file=sys.stderr)
  lead=item_markup(weekly_items[0],1,True)
  items=''.join(item_markup(item,index) for index,item in enumerate(weekly_items[1:],2))
- return f'''<section class="weekly-brief" aria-labelledby="weekly-title"><header class="weekly-head"><div><h1 id="weekly-title">{E(weekly['title'])}</h1><p class="subtitle">{E(weekly['intro'])}</p></div><p class="weekly-date">Last week<br/><strong>{E(weekly['period'])}</strong><span>Next update: {E(weekly['next_update'])}</span></p></header>{scoreboard_markup()}<div class="weekly-lead-layout">{lead}{weekly_chart_markup(weekly_items[0])}</div><div class="weekly-grid weekly-grid--secondary">{items}</div><div class="weekly-footer"><span>Updated every Sunday.</span><a class="text-link" href="/research/">Explore company research →</a></div></section>'''
+ previous=f'<a class="text-link" href="{E(data["previous_url"])}">Previous week →</a>' if data.get('previous_url') else ''
+ return f'''<section class="weekly-brief" aria-labelledby="weekly-title"><header class="weekly-head"><div><h1 id="weekly-title">{E(data['title'])}</h1><p class="subtitle">{E(data['intro'])}</p></div><p class="weekly-date">Last week<br/><strong>{E(data['period'])}</strong><span>Next update: {E(data['next_update'])}</span></p></header>{scoreboard_markup()}<div class="weekly-lead-layout">{lead}{weekly_chart_markup(weekly_items[0])}</div><div class="weekly-grid weekly-grid--secondary">{items}</div><div class="weekly-footer"><span>Updated every Sunday.</span><a class="text-link" href="/research/">Explore company research →</a>{previous}</div></section>'''
 
 def ipo_markup():
  """A true month view; undated candidates stay out of arbitrary day cells."""
@@ -394,7 +400,7 @@ def valuation_chart_markup():
  """Render every company whose CSV history supports a meaningful comparison."""
  series=[]
  for slug,company in companies.items():
-  events=[{'date':row['date']+'-07-01' if len(row['date'])==4 else row['date']+'-01' if len(row['date'])==7 else row['date'],'label':valuation_date_label(row['date']),'value':money_b(row['valuation']),'amount':row['valuation'],'round':row['round_label'],'event_type':row['event_type'],'source':row['source_url']} for row in valuations_by_slug.get(slug,[]) if row['valuation'] is not None and row['valuation']>0 and row['date']]
+  events=[{'date':row['date']+'-07-01' if len(row['date'])==4 else row['date']+'-01' if len(row['date'])==7 else row['date'],'label':valuation_date_label(row['date']),'value':('>'+money_b(row['valuation']) if 'ipo target' in row['round_label'].casefold() else money_b(row['valuation'])),'amount':row['valuation'],'round':row['round_label'],'event_type':row['event_type'],'source':row['source_url']} for row in valuations_by_slug.get(slug,[]) if row['valuation'] is not None and row['valuation']>0 and row['date']]
   if len(events)>1:
    series.append({'name':company['name'],'slug':slug,'url':'/companies/'+slug+'/', 'events':events})
  series.sort(key=lambda item:item['name'].casefold())
@@ -451,6 +457,15 @@ for selector in ['.landing-hero','.page-heading','.start-here','.continue-readin
   if container:container.decompose()
 main=s.select_one('main');main.insert(0,soup(weekly_markup()))
 write(s,'/')
+for archive_slug,archive in weekly_archives:
+ s=shell('home',archive['title'],archive['intro'],f'/weekly/{archive_slug}/')
+ s.body['data-page-view']='home';configure_nav(s,'home')
+ for selector in ['.landing-hero','.page-heading','.start-here','.continue-reading','.controls','#research-grid','.empty']:
+  for el in list(s.select(selector)):
+   container=el.find_parent('section') if selector in ('#research-grid','.empty') else el
+   if container:container.decompose()
+ s.select_one('main').insert(0,soup(weekly_markup(archive)))
+ write(s,f'/weekly/{archive_slug}/')
 
 # Company research and general articles live together in one searchable archive.
 s=shell('home',settings['library_title'],settings['library_subtitle'],'/research/')
