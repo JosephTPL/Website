@@ -190,7 +190,7 @@ def facts(c):
 
 def intelligence_profile(c):
  d=c['intelligence']
- verified=f'<p class="human-verified">Human-verified <time datetime="{E(c["as_of"])}">{E(date_text(c["as_of"]))}</time></p>'
+ verified=f'<p class="profile-verification">Last verified by human: <time datetime="{E(c["as_of"])}">{E(date_text(c["as_of"]))}</time></p>'
  metrics=''.join(f'<div><strong>{E(item["value"])}</strong><span>{E(item["label"])}</span><small>{E(item.get("note",""))}</small></div>' for item in d['metrics'])
  history=''.join(f'<li><strong>{E(money_b(item["valuation"]) if item["valuation"] is not None else ("Raised "+money_b(item["raised"])+" · valuation undisclosed" if item["raised"] is not None else "Valuation undisclosed"))}</strong><span>→</span><small>{E(valuation_date_label(item["date"]) if item["date"] else "Date undisclosed")}</small><em>{E(("Reported, unconfirmed: " if item["event_type"]=="talks" else "")+(item["round_label"] or item["event_type"].replace("_"," ").title()))}</em><a href="{E(item["source_url"])}" rel="noopener">Source ↗</a></li>' for item in valuations_by_slug.get(c['slug'],[])) or '<li><strong>No disclosed valuation events</strong></li>'
  spv_link=f'<p class="spv-profile-link"><a href="/spv-tracker/#{E(c["slug"])}">{len(spvs_by_slug[c["slug"]])} SPVs have filed Form D for {E(c["name"])} · SPV tracker →</a></p>' if spvs_by_slug.get(c['slug']) else ''
@@ -201,10 +201,10 @@ def intelligence_profile(c):
  logo=f'<img src="{E(d["logo"])}" alt="{E(c["name"])} logo" loading="lazy">' if d.get('logo') else ''
  logo_class=' intelligence-logo-dark' if c['name'].casefold() in ('long lake','neros','revel','ricursive') else ''
  return f'''<section class="intelligence-profile">
- <header class="intelligence-header"><div><h1>{E(c["name"])}</h1><p class="intelligence-meta">{E(c["sector"])} <span>·</span> {E(d["location"])} <span>·</span> {E(c.get("company_status", d["status"]).replace("_", " ").title())}</p>{verified}<p class="intelligence-description">{E(d["description"])}</p></div><div class="intelligence-logo{logo_class}">{logo}<strong>{E(c["name"])}</strong></div></header>
+ <header class="intelligence-header"><div><h1>{E(c["name"])}</h1><p class="intelligence-meta">{E(c["sector"])} <span>·</span> {E(d["location"])} <span>·</span> {E(c.get("company_status", d["status"]).replace("_", " ").title())}</p><p class="intelligence-description">{E(d["description"])}</p></div><div class="intelligence-logo{logo_class}">{logo}<strong>{E(c["name"])}</strong></div></header>
  <section class="intelligence-metrics">{metrics}</section>
  <div class="intelligence-content"><div class="intelligence-main"><section><h2>The Company</h2>{''.join('<p>'+E(p)+'</p>' for p in d['company'])}</section><section><h2>Why It Matters</h2><p>{E(d["why_it_matters"])}</p></section><section><h2>Valuation History</h2><ol class="valuation-history">{history}</ol>{spv_link}</section><section><h2>What Changed</h2><ol class="change-log">{changed}</ol></section></div><aside class="intelligence-aside"><section><h2>Key Takeaways</h2><ol class="takeaways">{takeaways}</ol></section><section><h2>Quick Facts</h2><dl class="quick-facts">{quick}</dl></section><section><h2>Sources</h2><ul class="intelligence-sources">{sources}</ul></section></aside></div>
- </section>'''
+ </section>{verified}</section>'''
 
 def shell(kind,title,description,route,image=''):
  s=soup((ROOT/'templates'/f'{kind}.html').read_text());s.title.string=title+' | '+settings['site_name']
@@ -551,11 +551,12 @@ for company in companies.values():
  if company.get('intelligence'):
   put(main,f'<a class="back" href="/companies/">← All companies</a>'+intelligence_profile(company))
  else:
-  put(main,f'<a class="back" href="/research/">← Research library</a><article class="reading-paper company-profile"><h1>{E(company["name"])}</h1><p class="human-verified">Human-verified <time datetime="{E(company["as_of"])}">{E(date_text(company["as_of"]))}</time></p><p class="subtitle">{E(company["summary"])}</p></article>')
+  put(main,f'<a class="back" href="/research/">← Research library</a><article class="reading-paper company-profile"><h1>{E(company["name"])}</h1><p class="subtitle">{E(company["summary"])}</p></article>')
   paper=main.select_one('article')
   if company.get('image'):put(paper,f'<img class="profile-image" src="{E(company["image"])}" alt="{E(company.get("image_alt",company["name"]))}" loading="lazy">')
   put(paper,'<div class="article-body">'+str(clean(company.get('overview','')))+'</div><section class="facts">'+facts(company)+'</section>')
   if company.get('report') in articles:put(paper,f'<a class="primary-button" href="{articles[company["report"]]["url"]}">Read the company breakdown →</a>')
+  put(paper,f'<p class="profile-verification">Last verified by human: <time datetime="{E(company["as_of"])}">{E(date_text(company["as_of"]))}</time></p>')
  main.append(subscribe);main.append(footer);write(s,route)
 
 # A separate, editorial directory makes the company universe useful even when no long-form report exists yet.
@@ -568,7 +569,7 @@ grid=s.select_one('#company-directory-grid')
 for i,c in enumerate(sorted(companies.values(),key=lambda x:(x.get('directory_rank',999),x['name']))):
  notes=''.join('<li>'+E(note)+'</li>' for note in c.get('directory_notes',[])[:2])
  funding=E(c.get('latest_round') or next((f.get('value','') for f in c.get('facts',[]) if 'fund' in f.get('label','').lower()),'Not yet added'))
- put(grid,f'''<article class="company-directory-card" data-search="{E(c['name']+' '+c.get('sector','')+' '+c.get('summary',''))}"><div class="company-card-kicker"><span>#{int(c.get('directory_rank',i+1)):02d}</span><span>{E(c.get('sector',''))}</span></div><h2><a href="/companies/{c['slug']}/">{E(c['name'])}</a></h2><p class="company-directory-summary">{E(c.get('summary',''))}</p><div class="funding-context"><span>Latest disclosed financing</span><strong>{funding}</strong></div><p class="human-verified">Human-verified <time datetime="{E(c['as_of'])}">{E(date_text(c['as_of']))}</time></p><div class="thesis-columns"><div><span class="thesis-label bull">Bull case</span><p>{E(c.get('bull_case','Editorial note coming soon.'))}</p></div><div><span class="thesis-label bear">Bear case</span><p>{E(c.get('bear_case','Editorial note coming soon.'))}</p></div></div>{'<ul class="company-directory-notes">'+notes+'</ul>' if notes else ''}<a class="company-profile-link" href="/companies/{c['slug']}/">View company profile →</a></article>''')
+ put(grid,f'''<article class="company-directory-card" data-search="{E(c['name']+' '+c.get('sector','')+' '+c.get('summary',''))}"><div class="company-card-kicker"><span>#{int(c.get('directory_rank',i+1)):02d}</span><span>{E(c.get('sector',''))}</span></div><h2><a href="/companies/{c['slug']}/">{E(c['name'])}</a></h2><p class="company-directory-summary">{E(c.get('summary',''))}</p><div class="funding-context"><span>Latest disclosed financing</span><strong>{funding}</strong></div><div class="thesis-columns"><div><span class="thesis-label bull">Bull case</span><p>{E(c.get('bull_case','Editorial note coming soon.'))}</p></div><div><span class="thesis-label bear">Bear case</span><p>{E(c.get('bear_case','Editorial note coming soon.'))}</p></div></div>{'<ul class="company-directory-notes">'+notes+'</ul>' if notes else ''}<a class="company-profile-link" href="/companies/{c['slug']}/">View company profile →</a></article>''')
 put(s.head,f'<script defer src="/companies.js?v={companies_script_version}"></script>')
 write(s,'/companies/')
 
