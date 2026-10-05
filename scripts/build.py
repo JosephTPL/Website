@@ -189,7 +189,8 @@ ordered=sorted(articles.values(),key=lambda a:(a['date'],a['title']),reverse=Tru
 def date_text(value):return datetime.strptime(value[:10],'%Y-%m-%d').strftime('%b %d, %Y').replace(' 0',' ')
 def human_verification(c):
  value=str(c.get('human_verified_at','')).strip()
- return f'<p class="profile-verification">Last verified by human: <time datetime="{E(value)}">{E(date_text(value))}</time></p>' if value else ''
+ display=f'<time datetime="{E(value)}">{E(date_text(value))}</time>' if value else '<span aria-label="No human verification date">____</span>'
+ return f'<p class="profile-verification">Last verified by human: {display}</p>'
 def facts(c):
  rows=''.join(f'<div><dt>{E(f["label"])}</dt><dd>{E(f["value"])}</dd><p>{E(f.get("note",""))}</p>'+ (f'<a href="{E(f["source"])}">Source <span class="sr-only">for {E(f["label"])}</span> ↗</a>' if f.get('source') else '')+'</div>' for f in c.get('facts',[]))
  return f'<div class="facts-inner"><p class="snapshot-note">Figures as of {date_text(c["as_of"])}. Estimates and projections are labelled separately.</p><dl class="facts-grid">{rows}</dl></div>'
