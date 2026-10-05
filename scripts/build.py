@@ -158,7 +158,12 @@ def valuation_date_label(value):
  except ValueError:return value
 
 def latest_valuation(slug):
- rows=[row for row in valuations_by_slug.get(slug,[]) if row['valuation'] is not None]
+ """Return the latest confirmed valuation for headline and directory displays.
+
+ Reported fundraising talks and IPO targets remain in the history/chart, but are
+ not completed transactions and must never become a company's headline value.
+ """
+ rows=[row for row in valuations_by_slug.get(slug,[]) if row['valuation'] is not None and row['event_type']!='talks']
  return rows[-1] if rows else None
 for company in companies.values():
  profile_text=' '.join((str(company.get('summary','')),str(company.get('intelligence',{}).get('description','')))).casefold()
@@ -186,7 +191,7 @@ def facts(c):
 def intelligence_profile(c):
  d=c['intelligence']
  metrics=''.join(f'<div><strong>{E(item["value"])}</strong><span>{E(item["label"])}</span><small>{E(item.get("note",""))}</small></div>' for item in d['metrics'])
- history=''.join(f'<li><strong>{E(money_b(item["valuation"]) if item["valuation"] is not None else ("Raised "+money_b(item["raised"])+" · valuation undisclosed" if item["raised"] is not None else "Valuation undisclosed"))}</strong><span>→</span><small>{E(valuation_date_label(item["date"]) if item["date"] else "Date undisclosed")}</small><em>{E(item["round_label"] or item["event_type"].replace("_"," ").title())}</em><a href="{E(item["source_url"])}" rel="noopener">Source ↗</a></li>' for item in valuations_by_slug.get(c['slug'],[])) or '<li><strong>No disclosed valuation events</strong></li>'
+ history=''.join(f'<li><strong>{E(money_b(item["valuation"]) if item["valuation"] is not None else ("Raised "+money_b(item["raised"])+" · valuation undisclosed" if item["raised"] is not None else "Valuation undisclosed"))}</strong><span>→</span><small>{E(valuation_date_label(item["date"]) if item["date"] else "Date undisclosed")}</small><em>{E(("Reported, unconfirmed: " if item["event_type"]=="talks" else "")+(item["round_label"] or item["event_type"].replace("_"," ").title()))}</em><a href="{E(item["source_url"])}" rel="noopener">Source ↗</a></li>' for item in valuations_by_slug.get(c['slug'],[])) or '<li><strong>No disclosed valuation events</strong></li>'
  spv_link=f'<p class="spv-profile-link"><a href="/spv-tracker/#{E(c["slug"])}">{len(spvs_by_slug[c["slug"]])} SPVs have filed Form D for {E(c["name"])} · SPV tracker →</a></p>' if spvs_by_slug.get(c['slug']) else ''
  changed=''.join(f'<li><time>{E(item["date"])}</time><p>{E(item["text"])}</p></li>' for item in d['changed'])
  takeaways=''.join(f'<li><span>{i:02d}</span><p>{E(item)}</p></li>' for i,item in enumerate(d['takeaways'],1))
