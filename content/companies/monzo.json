@@ -3,28 +3,28 @@
   "name": "Monzo",
   "status": "Published",
   "sector": "Financial Services & Digital Assets",
-  "summary": "Monzo is a UK digital bank with 15.2 million customers, and is reportedly in talks to be acquired by Nubank for £8–10 billion.",
+  "summary": "Monzo is a UK digital bank with 15.2 million customers, and is reportedly in talks to be acquired by Nubank for $10.8–13.5 billion.",
   "overview": "<p>Monzo is a UK-licensed digital bank offering current accounts, savings, loans and business banking through its app.</p>",
   "as_of": "2026-09-29",
   "report": "",
   "facts": [
     {
       "label": "Latest valuation",
-      "value": "£4.5B",
+      "value": "$6.0B",
       "note": "October 2024 employee share sale.",
       "source": "https://www.forbes.com/sites/zennonkapron/2026/09/27/nubank-wants-to-pay-up-to-10-billion-for-monzo-that-is-twice-monzos-last-valuation-and-115-times-its-pre-tax-profit/"
     },
     {
       "label": "Latest financing",
       "value": "Talks",
-      "note": "Reported Nubank offer of £8–10B, September 2026.",
+      "note": "Reported Nubank offer of $10.8–13.5B, September 2026.",
       "source": "https://www.forbes.com/sites/zennonkapron/2026/09/27/nubank-wants-to-pay-up-to-10-billion-for-monzo-that-is-twice-monzos-last-valuation-and-115-times-its-pre-tax-profit/"
     }
   ],
   "directory_rank": 40,
   "bull_case": "Profitable growth and a large UK customer base make Monzo attractive to an acquirer or public investors.",
   "bear_case": "The reported price is high relative to profit, and international expansion has been slow.",
-  "latest_round": "October 2024: £4.5B employee share sale; Nubank takeover talks reported",
+  "latest_round": "October 2024: $6.0B employee share sale; Nubank takeover talks reported",
   "directory_notes": [
     "Outcome of Nubank talks.",
     "U.S. and European expansion."
@@ -37,14 +37,14 @@
     "description": "Monzo is a UK-licensed digital bank offering current accounts, savings, loans and business banking through its app.",
     "metrics": [
       {
-        "value": "£4.5B",
+        "value": "$6.0B",
         "label": "Latest valuation",
         "note": "October 2024 employee share sale"
       },
       {
         "value": "Talks",
         "label": "Latest funding",
-        "note": "Reported Nubank offer of £8–10B, September 2026"
+        "note": "Reported Nubank offer of $10.8–13.5B, September 2026"
       },
       {
         "value": "15.2M",
@@ -58,8 +58,8 @@
       }
     ],
     "company": [
-      "Monzo was founded in London in 2015 and has grown into one of the UK's largest digital banks, with 15.2 million customers. Its latest annual results showed revenue of £1.7 billion, up 39%, and statutory pre-tax profit of £87.3 million. Diana Layfield became CEO in October 2025.",
-      "Monzo was last valued at £4.5 billion in an October 2024 employee share sale. In September 2026 Sky News and Bloomberg reported that Brazil's Nubank was in talks to buy Monzo for £8–10 billion, roughly double that valuation."
+      "Monzo was founded in London in 2015 and has grown into one of the UK's largest digital banks, with 15.2 million customers. Its latest annual results showed revenue of about $2.3 billion, up 39%, and statutory pre-tax profit of about $118 million. Diana Layfield became CEO in October 2025.",
+      "Monzo was last valued at $6.0 billion in an October 2024 employee share sale. In September 2026 Sky News and Bloomberg reported that Brazil's Nubank was in talks to buy Monzo for $10.8–13.5 billion, roughly double that valuation."
     ],
     "why_it_matters": "Monzo is the UK's most prominent fintech, and a Nubank deal would be one of the largest fintech acquisitions and a benchmark for neobank valuations.",
     "changed": [
@@ -69,7 +69,7 @@
       },
       {
         "date": "Oct 2024",
-        "text": "An employee share sale values Monzo at £4.5B."
+        "text": "An employee share sale values Monzo at $6.0B."
       },
       {
         "date": "Oct 2025",
@@ -77,7 +77,7 @@
       },
       {
         "date": "Sep 2026",
-        "text": "Nubank is reported to be in talks to buy Monzo for £8–10B."
+        "text": "Nubank is reported to be in talks to buy Monzo for $10.8–13.5B."
       }
     ],
     "takeaways": [
@@ -114,7 +114,7 @@
     ],
     "sources": [
       {
-        "label": "Forbes: Nubank wants to pay up to £10B for Monzo",
+        "label": "Forbes: Nubank takeover report",
         "url": "https://www.forbes.com/sites/zennonkapron/2026/09/27/nubank-wants-to-pay-up-to-10-billion-for-monzo-that-is-twice-monzos-last-valuation-and-115-times-its-pre-tax-profit/"
       },
       {

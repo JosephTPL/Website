@@ -10,7 +10,7 @@
   "facts": [
     {
       "label": "Transaction valuation",
-      "value": "~€40B enterprise value",
+      "value": "~$46.9B enterprise value",
       "note": "Implied by the 2025 investor transaction; not a venture financing valuation.",
       "source": "https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/publicaties/2025/09/24/pressrelease-tennet/Private%2Binvestors%2Binvest%2Bfunds%2Binto%2BTenneT%2BGermany.pdf"
     }
@@ -31,12 +31,12 @@
     "description": "TenneT Germany runs the transmission backbone moving power across much of Germany. It is a regulated infrastructure business, not a venture-backed technology company, but its financing and build-out are increasingly relevant to the AI and electrification investment cycle.",
     "metrics": [
       {
-        "value": "~€40B",
+        "value": "~$46.9B",
         "label": "Transaction value",
         "note": "2025 implied enterprise value"
       },
       {
-        "value": "€9.5B",
+        "value": "$11.1B",
         "label": "Private investment",
         "note": "Announced September 2025"
       },
@@ -53,13 +53,13 @@
     ],
     "company": [
       "TenneT Germany was separated from the wider Dutch TenneT organization to create a dedicated German transmission-grid business. It connects generation, industrial demand, and cross-border electricity markets through a high-voltage network that is essential to the country's energy transition.",
-      "Its ownership structure shifted in 2025 and 2026. APG, Norges Bank Investment Management, and GIC agreed to invest €9.5B for up to 46%, while KfW acquired 25.1% on behalf of the German federal government. Those transactions are funding and governance events, not conventional equity rounds."
+      "Its ownership structure shifted in 2025 and 2026. APG, Norges Bank Investment Management, and GIC agreed to invest $11.1B for up to 46%, while KfW acquired 25.1% on behalf of the German federal government. Those transactions are funding and governance events, not conventional equity rounds."
     ],
     "why_it_matters": "Power availability is a hard constraint on new data centres, industrial electrification, renewable integration, and ultimately AI-compute expansion. TenneT Germany is a useful window into the long-duration infrastructure capital required behind those themes.",
     "changed": [
       {
         "date": "2025",
-        "text": "Sovereign and pension investors announced €9.5B of investment for up to 46% of the business."
+        "text": "Sovereign and pension investors announced $11.1B of investment for up to 46% of the business."
       },
       {
         "date": "Feb 2026",
@@ -73,7 +73,7 @@
     "takeaways": [
       "TenneT Germany is a regulated grid asset whose economics are driven by capital programs and permitted returns.",
       "Its strategic value is growing because power transmission limits renewable and data-centre deployment.",
-      "The €40B figure is an implied transaction value, not a continuously quoted market capitalization.",
+      "The $46.9B figure is an implied transaction value, not a continuously quoted market capitalization.",
       "Construction execution, regulation, and financing costs are the variables to watch."
     ],
     "quick_facts": [

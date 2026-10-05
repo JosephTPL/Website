@@ -12,15 +12,15 @@
   "facts": [
     {
       "label": "Latest disclosed financing",
-      "value": "September 2026: €3B Series D at reported $24.4B",
-      "note": "Mistral announced the €3B Series D at a valuation above €21B; the USD figure is the reported September 2026 equivalent used for directory ranking.",
+      "value": "September 2026: $3.48B Series D at $24.4B",
+      "note": "USD equivalents use the September 2026 transaction-date conversion.",
       "source": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
     }
   ],
   "directory_rank": 29,
   "bull_case": "Efficient models and European positioning could make Mistral a strategic enterprise option.",
   "bear_case": "Global model leaders have large distribution and capital advantages.",
-  "latest_round": "September 2026: €3B Series D at reported $24.4B valuation",
+  "latest_round": "September 2026: $3.48B Series D at $24.4B valuation",
   "directory_notes": [
     "Sovereign and open-weight AI",
     "Enterprise and government distribution."
@@ -35,10 +35,10 @@
       {
         "value": "$24.4B",
         "label": "Reported valuation",
-        "note": "€21B+ Series D valuation, September 2026"
+        "note": "Series D, September 2026"
       },
       {
-        "value": "€3B",
+        "value": "$3.48B",
         "label": "Latest funding",
         "note": "Series D, September 2026"
       },
@@ -61,11 +61,11 @@
     "changed": [
       {
         "date": "Sep 2025",
-        "text": "Raised €1.7B in a Series C led by ASML at an €11.7B post-money valuation."
+        "text": "Raised $1.99B in a Series C led by ASML at a $13.7B post-money valuation."
       },
       {
         "date": "Sep 2026",
-        "text": "Announced a €3B Series D at a post-money valuation above €21B."
+        "text": "Announced a $3.48B Series D at a $24.4B post-money valuation."
       }
     ],
     "takeaways": [
