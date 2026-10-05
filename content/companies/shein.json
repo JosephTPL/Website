@@ -1,0 +1,58 @@
+{
+  "slug": "shein",
+  "status": "Published",
+  "name": "Shein",
+  "sector": "Consumer, Commerce & Media",
+  "summary": "Shein is a Singapore-headquartered, China-founded online fast-fashion retailer built around a global, app-led supply chain.",
+  "overview": "<p>Shein sells low-cost fashion directly to consumers across a large number of markets. Its scale, rapid product cycle, and supply-chain model make it one of the largest private consumer-internet companies, while labor, environmental, regulatory, and listing risks remain central to the story.</p>",
+  "image": "",
+  "image_alt": "",
+  "as_of": "2026-10-05",
+  "report": "",
+  "facts": [
+    {"label":"Latest disclosed valuation","value":"$66 billion","note":"May 2023 financing; later IPO estimates are not completed private-market valuations.","source":"https://www.axios.com/2023/11/27/shein-us-ipo"},
+    {"label":"2023 revenue","value":"$32 billion","note":"Reported company revenue.","source":"https://en.wikipedia.org/wiki/Shein"},
+    {"label":"Public status","value":"Private","note":"Listing plans have been reported but are not treated as a completed IPO.","source":"https://www.axios.com/2023/11/27/shein-us-ipo"}
+  ],
+  "directory_rank": 0,
+  "bull_case": "A highly efficient global direct-to-consumer platform can compound through scale, assortment, logistics, and new categories.",
+  "bear_case": "Regulatory scrutiny, supply-chain allegations, import-rule changes, and a possible valuation reset could materially weaken the investment case.",
+  "latest_round": "May 2023: $2B financing at a reported $66B valuation",
+  "directory_notes": ["IPO progress and valuation discipline.", "Regulatory, labor, and import-policy exposure."],
+  "intelligence": {
+    "kicker":"COMPANY INTELLIGENCE",
+    "location":"Singapore",
+    "status":"Private",
+    "logo":"https://www.google.com/s2/favicons?domain=shein.com&sz=128",
+    "description":"Shein operates a global online fashion marketplace with a supply chain centered in China and a consumer brand distributed primarily through its app and website.",
+    "metrics":[
+      {"value":"$66B","label":"Latest disclosed valuation","note":"May 2023 financing"},
+      {"value":"$2B","label":"Financing","note":"Reported May 2023 round"},
+      {"value":"$32B","label":"2023 revenue","note":"Reported"},
+      {"value":"Private","label":"Public status","note":"No completed IPO recorded"}
+    ],
+    "company":[
+      "Shein built its business by pairing social and app-led demand generation with a broad network of suppliers, enabling fast iteration across a very large catalogue of low-priced apparel and other consumer goods.",
+      "The company was reported to have raised $2 billion in May 2023 at a $66 billion valuation. That is the latest disclosed private-market mark used here; subsequent discussion of potential IPO valuations is not a completed financing event."
+    ],
+    "why_it_matters":"Shein is an unusually large private-market consumer platform. Its eventual liquidity path will test how investors value global e-commerce growth when regulatory exposure, supply-chain scrutiny, and cross-border trade policy are material parts of the underwriting.",
+    "changed":[
+      {"date":"2022","text":"Reported valuation reaches roughly $100B during a period of rapid private-market growth."},
+      {"date":"May 2023","text":"A reported $2B financing marks the company at $66B."},
+      {"date":"2023–2026","text":"Reported listing plans keep valuation, governance, and regulatory questions in focus."}
+    ],
+    "takeaways":[
+      "The $66B figure is a dated disclosed private-market mark, not a current trading price.",
+      "Shein's supply-chain speed and global demand engine are its key operating advantages.",
+      "Labor, environmental, regulatory, and trade-policy risks are fundamental—not peripheral—to the story.",
+      "An IPO, if completed, would establish a new public-market reference point."
+    ],
+    "quick_facts":[["Founded","2008"],["Headquarters","Singapore"],["Founder","Chris Xu"],["Focus","Global online fashion"],["Website","shein.com"],["Public status","Private"]],
+    "sources":[
+      {"label":"Axios: reported U.S. IPO filing and May 2023 valuation","url":"https://www.axios.com/2023/11/27/shein-us-ipo"},
+      {"label":"Reuters: reported 2025 IPO valuation discussion","url":"https://www.investing.com/news/stock-market-news/exclusiveshein-poised-to-slash-valuation-to-50-billion-in-london-ipo-sources-say-3855699"}
+    ]
+  },
+  "company_status":"private",
+  "website":"https://www.shein.com"
+}
