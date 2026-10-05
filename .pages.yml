@@ -306,7 +306,7 @@
         },
         {
           "name": "as_of",
-          "label": "As Of",
+          "label": "Last human verification",
           "type": "date",
           "required": true,
           "options": {
