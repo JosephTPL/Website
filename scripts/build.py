@@ -66,6 +66,9 @@ company_files={path.stem:json.loads(path.read_text()) for path in (ROOT/'content
 for file_slug,company in company_files.items():
  if company.get('company_status') not in COMPANY_STATUSES:raise ValueError(f'Company {file_slug}: invalid company_status {company.get("company_status")!r}.')
  if company.get('sector') not in SECTORS:raise ValueError(f'Company {file_slug}: invalid sector {company.get("sector")!r}.')
+ if company.get('human_verified_at'):
+  try:datetime.strptime(str(company['human_verified_at']), '%Y-%m-%d')
+  except ValueError:raise ValueError(f'Company {file_slug}: human_verified_at must use YYYY-MM-DD.')
 settings=read('content/settings/site.json');weekly=read('content/settings/weekly.json');weekly_archives=[('2026-09-21',read('content/settings/weekly-2026-09-21.json'))];ipo_calendar=read('content/settings/ipo-calendar.json');articles=records('articles');companies=records('companies')
 file_slugs={company['_file_slug']:slug for slug,company in companies.items()}
 valuation_rows=[]
@@ -184,13 +187,16 @@ for a in articles.values():
 ordered=sorted(articles.values(),key=lambda a:(a['date'],a['title']),reverse=True)
 
 def date_text(value):return datetime.strptime(value[:10],'%Y-%m-%d').strftime('%b %d, %Y').replace(' 0',' ')
+def human_verification(c):
+ value=str(c.get('human_verified_at','')).strip()
+ return f'<p class="profile-verification">Last verified by human: <time datetime="{E(value)}">{E(date_text(value))}</time></p>' if value else ''
 def facts(c):
  rows=''.join(f'<div><dt>{E(f["label"])}</dt><dd>{E(f["value"])}</dd><p>{E(f.get("note",""))}</p>'+ (f'<a href="{E(f["source"])}">Source <span class="sr-only">for {E(f["label"])}</span> ↗</a>' if f.get('source') else '')+'</div>' for f in c.get('facts',[]))
  return f'<div class="facts-inner"><p class="snapshot-note">Figures as of {date_text(c["as_of"])}. Estimates and projections are labelled separately.</p><dl class="facts-grid">{rows}</dl></div>'
 
 def intelligence_profile(c):
  d=c['intelligence']
- verified=f'<p class="profile-verification">Last verified by human: <time datetime="{E(c["as_of"])}">{E(date_text(c["as_of"]))}</time></p>'
+ verified=human_verification(c)
  metrics=''.join(f'<div><strong>{E(item["value"])}</strong><span>{E(item["label"])}</span><small>{E(item.get("note",""))}</small></div>' for item in d['metrics'])
  history=''.join(f'<li><strong>{E(money_b(item["valuation"]) if item["valuation"] is not None else ("Raised "+money_b(item["raised"])+" · valuation undisclosed" if item["raised"] is not None else "Valuation undisclosed"))}</strong><span>→</span><small>{E(valuation_date_label(item["date"]) if item["date"] else "Date undisclosed")}</small><em>{E(("Reported, unconfirmed: " if item["event_type"]=="talks" else "")+(item["round_label"] or item["event_type"].replace("_"," ").title()))}</em><a href="{E(item["source_url"])}" rel="noopener">Source ↗</a></li>' for item in valuations_by_slug.get(c['slug'],[])) or '<li><strong>No disclosed valuation events</strong></li>'
  spv_link=f'<p class="spv-profile-link"><a href="/spv-tracker/#{E(c["slug"])}">{len(spvs_by_slug[c["slug"]])} SPVs have filed Form D for {E(c["name"])} · SPV tracker →</a></p>' if spvs_by_slug.get(c['slug']) else ''
@@ -556,7 +562,7 @@ for company in companies.values():
   if company.get('image'):put(paper,f'<img class="profile-image" src="{E(company["image"])}" alt="{E(company.get("image_alt",company["name"]))}" loading="lazy">')
   put(paper,'<div class="article-body">'+str(clean(company.get('overview','')))+'</div><section class="facts">'+facts(company)+'</section>')
   if company.get('report') in articles:put(paper,f'<a class="primary-button" href="{articles[company["report"]]["url"]}">Read the company breakdown →</a>')
-  put(paper,f'<p class="profile-verification">Last verified by human: <time datetime="{E(company["as_of"])}">{E(date_text(company["as_of"]))}</time></p>')
+  put(paper,human_verification(company))
  main.append(subscribe);main.append(footer);write(s,route)
 
 # A separate, editorial directory makes the company universe useful even when no long-form report exists yet.

@@ -306,9 +306,17 @@
         },
         {
           "name": "as_of",
-          "label": "Last human verification",
+          "label": "As Of",
           "type": "date",
           "required": true,
+          "options": {
+            "format": "yyyy-MM-dd"
+          }
+        },
+        {
+          "name": "human_verified_at",
+          "label": "Last verified by human",
+          "type": "date",
           "options": {
             "format": "yyyy-MM-dd"
           }
