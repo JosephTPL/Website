@@ -59,6 +59,10 @@ def records(folder):
   if record.get('status')=='Published':result[slug]=record
  return result
 
+# TODO: Reports on Oct 4, 2026 say SpaceXAI may be renamed 'SpaceXSI'. Unconfirmed, no formal announcement. Do not publish until confirmed.
+# TODO: No official SpaceXAI logo asset is available in the repository; keep the current x.ai favicon until one is added.
+# TODO: Re-check x.ai before changing SpaceXAI's website field.
+
 COMPANY_STATUSES={'private','public','acquired','acquisition_pending','subsidiary'}
 SECTORS={'AI & Machine Learning','Data, Cloud & Developer Tools','Financial Services & Digital Assets','Enterprise Software & Business Services','Consumer, Commerce & Media','Defense, Aerospace & Space','Hardware, Robotics & Semiconductors','Energy, Climate & Industrial','Healthcare & Life Sciences','Mobility, Transport & Logistics','Telecommunications & Infrastructure','Other / Diversified'}
 EVENT_TYPES={'priced_round','secondary','tender','ipo','acquisition','talks'}
@@ -576,7 +580,8 @@ grid=s.select_one('#company-directory-grid')
 for i,c in enumerate(sorted(companies.values(),key=lambda x:(x.get('directory_rank',999),x['name']))):
  notes=''.join('<li>'+E(note)+'</li>' for note in c.get('directory_notes',[])[:2])
  funding=E(c.get('latest_round') or next((f.get('value','') for f in c.get('facts',[]) if 'fund' in f.get('label','').lower()),'Not yet added'))
- put(grid,f'''<article class="company-directory-card" data-search="{E(c['name']+' '+c.get('sector','')+' '+c.get('summary',''))}"><div class="company-card-kicker"><span>#{int(c.get('directory_rank',i+1)):02d}</span><span>{E(c.get('sector',''))}</span></div><h2><a href="/companies/{c['slug']}/">{E(c['name'])}</a></h2><p class="company-directory-summary">{E(c.get('summary',''))}</p><div class="funding-context"><span>Latest disclosed financing</span><strong>{funding}</strong></div><div class="thesis-columns"><div><span class="thesis-label bull">Bull case</span><p>{E(c.get('bull_case','Editorial note coming soon.'))}</p></div><div><span class="thesis-label bear">Bear case</span><p>{E(c.get('bear_case','Editorial note coming soon.'))}</p></div></div>{'<ul class="company-directory-notes">'+notes+'</ul>' if notes else ''}<a class="company-profile-link" href="/companies/{c['slug']}/">View company profile →</a></article>''')
+ aliases=' '.join(c.get('aliases',[]))
+ put(grid,f'''<article class="company-directory-card" data-search="{E(c['name']+' '+aliases+' '+c.get('sector','')+' '+c.get('summary',''))}"><div class="company-card-kicker"><span>#{int(c.get('directory_rank',i+1)):02d}</span><span>{E(c.get('sector',''))}</span></div><h2><a href="/companies/{c['slug']}/">{E(c['name'])}</a></h2><p class="company-directory-summary">{E(c.get('summary',''))}</p><div class="funding-context"><span>Latest disclosed financing</span><strong>{funding}</strong></div><div class="thesis-columns"><div><span class="thesis-label bull">Bull case</span><p>{E(c.get('bull_case','Editorial note coming soon.'))}</p></div><div><span class="thesis-label bear">Bear case</span><p>{E(c.get('bear_case','Editorial note coming soon.'))}</p></div></div>{'<ul class="company-directory-notes">'+notes+'</ul>' if notes else ''}<a class="company-profile-link" href="/companies/{c['slug']}/">View company profile →</a></article>''')
 put(s.head,f'<script defer src="/companies.js?v={companies_script_version}"></script>')
 write(s,'/companies/')
 
