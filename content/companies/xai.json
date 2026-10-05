@@ -17,6 +17,12 @@
       "value": "Public-company subsidiary",
       "note": "Formerly private: SpaceX acquired xAI on February 2, 2026, then completed its IPO in June 2026.",
       "source": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm"
+    },
+    {
+      "label": "X acquisition",
+      "value": "$33B equity value",
+      "note": "xAI acquired X in an all-stock transaction on March 28, 2025. Musk said X was valued at $45B including $12B of debt.",
+      "source": "https://apnews.com/article/b245f463076ac9b72c41f92160dc77eb"
     }
   ],
   "directory_rank": 12,
@@ -45,6 +51,11 @@
         "note": "Series E, January 2026"
       },
       {
+        "value": "$33B",
+        "label": "X acquisition",
+        "note": "All-stock, March 2025"
+      },
+      {
         "value": "Public parent",
         "label": "Current status",
         "note": "Now part of public SpaceX"
@@ -57,8 +68,8 @@
     "why_it_matters": "xAI remains relevant to AI competition, but its economics and ownership now sit inside SpaceX. This profile preserves the private-company record; xAI is no longer a standalone private-company valuation comparable to the active private businesses in this directory.",
     "changed": [
       {
-        "date": "2025",
-        "text": "Acquired X in an all-stock transaction, combining the model business and social platform."
+        "date": "Mar 2025",
+        "text": "Acquired X for $33B of equity value in an all-stock transaction, combining the model business and social platform."
       },
       {
         "date": "Jan 2026",
@@ -112,6 +123,10 @@
       {
         "label": "xAI Series E announcement",
         "url": "https://x.ai/news/series-e"
+      },
+      {
+        "label": "Associated Press: xAI acquires X",
+        "url": "https://apnews.com/article/b245f463076ac9b72c41f92160dc77eb"
       }
     ]
   },

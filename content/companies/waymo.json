@@ -48,9 +48,9 @@
         "note": "Six U.S. metros at announcement"
       },
       {
-        "value": "127M",
+        "value": "271.3M",
         "label": "Autonomous miles",
-        "note": "Company reported, February 2026"
+        "note": "Rider-only, through June 2026"
       }
     ],
     "company": [
@@ -116,6 +116,10 @@
       {
         "label": "Waymo: expansion update",
         "url": "https://waymo.com/blog/2026/02/dallas-houston-san-antonio-orlando/"
+      },
+      {
+        "label": "Waymo: safety impact data",
+        "url": "https://waymo-prod.appspot.com/safety/impact/"
       },
       {
         "label": "Waymo company website",

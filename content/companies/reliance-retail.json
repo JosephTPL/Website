@@ -17,7 +17,7 @@
     },
     {
       "label": "FY2026 gross revenue",
-      "value": "₹3.71T",
+      "value": "$39.1B",
       "note": "12.1% year-over-year growth reported by Reliance Industries.",
       "source": "https://www.ril.com/ar2025-26/retail.html"
     }
@@ -43,12 +43,12 @@
         "note": "Private Ledger market watch"
       },
       {
-        "value": "₹3.71T",
+        "value": "$39.1B",
         "label": "FY2026 gross revenue",
         "note": "12.1% year over year"
       },
       {
-        "value": "₹270B",
+        "value": "$2.9B",
         "label": "FY2026 EBITDA",
         "note": "8.2% margin"
       },
@@ -60,7 +60,7 @@
     ],
     "company": [
       "Reliance Retail is Reliance Industries’ consumer-facing retail business, operating across grocery, consumer electronics, fashion, beauty, pharmacy, and digital commerce. Its physical estate works alongside AJIO, JioMart, Netmeds, and a growing group of owned and partner brands.",
-      "The business is unusually large for a private retail company: Reliance Retail reported FY2026 gross revenue of ₹3.71 trillion, EBITDA of ₹270.3 billion, 20,169 stores, and more than 396 million registered customers. The investment case depends on whether the company can turn this scale into higher-margin omnichannel and private-label growth."
+      "The business is unusually large for a private retail company: Reliance Retail reported FY2026 gross revenue of $39.1 billion, EBITDA of $2.9 billion, 20,169 stores, and more than 396 million registered customers. The investment case depends on whether the company can turn this scale into higher-margin omnichannel and private-label growth."
     ],
     "why_it_matters": "Reliance Retail is a bellwether for India’s formalising consumer economy. Its scale across stores, supply chain, consumer brands, and online channels makes it relevant to private commerce, quick-commerce, logistics, brand, and fintech businesses targeting Indian consumers.",
     "changed": [
@@ -74,7 +74,7 @@
       },
       {
         "date": "FY2026",
-        "text": "Gross revenue reached ₹3.71T, up 12.1% year over year, according to Reliance Industries’ annual report."
+        "text": "Gross revenue reached $39.1B, up 12.1% year over year, according to Reliance Industries’ annual report."
       },
       {
         "date": "Jun 2026",
