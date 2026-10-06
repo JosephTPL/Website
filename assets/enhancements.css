@@ -84,7 +84,7 @@ main{margin-top:var(--topbar-height);margin-left:238px;padding:46px 54px 0;max-w
   .brand{min-width:0;flex:1;gap:8px;font-size:12px}
   .brand small{display:none}
   .top-subscribe{flex:0 0 auto;margin-left:0}
-  .sidebar{width:100%;box-sizing:border-box;margin-top:66px;padding:8px 12px}
+  .sidebar{width:100%;box-sizing:border-box;margin-top:var(--topbar-height);padding:8px 12px}
   main,.reading-main{margin-left:0}
   .sidebar nav{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
   .sidebar nav::-webkit-scrollbar{display:none}
@@ -115,15 +115,17 @@ main{margin-top:var(--topbar-height);margin-left:238px;padding:46px 54px 0;max-w
   .menu-toggle{display:inline-flex;flex:0 0 40px;width:40px;height:40px;align-items:center;justify-content:center;flex-direction:column;gap:5px;padding:0;border:1px solid #71808a;background:transparent;color:#fff;cursor:pointer}
   .menu-toggle span{display:block;width:17px;height:1px;background:currentColor;transition:transform .16s ease,opacity .16s ease}
   html.menu-ready .sidebar{display:none}
-  html.menu-ready body.menu-open .sidebar{display:flex;position:fixed;inset:66px 0 auto 0;z-index:19;max-height:calc(100vh - 66px);margin-top:0;overflow-y:auto}
+  html.menu-ready body.menu-open .sidebar{display:flex;position:fixed;inset:var(--topbar-height) 0 auto 0;z-index:19;max-height:calc(100vh - var(--topbar-height));margin-top:0;overflow-y:auto}
   /* Keep the fixed drawer independent of the page beneath it. */
   body.menu-open{overflow:hidden;overscroll-behavior:none}
   body.menu-open .menu-toggle span:nth-child(1){transform:translateY(6px) rotate(45deg)}
   body.menu-open .menu-toggle span:nth-child(2){opacity:0}
   body.menu-open .menu-toggle span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
-  .sidebar{margin-top:66px;padding:16px 12px 14px;border-bottom:1px solid #ffffff1a}
+  .sidebar{margin-top:var(--topbar-height);padding:16px 12px 14px;border-bottom:1px solid #ffffff1a}
   .sidebar nav{display:grid;overflow:visible;gap:2px}
   .sidebar nav a{padding:12px 10px;white-space:normal}
+  /* Once JavaScript hides the static navigation, preserve space for the fixed header. */
+  html.menu-ready main{margin-top:var(--topbar-height)}
 }
 
 /* Public-company earnings are catalysts, not IPO events. */
