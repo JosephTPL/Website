@@ -249,7 +249,7 @@ def shell(kind,title,description,route,image=''):
  brand=s.select_one('.brand>span:last-child');brand.clear();brand.append(settings['site_name'].upper());put(brand,'<small>'+E(settings['tagline'])+'</small>')
  if s.select_one('footer'):
   s.select_one('footer').clear()
-  put(s.select_one('footer'),f'<div class="footer-about"><strong>About {E(settings["site_name"])}</strong><span>{E(settings["about_text"])}</span></div><span class="footer-copyright">© {date.today().year} {E(settings["site_name"])}</span>')
+  put(s.select_one('footer'),f'<div class="footer-about"><strong>About {E(settings["site_name"])}</strong><span>{E(settings["about_text"])}</span><a href="/about/">Read our editorial approach →</a></div><span class="footer-copyright">© {date.today().year} {E(settings["site_name"])}</span>')
  return s
 
 def write(s,route):

@@ -196,5 +196,7 @@ footer{align-items:flex-start;gap:28px}
 .footer-about{display:grid;gap:3px;max-width:620px}
 .footer-about strong{color:#33434c;font-size:.76rem;letter-spacing:.08em;text-transform:uppercase}
 .footer-about span{color:#64717a;font-size:.76rem;line-height:1.45}
+.footer-about a{color:#79521e;font-size:.74rem;font-weight:700;text-decoration:none}
+.footer-about a:hover{text-decoration:underline;text-underline-offset:3px}
 .footer-copyright{margin-left:auto;white-space:nowrap}
 @media(max-width:700px){footer{display:grid;gap:14px}.footer-copyright{margin-left:0}}
