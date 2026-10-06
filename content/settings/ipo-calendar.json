@@ -168,14 +168,6 @@
                     "status": "No timetable",
                     "note": "Stripe\u2019s latest reported valuation reinforced its scale, while the company continues to keep investors waiting for a public-market debut.",
                     "source": "https://www.bloomberg.com/news/articles/2026-02-24/stripe-hits-159-billion-valuation-as-payment-volume-soars"
-                },
-                {
-                    "company": "Canva",
-                    "company_slug": "canva",
-                    "sector": "Design software",
-                    "status": "No timetable",
-                    "note": "Canva is a large software company frequently discussed as an IPO candidate, but it has not announced a listing timetable.",
-                    "source": "https://www.kiplinger.com/investing/stocks/upcoming-ipos"
                 }
             ]
         }
