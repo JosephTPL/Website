@@ -37,7 +37,7 @@
   const render=()=>{
     grid.replaceChildren();const shown=companies.filter(matches).sort((a,b)=>(b.valuation??-1)-(a.valuation??-1)||a.name.localeCompare(b.name));
     const groups=[['Private companies by reported valuation',shown.filter(company=>!['public','acquired'].includes(company.status))],['Former private companies',shown.filter(company=>['public','acquired'].includes(company.status))]];
-    groups.forEach(([label,items])=>{if(!items.length)return;const heading=document.createElement('h2');heading.className='ledger-label';heading.textContent=label;grid.append(heading);items.forEach(company=>grid.append(card(company)))});
+    groups.forEach(([label,items])=>{if(!items.length)return;if(label!=='Private companies by reported valuation'){const heading=document.createElement('h2');heading.className='ledger-label';heading.textContent=label;grid.append(heading)}items.forEach(company=>grid.append(card(company)))});
     count.textContent=`${shown.length} companies`;
   };
   controls.addEventListener('click',event=>{const button=event.target.closest('.ledger-filter');if(!button)return;activeCategory=button.dataset.value;controls.querySelectorAll('.ledger-filter').forEach(item=>item.setAttribute('aria-pressed',String(item.dataset.value===activeCategory)));render()});
