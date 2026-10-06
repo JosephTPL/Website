@@ -204,7 +204,7 @@ def intelligence_profile(c):
  verified=human_verification(c)
  metrics=''.join(f'<div><strong>{E(item["value"])}</strong><span>{E(item["label"])}</span><small>{E(item.get("note",""))}</small></div>' for item in d['metrics'])
  history=''.join(f'<li><strong>{E(money_b(item["valuation"]) if item["valuation"] is not None else ("Raised "+money_b(item["raised"])+" · valuation undisclosed" if item["raised"] is not None else "Valuation undisclosed"))}</strong><span>→</span><small>{E(valuation_date_label(item["date"]) if item["date"] else "Date undisclosed")}</small><em>{E(("Reported, unconfirmed: " if item["event_type"]=="talks" else "")+(item["round_label"] or item["event_type"].replace("_"," ").title()))}</em><a href="{E(item["source_url"])}" rel="noopener">Source ↗</a></li>' for item in valuations_by_slug.get(c['slug'],[])) or '<li><strong>No disclosed valuation events</strong></li>'
- spv_link=f'<p class="spv-profile-link"><a href="/spv-tracker/#{E(c["slug"])}">{len(spvs_by_slug[c["slug"]])} SPVs have filed Form D for {E(c["name"])} · SPV tracker →</a></p>' if spvs_by_slug.get(c['slug']) else ''
+ spv_link=''
  changed=''.join(f'<li><time>{E(item["date"])}</time><p>{E(item["text"])}</p></li>' for item in d['changed'])
  takeaways=''.join(f'<li><span>{i:02d}</span><p>{E(item)}</p></li>' for i,item in enumerate(d['takeaways'],1))
  quick=''.join(f'<dt>{E(item.get("label", ""))}</dt><dd>{E(item.get("value", ""))}</dd>' if isinstance(item,dict) else f'<dt>{E(item[0])}</dt><dd>{E(item[1])}</dd>' for item in d['quick_facts'])
@@ -260,7 +260,7 @@ def write(s,route):
  p.write_text(rendered)
 
 def configure_nav(s,active):
- """Keep the publication's three editorial destinations distinct in every page shell."""
+ """Keep the publication's primary discovery destinations consistent in every page shell."""
  nav=s.select_one('nav[aria-label="Primary"]')
  home=nav.select_one('[data-view="library"]')
  home['data-view']='home';home['href']='/';home.clear();put(home,'<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 4h6v16H4z M14 4h6v16h-6z"></path></svg> This week')
@@ -273,10 +273,7 @@ def configure_nav(s,active):
  for about_link in nav.select('a[href="/about/"]'):about_link.decompose()
  ipo=soup('<a data-view="ipo" href="/ipo-calendar/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 10h18"></path></svg>IPO calendar</a>').a
  research.insert_after(ipo)
- valuations=soup('<a data-view="valuations" href="/valuations/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 18V6m0 12h16"></path><path d="m7 15 4-4 3 2 4-6"></path></svg>Valuations</a>').a
- ipo.insert_after(valuations)
- spvs=soup('<a data-view="spvs" href="/spv-tracker/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M5 5h14v14H5z"></path><path d="M8 9h8M8 12h8M8 15h5"></path></svg>SPV tracker</a>').a
- valuations.insert_after(spvs)
+ home.decompose()
  for link in nav.select('a'):
   link.attrs.pop('aria-current',None)
   link['class']=['active'] if link.get('data-view')==active else []
