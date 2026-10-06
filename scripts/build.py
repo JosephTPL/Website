@@ -27,6 +27,7 @@ IVORY_THEME_CSS='''
 @media(max-width:700px){
  .topbar{background:var(--bg)!important;color:var(--text)!important;border-bottom-color:var(--line)!important}
  .topbar .top-link{color:#26353e}.topbar .top-subscribe{background:transparent;color:#78521f;padding:0}
+ .menu-toggle{color:#26353e!important;border-color:#c9c2b6!important;background:#fffefa!important}
  html.menu-ready body.menu-open .sidebar{background:var(--bg)!important;color:var(--text)!important;border-bottom:1px solid var(--line)!important}
  html.menu-ready body.menu-open .sidebar nav a{color:#26353e!important}html.menu-ready body.menu-open .sidebar nav a.active{color:#17222d!important;border-bottom-color:#a87931!important}
 }
