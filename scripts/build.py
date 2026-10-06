@@ -517,7 +517,7 @@ s.body['class']=['research-archive']
 configure_nav(s,'library')
 for link in s.select('nav[aria-label="Primary"] a[data-view="library"]'):link['href']='/research/'
 set_text(s,'#mission-eyebrow',settings.get('mission_eyebrow','PRIVATE MARKETS / INDEPENDENT RESEARCH'));set_text(s,'#mission-title',settings.get('mission_title','Know the business before the ticker.'));set_text(s,'#mission-text',settings.get('mission_text','The Private Ledger exists to make the private markets more legible: one company, one business model, and one hard question at a time.'));set_text(s,'#mission-secondary',settings.get('mission_secondary','See the incentives, economics, and risks beneath the headline before a company reaches the public market.'))
-set_text(s,'#view-title','In Depth Research');set_text(s,'#view-subtitle','Companies shaping the future. Essential Reads');set_text(s,'#about h2',settings['about_title']);set_text(s,'#about p:last-child',settings['about_text']);s.select_one('.page-heading .overline').decompose()
+set_text(s,'#view-title','In Depth Articles');set_text(s,'#view-subtitle','Companies shaping the future. Essential Reads');set_text(s,'#about h2',settings['about_title']);set_text(s,'#about p:last-child',settings['about_text']);s.select_one('.page-heading .overline').decompose()
 about_section=s.select_one('#about')
 if about_section:about_section.decompose()
 count=s.select_one('.library-count')

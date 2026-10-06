@@ -42,7 +42,7 @@
     if (libraryCount) libraryCount.hidden = savedOnly;
     const feature = document.querySelector('#start-here');
     if (feature) feature.hidden = feature.dataset.unavailable === 'true' || savedOnly || Boolean(search.value.trim()) || sector !== 'All sectors' || type === 'articles';
-    document.querySelector('#view-title').textContent = savedOnly ? 'Your reading list.' : 'In Depth Research';
+    document.querySelector('#view-title').textContent = savedOnly ? 'Your reading list.' : 'In Depth Articles';
     document.querySelectorAll('[data-type]').forEach(button => { button.classList.toggle('active',button.dataset.type===type);button.setAttribute('aria-pressed',String(button.dataset.type===type)); });
     document.querySelector('#list-title').textContent = savedOnly ? 'Saved for later' : type === 'articles' ? 'Articles' : type === 'all' ? 'Saved for later' : 'Deep dives';
     document.title = (savedOnly ? 'Saved Articles' : 'Research') + ' | The Private Ledger';
