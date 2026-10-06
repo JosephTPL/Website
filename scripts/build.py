@@ -369,8 +369,8 @@ def ipo_markup():
   if item.get('date'):
    target=events if int(item.get('month',month_number))==month_number else lead_in_events
    target.setdefault(str(item['date']),[]).append(item)
+ # The IPO calendar intentionally excludes public-company earnings dates.
  earnings={}
- for item in ipo_calendar.get('earnings',[]):earnings.setdefault(str(item['date']),[]).append(item)
  def event_markup(item):
   href='/companies/'+item['company_slug']+'/' if item.get('company_slug') else item['source']
   return f'<a class="ipo-event" href="{E(href)}"><strong>{E(item["company"])}</strong><span>{E(item["status"])}</span></a>'
