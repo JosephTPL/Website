@@ -247,7 +247,9 @@ def shell(kind,title,description,route,image=''):
  if brandmark:
   brandmark.clear();put(brandmark,'<img src="/compass-logo.png" alt="" aria-hidden="true">')
  brand=s.select_one('.brand>span:last-child');brand.clear();brand.append(settings['site_name'].upper());put(brand,'<small>'+E(settings['tagline'])+'</small>')
- if s.select_one('footer'):s.select_one('footer').clear();put(s.select_one('footer'),f'© {date.today().year} {E(settings["site_name"])}')
+ if s.select_one('footer'):
+  s.select_one('footer').clear()
+  put(s.select_one('footer'),f'<div class="footer-about"><strong>About {E(settings["site_name"])}</strong><span>{E(settings["about_text"])}</span></div><span class="footer-copyright">© {date.today().year} {E(settings["site_name"])}</span>')
  return s
 
 def write(s,route):
@@ -268,6 +270,7 @@ def configure_nav(s,active):
  research=soup('<a data-view="library" href="/research/?type=deep-dives"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 4h6v16H4z M14 4h6v16h-6z"></path></svg>Research</a>').a
  home.insert_after(research)
  for old_link in nav.select('a[data-view="insights"]'):old_link.decompose()
+ for about_link in nav.select('a[href="/about/"]'):about_link.decompose()
  ipo=soup('<a data-view="ipo" href="/ipo-calendar/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 10h18"></path></svg>IPO calendar</a>').a
  research.insert_after(ipo)
  valuations=soup('<a data-view="valuations" href="/valuations/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 18V6m0 12h16"></path><path d="m7 15 4-4 3 2 4-6"></path></svg>Valuations</a>').a
@@ -477,7 +480,7 @@ write(s,'/')
 for archive_slug,archive in weekly_archives:
  s=shell('home',archive['title'],archive['intro'],f'/weekly/{archive_slug}/')
  s.body['data-page-view']='home';configure_nav(s,'home')
- for selector in ['.landing-hero','.page-heading','.start-here','.continue-reading','.controls','#research-grid','.empty']:
+ for selector in ['.landing-hero','.page-heading','.start-here','.continue-reading','.controls','#research-grid','.empty','#about']:
   for el in list(s.select(selector)):
    container=el.find_parent('section') if selector in ('#research-grid','.empty') else el
    if container:container.decompose()
@@ -492,6 +495,8 @@ configure_nav(s,'library')
 for link in s.select('nav[aria-label="Primary"] a[data-view="library"]'):link['href']='/research/'
 set_text(s,'#mission-eyebrow',settings.get('mission_eyebrow','PRIVATE MARKETS / INDEPENDENT RESEARCH'));set_text(s,'#mission-title',settings.get('mission_title','Know the business before the ticker.'));set_text(s,'#mission-text',settings.get('mission_text','The Private Ledger exists to make the private markets more legible: one company, one business model, and one hard question at a time.'));set_text(s,'#mission-secondary',settings.get('mission_secondary','See the incentives, economics, and risks beneath the headline before a company reaches the public market.'))
 set_text(s,'#view-title','Research');set_text(s,'#view-subtitle','Company deep dives and perspectives on private markets, together in one archive.');set_text(s,'#about h2',settings['about_title']);set_text(s,'#about p:last-child',settings['about_text']);s.select_one('.page-heading .overline').decompose()
+about_section=s.select_one('#about')
+if about_section:about_section.decompose()
 count=s.select_one('.library-count')
 if count:count.decompose()
 for selector in ['.landing-hero','#start-here','#continue-reading']:
