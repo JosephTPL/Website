@@ -9,6 +9,28 @@ OUT=ROOT/'_site'
 E=html.escape
 style_version=hashlib.sha256((ROOT/'assets'/'style.css').read_bytes()).hexdigest()[:12]
 enhancements_version=hashlib.sha256((ROOT/'assets'/'enhancements.css').read_bytes()).hexdigest()[:12]
+app_version=hashlib.sha256((ROOT/'assets'/'app.js').read_bytes()).hexdigest()[:12]
+IVORY_THEME_CSS='''
+:root{--bg:#fbfaf7;--paper:#fffefa;--line:#e7e2d9}
+.topbar{background:var(--bg)!important;color:var(--text)!important;border-bottom:1px solid var(--line)!important}
+.brand small,.top-label{color:#69747a}.top-link,.top-discord{color:#26353e}.top-subscribe{background:#10283a;color:#fff;padding:10px 18px}.top-subscribe:hover{background:#1b3a50;color:#fff}
+.weekly-lead-layout,.ipo-calendar{background-image:none!important}
+@media(min-width:701px){
+ .sidebar{position:fixed!important;inset:0 auto auto 50%!important;transform:translateX(-50%);z-index:21;width:auto!important;height:var(--topbar-height)!important;padding:0!important;background:transparent!important;color:var(--text)!important;display:flex!important;align-items:center}
+ .sidebar .nav-label,.sidebar-note,.sidebar-footer{display:none!important}
+ .sidebar nav{display:flex!important;align-items:stretch;height:100%;gap:0}
+ .sidebar nav a{display:flex!important;align-items:center;height:100%;padding:0 18px!important;border:0!important;border-bottom:2px solid transparent!important;color:#26353e!important;font-size:14px}
+ .sidebar nav a svg{display:none!important}.sidebar nav a:hover{background:transparent!important;color:#78521f!important}
+ .sidebar nav a.active{background:transparent!important;color:#17222d!important;border-bottom-color:#a87931!important;box-shadow:none!important}
+ main{margin-left:auto!important;margin-right:auto!important;max-width:1560px;padding:48px 70px 0!important}
+}
+@media(max-width:700px){
+ .topbar{background:var(--bg)!important;color:var(--text)!important;border-bottom-color:var(--line)!important}
+ .topbar .top-link{color:#26353e}.topbar .top-subscribe{background:transparent;color:#78521f;padding:0}
+ html.menu-ready body.menu-open .sidebar{background:var(--bg)!important;color:var(--text)!important;border-bottom:1px solid var(--line)!important}
+ html.menu-ready body.menu-open .sidebar nav a{color:#26353e!important}html.menu-ready body.menu-open .sidebar nav a.active{color:#17222d!important;border-bottom-color:#a87931!important}
+}
+'''
 
 def soup(text):return BeautifulSoup(text,'html.parser')
 def read(path):return json.loads((ROOT/path).read_text())
@@ -219,11 +241,13 @@ def intelligence_profile(c):
 
 def shell(kind,title,description,route,image=''):
  s=soup((ROOT/'templates'/f'{kind}.html').read_text());s.title.string=title+' | '+settings['site_name']
+ put(s.head,f'<style>{IVORY_THEME_CSS}</style>')
  for stylesheet in s.select('link[href="/style.css"]'):
   stylesheet['href']=f'/style.css?v={style_version}'
  favicon=s.select_one('link[rel="icon"]');favicon['href']='/favicon.png?v=3';favicon['sizes']='64x64';favicon['type']='image/png'
  for asset in s.select('link[href="/enhancements.css"],script[src="/enhancements.js"]'):
-  asset['href' if asset.name=='link' else 'src']=(f'/enhancements.css?v={enhancements_version}' if asset.name=='link' else '/enhancements.js?v=2')
+  asset['href' if asset.name=='link' else 'src']=(f'/enhancements-{enhancements_version}.css' if asset.name=='link' else '/enhancements.js?v=2')
+ for script in s.select('script[src="/app.js"]'):script['src']=f'/app.js?v={app_version}'
  for font_link in s.select('link[href*="fonts.googleapis.com"]'):
   font_link['href']='https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap'
  s.select_one('meta[name="description"]')['content']=description
@@ -265,14 +289,14 @@ def configure_nav(s,active):
  home=nav.select_one('[data-view="library"]')
  home['data-view']='home';home['href']='/';home.clear();put(home,'<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 4h6v16H4z M14 4h6v16h-6z"></path></svg> This week')
  companies_link=nav.select_one('[data-view="companies"]')
- if companies_link:
-  companies_link.extract();home.insert_before(companies_link)
+ if companies_link:companies_link.extract()
  research=soup('<a data-view="library" href="/research/?type=deep-dives"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 4h6v16H4z M14 4h6v16h-6z"></path></svg>Research</a>').a
- home.insert_after(research)
+ home.insert_before(research)
+ if companies_link:research.insert_after(companies_link)
  for old_link in nav.select('a[data-view="insights"]'):old_link.decompose()
  for about_link in nav.select('a[href="/about/"]'):about_link.decompose()
  ipo=soup('<a data-view="ipo" href="/ipo-calendar/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 10h18"></path></svg>IPO calendar</a>').a
- research.insert_after(ipo)
+ (companies_link or research).insert_after(ipo)
  home.decompose()
  for link in nav.select('a'):
   link.attrs.pop('aria-current',None)
@@ -456,6 +480,7 @@ OUT.mkdir()
 for f in (ROOT/'assets').iterdir():
  if f.is_file():shutil.copy2(f,OUT/f.name)
  elif f.is_dir():shutil.copytree(f,OUT/f.name)
+shutil.copy2(ROOT/'assets'/'enhancements.css',OUT/f'enhancements-{enhancements_version}.css')
 shutil.copytree(ROOT/'media',OUT/'media')
 profile_directory=[]
 for company in companies.values():
@@ -491,7 +516,7 @@ s.body['class']=['research-archive']
 configure_nav(s,'library')
 for link in s.select('nav[aria-label="Primary"] a[data-view="library"]'):link['href']='/research/'
 set_text(s,'#mission-eyebrow',settings.get('mission_eyebrow','PRIVATE MARKETS / INDEPENDENT RESEARCH'));set_text(s,'#mission-title',settings.get('mission_title','Know the business before the ticker.'));set_text(s,'#mission-text',settings.get('mission_text','The Private Ledger exists to make the private markets more legible: one company, one business model, and one hard question at a time.'));set_text(s,'#mission-secondary',settings.get('mission_secondary','See the incentives, economics, and risks beneath the headline before a company reaches the public market.'))
-set_text(s,'#view-title','Research');set_text(s,'#view-subtitle','Company deep dives and perspectives on private markets, together in one archive.');set_text(s,'#about h2',settings['about_title']);set_text(s,'#about p:last-child',settings['about_text']);s.select_one('.page-heading .overline').decompose()
+set_text(s,'#view-title','In Depth Research');set_text(s,'#view-subtitle','Companies shaping the future. Essential Reads');set_text(s,'#about h2',settings['about_title']);set_text(s,'#about p:last-child',settings['about_text']);s.select_one('.page-heading .overline').decompose()
 about_section=s.select_one('#about')
 if about_section:about_section.decompose()
 count=s.select_one('.library-count')
@@ -505,7 +530,8 @@ grid=s.select_one('#research-grid');grid.clear()
 for i,a in enumerate(ordered):
  name=a.get('card_title') or a['title'];img=f'<img src="{E(a["cover_image"])}" alt="{E(a.get("cover_alt",name))}" loading="lazy" decoding="async">' if a.get('cover_image') else ''
  kind='General articles' if a['sector']=='Insights' else 'Deep dive';member='<span class="member-label">Members only</span>' if a.get('excerpt') else ''
- markup=f'''<article class="card" data-slug="{a['slug']}" data-sector="{E(a['sector'])}" data-kind="{E(kind)}" data-order="{i}" data-name="{E(name)}" data-search="{E(name+' '+a['summary']+' '+a['sector'])}"><a class="card-cover cover-refined" href="{a['url']}" aria-label="Read {E(name)}">{img}<span class="cover-caption">{E(settings['site_name'].upper())}</span></a><div class="card-content"><div class="research-labels"><span class="sector-inline">{E(kind if kind=='General articles' else a['sector'])}</span>{member}</div><h3><a href="{a['url']}">{E(name)}</a></h3><p class="description">{E(a['summary'])}</p><div class="card-meta"><span>{date_text(a['date'])}</span><span>{a['minutes']} min</span></div><a class="read-button" href="{a['url']}">Read {'article' if kind=='General articles' else 'research'} →</a><button class="card-save" type="button" data-save="{a['slug']}" aria-pressed="false">Save for later</button></div></article>'''
+ cta='Read article →' if kind=='General articles' else 'Begin with the breakdown →'
+ markup=f'''<article class="card" data-slug="{a['slug']}" data-sector="{E(a['sector'])}" data-kind="{E(kind)}" data-order="{i}" data-name="{E(name)}" data-search="{E(name+' '+a['summary']+' '+a['sector'])}"><a class="card-cover cover-refined" href="{a['url']}" aria-label="Read {E(name)}">{img}<span class="cover-caption">{E(settings['site_name'].upper())}</span></a><div class="card-content"><div class="research-labels"><span class="sector-inline">{E(kind if kind=='General articles' else a['sector'])}</span>{member}</div><h3><a href="{a['url']}">{E(name)}</a></h3><p class="description">{E(a['summary'])}</p><div class="card-meta"><span>{date_text(a['date'])}</span><span>{a['minutes']} min</span></div><a class="read-button" href="{a['url']}">{cta}</a><button class="card-save" type="button" data-save="{a['slug']}" aria-pressed="false">Save for later</button></div></article>'''
  put(grid,markup)
 write(s,'/research/')
 
