@@ -236,3 +236,10 @@ footer{align-items:flex-start;gap:28px}
 .company-directory .directory-head h1{font-size:clamp(1.65rem,2.7vw,2.45rem);text-align:center}
 .ledger-label{border-bottom:0}
 .ledger-grid{gap:12px}.ledger-card-link{grid-template-columns:38px minmax(0,1fr);gap:11px;min-height:72px;padding:12px}.ledger-card img{width:34px;height:34px;border-radius:6px}.ledger-card h2{margin-bottom:3px;font-size:1rem}.ledger-card p{font-size:.7rem}.ledger-card strong{margin-top:5px;font-size:.76rem}
+
+/* Written company research is reachable from its matching company profile. */
+.intelligence-logo{flex-direction:column;align-items:flex-end}
+.intelligence-logo-identity{display:flex;align-items:center;gap:13px}
+.company-report-link{margin-top:11px;border:1px solid #bca978;color:#78521f;padding:8px 10px;font-size:.72rem;font-weight:700;letter-spacing:.02em;text-decoration:none}
+.company-report-link:hover{background:#f1ece1}
+@media(max-width:760px){.intelligence-logo{align-items:flex-start}.company-report-link{margin-top:10px}}

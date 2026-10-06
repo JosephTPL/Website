@@ -20,6 +20,7 @@ IVORY_THEME_CSS='''
 .company-directory .directory-tools{display:block!important;max-width:720px!important;margin:24px auto 22px!important}
 .company-directory .directory-tools .search{display:block!important;width:auto!important;max-width:none!important}
 .company-directory #company-result-count,.ledger-label{border:0!important}
+.intelligence-logo{flex-direction:column!important;align-items:flex-end!important}.intelligence-logo-identity{display:flex;align-items:center;gap:13px}.company-report-link{margin-top:11px;border:1px solid #bca978;color:#78521f;padding:8px 10px;font-size:.72rem;font-weight:700;letter-spacing:.02em;text-decoration:none}.company-report-link:hover{background:#f1ece1}
 @media(min-width:701px){
  .sidebar{position:fixed!important;inset:0 auto auto 50%!important;transform:translateX(-50%);z-index:21;width:auto!important;height:var(--topbar-height)!important;padding:0!important;background:transparent!important;color:var(--text)!important;display:flex!important;align-items:center}
  .sidebar .nav-label,.sidebar-note,.sidebar-footer{display:none!important}
@@ -35,6 +36,7 @@ IVORY_THEME_CSS='''
  .menu-toggle{color:#26353e!important;border-color:#c9c2b6!important;background:#fffefa!important}
  html.menu-ready body.menu-open .sidebar{background:var(--bg)!important;color:var(--text)!important;border-bottom:1px solid var(--line)!important}
  html.menu-ready body.menu-open .sidebar nav a{color:#26353e!important}html.menu-ready body.menu-open .sidebar nav a.active{color:#17222d!important;border-bottom-color:#a87931!important}
+ .intelligence-logo{align-items:flex-start!important}.company-report-link{margin-top:10px}
 }
 '''
 
@@ -239,8 +241,9 @@ def intelligence_profile(c):
  sources=''.join(f'<li><a href="{E(item["url"])}">{E(item["label"])} <span>↗</span></a></li>' for item in d['sources'])
  logo=f'<img src="{E(d["logo"])}" alt="{E(c["name"])} logo" loading="lazy">' if d.get('logo') else ''
  logo_class=' intelligence-logo-dark' if c['name'].casefold() in ('long lake','neros','revel','ricursive') else ''
+ report_link=f'<a class="company-report-link" href="{E(articles[c["report"]]["url"])}">Go to full article <span aria-hidden="true">→</span></a>' if c.get('report') in articles else ''
  return f'''<section class="intelligence-profile">
- <header class="intelligence-header"><div><h1>{E(c["name"])}</h1><p class="intelligence-meta">{E(c["sector"])} <span>·</span> {E(d["location"])} <span>·</span> {E(c.get("company_status", d["status"]).replace("_", " ").title())}</p><p class="intelligence-description">{E(d["description"])}</p></div><div class="intelligence-logo{logo_class}">{logo}<strong>{E(c["name"])}</strong></div></header>
+ <header class="intelligence-header"><div><h1>{E(c["name"])}</h1><p class="intelligence-meta">{E(c["sector"])} <span>·</span> {E(d["location"])} <span>·</span> {E(c.get("company_status", d["status"]).replace("_", " ").title())}</p><p class="intelligence-description">{E(d["description"])}</p></div><div class="intelligence-logo{logo_class}"><div class="intelligence-logo-identity">{logo}<strong>{E(c["name"])}</strong></div>{report_link}</div></header>
  <section class="intelligence-metrics">{metrics}</section>
  <div class="intelligence-content"><div class="intelligence-main"><section><h2>The Company</h2>{''.join('<p>'+E(p)+'</p>' for p in d['company'])}</section><section><h2>Why It Matters</h2><p>{E(d["why_it_matters"])}</p></section><section><h2>Valuation History</h2><ol class="valuation-history">{history}</ol>{spv_link}</section><section><h2>What Changed</h2><ol class="change-log">{changed}</ol></section></div><aside class="intelligence-aside"><section><h2>Key Takeaways</h2><ol class="takeaways">{takeaways}</ol></section><section><h2>Quick Facts</h2><dl class="quick-facts">{quick}</dl></section><section><h2>Sources</h2><ul class="intelligence-sources">{sources}</ul></section></aside></div>
  </section>{verified}</section>'''
