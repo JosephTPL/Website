@@ -263,6 +263,7 @@ def intelligence_profile(c):
 
 def shell(kind,title,description,route,image=''):
  s=soup((ROOT/'templates'/f'{kind}.html').read_text());s.title.string=title+' | '+settings['site_name']
+ for label in s.select('.top-label'):label.decompose()
  put(s.head,f'<style>{IVORY_THEME_CSS}</style>')
  for stylesheet in s.select('link[href="/style.css"]'):
   stylesheet['href']=f'/style.css?v={style_version}'
