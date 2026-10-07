@@ -174,6 +174,27 @@
       refresh();
     } catch { /* Ignore malformed state from another tab. */ }
   });
+  document.querySelectorAll('[data-reader-loop]').forEach(rail => {
+    const count = Number(rail.dataset.readerCount || 0);
+    if (!count || rail.children.length < count * 2) return;
+    let moving = false;
+    const spanWidth = () => [...rail.children].slice(0, count).reduce((total, card) => total + card.getBoundingClientRect().width, 0);
+    const moveToStart = () => {
+      const width = spanWidth();
+      if (width) rail.scrollLeft = width;
+    };
+    requestAnimationFrame(moveToStart);
+    rail.addEventListener('scroll', () => {
+      if (moving) return;
+      const width = spanWidth();
+      if (!width) return;
+      const atEnd = rail.scrollLeft >= (width * 2) - rail.clientWidth - 2;
+      if (rail.scrollLeft > 1 && !atEnd) return;
+      moving = true;
+      rail.scrollLeft = rail.scrollLeft <= 1 ? rail.scrollLeft + width : rail.scrollLeft - width;
+      moving = false;
+    });
+  });
   refresh();
   if (!available) announce('Browser storage is unavailable. Saved articles and reading progress may not persist.');
 })();
