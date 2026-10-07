@@ -308,6 +308,7 @@ def shell(kind,title,description,route,image=''):
 def write(s,route):
  p=OUT/route.strip('/')/'index.html';p.parent.mkdir(parents=True,exist_ok=True)
  rendered=str(s)
+ if route=='/':rendered=rendered.replace('→','').replace('←','').replace('↗','')
  if not route.startswith('/articles/'):
   rendered=rendered.replace(' — ', ', ').replace('—','-')
  p.write_text(rendered)
