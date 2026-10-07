@@ -425,7 +425,7 @@ def landing_markup():
   ('Schonfeld','schonfeld.com'),('Stanford','stanford.edu'),('Freddie Mac','freddiemac.com'),('Penn','upenn.edu'),
   ('NYU Stern','stern.nyu.edu'),('Sacra','sacra.com'),('Crusoe','crusoe.ai')
  ]
- reader_cards=''.join(f'<div><img src="https://www.google.com/s2/favicons?domain={E(domain)}&amp;sz=128" alt="{E(name)} logo" loading="lazy"><span>{E(name)}</span><small>Reader</small><b aria-hidden="true">→</b></div>' for name,domain in readers)
+ reader_cards=''.join(f'<div><img src="https://www.google.com/s2/favicons?domain={E(domain)}&amp;sz=128" alt="{E(name)} logo" loading="lazy"><span>{E(name)}</span><b aria-hidden="true">→</b></div>' for name,domain in readers)
  return f'''<section class="landing-home" aria-label="The Private Ledger">
  <section class="landing-home-hero"><div class="landing-home-copy"><h1>The companies<br>you can’t buy.<br>The research you can.</h1><p>Independent research on the world’s most important private companies, before they reach the public markets.</p><div class="landing-home-actions"><a class="landing-home-primary" href="/research/">Explore the research <span aria-hidden="true">→</span></a><a class="landing-home-secondary" href="{E(settings['subscribe_url'])}" rel="noopener">Subscribe free</a></div></div><div class="landing-home-art" aria-hidden="true">{hero_images}</div></section>
  <p class="landing-home-trust">Independent. In-depth. Before the IPO.</p>
