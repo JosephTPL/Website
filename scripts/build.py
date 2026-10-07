@@ -264,6 +264,12 @@ def intelligence_profile(c):
 def shell(kind,title,description,route,image=''):
  s=soup((ROOT/'templates'/f'{kind}.html').read_text());s.title.string=title+' | '+settings['site_name']
  for label in s.select('.top-label'):label.decompose()
+ for link in s.select('a'):
+  if any(word in link.get_text(' ',strip=True).casefold() for word in ('subscribe','discord')):
+   for icon in link.select('span[aria-hidden="true"]'):
+    if icon.get_text(strip=True) in ('↗','→'):icon.decompose()
+ for link in s.select('.top-subscribe,.top-discord'):
+  for icon in link.select('[aria-hidden="true"]'):icon.decompose()
  put(s.head,f'<style>{IVORY_THEME_CSS}</style>')
  for stylesheet in s.select('link[href="/style.css"]'):
   stylesheet['href']=f'/style.css?v={style_version}'
@@ -287,7 +293,7 @@ def shell(kind,title,description,route,image=''):
  for a in s.select('a[href^="https://preipomedia.substack.com/subscribe"]'):a['href']=settings['subscribe_url']
  if settings.get('discord_url'):
   top_subscribe=s.select_one('.top-subscribe')
-  if top_subscribe:top_subscribe.insert_before(soup(f'<a class="top-link top-discord" href="{E(settings["discord_url"])}" rel="noopener">Join our Discord <span aria-hidden="true">↗</span></a>'))
+  if top_subscribe:top_subscribe.insert_before(soup(f'<a class="top-link top-discord" href="{E(settings["discord_url"])}" rel="noopener">Join our Discord</a>'))
  for panel in s.select('.subscribe-panel'):
   set_text(panel,'h2',settings['subscribe_title']);set_text(panel,'p:not(.eyebrow)',settings['subscribe_text'])
  brandmark=s.select_one('.brandmark')
@@ -435,12 +441,12 @@ def landing_markup():
  ]
  reader_cards=''.join(f'<div><img src="https://www.google.com/s2/favicons?domain={E(domain)}&amp;sz=128" alt="{E(name)} logo" loading="lazy"><span>{E(name)}</span><b aria-hidden="true">→</b></div>' for name,domain in readers)
  return f'''<section class="landing-home" aria-label="The Private Ledger">
- <section class="landing-home-hero"><div class="landing-home-copy"><p>Independent research on the world’s most important private companies, before they reach the public markets.</p><div class="landing-home-actions"><a class="landing-home-primary" href="/research/">Explore the research <span aria-hidden="true">→</span></a><a class="landing-home-secondary" href="{E(settings['subscribe_url'])}" rel="noopener">Subscribe free</a></div></div><div class="landing-home-art" aria-hidden="true">{hero_images}</div></section>
+ <section class="landing-home-hero"><div class="landing-home-copy"><p>Independent research on the world’s most important private companies, before they reach the public markets.</p><div class="landing-home-actions"><a class="landing-home-primary" href="/research/">Explore the research <span aria-hidden="true">→</span></a><a class="landing-home-secondary" href="{E(settings['subscribe_url'])}" rel="noopener">Subscribe</a></div></div><div class="landing-home-art" aria-hidden="true">{hero_images}</div></section>
  <p class="landing-home-trust">Independent. In-depth. Before the IPO.</p>
  <section class="landing-research-feature" aria-labelledby="landing-feature-title"><div><p class="landing-section-label">Featured research</p>{feature(primary)}</div><div class="landing-popular-latest"><p class="landing-section-label" id="landing-feature-title">Most Popular Research</p><div>{''.join(popular(record) for record in popular_reads)}</div></div></section>
  <section class="landing-company-row" aria-labelledby="landing-company-title"><header><p class="landing-section-label" id="landing-company-title">Research by company</p><a href="/companies/">View the company index →</a></header><div class="landing-scroll-rail" data-reader-loop data-reader-count="{len(company_cards)}">{''.join(company_cards)}{''.join(company_cards)}</div></section>
  <section class="landing-reader-row" aria-labelledby="landing-reader-title"><p class="landing-section-label" id="landing-reader-title">Read by:</p><div class="landing-reader-rail" data-reader-loop data-reader-count="{len(readers)}">{reader_cards}{reader_cards}</div></section>
- <section class="landing-newsletter"><div><p>The Private Ledger newsletter</p><h2>See the next chapter<br>before the market does.</h2><span>New research delivered directly to your inbox.</span></div><a href="{E(settings['subscribe_url'])}" rel="noopener">Subscribe free <span aria-hidden="true">→</span></a></section>
+ <section class="landing-newsletter"><div><p>The Private Ledger newsletter</p><h2>See the next chapter<br>before the market does.</h2><span>New research delivered directly to your inbox.</span></div><a href="{E(settings['subscribe_url'])}" rel="noopener">Subscribe</a></section>
  </section>'''
 
 def ipo_markup():
