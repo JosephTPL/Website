@@ -3,64 +3,89 @@
   "name": "Ant Group",
   "status": "Published",
   "sector": "Financial Services & Digital Assets",
-  "summary": "Ant Group operates Alipay and a broad financial-services platform spanning payments, consumer finance, insurance, wealth management, and technology services.",
-  "overview": "<p>Ant Group is the Chinese fintech group behind Alipay, one of the world’s largest digital payment ecosystems.</p>",
-  "as_of": "2026-09-25",
+  "summary": "Ant Group operates Alipay and financial-technology businesses spanning payments, consumer finance, wealth and insurance distribution, and technology services.",
+  "overview": "<p>Ant Group is the Chinese fintech group behind Alipay, a digital-payments ecosystem. Its latest publicly reported operating figures are derived from Alibaba filings rather than from stand-alone quarterly financial statements.</p>",
+  "as_of": "2026-10-08",
   "facts": [
     {
-      "label": "Reported valuation",
-      "value": "$79B",
-      "note": "Private Ledger market-watch estimate; not a disclosed valuation from a recent completed financing.",
-      "source": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+      "label": "Last disclosed valuation marker",
+      "value": "$78.5B",
+      "note": "As of July 2023. Implied by Ant's proposed share buyback; it is not a current market valuation. Ant has not disclosed a later priced financing or a confirmed current valuation.",
+      "source": "https://finance.yahoo.com/news/rpt-ant-announces-share-repurchase-014505624.html"
     },
     {
-      "label": "Q2 2026 profit",
-      "value": "RMB4.7B",
-      "note": "Reuters calculation from Alibaba’s earnings disclosures.",
-      "source": "https://nz.finance.yahoo.com/news/ant-group-quarterly-profits-rise-100448103.html"
+      "label": "Latest reported quarterly profit",
+      "value": "$698M",
+      "note": "As of Aug. 20, 2026. Reuters calculation for the three months ended June 30, 2026 from Alibaba's earnings disclosure; RMB4.7B at RMB6.73/US$ on that report date. Alibaba records its share of Ant's results one quarter in arrears.",
+      "source": "https://sg.finance.yahoo.com/news/ant-group-quarterly-profits-rise-100448103.html"
+    },
+    {
+      "label": "2025 R&D investment",
+      "value": "$5.17B",
+      "note": "As of June 17, 2026. Ant reported RMB35.03B of 2025 R&D investment.",
+      "source": "https://www.antgroup.com/en/news-media/press-releases/1781661600000"
+    },
+    {
+      "label": "Estimated 2025 revenue",
+      "value": "$37B",
+      "note": "As of 2025. Sacra estimate; not an Ant Group financial disclosure.",
+      "source": "https://sacra.com/c/ant-group/"
+    },
+    {
+      "label": "Public status",
+      "value": "Private",
+      "note": "As of Oct. 8, 2026. No Ant Group IPO has been announced or priced; reports about financing and listings at independent units remain distinct from a parent-company IPO.",
+      "source": "https://uk.marketscreener.com/news/ant-international-aims-to-raise-1-billion-in-private-funding-round-source-says-ce7f5cdbd98bf523/"
     }
   ],
   "directory_rank": 3,
   "bull_case": "Alipay’s user and merchant network gives Ant a powerful distribution base for payments, financial services, and AI-led technology products.",
   "bear_case": "Chinese regulation, limits on consumer-credit economics, and governance complexity can constrain valuation and strategic flexibility.",
-  "latest_round": "Reported valuation: $79B",
+  "latest_round": "July 2023 share buyback: $78.5B implied valuation",
   "directory_notes": [
-    "Payments scale, profitability, and regulatory normalization",
-    "Consumer finance, wealth, insurance, and AI services."
+    "Payments scale, profit trend, and regulatory normalization",
+    "Consumer finance, wealth, insurance, and AI-led technology services."
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
     "location": "Hangzhou, China",
     "status": "Private",
     "logo": "/logos/ant-group.png",
-    "description": "Ant Group is the fintech group behind Alipay. It uses that payments distribution to provide consumer and merchant financial services, wealth and insurance distribution, and digital technology services.",
+    "description": "Ant Group is the fintech group behind Alipay. It uses payments distribution to provide consumer and merchant financial services, wealth and insurance distribution, and digital technology services.",
     "metrics": [
       {
-        "value": "$79B",
-        "label": "Reported valuation",
-        "note": "Private Ledger market watch"
+        "value": "$78.5B",
+        "label": "July 2023 buyback marker",
+        "note": "As of July 2023 · not a current valuation"
       },
       {
-        "value": "RMB4.7B",
-        "label": "Q2 2026 profit",
-        "note": "Reuters calculation"
+        "value": "$698M",
+        "label": "Quarterly profit",
+        "note": "As of Aug. 20, 2026 · RMB4.7B, Jun. 2026 quarter, Reuters calculation"
       },
       {
-        "value": "RMB23.5B",
-        "label": "2024 R&D spend",
-        "note": "Company sustainability report"
+        "value": "$5.17B",
+        "label": "2025 R&D investment",
+        "note": "As of Jun. 17, 2026 · RMB35.03B, company sustainability report"
+      },
+      {
+        "value": "$37B",
+        "label": "Estimated 2025 revenue",
+        "note": "As of 2025 · Sacra estimate, not company disclosed"
       },
       {
         "value": "Private",
         "label": "Public status",
-        "note": "No confirmed relaunch of IPO"
+        "note": "As of Oct. 8, 2026 · no Ant Group IPO announced"
       }
     ],
     "company": [
-      "Ant Group grew from Alipay, the payments service originally created for Alibaba’s marketplace ecosystem. It expanded that relationship into a large suite of consumer and merchant services covering payments, credit, insurance distribution, wealth products, and technology infrastructure.",
-      "The business was reshaped after Chinese authorities stopped its planned 2020 listing. That IPO would have valued Ant at roughly $315 billion. The post-IPO-reset version of Ant is a more regulated financial holding and technology business, with the central question now whether payments distribution and technology services can support earnings growth inside a tighter regulatory framework."
+      "Alipay launched in 2004 to help create trust between online buyers and sellers. Its parent company was formed in October 2014 as Ant Financial Services Group and was renamed Ant Group in July 2020. Ant expanded from payments into consumer and merchant finance, wealth and insurance distribution, and technology services.",
+      "Chinese authorities suspended Ant's dual-market IPO days before its planned November 2020 debut. The pre-pricing target was about $280 billion; the planned offering was reported at more than $310 billion at pricing. In July 2023, a proposed buyback implied $78.5 billion. That is the latest disclosed valuation marker identified here, not a current market price: Ant has not announced a more recent priced round or confirmed current valuation.",
+      "Alibaba accounts for its share of Ant's results one quarter in arrears, so reported profit figures require period labels. Reuters calculated RMB4.7 billion of profit for Ant's three months ended June 30, 2026, reported on August 20, 2026, up 1% year over year. This follows RMB4.74 billion for the three months ended March 31, 2025, reported in August 2025, which Reuters said was down 60.5% year over year.",
+      "Ant reported RMB35.03 billion of R&D investment in 2025, including AI-related work, after RMB23.45 billion in 2024. The 2024 amount is confirmed by Ant's 2024 Sustainability Report; the company said it was up 10.7% year over year."
     ],
-    "why_it_matters": "Ant is a crucial case study in the relationship between fintech scale and regulation. Its path affects how investors think about Chinese consumer credit, payment networks, platform governance, and the value of financial data-driven distribution businesses.",
+    "why_it_matters": "Ant remains a useful case study in how fintech scale, regulation, and technology investment interact in China. Its payments network and financial-services distribution matter to the economics of consumer credit and platform businesses, while the separation of Ant International, Ant Digital Technologies, and OceanBase creates distinct capital-raising and possible-listing paths that should not be conflated with an Ant Group IPO.",
     "changed": [
       {
         "date": "2018",
@@ -75,28 +100,36 @@
         "text": "The company undertook a regulator-driven restructuring of its consumer-finance and governance arrangements."
       },
       {
-        "date": "Jun 2026",
-        "text": "Alibaba’s disclosures implied Ant posted approximately RMB4.7B in quarterly profit, according to Reuters calculations."
+        "date": "Mar 2026",
+        "text": "Bright Smart Securities said Ant Group became its indirect controlling shareholder after the acquisition completed on March 30, 2026; its June results said Ant indirectly owned 50.63%."
+      },
+      {
+        "date": "Jun–Jul 2026",
+        "text": "Reported developments at independent units included Ant International's planned $1B private round at a reported $10B-plus pre-money valuation and possible Hong Kong listing, an Ant Digital Technologies pre-IPO round, and OceanBase's reported plan to seek up to RMB3B. Ant International later said it had raised $1.2B. Except for the announced $1.2B raise, these plans and terms were not confirmed by the companies."
+      },
+      {
+        "date": "Aug 2026",
+        "text": "Reuters calculated RMB4.7B of Ant profit for the quarter ended June 30, 2026 from Alibaba's earnings disclosure, up 1% year over year."
       }
     ],
     "takeaways": [
-      "Alipay’s payments network remains Ant’s strategic distribution asset.",
-      "Ant’s valuation is inseparable from Chinese regulatory policy, not just payment volume or user scale.",
-      "The $79B figure is a reported market estimate, not a confirmed price from a recent completed round.",
-      "The return of earnings growth and monetisation of technology services are the main operational variables to watch."
+      "Alipay's payments network remains Ant's central distribution asset.",
+      "The $78.5B figure is a July 2023 buyback marker, not a current market valuation; no later Ant Group priced financing is confirmed here.",
+      "The latest reported profit calculation is RMB4.7B for the quarter ended June 30, 2026, reported August 20, 2026; it should not be relabelled as a later quarter.",
+      "Ant International, Ant Digital Technologies, and OceanBase have separate reported capital-market activity. Reported plans are not confirmed IPOs or valuations until officially disclosed."
     ],
     "quick_facts": [
       [
         "Founded",
-        "2014 (renamed from Alipay parent)"
+        "Alipay launched 2004; parent formed Oct. 2014; renamed Ant Group Jul. 2020"
       ],
       [
         "Headquarters",
         "Hangzhou, China"
       ],
       [
-        "Chairman and CEO",
-        "Eric Jing"
+        "Chairman / CEO",
+        "Eric Jing / Cyril Xinyi Han"
       ],
       [
         "Core product",
@@ -117,16 +150,40 @@
         "url": "https://www.antgroup.com/"
       },
       {
-        "label": "Reuters profit report",
-        "url": "https://nz.finance.yahoo.com/news/ant-group-quarterly-profits-rise-100448103.html"
+        "label": "Ant Group management team",
+        "url": "https://www.antgroup.com/en/about/leadership"
       },
       {
-        "label": "Ant 2020 IPO valuation report",
-        "url": "https://www.caixinglobal.com/2020-10-26/ant-groups-ipo-will-be-the-biggest-ever-101619017.html"
+        "label": "Ant 2025 Sustainability Report announcement",
+        "url": "https://www.antgroup.com/en/news-media/press-releases/1781661600000"
       },
       {
-        "label": "Reported valuation reference",
-        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+        "label": "Ant 2024 Sustainability Report announcement",
+        "url": "https://www.antgroup.com/en/news-media/press-releases/1751248800000"
+      },
+      {
+        "label": "Reuters: Ant profit for quarter ended June 30, 2026",
+        "url": "https://sg.finance.yahoo.com/news/ant-group-quarterly-profits-rise-100448103.html"
+      },
+      {
+        "label": "Reuters: July 2023 proposed share buyback",
+        "url": "https://finance.yahoo.com/news/rpt-ant-announces-share-repurchase-014505624.html"
+      },
+      {
+        "label": "Reuters: Ant International's reported funding and possible listing plans",
+        "url": "https://uk.marketscreener.com/news/ant-international-aims-to-raise-1-billion-in-private-funding-round-source-says-ce7f5cdbd98bf523/"
+      },
+      {
+        "label": "Bright Smart 2026 annual-results announcement",
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0624/2026062401220.pdf"
+      },
+      {
+        "label": "2020 planned IPO valuation",
+        "url": "https://techcrunch.com/2020/10/26/ant-group-could-raise-as-much-as-34-5b-in-ipo-in-what-would-be-worlds-largest-ipo/"
+      },
+      {
+        "label": "Estimated 2025 revenue",
+        "url": "https://sacra.com/c/ant-group/"
       }
     ]
   },

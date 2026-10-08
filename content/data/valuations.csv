@@ -12,7 +12,7 @@ american-terawatt,2026-05,priced_round,,,0.0526,,,Form D private offering,https:
 anduril,2026-05,priced_round,61,,,,,Series H,https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/,,yes
 ant-group,2016-04-25,priced_round,60,,4.5,,,$4.5B Series B,https://techcrunch.com/2016/04/25/ant-financial-the-alibaba-affiliate-that-operates-alipay-raises-4-5b-at-a-60b-valuation/,,yes
 ant-group,2018-06-08,priced_round,150,,14,,,$14B Series C,https://www.forbes.com/sites/ywang/2018/06/08/ant-financial-raises-14b-to-fund-global-expansion/,,yes
-ant-group,2020-10,talks,315,,,,,Planned IPO valuation (IPO halted),https://www.cnn.com/2023/07/10/investing/china-ant-group-valuation-jack-ma-intl-hnk/index.html,IPO suspended Nov 2020; never priced.,yes
+ant-group,2020-11,talks,310,,,,,Planned IPO valuation (IPO halted),https://techcrunch.com/2020/10/26/ant-group-could-raise-as-much-as-34-5b-in-ipo-in-what-would-be-worlds-largest-ipo/,IPO suspended Nov 2020; never priced.,yes
 antares-nuclear,2026-07-27,priced_round,,,0.47,,,Series C ($370M equity + $100M debt),https://www.businesswire.com/news/home/20260727569769/en/Antares-Raises-$470M-Series-C-to-Deploy-Nuclear-Microreactors-for-Critical-Missions,Source URL is retained from the profile; review event-level attribution before automated publication.,yes
 anthropic,2026-02-12,priced_round,380,post,30,,,$30B Series G,https://tech-insider.org/anthropic-65-billion-series-h-965-billion-valuation-2026/,,yes
 anthropic,2026-05-28,priced_round,965,post,65,,,$65B Series H,https://tech-insider.org/anthropic-65-billion-series-h-965-billion-valuation-2026/,,yes
@@ -266,7 +266,7 @@ airtable,2026-08-04,acquisition,2.25,,,,,Bending Spoons agreement: $2.25B equity
 anduril,2020-07-01,priced_round,1.9,,0.2,,,Series C,https://www.bloomberg.com/news/articles/2020-07-01/anduril-startup-backed-by-peter-thiel-is-valued-at-1-9-billion,,yes
 anduril,2022-12-02,priced_round,8.48,,1.48,,,Series E,https://www.anduril.com/news/anduril-raises-usd1-48-billion-in-series-e-funding,,yes
 anduril,2025-06-05,priced_round,30.5,,2.5,,,Series G,https://techcrunch.com/2025/06/05/anduril-raises-2-5b-at-30-5b-valuation-led-by-founders-fund/,,yes
-ant-group,2021-03-16,talks,200,,,,,Investor marks after halted IPO (Reuters),https://www.nasdaq.com/articles/exclusive-global-investors-value-chinas-ant-group-at-over-$200-bln-sources-2021-03-16,,yes
+ant-group,2021-03-16,talks,200,,,,,Investor marks after halted IPO (Reuters),https://tech.yahoo.com/general/articles/exclusive-global-investors-value-chinas-064010685.html,"Reuters reported that some global investors valued Ant at over $200B; this was not a completed financing.",yes
 ant-group,2023-07,tender,78.5,,,,,Share buyback,https://www.cnn.com/2023/07/10/investing/china-ant-group-valuation-jack-ma-intl-hnk/index.html,"Legacy history date was ""2026""; recorded at year precision only.",yes
 anthropic,2023-05-23,priced_round,4.1,,0.45,,,$450M Series C (valuation reported),https://techcrunch.com/2023/05/23/anthropic-raises-350m-to-build-next-gen-ai-assistants/,,yes
 anthropic,2025-03-03,priced_round,61.5,post,3.5,,,Series E,https://www.anthropic.com/news/anthropic-raises-series-e-at-usd61-5b-post-money-valuation,,yes
