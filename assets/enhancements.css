@@ -195,10 +195,10 @@ main{margin-top:var(--topbar-height);margin-left:238px;padding:46px 54px 0;max-w
 
 /* The publication context belongs in every footer, not in primary navigation. */
 footer{align-items:flex-start;gap:28px}
-.footer-about{display:grid;gap:3px;max-width:620px}
-.footer-about strong{color:#33434c;font-size:.76rem;letter-spacing:.08em;text-transform:uppercase}
-.footer-about span{color:#64717a;font-size:.76rem;line-height:1.45}
-.footer-about a{color:#79521e;display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.075em;line-height:1.4;text-decoration:none;text-transform:uppercase}
+.footer-about{display:grid;gap:10px;max-width:620px}
+.footer-about strong{color:#33434c;font-size:.76rem;letter-spacing:.08em;line-height:1.25;text-transform:uppercase}
+.footer-about span{color:#64717a;font-size:.76rem;line-height:1.55}
+.footer-about a{color:#79521e;display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.075em;line-height:1.4;margin-top:2px;text-decoration:none;text-transform:uppercase}
 .footer-about a:hover{text-decoration:underline;text-underline-offset:3px}
 .footer-copyright{margin-left:auto;white-space:nowrap}
 @media(max-width:700px){footer{display:grid;gap:14px}.footer-copyright{margin-left:0}}
