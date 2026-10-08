@@ -4,55 +4,57 @@
   "name": "Shein",
   "sector": "Consumer, Commerce & Media",
   "summary": "Shein is a Singapore-headquartered, China-founded online fast-fashion retailer built around a global, app-led supply chain.",
-  "overview": "<p>Shein sells low-cost fashion directly to consumers across a large number of markets. Its scale, rapid product cycle, and supply-chain model make it one of the largest private consumer-internet companies, while labor, environmental, regulatory, and listing risks remain central to the story.</p>",
+  "overview": "<p>Shein sells low-cost fashion directly to consumers across a large number of markets. It listed on the Hong Kong Stock Exchange on September 1, 2026, establishing a public-market reference point for the business.</p>",
   "image": "",
   "image_alt": "",
-  "as_of": "2026-10-05",
+  "as_of": "2026-10-08",
   "report": "",
   "facts": [
-    {"label":"Latest disclosed valuation","value":"$66 billion","note":"May 2023 financing; later IPO estimates are not completed private-market valuations.","source":"https://www.axios.com/2023/11/27/shein-us-ipo"},
-    {"label":"2023 revenue","value":"$32 billion","note":"Reported company revenue.","source":"https://en.wikipedia.org/wiki/Shein"},
-    {"label":"Public status","value":"Private","note":"Listing plans have been reported but are not treated as a completed IPO.","source":"https://www.axios.com/2023/11/27/shein-us-ipo"}
+    {"label":"IPO valuation","value":"$26.5B","note":"As of Sept. 1, 2026. Reuters reported this valuation at Shein's Hong Kong IPO.","source":"https://live.euronext.com/en/financial-news/fast-fashion-giant-shein-set-open-flat-hong-kong-market-debut"},
+    {"label":"2025 net revenue","value":"$41.85B","note":"As of the year ended Dec. 31, 2025. Disclosed in the Hong Kong listing materials.","source":"https://www.scmp.com/business/banking-finance/article/3361931/fast-fashion-giant-shein-swings-us99m-first-quarter-loss-ahead-hong-kong-listing?pgtype=live"},
+    {"label":"Public status","value":"Public","note":"As of Sept. 1, 2026. Listed on the Hong Kong Stock Exchange (stock code 0625).","source":"https://www.hkex.com.hk/News/News-Release/2026/260828news?sc_lang=en"}
   ],
   "directory_rank": 0,
   "bull_case": "A highly efficient global direct-to-consumer platform can compound through scale, assortment, logistics, and new categories.",
   "bear_case": "Regulatory scrutiny, supply-chain allegations, import-rule changes, and a possible valuation reset could materially weaken the investment case.",
-  "latest_round": "May 2023: $2B financing at a reported $66B valuation",
+  "latest_round": "September 2026: Hong Kong IPO at a reported $26.5B valuation",
   "directory_notes": ["IPO progress and valuation discipline.", "Regulatory, labor, and import-policy exposure."],
   "intelligence": {
     "kicker":"COMPANY INTELLIGENCE",
     "location":"Singapore",
-    "status":"Private",
+    "status":"Public",
     "logo":"https://www.google.com/s2/favicons?domain=shein.com&sz=128",
     "description":"Shein operates a global online fashion marketplace with a supply chain centered in China and a consumer brand distributed primarily through its app and website.",
     "metrics":[
-      {"value":"$66B","label":"Latest disclosed valuation","note":"May 2023 financing"},
-      {"value":"$2B","label":"Financing","note":"Reported May 2023 round"},
-      {"value":"$32B","label":"2023 revenue","note":"Reported"},
-      {"value":"Private","label":"Public status","note":"No completed IPO recorded"}
+      {"value":"$26.5B","label":"IPO valuation","note":"As of Sept. 1, 2026 · Reuters reported"},
+      {"value":"$1.7B","label":"IPO proceeds","note":"As of Sept. 1, 2026 · reported"},
+      {"value":"$41.85B","label":"2025 net revenue","note":"As of Dec. 31, 2025 · listing materials"},
+      {"value":"Public","label":"Public status","note":"As of Sept. 1, 2026 · HKEX: 0625"}
     ],
     "company":[
       "Shein built its business by pairing social and app-led demand generation with a broad network of suppliers, enabling fast iteration across a very large catalogue of low-priced apparel and other consumer goods.",
-      "The company was reported to have raised $2 billion in May 2023 at a $66 billion valuation. That is the latest disclosed private-market mark used here; subsequent discussion of potential IPO valuations is not a completed financing event."
+      "Shein raised $2 billion in May 2023 at a reported $66 billion private valuation. It then completed a Hong Kong IPO in September 2026, which Reuters reported valued the company at about $26.5 billion and raised about $1.7 billion. The IPO, rather than the 2023 financing, is now the most recent disclosed valuation event."
     ],
-    "why_it_matters":"Shein is an unusually large private-market consumer platform. Its eventual liquidity path will test how investors value global e-commerce growth when regulatory exposure, supply-chain scrutiny, and cross-border trade policy are material parts of the underwriting.",
+    "why_it_matters":"Shein is a large global e-commerce platform whose Hong Kong listing provides a public-market reference point after years of private-market valuation debate. Regulatory exposure, supply-chain scrutiny, and cross-border trade policy remain material to assessing the business.",
     "changed":[
       {"date":"2022","text":"Reported valuation reaches roughly $100B during a period of rapid private-market growth."},
       {"date":"May 2023","text":"A reported $2B financing marks the company at $66B."},
-      {"date":"2023–2026","text":"Reported listing plans keep valuation, governance, and regulatory questions in focus."}
+      {"date":"2025","text":"Net revenue rose nearly 8% to $41.85B, according to the Hong Kong listing materials."},
+      {"date":"Sept. 2026","text":"Shein completed its Hong Kong IPO and began trading on September 1; Reuters reported an IPO valuation of about $26.5B."}
     ],
     "takeaways":[
-      "The $66B figure is a dated disclosed private-market mark, not a current trading price.",
+      "The $26.5B IPO valuation is the most recent disclosed valuation reference; the $66B figure is a dated 2023 private-market mark.",
       "Shein's supply-chain speed and global demand engine are its key operating advantages.",
       "Labor, environmental, regulatory, and trade-policy risks are fundamental—not peripheral—to the story.",
-      "An IPO, if completed, would establish a new public-market reference point."
+      "The completed IPO establishes a public-market reference point, but does not remove the underlying regulatory and trade-policy risks."
     ],
-    "quick_facts":[["Founded","2008"],["Headquarters","Singapore"],["Founder","Chris Xu"],["Focus","Global online fashion"],["Website","shein.com"],["Public status","Private"]],
+    "quick_facts":[["Founded","2008"],["Headquarters","Singapore"],["Founder","Chris Xu"],["Focus","Global online fashion"],["Public status","Public — HKEX: 0625"],["Website","shein.com"]],
     "sources":[
-      {"label":"Axios: reported U.S. IPO filing and May 2023 valuation","url":"https://www.axios.com/2023/11/27/shein-us-ipo"},
-      {"label":"Reuters: reported 2025 IPO valuation discussion","url":"https://www.investing.com/news/stock-market-news/exclusiveshein-poised-to-slash-valuation-to-50-billion-in-london-ipo-sources-say-3855699"}
+      {"label":"HKEX: Shein trading debut","url":"https://www.hkex.com.hk/News/News-Release/2026/260828news?sc_lang=en"},
+      {"label":"Reuters: Hong Kong IPO debut and valuation","url":"https://live.euronext.com/en/financial-news/fast-fashion-giant-shein-set-open-flat-hong-kong-market-debut"},
+      {"label":"Hong Kong listing materials: 2025 revenue","url":"https://www.scmp.com/business/banking-finance/article/3361931/fast-fashion-giant-shein-swings-us99m-first-quarter-loss-ahead-hong-kong-listing?pgtype=live"}
     ]
   },
-  "company_status":"private",
+  "company_status":"public",
   "website":"https://www.shein.com"
 }
