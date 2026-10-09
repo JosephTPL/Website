@@ -173,6 +173,8 @@ ramp,2024-04,priced_round,7.65,,0.15,,,Series D-2,https://ramp.com/blog/ramp-apr
 ramp,2025-03-03,secondary,13,,0.15,,,Secondary share sale,https://techcrunch.com/2025/03/03/fintech-startup-ramp-nearly-doubles-valuation-to-13b-in-secondary-share-sale/,,yes
 ramp,2025-11-17,priced_round,32,,0.3,,,"$300M round led by Lightspeed",https://techcrunch.com/2025/11/17/ramp-hits-32b-valuation-just-three-months-after-hitting-22-5b/,,yes
 ramp,2026-06,priced_round,44,,0.75,,,$750M Series F,https://www.bloomberg.com/news/articles/2026-06-04/ramp-notches-44-billion-valuation-in-new-funding-round,,yes
+rednote,2025-06-05,secondary,26,,,,,Reported secondary-market valuation via GSR fund NAV,https://www.scmp.com/tech/big-tech/article/3313105/chinas-rednote-tiktok-alternative-sees-valuation-soar-backing-gsr-ventures,"Reported by Bloomberg via SCMP; fund-share transactions, not a priced primary round.",yes
+rednote,2025-09-04,secondary,31,,,,,Reported secondary-market valuation via GSR fund NAV,https://www.sharecafe.com.au/2025/09/04/rednote-valuation-soars-amid-investor-demand/,"Reported by Bloomberg via Sharecafe; fund-share transactions, not a priced primary round.",yes
 rednote,2026-06,secondary,50,,,,,Implied by secondary transactions,https://www.investing.com/news/stock-market-news/chinas-xiaohongshu-prepares-hong-kong-ipo-at-over-70-bln-valuation--wsj-4746470,,yes
 reflection-ai,2026-04,priced_round,25,pre,2.5,,,Reported $2.5B round,https://www.turingpost.com/p/reflectionai,,yes
 reliance-jio,2020-04-22,priced_round,65.95,,5.7,,,Facebook 9.99% investment ($66.0B EV),https://www.techradar.com/news/facebook-invests-rs-43474-cr-for-999-stake-in-reliance-jio,,yes
