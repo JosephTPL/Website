@@ -11,6 +11,9 @@ style_version=hashlib.sha256((ROOT/'assets'/'style.css').read_bytes()).hexdigest
 enhancements_version=hashlib.sha256((ROOT/'assets'/'enhancements.css').read_bytes()).hexdigest()[:12]
 app_version=hashlib.sha256((ROOT/'assets'/'app.js').read_bytes()).hexdigest()[:12]
 IVORY_THEME_CSS='''
+.landing-feature-card h3{margin:0!important;font-family:'Newsreader',Georgia,serif!important;font-size:clamp(2rem,3.4vw,3.4rem)!important;font-weight:500!important;letter-spacing:-.05em!important;line-height:.95!important}
+@media(max-width:700px){.landing-feature-card h3{font-size:2.3rem!important}}
+.sidebar-note .sidebar-note-title{margin:0!important;color:#fff!important;font-family:'Newsreader',Georgia,serif!important;font-size:1.4rem!important;font-weight:500!important;line-height:1.25!important}
 :root{--bg:#fbfaf7;--paper:#fffefa;--line:#e7e2d9}
 .topbar{background:var(--bg)!important;color:var(--text)!important;border-bottom:1px solid var(--line)!important}
 .brand small,.top-label{color:#69747a}.top-link,.top-discord{color:#26353e}.top-subscribe{background:#10283a;color:#fff;padding:10px 18px}.top-subscribe:hover{background:#1b3a50;color:#fff}
@@ -263,6 +266,8 @@ def intelligence_profile(c):
 
 def shell(kind,title,description,route,image=''):
  s=soup((ROOT/'templates'/f'{kind}.html').read_text());s.title.string=title+' | '+settings['site_name']
+ for heading in s.select('.sidebar-note h3'):
+  heading.name='p';heading['class']='sidebar-note-title'
  for label in s.select('.top-label'):label.decompose()
  for link in s.select('a'):
   if any(word in link.get_text(' ',strip=True).casefold() for word in ('subscribe','discord')):
@@ -410,7 +415,7 @@ def landing_markup():
  def link(record,label='Read the research →'):
   return f'<a class="landing-read-link" href="{E(record["url"])}">{E(label)}</a>'
  def feature(record):
-  return f'''<article class="landing-feature-card"><a class="landing-feature-image" href="{E(record['url'])}" aria-label="Read {E(title(record))}">{image(record)}</a><p>{E(record['sector'])}</p><h2><a href="{E(record['url'])}">{E(title(record))}</a></h2><div class="landing-feature-meta"><span>{E(record['summary'])}</span><span>{record['minutes']} min read</span></div>{link(record)}</article>'''
+  return f'''<article class="landing-feature-card"><a class="landing-feature-image" href="{E(record['url'])}" aria-label="Read {E(title(record))}">{image(record)}</a><p>{E(record['sector'])}</p><h3><a href="{E(record['url'])}">{E(title(record))}</a></h3><div class="landing-feature-meta"><span>{E(record['summary'])}</span><span>{record['minutes']} min read</span></div>{link(record)}</article>'''
  def compact(record):
   return f'''<article class="landing-compact-card"><a class="landing-compact-image" href="{E(record['url'])}" aria-label="Read {E(title(record))}">{image(record)}</a><div><p>{E(record['sector'])}</p><h3><a href="{E(record['url'])}">{E(title(record))}</a></h3><span>{E(record['summary'])}</span>{link(record, 'Read the research →')}</div></article>'''
  def popular(record):
@@ -443,11 +448,12 @@ def landing_markup():
  ]
  reader_cards=''.join(f'<div><img src="https://www.google.com/s2/favicons?domain={E(domain)}&amp;sz=128" alt="{E(name)} logo" loading="lazy"><span>{E(name)}</span></div>' for name,domain in readers)
  return f'''<section class="landing-home" aria-label="The Private Ledger">
+ <h1 class="sr-only">The Private Ledger</h1>
  <section class="landing-home-hero"><div class="landing-home-copy"><p>Independent research on the world’s most important private companies, before they reach the public markets.</p><div class="landing-home-actions"><a class="landing-home-primary" href="/research/">Explore the research</a><a class="landing-home-secondary" href="{E(settings['subscribe_url'])}" rel="noopener">Subscribe</a></div></div><div class="landing-home-art" aria-hidden="true">{hero_images}</div></section>
  <p class="landing-home-trust">Independent. In-depth. Before the IPO.</p>
- <section class="landing-research-feature" aria-labelledby="landing-feature-title"><div><p class="landing-section-label">Featured research</p>{feature(primary)}</div><div class="landing-popular-latest"><p class="landing-section-label" id="landing-feature-title">Most Popular Research</p><div>{''.join(popular(record) for record in popular_reads)}</div></div></section>
- <section class="landing-company-row" aria-labelledby="landing-company-title"><header><p class="landing-section-label" id="landing-company-title">Research by company</p><a href="/companies/">View the company index →</a></header><div class="landing-scroll-rail" data-reader-loop data-reader-count="{len(company_cards)}">{''.join(company_cards)}{''.join(company_cards)}</div></section>
- <section class="landing-reader-row" aria-labelledby="landing-reader-title"><p class="landing-section-label" id="landing-reader-title">Read by:</p><div class="landing-reader-rail" data-reader-loop data-reader-count="{len(readers)}">{reader_cards}{reader_cards}</div></section>
+ <section class="landing-research-feature"><section class="landing-feature-column" aria-labelledby="landing-feature-title"><h2 class="landing-section-label" id="landing-feature-title">Featured research</h2>{feature(primary)}</section><section class="landing-popular-latest" aria-labelledby="landing-popular-title"><h2 class="landing-section-label" id="landing-popular-title">Most Popular Research</h2><div>{''.join(popular(record) for record in popular_reads)}</div></section></section>
+ <section class="landing-company-row" aria-labelledby="landing-company-title"><header><h2 class="landing-section-label" id="landing-company-title">Research by company</h2><a href="/companies/">View the company index →</a></header><div class="landing-scroll-rail" data-reader-loop data-reader-count="{len(company_cards)}">{''.join(company_cards)}{''.join(company_cards)}</div></section>
+ <section class="landing-reader-row" aria-labelledby="landing-reader-title"><h2 class="landing-section-label" id="landing-reader-title">Read by</h2><div class="landing-reader-rail" data-reader-loop data-reader-count="{len(readers)}">{reader_cards}{reader_cards}</div></section>
  <section class="landing-newsletter"><div><p>The Private Ledger newsletter</p><h2>See the next chapter<br>before the market does.</h2><span>New research delivered directly to your inbox.</span></div><a href="{E(settings['subscribe_url'])}" rel="noopener">Subscribe</a></section>
  </section>'''
 
