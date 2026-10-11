@@ -12,9 +12,9 @@
   "facts": [
     {
       "label": "Valuation cited",
-      "value": "$9 billion",
-      "note": "October 2025 round; the $15 billion figure in the report refers to talks",
-      "source": "/articles/the-breakdown-polymarket/#section-4"
+      "value": "$15 billion",
+      "note": "April 2026 Series E funding round, as reported",
+      "source": "https://www.financemagnates.com/fintech/polymarket-seeks-valuation-above-20-billion-with-15-billion-round-in-april-went-unreported-until-now/"
     },
     {
       "label": "2025 revenue",
@@ -38,7 +38,7 @@
   "directory_rank": 8,
   "bull_case": "A liquid information market could become a useful global forecasting layer.",
   "bear_case": "Regulatory uncertainty and event-driven liquidity can limit the addressable market.",
-  "latest_round": "October 2025: up to $2B strategic investment",
+  "latest_round": "April 2026: $1B Series E at a reported $15B valuation",
   "directory_notes": [
     "Regulatory access",
     "repeat use beyond headline events."
@@ -51,14 +51,14 @@
     "description": "Polymarket operates event-based prediction markets for politics, economics, culture, and other real-world outcomes.",
     "metrics": [
       {
-        "value": "~$8B",
-        "label": "Pre-investment valuation",
-        "note": "ICE announcement, Oct 2025"
+        "value": "$15B",
+        "label": "Series E valuation",
+        "note": "April 2026 funding round, as reported"
       },
       {
-        "value": "Up to $2B",
-        "label": "Strategic investment",
-        "note": "Intercontinental Exchange"
+        "value": "$1B",
+        "label": "Series E funding",
+        "note": "April 2026, as reported"
       },
       {
         "value": "Private",
@@ -73,7 +73,7 @@
     ],
     "company": [
       "Polymarket lets participants trade contracts linked to real-world outcomes, producing market prices that can function as probability signals. The central question is whether prediction-market liquidity can evolve into a broad, durable financial-information business.",
-      "ICE announced an investment of up to $2 billion in 2025 at an approximately $8 billion pre-investment valuation, along with a plan to distribute Polymarket's event-driven data."
+      "Reporting on an April 2026 Series E said Polymarket raised about $1 billion at a $15 billion valuation. ICE's 2025 strategic investment also included a plan to distribute Polymarket's event-driven data."
     ],
     "why_it_matters": "Polymarket sits at the convergence of retail trading, information markets, crypto infrastructure, and financial-data distribution. Its regulatory path will shape whether prediction markets become a mainstream market-information layer.",
     "changed": [
@@ -86,8 +86,8 @@
         "text": "The company raises capital as interest in information markets grows."
       },
       {
-        "date": "2025",
-        "text": "ICE announces a strategic investment and data-distribution relationship."
+        "date": "Apr 2026",
+        "text": "Reporting says Polymarket raised about $1 billion in a Series E at a $15 billion valuation."
       },
       {
         "date": "2026",
@@ -128,8 +128,8 @@
     ],
     "sources": [
       {
-        "label": "ICE investment announcement",
-        "url": "https://ir.theice.com/press/news-details/2025/ICE-Announces-Strategic-Investment-in-Polymarket/"
+        "label": "Finance Magnates: reported April 2026 Series E at a $15B valuation",
+        "url": "https://www.financemagnates.com/fintech/polymarket-seeks-valuation-above-20-billion-with-15-billion-round-in-april-went-unreported-until-now/"
       },
       {
         "label": "Polymarket breakdown",
