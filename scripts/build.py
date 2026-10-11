@@ -441,7 +441,7 @@ def landing_markup():
   if not company:continue
   logo=company.get('intelligence',{}).get('logo','')
   logo_markup=f'<img src="{E(logo)}" alt="{E(company["name"])} logo" loading="lazy">' if logo else ''
-  company_cards.append(f'<a href="/companies/{E(slug)}/">{logo_markup}<span>{E(company["name"])}</span><small>{E(company.get("sector", ""))}</small></a>')
+  company_cards.append(f'<a href="/companies/{E(slug)}/">{logo_markup}<span>{E(company["name"])}</span></a>')
  hero_images=''.join(image(record,'landing-art-piece') for record in (spacex,databricks,saronic) if record)
  readers=[
   ('Harvard','harvard.edu'),('Citi','citi.com'),('UofT','utoronto.ca'),('Intel','intel.com'),
@@ -455,7 +455,7 @@ def landing_markup():
  <section class="landing-home-hero"><div class="landing-home-copy"><p>Independent research on the world’s most important private companies, before they reach the public markets.</p><div class="landing-home-actions"><a class="landing-home-primary" href="/research/">Explore the research</a><a class="landing-home-secondary" href="{E(settings['subscribe_url'])}" rel="noopener">Subscribe</a></div></div><div class="landing-home-art" aria-hidden="true">{hero_images}</div></section>
  <p class="landing-home-trust">Independent. In-depth. Before the IPO.</p>
  <section class="landing-research-feature"><section class="landing-feature-column" aria-labelledby="landing-feature-title"><h2 class="landing-section-label" id="landing-feature-title">Featured research</h2>{feature(primary)}</section><section class="landing-popular-latest" aria-labelledby="landing-popular-title"><h2 class="landing-section-label" id="landing-popular-title">Most Popular Research</h2><div>{''.join(popular(record) for record in popular_reads)}</div></section></section>
- <section class="landing-company-row" aria-labelledby="landing-company-title"><header><h2 class="landing-section-label" id="landing-company-title">Research by company</h2></header><div class="landing-scroll-rail" data-reader-loop data-reader-count="{len(company_cards)}">{''.join(company_cards)}{''.join(company_cards)}</div></section>
+ <section class="landing-company-row" aria-labelledby="landing-company-title"><header><h2 class="landing-section-label" id="landing-company-title">Companies Researched</h2></header><div class="landing-scroll-rail" data-reader-loop data-reader-count="{len(company_cards)}">{''.join(company_cards)}{''.join(company_cards)}</div></section>
  <section class="landing-reader-row" aria-labelledby="landing-reader-title"><h2 class="landing-section-label" id="landing-reader-title">Read by</h2><div class="landing-reader-rail" data-reader-loop data-reader-count="{len(readers)}">{reader_cards}{reader_cards}</div></section>
  <section class="landing-newsletter"><div><p>The Private Ledger newsletter</p><h2>See the next chapter<br>before the market does.</h2><span>New research delivered directly to your inbox.</span></div><a href="{E(settings['subscribe_url'])}" rel="noopener">Subscribe</a></section>
  </section>'''
