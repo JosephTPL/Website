@@ -305,6 +305,9 @@ def shell(kind,title,description,route,image=''):
  brandmark=s.select_one('.brandmark')
  if brandmark:
   brandmark.clear();put(brandmark,'<img src="/compass-logo.png" alt="" aria-hidden="true">')
+ sub=s.select_one('.top-subscribe')
+ if sub:
+  sub.insert_before(BeautifulSoup('<div class="login-menu" data-login-menu><button class="login-toggle" type="button" aria-expanded="false" aria-controls="login-panel">Log in</button><div class="login-panel" id="login-panel" role="menu" hidden><a role="menuitem" href="https://substack.com/sign-in" rel="noopener">Log in with email</a><a role="menuitem" href="https://substack.com/sign-in" rel="noopener">Continue with Google</a></div></div>','html.parser'))
  brand=s.select_one('.brand>span:last-child');brand.clear();brand.append(settings['site_name'].upper())
  if s.select_one('footer'):
   s.select_one('footer').clear()
