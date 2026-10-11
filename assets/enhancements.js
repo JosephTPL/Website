@@ -199,6 +199,7 @@
     const button = menu.querySelector('.login-toggle');
     const panel = menu.querySelector('.login-panel');
     const setOpen = open => { panel.hidden = !open; button.setAttribute('aria-expanded', String(open)); };
+    panel.querySelectorAll('[data-login-option]').forEach(option => option.addEventListener('click', event => event.preventDefault()));
     button.addEventListener('click', event => { event.stopPropagation(); setOpen(panel.hidden); });
     document.addEventListener('click', event => { if (!menu.contains(event.target)) setOpen(false); });
     document.addEventListener('keydown', event => { if (event.key === 'Escape' && !panel.hidden) { setOpen(false); button.focus(); } });
