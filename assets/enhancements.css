@@ -208,6 +208,7 @@ main{margin-top:var(--topbar-height);margin-left:238px;padding:46px 54px 0;max-w
 /* The publication context belongs in every footer, not in primary navigation. */
 footer{align-items:flex-start;gap:28px}
 .footer-about{display:grid;gap:10px;max-width:620px}
+.footer-about strong a{color:inherit;display:inline;font-size:inherit;font-weight:inherit;letter-spacing:inherit;margin:0;text-decoration:none}.footer-about strong a:hover{text-decoration:underline;text-underline-offset:3px}
 .footer-about strong{color:#33434c;font-size:.76rem;letter-spacing:.08em;line-height:1.25;text-transform:uppercase}
 .footer-about span{color:#64717a;font-size:.76rem;line-height:1.55}
 .footer-about a{color:#79521e;display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.075em;line-height:1.4;margin-top:2px;text-decoration:none;text-transform:uppercase}
