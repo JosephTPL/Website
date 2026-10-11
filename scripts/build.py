@@ -265,7 +265,7 @@ def intelligence_profile(c):
  </section>{verified}</section>'''
 
 def shell(kind,title,description,route,image=''):
- s=soup((ROOT/'templates'/f'{kind}.html').read_text());s.title.string=title+' | '+settings['site_name']
+ s=soup((ROOT/'templates'/f'{kind}.html').read_text());s.title.string=settings['site_name'] if route=='/' else title+' | '+settings['site_name']
  for heading in s.select('.sidebar-note h3'):
   heading.name='p';heading['class']='sidebar-note-title'
  for label in s.select('.top-label'):label.decompose()
