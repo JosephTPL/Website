@@ -315,6 +315,7 @@ def shell(kind,title,description,route,image=''):
  return s
 
 def write(s,route):
+ for link in s.select('a[href*="substack.com/subscribe"]'):link['target']='_blank';link['rel']='noopener'
  p=OUT/route.strip('/')/'index.html';p.parent.mkdir(parents=True,exist_ok=True)
  rendered=str(s)
  if route=='/':rendered=rendered.replace('→','').replace('←','').replace('↗','')
