@@ -305,7 +305,7 @@ def shell(kind,title,description,route,image=''):
  brandmark=s.select_one('.brandmark')
  if brandmark:
   brandmark.clear();put(brandmark,'<img src="/compass-logo.png" alt="" aria-hidden="true">')
- brand=s.select_one('.brand>span:last-child');brand.clear();brand.append(settings['site_name'].upper());put(brand,'<small>'+E(settings['tagline'])+'</small>')
+ brand=s.select_one('.brand>span:last-child');brand.clear();brand.append(settings['site_name'].upper())
  if s.select_one('footer'):
   s.select_one('footer').clear()
   put(s.select_one('footer'),f'<div class="footer-about"><strong>About {E(settings["site_name"])}</strong><span>{E(settings["about_text"])}</span><a href="/about/">Read our editorial approach →</a></div><span class="footer-copyright">© {date.today().year} {E(settings["site_name"])}</span>')
