@@ -354,6 +354,7 @@ def configure_nav(s,active):
   link.attrs.pop('aria-current',None)
   link['class']=['active'] if link.get('data-view')==active else []
  # Subscribe and Discord live in the header on desktop, so the mobile menu carries them.
+ nav.append(soup('<a class="nav-extra" href="/login/">Log in</a>').a)
  nav.append(soup(f'<a class="nav-extra nav-extra-subscribe" href="{E(settings["subscribe_url"])}">Subscribe</a>').a)
  if settings.get('discord_url'):nav.append(soup(f'<a class="nav-extra" href="{E(settings["discord_url"])}">Join our Discord</a>').a)
 
