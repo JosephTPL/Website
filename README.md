@@ -6,6 +6,7 @@ TODO:
 - Lessons
 - AI to look for, verify listing accuracy
 - Feature matrix
+- Sitewide search
 
 # The Private Ledger
 
