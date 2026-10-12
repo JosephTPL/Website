@@ -347,7 +347,7 @@ def configure_nav(s,active):
  ipo=soup('<a data-view="ipo" href="/ipo-calendar/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 10h18"></path></svg>IPO calendar</a>').a
  (companies_link or research).insert_after(ipo)
  explainers_link=soup('<a data-view="explainers" href="/explainers/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5z"></path><path d="M4 19V5.5M8 7h8M8 11h6"></path></svg>Explainers</a>').a
- ipo.insert_after(explainers_link)
+ ipo.insert_before(explainers_link)
  home.decompose()
  for link in nav.select('a'):
   link.attrs.pop('aria-current',None)
@@ -725,7 +725,7 @@ explainers_css_version=hashlib.sha256((ROOT/'assets'/'explainers.css').read_byte
 explainer_by_slug={item['slug']:item for item in explainers['terms']}
 def explainers_index_markup():
  cards=''.join(f'<a class="explainer-card" href="/explainers/{E(item["slug"])}/"><span class="explainer-card-num">{index:02d}</span><h2>{E(item["term"])}</h2><p>{E(item["short"])}</p><span class="explainer-card-more">Read the explainer</span></a>' for index,item in enumerate(explainers['terms'],1))
- return f'<section class="explainers"><header class="explainers-head"><p class="explainers-eyebrow">The Private Ledger</p><h1>{E(explainers["title"])}</h1><p class="explainers-intro">{E(explainers["intro"])}</p></header><div class="explainer-grid">{cards}</div><p class="explainers-note">{E(explainers["note"])}</p></section>'
+ return f'<section class="explainers"><header class="explainers-head"><h1>{E(explainers["title"])}</h1><p class="explainers-intro">{E(explainers["intro"])}</p></header><div class="explainer-grid">{cards}</div><p class="explainers-note">{E(explainers["note"])}</p></section>'
 def explainer_markup(item):
  paragraphs=''.join(f'<p>{E(text)}</p>' for text in item['body'])
  related=''.join(f'<a href="/explainers/{E(slug)}/">{E(explainer_by_slug[slug]["term"])}</a>' for slug in item['related'])
