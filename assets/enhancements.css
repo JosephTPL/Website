@@ -207,7 +207,7 @@ main{margin-top:var(--topbar-height);margin-left:238px;padding:46px 54px 0;max-w
 @media(min-width:701px){.article-head h1{font-size:clamp(2.3rem,3.8vw,3.9rem);line-height:1.05}}
 #reading-progress{top:var(--topbar-height,72px)}
 .sidebar nav .nav-extra{display:none!important}
-@media(max-width:700px){html.menu-ready body.menu-open .sidebar nav .nav-extra{display:flex!important}html.menu-ready body.menu-open .sidebar nav .nav-extra-subscribe{font-weight:700;color:#78521f}}
+@media(max-width:700px){html.menu-ready body.menu-open .sidebar nav .nav-extra{display:flex!important}html.menu-ready body.menu-open .sidebar nav .nav-extra-subscribe{color:#78521f}}
 /* Newspaper-style byline and tools under the headline. */
 .article-head .subtitle{margin-top:8px}
 .article-head .author{align-items:center;margin-top:14px;padding-top:10px;border-top:1px solid var(--line)}
