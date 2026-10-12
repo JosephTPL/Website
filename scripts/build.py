@@ -732,7 +732,7 @@ def login_markup():
 s=shell('home','Log in','Log in to The Private Ledger.','/login/')
 s.body['data-page-view']='login';configure_nav(s,'login')
 put(s.head,f'<link rel="stylesheet" href="/login.css?v={login_css_version}">');put(s.head,'<meta name="robots" content="noindex">')
-main=s.select_one('main');footer=main.select_one('footer').extract();main.select_one('.subscribe-panel').extract();main.clear();put(main,login_markup());main.append(footer)
+main=s.select_one('main');main.clear();put(main,login_markup())
 write(s,'/login/')
 
 # Explainers are short, self-contained guides to private-market vocabulary.
