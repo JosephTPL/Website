@@ -353,6 +353,9 @@ def configure_nav(s,active):
  for link in nav.select('a'):
   link.attrs.pop('aria-current',None)
   link['class']=['active'] if link.get('data-view')==active else []
+ # Subscribe and Discord live in the header on desktop, so the mobile menu carries them.
+ nav.append(soup(f'<a class="nav-extra nav-extra-subscribe" href="{E(settings["subscribe_url"])}">Subscribe</a>').a)
+ if settings.get('discord_url'):nav.append(soup(f'<a class="nav-extra" href="{E(settings["discord_url"])}">Join our Discord</a>').a)
 
 def weekly_chart_markup(lead_item):
  """Render the lead story's documented valuation history, never another company's chart."""
