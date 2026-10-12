@@ -18,4 +18,4 @@ html[data-theme="dark"] .subscribe-panel{filter:invert(1) hue-rotate(180deg)}
 .theme-toggle .icon-sun{display:none}
 html[data-theme="dark"] .theme-toggle .icon-sun{display:block}
 html[data-theme="dark"] .theme-toggle .icon-moon{display:none}
-@media(max-width:700px){.theme-toggle{width:34px;height:34px;margin-left:6px}}
+@media(max-width:700px){.theme-toggle{flex:0 0 40px;width:40px;height:40px;margin-left:auto;border-color:#c9c2b6;background:#fffefa}.menu-toggle{margin-left:8px}}
