@@ -337,6 +337,8 @@ def configure_nav(s,active):
  for about_link in nav.select('a[href="/about/"]'):about_link.decompose()
  ipo=soup('<a data-view="ipo" href="/ipo-calendar/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 10h18"></path></svg>IPO calendar</a>').a
  (companies_link or research).insert_after(ipo)
+ explainers_link=soup('<a data-view="explainers" href="/explainers/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5z"></path><path d="M4 19V5.5M8 7h8M8 11h6"></path></svg>Explainers</a>').a
+ ipo.insert_after(explainers_link)
  home.decompose()
  for link in nav.select('a'):
   link.attrs.pop('aria-current',None)
@@ -708,6 +710,27 @@ for i,c in enumerate(sorted(companies.values(),key=lambda x:(x.get('directory_ra
 put(s.head,f'<script defer src="/companies.js?v={companies_script_version}"></script>')
 write(s,'/companies/')
 
+# Explainers are short, self-contained guides to private-market vocabulary.
+explainers=read('content/settings/explainers.json')
+explainers_css_version=hashlib.sha256((ROOT/'assets'/'explainers.css').read_bytes()).hexdigest()[:12]
+explainer_by_slug={item['slug']:item for item in explainers['terms']}
+def explainers_index_markup():
+ cards=''.join(f'<a class="explainer-card" href="/explainers/{E(item["slug"])}/"><span class="explainer-card-num">{index:02d}</span><h2>{E(item["term"])}</h2><p>{E(item["short"])}</p><span class="explainer-card-more">Read the explainer</span></a>' for index,item in enumerate(explainers['terms'],1))
+ return f'<section class="explainers"><header class="explainers-head"><p class="explainers-eyebrow">The Private Ledger</p><h1>{E(explainers["title"])}</h1><p class="explainers-intro">{E(explainers["intro"])}</p></header><div class="explainer-grid">{cards}</div><p class="explainers-note">{E(explainers["note"])}</p></section>'
+def explainer_markup(item):
+ paragraphs=''.join(f'<p>{E(text)}</p>' for text in item['body'])
+ related=''.join(f'<a href="/explainers/{E(slug)}/">{E(explainer_by_slug[slug]["term"])}</a>' for slug in item['related'])
+ return f'<article class="explainer"><a class="explainer-back" href="/explainers/">All explainers</a><header><p class="explainers-eyebrow">Explainer</p><h1>{E(item["term"])}</h1><p class="explainer-full">{E(item["full"])}</p><p class="explainer-lede">{E(item["short"])}</p></header><div class="explainer-body">{paragraphs}</div><aside class="explainer-example"><h2>For example</h2><p>{E(item["example"])}</p></aside><aside class="explainer-takeaway"><h2>The takeaway</h2><p>{E(item["takeaway"])}</p></aside><nav class="explainer-related" aria-label="Related explainers"><h2>Related</h2><div>{related}</div></nav><p class="explainers-note">{E(explainers["note"])}</p></article>'
+def explainer_page(title,description,route,markup):
+ s=shell('home',title,description,route)
+ s.body['data-page-view']='explainers';configure_nav(s,'explainers')
+ put(s.head,f'<link rel="stylesheet" href="/explainers.css?v={explainers_css_version}">')
+ main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();main.clear();put(main,markup);main.append(subscribe);main.append(footer)
+ write(s,route)
+explainer_page(explainers['title'],explainers['intro'],'/explainers/',explainers_index_markup())
+for item in explainers['terms']:
+ explainer_page(item['term']+' explained',item['short'],f'/explainers/{item["slug"]}/',explainer_markup(item))
+
 # The calendar separates filed transactions from market watchlist names so timing stays honest.
 s=shell('home',ipo_calendar['title'],ipo_calendar['intro'],'/ipo-calendar/')
 s.body['data-page-view']='ipo';configure_nav(s,'ipo')
@@ -730,7 +753,7 @@ write(s,'/spv-tracker/')
 about=read('content/settings/about.json');s=shell('about',about['title'],about['description'],'/about/');configure_nav(s,'about');main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();about_body=clean(about['body']);hero=about_body.select_one('.about-hero');hero.decompose() if hero else None;main.clear();main.append(about_body);main.append(subscribe);main.append(footer);write(s,'/about/')
 # The editor is a separate authenticated service, not a public editing API.
 s=shell('about','Edit website','Open the secure content editor.','/admin/');configure_nav(s,'');s.select_one('main').clear();put(s.select_one('main'),'<section class="about-hero"><h1>Edit your publication.</h1><p>Sign in with your GitHub account to edit articles, company profiles, images, and homepage text.</p><a class="primary-button" href="https://app.pagescms.org">Open Pages CMS ↗</a></section>');put(s.head,'<meta name="robots" content="noindex">');write(s,'/admin/')
-routes=['/','/research/','/insights/','/companies/','/ipo-calendar/','/valuations/','/spv-tracker/','/about/']+[a['url'] for a in ordered]+['/companies/'+c['slug']+'/' for c in companies.values()]
+routes=['/','/research/','/insights/','/companies/','/ipo-calendar/','/explainers/','/valuations/','/spv-tracker/','/about/']+['/explainers/'+item['slug']+'/' for item in explainers['terms']]+[a['url'] for a in ordered]+['/companies/'+c['slug']+'/' for c in companies.values()]
 (OUT/'sitemap.xml').write_text('<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+E(base+r)+'</loc></url>' for r in routes)+'</urlset>')
 (OUT/'robots.txt').write_text('User-agent: *\nAllow: /\nDisallow: /admin/\nSitemap: '+base+'/sitemap.xml\n')
 print(f'Built {len(articles)} published articles, {len(companies)} company profiles, and editable site pages.')

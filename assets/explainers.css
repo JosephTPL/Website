@@ -1,0 +1,38 @@
+.explainers,.explainer{max-width:1100px;margin:0 auto;padding:8px 0 56px;color:var(--text)}
+.explainers-eyebrow{margin:0 0 10px;color:var(--gold);font-size:.7rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase}
+.explainers-head{max-width:680px;margin:0 0 38px}
+.explainers h1,.explainer h1{margin:0;font-family:'Newsreader',Georgia,serif;font-size:clamp(2.2rem,4vw,3.4rem);font-weight:500;letter-spacing:-.03em;line-height:1.05}
+.explainers-intro{margin:16px 0 0;color:var(--muted);font-family:'Newsreader',Georgia,serif;font-size:1.2rem;line-height:1.5}
+.explainer-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.explainer-card{display:flex;flex-direction:column;gap:8px;min-height:196px;padding:22px 22px 20px;background:var(--paper);border:1px solid var(--line);color:inherit;text-decoration:none;transition:border-color .15s,transform .15s}
+.explainer-card:hover,.explainer-card:focus-visible{border-color:var(--gold);transform:translateY(-2px)}
+.explainer-card-num{color:var(--gold);font-size:.7rem;font-weight:800;letter-spacing:.12em}
+.explainer-card h2{margin:0;font-family:'Newsreader',Georgia,serif;font-size:1.55rem;font-weight:500;letter-spacing:-.02em;line-height:1.15}
+.explainer-card p{flex:1;margin:0;color:var(--muted);font-size:.92rem;line-height:1.55}
+.explainer-card-more{color:var(--gold);font-size:.74rem;font-weight:700;letter-spacing:.04em}
+.explainers-note{margin:30px 0 0;color:var(--muted);font-size:.78rem}
+
+.explainer{max-width:720px}
+.explainer-back{display:inline-block;margin-bottom:26px;color:var(--gold);font-size:.8rem;font-weight:700;text-decoration:none}
+.explainer-back::before{content:"\2190\00a0"}
+.explainer-back:hover{text-decoration:underline;text-underline-offset:3px}
+.explainer-full{margin:10px 0 0;color:var(--muted);font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.explainer-lede{margin:22px 0 0;font-family:'Newsreader',Georgia,serif;font-size:1.45rem;line-height:1.4}
+.explainer-body{margin:30px 0 0}
+.explainer-body p{margin:0 0 18px;font-size:1.04rem;line-height:1.75}
+.explainer-example,.explainer-takeaway{margin:26px 0 0;padding:20px 24px}
+.explainer-example{background:var(--paper);border:1px solid var(--line)}
+.explainer-takeaway{background:var(--navy);color:#fff}
+.explainer-example h2,.explainer-takeaway h2,.explainer-related h2{margin:0 0 8px;font-size:.7rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase}
+.explainer-example h2{color:var(--gold)}
+.explainer-takeaway h2{color:#d7bb7d}
+.explainer-example p,.explainer-takeaway p{margin:0;font-size:1rem;line-height:1.6}
+.explainer-takeaway p{font-family:'Newsreader',Georgia,serif;font-size:1.2rem}
+.explainer-related{margin:34px 0 0}
+.explainer-related h2{color:var(--muted)}
+.explainer-related div{display:flex;flex-wrap:wrap;gap:10px}
+.explainer-related a{padding:8px 14px;border:1px solid var(--line);color:inherit;font-size:.86rem;font-weight:600;text-decoration:none}
+.explainer-related a:hover,.explainer-related a:focus-visible{border-color:var(--gold);color:var(--gold)}
+
+@media(max-width:900px){.explainer-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.explainer-grid{grid-template-columns:1fr}.explainer-card{min-height:0}}

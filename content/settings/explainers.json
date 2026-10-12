@@ -1,0 +1,217 @@
+{
+  "title": "Explainers",
+  "intro": "Plain-English guides to the language of private markets. Short, jargon-free, and written for readers who want the idea before the ticker.",
+  "note": "Illustrative explainers. Figures in examples are hypothetical.",
+  "terms": [
+    {
+      "slug": "ipo",
+      "term": "IPO",
+      "full": "Initial Public Offering",
+      "short": "The first time a private company sells shares to the general public.",
+      "body": [
+        "An IPO is the moment a private company lists its shares on a public stock exchange for the first time. Before it, only founders, employees and early investors own stock. After it, anyone with a brokerage account can buy in.",
+        "Companies go public to raise large amounts of money, give early backers a way to cash out, and gain visibility. The trade-off is scrutiny: public companies must publish audited results every quarter and answer to shareholders.",
+        "Banks called underwriters help set the offer price and sell shares to institutional investors before trading begins. The first-day price often differs from the offer price, which is why IPO day gets so much attention."
+      ],
+      "example": "A company sells 10 million new shares at $20 each in its IPO and raises $200 million before fees.",
+      "takeaway": "An IPO turns a private company into a public one, with more capital, more liquidity and far more disclosure.",
+      "related": ["direct-listing", "lock-up-period", "spac"]
+    },
+    {
+      "slug": "direct-listing",
+      "term": "Direct Listing",
+      "full": "Direct public offering on an exchange",
+      "short": "A way to go public by listing existing shares, without raising new money.",
+      "body": [
+        "In a direct listing, a company skips the traditional underwriting process. No new shares are created to sell to investors. Instead, existing shareholders, such as employees and early investors, can start selling their shares on the exchange.",
+        "Because there is no book of pre-arranged buyers, the opening price is set by supply and demand on the first morning of trading. Companies that do not need fresh capital sometimes prefer this route because it avoids underwriting fees.",
+        "The downside is less price support. Without underwriters allocating shares to long-term holders, early trading can be more volatile."
+      ],
+      "example": "A profitable software company with plenty of cash lists on an exchange so employees can sell, and raises nothing.",
+      "takeaway": "A direct listing offers liquidity without a capital raise, but with fewer guardrails on the opening price.",
+      "related": ["ipo", "lock-up-period", "secondary-market"]
+    },
+    {
+      "slug": "spac",
+      "term": "SPAC",
+      "full": "Special Purpose Acquisition Company",
+      "short": "A shell company that raises money first, then merges with a private business to take it public.",
+      "body": [
+        "A SPAC is created with one purpose: to merge with a private company. It lists on an exchange as an empty shell, raises cash from public investors, and then has a limited time, usually about two years, to find a target.",
+        "When a deal is announced, the target company effectively becomes public by combining with the SPAC. Investors can usually choose to redeem their shares for their money back instead of staying in the merged company.",
+        "SPACs can be faster than a traditional IPO, and the price is negotiated privately. Critics point to sponsor incentives and the dilution they can create for ordinary shareholders."
+      ],
+      "example": "A SPAC raises $300 million, finds a private battery maker, and merges with it so the battery maker trades publicly.",
+      "takeaway": "A SPAC is a faster, more negotiated route to the public markets, with its own costs and conflicts.",
+      "related": ["ipo", "dilution", "valuation"]
+    },
+    {
+      "slug": "lock-up-period",
+      "term": "Lock-up Period",
+      "full": "Post-IPO selling restriction",
+      "short": "A window after an IPO when insiders are not allowed to sell their shares.",
+      "body": [
+        "After a company goes public, early investors and employees often agree not to sell their shares for a set time, commonly 90 to 180 days. This is the lock-up period.",
+        "The goal is to keep a flood of insider selling from hitting the stock while it is still finding its footing. It also signals that insiders are committed to the company in its first months as a public business.",
+        "When the lock-up ends, a large number of shares can become tradable at once. Investors watch lock-up expiration dates closely because the extra supply can move the stock price."
+      ],
+      "example": "A company lists in March with a 180-day lock-up, so insiders can first sell in September.",
+      "takeaway": "Lock-ups delay insider selling. Their expiry is a date worth marking on the calendar.",
+      "related": ["ipo", "direct-listing", "secondary-market"]
+    },
+    {
+      "slug": "valuation",
+      "term": "Valuation",
+      "full": "What a company is worth",
+      "short": "The price tag placed on an entire company, usually set in a funding round.",
+      "body": [
+        "A valuation is the total value assigned to a company. In a private funding round, it is agreed between the company and its new investors. It is not set by a public market, so it can be harder to verify.",
+        "Two terms matter. Pre-money valuation is the value before new money comes in. Post-money valuation is the pre-money value plus the cash invested. The post-money figure is what most headlines quote.",
+        "A high valuation is not the same as a profitable company. It reflects what investors are willing to pay for expected future growth."
+      ],
+      "example": "If a startup is worth $900 million pre-money and raises $100 million, its post-money valuation is $1 billion.",
+      "takeaway": "A private valuation is a negotiated estimate, not a market price. Always check which kind a headline is quoting.",
+      "related": ["unicorn", "funding-rounds", "down-round"]
+    },
+    {
+      "slug": "unicorn",
+      "term": "Unicorn",
+      "full": "A private company valued at $1 billion or more",
+      "short": "A startup that has reached a valuation of at least a billion dollars.",
+      "body": [
+        "The term was coined in the early 2010s, when a billion-dollar private company seemed as rare as the mythical animal. Today there are hundreds of them.",
+        "Being a unicorn is a statement about the last price investors paid, not about revenue or profit. Some unicorns grow into public giants. Others are later valued far lower.",
+        "You may also hear decacorn, for companies above $10 billion, and hectocorn, for companies above $100 billion."
+      ],
+      "example": "A logistics startup raises money at a $1.2 billion valuation and is described as a unicorn.",
+      "takeaway": "Unicorn status is a milestone of valuation, not a guarantee of success.",
+      "related": ["valuation", "funding-rounds", "ipo"]
+    },
+    {
+      "slug": "funding-rounds",
+      "term": "Funding Rounds",
+      "full": "Seed, Series A, B, C and beyond",
+      "short": "The stages in which a private company raises money from investors as it grows.",
+      "body": [
+        "Companies rarely raise all their money at once. They raise in rounds, each one typically at a higher valuation if the business is working.",
+        "Seed rounds fund the earliest ideas. Series A, B and C rounds follow as the company proves its product, scales sales and expands. Later rounds, sometimes called growth or late-stage rounds, can be very large and may come before an IPO.",
+        "Each round sells new shares, so earlier shareholders own a smaller slice of a hopefully bigger company."
+      ],
+      "example": "A startup raises a $3 million seed round, then a $15 million Series A, then a $60 million Series B.",
+      "takeaway": "Rounds mark a company's progress. Each one trades some ownership for the capital to grow.",
+      "related": ["valuation", "dilution", "venture-capital"]
+    },
+    {
+      "slug": "cap-table",
+      "term": "Cap Table",
+      "full": "Capitalization table",
+      "short": "A record of who owns what share of a company.",
+      "body": [
+        "A cap table lists every owner of a company, including founders, employees with stock options, and each group of investors, along with how many shares or what percentage each holds.",
+        "It matters because it shows who benefits when the company is sold or goes public, and how ownership changes with every new round. Investors study it carefully before they write a check.",
+        "Cap tables can be complex. Different share classes may carry different rights, such as getting paid first if the company is sold."
+      ],
+      "example": "After a funding round, founders hold 55 percent, investors 35 percent and an employee option pool 10 percent.",
+      "takeaway": "The cap table is the ownership map of a private company. It explains who gets what.",
+      "related": ["dilution", "funding-rounds", "venture-capital"]
+    },
+    {
+      "slug": "secondary-market",
+      "term": "Secondary Market",
+      "full": "Trading of existing private shares",
+      "short": "Where existing shareholders sell private-company shares to other buyers.",
+      "body": [
+        "In a primary sale, a company issues new shares and receives the money. In a secondary sale, an existing shareholder sells shares they already own, and the company receives nothing.",
+        "Secondary markets give employees and early investors a way to get liquidity before an IPO. They also let new investors buy into well-known private companies, usually at negotiated prices and with transfer restrictions.",
+        "Prices on the secondary market can be above or below the last funding round, which makes them a useful signal of demand."
+      ],
+      "example": "A former employee sells vested shares to an investment fund at a discount to the latest round price.",
+      "takeaway": "The secondary market is the main way private shares change hands before a company goes public.",
+      "related": ["tender-offer", "spv", "accredited-investor"]
+    },
+    {
+      "slug": "tender-offer",
+      "term": "Tender Offer",
+      "full": "A company-organized buyback or share purchase",
+      "short": "An organized event where a company or investor offers to buy shares from holders.",
+      "body": [
+        "A tender offer is a formal invitation to shareholders to sell some of their shares at a stated price during a set window.",
+        "Private companies use them to give employees and early investors liquidity without going public. The buyer may be the company itself or an outside investor.",
+        "Tender offers often set a price that reflects a recent valuation, and the company usually controls who can participate and how much they can sell."
+      ],
+      "example": "A company invites employees to sell up to 20 percent of their vested shares to a group of new investors.",
+      "takeaway": "A tender offer is a controlled, one-time chance to sell private shares.",
+      "related": ["secondary-market", "cap-table", "valuation"]
+    },
+    {
+      "slug": "spv",
+      "term": "SPV",
+      "full": "Special Purpose Vehicle",
+      "short": "A separate legal entity set up to hold a single investment on behalf of many investors.",
+      "body": [
+        "An SPV is a small company created for one purpose, such as holding shares in a single private business. Investors buy into the SPV, and the SPV owns the shares.",
+        "This lets a group of investors pool money to access a deal that would be too large or too complicated for each to do alone, and keeps the company's own cap table simpler.",
+        "SPVs often add fees and layers. The investors own a stake in the vehicle, not the shares directly, so the terms of the SPV matter."
+      ],
+      "example": "Fifty investors each put in $50,000 to an SPV, which buys $2.5 million of a private company's stock.",
+      "takeaway": "An SPV is a pooling tool. Check the fees and the terms before you invest through one.",
+      "related": ["secondary-market", "accredited-investor", "cap-table"]
+    },
+    {
+      "slug": "venture-capital",
+      "term": "Venture Capital",
+      "full": "Investing in early-stage companies",
+      "short": "Money from investors who back young, high-growth companies in exchange for ownership.",
+      "body": [
+        "Venture capital firms raise money from institutions and wealthy individuals, then invest it in startups with the potential to grow very large.",
+        "Most venture investments fail or return little. A few big winners are expected to produce the bulk of the returns, which is why venture investors seek out companies that could become dominant in their field.",
+        "Beyond cash, venture investors often provide introductions, hiring help and board oversight."
+      ],
+      "example": "A venture firm invests $10 million in a young software company in return for 20 percent ownership.",
+      "takeaway": "Venture capital funds growth by accepting that most bets will not pay off.",
+      "related": ["funding-rounds", "dilution", "unicorn"]
+    },
+    {
+      "slug": "down-round",
+      "term": "Down Round",
+      "full": "A funding round at a lower valuation",
+      "short": "A round where a company raises money at a lower valuation than its previous one.",
+      "body": [
+        "A down round happens when new investors value the company at less than the last round did. It often reflects slower growth, a weaker market, or a valuation that had run ahead of the business.",
+        "It can be painful. Existing shareholders see the value of their stake mark down, and some investment contracts include protections that give earlier investors extra shares to offset the drop.",
+        "A down round is not always a sign of failure. Companies can recover, and some raise money this way to survive a difficult stretch."
+      ],
+      "example": "A company valued at $2 billion last year raises new funds at a $1.4 billion valuation.",
+      "takeaway": "A down round resets expectations. It hurts, but it is not always the end of the story.",
+      "related": ["valuation", "dilution", "funding-rounds"]
+    },
+    {
+      "slug": "dilution",
+      "term": "Dilution",
+      "full": "The shrinking of an ownership percentage",
+      "short": "What happens to your ownership share when a company issues new shares.",
+      "body": [
+        "When a company creates new shares, for example in a funding round or to grant employee options, each existing share represents a smaller percentage of the company.",
+        "Dilution is not automatically bad. If the new money helps the company grow, a smaller slice of a bigger pie can be worth more than a larger slice of a small one.",
+        "It becomes a problem when new shares are issued at a lower valuation or too frequently, shrinking returns for earlier holders."
+      ],
+      "example": "An investor owns 10 percent of a company. After it issues new shares worth 20 percent of the total, the investor owns about 8 percent.",
+      "takeaway": "Dilution reduces your percentage. Whether it hurts depends on how much value the new money creates.",
+      "related": ["cap-table", "funding-rounds", "down-round"]
+    },
+    {
+      "slug": "accredited-investor",
+      "term": "Accredited Investor",
+      "full": "A person or entity allowed to invest in private deals",
+      "short": "An investor who meets income or wealth tests set by regulators to buy private securities.",
+      "body": [
+        "Many private investment opportunities are limited to accredited investors. In the United States, the rules are set by the securities regulator and are based on factors such as income, net worth or professional credentials.",
+        "The idea is that private deals carry more risk and less disclosure than public stocks, so access is limited to people considered better able to absorb a loss.",
+        "Requirements change over time and vary by country, so anyone considering a private investment should check the current rules that apply to them."
+      ],
+      "example": "A fund offering shares in a private company asks each investor to confirm they meet the accredited investor test.",
+      "takeaway": "Accreditation is the gate to many private deals. It exists to limit risk, not to guarantee returns.",
+      "related": ["spv", "secondary-market", "venture-capital"]
+    }
+  ]
+}
