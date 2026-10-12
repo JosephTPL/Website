@@ -195,6 +195,16 @@
       moving = false;
     });
   });
+  document.querySelectorAll('[data-theme-toggle]').forEach(button => {
+    const sync = () => button.setAttribute('aria-label', document.documentElement.getAttribute('data-theme') === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+    sync();
+    button.addEventListener('click', () => {
+      const dark = document.documentElement.getAttribute('data-theme') !== 'dark';
+      if (dark) document.documentElement.setAttribute('data-theme', 'dark'); else document.documentElement.removeAttribute('data-theme');
+      try { localStorage.setItem('theme', dark ? 'dark' : 'light'); } catch (error) {}
+      sync();
+    });
+  });
   document.querySelectorAll('[data-login-menu]').forEach(menu => {
     const button = menu.querySelector('.login-toggle');
     const panel = menu.querySelector('.login-panel');
