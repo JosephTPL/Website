@@ -445,10 +445,10 @@ def landing_markup():
   company_cards.append(f'<a href="/companies/{E(slug)}/">{logo_markup}<span>{E(company["name"])}</span></a>')
  hero_images=''.join(image(record,'landing-art-piece') for record in (spacex,databricks,saronic) if record)
  readers=[
-  ('Harvard','harvard.edu'),('Citi','citi.com'),('UofT','utoronto.ca'),('Intel','intel.com'),
-  ('Princeton','princeton.edu'),('HSBC','hsbc.com'),('Cornell','cornell.edu'),
-  ('Schonfeld','schonfeld.com'),('Stanford','stanford.edu'),('Freddie Mac','freddiemac.com'),('Penn','upenn.edu'),
-  ('NYU Stern','stern.nyu.edu'),('Sacra','sacra.com'),('Crusoe','crusoe.ai')
+  ('Harvard','harvard.edu'),('Citi','citi.com'),('Databricks','databricks.com'),('Princeton','princeton.edu'),
+  ('Intel','intel.com'),('Stanford','stanford.edu'),('Crusoe','crusoe.ai'),('UofT','utoronto.ca'),
+  ('HSBC','hsbc.com'),('Cornell','cornell.edu'),('Schonfeld','schonfeld.com'),('Freddie Mac','freddiemac.com'),
+  ('Penn','upenn.edu'),('NYU Stern','stern.nyu.edu'),('Sacra','sacra.com')
  ]
  reader_cards=''.join(f'<div><img src="https://www.google.com/s2/favicons?domain={E(domain)}&amp;sz=128" alt="{E(name)} logo" loading="lazy"><span>{E(name)}</span></div>' for name,domain in readers)
  return f'''<section class="landing-home" aria-label="The Private Ledger">
