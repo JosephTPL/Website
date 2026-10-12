@@ -201,6 +201,15 @@ main{margin-top:var(--topbar-height);margin-left:238px;padding:46px 54px 0;max-w
 .login-panel a+a{border-top:1px solid #e6e0d3}
 .login-panel a:hover,.login-panel a:focus-visible{background:#f3efe6;color:#78521f}
 @media(max-width:700px){.login-toggle{font-size:12px;padding:7px 12px}}
+/* Compact article headings and citations. */
+.article-body h2{font-size:1.65rem;line-height:1.25;margin:26px 0 10px}
+.article-body h3{font-size:1.3rem;line-height:1.3;margin:22px 0 8px}
+.article-body .footnote{display:flex;align-items:baseline;gap:10px;padding:7px 0}
+.article-body .footnote-number{flex:0 0 auto;min-width:1.4em}
+.article-body .footnote-content{flex:1;min-width:0}
+.article-body .footnote-content p{margin:0 0 3px;line-height:1.5}
+.article-body .footnote-content p:last-child{margin-bottom:0}
+@media(min-width:701px){.article-head h1{font-size:clamp(2.3rem,3.8vw,3.9rem);line-height:1.05}}
 .valuation-tooltip a{display:block;margin-top:8px;color:#e3bf79;font-size:.72rem;pointer-events:auto}.ledger-filters{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 24px}.ledger-filter{border:1px solid #cfc8bb;background:#fff;color:#3e515b;padding:8px 12px;font:600 .72rem/1 'Source Sans 3',sans-serif;letter-spacing:.05em;cursor:pointer}.ledger-filter[aria-pressed="true"],.ledger-filter:hover{background:#173549;border-color:#173549;color:#fff}.ledger-valuation-filter{margin-left:auto;color:#61707a;font:600 .72rem/1 'Source Sans 3',sans-serif}.ledger-valuation-filter select{margin-left:6px;border:1px solid #cfc8bb;background:#fff;padding:7px;color:#3e515b}.ledger-grid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.ledger-label{grid-column:1/-1;margin:22px 0 0;padding-bottom:10px;border-bottom:1px solid #d8d1c4;color:#876127;font-size:.75rem;letter-spacing:.1em}.ledger-card{min-width:0;border:1px solid #dcd6ca;background:#fff}.ledger-card-link{display:grid;grid-template-columns:48px minmax(0,1fr);gap:14px;align-items:center;min-height:94px;padding:18px;color:inherit;text-decoration:none}.ledger-card img{width:44px;height:44px;object-fit:contain;border-radius:8px}.ledger-card img.dark-logo{background:#101927}.ledger-card h2{margin:0 0 5px;color:#10283a;font:600 1.15rem/1.1 'Newsreader',Georgia,serif}.ledger-card p{margin:0;color:#61707a;font-size:.76rem}.ledger-card strong{display:block;margin-top:7px;color:#163a4d;font-size:.85rem}@media(max-width:800px){.ledger-grid{grid-template-columns:repeat(2,minmax(0,1fr)}.ledger-valuation-filter{margin-left:0;width:100%}}@media(max-width:560px){.ledger-grid{grid-template-columns:1fr}}
 /* A reported target is visually distinct from a closed valuation event. */
 .weekly-chart .weekly-chart-line--reported{stroke-dasharray:10 9}.weekly-chart .weekly-chart-point--reported{fill:#101927;stroke:#e3b04f;stroke-width:4}
