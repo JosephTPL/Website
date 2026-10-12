@@ -740,8 +740,8 @@ explainers=read('content/settings/explainers.json')
 explainers_css_version=hashlib.sha256((ROOT/'assets'/'explainers.css').read_bytes()).hexdigest()[:12]
 explainer_by_slug={item['slug']:item for item in explainers['terms']}
 def explainers_index_markup():
- cards=''.join(f'<a class="explainer-card" href="/explainers/{E(item["slug"])}/"><span class="explainer-card-num">{index:02d}</span><h2>{E(item["term"])}</h2><p>{E(item["short"])}</p><span class="explainer-card-more">Read the explainer</span></a>' for index,item in enumerate(explainers['terms'],1))
- return f'<section class="explainers"><header class="explainers-head"><h1>{E(explainers["title"])}</h1><p class="explainers-intro">{E(explainers["intro"])}</p></header><div class="explainer-grid">{cards}</div><p class="explainers-note">{E(explainers["note"])}</p></section>'
+ rows=''.join(f'<tr><td class="ex-num">{index:02d}</td><th scope="row"><a href="/explainers/{E(item["slug"])}/">{E(item["term"])}</a></th><td class="ex-full">{E(item["full"])}</td><td class="ex-short">{E(item["short"])}</td><td class="ex-go" aria-hidden="true">Read</td></tr>' for index,item in enumerate(explainers['terms'],1))
+ return f'<section class="explainers"><header class="explainers-head"><h1>{E(explainers["title"])}</h1><p class="explainers-intro">{E(explainers["intro"])}</p></header><table class="explainer-chart"><thead><tr><th scope="col">No.</th><th scope="col">Term</th><th scope="col">Stands for</th><th scope="col">In one line</th><th scope="col"><span class="visually-hidden">Open</span></th></tr></thead><tbody>{rows}</tbody></table><p class="explainers-note">{E(explainers["note"])}</p></section>'
 def explainer_markup(item):
  paragraphs=''.join(f'<p>{E(text)}</p>' for text in item['body'])
  related=''.join(f'<a href="/explainers/{E(slug)}/">{E(explainer_by_slug[slug]["term"])}</a>' for slug in item['related'])
