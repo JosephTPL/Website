@@ -205,6 +205,15 @@
       sync();
     });
   });
+  document.querySelectorAll('[data-noop]').forEach(item => item.addEventListener('click', event => event.preventDefault()));
+  document.querySelectorAll('[data-login-form]').forEach(form => form.addEventListener('submit', event => event.preventDefault()));
+  document.querySelectorAll('[data-show-password]').forEach(button => button.addEventListener('click', () => {
+    const input = document.getElementById(button.getAttribute('aria-controls'));
+    const show = input.type === 'password';
+    input.type = show ? 'text' : 'password';
+    button.textContent = show ? 'Hide' : 'Show';
+    button.setAttribute('aria-pressed', String(show));
+  }));
   document.querySelectorAll('[data-login-menu]').forEach(menu => {
     const button = menu.querySelector('.login-toggle');
     const panel = menu.querySelector('.login-panel');
