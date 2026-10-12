@@ -1,3 +1,12 @@
+TODO:
+- Link Previews
+- Login + Paywall
+- Calculators
+- Chart generator
+- Lessons
+- AI to look for, verify listing accuracy
+- Feature matrix
+
 # The Private Ledger
 
 A static publication with articles, 60-second briefs, company profiles, search, saved articles, and an editor configuration for Pages CMS. Content is stored in GitHub; no database or API key is required to build the website.
