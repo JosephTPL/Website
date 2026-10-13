@@ -6,6 +6,7 @@
   "summary": "Vercel runs a cloud platform for deploying websites and web apps, and maintains Next.js and the v0 AI interface builder.",
   "overview": "<p>Vercel provides a frontend cloud for deploying and scaling web applications, and develops the Next.js framework and v0 AI app builder.</p>",
   "as_of": "2026-09-29",
+  "human_verified_at": "2026-10-13",
   "report": "",
   "facts": [
     {
