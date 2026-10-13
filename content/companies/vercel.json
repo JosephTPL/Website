@@ -47,9 +47,9 @@
         "note": "Series F, led by Accel and GIC"
       },
       {
-        "value": "$340M",
+        "value": "$600M",
         "label": "Annualized revenue",
-        "note": "February 2026, as reported"
+        "note": "As reported by Sacra"
       },
       {
         "value": "Private",
@@ -59,7 +59,7 @@
     ],
     "company": [
       "Vercel was founded in 2015 by Guillermo Rauch. It created Next.js, one of the most widely used web frameworks, and sells a cloud platform that deploys and scales web applications. Its v0 product uses AI to generate interfaces and apps.",
-      "In September 2025 Vercel raised a $300 million Series F led by Accel and GIC at a $9.3 billion valuation, up from $3.25 billion in May 2024. Annualized revenue was reported at about $340 million in February 2026, roughly double a year earlier."
+      "In September 2025 Vercel raised a $300 million Series F led by Accel and GIC at a $9.3 billion valuation, up from $3.25 billion in May 2024. Sacra reports annualized revenue of about $600 million."
     ],
     "why_it_matters": "Vercel sits where web development and AI-generated software meet, and its growth is a read-through for how AI changes the way apps are built and hosted.",
     "changed": [
@@ -79,7 +79,7 @@
     "takeaways": [
       "Next.js gives Vercel a large developer funnel.",
       "AI app generation through v0 is a new growth driver.",
-      "Revenue roughly doubled year over year, as reported.",
+      "Sacra reports annualized revenue of about $600M.",
       "Hosting depends on underlying cloud providers, which affects margins."
     ],
     "quick_facts": [
