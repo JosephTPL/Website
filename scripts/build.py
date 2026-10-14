@@ -616,6 +616,8 @@ spvs_script_version=hashlib.sha256((OUT/'spvs.js').read_bytes()).hexdigest()[:12
 # remain available at their own stable archive URLs.
 s=shell('home','The companies you can’t buy. The research you can.','Independent research on the private companies shaping public markets.','/')
 s.body['data-page-view']='home';configure_nav(s,'home')
+explainer_nav=s.select_one('nav[aria-label="Primary"] a[data-view="explainers"]')
+if explainer_nav:explainer_nav.decompose()
 for selector in ['.landing-hero','.page-heading','.start-here','.continue-reading','.controls','#research-grid','.empty','.subscribe-panel','#about']:
  for el in list(s.select(selector)):
   container=el.find_parent('section') if selector in ('#research-grid','.empty') else el
