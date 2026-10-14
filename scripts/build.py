@@ -236,6 +236,13 @@ for a in articles.values():
   if not preview_end or not body_text.endswith(preview_end):
    raise ValueError(f'Members-only article {a["title"]} contains paid content; trim it to the approved free preview boundary.')
  a['minutes']=int(a.get('minutes') or max(1,round(len(soup(a['body']).get_text(' ',strip=True).split())/220)));a['url']='/articles/'+a['slug']+'/'
+
+def article_destination(article):
+ return article.get('original_url') or article['url']
+
+def article_link_attributes(article):
+ return ' rel="noopener"' if article.get('original_url') else ''
+
 ordered=sorted(articles.values(),key=lambda a:(a['date'],a['title']),reverse=True)
 
 def date_text(value):return datetime.strptime(value[:10],'%Y-%m-%d').strftime('%b %d, %Y').replace(' 0',' ')
@@ -259,7 +266,8 @@ def intelligence_profile(c):
  sources=''.join(f'<li><a href="{E(item["url"])}">{E(item["label"])} <span>↗</span></a></li>' for item in d['sources'])
  logo=f'<img src="{E(d["logo"])}" alt="{E(c["name"])} logo" loading="lazy">' if d.get('logo') else ''
  logo_class=' intelligence-logo-dark' if c['name'].casefold() in ('long lake','neros','revel','ricursive') else ''
- report_link=f'<a class="company-report-link" href="{E(articles[c["report"]]["url"])}">Go to full article <span aria-hidden="true">→</span></a>' if c.get('report') in articles else ''
+ report=articles.get(c.get('report'))
+ report_link=f'<a class="company-report-link" href="{E(article_destination(report))}"{article_link_attributes(report)}>Read on Substack <span aria-hidden="true">↗</span></a>' if report else ''
  return f'''<section class="intelligence-profile">
  <header class="intelligence-header"><div><h1>{E(c["name"])}</h1><p class="intelligence-meta">{E(c["sector"])} <span>·</span> {E(d["location"])} <span>·</span> {E(c.get("company_status", d["status"]).replace("_", " ").title())}</p><p class="intelligence-description">{E(d["description"])}</p></div><div class="intelligence-logo{logo_class}"><div class="intelligence-logo-identity">{logo}<strong>{E(c["name"])}</strong></div>{report_link}</div></header>
  <section class="intelligence-metrics">{metrics}</section>
@@ -432,14 +440,14 @@ def landing_markup():
   name=record.get('card_title') or record['title']
   return f'<img class="{classes}" src="{E(record["cover_image"])}" alt="{E(record.get("cover_alt",name))}" loading="lazy">'
  def title(record):return record.get('card_title') or record['title']
- def link(record,label='Read the research →'):
-  return f'<a class="landing-read-link" href="{E(record["url"])}">{E(label)}</a>'
+ def link(record,label='Read on Substack ↗'):
+  return f'<a class="landing-read-link" href="{E(article_destination(record))}"{article_link_attributes(record)}>{E(label)}</a>'
  def feature(record):
-  return f'''<article class="landing-feature-card"><a class="landing-feature-image" href="{E(record['url'])}" aria-label="Read {E(title(record))}">{image(record)}</a><p>{E(record['sector'])}</p><h3><a href="{E(record['url'])}">{E(title(record))}</a></h3><div class="landing-feature-meta"><span>{E(record['summary'])}</span><span>{record['minutes']} min read</span></div>{link(record)}</article>'''
+  return f'''<article class="landing-feature-card"><a class="landing-feature-image" href="{E(article_destination(record))}"{article_link_attributes(record)} aria-label="Read {E(title(record))} on Substack">{image(record)}</a><p>{E(record['sector'])}</p><h3><a href="{E(article_destination(record))}"{article_link_attributes(record)}>{E(title(record))}</a></h3><div class="landing-feature-meta"><span>{E(record['summary'])}</span><span>{record['minutes']} min read</span></div>{link(record)}</article>'''
  def compact(record):
-  return f'''<article class="landing-compact-card"><a class="landing-compact-image" href="{E(record['url'])}" aria-label="Read {E(title(record))}">{image(record)}</a><div><p>{E(record['sector'])}</p><h3><a href="{E(record['url'])}">{E(title(record))}</a></h3><span>{E(record['summary'])}</span>{link(record, 'Read the research →')}</div></article>'''
+  return f'''<article class="landing-compact-card"><a class="landing-compact-image" href="{E(article_destination(record))}"{article_link_attributes(record)} aria-label="Read {E(title(record))} on Substack">{image(record)}</a><div><p>{E(record['sector'])}</p><h3><a href="{E(article_destination(record))}"{article_link_attributes(record)}>{E(title(record))}</a></h3><span>{E(record['summary'])}</span>{link(record)}</div></article>'''
  def popular(record):
-  return f'''<article class="landing-popular-card"><a href="{E(record['url'])}" aria-label="Read {E(title(record))}">{image(record)}</a><p>{E(record['sector'])}</p><h3><a href="{E(record['url'])}">{E(title(record))}</a></h3><span class="landing-popular-summary">{E(record['summary'])}</span>{link(record, 'Read →')}</article>'''
+  return f'''<article class="landing-popular-card"><a href="{E(article_destination(record))}"{article_link_attributes(record)} aria-label="Read {E(title(record))} on Substack">{image(record)}</a><p>{E(record['sector'])}</p><h3><a href="{E(article_destination(record))}"{article_link_attributes(record)}>{E(title(record))}</a></h3><span class="landing-popular-summary">{E(record['summary'])}</span>{link(record)}</article>'''
  spacex=article('the-breakdown-spacex')
  databricks=article('the-breakdown-databricks')
  anduril=article('the-breakdown-anduril')
@@ -459,7 +467,7 @@ def landing_markup():
   logo=company.get('intelligence',{}).get('logo','')
   logo_markup=f'<img src="{E(logo)}" alt="{E(company["name"])} logo" loading="lazy">' if logo else ''
   company_cards.append(f'<a href="/companies/{E(slug)}/">{logo_markup}<span>{E(company["name"])}</span></a>')
- hero_images=''.join(f'<a class="landing-art-piece" href="{E(record["url"])}" aria-label="{E(title(record))}">{image(record)}</a>' for record in (spacex,databricks,saronic) if record)
+ hero_images=''.join(f'<a class="landing-art-piece" href="{E(article_destination(record))}"{article_link_attributes(record)} aria-label="Read {E(title(record))} on Substack">{image(record)}</a>' for record in (spacex,databricks,saronic) if record)
  readers=[
   ('Harvard','harvard.edu'),('Citi','citi.com'),('Databricks','databricks.com'),('Princeton','princeton.edu'),
   ('Intel','intel.com'),('Stanford','stanford.edu'),('Crusoe','crusoe.ai'),('UofT','utoronto.ca'),
@@ -641,8 +649,9 @@ grid=s.select_one('#research-grid');grid.clear()
 for i,a in enumerate(ordered):
  name=a.get('card_title') or a['title'];img=f'<img src="{E(a["cover_image"])}" alt="{E(a.get("cover_alt",name))}" loading="lazy" decoding="async">' if a.get('cover_image') else ''
  kind='General articles' if a['sector']=='Insights' else 'Deep dive';member='<span class="member-label">Members only</span>' if a.get('excerpt') else ''
- cta='Read article →' if kind=='General articles' else 'Begin with the breakdown →'
- markup=f'''<article class="card" data-slug="{a['slug']}" data-sector="{E(a['sector'])}" data-kind="{E(kind)}" data-order="{i}" data-name="{E(name)}" data-search="{E(name+' '+a['summary']+' '+a['sector'])}"><a class="card-cover cover-refined" href="{a['url']}" aria-label="Read {E(name)}">{img}<span class="cover-caption">{E(settings['site_name'].upper())}</span></a><div class="card-content"><div class="research-labels"><span class="sector-inline">{E(kind if kind=='General articles' else a['sector'])}</span>{member}</div><h3><a href="{a['url']}">{E(name)}</a></h3><p class="description">{E(a['summary'])}</p><div class="card-meta"><span>{date_text(a['date'])}</span><span>{a['minutes']} min</span></div><a class="read-button" href="{a['url']}">{cta}</a><button class="card-save" type="button" data-save="{a['slug']}" aria-pressed="false">Save for later</button></div></article>'''
+ cta='Read on Substack ↗'
+ destination=article_destination(a);link_attributes=article_link_attributes(a)
+ markup=f'''<article class="card" data-slug="{a['slug']}" data-sector="{E(a['sector'])}" data-kind="{E(kind)}" data-order="{i}" data-name="{E(name)}" data-search="{E(name+' '+a['summary']+' '+a['sector'])}"><a class="card-cover cover-refined" href="{E(destination)}"{link_attributes} aria-label="Read {E(name)} on Substack">{img}<span class="cover-caption">{E(settings['site_name'].upper())}</span></a><div class="card-content"><div class="research-labels"><span class="sector-inline">{E(kind if kind=='General articles' else a['sector'])}</span>{member}</div><h3><a href="{E(destination)}"{link_attributes}>{E(name)}</a></h3><p class="description">{E(a['summary'])}</p><div class="card-meta"><span>{date_text(a['date'])}</span><span>{a['minutes']} min</span></div><a class="read-button" href="{E(destination)}"{link_attributes}>{cta}</a><button class="card-save" type="button" data-save="{a['slug']}" aria-pressed="false">Save for later</button></div></article>'''
  put(grid,markup)
 write(s,'/research/')
 
@@ -688,7 +697,7 @@ for a in ordered:
  related=s.select_one('.related-grid');related.clear()
  picks=[articles[k] for k in a.get('related',[]) if k in articles and k!=a['slug']]
  if not picks:picks=[other for other in ordered if other['slug']!=a['slug'] and other['sector']==a['sector']][:3]
- for other in picks:put(related,f'<a class="related-card" href="{other["url"]}"><span>{E(other["sector"])}</span><h3>{E(other.get("card_title") or other["title"])}</h3><p>{E(other["summary"])}</p></a>')
+ for other in picks:put(related,f'<a class="related-card" href="{E(article_destination(other))}"{article_link_attributes(other)}><span>{E(other["sector"])}</span><h3>{E(other.get("card_title") or other["title"])}</h3><p>{E(other["summary"])}</p></a>')
  if not picks:s.select_one('.related')['hidden']=''
  schema={'@context':'https://schema.org','@type':'Article','headline':a['title'],'description':a['summary'],'datePublished':a['date'],'mainEntityOfPage':base+a['url'],'author':{'@type':'Organization','name':settings['site_name']}}
  put(s.head,'<script type="application/ld+json">'+json.dumps(schema).replace('<','\\u003c')+'</script>');write(s,a['url'])
@@ -705,7 +714,9 @@ for company in companies.values():
   paper=main.select_one('article')
   if company.get('image'):put(paper,f'<img class="profile-image" src="{E(company["image"])}" alt="{E(company.get("image_alt",company["name"]))}" loading="lazy">')
   put(paper,'<div class="article-body">'+str(clean(company.get('overview','')))+'</div><section class="facts">'+facts(company)+'</section>')
-  if company.get('report') in articles:put(paper,f'<a class="primary-button" href="{articles[company["report"]]["url"]}">Read the company breakdown →</a>')
+  if company.get('report') in articles:
+   report=articles[company['report']]
+   put(paper,f'<a class="primary-button" href="{E(article_destination(report))}"{article_link_attributes(report)}>Read on Substack ↗</a>')
   put(paper,human_verification(company))
  main.append(subscribe);main.append(footer);write(s,route)
 
