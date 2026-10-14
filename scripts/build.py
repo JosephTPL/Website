@@ -477,7 +477,7 @@ def landing_markup():
   ('Penn','upenn.edu'),('NYU Stern','stern.nyu.edu'),('Sacra','sacra.com')
  ]
  reader_cards=''.join(f'<div><img src="https://www.google.com/s2/favicons?domain={E(domain)}&amp;sz=128" alt="{E(name)} logo" loading="lazy"><span>{E(name)}</span></div>' for name,domain in readers)
- return f'''<section class="landing-home" aria-label="The Private Ledger">
+ return f'''<style>.landing-company-divider{{display:none}}@media(max-width:700px){{.landing-company-divider{{display:block;height:1px;background:#dcd6ca}}.landing-company-row .landing-scroll-rail{{margin-top:0}}}}</style><section class="landing-home" aria-label="The Private Ledger">
  <h1 class="sr-only">The Private Ledger</h1>
  <section class="landing-home-hero"><div class="landing-home-copy"><p>Independent research on the world’s most important private companies, before they reach the public markets.</p><div class="landing-home-actions"><a class="landing-home-primary" href="/research/">Explore the research</a><a class="landing-home-secondary" href="{E(settings['subscribe_url'])}" rel="noopener">Subscribe</a></div></div><div class="landing-home-art">{hero_images}</div></section>
  <p class="landing-home-trust">Independent. In-depth. Before the IPO.</p>
