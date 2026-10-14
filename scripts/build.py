@@ -359,8 +359,6 @@ def configure_nav(s,active):
  for about_link in nav.select('a[href="/about/"]'):about_link.decompose()
  ipo=soup('<a data-view="ipo" href="/ipo-calendar/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M16 3v4M8 3v4M3 10h18"></path></svg>IPO calendar</a>').a
  (companies_link or research).insert_after(ipo)
- explainers_link=soup('<a data-view="explainers" href="/explainers/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5z"></path><path d="M4 19V5.5M8 7h8M8 11h6"></path></svg>Explainers</a>').a
- ipo.insert_before(explainers_link)
  home.decompose()
  for link in nav.select('a'):
   link.attrs.pop('aria-current',None)
@@ -616,8 +614,6 @@ spvs_script_version=hashlib.sha256((OUT/'spvs.js').read_bytes()).hexdigest()[:12
 # remain available at their own stable archive URLs.
 s=shell('home','The companies you can’t buy. The research you can.','Independent research on the private companies shaping public markets.','/')
 s.body['data-page-view']='home';configure_nav(s,'home')
-explainer_nav=s.select_one('nav[aria-label="Primary"] a[data-view="explainers"]')
-if explainer_nav:explainer_nav.decompose()
 for selector in ['.landing-hero','.page-heading','.start-here','.continue-reading','.controls','#research-grid','.empty','.subscribe-panel','#about']:
  for el in list(s.select(selector)):
   container=el.find_parent('section') if selector in ('#research-grid','.empty') else el
