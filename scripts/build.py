@@ -243,6 +243,10 @@ def article_destination(article):
 def article_link_attributes(article):
  return ' rel="noopener"' if article.get('original_url') else ''
 
+def article_access_label(article):
+ access='Paid' if article['slug'] in {'the-breakdown-databricks','the-breakdown-spacex'} else 'Free'
+ return f'<span class="access-label access-label--{access.lower()}">{access}</span>'
+
 ordered=sorted(articles.values(),key=lambda a:(a['date'],a['title']),reverse=True)
 
 def date_text(value):return datetime.strptime(value[:10],'%Y-%m-%d').strftime('%b %d, %Y').replace(' 0',' ')
@@ -443,11 +447,11 @@ def landing_markup():
  def link(record,label='Read on Substack ↗'):
   return f'<a class="landing-read-link" href="{E(article_destination(record))}"{article_link_attributes(record)}>{E(label)}</a>'
  def feature(record):
-  return f'''<article class="landing-feature-card"><a class="landing-feature-image" href="{E(article_destination(record))}"{article_link_attributes(record)} aria-label="Read {E(title(record))} on Substack">{image(record)}</a><p>{E(record['sector'])}</p><h3><a href="{E(article_destination(record))}"{article_link_attributes(record)}>{E(title(record))}</a></h3><div class="landing-feature-meta"><span>{E(record['summary'])}</span><span>{record['minutes']} min read</span></div>{link(record)}</article>'''
+  return f'''<article class="landing-feature-card"><a class="landing-feature-image" href="{E(article_destination(record))}"{article_link_attributes(record)} aria-label="Read {E(title(record))} on Substack">{image(record)}</a><div class="landing-title-row"><h3><a href="{E(article_destination(record))}"{article_link_attributes(record)}>{E(title(record))}</a></h3><div class="landing-labels"><span class="sector-inline">{E(record['sector'])}</span>{article_access_label(record)}</div></div><div class="landing-feature-meta"><span>{E(record['summary'])}</span><span>{record['minutes']} min read</span></div>{link(record)}</article>'''
  def compact(record):
-  return f'''<article class="landing-compact-card"><a class="landing-compact-image" href="{E(article_destination(record))}"{article_link_attributes(record)} aria-label="Read {E(title(record))} on Substack">{image(record)}</a><div><p>{E(record['sector'])}</p><h3><a href="{E(article_destination(record))}"{article_link_attributes(record)}>{E(title(record))}</a></h3><span>{E(record['summary'])}</span>{link(record)}</div></article>'''
+  return f'''<article class="landing-compact-card"><a class="landing-compact-image" href="{E(article_destination(record))}"{article_link_attributes(record)} aria-label="Read {E(title(record))} on Substack">{image(record)}</a><div><div class="landing-title-row"><h3><a href="{E(article_destination(record))}"{article_link_attributes(record)}>{E(title(record))}</a></h3><div class="landing-labels"><span class="sector-inline">{E(record['sector'])}</span>{article_access_label(record)}</div></div><span>{E(record['summary'])}</span>{link(record)}</div></article>'''
  def popular(record):
-  return f'''<article class="landing-popular-card"><a href="{E(article_destination(record))}"{article_link_attributes(record)} aria-label="Read {E(title(record))} on Substack">{image(record)}</a><p>{E(record['sector'])}</p><h3><a href="{E(article_destination(record))}"{article_link_attributes(record)}>{E(title(record))}</a></h3><span class="landing-popular-summary">{E(record['summary'])}</span>{link(record)}</article>'''
+  return f'''<article class="landing-popular-card"><a href="{E(article_destination(record))}"{article_link_attributes(record)} aria-label="Read {E(title(record))} on Substack">{image(record)}</a><div class="landing-title-row"><h3><a href="{E(article_destination(record))}"{article_link_attributes(record)}>{E(title(record))}</a></h3><div class="landing-labels"><span class="sector-inline">{E(record['sector'])}</span>{article_access_label(record)}</div></div><span class="landing-popular-summary">{E(record['summary'])}</span>{link(record)}</article>'''
  spacex=article('the-breakdown-spacex')
  databricks=article('the-breakdown-databricks')
  anduril=article('the-breakdown-anduril')
@@ -648,10 +652,10 @@ s.select_one('.page-heading').insert_after(tabs)
 grid=s.select_one('#research-grid');grid.clear()
 for i,a in enumerate(ordered):
  name=a.get('card_title') or a['title'];img=f'<img src="{E(a["cover_image"])}" alt="{E(a.get("cover_alt",name))}" loading="lazy" decoding="async">' if a.get('cover_image') else ''
- kind='General articles' if a['sector']=='Insights' else 'Deep dive';member='<span class="member-label">Members only</span>' if a.get('excerpt') else ''
+ kind='General articles' if a['sector']=='Insights' else 'Deep dive';access=article_access_label(a)
  cta='Read on Substack ↗'
  destination=article_destination(a);link_attributes=article_link_attributes(a)
- markup=f'''<article class="card" data-slug="{a['slug']}" data-sector="{E(a['sector'])}" data-kind="{E(kind)}" data-order="{i}" data-name="{E(name)}" data-search="{E(name+' '+a['summary']+' '+a['sector'])}"><a class="card-cover cover-refined" href="{E(destination)}"{link_attributes} aria-label="Read {E(name)} on Substack">{img}<span class="cover-caption">{E(settings['site_name'].upper())}</span></a><div class="card-content"><div class="research-labels"><span class="sector-inline">{E(kind if kind=='General articles' else a['sector'])}</span>{member}</div><h3><a href="{E(destination)}"{link_attributes}>{E(name)}</a></h3><p class="description">{E(a['summary'])}</p><div class="card-meta"><span>{date_text(a['date'])}</span><span>{a['minutes']} min</span></div><a class="read-button" href="{E(destination)}"{link_attributes}>{cta}</a><button class="card-save" type="button" data-save="{a['slug']}" aria-pressed="false">Save for later</button></div></article>'''
+ markup=f'''<article class="card" data-slug="{a['slug']}" data-sector="{E(a['sector'])}" data-kind="{E(kind)}" data-order="{i}" data-name="{E(name)}" data-search="{E(name+' '+a['summary']+' '+a['sector'])}"><a class="card-cover cover-refined" href="{E(destination)}"{link_attributes} aria-label="Read {E(name)} on Substack">{img}<span class="cover-caption">{E(settings['site_name'].upper())}</span></a><div class="card-content"><div class="research-title-row"><h3><a href="{E(destination)}"{link_attributes}>{E(name)}</a></h3><div class="research-labels"><span class="sector-inline">{E(kind if kind=='General articles' else a['sector'])}</span>{access}</div></div><p class="description">{E(a['summary'])}</p><div class="card-meta"><span>{date_text(a['date'])}</span><span>{a['minutes']} min</span></div><a class="read-button" href="{E(destination)}"{link_attributes}>{cta}</a><button class="card-save" type="button" data-save="{a['slug']}" aria-pressed="false">Save for later</button></div></article>'''
  put(grid,markup)
 write(s,'/research/')
 
