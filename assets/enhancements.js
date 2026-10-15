@@ -165,6 +165,9 @@
     window.addEventListener('afterprint',restore);
     window.print();
   });
+  if (new URLSearchParams(location.search).get('download') === 'pdf') {
+    window.addEventListener('load', () => window.setTimeout(() => window.print(), 250), { once: true });
+  }
   window.addEventListener('storage', event => {
     if (event.key !== key) return;
     try {
