@@ -241,7 +241,7 @@ def article_destination(article):
  return article.get('original_url') or article['url']
 
 def article_link_attributes(article):
- return ' rel="noopener"' if article.get('original_url') else ''
+ return ' target="_blank" rel="noopener"' if article.get('original_url') else ''
 
 def article_access_label(article):
  access='Paid' if article['slug'] in {'the-breakdown-databricks','the-breakdown-spacex'} else 'Free'
