@@ -158,15 +158,85 @@
   }
   document.querySelector('[data-copy-article]')?.addEventListener('click', () => copyLink(location.origin + location.pathname));
   document.querySelectorAll('[data-copy-section]').forEach(button => button.addEventListener('click', () => copyLink(location.origin + location.pathname + '#' + button.dataset.copySection)));
-  document.querySelector('[data-print]')?.addEventListener('click', () => {
-    const opened = [...document.querySelectorAll('details')].map(d => [d,d.open]);
-    document.querySelectorAll('details').forEach(d => d.open = true);
-    const restore = () => { opened.forEach(([d,open]) => d.open = open); window.removeEventListener('afterprint',restore); };
-    window.addEventListener('afterprint',restore);
+  const printDocument = () => {
+    const opened = [...document.querySelectorAll('details')].map(detail => [detail, detail.open]);
+    document.querySelectorAll('details').forEach(detail => detail.open = true);
+    const restore = () => {
+      opened.forEach(([detail, open]) => detail.open = open);
+      window.removeEventListener('afterprint', restore);
+    };
+    window.addEventListener('afterprint', restore);
     window.print();
-  });
+  };
+  const printCompanyProfile = () => {
+    const profile = document.querySelector('.company-profile, .intelligence-profile');
+    if (!profile) {
+      printDocument();
+      return;
+    }
+    const printStyle = document.createElement('style');
+    printStyle.media = 'print';
+    printStyle.textContent = `
+      @page { size: A4; margin: 15mm 16mm 18mm; }
+      html, body { background: #fff !important; color: #17222d !important; font: 10.5pt/1.52 Georgia, serif !important; }
+      .topbar, .sidebar, .skip, .back, .subscribe-panel, footer, .reader-announcement, dialog, .company-profile-actions { display: none !important; }
+      main { display: block !important; max-width: none !important; margin: 0 !important; padding: 0 !important; }
+      main > :not(.company-profile):not(.intelligence-profile) { display: none !important; }
+      .company-profile, .intelligence-profile { display: block !important; max-width: none !important; margin: 0 !important; padding: 0 !important; border: 0 !important; background: #fff !important; box-shadow: none !important; }
+      .company-profile::before, .intelligence-profile::before { content: 'THE PRIVATE LEDGER  /  COMPANY BRIEF'; display: block; margin: 0 0 20pt !important; padding: 0 0 8pt !important; border-bottom: 1px solid #b79457 !important; color: #71562d !important; font: 700 8pt/1 Arial, sans-serif !important; letter-spacing: .16em !important; }
+      .company-profile h1, .intelligence-header h1 { margin: 0 0 7pt !important; color: #10283a !important; font: 500 28pt/1.02 Georgia, serif !important; }
+      .company-profile .subtitle, .intelligence-description { max-width: none !important; margin: 0 0 16pt !important; color: #4d5f69 !important; font: 13pt/1.42 Georgia, serif !important; }
+      .profile-image { max-height: 105mm !important; margin: 12pt auto 20pt !important; object-fit: contain !important; break-inside: avoid; }
+      .article-body, .intelligence-main { max-width: none !important; color: #17222d !important; font-size: 10.5pt !important; line-height: 1.58 !important; }
+      .article-body p, .intelligence-content p { margin: 0 0 10pt !important; orphans: 3; widows: 3; }
+      .article-body h2, .article-body h3, .intelligence-content h2 { margin: 22pt 0 8pt !important; color: #10283a !important; font-family: Georgia, serif !important; break-after: avoid; }
+      .article-body h2 + p, .article-body h3 + p, .intelligence-content h2 + p { margin-top: 0 !important; }
+      .article-body ul, .article-body ol, .intelligence-content ul, .intelligence-content ol { margin: 8pt 0 14pt !important; padding-left: 19pt !important; }
+      .article-body li, .intelligence-content li { margin: 0 0 5pt !important; }
+      .facts, .intelligence-metrics, .intelligence-main > section, .intelligence-aside > section, .valuation-history { break-inside: avoid; }
+      .facts { display: block !important; margin: 22pt 0 0 !important; border: 1px solid #d8d1c4 !important; background: #faf9f5 !important; }
+      .facts .facts-inner { display: block !important; padding: 14pt 15pt !important; }
+      .facts .snapshot-note { margin: 0 0 12pt !important; }
+      .facts-grid { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 10pt 18pt !important; }
+      .facts-grid > div { border: 0 !important; padding: 0 !important; }
+      .intelligence-header, .intelligence-content { display: block !important; }
+      .intelligence-header { padding: 0 !important; border: 0 !important; }
+      .intelligence-meta { margin: 0 0 8pt !important; }
+      .intelligence-logo { display: block !important; margin: 0 0 18pt !important; }
+      .intelligence-logo-actions, .intelligence-aside { display: none !important; }
+      .intelligence-logo-identity { display: inline-flex !important; align-items: center !important; gap: 8pt !important; color: #10283a !important; font: 700 13pt/1 Arial, sans-serif !important; }
+      .intelligence-logo-identity img { width: 28pt !important; height: 28pt !important; object-fit: contain !important; }
+      .intelligence-metrics { display: grid !important; grid-template-columns: repeat(4, minmax(0, 1fr)) !important; gap: 0 !important; margin: 20pt 0 22pt !important; border-top: 1px solid #d8d1c4 !important; border-bottom: 1px solid #d8d1c4 !important; }
+      .intelligence-metrics > div { min-width: 0 !important; padding: 11pt 12pt !important; border: 0 !important; border-right: 1px solid #d8d1c4 !important; }
+      .intelligence-metrics > div:first-child { padding-left: 0 !important; }
+      .intelligence-metrics > div:last-child { border-right: 0 !important; }
+      .intelligence-metrics strong { font-size: 16pt !important; line-height: 1.1 !important; }
+      .intelligence-metrics span { font-size: 8.5pt !important; line-height: 1.3 !important; }
+      .intelligence-metrics small { font-size: 7.5pt !important; line-height: 1.3 !important; }
+      .intelligence-content { padding-top: 0 !important; }
+      .intelligence-main > section, .intelligence-aside > section { margin: 0 0 16pt !important; padding: 0 0 15pt !important; border-color: #d8d1c4 !important; }
+      .intelligence-main > section:last-child { margin-bottom: 0 !important; }
+      .valuation-history, .takeaways, .change-log, .intelligence-sources { margin: 10pt 0 0 !important; }
+      .change-log { padding-left: 18pt !important; }
+      .profile-verification { margin: 22pt 0 0 !important; padding-top: 9pt !important; border-top: 1px solid #d8d1c4 !important; }
+      a { color: #17222d !important; text-decoration: none !important; }
+    `;
+    document.head.append(printStyle);
+    const opened = [...document.querySelectorAll('details')].map(d => [d, d.open]);
+    document.querySelectorAll('details').forEach(d => d.open = true);
+    const restore = () => {
+      opened.forEach(([detail, open]) => detail.open = open);
+      printStyle.remove();
+      window.removeEventListener('afterprint', restore);
+    };
+    window.addEventListener('afterprint', restore);
+    window.requestAnimationFrame(() => window.requestAnimationFrame(() => window.print()));
+  };
+  document.querySelectorAll('[data-print]').forEach(button => button.addEventListener('click', () => {
+    button.closest('.company-profile, .intelligence-profile') ? printCompanyProfile() : printDocument();
+  }));
   if (new URLSearchParams(location.search).get('download') === 'pdf') {
-    window.addEventListener('load', () => window.setTimeout(() => window.print(), 250), { once: true });
+    window.addEventListener('load', () => window.setTimeout(printCompanyProfile, 250), { once: true });
   }
   window.addEventListener('storage', event => {
     if (event.key !== key) return;
