@@ -122,7 +122,7 @@ for file_slug,company in company_files.items():
  if company.get('human_verified_at'):
   try:datetime.strptime(str(company['human_verified_at']), '%Y-%m-%d')
   except ValueError:raise ValueError(f'Company {file_slug}: human_verified_at must use YYYY-MM-DD.')
-settings=read('content/settings/site.json');weekly=read('content/settings/weekly.json');weekly_archives=[('2026-09-21',read('content/settings/weekly-2026-09-21.json'))];ipo_calendar=read('content/settings/ipo-calendar.json');articles=records('articles');companies=records('companies')
+settings=read('content/settings/site.json');weekly=read('content/settings/weekly.json');weekly_archives=[('2026-09-21',read('content/settings/weekly-2026-09-21.json'))];ipo_calendar=read('content/settings/ipo-calendar.json');ipo_statuses=read('content/data/ipo-statuses.json');articles=records('articles');companies=records('companies')
 file_slugs={company['_file_slug']:slug for slug,company in companies.items()}
 valuation_rows=[]
 with (ROOT/'content/data/valuations.csv').open(newline='',encoding='utf-8') as f:
@@ -567,18 +567,23 @@ def ipo_dashboard_markup():
 
 def ipo_dashboard_markup_v2():
  """A full-universe, evidence-led IPO dashboard built from the shared company records."""
- ipo_items={item['company_slug']:(period,item) for period in ipo_calendar['periods'] for item in period['items']}
- stage_map={'reported dates':'Reported target','filed':'Confidential submission','postponed':'Postponed','watchlist':'Watching'}
+ status_records=ipo_statuses.get('records',{})
  records=[]
  for slug,c in sorted(companies.items(),key=lambda item:item[1]['name'].casefold()):
-  period,item=ipo_items.get(slug,(None,None));intel=c.get('intelligence',{});valuation=latest_valuation(slug)
-  raw_status=(item or {}).get('status','Watching').casefold();stage=stage_map.get(raw_status,'Watching')
+  status_record=status_records.get(slug,{})
+  intel=c.get('intelligence',{});valuation=latest_valuation(slug)
   lifecycle=(c.get('company_status') or intel.get('status') or 'Private').replace('_',' ').title()
+  if status_record:
+   filing_stage=status_record['filing_stage'];process_status=status_record['process_status'];timing=status_record['timing'];timing_evidence=status_record['timing_evidence'];last_verified=status_record['last_verified'];sources=status_record.get('sources',[]);history=status_record.get('history',[])
+  elif lifecycle in ('Public','Acquired'):
+   filing_stage='Listed';process_status='Completed';timing='Not applicable';timing_evidence='Historical listing';last_verified=c.get('human_verified_at') or c.get('as_of','');sources=[];history=['This profile is retained as a former private-company record.']
+  else:
+   filing_stage='No verified filing';process_status='No announced plan';timing='No verified timing';timing_evidence='No verified timing';last_verified=c.get('human_verified_at') or '';sources=[];history=['No verified IPO filing or timing is recorded in the dashboard dataset.']
   article=articles.get(c.get('report',''));metrics=intel.get('metrics',[])
   metric=next((m for m in metrics if 'revenue' in m.get('label','').casefold()),None)
   records.append({
-   'slug':slug,'name':c['name'],'sector':c.get('sector','Unclassified'),'lifecycle':lifecycle,'stage':stage,
-   'window':('Reported target: Oct '+str(item['date']) if item and item.get('date') else (period['label'] if period else 'Not announced')),
+   'slug':slug,'name':c['name'],'sector':c.get('sector','Unclassified'),'lifecycle':lifecycle,'stage':filing_stage,'processStatus':process_status,
+   'window':timing,'timingEvidence':timing_evidence,'lastVerified':last_verified,'sources':sources,'history':history,
    'valuation':money_b(valuation['valuation']) if valuation else 'Not disclosed',
    'valuationDate':valuation_date_label(valuation['date']) if valuation else '',
    'valuationBasis':valuation['round_label'] if valuation else '',
@@ -587,8 +592,7 @@ def ipo_dashboard_markup_v2():
    'revenue':metric.get('value','Not disclosed') if metric else 'Not disclosed',
    'revenueNote':metric.get('note','') if metric else '',
    'risk':(intel.get('takeaways') or ['Analysis forthcoming.'])[-1],
-   'evidence':(item or {}).get('note','No documented IPO process recorded. The company remains in TPL\'s tracked universe.'),
-   'source':(item or {}).get('source',''),'sourceType':'Reported' if item else 'TPL assessment',
+   'evidence':' '.join(history),'source':sources[0]['url'] if sources else '','sourceType':f'{process_status} · {timing_evidence} · verified {last_verified}' if last_verified else f'{process_status} · {timing_evidence}',
    'logo':intel.get('logo',''),'research':bool(article),'researchUrl':article_destination(article) if article else '',
    'researchTitle':article.get('card_title') or article.get('title') if article else '',
    'access':'Paid' if article and article.get('member_only') else 'Free','updated':c.get('as_of','')

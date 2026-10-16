@@ -1,0 +1,104 @@
+{
+  "as_of": "2026-10-16",
+  "records": {
+    "anthropic": {
+      "filing_stage": "Confidential submission",
+      "process_status": "In progress",
+      "timing": "No verified timing",
+      "timing_evidence": "No verified timing",
+      "last_verified": "2026-10-16",
+      "sources": [{"publisher":"Anthropic","published":"2026-06-01","official":true,"url":"https://www.anthropic.com/news/confidential-draft-s1-sec"}],
+      "history": ["Anthropic announced that it confidentially submitted a draft S-1 on June 1, 2026. The announcement did not set an offering date or price."]
+    },
+    "openai": {
+      "filing_stage": "Confidential submission",
+      "process_status": "In progress",
+      "timing": "No verified timing",
+      "timing_evidence": "No verified timing",
+      "last_verified": "2026-10-16",
+      "sources": [{"publisher":"OpenAI","published":"2026-06-08","official":true,"url":"https://openai.com/index/openai-submits-confidential-s-1/"}],
+      "history": ["OpenAI announced a confidential draft S-1 on June 8, 2026 and said it had not decided the timing."]
+    },
+    "oura": {
+      "filing_stage": "Public filing",
+      "process_status": "In progress",
+      "timing": "No verified timing",
+      "timing_evidence": "No verified timing",
+      "last_verified": "2026-10-16",
+      "sources": [{"publisher":"ŌURA","published":"2026-05-21","official":true,"url":"https://ouraring.com/newsroom"}],
+      "history": ["ŌURA announced a confidential draft registration statement in May 2026. Its newsroom subsequently listed an IPO launch announcement; no confirmed trading date is recorded here."]
+    },
+    "nscale": {
+      "filing_stage": "Public filing",
+      "process_status": "In progress",
+      "timing": "No verified timing",
+      "timing_evidence": "No verified timing",
+      "last_verified": "2026-10-16",
+      "sources": [{"publisher":"Nscale","published":"2026-09-18","official":true,"url":"https://www.nscale.com/press-releases/nscale-files-initial-public-offering"}],
+      "history": ["Nscale announced a public S-1 filing on September 18, 2026 and an application to list on the NYSE as NSCL. Its announcement did not set a price range or date."]
+    },
+    "reliance-jio": {
+      "filing_stage": "Public filing",
+      "process_status": "In progress",
+      "timing": "Subscription Oct 21–23, 2026; first trade expected Oct 28",
+      "timing_evidence": "Reported target",
+      "last_verified": "2026-10-16",
+      "sources": [{"publisher":"Reuters via MarketScreener","published":"2026-10-14","official":false,"url":"https://uk.marketscreener.com/news/mukesh-ambani-s-jio-files-updated-prospectus-for-record-india-ipo-ce785dd2df8ff722"}],
+      "history": ["Reporting on October 14 said Jio Platforms had filed an updated prospectus and planned an October 21–23 subscription window. That window is distinct from the expected October 28 trading debut."]
+    },
+    "zepto": {
+      "filing_stage": "Public filing",
+      "process_status": "Delayed / on hold",
+      "timing": "No verified timing",
+      "timing_evidence": "No verified timing",
+      "last_verified": "2026-10-16",
+      "sources": [{"publisher":"SEBI","published":"2026-06-09","official":true,"url":"https://www.sebi.gov.in/filings/public-issues/jun-2026/zepto-limited-udrhp1_101929.html"}],
+      "history": ["Zepto's public draft offer documents were posted by SEBI in June 2026. The record does not treat earlier timing reports as a current offering date."]
+    },
+    "canva": {
+      "filing_stage": "No verified filing",
+      "process_status": "Preparing",
+      "timing": "2027",
+      "timing_evidence": "Reported target",
+      "last_verified": "2026-10-16",
+      "sources": [{"publisher":"The Information","published":"2026-03-19","official":false,"url":"https://www.theinformation.com/briefings/canva-plans-public-debut-next-year"}],
+      "history": ["The Information reported in March 2026 that Canva was preparing for a 2027 IPO. No filing is verified in this record."]
+    },
+    "databricks": {
+      "filing_stage": "No verified filing",
+      "process_status": "Preparing",
+      "timing": "Potentially 2027",
+      "timing_evidence": "Tentative possibility",
+      "last_verified": "2026-10-16",
+      "sources": [{"publisher":"Reuters Breakingviews","published":"2026-06-18","official":false,"url":"https://www.breakingviews.com/columns/considered-view/databricks-smartly-uses-private-funding-lull-2026-06-18/"}],
+      "history": ["Databricks' CEO said 2026 was a poor year to list. This record treats 2027 only as a possibility, not a committed date."]
+    },
+    "perplexity": {
+      "filing_stage": "No verified filing",
+      "process_status": "Preparing",
+      "timing": "2028",
+      "timing_evidence": "Management target",
+      "last_verified": "2026-10-16",
+      "sources": [{"publisher":"Reuters","published":"2026-06-08","official":false,"url":"https://www.marketscreener.com/news/perplexity-planning-ipo-in-2028-regardless-of-what-happens-to-anthropic-or-openai-ceo-tells-cnbc-ce7f5dd3dc8bf021"}],
+      "history": ["Reuters reported the CEO's 2028 planning comment. It is management timing, not a filing or confirmed schedule."]
+    },
+    "revolut": {
+      "filing_stage": "No verified filing",
+      "process_status": "Preparing",
+      "timing": "2028 at the earliest",
+      "timing_evidence": "Management target",
+      "last_verified": "2026-10-16",
+      "sources": [{"publisher":"Bloomberg","published":"2026-04-20","official":false,"url":"https://www.bloomberg.com/news/articles/2026-04-20/revolut-ceo-storonsky-says-digital-bank-s-ipo-is-two-years-out"}],
+      "history": ["Revolut's CEO said in April 2026 that a potential IPO was not expected before 2028. This does not establish a filing or fixed date."]
+    },
+    "knds": {
+      "filing_stage": "No verified filing",
+      "process_status": "Delayed / on hold",
+      "timing": "No verified timing",
+      "timing_evidence": "No verified timing",
+      "last_verified": "2026-10-16",
+      "sources": [{"publisher":"Euronews","published":"2026-06-24","official":false,"url":"https://www.euronews.com/business/2026/06/24/european-defence-ipo-knds-lays-out-listing-plans-that-could-value-it-at-up-to-15bn"}],
+      "history": ["The record retains the prior 2026 plan as historical context only; it is currently treated as on hold rather than a live schedule."]
+    }
+  }
+}
