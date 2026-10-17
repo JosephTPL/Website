@@ -16,7 +16,7 @@
   function syncUrl(push = false) {
     const query = new URLSearchParams();
     if (search.value.trim()) query.set('q',search.value.trim());
-    if (type !== 'deep-dives' && type !== 'all') query.set('type',type);
+    if (type !== 'deep-dives') query.set('type',type);
     if (sector !== 'All sectors' && view !== 'insights') query.set('sector',sector);
     if (sort.value !== 'new') query.set('sort',sort.value);
     if (savedOnly) query.set('saved','1');
@@ -33,7 +33,7 @@
       if (!card.hidden) visible++;
     }
     cards.sort((a,b) => sort.value === 'name' ? a.dataset.name.localeCompare(b.dataset.name) : sort.value === 'old' ? Number(b.dataset.order)-Number(a.dataset.order) : Number(a.dataset.order)-Number(b.dataset.order)).forEach(card => grid.append(card));
-    document.querySelector('#result-count').textContent = visible + ' ' + (type === 'articles' || savedOnly ? (visible === 1 ? 'article' : 'articles') : (visible === 1 ? 'deep dive' : 'deep dives'));
+    document.querySelector('#result-count').textContent = visible + ' ' + (type === 'articles' || savedOnly ? (visible === 1 ? 'article' : 'articles') : (visible === 1 ? 'company breakdown' : 'company breakdowns'));
     const empty = document.querySelector('.empty'); empty.hidden = visible > 0;
     empty.querySelector('h3').textContent = savedOnly ? 'No saved articles here yet' : 'No matching research';
     empty.querySelector('p').textContent = savedOnly ? 'Save a report or essay for later, or clear your filters to see more.' : 'Try another company, topic, or sector.';
@@ -42,9 +42,10 @@
     if (libraryCount) libraryCount.hidden = savedOnly;
     const feature = document.querySelector('#start-here');
     if (feature) feature.hidden = feature.dataset.unavailable === 'true' || savedOnly || Boolean(search.value.trim()) || sector !== 'All sectors' || type === 'articles';
-    document.querySelector('#view-title').textContent = savedOnly ? 'Your reading list.' : 'In Depth Articles';
+    document.querySelector('#view-title').textContent = savedOnly ? 'Your reading list.' : type === 'articles' ? 'Other articles' : 'Company Breakdowns';
+    document.querySelector('#view-subtitle').textContent = savedOnly ? 'Your saved reading, in one place.' : type === 'articles' ? 'Essays, market notes, and investor perspectives.' : 'Exclusive research on the private companies shaping tomorrow.';
     document.querySelectorAll('[data-type]').forEach(button => { button.classList.toggle('active',button.dataset.type===type);button.setAttribute('aria-pressed',String(button.dataset.type===type)); });
-    document.querySelector('#list-title').textContent = savedOnly ? 'Saved for later' : type === 'articles' ? 'Articles' : type === 'all' ? 'Saved for later' : 'Deep dives';
+    document.querySelector('#list-title').textContent = savedOnly ? 'Saved for later' : type === 'articles' ? 'Other articles' : 'Company Breakdowns';
     document.title = (savedOnly ? 'Saved Articles' : 'Research') + ' | The Private Ledger';
     document.querySelectorAll('[data-view]').forEach(a => { a.classList.toggle('active',a.dataset.view === view); if (a.dataset.view === view) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current'); });
     chips.forEach(c => c.setAttribute('aria-pressed',String(c.dataset.sector === sector)));

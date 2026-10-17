@@ -245,7 +245,8 @@ def article_link_attributes(article):
  return ' target="_blank" rel="noopener"' if article.get('original_url') else ''
 
 def article_access_label(article):
- access='Paid' if article['slug'] in {'the-breakdown-databricks','the-breakdown-spacex'} else 'Free'
+ access=article.get('access') or ('Paid' if article['slug'] in {'the-breakdown-databricks','the-breakdown-spacex'} else 'Free')
+ access=access.title()
  return f'<span class="access-label access-label--{access.lower()}">{access}</span>'
 
 ordered=sorted(articles.values(),key=lambda a:(a['date'],a['title']),reverse=True)
@@ -354,7 +355,7 @@ def configure_nav(s,active):
  home['data-view']='home';home['href']='/';home.clear();put(home,'<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 4h6v16H4z M14 4h6v16h-6z"></path></svg> This week')
  companies_link=nav.select_one('[data-view="companies"]')
  if companies_link:companies_link.extract()
- research=soup('<a data-view="library" href="/research/?type=deep-dives"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 4h6v16H4z M14 4h6v16h-6z"></path></svg>Research</a>').a
+ research=soup('<a data-view="library" href="/research/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 4h6v16H4z M14 4h6v16h-6z"></path></svg>Research</a>').a
  home.insert_before(research)
  if companies_link:research.insert_after(companies_link)
  for old_link in nav.select('a[data-view="insights"]'):old_link.decompose()
@@ -702,7 +703,7 @@ s.body['class']=['research-archive']
 configure_nav(s,'library')
 for link in s.select('nav[aria-label="Primary"] a[data-view="library"]'):link['href']='/research/'
 set_text(s,'#mission-eyebrow',settings.get('mission_eyebrow','PRIVATE MARKETS / INDEPENDENT RESEARCH'));set_text(s,'#mission-title',settings.get('mission_title','Know the business before the ticker.'));set_text(s,'#mission-text',settings.get('mission_text','The Private Ledger exists to make the private markets more legible: one company, one business model, and one hard question at a time.'));set_text(s,'#mission-secondary',settings.get('mission_secondary','See the incentives, economics, and risks beneath the headline before a company reaches the public market.'))
-set_text(s,'#view-title','In Depth Articles');set_text(s,'#view-subtitle','Companies shaping the future. Essential Reads.');set_text(s,'#about h2',settings['about_title']);set_text(s,'#about p:last-child',settings['about_text']);s.select_one('.page-heading .overline').decompose()
+set_text(s,'#view-title','Company Breakdowns');set_text(s,'#view-subtitle','Exclusive research on the private companies shaping tomorrow.');set_text(s,'#about h2',settings['about_title']);set_text(s,'#about p:last-child',settings['about_text']);s.select_one('.page-heading .overline').decompose()
 about_section=s.select_one('#about')
 if about_section:about_section.decompose()
 count=s.select_one('.library-count')
@@ -710,15 +711,14 @@ if count:count.decompose()
 for selector in ['.landing-hero','#start-here','#continue-reading']:
  el=s.select_one(selector)
  if el:el.decompose()
-tabs=soup('<div class="archive-tabs" role="group" aria-label="Research type"><button class="archive-tab active" type="button" data-type="deep-dives" aria-pressed="true">Deep dives</button><button class="archive-tab" type="button" data-type="articles" aria-pressed="false">Articles</button></div>')
+tabs=soup('<div class="archive-tabs" role="group" aria-label="Research type"><button class="archive-tab active" type="button" data-type="deep-dives" aria-pressed="true">Company Breakdowns</button><button class="archive-tab" type="button" data-type="articles" aria-pressed="false">Other articles</button></div>')
 s.select_one('.page-heading').insert_after(tabs)
 grid=s.select_one('#research-grid');grid.clear()
 for i,a in enumerate(ordered):
  name=a.get('card_title') or a['title'];img=f'<img src="{E(a["cover_image"])}" alt="{E(a.get("cover_alt",name))}" loading="lazy" decoding="async">' if a.get('cover_image') else ''
  kind='General articles' if a['sector']=='Insights' else 'Deep dive';access=article_access_label(a)
- cta='Read on Substack ↗'
  destination=article_destination(a);link_attributes=article_link_attributes(a)
- markup=f'''<article class="card" data-slug="{a['slug']}" data-sector="{E(a['sector'])}" data-kind="{E(kind)}" data-order="{i}" data-name="{E(name)}" data-search="{E(name+' '+a['summary']+' '+a['sector'])}"><a class="card-cover cover-refined" href="{E(destination)}"{link_attributes} aria-label="Read {E(name)} on Substack">{img}<span class="cover-caption">{E(settings['site_name'].upper())}</span></a><div class="card-content"><div class="research-title-row"><h3><a href="{E(destination)}"{link_attributes}>{E(name)}</a></h3><div class="research-labels"><span class="sector-inline">{E(kind if kind=='General articles' else a['sector'])}</span>{access}</div></div><p class="description">{E(a['summary'])}</p><div class="card-meta"><span>{date_text(a['date'])}</span><span>{a['minutes']} min</span></div><a class="read-button" href="{E(destination)}"{link_attributes}>{cta}</a><button class="card-save" type="button" data-save="{a['slug']}" aria-pressed="false">Save for later</button></div></article>'''
+ markup=f'''<article class="card" data-slug="{a['slug']}" data-sector="{E(a['sector'])}" data-kind="{E(kind)}" data-order="{i}" data-name="{E(name)}" data-search="{E(name+' '+a['summary']+' '+a['sector'])}"><a class="card-cover cover-refined" href="{E(destination)}"{link_attributes} aria-label="Read {E(name)} on Substack">{img}<span class="cover-caption">{E(settings['site_name'].upper())}</span></a><div class="card-content"><div class="research-title-row"><h3><a href="{E(destination)}"{link_attributes}>{E(name)}</a></h3><div class="research-labels"><span class="sector-inline">{E(kind if kind=='General articles' else a['sector'])}</span>{access}</div></div><p class="description">{E(a['summary'])}</p><div class="card-meta"><span>{date_text(a['date'])}</span><span>{a['minutes']} min</span></div><button class="card-save" type="button" data-save="{a['slug']}" aria-pressed="false">Save for later</button></div></article>'''
  put(grid,markup)
 write(s,'/research/')
 

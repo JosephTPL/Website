@@ -1,0 +1,30 @@
+{
+  "slug": "executive-summary-stripe-saronic",
+  "title": "Executive Summary; Stripe, Saronic, OpenAI and Databricks",
+  "card_title": "Executive Summary; Stripe, Saronic, OpenAI and Databricks",
+  "status": "Published",
+  "date": "2026-10-15",
+  "sector": "Insights",
+  "company": "",
+  "summary": "A concise reading list covering Stripe, Saronic, OpenAI, and Databricks.",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!Fp4i!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F703820cb-9504-40e4-83c3-391302fd5e55_1730x909.png",
+  "cover_alt": "Executive Summary; Stripe, Saronic, OpenAI and Databricks — The Private Ledger",
+  "body": "<p>A concise reading list bringing together recent research on Stripe, Saronic, OpenAI, and Databricks.</p>",
+  "original_url": "https://preipomedia.substack.com/p/executive-summary-stripe-saronic",
+  "excerpt": false,
+  "brief": {
+    "thesis": "A compact roundup of recent Private Ledger research on Stripe, Saronic, OpenAI, and Databricks.",
+    "takeaways": [
+      "Read the full executive summary on Substack."
+    ],
+    "risk": "The underlying research reflects information available when each original report was published.",
+    "watch": "Open the original post for the complete company recaps and source material."
+  },
+  "related": [
+    "the-breakdown-stripe",
+    "the-breakdown-saronic",
+    "the-breakdown-openai",
+    "the-breakdown-databricks"
+  ],
+  "section_anchors": []
+}
