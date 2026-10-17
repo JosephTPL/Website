@@ -568,18 +568,25 @@ def ipo_dashboard_markup():
 def ipo_dashboard_markup_v2():
  """A full-universe, evidence-led IPO dashboard built from the shared company records."""
  status_records={**ipo_statuses.get('records',{}),**ipo_status_overrides.get('records',{})}
+ def ipo_question(name,description,risk):
+  words=risk.split()
+  concise=' '.join(words[:22]).rstrip('.,;:')
+  if concise:return f'{name}: {concise}.'
+  words=risk.split()
+  return f"Whether {name} can execute on its core challenge: {' '.join(words[:14]).rstrip('.,;:')}."
  records=[]
  for slug,c in sorted(companies.items(),key=lambda item:item[1]['name'].casefold()):
   status_record=status_records.get(slug,{})
   intel=c.get('intelligence',{});valuation=latest_valuation(slug)
   lifecycle=(c.get('company_status') or intel.get('status') or 'Private').replace('_',' ').title()
+  if lifecycle in ('Public','Acquired','Acquisition Pending'):continue
   if status_record:
    filing_stage=status_record['filing_stage'];process_status=status_record['process_status'];timing=status_record['timing'];timing_evidence=status_record['timing_evidence'];last_verified=status_record['last_verified'];sources=status_record.get('sources',[]);history=status_record.get('history',[])
   elif lifecycle in ('Public','Acquired'):
    filing_stage='Listed';process_status='Completed';timing='Not applicable';timing_evidence='Historical listing';last_verified=c.get('human_verified_at') or c.get('as_of','');sources=[];history=['This profile is retained as a former private-company record.']
   else:
    filing_stage='No verified filing';process_status='No announced plan';timing='No verified timing';timing_evidence='No verified timing';last_verified=c.get('human_verified_at') or '';sources=[];history=['No verified IPO filing or timing is recorded in the dashboard dataset.']
-  article=articles.get(c.get('report',''));metrics=intel.get('metrics',[])
+  article=articles.get(c.get('report',''));metrics=intel.get('metrics',[]);risk=(intel.get('takeaways') or ['Analysis forthcoming.'])[-1]
   metric=next((m for m in metrics if 'revenue' in m.get('label','').casefold()),None)
   records.append({
    'slug':slug,'name':c['name'],'sector':c.get('sector','Unclassified'),'lifecycle':lifecycle,'stage':filing_stage,'processStatus':process_status,
@@ -588,10 +595,11 @@ def ipo_dashboard_markup_v2():
    'valuationDate':valuation_date_label(valuation['date']) if valuation else '',
    'valuationBasis':valuation['round_label'] if valuation else '',
    'summary':intel.get('why_it_matters') or c.get('summary','Analysis forthcoming.'),
+   'ipoQuestion':status_record.get('dashboard_question') or ipo_question(c['name'],intel.get('description') or c.get('summary',''),risk),
    'description':intel.get('description') or c.get('summary',''),
    'revenue':metric.get('value','Not disclosed') if metric else 'Not disclosed',
    'revenueNote':metric.get('note','') if metric else '',
-   'risk':(intel.get('takeaways') or ['Analysis forthcoming.'])[-1],
+   'risk':risk,
    'evidence':' '.join(history),'source':sources[0]['url'] if sources else '','sourceType':f'{process_status} · {timing_evidence} · verified {last_verified}' if last_verified else f'{process_status} · {timing_evidence}',
    'logo':intel.get('logo',''),'research':bool(article),'researchUrl':article_destination(article) if article else '',
    'researchTitle':article.get('card_title') or article.get('title') if article else '',

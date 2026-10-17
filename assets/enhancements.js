@@ -291,6 +291,8 @@
   if (dashboard) {
     const records = JSON.parse(dashboard.querySelector('.ipo-dashboard-data').textContent);
     const rows = dashboard.querySelector('[data-dashboard-rows]');
+    const compactQuestions = () => rows.querySelectorAll('.ipo-dashboard-question').forEach(cell => { const item = records.find(record => record.slug === cell.closest('tr').dataset.slug); if (item?.ipoQuestion) cell.textContent = item.ipoQuestion; });
+    new MutationObserver(compactQuestions).observe(rows, { childList:true });
     const count = dashboard.querySelector('[data-dashboard-count]');
     const pagination = dashboard.querySelector('[data-dashboard-pagination]');
     const chips = dashboard.querySelector('[data-dashboard-chips]');
@@ -300,9 +302,10 @@
     const getSaved = () => { try { return JSON.parse(localStorage.getItem('tpl-dashboard-saved-v1') || '[]'); } catch { return []; } };
     let saved = getSaved();
     let selected = [];
-    const state = { view: params.get('view') === 'active' ? 'all' : params.get('view') || 'all', query: params.get('q') || '', sector: '', stage: '', window: '', lifecycle: '', research: '', sort: params.get('sort') || 'priority', direction: params.get('direction') || 'asc', page: Math.max(1, Number(params.get('page')) || 1) };
+    const state = { view: ['active','public'].includes(params.get('view')) ? 'all' : params.get('view') || 'all', query: params.get('q') || '', sector: '', stage: '', window: '', lifecycle: '', research: '', sort: params.get('sort') || 'priority', direction: params.get('direction') || 'asc', page: Math.max(1, Number(params.get('page')) || 1) };
     const search = dashboard.querySelector('[data-dashboard-search]');
     dashboard.querySelector('[data-dashboard-view="active"]')?.remove();
+    dashboard.querySelector('[data-dashboard-view="public"]')?.remove();
     document.head.insertAdjacentHTML('beforeend', '<style>.ipo-dashboard-tools>label:not(:first-child),.ipo-dashboard-more,.ipo-dashboard-tabs>label{display:none!important}.ipo-dashboard-tools{grid-template-columns:minmax(0,1fr)!important}</style>');
     const selects = { sector: dashboard.querySelector('[data-dashboard-sector]'), stage: dashboard.querySelector('[data-dashboard-stage]'), window: dashboard.querySelector('[data-dashboard-window]'), lifecycle: dashboard.querySelector('[data-dashboard-lifecycle]'), research: dashboard.querySelector('[data-dashboard-research]'), sort: dashboard.querySelector('[data-dashboard-sort]') };
     selects.lifecycle.closest('label').firstChild.textContent = 'Process status';
