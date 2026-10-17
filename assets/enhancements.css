@@ -318,6 +318,8 @@ footer{align-items:flex-start;gap:28px}
 
 /* IPO dashboard: full-universe research table. */
 .ipo-dashboard-v2{min-width:0;max-width:100%;overflow-x:hidden}.ipo-dashboard-pipeline-v2,.ipo-dashboard-table-wrap{min-width:0;max-width:100%}
+.ipo-dashboard-tools{grid-template-columns:1.35fr repeat(4,minmax(0,1fr)) auto}
+.ipo-dashboard-tools>label:not(:first-child),.ipo-dashboard-more,.ipo-dashboard-tabs>label{display:none}.ipo-dashboard-tools{grid-template-columns:minmax(0,1fr)}.ipo-dashboard-v2 th button[data-dashboard-header-sort]{border:0;background:transparent;color:inherit;font:inherit;font-weight:inherit;letter-spacing:inherit;text-transform:inherit;cursor:pointer}.ipo-dashboard-v2 th button[data-dashboard-header-sort].is-active{color:#5f441c}.ipo-dashboard-v2 th button[data-dashboard-header-sort] span{margin-left:4px;font-size:.56rem}
 body[data-page-view="ipo-dashboard"]{overflow-x:hidden}
 .ipo-dashboard-summary{display:none!important}
 .ipo-dashboard-actions small{display:none!important}
