@@ -591,7 +591,7 @@ def ipo_dashboard_markup_v2():
   metric=next((m for m in metrics if 'revenue' in m.get('label','').casefold()),None)
   records.append({
    'slug':slug,'name':c['name'],'sector':c.get('sector','Unclassified'),'lifecycle':lifecycle,'stage':filing_stage,'processStatus':process_status,
-   'window':timing,'timingEvidence':timing_evidence,'lastVerified':last_verified,'sources':sources,'history':history,
+   'window':timing,'timingApproximate':status_record.get('timing_approximate'),'timingEvidence':timing_evidence,'lastVerified':last_verified,'sources':sources,'history':history,
    'valuation':money_b(valuation['valuation']) if valuation else 'Not disclosed',
    'valuationDate':valuation_date_label(valuation['date']) if valuation else '',
    'valuationBasis':valuation['round_label'] if valuation else '',
