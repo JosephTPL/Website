@@ -300,8 +300,9 @@
     const getSaved = () => { try { return JSON.parse(localStorage.getItem('tpl-dashboard-saved-v1') || '[]'); } catch { return []; } };
     let saved = getSaved();
     let selected = [];
-    const state = { view: params.get('view') || 'active', query: params.get('q') || '', sector: '', stage: '', window: '', lifecycle: '', research: '', sort: params.get('sort') || 'priority', direction: params.get('direction') || 'asc', page: Math.max(1, Number(params.get('page')) || 1) };
+    const state = { view: params.get('view') === 'active' ? 'all' : params.get('view') || 'all', query: params.get('q') || '', sector: '', stage: '', window: '', lifecycle: '', research: '', sort: params.get('sort') || 'priority', direction: params.get('direction') || 'asc', page: Math.max(1, Number(params.get('page')) || 1) };
     const search = dashboard.querySelector('[data-dashboard-search]');
+    dashboard.querySelector('[data-dashboard-view="active"]')?.remove();
     document.head.insertAdjacentHTML('beforeend', '<style>.ipo-dashboard-tools>label:not(:first-child),.ipo-dashboard-more,.ipo-dashboard-tabs>label{display:none!important}.ipo-dashboard-tools{grid-template-columns:minmax(0,1fr)!important}</style>');
     const selects = { sector: dashboard.querySelector('[data-dashboard-sector]'), stage: dashboard.querySelector('[data-dashboard-stage]'), window: dashboard.querySelector('[data-dashboard-window]'), lifecycle: dashboard.querySelector('[data-dashboard-lifecycle]'), research: dashboard.querySelector('[data-dashboard-research]'), sort: dashboard.querySelector('[data-dashboard-sort]') };
     selects.lifecycle.closest('label').firstChild.textContent = 'Process status';
@@ -341,7 +342,7 @@
       return year ? Date.UTC(Number(year[1]), 0, 1) : Number.POSITIVE_INFINITY;
     };
     const valuationNumber = value => { const match = String(value || '').match(/([\d.]+)\s*([BTM])\b/i); if (!match) return null; return Number(match[1]) * ({ B: 1, T: 1000, M: .001 }[match[2].toUpperCase()]); };
-    const writeURL = () => { const next = new URLSearchParams(); Object.entries(state).forEach(([key, value]) => { if (value && !(key === 'view' && value === 'active') && !(key === 'sort' && value === 'priority') && !(key === 'direction' && value === 'asc') && !(key === 'page' && value === 1)) next.set(key, value); }); history.replaceState({}, '', `${location.pathname}${next.size ? `?${next}` : ''}`); };
+    const writeURL = () => { const next = new URLSearchParams(); Object.entries(state).forEach(([key, value]) => { if (value && !(key === 'view' && value === 'all') && !(key === 'sort' && value === 'priority') && !(key === 'direction' && value === 'asc') && !(key === 'page' && value === 1)) next.set(key, value); }); history.replaceState({}, '', `${location.pathname}${next.size ? `?${next}` : ''}`); };
     const visible = () => records.filter(item => {
       const haystack = `${item.name} ${item.sector}`.toLowerCase();
       if (state.query && !haystack.includes(state.query.toLowerCase())) return false;

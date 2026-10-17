@@ -1,0 +1,18 @@
+{
+  "as_of": "2026-10-17",
+  "records": {
+    "reliance-jio": {"filing_stage":"Public filing","process_status":"In progress","timing":"Offer opens Oct 21, 2026","timing_evidence":"Reported target","last_verified":"2026-10-17","history":["Offer opens October 21, with a reported INR 1,065–1,119 price band."]},
+    "anthropic": {"filing_stage":"Confidential submission","process_status":"In progress","timing":"Likely after Nov 2026 midterms","timing_evidence":"Reported target","last_verified":"2026-10-17","history":["Anthropic confidentially filed in June; reporting indicates a debut after the midterms."]},
+    "openai": {"filing_stage":"Confidential submission","process_status":"In progress","timing":"Not in 2026; likely 2027","timing_evidence":"Management target","last_verified":"2026-10-17","history":["OpenAI submitted a confidential draft S-1 in June; management said an IPO will not occur in 2026."]},
+    "ymtc": {"filing_stage":"Public filing","process_status":"In progress","timing":"Q4 2026 to H1 2027 (sources conflict)","timing_evidence":"Reported target","last_verified":"2026-10-17","history":["Reporting says the STAR Market application was accepted in August 2026."]},
+    "nscale": {"filing_stage":"Public filing","process_status":"In progress","timing":"No date set","timing_evidence":"No verified timing","last_verified":"2026-10-17","history":["Nscale publicly filed an S-1 in September; no price range or listing date is set."]},
+    "moonshot-ai": {"filing_stage":"Confidential submission","process_status":"In progress","timing":"No date set","timing_evidence":"No verified timing","last_verified":"2026-10-17","history":["September reporting described a confidential Hong Kong IPO submission."]},
+    "discord": {"filing_stage":"Confidential submission","process_status":"In progress","timing":"No date set","timing_evidence":"No verified timing","last_verified":"2026-10-17","history":["Discord was reported to have filed confidentially in January 2026."]},
+    "kraken": {"filing_stage":"Confidential submission","process_status":"Delayed / on hold","timing":"Q2 2027 at earliest","timing_evidence":"Reported target","last_verified":"2026-10-17","history":["The prior confidential filing is reported as frozen, with a potential Q2 2027 target."]},
+    "phonepe": {"filing_stage":"Public filing","process_status":"Delayed / on hold","timing":"No date set","timing_evidence":"No verified timing","last_verified":"2026-10-17","history":["PhonePe paused its process in March 2026."]},
+    "oura": {"filing_stage":"Public filing","process_status":"Delayed / on hold","timing":"Postponed","timing_evidence":"No verified timing","last_verified":"2026-10-17","history":["ŌURA postponed its marketed IPO in September, citing market uncertainty."]},
+    "databricks": {"filing_stage":"No verified filing","process_status":"Preparing","timing":"2027","timing_evidence":"Management target","last_verified":"2026-10-17","history":["The CEO said the company will go public, pointing to a possible 2027 window."]},
+    "canva": {"filing_stage":"No verified filing","process_status":"Preparing","timing":"2027","timing_evidence":"Reported target","last_verified":"2026-10-17","history":["The reported listing window moved to 2027; no registration statement is recorded."]},
+    "perplexity": {"filing_stage":"No verified filing","process_status":"Preparing","timing":"2027-2028","timing_evidence":"Management target","last_verified":"2026-10-17","history":["The CEO has discussed a 2027–2028 IPO target."]}
+  }
+}

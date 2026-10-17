@@ -122,7 +122,7 @@ for file_slug,company in company_files.items():
  if company.get('human_verified_at'):
   try:datetime.strptime(str(company['human_verified_at']), '%Y-%m-%d')
   except ValueError:raise ValueError(f'Company {file_slug}: human_verified_at must use YYYY-MM-DD.')
-settings=read('content/settings/site.json');weekly=read('content/settings/weekly.json');weekly_archives=[('2026-09-21',read('content/settings/weekly-2026-09-21.json'))];ipo_calendar=read('content/settings/ipo-calendar.json');ipo_statuses=read('content/data/ipo-statuses.json');articles=records('articles');companies=records('companies')
+settings=read('content/settings/site.json');weekly=read('content/settings/weekly.json');weekly_archives=[('2026-09-21',read('content/settings/weekly-2026-09-21.json'))];ipo_calendar=read('content/settings/ipo-calendar.json');ipo_statuses=read('content/data/ipo-statuses.json');ipo_status_overrides=read('content/data/ipo-status-overrides.json');articles=records('articles');companies=records('companies')
 file_slugs={company['_file_slug']:slug for slug,company in companies.items()}
 valuation_rows=[]
 with (ROOT/'content/data/valuations.csv').open(newline='',encoding='utf-8') as f:
@@ -567,7 +567,7 @@ def ipo_dashboard_markup():
 
 def ipo_dashboard_markup_v2():
  """A full-universe, evidence-led IPO dashboard built from the shared company records."""
- status_records=ipo_statuses.get('records',{})
+ status_records={**ipo_statuses.get('records',{}),**ipo_status_overrides.get('records',{})}
  records=[]
  for slug,c in sorted(companies.items(),key=lambda item:item[1]['name'].casefold()):
   status_record=status_records.get(slug,{})
