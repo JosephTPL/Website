@@ -6,6 +6,7 @@
   "summary": "Higgsfield creates AI video and image tools for creators, brands, agencies and studios. It raised a $400 million Series B at a $5.4 billion valuation in August 2026.",
   "overview": "<p>Higgsfield is a generative-media platform with tools for creating AI images and video. It sells into creative and marketing workflows, while competing in a compute-intensive and fast-moving category.</p>",
   "as_of": "2026-09-25",
+  "human_verified_at": "2026-10-18",
   "facts": [
     {
       "label": "Latest financing",
@@ -64,8 +65,20 @@
     "why_it_matters": "Higgsfield is a high-valuation test of whether generative video becomes an enduring enterprise production tool. Compute economics and retention will determine whether its rapid growth is durable.",
     "changed": [
       {
+        "date": "2023",
+        "text": "Higgsfield is founded in San Francisco to build AI tools for video and image creation."
+      },
+      {
+        "date": "Jan 2026",
+        "text": "A Series A establishes a reported $1.3B valuation."
+      },
+      {
+        "date": "Aug 2026",
+        "text": "A $400M Series B raises the reported valuation to $5.4B."
+      },
+      {
         "date": "Sep 2026",
-        "text": "Profile reviewed against available public information."
+        "text": "Sacra reports $1B in annualized revenue."
       }
     ],
     "takeaways": [
@@ -93,10 +106,6 @@
       [
         "Annualized revenue",
         "$1B (September 2026)"
-      ],
-      [
-        "Last checked by human",
-        "October 18, 2026"
       ],
       [
         "Website",
