@@ -41,9 +41,9 @@
         "note": "August 2026 Series B"
       },
       {
-        "value": "Private",
-        "label": "Public status",
-        "note": "No confirmed listing"
+        "value": "$1B",
+        "label": "Annualized revenue",
+        "note": "September 2026"
       },
       {
         "value": "Generative video AI",
@@ -51,9 +51,9 @@
         "note": "Company profile"
       },
       {
-        "value": "$1B",
-        "label": "Annualized revenue",
-        "note": "September 2026"
+        "value": "Private",
+        "label": "Public status",
+        "note": "No confirmed listing"
       }
     ],
     "company": [
@@ -93,6 +93,10 @@
       [
         "Annualized revenue",
         "$1B (September 2026)"
+      ],
+      [
+        "Last checked by human",
+        "October 18, 2026"
       ],
       [
         "Website",
