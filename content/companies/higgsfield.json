@@ -12,6 +12,12 @@
       "value": "August 2026: $400M Series B at $5.4B",
       "note": "Reported Series B valuation; Higgsfield said the financing quadrupled its valuation in eight months.",
       "source": "https://techcrunch.com/2026/08/17/higgsfield-raises-400m-series-b-quadrupling-its-valuation-in-8-months-to-5-4b/"
+    },
+    {
+      "label": "Series A",
+      "value": "January 2026: $1.3B valuation",
+      "note": "Reported Series A financing valuation.",
+      "source": "https://www.reuters.com/business/media-telecom/ai-video-startup-higgsfield-hits-13-billion-valuation-with-latest-funding-2026-01-15/"
     }
   ],
   "directory_rank": 103,
@@ -24,7 +30,7 @@
   ],
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
-    "location": "Undisclosed",
+    "location": "San Francisco, California",
     "status": "Private",
     "logo": "https://www.google.com/s2/favicons?domain=higgsfield.ai&sz=128",
     "description": "Generative-media suite for image, video, editing and creative production workflows.",
@@ -45,14 +51,15 @@
         "note": "Company profile"
       },
       {
-        "value": "Sep 2026",
-        "label": "Profile updated",
-        "note": "Editorial review"
+        "value": "$1B",
+        "label": "Annualized revenue",
+        "note": "September 2026"
       }
     ],
     "company": [
       "Higgsfield provides AI tools for video and image creation, including products aimed at filmmakers and marketing teams. Its core market is professional creative production rather than a purely consumer novelty app.",
-      "The company announced a $400 million Series B at a $5.4 billion valuation in August 2026, led by DST Global. It said it had reached $700 million of annualized revenue, 30 million users and 390 Fortune 500 customers; those operating figures are company-reported."
+      "The company announced a $400 million Series B at a $5.4 billion valuation in August 2026, led by DST Global. It said it had reached $700 million of annualized revenue, 30 million users and 390 Fortune 500 customers; those operating figures are company-reported.",
+      "Sacra reported that Higgsfield reached $1 billion in annualized revenue in September 2026."
     ],
     "why_it_matters": "Higgsfield is a high-valuation test of whether generative video becomes an enduring enterprise production tool. Compute economics and retention will determine whether its rapid growth is durable.",
     "changed": [
@@ -72,6 +79,22 @@
         "Generative video AI"
       ],
       [
+        "CEO",
+        "Alex Mashrabov"
+      ],
+      [
+        "Founded",
+        "2023"
+      ],
+      [
+        "Headquarters",
+        "San Francisco, California"
+      ],
+      [
+        "Annualized revenue",
+        "$1B (September 2026)"
+      ],
+      [
         "Website",
         "higgsfield.ai"
       ],
@@ -84,6 +107,14 @@
       {
         "label": "TechCrunch: Higgsfield $400M Series B",
         "url": "https://techcrunch.com/2026/08/17/higgsfield-raises-400m-series-b-quadrupling-its-valuation-in-8-months-to-5-4b/"
+      },
+      {
+        "label": "Reuters: Higgsfield Series A at $1.3B valuation",
+        "url": "https://www.reuters.com/business/media-telecom/ai-video-startup-higgsfield-hits-13-billion-valuation-with-latest-funding-2026-01-15/"
+      },
+      {
+        "label": "Sacra: Higgsfield company profile",
+        "url": "https://sacra.com/c/higgsfield/"
       },
       {
         "label": "Company website",
