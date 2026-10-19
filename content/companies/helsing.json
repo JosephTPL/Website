@@ -14,6 +14,12 @@
       "value": "$18.0B",
       "note": "July 2026 Series E valuation; a point-in-time financing reference, not a continuously quoted price.",
       "source": "https://helsing.ai/newsroom/helsing-raises-1-8bn-in-series-e"
+    },
+    {
+      "label": "Revenue context",
+      "value": "$502M",
+      "note": "Revenue recorded alongside the July 2026 Series E; implies a 35.9× valuation-to-revenue multiple.",
+      "source": "https://multiples.vc/private-comps/helsing"
     }
   ],
   "directory_rank": 25,
@@ -42,9 +48,9 @@
         "note": "Jul 2026"
       },
       {
-        "value": "Defense AI and software",
-        "label": "Business focus",
-        "note": "Company profile"
+        "value": "$502M",
+        "label": "Revenue",
+        "note": "Jul 2026; Multiples-reported"
       },
       {
         "value": "Private",
@@ -53,10 +59,10 @@
       }
     ],
     "company": [
-      "Helsing builds AI software and systems for defense applications, including electronic warfare, autonomy, and battlefield decision support.",
-      "Russia's full-scale invasion of Ukraine reshaped European defense priorities and accelerated demand for sovereign defense technology. Helsing's July 2026 Series E raised $1.8B at an $18.0B valuation, following a €600M Series D in June 2025."
+      "Helsing builds AI software and systems for defense applications, including electronic warfare, autonomy, battlefield decision support, AI-enabled strike drones and autonomous platforms. It sells principally to governments and defense partners, integrating software with military hardware from companies such as Saab and Rheinmetall.",
+      "Russia's full-scale invasion of Ukraine reshaped European defense priorities and accelerated demand for sovereign defense technology. Helsing's July 2026 Series E raised $1.8B at an $18.0B valuation, following a €600M Series D in June 2025. Multiples records $502M of revenue alongside the Series E, implying a 35.9× valuation-to-revenue multiple."
     ],
-    "why_it_matters": "European defense spending and sovereign technology demand create a large opportunity, but deployment, procurement, and geopolitical conditions drive the business.",
+    "why_it_matters": "Helsing sits at the intersection of European rearmament and AI-enabled defense. The $18.0B valuation implies a 35.9× multiple on Multiples-recorded revenue, so the investment case depends on converting defense demand into repeatable procurement, deployments and durable software economics.",
     "changed": [
       {
         "date": "2021",
@@ -72,14 +78,14 @@
       },
       {
         "date": "Jul 2026",
-        "text": "A $1.8B Series E raises the reported valuation to $18.0B."
+        "text": "A $1.8B Series E raises the reported valuation to $18.0B; Multiples records $502M of revenue alongside the round."
       }
     ],
     "takeaways": [
       "Helsing is a private-market defense AI company operating across electronic warfare, autonomy and battlefield software.",
       "Russia's invasion of Ukraine accelerated European demand for sovereign defense technology and sharpened the company's strategic relevance.",
-      "The $18.0B valuation is a point-in-time Series E financing reference, not a live market price.",
-      "The key next evidence is whether Helsing can translate defense demand into durable procurement and deployment at scale."
+      "The $18.0B valuation implies a 35.9× multiple on the $502M of revenue recorded by Multiples alongside the Series E.",
+      "The key next evidence is whether Helsing can translate defense demand into repeatable procurement, deployments and durable software economics."
     ],
     "quick_facts": [
       [
@@ -89,6 +95,14 @@
       [
         "Focus",
         "Defense AI and software"
+      ],
+      [
+        "Customer focus",
+        "B2G & B2B"
+      ],
+      [
+        "Revenue model",
+        "Subscription"
       ],
       [
         "Website",
@@ -107,6 +121,10 @@
       {
         "label": "Helsing: €600M Series D",
         "url": "https://helsing.ai/newsroom/helsing-raises-eur600m-to-invest-in-european-technological-sovereignty"
+      },
+      {
+        "label": "Multiples: Helsing revenue and valuation",
+        "url": "https://multiples.vc/private-comps/helsing"
       }
     ]
   },
