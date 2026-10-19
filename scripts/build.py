@@ -547,6 +547,9 @@ def ipo_markup():
  next_month_number=1 if month_number==12 else month_number+1
  next_year=year+1 if month_number==12 else year
  next_month=f'{calendar.month_name[next_month_number]} {next_year}'
+ following_month_number=1 if next_month_number==12 else next_month_number+1
+ following_year=next_year+1 if next_month_number==12 else next_year
+ following_month=f'{calendar.month_name[following_month_number]} {following_year}'
  tbd=''.join(f'''<a class="ipo-tbd" href="/companies/{E(item['company_slug'])}/" target="_blank" rel="noopener" aria-label="Open {E(item['company'])} company profile"><div><span class="ipo-status {E(item['status'].lower().replace(' ','-'))}">{E(item['status'])}</span><span class="ipo-valuation">{E(item['display_valuation'])}</span></div><h2>{E(item['company'])}</h2><p>{E(item['note'])}</p><span class="ipo-tbd-open">Open company profile →</span></a>''' for item in items)
  earnings_list=''
  def month_id(label):return 'ipo-month-'+label.lower().replace(' ','-')
@@ -574,7 +577,8 @@ def ipo_markup():
  historical.sort(key=lambda record:(int(record['year']),int(record['month_number'])))
  current_record={'month':month,'year':year,'month_number':month_number,'events':[item for item in items if item.get('date')]}
  future_record={'month':next_month,'year':next_year,'month_number':next_month_number,'events':[]}
- panels=''.join(month_section(record) for record in historical)+month_section(current_record,current=True)+month_section(future_record,future=True)
+ following_record={'month':following_month,'year':following_year,'month_number':following_month_number,'events':[]}
+ panels=''.join(month_section(record) for record in historical)+month_section(current_record,current=True)+month_section(future_record,future=True)+month_section(following_record,future=True)
  return f'''<section class="ipo-calendar" aria-labelledby="ipo-title"><header class="ipo-head"><h1 id="ipo-title">{E(ipo_calendar['title'])}</h1></header><div class="ipo-view-toggle" role="group" aria-label="IPO calendar view"><button class="view-toggle active" type="button" data-view="calendar" aria-pressed="true">Calendar</button><button class="view-toggle" type="button" data-view="list" aria-pressed="false">Earnings list</button></div><div class="ipo-view-content" data-view="calendar"><nav class="ipo-month-pager" aria-label="Calendar months" data-ipo-month-pager><button type="button" data-ipo-month-previous>← Previous month</button><strong aria-live="polite" data-ipo-month-label>{E(month)}</strong><button type="button" data-ipo-month-next>Next month →</button></nav>{panels}</div><section class="ipo-earnings-list ipo-view-content" data-view="list" hidden><header><h2>Private-market read-throughs.</h2><p>Confirmed earnings dates and the public-company results most relevant to private-market investors.</p></header><div class="earnings-list-items">{earnings_list}</div></section></section>'''
 
 def ipo_dashboard_markup():
