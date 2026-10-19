@@ -6,19 +6,20 @@
   "summary": "Helsing builds AI software and systems for defense applications, including electronic warfare, autonomy, and battlefield decision support.",
   "overview": "<p>Helsing builds AI software and systems for defense applications, including electronic warfare, autonomy, and battlefield decision support.</p>",
   "as_of": "2026-09-25",
+  "human_verified_at": "2026-10-19",
   "report": "",
   "facts": [
     {
       "label": "Latest valuation or financing context",
-      "value": "$18B",
-      "note": "As of Jun 2025. This is a market estimate or disclosed transaction context, not a continuously quoted price.",
-      "source": "https://helsing.ai/"
+      "value": "$18.0B",
+      "note": "July 2026 Series E valuation; a point-in-time financing reference, not a continuously quoted price.",
+      "source": "https://helsing.ai/newsroom/helsing-raises-1-8bn-in-series-e"
     }
   ],
   "directory_rank": 25,
   "bull_case": "European rearmament creates demand for sovereign, software-defined defense systems.",
   "bear_case": "Defense sales remain politically constrained and dependent on long programs.",
-  "latest_round": "Jun 2025: $685M Series D",
+  "latest_round": "Jul 2026: $1.8B Series E",
   "directory_notes": [
     "Defense AI and software",
     "European defense spending and sovereign technology demand create a large opportunity, but deployment, procurement, and geopolitical conditions drive the business."
@@ -31,14 +32,14 @@
     "description": "Helsing builds AI software and systems for defense applications, including electronic warfare, autonomy, and battlefield decision support.",
     "metrics": [
       {
-        "value": "$18B",
+        "value": "$18.0B",
         "label": "Latest valuation",
-        "note": "Jun 2025"
+        "note": "Jul 2026 Series E"
       },
       {
-        "value": "$685M Series D",
+        "value": "$1.8B Series E",
         "label": "Latest financing",
-        "note": "Jun 2025"
+        "note": "Jul 2026"
       },
       {
         "value": "Defense AI and software",
@@ -53,24 +54,32 @@
     ],
     "company": [
       "Helsing builds AI software and systems for defense applications, including electronic warfare, autonomy, and battlefield decision support.",
-      "European defense spending and sovereign technology demand create a large opportunity, but deployment, procurement, and geopolitical conditions drive the business."
+      "Russia's full-scale invasion of Ukraine reshaped European defense priorities and accelerated demand for sovereign defense technology. Helsing's July 2026 Series E raised $1.8B at an $18.0B valuation, following a €600M Series D in June 2025."
     ],
     "why_it_matters": "European defense spending and sovereign technology demand create a large opportunity, but deployment, procurement, and geopolitical conditions drive the business.",
     "changed": [
       {
-        "date": "2025 prior round",
-        "text": "Earlier public financing or market context recorded."
+        "date": "2021",
+        "text": "Helsing is founded to apply artificial intelligence to European defense and security."
+      },
+      {
+        "date": "2022",
+        "text": "Russia's full-scale invasion of Ukraine makes European defense readiness and sovereign technology a more urgent priority."
       },
       {
         "date": "Jun 2025",
-        "text": "Latest profile review: $685M Series D."
+        "text": "A €600M Series D values Helsing at a reported €12B."
+      },
+      {
+        "date": "Jul 2026",
+        "text": "A $1.8B Series E raises the reported valuation to $18.0B."
       }
     ],
     "takeaways": [
-      "Helsing is a private-market name in defense ai and software.",
-      "European defense spending and sovereign technology demand create a large opportunity, but deployment, procurement, and geopolitical conditions drive the business.",
-      "The displayed valuation should be read with its disclosure context, not as a live market price.",
-      "Future updates will focus on operating evidence, financing, and execution."
+      "Helsing is a private-market defense AI company operating across electronic warfare, autonomy and battlefield software.",
+      "Russia's invasion of Ukraine accelerated European demand for sovereign defense technology and sharpened the company's strategic relevance.",
+      "The $18.0B valuation is a point-in-time Series E financing reference, not a live market price.",
+      "The key next evidence is whether Helsing can translate defense demand into durable procurement and deployment at scale."
     ],
     "quick_facts": [
       [
@@ -92,12 +101,12 @@
     ],
     "sources": [
       {
-        "label": "Primary company or transaction source",
-        "url": "https://helsing.ai/"
+        "label": "Helsing: $1.8B Series E",
+        "url": "https://helsing.ai/newsroom/helsing-raises-1-8bn-in-series-e"
       },
       {
-        "label": "Private Ledger valuation reference",
-        "url": "https://multiples.vc/insights/50-most-valuable-private-companies-in-the-world"
+        "label": "Helsing: €600M Series D",
+        "url": "https://helsing.ai/newsroom/helsing-raises-eur600m-to-invest-in-european-technological-sovereignty"
       }
     ]
   },

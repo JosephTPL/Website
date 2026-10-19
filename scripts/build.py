@@ -198,7 +198,7 @@ spv_as_of=max((row['latest_filed_date'] for row in spv_rows),default=None)
 
 def money_b(value):
  if value is None:return ''
- return f'${value/1000:g}T' if value>=1000 else (f'${value*1000:g}M' if value<1 else f'${value:g}B')
+ return f'${value/1000:g}T' if value>=1000 else (f'${value*1000:g}M' if value<1 else f'${value:.1f}B')
 
 def spv_usd(amount):
  if amount is None:return '—'
