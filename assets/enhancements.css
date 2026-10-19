@@ -103,8 +103,18 @@ main{margin-top:var(--topbar-height);margin-left:238px;padding:46px 54px 0;max-w
   background:#101923;
 }
 @media(max-width:560px){
-  .ipo-month{overflow-x:auto}
-  .ipo-weekdays,.ipo-week{min-width:560px}
+  /* The seven-column desktop calendar becomes a concise dated agenda on phones.
+     It keeps the whole month readable without a horizontal page scroll. */
+  .ipo-month{overflow:hidden}
+  .ipo-weekdays{display:none}
+  .ipo-month-grid{border-top:0}
+  .ipo-week{display:block}
+  .ipo-day,.ipo-day:nth-child(7n){display:none;min-height:0;padding:0;border:0;border-bottom:1px solid #e3ded5;background:var(--paper)}
+  .ipo-day:has(.ipo-event){display:grid;grid-template-columns:36px minmax(0,1fr);gap:0;padding:9px 10px}
+  .ipo-day>span{padding-top:8px;font-size:.72rem;text-align:center}
+  .ipo-event{margin:0 0 8px;padding:9px 10px;font-size:.78rem;line-height:1.32}
+  .ipo-event:last-child{margin-bottom:0}
+  .ipo-event span{font-size:.61rem;line-height:1.35}
 }
 
 /* The compact navigation is deliberately mobile-only; desktop keeps its sidebar. */
