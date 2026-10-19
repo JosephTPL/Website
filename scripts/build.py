@@ -322,9 +322,6 @@ def shell(kind,title,description,route,image=''):
  brandmark=s.select_one('.brandmark')
  if brandmark:
   brandmark.clear();put(brandmark,'<img src="/compass-logo.png" alt="" aria-hidden="true">')
- sub=s.select_one('.top-subscribe')
- if sub:
-  sub.insert_before(BeautifulSoup('<div class="login-menu"><a class="login-toggle" href="/login/">Log in</a></div>','html.parser'))
  brand=s.select_one('.brand>span:last-child');brand.clear();brand.append(settings['site_name'].upper())
  if s.select_one('footer'):
   s.select_one('footer').clear()
@@ -369,7 +366,6 @@ def configure_nav(s,active):
   link.attrs.pop('aria-current',None)
   link['class']=['active'] if link.get('data-view')==active else []
  # Subscribe and Discord live in the header on desktop, so the mobile menu carries them.
- nav.append(soup('<a class="nav-extra" href="/login/">Log in</a>').a)
  nav.append(soup(f'<a class="nav-extra nav-extra-subscribe" href="{E(settings["subscribe_url"])}">Subscribe</a>').a)
  if settings.get('discord_url'):nav.append(soup(f'<a class="nav-extra" href="{E(settings["discord_url"])}">Join our Discord</a>').a)
 
