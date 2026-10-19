@@ -18,8 +18,29 @@
 })();
 
 (() => {
+  const pager = document.querySelector('[data-ipo-month-pager]');
+  if (!pager) return;
+  const panels = [...document.querySelectorAll('[data-ipo-month-panel]')];
+  const previous = pager.querySelector('[data-ipo-month-previous]');
+  const next = pager.querySelector('[data-ipo-month-next]');
+  const label = pager.querySelector('[data-ipo-month-label]');
+  let current = 0;
+  const setMonth = index => {
+    current = Math.max(0, Math.min(index, panels.length - 1));
+    panels.forEach((panel, panelIndex) => panel.hidden = panelIndex !== current);
+    label.textContent = panels[current].dataset.monthLabel;
+    previous.disabled = current === 0;
+    next.disabled = current === panels.length - 1;
+  };
+  previous.addEventListener('click', () => setMonth(current - 1));
+  next.addEventListener('click', () => setMonth(current + 1));
+  const currentMonth = panels.findIndex(panel => panel.hasAttribute('data-ipo-current-month'));
+  setMonth(currentMonth >= 0 ? currentMonth : 0);
+})();
+
+(() => {
   const earningsEvents = [...document.querySelectorAll('.earnings-event')];
-  const earningsMonth = document.querySelector('.ipo-month');
+  const earningsMonth = document.querySelector('[data-ipo-current-calendar]') || document.querySelector('.ipo-month');
   if (earningsEvents.length && earningsMonth) {
     const panel = document.createElement('aside');
     panel.className = 'earnings-detail';

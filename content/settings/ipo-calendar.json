@@ -7,6 +7,95 @@
         "year": 2026,
         "month_number": 10
     },
+    "historical_months": [
+        {
+            "month": "January 2026",
+            "year": 2026,
+            "month_number": 1,
+            "events": [
+                {"company": "Biren Technology", "date": 2, "exchange": "Hong Kong", "status": "Completed", "valuation_label": "Valuation at IPO", "valuation": "$6.0B", "valuation_basis": "basic outstanding shares", "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/1222/2025122200005.pdf"},
+                {"company": "Zhipu AI / Knowledge Atlas Technology", "date": 8, "exchange": "Hong Kong", "status": "Completed", "valuation_label": "Valuation at IPO", "valuation": "$6.6B", "valuation_basis": "basic outstanding shares", "source": "https://www.bakermckenzie.com/en/newsroom/2026/01/knowledge-atlas-technology-global-offering-and-hk-listing"},
+                {"company": "MiniMax", "date": 9, "exchange": "Hong Kong", "status": "Completed", "valuation_label": "Valuation at IPO", "valuation": "$6.5B", "valuation_basis": "basic outstanding shares", "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0108/2026010801342.pdf"},
+                {"company": "Czechoslovak Group / CSG", "date": 23, "exchange": "Euronext Amsterdam", "status": "Completed", "valuation_label": "Valuation at IPO", "valuation": "€25.0B (US$29.4B)", "valuation_currency": "EUR", "valuation_usd": "$29.4B", "valuation_basis": "basic outstanding shares", "fx_rate": "EUR/USD 1.1742 on January 23, 2026", "fx_source": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ%3AC_202600060", "source": "https://live.euronext.com/en/products/equities/company-news/2026-01-23-czechoslovak-group-announces-admission-trading-euronext"},
+                {"company": "EquipmentShare", "date": 23, "exchange": "Nasdaq", "status": "Completed", "valuation_label": "Valuation at IPO", "valuation": "$6.2B", "valuation_basis": "basic outstanding shares", "source": "https://equipmentshare.gcs-web.com/news-releases/news-release-details/equipmentshare-prices-initial-public-offering"}
+            ]
+        },
+        {
+            "month": "February 2026",
+            "year": 2026,
+            "month_number": 2,
+            "events": [
+                {"company": "Forgent Power Solutions", "date": 5, "exchange": "NYSE", "status": "Completed", "valuation_label": "Valuation at IPO", "valuation": "$7.8B", "valuation_basis": "basic outstanding shares", "source": "https://www.sec.gov/Archives/edgar/data/2080126/000119312526043650/d23417dex991.htm"}
+            ]
+        },
+        {
+            "month": "March 2026",
+            "year": 2026,
+            "month_number": 3,
+            "events": [
+                {"company": "MiniMed", "date": 6, "exchange": "Nasdaq", "status": "Completed", "valuation_label": "Valuation at IPO", "valuation": "$5.6B", "valuation_basis": "basic outstanding shares", "source": "https://www.axios.com/pro/health-tech-deals/2026/03/06/minimed-560m-ipo"},
+                {"company": "PayPay", "date": 12, "exchange": "Nasdaq", "status": "Completed", "valuation_label": "Valuation at IPO", "valuation": "$10.8B", "valuation_basis": "fully diluted shares", "source": "https://www.sec.gov/Archives/edgar/data/2080845/000119312526289382/payp-20260331.htm"}
+            ]
+        },
+        {
+            "month": "April 2026",
+            "year": 2026,
+            "month_number": 4,
+            "events": [
+                {"company": "Madison Air Solutions", "date": 16, "exchange": "NYSE", "status": "Completed", "valuation_label": "Valuation at IPO", "valuation": "$13.2B", "valuation_basis": "basic outstanding shares", "source": "https://www.sec.gov/Archives/edgar/data/2098430/000119312526161509/ck0002098430-ex99_1.htm"},
+                {"company": "Arxis", "date": 16, "exchange": "Nasdaq", "status": "Completed", "valuation_label": "Valuation at IPO", "valuation": "$11.5B", "valuation_basis": "basic outstanding shares", "source": "https://www.sec.gov/Archives/edgar/data/2093536/000119312526325027/arxs-20260630.htm"},
+                {"company": "X-energy", "date": 24, "exchange": "Nasdaq", "status": "Completed", "valuation_label": "Valuation at IPO", "valuation": "$9.1B", "valuation_basis": "basic outstanding shares", "source": "https://investors.x-energy.com/node/6751/pdf"}
+            ]
+        },
+        {
+            "month": "May 2026",
+            "year": 2026,
+            "month_number": 5,
+            "events": [
+                {"company": "Fervo Energy", "date": 13, "exchange": "Nasdaq", "status": "Completed", "valuation_label": "Valuation at IPO", "valuation": "$7.66B", "valuation_basis": "basic outstanding shares", "source": "https://fervoenergy.com/fervo-energy-announces-pricing-of-its-upsized-initial-public-offering/"},
+                {"company": "Cerebras Systems", "date": 14, "exchange": "Nasdaq", "status": "Completed", "valuation_label": "Valuation at IPO", "valuation": "$56.4B (fully diluted)", "valuation_basis": "fully diluted shares", "source": "https://www.nasdaq.com/newsroom/cerebras-ipo-ushering-new-era-ai-hardware"}
+            ]
+        },
+        {
+            "month": "June 2026",
+            "year": 2026,
+            "month_number": 6,
+            "events": [
+                {"company": "INNIO", "date": 4, "exchange": "Nasdaq", "valuation": "$20.3B", "source": "https://www.nasdaq.com/press-release/innio-announces-pricing-upsized-initial-public-offering-2026-06-04"},
+                {"company": "Quantinuum", "date": 4, "exchange": "Nasdaq", "valuation": "$15.6B", "source": "https://ir.quantinuum.com/node/6991/pdf"},
+                {"company": "ERock", "date": 10, "exchange": "NYSE", "valuation": "$5.9B", "source": "https://ir.erock.com/sec-filings/all-sec-filings/content/0001193125-26-265898/d12401d424b4.htm"},
+                {"company": "SpaceX", "date": 12, "exchange": "Nasdaq", "valuation": "$1.77T", "source": "https://ir.spacex.com/updates/releases-details/2026/Space-Exploration-Technologies-Corp--Announces-Closing-of-Initial-Public-Offering-Including-Full-Exercise-of-Underwriters-Option-to-Purchase-Additional-Shares-2026-RgoR-Y1Vwh/"}
+            ]
+        },
+        {
+            "month": "July 2026",
+            "year": 2026,
+            "month_number": 7,
+            "events": [
+                {"company": "China Resources New Energy", "date": 2, "exchange": "Shenzhen", "valuation": "$19.4B", "source": "https://www.marketscreener.com/news/china-resources-new-energy-more-than-doubles-in-shenzhen-listing-debut-ce7f5fd2df8af124"},
+                {"company": "CXMT / ChangXin Memory Technologies", "date": 27, "exchange": "Shanghai STAR", "valuation": "$85.5B", "source": "https://www.marketscreener.com/news/china-memory-chipmaker-cxmt-set-for-shanghai-debut-after-asia-s-biggest-ipo-ce7f51dcd88df124"},
+                {"company": "Jersey Mike’s", "date": 30, "exchange": "NYSE", "valuation": "$7.3B", "source": "https://investors.jerseymikes.com/news-events/press-releases/detail/148/jersey-mikes-announces-pricing-of-its-initial-public-offering"}
+            ]
+        },
+        {
+            "month": "August 2026",
+            "year": 2026,
+            "month_number": 8,
+            "events": [
+                {"company": "Unitree Robotics", "date": 19, "exchange": "Shanghai STAR", "valuation": "$9.0B", "source": "https://www.scmp.com/tech/tech-trends/article/3363251/backed-deepseek-unitree-ipo-tests-investor-appetite-chinas-ai-robotics-boom"}
+            ]
+        },
+        {
+            "month": "September 2026",
+            "year": 2026,
+            "month_number": 9,
+            "events": [
+                {"company": "Shein", "date": 1, "exchange": "Hong Kong", "valuation": "$26.3B", "source": "https://www.straitstimes.com/business/shein-shares-slide-as-much-as-10-in-long-awaited-hong-kong-trading-debut"},
+                {"company": "Enflame Technology", "date": 11, "exchange": "Shanghai STAR", "valuation": "$9.1B", "source": "https://ca.marketscreener.com/news/tencent-backed-enflame-to-debut-in-shanghai-on-friday-in-912-million-ipo-ce785bd9df8df72c"},
+                {"company": "National Stock Exchange of India", "date": 24, "exchange": "BSE", "valuation": "$46.3B", "source": "https://www.brecorder.com/news/40441045"}
+            ]
+        }
+    ],
     "disclaimer": "Valuations are the latest publicly reported private-market figures. Timing is not issuer guidance unless a filing has been disclosed; this is a watchlist, not an offering calendar.",
     "earnings": [
         {
