@@ -1,0 +1,127 @@
+{
+  "slug": "dji",
+  "status": "Published",
+  "name": "DJI",
+  "sector": "Hardware, Robotics & Semiconductors",
+  "summary": "Private Chinese drone and camera-technology company serving consumer and commercial users.",
+  "overview": "<p>DJI designs and sells camera drones, handheld imaging systems and related technology for consumer creators and commercial users. Its products are used in fields including filmmaking, agriculture, conservation, search and rescue, energy and infrastructure inspection.</p>",
+  "as_of": "2026-10-20",
+  "report": "",
+  "facts": [
+    {
+      "label": "Ownership",
+      "value": "Private company",
+      "note": "DJI describes itself as privately owned and operated.",
+      "source": "https://www.dji.com/company"
+    },
+    {
+      "label": "Reported financing context",
+      "value": "2015: $75M investment from Accel",
+      "note": "Reuters reported the investment; no valuation was disclosed by the companies.",
+      "source": "https://finance.yahoo.com/news/china-drone-maker-dji-wins-123000747.html"
+    }
+  ],
+  "directory_rank": 226,
+  "bull_case": "DJI’s integrated hardware, software and manufacturing capabilities can keep it central to both creator tools and commercial drone workflows.",
+  "bear_case": "Regulatory restrictions, geopolitical scrutiny and competition can limit market access and pressure the economics of its hardware-led model.",
+  "latest_round": "2015: $75M investment from Accel",
+  "directory_notes": [
+    "Regulatory access in key markets.",
+    "Commercial workflow adoption beyond consumer drones."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Shenzhen, China",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=dji.com&sz=128",
+    "description": "DJI makes camera drones, imaging platforms and related technology for consumer creators and commercial applications.",
+    "metrics": [
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No announced listing"
+      },
+      {
+        "value": "2006",
+        "label": "Founded",
+        "note": "Started by Frank Wang"
+      },
+      {
+        "value": "Shenzhen",
+        "label": "Headquarters",
+        "note": "China"
+      },
+      {
+        "value": "Not disclosed",
+        "label": "Current valuation",
+        "note": "No current figure verified"
+      }
+    ],
+    "company": [
+      "DJI began in 2006 and has grown from a small office into a global drone and imaging-technology company. The company says it is privately owned and operated, with headquarters in Shenzhen and offices across several international markets.",
+      "Its product range spans camera drones and handheld imaging systems, while its commercial applications include agriculture, conservation, search and rescue, energy and infrastructure inspection."
+    ],
+    "why_it_matters": "DJI is a defining private company in civilian drones. Its ability to combine flight control, cameras, software and manufacturing at scale shapes the competitive benchmark for creator and commercial drone products.",
+    "changed": [
+      {
+        "date": "2006",
+        "text": "Frank Wang founded DJI; the company later established its headquarters in Shenzhen."
+      },
+      {
+        "date": "2015",
+        "text": "Reuters reported that Accel agreed to invest $75M to support DJI’s expansion; the companies did not disclose a valuation."
+      },
+      {
+        "date": "2018",
+        "text": "Reuters reported fundraising discussions that could value DJI at about $15B, while DJI said it had no fundraising announcement and no IPO planned at that time."
+      }
+    ],
+    "takeaways": [
+      "DJI’s business joins consumer imaging with commercial drone applications.",
+      "The company remains private; no current valuation or listing plan is verified here.",
+      "Regulatory access is a central variable alongside product and commercial execution."
+    ],
+    "quick_facts": [
+      [
+        "Founder",
+        "Frank Wang"
+      ],
+      [
+        "Founded",
+        "2006"
+      ],
+      [
+        "Headquarters",
+        "Shenzhen, China"
+      ],
+      [
+        "Status",
+        "Private"
+      ],
+      [
+        "Website",
+        "dji.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "DJI: About the company",
+        "url": "https://www.dji.com/company"
+      },
+      {
+        "label": "DJI: Company history and founder",
+        "url": "https://viewpoints.dji.com/blog/busted-five-common-myths-about-dji"
+      },
+      {
+        "label": "Reuters: 2015 Accel investment",
+        "url": "https://finance.yahoo.com/news/china-drone-maker-dji-wins-123000747.html"
+      },
+      {
+        "label": "Reuters: 2018 reported fundraising talks",
+        "url": "https://www.lse.co.uk/news/update-1-chinese-drone-maker-dji-seeking-at-least-500-mln-in-pre-ipo-funding-sources-5uhq2p6ec8gecx1.html"
+      }
+    ]
+  },
+  "company_status": "private",
+  "website": "https://www.dji.com"
+}
