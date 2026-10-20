@@ -707,7 +707,7 @@ companies_script_version=hashlib.sha256(directory_script.read_bytes()).hexdigest
 spvs_script_version=hashlib.sha256((OUT/'spvs.js').read_bytes()).hexdigest()[:12]
 # The landing page is the publication's evergreen editorial entrance. Weekly briefs
 # remain available at their own stable archive URLs.
-s=shell('home','The companies you can’t buy. The research you can.','Independent research on the private companies shaping public markets.','/')
+s=shell('home','The companies you can’t buy. The research you can.','Independent private-company research: in-depth company breakdowns, valuation analysis, an IPO calendar, and an IPO dashboard for investors tracking tomorrow’s markets.','/')
 s.body['data-page-view']='home';configure_nav(s,'home')
 for selector in ['.landing-hero','.page-heading','.start-here','.continue-reading','.controls','#research-grid','.empty','.subscribe-panel','#about']:
  for el in list(s.select(selector)):
