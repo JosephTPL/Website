@@ -327,7 +327,7 @@ def shell(kind,title,description,route,image=''):
  brand=s.select_one('.brand>span:last-child');brand.clear();brand.append(settings['site_name'].upper())
  if s.select_one('footer'):
   s.select_one('footer').clear()
-  put(s.select_one('footer'),f'<div class="footer-about"><strong><a href="/about/">About {E(settings["site_name"])}</a></strong><span>{E(settings["about_text"])}</span><span class="footer-disclaimer">Independent research for educational and informational purposes only. Not investment, legal, tax, or financial advice.</span><a href="/about/">Read our editorial approach →</a></div><nav class="footer-links" aria-label="Publication information"><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></nav><span class="footer-copyright">© {date.today().year} {E(settings["site_name"])}</span>')
+  put(s.select_one('footer'),f'<div class="footer-about"><strong><a href="/about/">About {E(settings["site_name"])}</a></strong><span>{E(settings["about_text"])}</span><span class="footer-disclaimer">For educational and informational purposes only. Not investment, legal, tax, or financial advice.</span><a href="/about/">Read our editorial approach →</a></div><nav class="footer-links" aria-label="Publication information"><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></nav><span class="footer-copyright">© {date.today().year} {E(settings["site_name"])}</span>')
  return s
 
 THEME_SCRIPT="(function(){try{var t=localStorage.getItem('theme');if(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)t='dark';if(t==='dark')document.documentElement.setAttribute('data-theme','dark')}catch(e){}})();"
