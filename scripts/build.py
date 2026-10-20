@@ -283,6 +283,8 @@ def intelligence_profile(c):
 
 def shell(kind,title,description,route,image=''):
  s=soup((ROOT/'templates'/f'{kind}.html').read_text());s.title.string='Private Company Research | '+settings['site_name'] if route=='/' else title+' | '+settings['site_name']
+ google_tag=soup('''<script async src="https://www.googletagmanager.com/gtag/js?id=G-WYQEYTY10E"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-WYQEYTY10E');</script>''')
+ for node in reversed(list(google_tag.contents)):s.head.insert(0,node)
  for heading in s.select('.sidebar-note h3'):
   heading.name='p';heading['class']='sidebar-note-title'
  for label in s.select('.top-label'):label.decompose()
@@ -750,7 +752,7 @@ for i,a in enumerate(ordered):
 write(s,'/research/')
 
 # Keep the former archive URL working while directing readers to the unified Research page.
-legacy=soup('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>General articles | The Private Ledger</title><meta http-equiv="refresh" content="0; url=/research/?type=articles"><link rel="canonical" href="/research/?type=articles"></head><body><p>General articles are now part of <a href="/research/?type=articles">Research</a>.</p></body></html>')
+legacy=soup('<!doctype html><html lang="en"><head><script async src="https://www.googletagmanager.com/gtag/js?id=G-WYQEYTY10E"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag(\'js\',new Date());gtag(\'config\',\'G-WYQEYTY10E\');</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>General articles | The Private Ledger</title><meta http-equiv="refresh" content="0; url=/research/?type=articles"><link rel="canonical" href="/research/?type=articles"></head><body><p>General articles are now part of <a href="/research/?type=articles">Research</a>.</p></body></html>')
 write(legacy,'/insights/')
 
 for a in ordered:
