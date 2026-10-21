@@ -1,6 +1,7 @@
 """Build the publication from CMS-managed content. No CMS runtime or database required."""
 from pathlib import Path
 from datetime import date, datetime, timedelta
+from decimal import Decimal, ROUND_HALF_UP
 from urllib.parse import urlsplit, unquote
 import calendar, csv, hashlib, html, json, math, os, re, shutil, sys
 from bs4 import BeautifulSoup, NavigableString
@@ -87,6 +88,14 @@ def card_text(value):
  text=re.sub(r'(?<!\\)(?<!_)_([^_\n]+)_(?!_)',r'\1',text)
  text=text.replace('**','').replace('__','').replace('~~','').replace('`','')
  return re.sub(r'\s+',' ',text).strip()
+
+def company_directory_valuation_label(value):
+ """Show whole-number valuations in the compact company directory."""
+ if value is None:return 'No disclosed valuation'
+ amount=Decimal(str(value))
+ if amount>=1000:return '$'+str(int((amount/1000).quantize(Decimal('1'),rounding=ROUND_HALF_UP)))+'T'
+ if amount>=1:return '$'+str(int(amount.quantize(Decimal('1'),rounding=ROUND_HALF_UP)))+'B'
+ return '$'+str(int((amount*1000).quantize(Decimal('1'),rounding=ROUND_HALF_UP)))+'M'
 
 MENTION_RE=re.compile(r'(?<![\w@])@([A-Za-z0-9][A-Za-z0-9_-]{1,})')
 def link_substack_mentions(fragment):
@@ -722,10 +731,9 @@ for f in (ROOT/'assets').iterdir():
 shutil.copy2(ROOT/'assets'/'enhancements.css',OUT/f'enhancements-{enhancements_version}.css')
 shutil.copytree(ROOT/'media',OUT/'media')
 profile_directory=[]
-for index,company in enumerate(sorted(companies.values(),key=lambda item:(item.get('directory_rank',999),item['name'])),1):
+for company in companies.values():
  row=latest_valuation(company['slug'])
- funding=company.get('latest_round') or next((fact.get('value','') for fact in company.get('facts',[]) if 'fund' in fact.get('label','').lower()),'Not yet added')
- profile_directory.append({'name':card_text(company['name']),'slug':company['slug'],'rank':int(company.get('directory_rank',index)),'sector':card_text(company.get('sector','Other / Diversified')),'status':company.get('company_status','private'),'parent':card_text(company.get('parent','')),'deal_value':card_text(company.get('deal_value','')),'website':company.get('website',''),'logo':company.get('intelligence',{}).get('logo',''),'summary':card_text(company.get('summary','')),'latest_round':card_text(funding),'bull_case':card_text(company.get('bull_case','Editorial note coming soon.')),'bear_case':card_text(company.get('bear_case','Editorial note coming soon.')),'directory_notes':[card_text(note) for note in company.get('directory_notes',[])[:2] if card_text(note)],'aliases':[card_text(alias) for alias in company.get('aliases',[]) if card_text(alias)],'valuation':row['valuation'] if row else None,'valuation_label':money_b(row['valuation']) if row else 'No disclosed valuation','valuation_date':row['date'] if row else ''})
+ profile_directory.append({'name':company['name'],'slug':company['slug'],'sector':company.get('sector','Other / Diversified'),'status':company.get('company_status','private'),'parent':company.get('parent',''),'deal_value':company.get('deal_value',''),'website':company.get('website',''),'logo':company.get('intelligence',{}).get('logo',''),'valuation':row['valuation'] if row else None,'valuation_label':company_directory_valuation_label(row['valuation']) if row else 'No disclosed valuation','valuation_date':row['date'] if row else ''})
 directory_script=OUT/'companies.js'
 directory_script.write_text(directory_script.read_text().replace('/* PROFILE_DIRECTORY */',json.dumps(profile_directory,separators=(',',':')).replace('</','<\\/')))
 companies_script_version=hashlib.sha256(directory_script.read_bytes()).hexdigest()[:12]
