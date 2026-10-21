@@ -76,6 +76,18 @@ def clean(markup):
    if value and (urlsplit(value).scheme.lower() not in ('','https','http','mailto') or value.startswith('//')):raise ValueError('Unsupported content URL: '+value[:80])
  return s
 
+def card_text(value):
+ """Keep directory-card fields as plain text when editorial data contains Markdown."""
+ text=str(value or '')
+ text=re.sub(r'(?m)^\s*(?:[-+*]|\d+\.)\s+','',text)
+ text=re.sub(r'(?m)^\s*(?:#{1,6}|>)\s*','',text)
+ text=re.sub(r'\[([^\]]+)\]\([^)]*\)',r'\1',text)
+ text=re.sub(r'(?<!\\)(\*\*|__|~~)(.+?)\1',r'\2',text)
+ text=re.sub(r'(?<!\\)(?<!\*)\*([^*\n]+)\*(?!\*)',r'\1',text)
+ text=re.sub(r'(?<!\\)(?<!_)_([^_\n]+)_(?!_)',r'\1',text)
+ text=text.replace('**','').replace('__','').replace('~~','').replace('`','')
+ return re.sub(r'\s+',' ',text).strip()
+
 MENTION_RE=re.compile(r'(?<![\w@])@([A-Za-z0-9][A-Za-z0-9_-]{1,})')
 def link_substack_mentions(fragment):
  for mention in list(fragment.select('.mention-wrap[data-component-name="MentionToDOM"]')):
@@ -456,11 +468,11 @@ def landing_markup():
   return f'''<article class="landing-popular-card"><a href="{E(article_destination(record))}"{article_link_attributes(record)} aria-label="Read {E(title(record))} on Substack">{image(record)}</a><div class="landing-title-row"><h3><a href="{E(article_destination(record))}"{article_link_attributes(record)}>{E(title(record))}</a></h3><div class="landing-labels"><span class="sector-inline">{E(record['sector'])}</span>{article_access_label(record)}</div></div><span class="landing-popular-summary">{E(record['summary'])}</span>{link(record)}</article>'''
  def company_card(company):
   """Use the same company-directory card structure as /companies/."""
-  notes=''.join('<li>'+E(note)+'</li>' for note in company.get('directory_notes',[])[:2])
-  funding=E(company.get('latest_round') or next((fact.get('value','') for fact in company.get('facts',[]) if 'fund' in fact.get('label','').lower()),'Not yet added'))
-  aliases=' '.join(company.get('aliases',[]))
+  notes=''.join('<li>'+E(card_text(note))+'</li>' for note in company.get('directory_notes',[])[:2])
+  funding=E(card_text(company.get('latest_round') or next((fact.get('value','') for fact in company.get('facts',[]) if 'fund' in fact.get('label','').lower()),'Not yet added')))
+  aliases=' '.join(card_text(alias) for alias in company.get('aliases',[]))
   rank=int(company.get('directory_rank',0))
-  return f'''<article class="company-directory-card" data-search="{E(company['name']+' '+aliases+' '+company.get('sector','')+' '+company.get('summary',''))}"><div class="company-card-kicker"><span>#{rank:02d}</span><span>{E(company.get('sector',''))}</span></div><h2><a href="/companies/{E(company['slug'])}/">{E(company['name'])}</a></h2><p class="company-directory-summary">{E(company.get('summary',''))}</p><div class="funding-context"><span>Latest disclosed financing</span><strong>{funding}</strong></div><div class="thesis-columns"><div><span class="thesis-label bull">Bull case</span><p>{E(company.get('bull_case','Editorial note coming soon.'))}</p></div><div><span class="thesis-label bear">Bear case</span><p>{E(company.get('bear_case','Editorial note coming soon.'))}</p></div></div>{'<ul class="company-directory-notes">'+notes+'</ul>' if notes else ''}<a class="company-profile-link" href="/companies/{E(company['slug'])}/">View company profile →</a></article>'''
+  return f'''<article class="company-directory-card" data-search="{E(card_text(company['name'])+' '+aliases+' '+card_text(company.get('sector',''))+' '+card_text(company.get('summary','')))}"><div class="company-card-kicker"><span>#{rank:02d}</span><span>{E(card_text(company.get('sector','')))}</span></div><h2><a href="/companies/{E(company['slug'])}/">{E(card_text(company['name']))}</a></h2><p class="company-directory-summary">{E(card_text(company.get('summary','')))}</p><div class="funding-context"><span>Latest disclosed financing</span><strong>{funding}</strong></div><div class="thesis-columns"><div><span class="thesis-label bull">Bull case</span><p>{E(card_text(company.get('bull_case','Editorial note coming soon.')))}</p></div><div><span class="thesis-label bear">Bear case</span><p>{E(card_text(company.get('bear_case','Editorial note coming soon.')))}</p></div></div>{'<ul class="company-directory-notes">'+notes+'</ul>' if notes else ''}<a class="company-profile-link" href="/companies/{E(company['slug'])}/">View company profile →</a></article>'''
  spacex=article('the-breakdown-spacex')
  databricks=article('the-breakdown-databricks')
  anduril=article('the-breakdown-anduril')
@@ -839,10 +851,10 @@ main=s.select_one('main');main.clear()
 put(main,'<section class="company-directory"><header class="directory-head"><h1>Briefs:</h1></header><section class="directory-tools" aria-label="Search companies"><label class="search"><input id="company-search" type="search" placeholder="Search companies" aria-label="Search companies"></label><span id="company-result-count"></span></section><div class="company-directory-grid" id="company-directory-grid"></div></section>')
 grid=s.select_one('#company-directory-grid')
 for i,c in enumerate(sorted(companies.values(),key=lambda x:(x.get('directory_rank',999),x['name']))):
- notes=''.join('<li>'+E(note)+'</li>' for note in c.get('directory_notes',[])[:2])
- funding=E(c.get('latest_round') or next((f.get('value','') for f in c.get('facts',[]) if 'fund' in f.get('label','').lower()),'Not yet added'))
- aliases=' '.join(c.get('aliases',[]))
- put(grid,f'''<article class="company-directory-card" data-search="{E(c['name']+' '+aliases+' '+c.get('sector','')+' '+c.get('summary',''))}"><div class="company-card-kicker"><span>#{int(c.get('directory_rank',i+1)):02d}</span><span>{E(c.get('sector',''))}</span></div><h2><a href="/companies/{c['slug']}/">{E(c['name'])}</a></h2><p class="company-directory-summary">{E(c.get('summary',''))}</p><div class="funding-context"><span>Latest disclosed financing</span><strong>{funding}</strong></div><div class="thesis-columns"><div><span class="thesis-label bull">Bull case</span><p>{E(c.get('bull_case','Editorial note coming soon.'))}</p></div><div><span class="thesis-label bear">Bear case</span><p>{E(c.get('bear_case','Editorial note coming soon.'))}</p></div></div>{'<ul class="company-directory-notes">'+notes+'</ul>' if notes else ''}<a class="company-profile-link" href="/companies/{c['slug']}/">View company profile →</a></article>''')
+ notes=''.join('<li>'+E(card_text(note))+'</li>' for note in c.get('directory_notes',[])[:2])
+ funding=E(card_text(c.get('latest_round') or next((f.get('value','') for f in c.get('facts',[]) if 'fund' in f.get('label','').lower()),'Not yet added')))
+ aliases=' '.join(card_text(alias) for alias in c.get('aliases',[]))
+ put(grid,f'''<article class="company-directory-card" data-search="{E(card_text(c['name'])+' '+aliases+' '+card_text(c.get('sector',''))+' '+card_text(c.get('summary','')))}"><div class="company-card-kicker"><span>#{int(c.get('directory_rank',i+1)):02d}</span><span>{E(card_text(c.get('sector','')))}</span></div><h2><a href="/companies/{c['slug']}/">{E(card_text(c['name']))}</a></h2><p class="company-directory-summary">{E(card_text(c.get('summary','')))}</p><div class="funding-context"><span>Latest disclosed financing</span><strong>{funding}</strong></div><div class="thesis-columns"><div><span class="thesis-label bull">Bull case</span><p>{E(card_text(c.get('bull_case','Editorial note coming soon.')))}</p></div><div><span class="thesis-label bear">Bear case</span><p>{E(card_text(c.get('bear_case','Editorial note coming soon.')))}</p></div></div>{'<ul class="company-directory-notes">'+notes+'</ul>' if notes else ''}<a class="company-profile-link" href="/companies/{c['slug']}/">View company profile →</a></article>''')
 put(s.head,f'<script defer src="/companies.js?v={companies_script_version}"></script>')
 write(s,'/companies/')
 
