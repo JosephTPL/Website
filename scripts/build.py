@@ -722,9 +722,10 @@ for f in (ROOT/'assets').iterdir():
 shutil.copy2(ROOT/'assets'/'enhancements.css',OUT/f'enhancements-{enhancements_version}.css')
 shutil.copytree(ROOT/'media',OUT/'media')
 profile_directory=[]
-for company in companies.values():
+for index,company in enumerate(sorted(companies.values(),key=lambda item:(item.get('directory_rank',999),item['name'])),1):
  row=latest_valuation(company['slug'])
- profile_directory.append({'name':company['name'],'slug':company['slug'],'sector':company.get('sector','Other / Diversified'),'status':company.get('company_status','private'),'parent':company.get('parent',''),'deal_value':company.get('deal_value',''),'website':company.get('website',''),'logo':company.get('intelligence',{}).get('logo',''),'valuation':row['valuation'] if row else None,'valuation_label':money_b(row['valuation']) if row else 'No disclosed valuation','valuation_date':row['date'] if row else ''})
+ funding=company.get('latest_round') or next((fact.get('value','') for fact in company.get('facts',[]) if 'fund' in fact.get('label','').lower()),'Not yet added')
+ profile_directory.append({'name':card_text(company['name']),'slug':company['slug'],'rank':int(company.get('directory_rank',index)),'sector':card_text(company.get('sector','Other / Diversified')),'status':company.get('company_status','private'),'parent':card_text(company.get('parent','')),'deal_value':card_text(company.get('deal_value','')),'website':company.get('website',''),'logo':company.get('intelligence',{}).get('logo',''),'summary':card_text(company.get('summary','')),'latest_round':card_text(funding),'bull_case':card_text(company.get('bull_case','Editorial note coming soon.')),'bear_case':card_text(company.get('bear_case','Editorial note coming soon.')),'directory_notes':[card_text(note) for note in company.get('directory_notes',[])[:2] if card_text(note)],'aliases':[card_text(alias) for alias in company.get('aliases',[]) if card_text(alias)],'valuation':row['valuation'] if row else None,'valuation_label':money_b(row['valuation']) if row else 'No disclosed valuation','valuation_date':row['date'] if row else ''})
 directory_script=OUT/'companies.js'
 directory_script.write_text(directory_script.read_text().replace('/* PROFILE_DIRECTORY */',json.dumps(profile_directory,separators=(',',':')).replace('</','<\\/')))
 companies_script_version=hashlib.sha256(directory_script.read_bytes()).hexdigest()[:12]
