@@ -304,7 +304,7 @@ def intelligence_profile(c):
  </section>{verified}</section>'''
 
 def shell(kind,title,description,route,image=''):
- s=soup((ROOT/'templates'/f'{kind}.html').read_text());s.title.string='Private Company Research | '+settings['site_name'] if route=='/' else title+' | '+settings['site_name']
+ s=soup((ROOT/'templates'/f'{kind}.html').read_text());s.title.string='PreIPOMedia - The Private Company Research Portal' if route=='/' else title+' | '+settings['site_name']
  google_tag=soup('''<script async src="https://www.googletagmanager.com/gtag/js?id=G-WYQEYTY10E"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-WYQEYTY10E');</script>''')
  for node in reversed(list(google_tag.contents)):s.head.insert(0,node)
  for heading in s.select('.sidebar-note h3'):
