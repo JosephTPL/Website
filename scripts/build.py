@@ -306,6 +306,7 @@ def intelligence_profile(c):
 def shell(kind,title,description,route,image=''):
  s=soup((ROOT/'templates'/f'{kind}.html').read_text());s.title.string='PreIPOMedia - The Private Company Research Portal' if route=='/' else title+' | '+settings['site_name']
  if route=='/':
+  image='/preipomedia-share.png'
   twitter_card=s.select_one('meta[name="twitter:card"]')
   if twitter_card:twitter_card['content']='summary'
  google_tag=soup('''<script async src="https://www.googletagmanager.com/gtag/js?id=G-WYQEYTY10E"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-WYQEYTY10E');</script>''')
