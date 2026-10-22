@@ -288,6 +288,22 @@
       rail.scrollLeft = rail.scrollLeft <= 1 ? rail.scrollLeft + width : rail.scrollLeft - width;
       moving = false;
     });
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    let paused = false, previousTime = 0, frame;
+    const tick = time => {
+      if (!paused && document.visibilityState === 'visible') {
+        if (previousTime) rail.scrollLeft += (time - previousTime) * .024;
+        previousTime = time;
+      } else {
+        previousTime = 0;
+      }
+      frame = requestAnimationFrame(tick);
+    };
+    rail.addEventListener('mouseenter', () => { paused = true; });
+    rail.addEventListener('mouseleave', () => { paused = false; });
+    rail.addEventListener('focusin', () => { paused = true; });
+    rail.addEventListener('focusout', () => { paused = false; });
+    frame = requestAnimationFrame(tick);
   });
   document.querySelectorAll('[data-theme-toggle]').forEach(button => {
     const sync = () => button.setAttribute('aria-label', document.documentElement.getAttribute('data-theme') === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');

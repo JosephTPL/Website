@@ -58,6 +58,7 @@ a.landing-art-piece{overflow:hidden}a.landing-art-piece img{display:block;width:
 .landing-popular-latest{display:grid;align-content:start;gap:15px}.landing-popular-latest>.landing-section-label{margin:0}.landing-popular-latest>div{display:grid;grid-template-columns:1fr;gap:15px}.landing-popular-latest .landing-popular-card{display:grid;grid-template-columns:112px minmax(0,1fr);grid-template-areas:'image meta' 'image title' 'image summary' 'image link';column-gap:15px;align-content:start;padding:0 0 15px;border-bottom:1px solid #dcd6ca}.landing-popular-latest .landing-popular-card:last-child{padding-bottom:0;border-bottom:0}.landing-popular-latest .landing-popular-card>a:first-child{grid-area:image;aspect-ratio:1;align-self:start}.landing-popular-latest .landing-popular-card p{grid-area:meta;margin:1px 0 0;font-size:.56rem}.landing-popular-latest .landing-popular-card h3{grid-area:title;margin:5px 0 0;font-size:1.25rem}.landing-popular-summary{grid-area:summary;display:-webkit-box;overflow:hidden;margin-top:5px;color:#5b6870;font-family:'Newsreader',Georgia,serif;font-size:.84rem;line-height:1.18;-webkit-box-orient:vertical;-webkit-line-clamp:2}.landing-popular-latest .landing-popular-card .landing-read-link{grid-area:link;margin-top:8px;font-size:.7rem}
 .landing-company-row .landing-scroll-rail,.landing-reader-rail{display:flex;gap:0;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x proximity;scrollbar-width:none;-ms-overflow-style:none}.landing-company-row .landing-scroll-rail::-webkit-scrollbar,.landing-reader-rail::-webkit-scrollbar{display:none}.landing-company-row .landing-scroll-rail{border-left:0}.landing-company-row .landing-scroll-rail>a,.landing-reader-rail>div{position:relative;display:grid;flex:0 0 calc(16.666% + 1px);min-width:170px;min-height:128px;padding:19px 13px 16px;border:1px solid #dcd6ca;border-left:0;align-content:center;justify-items:center;scroll-snap-align:start;text-align:center}.landing-company-row .landing-scroll-rail>a:hover{background:#fffefa}.landing-reader-row{padding:28px 0 46px;border-bottom:1px solid #dcd6ca}.landing-reader-row .landing-section-label{margin-bottom:13px}.landing-reader-rail{border-left:0}.landing-reader-rail img{width:72px;height:34px;object-fit:contain}.landing-reader-rail span{margin-top:11px;font-family:'Newsreader',Georgia,serif;font-size:1.08rem;font-weight:600}.landing-reader-rail small{margin-top:3px;color:#7d6950;font-size:.56rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase}.landing-reader-rail b{position:absolute;right:13px;bottom:10px;color:#a3782f;font-weight:500}
 @media(max-width:700px){.landing-home-hero{grid-template-columns:1fr;padding:22px 0 30px}.landing-home-copy{padding:0}.landing-home-copy>p{margin:0;font-size:clamp(1.35rem,6vw,1.65rem);line-height:1.3}.landing-home-art{min-height:290px}.landing-popular-latest .landing-popular-card{grid-template-columns:96px minmax(0,1fr);column-gap:13px}.landing-popular-latest .landing-popular-card h3{font-size:1.12rem}.landing-company-row .landing-scroll-rail>a,.landing-reader-rail>div{flex-basis:46%;min-width:148px}.landing-reader-row{padding:26px 0 34px}}
+.landing-company-row>div.landing-scroll-rail{display:flex;flex-wrap:nowrap;grid-template-columns:none;border-left:0}
 '''
 
 def soup(text):return BeautifulSoup(text,'html.parser')
@@ -475,13 +476,6 @@ def landing_markup():
  def popular(record):
   """The compact homepage research card shown in the original layout."""
   return f'''<article class="landing-popular-card"><a href="{E(article_destination(record))}"{article_link_attributes(record)} aria-label="Read {E(title(record))} on Substack">{image(record)}</a><div class="landing-title-row"><h3><a href="{E(article_destination(record))}"{article_link_attributes(record)}>{E(title(record))}</a></h3><div class="landing-labels"><span class="sector-inline">{E(record['sector'])}</span>{article_access_label(record)}</div></div><span class="landing-popular-summary">{E(record['summary'])}</span>{link(record)}</article>'''
- def company_card(company):
-  """Use the same company-directory card structure as /companies/."""
-  notes=''.join('<li>'+E(card_text(note))+'</li>' for note in company.get('directory_notes',[])[:2])
-  funding=E(card_text(company.get('latest_round') or next((fact.get('value','') for fact in company.get('facts',[]) if 'fund' in fact.get('label','').lower()),'Not yet added')))
-  aliases=' '.join(card_text(alias) for alias in company.get('aliases',[]))
-  rank=int(company.get('directory_rank',0))
-  return f'''<article class="company-directory-card" data-search="{E(card_text(company['name'])+' '+aliases+' '+card_text(company.get('sector',''))+' '+card_text(company.get('summary','')))}"><div class="company-card-kicker"><span>#{rank:02d}</span><span>{E(card_text(company.get('sector','')))}</span></div><h2><a href="/companies/{E(company['slug'])}/">{E(card_text(company['name']))}</a></h2><p class="company-directory-summary">{E(card_text(company.get('summary','')))}</p><div class="funding-context"><span>Latest disclosed financing</span><strong>{funding}</strong></div><div class="thesis-columns"><div><span class="thesis-label bull">Bull case</span><p>{E(card_text(company.get('bull_case','Editorial note coming soon.')))}</p></div><div><span class="thesis-label bear">Bear case</span><p>{E(card_text(company.get('bear_case','Editorial note coming soon.')))}</p></div></div>{'<ul class="company-directory-notes">'+notes+'</ul>' if notes else ''}<a class="company-profile-link" href="/companies/{E(company['slug'])}/">View company profile →</a></article>'''
  spacex=article('the-breakdown-spacex')
  databricks=article('the-breakdown-databricks')
  anduril=article('the-breakdown-anduril')
@@ -499,12 +493,14 @@ def landing_markup():
  if all(record and all(record.get(field) for field in popular_card_fields) and article_destination(record) for record in popular_reads):
   popular_section=f'''<section class="landing-popular-latest" aria-labelledby="landing-popular-title"><h2 class="landing-section-label" id="landing-popular-title">Most Popular Research</h2><div>{''.join(popular(record) for record in popular_reads)}</div></section>'''
 
- company_slugs=['openai','anthropic','anduril','saronic','stripe','spacex']
- company_records=[companies.get(slug) for slug in company_slugs]
- company_card_fields=('slug','name','sector','summary','bull_case','bear_case')
- company_section=''
- if all(company and all(company.get(field) for field in company_card_fields) for company in company_records):
-  company_section=f'''<section class="landing-company-row" aria-labelledby="landing-company-title"><header><h2 class="landing-section-label" id="landing-company-title">Companies Researched</h2></header><div class="company-directory-grid">{''.join(company_card(company) for company in company_records)}</div></section>'''
+ company_slugs=['spacex','openai','anthropic','stripe','anduril','databricks','bytedance','isomorphic-labs','polymarket','saronic','substack']
+ company_cards=[]
+ for slug in company_slugs:
+  company=companies.get(slug)
+  if not company:continue
+  logo=company.get('intelligence',{}).get('logo','')
+  logo_markup=f'<img src="{E(logo)}" alt="{E(company["name"])} logo" loading="lazy">' if logo else ''
+  company_cards.append(f'<a href="/companies/{E(slug)}/">{logo_markup}<span>{E(company["name"])}</span></a>')
  hero_images=''.join(f'<a class="landing-art-piece" href="{E(article_destination(record))}"{article_link_attributes(record)} aria-label="Read {E(title(record))} on Substack">{image(record)}</a>' for record in (spacex,databricks,saronic) if record)
  readers=[
   ('Harvard','harvard.edu'),('Citi','citi.com'),('Databricks','databricks.com'),('Princeton','princeton.edu'),
@@ -518,7 +514,7 @@ def landing_markup():
  <section class="landing-home-hero"><div class="landing-home-copy"><p>Independent research on the world’s most important private companies, before they reach the public markets.</p><div class="landing-home-actions"><a class="landing-home-primary" href="/research/">Explore the research</a><a class="landing-home-secondary" href="{E(settings['subscribe_url'])}" rel="noopener">Subscribe</a></div></div><div class="landing-home-art">{hero_images}</div></section>
  <p class="landing-home-trust">Independent. In-depth. Before the IPO.</p>
  <section class="landing-research-feature"><section class="landing-feature-column" aria-labelledby="landing-feature-title"><h2 class="landing-section-label" id="landing-feature-title">Featured research</h2>{feature(primary)}</section>{popular_section}</section>
- {company_section}
+ <section class="landing-company-row" aria-labelledby="landing-company-title"><header><h2 class="landing-section-label" id="landing-company-title">Companies Researched</h2></header><span class="landing-company-divider" aria-hidden="true"></span><div class="landing-scroll-rail" data-reader-loop data-reader-count="{len(company_cards)}">{''.join(company_cards)}{''.join(company_cards)}</div></section>
  <section class="landing-reader-row" aria-labelledby="landing-reader-title"><h2 class="landing-section-label" id="landing-reader-title">Read by</h2><div class="landing-reader-rail" data-reader-loop data-reader-count="{len(readers)}">{reader_cards}{reader_cards}</div></section>
  <section class="landing-newsletter"><div><p>The Private Ledger newsletter</p><h2>See the next chapter<br>before the market does.</h2><span>New research delivered directly to your inbox.</span></div><a href="{E(settings['subscribe_url'])}" rel="noopener">Subscribe</a></section>
  </section>'''
