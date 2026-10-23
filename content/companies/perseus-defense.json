@@ -1,0 +1,151 @@
+{
+  "slug": "perseus-defense",
+  "name": "Perseus Defense",
+  "status": "Published",
+  "sector": "Defense, Aerospace & Space",
+  "summary": "A counter-drone startup developing portable, low-cost kinetic interceptors—and now facing the harder task of proving they can be manufactured and adopted at scale.",
+  "overview": "<p>Perseus Defense is developing portable counter-UAS systems built around its Harpe micro-missile interceptor and modular launcher. The company’s thesis is that the cost of defeating small drones must come down sharply, while systems also become easier to deploy across vehicles and field positions.</p>",
+  "as_of": "2026-10-23",
+  "human_verified_at": "2026-10-23",
+  "report": "",
+  "facts": [
+    {
+      "label": "Latest disclosed financing",
+      "value": "Reported $6M seed",
+      "note": "September 2025; no valuation was disclosed in the reporting reviewed.",
+      "source": "https://www.tectonicdefense.com/exclusive-yc-backed-perseus-defense-closes-6m-seed-round/"
+    },
+    {
+      "label": "Product claim",
+      "value": "Harpe interceptor",
+      "note": "The company states a 2 km range, 24-inch length and a cost below $10,000 per shot.",
+      "source": "https://www.perseusdefense.com/"
+    },
+    {
+      "label": "Headquarters plan",
+      "value": "Buda, Texas",
+      "note": "Buda EDC announced the headquarters and manufacturing project in December 2025.",
+      "source": "https://www.budaedc.com/news/perseus-defense-emerges-from-y-combinator-establishes-buda-as-headquarters-to-launch-aerospace-defense-startup/"
+    }
+  ],
+  "directory_rank": 227,
+  "bull_case": "A genuinely low-cost interceptor could address the widening cost mismatch between inexpensive drones and conventional air-defense munitions.",
+  "bear_case": "Live-fire demonstrations are not program-of-record contracts; guidance reliability, production yield and procurement remain unproven at scale.",
+  "latest_round": "September 2025: reported $6M seed; valuation undisclosed",
+  "directory_notes": [
+    "Harpe interceptor test results and production readiness.",
+    "Army and homeland-security procurement conversion."
+  ],
+  "intelligence": {
+    "kicker": "COMPANY INTELLIGENCE",
+    "location": "Buda, Texas",
+    "status": "Private",
+    "logo": "https://www.google.com/s2/favicons?domain=perseusdefense.com&sz=128",
+    "description": "Perseus Defense develops portable kinetic counter-drone systems built around the Harpe micro-missile interceptor.",
+    "metrics": [
+      {
+        "value": "$6M",
+        "label": "Reported seed funding",
+        "note": "September 2025; valuation undisclosed"
+      },
+      {
+        "value": "< $10K",
+        "label": "Stated cost per shot",
+        "note": "Company claim"
+      },
+      {
+        "value": "2 km",
+        "label": "Stated range",
+        "note": "Harpe interceptor"
+      },
+      {
+        "value": "Private",
+        "label": "Public status",
+        "note": "No IPO announced"
+      }
+    ],
+    "company": [
+      "Perseus Defense is a counter-UAS company developing the Harpe interceptor and a portable launcher system for Group 1 and Group 2 drone threats. It argues that portable kinetic systems must be inexpensive enough to counter drones without creating a severe cost imbalance for the defender.",
+      "Founded in 2025 by Jason Cornelius and Steve Messinger, the company joined Y Combinator’s Summer 2025 batch. Reporting in September 2025 described a $6 million seed round, while the company’s later Buda headquarters project signaled an ambition to combine development work with manufacturing capacity."
+    ],
+    "why_it_matters": "The investment case rests on whether Harpe can move from promising field tests to reliable, repeatable production and a funded customer program—without losing its cost advantage.",
+    "changed": [
+      {
+        "date": "2025",
+        "text": "Jason Cornelius and Steve Messinger found Perseus Defense and join Y Combinator’s Summer 2025 batch."
+      },
+      {
+        "date": "Sep 2025",
+        "text": "A reported $6 million seed round funds early product development; no valuation is disclosed in the reporting reviewed."
+      },
+      {
+        "date": "Dec 2025",
+        "text": "Buda EDC announces a headquarters and manufacturing project in Buda, Texas."
+      },
+      {
+        "date": "Apr 2026",
+        "text": "The Harpe system is test-fired during the 1st Cavalry Division’s Golden Shield counter-drone exercise at Fort Hood."
+      }
+    ],
+    "takeaways": [
+      "The company is focused on kinetic counter-drone interception, not electronic jamming.",
+      "A lower cost per engagement is central to the product thesis, but remains a company claim until independently validated at scale.",
+      "Army testing is an early validation step, not a disclosed production contract.",
+      "The Buda site is strategically important because the business must pair guidance technology with manufacturing execution."
+    ],
+    "quick_facts": [
+      [
+        "Founded",
+        "2025"
+      ],
+      [
+        "Headquarters",
+        "Buda, TX"
+      ],
+      [
+        "Co-founder and CEO",
+        "Dr. Jason Cornelius"
+      ],
+      [
+        "Co-founder and CTO",
+        "Steve Messinger"
+      ],
+      [
+        "Focus",
+        "Counter-UAS kinetic interceptors"
+      ],
+      [
+        "YC batch",
+        "Summer 2025"
+      ],
+      [
+        "Website",
+        "perseusdefense.com"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Perseus Defense: product and team",
+        "url": "https://www.perseusdefense.com/"
+      },
+      {
+        "label": "Y Combinator company profile",
+        "url": "https://www.ycombinator.com/companies/perseus-defense"
+      },
+      {
+        "label": "Tectonic Defense: reported $6M seed",
+        "url": "https://www.tectonicdefense.com/exclusive-yc-backed-perseus-defense-closes-6m-seed-round/"
+      },
+      {
+        "label": "Buda EDC: headquarters and manufacturing project",
+        "url": "https://www.budaedc.com/news/perseus-defense-emerges-from-y-combinator-establishes-buda-as-headquarters-to-launch-aerospace-defense-startup/"
+      },
+      {
+        "label": "U.S. Army: Golden Shield testing",
+        "url": "https://www.dvidshub.net/news/562475/1st-cavalry-division-tests-golden-shield-layered-defense-system-incorporating-effectors-first-time"
+      }
+    ]
+  },
+  "company_status": "private",
+  "website": "https://www.perseusdefense.com/"
+}
