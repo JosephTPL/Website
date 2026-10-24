@@ -390,8 +390,6 @@ def configure_nav(s,active):
  (companies_link or research).insert_after(ipo)
  dashboard=soup('<a data-view="ipo-dashboard" href="/ipo-dashboard/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><path d="M4 19V5m0 14h16M8 15l4-4 3 2 5-6"></path></svg>IPO Dashboard</a>').a
  ipo.insert_after(dashboard)
- about=soup('<a data-view="about" href="/about/"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v6m0-10h.01"></path></svg>About The Ledger</a>').a
- dashboard.insert_after(about)
  home.decompose()
  for link in nav.select('a'):
   link.attrs.pop('aria-current',None)
@@ -926,17 +924,7 @@ main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=m
 put(s.head,f'<script defer src="/spvs.js?v={spvs_script_version}"></script>')
 write(s,'/spv-tracker/')
 
-def reader_rail_markup():
- readers=[
-  ('Harvard','harvard.edu'),('Citi','citi.com'),('Databricks','databricks.com'),('Princeton','princeton.edu'),
-  ('Intel','intel.com'),('Stanford','stanford.edu'),('Crusoe','crusoe.ai'),('UofT','utoronto.ca'),
-  ('HSBC','hsbc.com'),('Cornell','cornell.edu'),('Schonfeld','schonfeld.com'),('Freddie Mac','freddiemac.com'),
-  ('Penn','upenn.edu'),('NYU Stern','stern.nyu.edu'),('Sacra','sacra.com')
- ]
- cards=''.join(f'<div><img src="https://www.google.com/s2/favicons?domain={E(domain)}&amp;sz=128" alt="{E(name)} logo" loading="lazy"><span>{E(name)}</span></div>' for name,domain in readers)
- return f'<section class="landing-reader-row ledger-read-by" aria-labelledby="ledger-read-by-title"><h2 class="landing-section-label" id="ledger-read-by-title">Read by</h2><div class="landing-reader-rail" data-reader-loop data-reader-count="{len(readers)}">{cards}{cards}</div></section>'
-
-about=read('content/settings/about.json');s=shell('about',about['title'],about['description'],'/about/');configure_nav(s,'about');main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();about_body=clean(about['body']);intro=about_body.select_one('.ledger-intro');intro.insert_after(clean(reader_rail_markup())) if intro else None;main.clear();main.append(about_body);main.append(subscribe);main.append(footer);write(s,'/about/')
+about=read('content/settings/about.json');s=shell('about',about['title'],about['description'],'/about/');configure_nav(s,'about');main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();about_body=clean(about['body']);hero=about_body.select_one('.about-hero');hero.decompose() if hero else None;main.clear();main.append(about_body);main.append(subscribe);main.append(footer);write(s,'/about/')
 
 def information_page(title,description,route,eyebrow,body):
  s=shell('about',title,description,route);configure_nav(s,'');s.body['data-page-view']='information';main=s.select_one('main');footer=main.select_one('footer').extract();main.clear();put(main,f'<article class="information-page"><header><p class="overline">{E(eyebrow)}</p><h1>{E(title)}</h1><p>{E(description)}</p></header>{body}</article>');main.append(footer);write(s,route)
