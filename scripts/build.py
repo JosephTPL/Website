@@ -510,7 +510,7 @@ def landing_markup():
  readers=[
   ('Harvard','harvard.edu'),('Citi','citi.com'),('Databricks','databricks.com'),('Princeton','princeton.edu'),
   ('Intel','intel.com'),('Stanford','stanford.edu'),('Crusoe','crusoe.ai'),('UofT','utoronto.ca'),
-  ('HSBC','hsbc.com'),('Cornell','cornell.edu'),('Schonfeld','schonfeld.com'),('Freddie Mac','freddiemac.com'),
+  ('HSBC','hsbc.com'),('Raymond James','raymondjames.com'),('Schonfeld','schonfeld.com'),('Freddie Mac','freddiemac.com'),
   ('Penn','upenn.edu'),('NYU Stern','stern.nyu.edu'),('Sacra','sacra.com')
  ]
  reader_cards=''.join(f'<div><img src="https://www.google.com/s2/favicons?domain={E(domain)}&amp;sz=128" alt="{E(name)} logo" loading="lazy"><span>{E(name)}</span></div>' for name,domain in readers)
