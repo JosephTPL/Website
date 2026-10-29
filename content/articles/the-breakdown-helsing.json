@@ -1,0 +1,22 @@
+{
+  "slug": "the-breakdown-helsing",
+  "title": "The Breakdown: Helsing",
+  "card_title": "Helsing",
+  "status": "Published",
+  "date": "2026-10-29",
+  "sector": "Defense",
+  "company": "helsing",
+  "access": "Paid",
+  "summary": "Blood, sweat and tears in the age of autonomous warfare.",
+  "cover_image": "https://substack-post-media.s3.amazonaws.com/public/images/74c04969-e030-466e-b718-da03eac64182_1734x907.png",
+  "cover_alt": "Helsing — The Private Ledger",
+  "body": "<p>Read the full Helsing breakdown on Substack.</p>",
+  "minutes": 20,
+  "original_url": "https://preipomedia.substack.com/p/the-breakdown-helsing",
+  "excerpt": false,
+  "related": [
+    "the-breakdown-anduril",
+    "the-breakdown-saronic",
+    "the-breakdown-spacex"
+  ]
+}
