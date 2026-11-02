@@ -1,11 +1,11 @@
 {
     "title": "IPO Calender",
     "intro": "The major private companies closest to a public-market decision, separated by what is filed, reported, and still unconfirmed.",
-    "as_of": "October 6, 2026",
+    "as_of": "November 2, 2026",
     "calendar": {
-        "month": "October 2026",
+        "month": "November 2026",
         "year": 2026,
-        "month_number": 10
+        "month_number": 11
     },
     "historical_months": [
         {
@@ -199,9 +199,8 @@
                     "company": "Jio Platforms",
                     "company_slug": "reliance-jio",
                     "sector": "Telecom & digital infrastructure",
-                    "status": "Reported dates",
-                    "date": 21,
-                    "note": "Reuters reported that Jio Platforms is targeting an October 21 IPO launch to raise about $3.8B, with a tentative October 28 listing. The company has not confirmed the schedule.",
+                    "status": "Reported October window",
+                    "note": "Reuters reported an October 21 IPO launch target and tentative October 28 listing for Jio Platforms. That reported window has passed without a company-confirmed listing date.",
                     "source": "https://in.marketscreener.com/news/ambani-s-jio-platforms-plans-to-launch-ipo-on-october-21-sources-say-ce785ddbde80f627"
                 },
                 {
