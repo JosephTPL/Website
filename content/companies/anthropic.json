@@ -7,15 +7,15 @@
   "overview": "<p>Anthropic's business case rests on valuable professional use, especially coding and enterprise work. Claude's growth and major technology partnerships support that case, while the company must keep investing heavily in compute and research as competition intensifies.</p>",
   "image": "https://substackcdn.com/image/fetch/$s_!_lS3!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb33ff6ae-8a4c-4075-a1f5-edc16bdcd29e_1600x840.jpeg",
   "image_alt": "Anthropic - The Private Ledger",
-  "as_of": "2026-10-03",
-  "human_verified_at": "2026-10-05",
+  "as_of": "2026-11-02",
+  "human_verified_at": "2026-11-09",
   "report": "the-breakdown-anthropic",
   "facts": [
     {
-      "label": "Reported IPO target",
-      "value": ">$2 trillion",
-      "note": "Reuters reported the target from Anthropic's September 28, 2026 prospectus; it is not a confirmed valuation.",
-      "source": "https://www.cnbc.com/2026/09/28/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-reuters.html"
+      "label": "IPO status",
+      "value": "S-1/A filed",
+      "note": "Anthropic filed an amended registration statement on November 2, 2026. The offering price, share count, and listing date remain undisclosed.",
+      "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
     },
     {
       "label": "Latest valuation",
@@ -30,21 +30,63 @@
       "source": "https://www.anthropic.com/news/series-h"
     },
     {
-      "label": "Reported revenue pace",
-      "value": "Over $100 billion",
-      "note": "September 2026 media report; not audited financial statements",
-      "source": "https://www.axios.com/2026/09/18/anthropic-100-billion-revenue"
+      "label": "Revenue",
+      "value": "$33.2 billion",
+      "note": "Nine months ended September 30, 2026, up 1,206% year over year.",
+      "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
     },
     {
-      "label": "IPO status",
-      "value": "Private",
-      "note": "No public offering has been confirmed by the company",
-      "source": "https://www.anthropic.com/news/series-h"
+      "label": "Operating loss",
+      "value": "$1.26 billion",
+      "note": "Nine months ended September 30, 2026, compared with a $5.22 billion operating loss in the prior-year period.",
+      "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
+    },
+    {
+      "label": "Adjusted operating income",
+      "value": "$4.08 billion",
+      "note": "12% adjusted operating margin for the nine months ended September 30, 2026. This is a company-defined non-GAAP measure.",
+      "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
+    },
+    {
+      "label": "Cash and short-term investments",
+      "value": "$131.9 billion",
+      "note": "$95.6 billion of cash and cash equivalents plus $36.3 billion of short-term investments as of September 30, 2026.",
+      "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
+    },
+    {
+      "label": "Operating cash flow",
+      "value": "$6.57 billion",
+      "note": "Cash provided by operating activities for the nine months ended September 30, 2026.",
+      "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
+    },
+    {
+      "label": "Compute commitments",
+      "value": "$895.4 billion",
+      "note": "Aggregate committed spend for purchase commitments and leases, substantially all related to compute and infrastructure. $447.5 billion is expected before 2030 and $69.8 billion is due within 12 months.",
+      "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
+    },
+    {
+      "label": "Enterprise customers",
+      "value": "11,900+",
+      "note": "Customers with at least $100,000 of trailing-12-month revenue as of September 30, 2026. The filing also reports 1,900+ customers above $1 million and about 250 above $10 million.",
+      "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
+    },
+    {
+      "label": "Net revenue retention",
+      "value": "~900%",
+      "note": "Company-defined metric as of September 30, 2026, excluding fixed-price Claude subscriptions.",
+      "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
+    },
+    {
+      "label": "Top-five customer share",
+      "value": "~25%",
+      "note": "Share of revenue from the top five customers for the nine months ended September 30, 2026; no single customer exceeded 10%.",
+      "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
     }
   ],
   "directory_rank": 1,
-  "bull_case": "Enterprise adoption of Claude can create a durable software and services business.",
-  "bear_case": "Compute costs, intense competition, and safety constraints may keep margins and differentiation under pressure.",
+  "bull_case": "The S-1/A shows rapidly expanding enterprise adoption, revenue, and operating cash generation, which could support a durable software and services business.",
+  "bear_case": "Nearly $895 billion of compute and infrastructure commitments, intense competition, and safety constraints may keep margins and differentiation under pressure.",
   "latest_round": "May 2026: $65B Series H at $965B valuation",
   "directory_notes": [
     "Enterprise AI demand",
@@ -53,36 +95,36 @@
   "intelligence": {
     "kicker": "COMPANY INTELLIGENCE",
     "location": "San Francisco",
-    "status": "Private",
+    "status": "S-1/A filed",
     "logo": "/logos/anthropic.svg",
     "description": "Anthropic develops Claude, an AI assistant and model platform used across consumer, developer, and enterprise workflows.",
     "metrics": [
       {
-        "value": "$965B",
-        "label": "Latest valuation",
-        "note": "May 2026 post-money"
+        "value": "$33.2B",
+        "label": "9M revenue",
+        "note": "Ended Sep. 2026"
       },
       {
-        "value": "$65B",
-        "label": "Latest funding",
-        "note": "Series H"
+        "value": "$131.9B",
+        "label": "Liquidity",
+        "note": "Cash and short-term investments"
       },
       {
-        "value": ">$100B",
-        "label": "Reported revenue pace",
-        "note": "September 2026 media report"
+        "value": "$895.4B",
+        "label": "Compute commitments",
+        "note": "Aggregate disclosed spend"
       },
       {
-        "value": "Private",
-        "label": "Public status",
-        "note": "No confirmed IPO"
+        "value": "S-1/A filed",
+        "label": "IPO status",
+        "note": "Pricing and date not disclosed"
       }
     ],
     "company": [
       "Anthropic is a public benefit corporation founded in 2021 by former OpenAI leaders. It develops Claude, a family of foundation models and products positioned around reliable, steerable AI for professional and enterprise use.",
-      "The commercial story is increasingly tied to coding, knowledge work, and API adoption. Its latest disclosed financing is intended to expand compute, safety and interpretability research, and the products and partnerships built around Claude."
+      "The commercial story is increasingly tied to coding, knowledge work, and API adoption. Its S-1/A reported $33.2 billion of revenue in the first nine months of 2026, alongside substantial investment and long-dated commitments for compute and infrastructure."
     ],
-    "why_it_matters": "Anthropic is one of the clearest examples of a private company already shaping public-market infrastructure. Its demand for cloud capacity, chips, and enterprise software distribution affects Amazon, Google, Microsoft, Nvidia, and the broader AI supply chain. The eventual transition from private funding to public markets will be a major test of AI revenue durability, capital intensity, and valuation discipline.",
+    "why_it_matters": "Anthropic's S-1/A makes the trade-off behind frontier AI unusually visible: rapid revenue and enterprise adoption against extraordinary compute obligations. Its demand for cloud capacity, chips, and enterprise software distribution affects Amazon, Google, Microsoft, Nvidia, and the broader AI supply chain, while the eventual IPO will test whether public investors support that capital intensity.",
     "changed": [
       {
         "date": "2021",
@@ -97,15 +139,16 @@
         "text": "Enterprise adoption accelerates, pushing the company into the top tier of private AI companies by valuation."
       },
       {
-        "date": "2026",
-        "text": "Series G and Series H financing fund a rapid expansion of compute capacity, enterprise products, and research."
+        "date": "Nov 2026",
+        "text": "Anthropic files an S-1/A for a proposed Nasdaq listing under ANT, disclosing financial results, enterprise adoption, and large compute commitments."
       }
     ],
     "takeaways": [
       "Claude's strength in professional and coding workflows gives Anthropic a commercially valuable enterprise position.",
       "The company is scaling with unusually deep dependencies on cloud, chips, and hyperscale infrastructure partners.",
-      "Company-reported revenue has grown quickly, but capital intensity and inference economics remain central to the long-term case.",
-      "A potential IPO would be a landmark test of whether public investors will support private-market AI valuations at scale."
+      "The S-1/A reports $33.2 billion of nine-month revenue and 11,900+ customers with at least $100,000 of trailing-12-month revenue.",
+      "The $895.4 billion disclosed compute and infrastructure commitment makes capital intensity central to the long-term case.",
+      "The IPO registration is public, but a price, share count, valuation, and listing date are still not disclosed."
     ],
     "quick_facts": [
       [
@@ -139,8 +182,8 @@
         "url": "https://www.anthropic.com/news/series-h"
       },
       {
-        "label": "Latest reported revenue pace",
-        "url": "https://www.axios.com/2026/09/18/anthropic-100-billion-revenue"
+        "label": "Anthropic S-1/A",
+        "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
       },
       {
         "label": "Anthropic leadership",
