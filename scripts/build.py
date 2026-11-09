@@ -303,7 +303,23 @@ def intelligence_profile(c):
  <div class="intelligence-content"><div class="intelligence-main"><section><h2>The Company</h2>{''.join('<p>'+E(p)+'</p>' for p in d['company'])}</section><section><h2>Why It Matters</h2><p>{E(d["why_it_matters"])}</p></section><section><h2>Valuation History</h2><ol class="valuation-history">{history}</ol>{spv_link}</section><section><h2>What Changed</h2><ol class="change-log">{changed}</ol></section></div><aside class="intelligence-aside"><section><h2>Key Takeaways</h2><ol class="takeaways">{takeaways}</ol></section><section><h2>Quick Facts</h2><dl class="quick-facts">{quick}</dl></section><section><h2>Sources</h2><ul class="intelligence-sources">{sources}</ul></section></aside></div>
  </section>{verified}</section>'''
 
+def seo_text(text,limit=158):
+ # Search results truncate meta descriptions around 160 characters; cut at a sentence or word boundary instead.
+ text=' '.join(str(text or '').split())
+ if len(text)<=limit:return text
+ cut=text[:limit+1]
+ for mark in ('. ','; ',': '):
+  i=cut.rfind(mark)
+  if i>=100:return cut[:i+1]
+ return cut[:cut.rfind(' ')].rstrip(' ,;:')+'…'
+def jsonld(s,data):put(s.head,'<script type="application/ld+json">'+json.dumps(data,ensure_ascii=False).replace('<','\\u003c')+'</script>')
+def breadcrumbs(s,trail):jsonld(s,{'@context':'https://schema.org','@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':i+1,'name':name,'item':base+url} for i,(name,url) in enumerate(trail)]})
+def lastmod(value):
+ try:return datetime.strptime(str(value or '')[:10],'%Y-%m-%d').strftime('%Y-%m-%d')
+ except ValueError:return ''
+DEFAULT_SHARE_IMAGE='/preipomedia-share.png'
 def shell(kind,title,description,route,image=''):
+ description=seo_text(description)
  s=soup((ROOT/'templates'/f'{kind}.html').read_text());s.title.string='PreIPOMedia - The Private Company Research Portal' if route=='/' else title+' | '+settings['site_name']
  if route=='/':
   image='/preipomedia-share.png'
@@ -331,16 +347,17 @@ def shell(kind,title,description,route,image=''):
   font_link['href']='https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap'
  s.select_one('meta[name="description"]')['content']=description
  for name,value in [('og:title',s.title.string),('og:description',description),('og:url',base+route),('og:site_name',settings['site_name'])]:s.select_one(f'meta[property="{name}"]')['content']=value
- if route=='/':s.select_one('meta[property="og:description"]')['content']='\u200b'
  s.select_one('link[rel="canonical"]')['href']=base+route
  if route=='/research/':
   s.title.string='Research | '+settings['site_name']
-  description='Company deep dives and general articles on private markets.'
+  description='Independent research on private companies: business models, valuations, financials and paths to IPO, plus general articles on private markets.'
   s.select_one('meta[name="description"]')['content']=description
   s.select_one('meta[property="og:title"]')['content']=s.title.string
   s.select_one('meta[property="og:description"]')['content']=description
  for x in s.select('script[type="application/ld+json"],meta[property="og:image"],meta[property="og:image:alt"]'):x.decompose()
- if image:put(s.head,f'<meta property="og:image" content="{E(base+image if image.startswith("/") else image)}">')
+ image=image or DEFAULT_SHARE_IMAGE
+ image_url=E(base+image if image.startswith("/") else image)
+ put(s.head,f'<meta property="og:image" content="{image_url}"><meta name="twitter:image" content="{image_url}">')
  for a in s.select('a[href^="https://preipomedia.substack.com/subscribe"]'):a['href']=settings['subscribe_url']
  if settings.get('discord_url'):
   top_subscribe=s.select_one('.top-subscribe')
@@ -748,6 +765,8 @@ for selector in ['.landing-hero','.page-heading','.start-here','.continue-readin
   container=el.find_parent('section') if selector in ('#research-grid','.empty') else el
   if container:container.decompose()
 main=s.select_one('main');main.insert(0,soup(landing_markup()))
+publication={'@type':'Organization','@id':base+'/#organization','name':settings['site_name'],'url':base+'/','logo':{'@type':'ImageObject','url':base+'/compass-logo.png'},'sameAs':[settings['subscribe_url'].rsplit('/subscribe',1)[0]]}
+jsonld(s,{'@context':'https://schema.org','@graph':[{'@type':'WebSite','@id':base+'/#website','url':base+'/','name':settings['site_name'],'description':seo_text(settings['about_text']),'publisher':{'@id':base+'/#organization'}},publication]})
 write(s,'/')
 for archive_slug,archive in weekly_archives:
  s=shell('home',archive['title'],archive['intro'],f'/weekly/{archive_slug}/')
@@ -829,12 +848,14 @@ for a in ordered:
  if not picks:picks=[other for other in ordered if other['slug']!=a['slug'] and other['sector']==a['sector']][:3]
  for other in picks:put(related,f'<a class="related-card" href="{E(article_destination(other))}"{article_link_attributes(other)}><span>{E(other["sector"])}</span><h3>{E(other.get("card_title") or other["title"])}</h3><p>{E(other["summary"])}</p></a>')
  if not picks:s.select_one('.related')['hidden']=''
- schema={'@context':'https://schema.org','@type':'Article','headline':a['title'],'description':a['summary'],'datePublished':a['date'],'mainEntityOfPage':base+a['url'],'author':{'@type':'Organization','name':settings['site_name']}}
- put(s.head,'<script type="application/ld+json">'+json.dumps(schema).replace('<','\\u003c')+'</script>');write(s,a['url'])
+ schema={'@context':'https://schema.org','@type':'Article','headline':a['title'],'description':seo_text(a['summary']),'datePublished':a['date'],'dateModified':a['date'],'mainEntityOfPage':base+a['url'],'author':{'@type':'Organization','name':settings['site_name']},'publisher':{'@type':'Organization','name':settings['site_name'],'logo':{'@type':'ImageObject','url':base+'/compass-logo.png'}},'image':[base+a['cover_image']] if str(a.get('cover_image','')).startswith('/') else [a['cover_image']] if a.get('cover_image') else [base+DEFAULT_SHARE_IMAGE]}
+ jsonld(s,schema);breadcrumbs(s,[('Home','/'),('Research','/research/'),(a['title'],a['url'])]);write(s,a['url'])
 
 for company in companies.values():
  route='/companies/'+company['slug']+'/'
  s=shell('about',company['name'],company['summary'],route,company.get('image',''));
+ jsonld(s,{'@context':'https://schema.org','@type':'ProfilePage','name':company['name']+' | '+settings['site_name'],'description':seo_text(company['summary']),'url':base+route,'mainEntity':{'@type':'Organization','name':company['name'],'description':seo_text(company['summary']),**({'url':company['website']} if str(company.get('website','')).startswith('http') else {})}})
+ breadcrumbs(s,[('Home','/'),('Companies','/companies/'),(company['name'],route)])
  configure_nav(s,'companies')
  main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();main.clear()
  if company.get('intelligence'):
@@ -912,7 +933,7 @@ main=s.select_one('main');footer=main.select_one('footer').extract();main.clear(
 write(s,'/ipo-dashboard/')
 
 # The chart is intentionally limited to profiles with multiple dated valuation events.
-s=shell('home','Private valuation history','Reported private-company valuation histories at confirmed events.','/valuations/')
+s=shell('home','Private valuation history','Reported private-company valuation histories, tracked at each confirmed event with sources noted.','/valuations/')
 s.body['data-page-view']='valuations';configure_nav(s,'valuations')
 main=s.select_one('main');footer=main.select_one('footer').extract();subscribe=main.select_one('.subscribe-panel').extract();main.clear();put(main,valuation_chart_markup());main.append(subscribe);main.append(footer)
 put(s.head,'<script defer src="/valuations.js"></script>')
@@ -936,7 +957,10 @@ information_page('Terms of Use','The terms that apply when you use The Private L
 information_page('Contact The Private Ledger','Corrections, source notes, editorial feedback, and business enquiries.','/contact/','CONTACT',f'''<section class="information-contact"><h2>Get in touch</h2><p>For corrections, source material, editorial feedback, partnership enquiries, or general questions, email us directly.</p><a class="information-email" href="mailto:preipomedia@gmail.com">preipomedia@gmail.com</a><p class="information-note">Please do not send confidential information or investment instructions by email. The Private Ledger does not provide personalised investment advice.</p></section>''')
 # The editor is a separate authenticated service, not a public editing API.
 s=shell('about','Edit website','Open the secure content editor.','/admin/');configure_nav(s,'');s.select_one('main').clear();put(s.select_one('main'),'<section class="about-hero"><h1>Edit your publication.</h1><p>Sign in with your GitHub account to edit articles, company profiles, images, and homepage text.</p><a class="primary-button" href="https://app.pagescms.org">Open Pages CMS ↗</a></section>');put(s.head,'<meta name="robots" content="noindex">');write(s,'/admin/')
-routes=['/','/research/','/insights/','/companies/','/ipo-calendar/','/ipo-dashboard/','/explainers/','/valuations/','/spv-tracker/','/about/','/privacy/','/terms/','/contact/']+['/explainers/'+item['slug']+'/' for item in explainers['terms']]+[a['url'] for a in ordered]+['/companies/'+c['slug']+'/' for c in companies.values()]
-(OUT/'sitemap.xml').write_text('<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+E(base+r)+'</loc></url>' for r in routes)+'</urlset>')
+# /insights/ is a legacy meta-refresh to /research/?type=articles, so it stays out of the sitemap.
+routes=['/','/research/','/companies/','/ipo-calendar/','/ipo-dashboard/','/explainers/','/valuations/','/spv-tracker/','/about/','/privacy/','/terms/','/contact/']+['/weekly/'+slug+'/' for slug,_ in weekly_archives]+['/explainers/'+item['slug']+'/' for item in explainers['terms']]+[a['url'] for a in ordered]+['/companies/'+c['slug']+'/' for c in companies.values()]
+dates={a['url']:lastmod(a['date']) for a in ordered}
+dates.update({'/companies/'+c['slug']+'/':lastmod(c.get('as_of')) for c in companies.values()})
+(OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+E(base+r)+'</loc>'+(f'<lastmod>{dates[r]}</lastmod>' if dates.get(r) else '')+'</url>' for r in routes)+'</urlset>')
 (OUT/'robots.txt').write_text('User-agent: *\nAllow: /\nDisallow: /admin/\nSitemap: '+base+'/sitemap.xml\n')
 print(f'Built {len(articles)} published articles, {len(companies)} company profiles, and editable site pages.')
