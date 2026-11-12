@@ -215,9 +215,11 @@
                     "company": "Anthropic",
                     "company_slug": "anthropic",
                     "sector": "Frontier AI",
-                    "status": "Filed",
-                    "note": "Anthropic announced a confidential U.S. IPO filing in June. The filing starts the process, but it does not establish a pricing date.",
-                    "source": "https://www.axios.com/2026/06/01/anthropic-ipo-openai"
+                    "status": "Reported date",
+                    "date": 19,
+                    "note": "Anthropic is reportedly expected to begin trading on Nasdaq on November 19. The company has not confirmed a first-trading date.",
+                    "source": "https://finance.yahoo.com/technology/ai/article/anthropic-ipo-what-we-know-143321078.html",
+                    "link": "https://preipomedia.substack.com/p/i-read-anthropics-entire-340-page"
                 }
             ]
         },

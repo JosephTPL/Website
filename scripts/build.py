@@ -563,7 +563,7 @@ def ipo_markup():
    raise ValueError(f'IPO calendar entry {item["company"]} has valuation_override without valuation_override_note.')
   item['display_valuation']=str(override).strip() if override else profile_valuation(company)
  def event_markup(item):
-  href='/companies/'+item['company_slug']+'/' if item.get('company_slug') else item['source']
+  href=item.get('link') or ('/companies/'+item['company_slug']+'/' if item.get('company_slug') else item['source'])
   return f'<a class="ipo-event" href="{E(href)}" target="_blank" rel="noopener"><strong>{E(item["company"])}</strong><span>{E(item["status"])}</span></a>'
  def historical_event_markup(item):
   status=str(item.get('status','Completed'))
@@ -599,7 +599,7 @@ def ipo_markup():
  following_month_number=1 if next_month_number==12 else next_month_number+1
  following_year=next_year+1 if next_month_number==12 else next_year
  following_month=f'{calendar.month_name[following_month_number]} {following_year}'
- tbd=''.join(f'''<a class="ipo-tbd" href="/companies/{E(item['company_slug'])}/" target="_blank" rel="noopener" aria-label="Open {E(item['company'])} company profile"><div><span class="ipo-status {E(item['status'].lower().replace(' ','-'))}">{E(item['status'])}</span><span class="ipo-valuation">{E(item['display_valuation'])}</span></div><h2>{E(item['company'])}</h2><p>{E(item['note'])}</p><span class="ipo-tbd-open">Open company profile →</span></a>''' for item in items)
+ tbd=''.join(f'''<a class="ipo-tbd" href="{E(item.get('link') or '/companies/'+item['company_slug']+'/')}" target="_blank" rel="noopener" aria-label="{'Read '+E(item['company'])+' research' if item.get('link') else 'Open '+E(item['company'])+' company profile'}"><div><span class="ipo-status {E(item['status'].lower().replace(' ','-'))}">{E(item['status'])}</span><span class="ipo-valuation">{E(item['display_valuation'])}</span></div><h2>{E(item['company'])}</h2><p>{E(item['note'])}</p><span class="ipo-tbd-open">{'Read research →' if item.get('link') else 'Open company profile →'}</span></a>''' for item in items)
  earnings_list=''
  def month_id(label):return 'ipo-month-'+label.lower().replace(' ','-')
  def month_section(record,current=False,future=False):
